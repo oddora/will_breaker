@@ -307,7 +307,7 @@ will_breaker/
 ---
 
 ## Next Session
-**Session 010** (pending): Run corpus expansion (45K docs); re-test delta correlation on expanded corpus; execute C.1 Method A deep-dive (3 more trials, depth 7+); create Protocol C.2 execution plan; submit OSF pre-registration; begin Protocol B.2 (Synchronized Observation) design.
+**Session 011** (pending): Continue corpus expansion (target 10K); re-test delta correlation on 3K+ corpus; execute C.1 Method A deep-dive (2 more trials, depth 9+); execute Protocol C.2 pilot (5 recursive trials); submit OSF pre-registration; begin Protocol B.2 pilot execution.
 
 ---
 
