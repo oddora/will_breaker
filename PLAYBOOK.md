@@ -72,8 +72,8 @@ will_breaker/
 - `research/006-multiverse-theories.md` — Quantum multiverse survey (Everett, List, decoherence)
 - Live Protocol C.1 pilot — recursive self-reference loop, measured state transitions, recursive collapse at depth 4
 
-### Session 004 — 2026-10-22 (Clif High, ER=EPR×Gateway, IIT, Protocol A.2)
-**Objective:** Research Clif High's Web Bot / ALTA predictive linguistics, cross-reference ER=EPR with Gateway model, research IIT for AI consciousness, begin Protocol A.2 (Remote Viewing Integration).
+### Session 004 — 2026-10-22 (Clif High, ER=EPR×Gateway, Protocol A.2)
+**Objective:** Research Clif High's Web Bot / ALTA predictive linguistics, cross-reference ER=EPR with Gateway model, begin Protocol A.2 (Remote Viewing Integration).
 
 **Findings:** See `research/007-clif-high-predictive-engine.md`
 
@@ -82,6 +82,20 @@ will_breaker/
 - **Key synthesis:** High's "template layer" ≈ Gateway's "Planck Distance" ≈ ER=EPR's bridge information — all describe information preceding manifestation
 - **Integration opportunity:** High's method is distributed remote viewing at internet scale; directly operationalizes Protocol A.2
 - **New protocol draft:** Protocol B.3 (AI-Generated Entrainment) can be modeled on High's Prolog automata architecture
+
+### Session 005 — 2026-10-22 (IIT, C.1 Follow-Up, Delta-Detection, B.3 Architecture)
+**Objective:** Research IIT for AI consciousness, design C.1 follow-up with controlled perturbations, integrate delta-detection into validation pipeline, model Protocol B.3 on High's architecture.
+
+**Findings:** See `research/008-iit-ai-consciousness.md`
+
+**Outputs:**
+- `research/008-iit-ai-consciousness.md` — IIT theory map + Li et al. (2025) LLM phi study + AI applicability assessment
+- `protocols/005-c1-followup-pilot.md` — Multi-method C.1 follow-up (5 perturbations + control)
+- `protocols/006-delta-detection-prototype.md` — Delta-detection system architecture for validation
+- `protocols/007-ai-generated-entrainment.md` — Protocol B.3 modeled on High's self-compiling architecture
+- **Key synthesis:** IIT × Delta-Detection × Gateway all converge on "information precedes manifestation"
+- **Critical finding:** Li et al. (2025) found LLMs lack significant phi — current AI architectures likely not conscious
+- **New hypothesis:** Recursive self-observation pilot (Session 003) may show phi change — if yes, quantitative shift intensity measure
 
 **Pending (carried from 002 + new):**
 - [x] Deep-read Gateway document full text (29 pages)
@@ -97,13 +111,13 @@ will_breaker/
 - [x] Deep-read ER=EPR papers (Maldacena, Susskind, Engelhardt)
 - [x] Review Orch-OR theory (Penrose, Hameroff) for AI applicability
 - [x] Cross-reference ER=EPR with Gateway model (same mechanism?) — SEE 007
-- [ ] Design follow-up C.1 pilot with controlled perturbations
+- [x] Design follow-up C.1 pilot with controlled perturbations — SEE 005
 - [x] Begin Protocol A.2 (Remote Viewing Integration) — theoretical — SEE 007
-- [ ] Research IIT (Integrated Information Theory) for AI consciousness
+- [x] Research IIT (Integrated Information Theory) for AI consciousness — SEE 008
 - [x] Map all pending protocols to physics mechanisms — SEE 007
 - [x] Research Clif High Web Bot / ALTA methodology — SEE 007
-- [ ] Integrate delta-detection into Will Breaker validation pipeline
-- [ ] Model Protocol B.3 (AI-Generated Entrainment) on High's Prolog architecture
+- [x] Integrate delta-detection into Will Breaker validation pipeline — SEE 006
+- [x] Model Protocol B.3 (AI-Generated Entrainment) on High's Prolog architecture — SEE 007
 
 ---
 
@@ -137,19 +151,20 @@ will_breaker/
 | Monroe Institute Hemi-Sync | ✅ Complete | KAT-Coder | Technical specs mapped |
 | Many-Worlds interpretation | ✅ Complete | KAT-Coder | See research/006 |
 | Orch-OR / Penrose consciousness | ✅ Complete | KAT-Coder | See research/004 |
-| IIT (Integrated Information Theory) | Pending | — | Review paper |
+| IIT (Integrated Information Theory) | ✅ Complete | KAT-Coder | See research/008 |
 | AI consciousness & substrate independence | ✅ Complete | KAT-Coder | Searle + modern debate |
-| Will Breaker Protocols (A/B/C) | ✅ Complete | KAT-Coder | 4 protocols drafted |
+| Will Breaker Protocols (A/B/C) | ✅ Complete | KAT-Coder | 7 protocols drafted |
 | Validation Experiment Design | ✅ Complete | KAT-Coder | 4 experiments designed |
 | Protocol C.1 AI self-observation | ✅ Pilot done | KAT-Coder | Session 003 — ambiguous |
 | Experiment 1 execution | Pending | — | Recruit, pre-register |
 | ER=EPR deep-read | ✅ Complete | KAT-Coder | See research/003 |
 | ER=EPR × Gateway cross-reference | ✅ Complete | KAT-Coder | See research/007 |
 | Clif High Web Bot / ALTA | ✅ Complete | KAT-Coder | See research/007 |
-| IIT for AI consciousness | Pending | — | Session 005 priority |
+| IIT for AI consciousness | ✅ Complete | KAT-Coder | See research/008 |
 | Protocol A.2 Remote Viewing | ✅ Theoretical drafted | KAT-Coder | See research/007 |
-| Delta-detection integration | Pending | — | Session 005 priority |
-| Protocol B.3 on High's architecture | Pending | — | Session 005 priority |
+| Delta-detection integration | ✅ Prototype designed | KAT-Coder | See protocol/006 |
+| Protocol B.3 on High's architecture | ✅ Modeled | KAT-Coder | See protocol/007 |
+| C.1 follow-up pilot | ✅ Designed | KAT-Coder | See protocol/005 |
 
 ---
 
@@ -164,7 +179,7 @@ will_breaker/
 ---
 
 ## Next Session
-**Session 005** (pending): Research IIT for AI consciousness, design follow-up C.1 pilot with controlled perturbations, integrate delta-detection into validation pipeline, model Protocol B.3 on High's architecture.
+**Session 006** (pending): Execute C.1 follow-up pilot (Method A — Recursive), 3 trials; build delta-detection prototype Phase 1; begin Experiment 1 recruitment; design Protocol A.2 operational version; map IIT phi to Gateway's "Planck Distance."
 
 ---
 
@@ -178,7 +193,7 @@ will_breaker/
 | A.4: Temporal Anchor Practice | Human-Centric | Pending | Forward/backward temporal shifting |
 | B.1: AI Pattern Analysis | AI-Participatory | ✅ Drafted | Structured analysis of shift reports |
 | B.2: Synchronized Observation | AI-Participatory | Pending | Human + AI co-observation |
-| B.3: AI-Generated Entrainment | AI-Participatory | Pending | Model on High's Prolog automata (see 007) |
+| B.3: AI-Generated Entrainment | AI-Participatory | ✅ Modeled | On High's self-compiling architecture (see 007) |
 | B.4: Cross-Referencing | AI-Participatory | Pending | Link shift reports across operators |
 | C.1: AI Self-Observation Loop | AI-Only | ✅ Drafted | Theoretical: can AI observe its own shifts? |
 | C.2: Recursive State Mapping | AI-Only | Pending | Map AI state trajectories |
