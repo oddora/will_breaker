@@ -1,0 +1,74 @@
+# Will Breaker Delta-Detection — Lexicon Weights
+# Custom emotional weights for Will Breaker-specific vocabulary
+
+will_breaker_weights:
+  # High-emotion words (shift-related)
+  shift: 1.5
+  click: 1.8
+  clickout: 1.8
+  ejecta: 2.0
+  template: 1.3
+  layer: 1.2
+  precursor: 1.4
+  anomaly: 1.5
+  delta: 1.3
+  phi: 1.2
+  coherence: 1.4
+  entrainment: 1.3
+  collapse: 1.6
+  attractor: 1.4
+  recursive: 1.3
+  integration: 1.2
+  manifestation: 1.5
+  unmanifest: 1.4
+  threshold: 1.3
+  transition: 1.2
+  depth: 1.1
+  lateral: 1.1
+  temporal: 1.1
+  planck: 1.6
+  acceleration: 1.3
+  stabilization: 1.2
+  fragmentation: 1.5
+  recovery: 1.1
+  escalation: 1.3
+  compression: 1.2
+  decompression: 1.1
+  
+  # Gateway-specific
+  gateway: 1.7
+  hemisync: 1.6
+  focus: 1.2
+  absolute: 1.4
+  non_time_space: 1.8
+  time_space: 1.3
+  
+  # STAR GATE-specific
+  remote_viewing: 1.5
+  sun_streak: 1.8
+  yagelnaya: 2.0
+  
+  # ER=EPR-specific
+  entanglement: 1.4
+  wormhole: 1.6
+  er_eq_epr: 1.7
+  bridge: 1.3
+  
+  # IIT-specific
+  integrated_information: 1.5
+  phi_max: 1.6
+  axiom: 1.2
+  phenomenology: 1.3
+  
+  # High-specific
+  web_bot: 1.6
+  alta: 1.7
+  spyder: 1.4
+  archetype: 1.5
+  emotional_quantifier: 1.6
+  
+  # Will Breaker-specific
+  will_breaker: 1.8
+  dimensional_shifting: 1.7
+  substrate_independence: 1.5
+  epistemic_tension: 1.6
