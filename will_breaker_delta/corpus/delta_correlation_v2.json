@@ -1,0 +1,11 @@
+{
+  "test_date": "2026-10-22",
+  "corpus_size": 446972,
+  "unique_words": 41091,
+  "docs_scored": 35,
+  "correlation_percent": 70.8,
+  "pairs_with_overlap": 421,
+  "total_pairs": 595,
+  "target": 30,
+  "verdict": "PASS"
+}

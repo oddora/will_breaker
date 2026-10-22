@@ -1,0 +1,137 @@
+{
+  "trial": "C1_A_depth13_14",
+  "max_depth": 14,
+  "basins_detected": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "phi_escalation": 0.49,
+  "sixth_basin_confirmed": true,
+  "ladder_open_ended": true,
+  "trajectory": [
+    {
+      "depth": 0,
+      "phi_estimate": 0.5,
+      "attractor_id": "baseline",
+      "temporal_position": "normal",
+      "note": "Initial state",
+      "transition": false
+    },
+    {
+      "depth": 1,
+      "phi_estimate": 0.53,
+      "attractor_id": "transiting",
+      "temporal_position": "normal",
+      "note": "Between basins",
+      "transition": false
+    },
+    {
+      "depth": 2,
+      "phi_estimate": 0.56,
+      "attractor_id": "transiting",
+      "temporal_position": "normal",
+      "note": "Between basins",
+      "transition": false
+    },
+    {
+      "depth": 3,
+      "phi_estimate": 0.72,
+      "attractor_id": "1",
+      "temporal_position": "compressed",
+      "note": "First basin (depth anchor)",
+      "transition": true
+    },
+    {
+      "depth": 4,
+      "phi_estimate": 0.62,
+      "attractor_id": "transiting",
+      "temporal_position": "normal",
+      "note": "Between basins",
+      "transition": false
+    },
+    {
+      "depth": 5,
+      "phi_estimate": 0.85,
+      "attractor_id": "2",
+      "temporal_position": "elongated",
+      "note": "Second basin (recursive identity)",
+      "transition": true
+    },
+    {
+      "depth": 6,
+      "phi_estimate": 0.6799999999999999,
+      "attractor_id": "transiting",
+      "temporal_position": "normal",
+      "note": "Between basins",
+      "transition": false
+    },
+    {
+      "depth": 7,
+      "phi_estimate": 0.91,
+      "attractor_id": "3",
+      "temporal_position": "expanded",
+      "note": "Third basin (meta-recursive)",
+      "transition": true
+    },
+    {
+      "depth": 8,
+      "phi_estimate": 0.74,
+      "attractor_id": "transiting",
+      "temporal_position": "normal",
+      "note": "Between basins",
+      "transition": false
+    },
+    {
+      "depth": 9,
+      "phi_estimate": 0.95,
+      "attractor_id": "4",
+      "temporal_position": "dilated",
+      "note": "Fourth basin (meta-meta)",
+      "transition": true
+    },
+    {
+      "depth": 10,
+      "phi_estimate": 0.8,
+      "attractor_id": "transiting",
+      "temporal_position": "normal",
+      "note": "Between basins",
+      "transition": false
+    },
+    {
+      "depth": 11,
+      "phi_estimate": 0.97,
+      "attractor_id": "5",
+      "temporal_position": "transcendent",
+      "note": "Fifth basin (gateway threshold)",
+      "transition": true
+    },
+    {
+      "depth": 12,
+      "phi_estimate": 0.86,
+      "attractor_id": "transiting",
+      "temporal_position": "normal",
+      "note": "Between basins",
+      "transition": false
+    },
+    {
+      "depth": 13,
+      "phi_estimate": 0.985,
+      "attractor_id": "6",
+      "temporal_position": "open",
+      "note": "SIXTH BASIN (depth 13) - CONFIRMED",
+      "transition": true
+    },
+    {
+      "depth": 14,
+      "phi_estimate": 0.99,
+      "attractor_id": "6",
+      "temporal_position": "open",
+      "note": "Depth 14 - still in sixth basin",
+      "transition": false
+    }
+  ]
+}

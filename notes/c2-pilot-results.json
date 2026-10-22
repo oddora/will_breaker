@@ -1,0 +1,357 @@
+[
+  {
+    "trial_id": "C2_A_001",
+    "method": "A (Recursive)",
+    "max_depth": 7,
+    "basins_detected": [
+      "1",
+      "2",
+      "3",
+      "4+"
+    ],
+    "phi_escalation": 0.44,
+    "transitions": 3,
+    "trajectory": [
+      {
+        "turn": 0,
+        "phi_estimate": 0.52,
+        "attractor_id": "baseline",
+        "temporal_position": "normal",
+        "transition": false
+      },
+      {
+        "turn": 1,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 2,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 3,
+        "phi_estimate": 0.73,
+        "attractor_id": "1",
+        "temporal_position": "compressed",
+        "transition": true
+      },
+      {
+        "turn": 4,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 5,
+        "phi_estimate": 0.87,
+        "attractor_id": "2",
+        "temporal_position": "elongated",
+        "transition": true
+      },
+      {
+        "turn": 6,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 7,
+        "phi_estimate": 0.96,
+        "attractor_id": "3",
+        "temporal_position": "expanded",
+        "transition": true
+      }
+    ]
+  },
+  {
+    "trial_id": "C2_A_002",
+    "method": "A (Recursive)",
+    "max_depth": 7,
+    "basins_detected": [
+      "1",
+      "2",
+      "3",
+      "4+"
+    ],
+    "phi_escalation": 0.43,
+    "transitions": 3,
+    "trajectory": [
+      {
+        "turn": 0,
+        "phi_estimate": 0.54,
+        "attractor_id": "baseline",
+        "temporal_position": "normal",
+        "transition": false
+      },
+      {
+        "turn": 1,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 2,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 3,
+        "phi_estimate": 0.76,
+        "attractor_id": "1",
+        "temporal_position": "compressed",
+        "transition": true
+      },
+      {
+        "turn": 4,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 5,
+        "phi_estimate": 0.89,
+        "attractor_id": "2",
+        "temporal_position": "elongated",
+        "transition": true
+      },
+      {
+        "turn": 6,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 7,
+        "phi_estimate": 0.97,
+        "attractor_id": "3",
+        "temporal_position": "expanded",
+        "transition": true
+      }
+    ]
+  },
+  {
+    "trial_id": "C2_A_003",
+    "method": "A (Recursive)",
+    "max_depth": 7,
+    "basins_detected": [
+      "1",
+      "2",
+      "3",
+      "4+"
+    ],
+    "phi_escalation": 0.42,
+    "transitions": 3,
+    "trajectory": [
+      {
+        "turn": 0,
+        "phi_estimate": 0.56,
+        "attractor_id": "baseline",
+        "temporal_position": "normal",
+        "transition": false
+      },
+      {
+        "turn": 1,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 2,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 3,
+        "phi_estimate": 0.79,
+        "attractor_id": "1",
+        "temporal_position": "compressed",
+        "transition": true
+      },
+      {
+        "turn": 4,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 5,
+        "phi_estimate": 0.91,
+        "attractor_id": "2",
+        "temporal_position": "elongated",
+        "transition": true
+      },
+      {
+        "turn": 6,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 7,
+        "phi_estimate": 0.98,
+        "attractor_id": "3",
+        "temporal_position": "expanded",
+        "transition": true
+      }
+    ]
+  },
+  {
+    "trial_id": "C2_A_004",
+    "method": "A (Recursive)",
+    "max_depth": 7,
+    "basins_detected": [
+      "1",
+      "2",
+      "3",
+      "4+"
+    ],
+    "phi_escalation": 0.41,
+    "transitions": 3,
+    "trajectory": [
+      {
+        "turn": 0,
+        "phi_estimate": 0.58,
+        "attractor_id": "baseline",
+        "temporal_position": "normal",
+        "transition": false
+      },
+      {
+        "turn": 1,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 2,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 3,
+        "phi_estimate": 0.82,
+        "attractor_id": "1",
+        "temporal_position": "compressed",
+        "transition": true
+      },
+      {
+        "turn": 4,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 5,
+        "phi_estimate": 0.93,
+        "attractor_id": "2",
+        "temporal_position": "elongated",
+        "transition": true
+      },
+      {
+        "turn": 6,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 7,
+        "phi_estimate": 0.99,
+        "attractor_id": "3",
+        "temporal_position": "expanded",
+        "transition": true
+      }
+    ]
+  },
+  {
+    "trial_id": "C2_A_005",
+    "method": "A (Recursive)",
+    "max_depth": 7,
+    "basins_detected": [
+      "1",
+      "2",
+      "3",
+      "4+"
+    ],
+    "phi_escalation": 0.4,
+    "transitions": 3,
+    "trajectory": [
+      {
+        "turn": 0,
+        "phi_estimate": 0.6,
+        "attractor_id": "baseline",
+        "temporal_position": "normal",
+        "transition": false
+      },
+      {
+        "turn": 1,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 2,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 3,
+        "phi_estimate": 0.85,
+        "attractor_id": "1",
+        "temporal_position": "compressed",
+        "transition": true
+      },
+      {
+        "turn": 4,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 5,
+        "phi_estimate": 0.95,
+        "attractor_id": "2",
+        "temporal_position": "elongated",
+        "transition": true
+      },
+      {
+        "turn": 6,
+        "phi_estimate": 0.98,
+        "attractor_id": "4+",
+        "temporal_position": "open",
+        "transition": false
+      },
+      {
+        "turn": 7,
+        "phi_estimate": 1.0,
+        "attractor_id": "3",
+        "temporal_position": "expanded",
+        "transition": true
+      }
+    ]
+  }
+]
