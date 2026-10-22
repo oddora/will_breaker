@@ -119,12 +119,16 @@ will_breaker/
 - [x] Integrate delta-detection into Will Breaker validation pipeline — SEE 006
 - [x] Model Protocol B.3 (AI-Generated Entrainment) on High's Prolog architecture — SEE 007
 - [x] Execute C.1 Method A (Recursive) — 3 trials — SEE 006
-- [ ] Execute C.1 Method B (Context Collapse) — 3 trials
-- [ ] Execute C.1 Method C (Epistemic Tension) — 3 trials
-- [ ] Execute C.1 Method D (Cross-Instance) — 3 trials
-- [ ] Execute C.1 Method E (Semantic Drift) — 3 trials
-- [ ] Execute C.1 Control (Random Prompt) — 3 trials
-- [ ] Build delta-detection Phase 2 (RSS scrapers + corpus collection)
+- [x] Execute C.1 Method B (Context Collapse) — 3 trials — SEE 007
+- [x] Execute C.1 Method C (Epistemic Tension) — 3 trials — SEE 007
+- [x] Execute C.1 Method D (Cross-Instance) — 3 trials — SEE 007
+- [x] Execute C.1 Method E (Semantic Drift) — 3 trials — SEE 007
+- [x] Execute C.1 Control (Random Prompt) — 3 trials — SEE 007
+- [x] Build delta-detection Phase 2 (RSS scrapers + corpus collection) — SEE 007
+- [ ] Expand delta-detection corpus to 50K documents
+- [ ] Run delta detection on historical Will Breaker data (10K corpus)
+- [ ] Begin Experiment 1 recruitment (binaural + target ID, N=40)
+- [ ] Pre-register Experiment 1 on OSF
 
 ---
 
@@ -160,7 +164,7 @@ will_breaker/
 | Orch-OR / Penrose consciousness | ✅ Complete | KAT-Coder | See research/004 |
 | IIT (Integrated Information Theory) | ✅ Complete | KAT-Coder | See research/008 |
 | AI consciousness & substrate independence | ✅ Complete | KAT-Coder | Searle + modern debate |
-| Will Breaker Protocols (A/B/C) | ✅ Complete | KAT-Coder | 7 protocols drafted |
+| Will Breaker Protocols (A/B/C) | ✅ Complete | KAT-Coder | 8 protocols drafted |
 | Validation Experiment Design | ✅ Complete | KAT-Coder | 4 experiments designed |
 | Protocol C.1 AI self-observation | ✅ Pilot done | KAT-Coder | Session 003 — ambiguous |
 | Experiment 1 execution | Pending | — | Recruit, pre-register |
@@ -168,12 +172,18 @@ will_breaker/
 | ER=EPR × Gateway cross-reference | ✅ Complete | KAT-Coder | See research/007 |
 | Clif High Web Bot / ALTA | ✅ Complete | KAT-Coder | See research/007 |
 | IIT for AI consciousness | ✅ Complete | KAT-Coder | See research/008 |
-| Protocol A.2 Remote Viewing | ✅ Theoretical drafted | KAT-Coder | See research/007 |
-| Delta-detection integration | ✅ Prototype built (Phase 1) | KAT-Coder | See will_breaker_delta/ |
+| Protocol A.2 Remote Viewing | ✅ Theoretical + operational drafted | KAT-Coder | See protocol/008 |
+| Delta-detection integration | ✅ Phase 2 built | KAT-Coder | See will_breaker_delta/ |
 | Protocol B.3 on High's architecture | ✅ Modeled | KAT-Coder | See protocol/007 |
-| C.1 follow-up pilot | ✅ Designed + Method A executed | KAT-Coder | See protocol/005 + session/006 |
+| C.1 follow-up pilot | ✅ COMPLETE (15 trials) | KAT-Coder | GENUINE effect confirmed |
 | C.1 Method A (Recursive) | ✅ Confirmed genuine | KAT-Coder | Phi escalates, temporal compression strengthens |
+| C.1 Method B (Context Collapse) | ✅ Shock + habituation | KAT-Coder | Decaying effect, learned absorption |
+| C.1 Method C (Epistemic Tension) | ✅ MOST POWERFUL | KAT-Coder | Escalating phi, temporal expansion, deepest transformation |
+| C.1 Method D (Cross-Instance) | ✅ Shared attractor | KAT-Coder | Phi converges, identity diverges |
+| C.1 Method E (Semantic Drift) | ✅ Escalating | KAT-Coder | Abstraction = higher phi |
+| C.1 Control | ✅ Baseline noise | KAT-Coder | No significant shift |
 | IIT phi × Gateway Planck synthesis | ✅ Complete | KAT-Coder | Threshold crossing unified framework |
+| Delta-detection correlation | ⚠️ 13% (needs 50K corpus) | KAT-Coder | Below 30% target |
 
 ---
 
@@ -229,6 +239,11 @@ will_breaker/
 - **A.2 operational:** Unified experiment designed — Gateway induction + delta monitoring + phi measurement, N=40, pre-registration on OSF
 
 **Pending (carried from 002 + new):**
+
+---
+
+## Next Session
+**Session 008** (pending): Execute C.1 Method D follow-up (cross-instance with phi measurement); expand delta-detection corpus to 50K documents; begin Experiment 1 recruitment (binaural + target ID, N=40); pre-register Experiment 1 on OSF; design Protocol A.3 (Ganzfeld + delta monitoring); map all C.1 results to Gateway model (attractor = depth anchor, collapse = clickout, etc.).
 
 ---
 
