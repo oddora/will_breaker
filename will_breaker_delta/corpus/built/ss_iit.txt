@@ -1,0 +1,1030 @@
+DOCUMENT
+ID: ss_e1769a85069bd5185619cedf94952422ea418b62
+SOURCE: semantic_scholar
+TITLE: Integrated information theory (IIT) 4.0: Formulating the properties of phenomenal existence in physical terms
+AUTHORS: L. Albantakis, L. Barbosa, Graham Findlay, M. Grasso, A. Haun, W. Marshall, Will Mayner, Alireza Zaeemzadeh, M. Boly, B. Juel, Shuntaro Sasai, Keiko Fujii, Isaac David, Jeremiah Hendren, Jonathan P. Lang, G. Tononi
+JOURNAL: PLOS Computational Biology
+YEAR: 2022
+CITATIONS: 261
+ABSTRACT: This paper presents Integrated Information Theory (IIT) 4.0. IIT aims to account for the properties of experience in physical (operational) terms. It identifies the essential properties of experience (axioms), infers the necessary and sufficient properties that its substrate must satisfy (postulates), and expresses them in mathematical terms. In principle, the postulates can be applied to any system of units in a state to determine whether it is conscious, to what degree, and in what way. IIT offers a parsimonious explanation of empirical evidence, makes testable predictions concerning both the presence and the quality of experience, and permits inferences and extrapolations. IIT 4.0 incorporates several developments of the past ten years, including a more accurate formulation of the axioms as postulates and mathematical expressions, the introduction of a unique measure of intrinsic information that is consistent with the postulates, and an explicit assessment of causal relations. By fully unfolding a system’s irreducible cause–effect power, the distinctions and relations specified by a substrate can account for the quality of experience.
+---
+DOCUMENT
+ID: ss_e5b78a753e8c05248445815ae07389610effa129
+SOURCE: semantic_scholar
+TITLE: From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0
+AUTHORS: Masafumi Oizumi, L. Albantakis, G. Tononi
+JOURNAL: PLoS Computational Biology
+YEAR: 2014
+CITATIONS: 1034
+ABSTRACT: This paper presents Integrated Information Theory (IIT) of consciousness 3.0, which incorporates several advances over previous formulations. IIT starts from phenomenological axioms: information says that each experience is specific – it is what it is by how it differs from alternative experiences; integration says that it is unified – irreducible to non-interdependent components; exclusion says that it has unique borders and a particular spatio-temporal grain. These axioms are formalized into postulates that prescribe how physical mechanisms, such as neurons or logic gates, must be configured to generate experience (phenomenology). The postulates are used to define intrinsic information as “differences that make a difference” within a system, and integrated information as information specified by a whole that cannot be reduced to that specified by its parts. By applying the postulates both at the level of individual mechanisms and at the level of systems of mechanisms, IIT arrives at an identity: an experience is a maximally irreducible conceptual structure (MICS, a constellation of concepts in qualia space), and the set of elements that generates it constitutes a complex. According to IIT, a MICS specifies the quality of an experience and integrated information ΦMax its quantity. From the theory follow several results, including: a system of mechanisms may condense into a major complex and non-overlapping minor complexes; the concepts that specify the quality of an experience are always about the complex itself and relate only indirectly to the external environment; anatomical connectivity influences complexes and associated MICS; a complex can generate a MICS even if its elements are inactive; simple systems can be minimally conscious; complicated systems can be unconscious; there can be true “zombies” – unconscious feed-forward systems that are functionally equivalent to conscious complexes.
+---
+DOCUMENT
+ID: ss_dda574d4269e5e895d9cd1b8961c59fe7f49153f
+SOURCE: semantic_scholar
+TITLE: Integrated Information Theory: A Consciousness-First Approach to What Exists
+AUTHORS: G. Tononi, Melanie Boly
+JOURNAL: 
+YEAR: 2025
+CITATIONS: 5
+ABSTRACT: This overview of integrated information theory (IIT) emphasizes IIT's"consciousness-first"approach to what exists. Consciousness demonstrates to each of us that something exists--experience--and reveals its essential properties--the axioms of phenomenal existence. IIT formulates these properties operationally, yielding the postulates of physical existence. To exist intrinsically or absolutely, an entity must have cause-effect power upon itself, in a specific, unitary, definite and structured manner. IIT's explanatory identity claims that an entity's cause-effect structure accounts for all properties of an experience--essential and accidental--with no additional ingredients. These include the feeling of spatial extendedness, temporal flow, of objects binding general concepts with particular configurations of features, and of qualia such as colors and sounds. IIT's intrinsic ontology has implications for understanding meaning, perception, and free will, for assessing consciousness in patients, infants, other species, and artifacts, and for reassessing our place in nature.
+---
+DOCUMENT
+ID: ss_d3242325fa03bba5a596818ea5f5a8f39f1efeee
+SOURCE: semantic_scholar
+TITLE: An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory
+AUTHORS: L. Melloni, L. Mudrik, Michael A. Pitts, Katarina Bendtz, Oscar Ferrante, U. Górska, Rony Hirschhorn, A. Khalaf, Csaba Kozma, Alex Lepauvre, Ling Liu, David R. Mazumder, David Richter, Hao Zhou, H. Blumenfeld, M. Boly, D. Chalmers, S. Devore, Francis T. Fallon, F. D. de Lange, O. Jensen, Gabriel Kreiman, Huan Luo, T. Panagiotaropoulos, S. Dehaene, Christof Koch, G. Tononi
+JOURNAL: PLOS ONE
+YEAR: 2023
+CITATIONS: 89
+ABSTRACT: The relationship between conscious experience and brain activity has intrigued scientists and philosophers for centuries. In the last decades, several theories have suggested different accounts for these relationships. These theories have developed in parallel, with little to no cross-talk among them. To advance research on consciousness, we established an adversarial collaboration between proponents of two of the major theories in the field, Global Neuronal Workspace and Integrated Information Theory. Together, we devised and preregistered two experiments that test contrasting predictions of these theories concerning the location and timing of correlates of visual consciousness, which have been endorsed by the theories’ proponents. Predicted outcomes should either support, refute, or challenge these theories. Six theory-impartial laboratories will follow the study protocol specified here, using three complementary methods: Functional Magnetic Resonance Imaging (fMRI), Magneto-Electroencephalography (M-EEG), and intracranial electroencephalography (iEEG). The study protocol will include built-in replications, both between labs and within datasets. Through this ambitious undertaking, we hope to provide decisive evidence in favor or against the two theories and clarify the footprints of conscious visual perception in the human brain, while also providing an innovative model of large-scale, collaborative, and open science practice.
+---
+DOCUMENT
+ID: ss_cd04cebd2c65954ea419547473849b861011fc92
+SOURCE: semantic_scholar
+TITLE: The strength of weak integrated information theory.
+AUTHORS: P. Mediano, F. Rosas, D. Bor, Anil K. Seth, A. Barrett
+JOURNAL: Trends in cognitive sciences
+YEAR: 2022
+CITATIONS: 67
+ABSTRACT: The integrated information theory of consciousness (IIT) is divisive: while some believe it provides an unprecedentedly powerful approach to address the 'hard problem', others dismiss it on grounds that it is untestable. We argue that the appeal and applicability of IIT can be greatly widened if we distinguish two flavours of the theory: strong IIT, which identifies consciousness with specific properties associated with maxima of integrated information; and weak IIT, which tests pragmatic hypotheses relating aspects of consciousness to broader measures of information dynamics. We review challenges for strong IIT, explain how existing empirical findings are well explained by weak IIT without needing to commit to the entirety of strong IIT, and discuss the outlook for both flavours of IIT.
+---
+DOCUMENT
+ID: ss_000570f521e96acdac266d127c1f6dd80252e139
+SOURCE: semantic_scholar
+TITLE: An implementation of integrated information theory in resting-state fMRI
+AUTHORS: Idan E. Nemirovsky, N. J. M. Popiel, J. Rudas, Matthew Caius, L. Naci, N. Schiff, A. Owen, A. Soddu
+JOURNAL: Communications Biology
+YEAR: 2023
+CITATIONS: 17
+ABSTRACT: Integrated Information Theory was developed to explain and quantify consciousness, arguing that conscious systems consist of elements that are integrated through their causal properties. This study presents an implementation of Integrated Information Theory 3.0, the latest version of this framework, to functional MRI data. Data were acquired from 17 healthy subjects who underwent sedation with propofol, a short-acting anaesthetic. Using the PyPhi software package, we systematically analyze how Φ^max, a measure of integrated information, is modulated by the sedative in different resting-state networks. We compare Φ^max to other proposed measures of conscious level, including the previous version of integrated information, Granger causality, and correlation-based functional connectivity. Our results indicate that Φ^max presents a variety of sedative-induced behaviours for different networks. Notably, changes to Φ^max closely reflect changes to subjects’ conscious level in the frontoparietal and dorsal attention networks, which are responsible for higher-order cognitive functions. In conclusion, our findings present important insight into different measures of conscious level that will be useful in future implementations to functional MRI and other forms of neuroimaging. Resting-state fMRI data in conditions of wakefulness and anaesthesia was analyzed using integrated information theory and its key measure, Φmax, which presents a variety of sedative-induced behaviours across different cortical networks.
+---
+DOCUMENT
+ID: ss_8ef6825746a1246cc573b15e406e01adc2bde598
+SOURCE: semantic_scholar
+TITLE: From Shorter to Longer Timescales: Converging Integrated Information Theory (IIT) with the Temporo-Spatial Theory of Consciousness (TTC)
+AUTHORS: G. Northoff, Federico Zilio
+JOURNAL: Entropy
+YEAR: 2022
+CITATIONS: 36
+ABSTRACT: Time is a key element of consciousness as it includes multiple timescales from shorter to longer ones. This is reflected in our experience of various short-term phenomenal contents at discrete points in time as part of an ongoing, more continuous, and long-term ‘stream of consciousness’. Can Integrated Information Theory (IIT) account for this multitude of timescales of consciousness? According to the theory, the relevant spatiotemporal scale for consciousness is the one in which the system reaches the maximum cause-effect power; IIT currently predicts that experience occurs on the order of short timescales, namely, between 100 and 300 ms (theta and alpha frequency range). This can well account for the integration of single inputs into a particular phenomenal content. However, such short timescales leave open the temporal relation of specific phenomenal contents to others during the course of the ongoing time, that is, the stream of consciousness. For that purpose, we converge the IIT with the Temporo-spatial Theory of Consciousness (TTC), which, assuming a multitude of different timescales, can take into view the temporal integration of specific phenomenal contents with other phenomenal contents over time. On the neuronal side, this is detailed by considering those neuronal mechanisms driving the non-additive interaction of pre-stimulus activity with the input resulting in stimulus-related activity. Due to their non-additive interaction, the single input is not only integrated with others in the short-term timescales of 100–300 ms (alpha and theta frequencies) (as predicted by IIT) but, at the same time, also virtually expanded in its temporal (and spatial) features; this is related to the longer timescales (delta and slower frequencies) that are carried over from pre-stimulus to stimulus-related activity. Such a non-additive pre-stimulus-input interaction amounts to temporo-spatial expansion as a key mechanism of TTC for the constitution of phenomenal contents including their embedding or nesting within the ongoing temporal dynamic, i.e., the stream of consciousness. In conclusion, we propose converging the short-term integration of inputs postulated in IIT (100–300 ms as in the alpha and theta frequency range) with the longer timescales (in delta and slower frequencies) of temporo-spatial expansion in TTC.
+---
+DOCUMENT
+ID: ss_94bd8b3dc8f065ba42274bd197c72ecdd293db64
+SOURCE: semantic_scholar
+TITLE: The Fundamental Tension in Integrated Information Theory 4.0’s Realist Idealism
+AUTHORS: Ignacio Cea, Niccolò Negro, C. M. Signorelli
+JOURNAL: Entropy
+YEAR: 2023
+CITATIONS: 12
+ABSTRACT: Integrated Information Theory (IIT) is currently one of the most influential scientific theories of consciousness. Here, we focus specifically on a metaphysical aspect of the theory’s most recent version (IIT 4.0), what we may call its idealistic ontology, and its tension with a kind of realism about the external world that IIT also endorses. IIT 4.0 openly rejects the mainstream view that consciousness is generated by the brain, positing instead that consciousness is ontologically primary while the physical domain is just “operational”. However, this philosophical position is presently underdeveloped and is not rigorously formulated in IIT, potentially leading to many misinterpretations and undermining its overall explanatory power. In the present paper we aim to address this issue. We argue that IIT’s idealistic ontology should be understood as a specific combination of phenomenal primitivism, reductionism regarding Φ-structures and complexes, and eliminativism about non-conscious physical entities. Having clarified this, we then focus on the problematic tension between IIT’s idealistic ontology and its simultaneous endorsement of realism, according to which there is some kind of external reality independent of our minds. After refuting three potential solutions to this theoretical tension, we propose the most plausible alternative: understanding IIT’s realism as an assertion of the existence of other experiences beyond one’s own, what we call a non-solipsistic idealist realism. We end with concluding remarks and future research avenues.
+---
+DOCUMENT
+ID: ss_7929357200926edefde6997fba8e14c6b67f390d
+SOURCE: semantic_scholar
+TITLE: A systematic review of integrated information theory: a perspective from artificial intelligence and the cognitive sciences
+AUTHORS: Luz Enith Guerrero, L. F. Castillo, Jeferson Arango-López, Fernando Moreira
+JOURNAL: Neural Computing and Applications
+YEAR: 2023
+CITATIONS: 12
+ABSTRACT: The study of consciousness has gained momentum in recent years by the scientific community. In this same sense, the relationship between cognitive sciences and artificial intelligence presents a fundamental theoretical framework in the study of integrated information theory (IIT) as a theory that makes its way into the knowledge of consciousness. However, there are few studies that integrate these topics and a systematic review of the literature is highly pertinent. This paper seeks to identify methods, methodologies or computational solutions using artificial intelligence and cognitive science fundamentals that can provide some kind of solution to the challenges posed by IIT.
+---
+DOCUMENT
+ID: ss_f3834931a6fc876ce8928cfbc11d427e661a3c00
+SOURCE: semantic_scholar
+TITLE: Separating weak integrated information theory into inspired and aspirational approaches
+AUTHORS: Angus Leung, N. Tsuchiya
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2023
+CITATIONS: 9
+ABSTRACT: Abstract Mediano et al. (The strength of weak integrated information theory. Trends Cogn Sci 2022;26: 646–55.) separate out strong and weak flavours of the integrated information theory (IIT) of consciousness. They describe ‘strong IIT’ as attempting to derive a universal formula for consciousness and ‘weak IIT’ as searching for empirically measurable correlates of aspects of consciousness. We put forward that their overall notion of ‘weak IIT’ may be too weak. Rather, it should be separated out to distinguish ‘aspirational-IIT’, which aims to empirically test IIT by making trade-offs to its proposed measures, and ‘IIT-inspired’ approaches, which adopt high-level ideas of IIT while dropping the mathematical framework it reaches through its introspective, first-principles approach to consciousness.
+---
+DOCUMENT
+ID: ss_c97398138d82a79aa8bf2eafa04aeaaa7af1f7cf
+SOURCE: semantic_scholar
+TITLE: Phi fluctuates with surprisal: An empirical pre-study for the synthesis of the free energy principle and integrated information theory
+AUTHORS: Christoffer Lundbak Olesen, Peter Thestrup Waade, L. Albantakis, Chris Mathys
+JOURNAL: PLOS Computational Biology
+YEAR: 2023
+CITATIONS: 8
+ABSTRACT: The Free Energy Principle (FEP) and Integrated Information Theory (IIT) are two ambitious theoretical approaches. The first aims to make a formal framework for describing self-organizing and life-like systems in general, and the second attempts a mathematical theory of conscious experience based on the intrinsic properties of a system. They are each concerned with complementary aspects of the properties of systems, one with life and behavior, the other with meaning and experience, so combining them has potential for scientific value. In this paper, we take a first step towards such a synthesis by expanding on the results of an earlier published evolutionary simulation study, which show a relationship between IIT-measures and fitness in differing complexities of tasks. We relate a basic information theoretic measure from the FEP, surprisal, to this result, finding that the surprisal of simulated agents’ observations is inversely related to the general increase in fitness and integration over evolutionary time. Moreover, surprisal fluctuates together with IIT-based consciousness measures in within-trial time. This suggests that the consciousness measures used in IIT indirectly depend on the relation between the agent and the external world, and that it should therefore be possible to relate them to the theoretical concepts used in the FEP. Lastly, we suggest a future approach for investigating this relationship empirically.
+---
+DOCUMENT
+ID: ss_ef1e46718443c4c7e925dfad8c1e535f3fde7ca8
+SOURCE: semantic_scholar
+TITLE: Carving Nature at Its Joints: A Comparison of CEMI Field Theory with Integrated Information Theory and Global Workspace Theory
+AUTHORS: J. McFadden
+JOURNAL: Entropy
+YEAR: 2023
+CITATIONS: 7
+ABSTRACT: The quest to comprehend the nature of consciousness has spurred the development of many theories that seek to explain its underlying mechanisms and account for its neural correlates. In this paper, I compare my own conscious electromagnetic information field (cemi field) theory with integrated information theory (IIT) and global workspace theory (GWT) for their ability to ‘carve nature at its joints’ in the sense of predicting the entities, structures, states and dynamics that are conventionally recognized as being conscious or nonconscious. I go on to argue that, though the cemi field theory shares features of both integrated information theory and global workspace theory, it is more successful at carving nature at its conventionally accepted joints between conscious and nonconscious systems, and is thereby a more successful theory of consciousness.
+---
+DOCUMENT
+ID: ss_ae6a3521dea58f1ad9d4582a2fe41ce767d41199
+SOURCE: semantic_scholar
+TITLE: Integrated Information is not Causation: Why Integrated Information Theory’s Causal Structures do not Beat Causal Reductionism
+AUTHORS: J. Sánchez-Cañizares
+JOURNAL: Philosophia
+YEAR: 2023
+CITATIONS: 6
+ABSTRACT: In a recent work (Grasso et al., 2021), practitioners of the Integrated Information Theory (IIT) claim to have overcome the weaknesses of causal reductionism in producing a coherent account of causation, as causal reductionism would blatantly conflate causation with prediction and could not answer the question of ‘what caused what.’ In this paper, I reject such a dismissal of causal reductionism since IIT anti-reductionists misunderstand the reductionist stance. The reductionists can still invoke a causal account stemming from the causal power of the universe’s basic units and interactions that, eventually, may lead to structures supporting integrated information. Additionally, I claim that the IIT-inspired misunderstanding of causal reductionism originates from the former’s metaphysical deficit, conflating information with causation. However, as a possible way out, if IIT is complemented with a deeper metaphysical ground, such as nested hylomorphism, an improved argument against causal reductionism can be made to work by invoking formal causality as the ultimate cause of integration in natural systems.
+---
+DOCUMENT
+ID: ss_76bfe57527164be3f5924efb83749bccd089926c
+SOURCE: semantic_scholar
+TITLE: An integrated information theory index using multichannel EEG for evaluating various states of consciousness under anesthesia
+AUTHORS: Kangli Dong, De-Lin Zhang, Qi-Shun Wei, Guozheng Wang, Xingxing Chen, Lu-Yong Zhang, Jun Liu
+JOURNAL: Computers in biology and medicine
+YEAR: 2022
+CITATIONS: 13
+ABSTRACT: BACKGROUND
+The integrated information theory (IIT) of consciousness introduces a measure Φ to quantify consciousness in a physical system. Directly related to this, general anesthesia aims to induce reversible and safe loss of consciousness (LOC). We sought to propose an electroencephalogram (EEG)-based IIT index ΦEEG to evaluate various states of consciousness under general anesthesia.
+
+
+METHODS
+Based on the definition of mutual information, we estimated the ΦEEG by maximizing the integrated information under various time lags. We used the binning method to cut the nonGaussian EEG data for estimating mutual information. We tested two EEG databases collected from propofol- (n=20) and sevoflurane-induced (n=15) anesthesia, and especially, we compared the ΦEEG of drowsy (n=7) and responsive participants (n=13) under propofol anesthesia. We compared the effectiveness of ΦEEG with the estimated bispectral index (eBIS).
+
+
+RESULTS
+In all EEG frequency bands, we observed a negative correlation between ΦEEG and end-tidal sevoflurane concentration under sevoflurane-induced anesthesia (p<0.001,BF10>6000). Under propofol-induced anesthesia, drowsy participants in moderate sedation (6.96±0.26(mean±SD)) showed decreased alpha-band ΦEEG compared with baseline (7.40±0.53,p=0.016,BF10=3.58), no significant difference was observed for responsive participants. Oppositely, the responsive participants in moderate sedation (-5.32±0.38) showed decreased eBIS compared with baseline (-4.94±0.40,p=0.03,BF10=2.41).
+
+
+CONCLUSIONS
+These findings may enable monitors of the anesthetic state that can distinguish consciousness and unconsciousness rather than the changes of anesthetic concentrations. The alpha-band ΦEEG is promising for deriving the gold standard for depth of anesthesia monitoring.
+---
+DOCUMENT
+ID: ss_a0147b1351037eadf4e67e599f1b3ba6b1b96221
+SOURCE: semantic_scholar
+TITLE: The transcendental deduction of Integrated Information Theory: connecting the axioms, postulates, and identity through categories
+AUTHORS: Robert Chis-Ciure
+JOURNAL: Synthese
+YEAR: 2022
+CITATIONS: 9
+ABSTRACT: This paper deals with a foundational aspect of Integrated Information Theory (IIT) of consciousness: the nature of the relation between the axioms of phenomenology and the postulates of cause-effect power. There has been a lack of clarity in the literature regarding this crucial issue, for which IIT has received much criticism of its axiomatic method and basic tenets. The present contribution elucidates the problem by means of a categorial analysis of the theory’s foundations. Its main results are that: (i) IIT has a set of nine fundamental concepts of reason, called categories, which constitute its categorial lexicon and through which it formulates a system of principles incorporating the axioms, the postulates, and the central identity; and (ii) the connection between the axioms and postulates is grounded by their common root in this categorial lexicon, the categories of which find their justification by means of a phenomenological and transcendental deduction. Some further results are the unique origin of axioms and postulates in the categories; the distinction between conceptual and formalized postulates; a clarification of the uniqueness problem of categorial lexica in general; and an IIT account of objectivity by explicating how the physical is (re)defined by means of categories. All of this is put to use against various criticism targeting IIT’s theoretical core. If successful, the proposed interpretation illuminates a central issue in the contemporary study of consciousness and contributes to an environment of mutual understanding between defenders and critics of the theory.
+---
+DOCUMENT
+ID: ss_22b35f60bf7a0b97bba1e8912a4ea71cb8892d10
+SOURCE: semantic_scholar
+TITLE: Does integrated information theory make testable predictions about the role of silent neurons in consciousness?
+AUTHORS: G. Bartlett
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2022
+CITATIONS: 9
+ABSTRACT: Abstract Tononi et al. claim that their integrated information theory of consciousness makes testable predictions. This article discusses two of the more startling predictions, which follow from the theory’s claim that conscious experiences are generated by inactive as well as active neurons. The first prediction is that a subject’s conscious experience at a time can be affected by the disabling of neurons that were already inactive at that time. The second is that even if a subject’s entire brain is “silent,” meaning that all of its neurons are inactive (but not disabled), the subject can still have a conscious experience. A few authors have noted the implausibility of these predictions—which I call the disabling prediction and the silent brain prediction—but none have considered whether they are testable. In this article, I argue that they are not. In order to make this case, I first try to clarify the distinction between active, inactive (i.e. silent), and inactivated (i.e. disabled) neurons. With this clarification in place, I show that, even putting aside practical difficulties, it is impossible to set up a valid test of either the disabling prediction or the silent brain prediction. The conditions of the tests themselves are conditions under which a response from the subject could not reasonably be interpreted as evidence of consciousness or change in consciousness.
+---
+DOCUMENT
+ID: ss_f8023973be8771a87b1d6ea90139d30be6d8090d
+SOURCE: semantic_scholar
+TITLE: Emergentist Integrated Information Theory
+AUTHORS: Niccolò Negro
+JOURNAL: Erkenntnis
+YEAR: 2022
+CITATIONS: 8
+ABSTRACT: The integrated information theory (IIT) is an ambitious theory of consciousness that aims to provide both a neuroscientific and a metaphysical account of consciousness by identifying consciousness with integrated information. In the philosophical literature, IIT is often associated with a panpsychist worldview. In this paper, I show that IIT can be considered, instead, as a form of emergentism that is incompatible with panpsychism. First, I show that the panpsychist interpretation of IIT is based on two properties of integrated information: intrinsicality and fundamentality. I show that the way IIT deals with these two properties, however, aligns better with emergentism than panpsychism. Then, after plugging some anti-panpsychist assumptions into IIT’s structure, I analyse different philosophical options for interpreting the formal result of causal emergence of integrated information in terms of dependence on and autonomy from its physical substrate. The upshot is that integrated information can be seen as dependent upon the fusion of the cause-effect powers of a physical substrate, and as autonomous in virtue of global-to-local determination. According to this interpretation, consciousness is the constraining power of the system as a whole upon itself, when this power emerges from the fusion on the cause-effect powers of the system’s components.
+---
+DOCUMENT
+ID: ss_f8c689c602f831f2ed14a23811f131b00d278240
+SOURCE: semantic_scholar
+TITLE: In search of lost time: Integrated information theory needs constraints from temporal phenomenology
+AUTHORS: Ishan Singhal, Ramya Mudumba, N. Srinivasan
+JOURNAL: Philosophy and the Mind Sciences
+YEAR: 2022
+CITATIONS: 7
+ABSTRACT: Integrated information theory (IIT) of consciousness proposes an identity between its causal structure and phenomenology. Through this assertion, IIT aims to explain consciousness by prioritizing first-person experience. However, despite its phenomenology-first stance, developments in IIT have overlooked temporality. As such, we argue that at present IIT’s phenomenological analysis is incomplete. In this critique, we show how IIT takes a non-identical illusionist stance towards the experiences of continuity, flow, and extent of our experiences. Moreover, in isolating temporal grains of experience to a single timescale, IIT misses out on capturing the multi-scale nested nature of temporal phenomena. Hence, we contend that IIT needs an axiom for time, through which its causal structure can be refined to account for temporal experiences. Here, we propose an axiom to address these concerns. We conclude by discussing how IIT may need to be revised if our concerns hold true.
+---
+DOCUMENT
+ID: ss_b4ef2609fa5cfd41091bdf929ba78118eaad78a2
+SOURCE: semantic_scholar
+TITLE: Can the Integrated Information Theory Explain Consciousness from Consciousness Itself?
+AUTHORS: Niccolò Negro
+JOURNAL: Review of Philosophy and Psychology
+YEAR: 2022
+CITATIONS: 4
+ABSTRACT: In consciousness science, theories often differ not only in the account of consciousness they arrive at, but also with respect to how they understand their starting point. Some approaches begin with experimentally gathered data, whereas others begin with phenomenologically gathered data. In this paper, I analyse how the most influential phenomenology-first approach, namely the Integrated Information Theory (IIT) of consciousness, fits its phenomenologically gathered data with explanatory hypotheses. First, I show that experimentally driven approaches hit an explanatory roadblock, since we cannot tell, at the present stage, which model of consciousness is best. Then, I show that IIT’s phenomenology-first approach implies a self-evidencing explanation according to which consciousness can be explained by starting from consciousness itself. I claim that IIT can take advantage of the virtuous circularity of this reasoning, but it also faces a data-fitting issue that is somehow similar to that faced by experiment-driven approaches: we are not given enough information to decide whether the explanatory hypotheses IIT employs to explain its phenomenological data are in fact best. I call this problem “the self-evidencing problem” for IIT, and after introducing it, I propose a possible way for IIT to solve it.
+---
+DOCUMENT
+ID: ss_5c9dbd987b018e1260355da59fc3261225c1cee9
+SOURCE: semantic_scholar
+TITLE: Consciousness and complexity: Neurobiological naturalism and integrated information theory.
+AUTHORS: F. Ellia, Robert Chis-Ciure
+JOURNAL: Consciousness and cognition
+YEAR: 2021
+CITATIONS: 16
+ABSTRACT: In this paper we take a meta-theoretical stance and compare and assess two conceptual frameworks that endeavor to explain phenomenal experience. In particular, we compare Feinberg & Mallatt's Neurobiological Naturalism (NN) and Tononi's and colleagues Integrated Information Theory (IIT), given that the former pointed out some similarities between the two theories (Feinberg & Mallatt 2016c-d). To probe their similarity, we first give a general introduction into both frameworks. Next, we expound a ground-plan for carrying out our analysis. We move on to articulate a philosophical profile of NN and IIT, addressing their ontological commitments and epistemological foundations. Finally, we compare the two point-by-point, also discussing how they stand on the issue of artificial consciousness.
+---
+DOCUMENT
+ID: ss_5893309767cf760fa5a840c6c83b27bf99c139fb
+SOURCE: semantic_scholar
+TITLE: Awareness and integrated information theory identify plant meristems as sites of conscious activity
+AUTHORS: A. Trewavas
+JOURNAL: Protoplasma
+YEAR: 2021
+CITATIONS: 18
+ABSTRACT: Lacking an anatomical brain/nervous system, it is assumed plants are not conscious. The biological function of consciousness is an input to behaviour; it is adaptive (subject to selection) and based on information. Complex language makes human consciousness unique. Consciousness is equated to awareness. All organisms are aware of their surroundings, modifying their behaviour to improve survival. Awareness requires assessment too. The mechanisms of animal assessment are neural while molecular and electrical in plants. Awareness of plants being also consciousness may resolve controversy. The integrated information theory (IIT), a leading theory of consciousness, is also blind to brains, nerves and synapses. The integrated information theory indicates plant awareness involves information of two kinds: (1) communicative, extrinsic information as a result of the perception of environmental changes and (2) integrated intrinsic information located in the shoot and root meristems and possibly cambium. The combination of information constructs an information nexus in the meristems leading to assessment and behaviour. The interpretation of integrated information in meristems probably involves the complex networks built around [Ca 2+ ]i that also enable plant learning, memory and intelligent activities. A mature plant contains a large number of conjoined, conscious or aware, meristems possibly unique in the living kingdom.
+---
+DOCUMENT
+ID: ss_d3a46ab43604ec9ca0917ddc658cc28bde3fd31c
+SOURCE: semantic_scholar
+TITLE: Integrated information theory does not make plant consciousness more convincing.
+AUTHORS: J. Mallatt, L. Taiz, A. Draguhn, M. Blatt, David G. Robinson
+JOURNAL: Biochemical and biophysical research communications
+YEAR: 2021
+CITATIONS: 16
+ABSTRACT: It has been proposed by some plant scientists that plants are cognitive and conscious organisms, although this is a minority view. Here we present a brief summary of some of the arguments against this view, followed by a critique of an article in this same issue of Biochemical and Biophysical Research Communications by Calvo, Baluska, and Trewavas (2020) that cites Integrated Information Theory (IIT) as providing additional support for plant consciousness. The authors base their argument on the assumptions that all cells are conscious and that consciousness is confined to life. However, IIT allows for consciousness in various nonliving systems, and thus does not restrict consciousness to living organisms. Therefore, IIT cannot be used to prove plant consciousness, for which there is neither empirical evidence nor support from other, neuron-based, theories of consciousness.
+---
+DOCUMENT
+ID: ss_a1a644b4e344e1a20d8e4a383307fdb2be2af7ae
+SOURCE: semantic_scholar
+TITLE: A Traditional Scientific Perspective on the Integrated Information Theory of Consciousness
+AUTHORS: J. Mallatt
+JOURNAL: Entropy
+YEAR: 2021
+CITATIONS: 14
+ABSTRACT: This paper assesses two different theories for explaining consciousness, a phenomenon that is widely considered amenable to scientific investigation despite its puzzling subjective aspects. I focus on Integrated Information Theory (IIT), which says that consciousness is integrated information (as ϕMax) and says even simple systems with interacting parts possess some consciousness. First, I evaluate IIT on its own merits. Second, I compare it to a more traditionally derived theory called Neurobiological Naturalism (NN), which says consciousness is an evolved, emergent feature of complex brains. Comparing these theories is informative because it reveals strengths and weaknesses of each, thereby suggesting better ways to study consciousness in the future. IIT’s strengths are the reasonable axioms at its core; its strong logic and mathematical formalism; its creative “experience-first” approach to studying consciousness; the way it avoids the mind-body (“hard”) problem; its consistency with evolutionary theory; and its many scientifically testable predictions. The potential weakness of IIT is that it contains stretches of logic-based reasoning that were not checked against hard evidence when the theory was being constructed, whereas scientific arguments require such supporting evidence to keep the reasoning on course. This is less of a concern for the other theory, NN, because it incorporated evidence much earlier in its construction process. NN is a less mature theory than IIT, less formalized and quantitative, and less well tested. However, it has identified its own neural correlates of consciousness (NCC) and offers a roadmap through which these NNCs may answer the questions of consciousness using the hypothesize-test-hypothesize-test steps of the scientific method.
+---
+DOCUMENT
+ID: ss_7eef5edf0f581b99a6be3518a93da5bace65a648
+SOURCE: semantic_scholar
+TITLE: PyPhi: A toolbox for integrated information theory
+AUTHORS: Will Mayner, W. Marshall, L. Albantakis, Graham Findlay, Robert Marchman, G. Tononi
+JOURNAL: PLoS Computational Biology
+YEAR: 2017
+CITATIONS: 109
+ABSTRACT: Integrated information theory provides a mathematical framework to fully characterize the cause-effect structure of a physical system. Here, we introduce PyPhi, a Python software package that implements this framework for causal analysis and unfolds the full cause-effect structure of discrete dynamical systems of binary elements. The software allows users to easily study these structures, serves as an up-to-date reference implementation of the formalisms of integrated information theory, and has been applied in research on complexity, emergence, and certain biological questions. We first provide an overview of the main algorithm and demonstrate PyPhi’s functionality in the course of analyzing an example system, and then describe details of the algorithm’s design and implementation. PyPhi can be installed with Python’s package manager via the command ‘pip install pyphi’ on Linux and macOS systems equipped with Python 3.4 or higher. PyPhi is open-source and licensed under the GPLv3; the source code is hosted on GitHub at https://github.com/wmayner/pyphi. Comprehensive and continually-updated documentation is available at https://pyphi.readthedocs.io. The pyphi-users mailing list can be joined at https://groups.google.com/forum/#!forum/pyphi-users. A web-based graphical interface to the software is available at http://integratedinformationtheory.org/calculate.html.
+---
+DOCUMENT
+ID: ss_fa6f830d0449a36ac671948157f200d4b0252001
+SOURCE: semantic_scholar
+TITLE: On the axiomatic foundations of the integrated information theory of consciousness
+AUTHORS: T. Bayne
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2018
+CITATIONS: 116
+ABSTRACT: Abstract The integrated information theory (IIT) is one of the most influential scientific theories of consciousness. It functions as a guiding framework for a great deal of research into the neural basis of consciousness and for attempts to develop a consciousness meter. In light of these developments, it is important to examine whether its foundations are secure. This article does just that by examining the axiomatic method that the architects of IIT appeal to. I begin by asking what exactly the axiomatic method involves, arguing that it is open to multiple interpretations. I then examine the five axioms of IIT, asking: what each axiom means, whether it is indeed axiomatic and whether it could constrain a theory of consciousness. I argue that none of the five alleged axioms is able to play the role that is required of it, either because it fails to qualify as axiomatic or because it fails to impose a substantive constraint on a theory of consciousness. The article concludes by briefly sketching an alternative methodology for the science of consciousness: the natural kind approach.
+---
+DOCUMENT
+ID: ss_f26bb4620cb36463f422c20f6eb903d7559e390c
+SOURCE: semantic_scholar
+TITLE: The Mathematical Structure of Integrated Information Theory
+AUTHORS: Johannes Kleiner, S. Tull
+JOURNAL: 
+YEAR: 2020
+CITATIONS: 47
+ABSTRACT: Integrated Information Theory is one of the leading models of consciousness. It aims to describe both the quality and quantity of the conscious experience of a physical system, such as the brain, in a particular state. In this contribution, we propound the mathematical structure of the theory, separating the essentials from auxiliary formal tools. We provide a definition of a generalized IIT which has IIT 3.0 of Tononi et al., as well as the Quantum IIT introduced by Zanardi et al. as special cases. This provides an axiomatic definition of the theory which may serve as the starting point for future formal investigations and as an introduction suitable for researchers with a formal background.
+---
+DOCUMENT
+ID: ss_b5046760c2492115dffbe4f43eeddf9e9a1e7f65
+SOURCE: semantic_scholar
+TITLE: On the non-uniqueness problem in integrated information theory
+AUTHORS: J. Hanson, S. Walker
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2021
+CITATIONS: 10
+ABSTRACT: Integrated Information Theory is currently the leading mathematical theory of consciousness. The core of the theory relies on the calculation of a scalar mathematical measure of consciousness, Φ, which is deduced from the phenomenological axioms of the theory. Here, we show that despite its widespread use, Φ is not a well-defined mathematical concept in the sense that the value it specifies is neither unique nor specific. This problem, occasionally referred to as “undetermined qualia”, is the result of degeneracies in the optimization routine used to calculate Φ, which leads to ambiguities in determining the consciousness of systems under study. As demonstration, we first apply the mathematical definition of Φ to a simple AND+OR logic gate system and show 83 non-unique Φ values result, spanning a substantial portion of the range of possibilities. We then introduce a Python package called PyPhi-Spectrum which, unlike currently available packages, delivers the entire spectrum of possible Φ values for a given system. We apply this to a variety of examples of recently published calculations of Φ and show how virtually all Φ values from the sampled literature are chosen arbitrarily from a set of non-unique possibilities, the full range of which often includes both conscious and unconscious predictions. Lastly, we review proposed solutions to this degeneracy problem, and find none to provide a satisfactory solution, either because they fail to specify a unique Φ value or yield Φ = 0 for systems that are clearly integrated. We conclude with a discussion of requirements moving forward for scientifically valid theories of consciousness that avoid these degeneracy issues.
+---
+DOCUMENT
+ID: ss_88cf145bf90b344a1f17e92574fa237450a30197
+SOURCE: semantic_scholar
+TITLE: Finding continuity and discontinuity in fish schools via integrated information theory
+AUTHORS: T. Niizato, Kotaro Sakamoto, Yoh-ichi Mototake, H. Murakami, Takenori Tomaru, Tomotaro Hoshika, Toshiki Fukushima
+JOURNAL: PLoS ONE
+YEAR: 2020
+CITATIONS: 26
+ABSTRACT: Collective behaviours are known to be the result of diverse dynamics and are sometimes likened to living systems. Although many studies have revealed the dynamics of various collective behaviours, their main focus has been on the information processing performed by the collective, not on interactions within the collective. For example, the qualitative difference between three and four elements in a system has rarely been investigated. Tononi et al. proposed integrated information theory (IIT) to measure the degree of consciousness Φ. IIT postulates that the amount of information loss caused by the minimum information partition is equivalent to the degree of information integration in the system. This measure is not only useful for estimating the degree of consciousness but can also be applied to more general network systems. Here, we obtained two main results from the application of IIT (in particular, IIT 3.0) to the analysis of real fish schools (Plecoglossus altivelis). First, we observed that the discontinuity on 〈Φ(N)〉 distributions emerges for a school of four or more fish. This transition was not observed by measuring the mutual information or the sum of the transfer entropy. We also analysed the IIT on Boids simulations with respect to different coupling strengths; however, the results of the Boids model were found to be quite different from those of real fish. Second, we found a correlation between this discontinuity and the emergence of leadership. We discriminate leadership in this paper from its traditional meaning (e.g. defined by transfer entropy) because IIT-induced leadership refers not to group behaviour, as in other methods, but the degree of autonomy (i.e. group integrity). These results suggest that integrated information Φ can reveal the emergence of a new type of leadership which cannot be observed using other measures.
+---
+DOCUMENT
+ID: ss_975f8e9122b403e8162e3d3b96979fe18ff33730
+SOURCE: semantic_scholar
+TITLE: Classical Mathematical Integrated Information Theory
+AUTHORS: Siddhartha Sharma
+JOURNAL: 
+YEAR: 2021
+CITATIONS: 0
+ABSTRACT: This paper is an attempt to give mathematical structure to classical integrated information theory by Masafumi Oizumi, Larissa Albantakis, Giulio Tononi, using the definition provided by Giulio Tononi and making few assumptions like the mechanisms are open subset of set of elements and system is the topology of the set of elements. This would make IIT accessible to a wide audience, with more formal basis who can then apply it to non-biological objects too.
+---
+DOCUMENT
+ID: ss_fdde19bc2cb96ae24ac0d3e640c8db26a3be81b8
+SOURCE: semantic_scholar
+TITLE: Scaling Behaviour and Critical Phase Transitions in Integrated Information Theory
+AUTHORS: Miguel Aguilera
+JOURNAL: Entropy
+YEAR: 2019
+CITATIONS: 18
+ABSTRACT: Integrated Information Theory proposes a measure of conscious activity (Φ), characterised as the irreducibility of a dynamical system to the sum of its components. Due to its computational cost, current versions of the theory (IIT 3.0) are difficult to apply to systems larger than a dozen units, and, in general, it is not well known how integrated information scales as systems grow larger in size. In this article, we propose to study the scaling behaviour of integrated information in a simple model of a critical phase transition: an infinite-range kinetic Ising model. In this model, we assume a homogeneous distribution of couplings to simplify the computation of integrated information. This simplified model allows us to critically review some of the design assumptions behind the measure and connect its properties with well-known phenomena in phase transitions in statistical mechanics. As a result, we point to some aspects of the mathematical definitions of IIT that 3.0 fail to capture critical phase transitions and propose a reformulation of the assumptions made by integrated information measures.
+---
+DOCUMENT
+ID: ss_653fbc26addf99dfc06965c23d9fce43898d624c
+SOURCE: semantic_scholar
+TITLE: Informational Structures and Informational Fields as a Prototype for the Description of Postulates of the Integrated Information Theory
+AUTHORS: Piotr Kalita, J. Langa, F. Soler-Toscano
+JOURNAL: Entropy
+YEAR: 2019
+CITATIONS: 19
+ABSTRACT: Informational Structures (IS) and Informational Fields (IF) have been recently introduced to deal with a continuous dynamical systems-based approach to Integrated Information Theory (IIT). IS and IF contain all the geometrical and topological constraints in the phase space. This allows one to characterize all the past and future dynamical scenarios for a system in any particular state. In this paper, we develop further steps in this direction, describing a proper continuous framework for an abstract formulation, which could serve as a prototype of the IIT postulates.
+---
+DOCUMENT
+ID: ss_e3ba73a0b1b10c33df57e1b4d7ca78af3886ae69
+SOURCE: semantic_scholar
+TITLE: Integrated Information Theory and Isomorphic Feed-Forward Philosophical Zombies
+AUTHORS: J. Hanson, S. Walker
+JOURNAL: Entropy
+YEAR: 2019
+CITATIONS: 16
+ABSTRACT: Any theory amenable to scientific inquiry must have testable consequences. This minimal criterion is uniquely challenging for the study of consciousness, as we do not know if it is possible to confirm via observation from the outside whether or not a physical system knows what it feels like to have an inside—a challenge referred to as the “hard problem” of consciousness. To arrive at a theory of consciousness, the hard problem has motivated development of phenomenological approaches that adopt assumptions of what properties consciousness has based on first-hand experience and, from these, derive the physical processes that give rise to these properties. A leading theory adopting this approach is Integrated Information Theory (IIT), which assumes our subjective experience is a “unified whole”, subsequently yielding a requirement for physical feedback as a necessary condition for consciousness. Here, we develop a mathematical framework to assess the validity of this assumption by testing it in the context of isomorphic physical systems with and without feedback. The isomorphism allows us to isolate changes in Φ without affecting the size or functionality of the original system. Indeed, the only mathematical difference between a “conscious” system with Φ>0 and an isomorphic “philosophical zombie” with Φ=0 is a permutation of the binary labels used to internally represent functional states. This implies Φ is sensitive to functionally arbitrary aspects of a particular labeling scheme, with no clear justification in terms of phenomenological differences. In light of this, we argue any quantitative theory of consciousness, including IIT, should be invariant under isomorphisms if it is to avoid the existence of isomorphic philosophical zombies and the epistemological problems they pose.
+---
+DOCUMENT
+ID: ss_5cc275a37f149bdc22b7c37f56e3102b8765c1af
+SOURCE: semantic_scholar
+TITLE: Of integrated information theory: a philosophical evaluation
+AUTHORS: Hao-Ying Liu
+JOURNAL: Philosophical Psychology
+YEAR: 2020
+CITATIONS: 2
+ABSTRACT: ABSTRACT Tononi’s Integrated Information Theory (IIT) explains consciousness as integrated information (Φ), that is, the informational state produced by the whole system over the sum of its parts. Many philosophers are drawn to IIT, for it offers a way to explain consciousness in a systematic mathematical form. In this paper, I assess whether IIT satisfies the demands of philosophers. I argue that IIT cannot address the “hard problem” of consciousness. In particular, even though IIT is not a standard form of functionalism, some arguments against functionalism (such as absent qualia and inverted spectrum) can be adapted to refute IIT. Besides the concern about the hard problem, I also argue that IIT implies that consciousness is epiphenomenal, and that consciousness identified with integrated information is not a fundamental property. Despite Tononi’s claim to the contrary, integrated information is not ontologically fundamental because it is grounded in the causal relations within a system.
+---
+DOCUMENT
+ID: ss_67409ec39b0704bdb47ad389c56c7bb7c8fb31e8
+SOURCE: semantic_scholar
+TITLE: Efficient Algorithms for Searching the Minimum Information Partition in Integrated Information Theory
+AUTHORS: Jun Kitazono, R. Kanai, Masafumi Oizumi
+JOURNAL: Entropy
+YEAR: 2017
+CITATIONS: 44
+ABSTRACT: The ability to integrate information in the brain is considered to be an essential property for cognition and consciousness. Integrated Information Theory (IIT) hypothesizes that the amount of integrated information (Φ) in the brain is related to the level of consciousness. IIT proposes that, to quantify information integration in a system as a whole, integrated information should be measured across the partition of the system at which information loss caused by partitioning is minimized, called the Minimum Information Partition (MIP). The computational cost for exhaustively searching for the MIP grows exponentially with system size, making it difficult to apply IIT to real neural data. It has been previously shown that, if a measure of Φ satisfies a mathematical property, submodularity, the MIP can be found in a polynomial order by an optimization algorithm. However, although the first version of Φ is submodular, the later versions are not. In this study, we empirically explore to what extent the algorithm can be applied to the non-submodular measures of Φ by evaluating the accuracy of the algorithm in simulated data and real neural data. We find that the algorithm identifies the MIP in a nearly perfect manner even for the non-submodular measures. Our results show that the algorithm allows us to measure Φ in large systems within a practical amount of time.
+---
+DOCUMENT
+ID: ss_3f41a00581d0c86663db0a2a37f4191d8619096a
+SOURCE: semantic_scholar
+TITLE: Circumnavigating the causal pairing problem with hylomorphism and the integrated information theory of consciousness
+AUTHORS: Matthew Owen
+JOURNAL: Synthese
+YEAR: 2019
+CITATIONS: 7
+ABSTRACT: The causal pairing problem allegedly renders nonphysical minds causally impotent. This article demonstrates how a dualist view I call neo-Thomistic hylomorphism can circumnavigate the causal pairing problem. After explicating the problem and hylomorphism, I provide an account of causal pairing that appeals to a foundational tenet of hylomorphism. Subsequently, I suggest that a prominent view of consciousness in theoretical neuroscience—the integrated information theory—can learn from hylomorphism and likewise account for causal pairing.
+---
+DOCUMENT
+ID: ss_f1b9533cfa7cb38ccb98cbde9ce4bf155a998c83
+SOURCE: semantic_scholar
+TITLE: What Does ‘Information’ Mean in Integrated Information Theory?
+AUTHORS: O. Lombardi, Cristian López
+JOURNAL: Entropy
+YEAR: 2018
+CITATIONS: 17
+ABSTRACT: Integrated Information Theory (IIT) intends to provide a principled theoretical approach able to characterize consciousness both quantitatively and qualitatively. By starting off identifying the fundamental properties of experience itself, IIT develops a formal framework that relates those properties to the physical substratum of consciousness. One of the central features of ITT is the role that information plays in the theory. On the one hand, one of the self-evident truths about consciousness is that it is informative. On the other hand, mechanisms and systems of mechanics can contribute to consciousness only if they specify systems’ intrinsic information. In this paper, we will conceptually analyze the notion of information underlying ITT. Following previous work on the matter, we will particularly argue that information within ITT should be understood in the light of a causal-manipulabilist view of information (López and Lombardi 2018), conforming to which information is an entity that must be involved in causal links in order to be precisely defined. Those causal links are brought to light by means of interventionist procedures following Woodward’s and Pearl’s version of the manipulability theories of causation.
+---
+DOCUMENT
+ID: ss_4e48fc0505a721b2c1f53aad27b5b659dc6c638a
+SOURCE: semantic_scholar
+TITLE: Making Sense of Consciousness as Integrated Information: Evolution and Issues of Integrated Information Theory
+AUTHORS: Kyumin Moon, Hongju Pae
+JOURNAL: Journal of Cognitive Science
+YEAR: 2018
+CITATIONS: 9
+ABSTRACT: The purpose of this article is to provide an overall critical appraisal of Integrated Information Theory(IIT) of consciousness. We explore how it has evolved and what problems are involved in the theory. IIT is a hypothesis that consciousness can be explained in terms of integrated information. It argues that a number of fundamental properties of experience can be properly analyzed and explained by physical systems' informational properties. Throughout the last decade, there have been many advances in IIT's theoretical structure and mathematical model. In addition, like all hypotheses in the field of science of consciousness, IIT has given rise to several controversies and issues. In this context, a critical survey for IIT is urgently needed. To this end, we first introduce fundamental concepts of IIT and related issues. Thereafter, we discuss major transitions IIT has been through and point out related intra-model issues. Finally, in the last section, some theoretical, extra-model issues involved in IIT's principles are presented. The article concludes by suggesting that, for the sake of future development, IIT should more seriously take metacognitive accessibility to experience.
+---
+DOCUMENT
+ID: ss_2f5e180df3e7a63207fda301e2938b724cf28b93
+SOURCE: semantic_scholar
+TITLE: Using category theory to assess the relationship between consciousness and integrated information theory.
+AUTHORS: Naotsugu Tsuchiya, S. Taguchi, H. Saigo
+JOURNAL: Neuroscience research
+YEAR: 2016
+CITATIONS: 75
+ABSTRACT: One of the most mysterious phenomena in science is the nature of conscious experience. Due to its subjective nature, a reductionist approach is having a hard time in addressing some fundamental questions about consciousness. These questions are squarely and quantitatively tackled by a recently developed theoretical framework, called integrated information theory (IIT) of consciousness. In particular, IIT proposes that a maximally irreducible conceptual structure (MICS) is identical to conscious experience. However, there has been no principled way to assess the claimed identity. Here, we propose to apply a mathematical formalism, category theory, to assess the proposed identity and suggest that it is important to consider if there exists a proper translation between the domain of conscious experience and that of the MICS. If such translation exists, we postulate that questions in one domain can be answered in the other domain; very difficult questions in the domain of consciousness can be resolved in the domain of mathematics. We claim that it is possible to empirically test if such a functor exists, by using a combination of neuroscientific and computational approaches. Our general, principled and empirical framework allows us to assess the relationship between the domain of consciousness and the domain of mathematical structures, including those suggested by IIT.
+---
+DOCUMENT
+ID: ss_843c5713d48c0ce1a1312adffa2dfd73b8632882
+SOURCE: semantic_scholar
+TITLE: The integrated information theory of consciousness: A case of mistaken identity
+AUTHORS: G. Tononi, M. Boly, Matteo Grasso, Jeremiah Hendren, Bjorn E. Juel, William G. P. Mayner, W. Marshall, Christof Koch
+JOURNAL: Behavioral and Brain Sciences
+YEAR: 2016
+CITATIONS: 55
+ABSTRACT: Abstract Giulio Tononi's integrated information theory (IIT) proposes explaining consciousness by directly identifying it with integrated information. We examine the construct validity of IIT's measure of consciousness, phi (Φ), by analyzing its formal properties, its relation to key aspects of consciousness, and its co-variation with relevant empirical circumstances. Our analysis shows that IIT's identification of consciousness with the causal efficacy with which differentiated networks accomplish global information transfer (which is what Φ in fact measures) is mistaken. This misidentification has the consequence of requiring the attribution of consciousness to a range of natural systems and artifacts that include, but are not limited to, large-scale electrical power grids, gene-regulation networks, some electronic circuit boards, and social networks. Instead of treating this consequence of the theory as a disconfirmation, IIT embraces it. By regarding these systems as bearers of consciousness ex hypothesi, IIT is led toward the orbit of panpsychist ideation. This departure from science as we know it can be avoided by recognizing the functional misattribution at the heart of IIT's identity claim. We show, for example, what function is actually performed, at least in the human case, by the cortical combination of differentiation with integration that IIT identifies with consciousness. Finally, we examine what lessons may be drawn from IIT's failure to provide a credible account of consciousness for progress in the very active field of research concerned with exploring the phenomenon from formal and neural points of view.
+---
+DOCUMENT
+ID: ss_901e1e809d2e0b2f9869e4de8ab67bd376443c4e
+SOURCE: semantic_scholar
+TITLE: Finding Continuity and Discontinuity in Fish Schools via Integrated Information Theory.
+AUTHORS: T. Niizato, Kotaro Sakamoto, Yoh-ichi Mototake, Takenori Tomaru, Tomotaro Hoshika, Toshiki Fukushima
+JOURNAL: arXiv: Physics and Society
+YEAR: 2018
+CITATIONS: 5
+ABSTRACT: Collective behaviour is known to be the result of diverse dynamics and is sometimes likened to a living system. Although many studies have revealed the dynamics of various collective behaviours, their main focus was on the information process inside the collective, not on the whole system itself. For example, the qualitative difference between two elements and three elements as a system has rarely been investigated. Tononi et al. have proposed Integrated Information Theory (IIT) to measure the degree of consciousness $\Phi$. IIT postulates that the amount of information loss caused by certain partitions is equivalent to the degree of information integration in the system. This measure is not only useful for estimating the degree of consciousness but can also be applied to more general network systems. Here we applied IIT (in particular, IIT 3.0 using PyPhi) to analyse real fish schools ({\it Plecoglossus altivelis}). Our hypothesis in this study is a very simple one: a living system evolves to raise its $\Phi$ value. If we accept this hypothesis, IIT reveals the existence of continuous and discontinuous properties as group size varies. For example, leadership in the fish school emerged for a school size of four or above; but not below three. Furthermore, this transition was not observed by measuring mutual information or in a simple Boids model. This result suggests that integrated information $\Phi$ can reveal some inherent properties which cannot be observed using other measures. We also discuss how the fish recognition of the figure-ground relation, that is, what determines the relevant ON and OFF states, may reveal various optimal paths for obtaining the functional evolution of collective behaviour.
+---
+DOCUMENT
+ID: ss_d07aed8c4383e307ebba2cf73341115929b374d4
+SOURCE: semantic_scholar
+TITLE: The Problem with Phi: A Critique of Integrated Information Theory
+AUTHORS: Michael A. Cerullo
+JOURNAL: PLoS Computational Biology
+YEAR: 2015
+CITATIONS: 112
+ABSTRACT: Summary In the last decade, Guilio Tononi has developed the Integrated Information Theory (IIT) of consciousness. IIT postulates that consciousness is equal to integrated information (F). The goal of this paper is to show that IIT fails in its stated goal of quantifying consciousness. The paper will challenge the theoretical and empirical arguments in support of IIT. The main theoretical argument for the relevance of integrated information to consciousness is the principle of information exclusion. Yet, no justification is given to support this principle. Tononi claims there is significant empirical support for IIT, but this is called into question by the creation of a trivial theory of consciousness with equal explanatory power. After examining the theoretical and empirical evidence for IIT, arguments from philosophy of mind and epistemology will be examined. Since IIT is not a form of computational functionalism, it is vulnerable to fading/ dancing qualia arguments. Finally, the limitations of the phenomenological approach to studying consciousness are examined, and it will be shown that IIT is a theory of protoconsciousness rather than a theory of consciousness.
+---
+DOCUMENT
+ID: ss_f57187d8ba537c22f95a93e244a98e765d746585
+SOURCE: semantic_scholar
+TITLE: Adversarial testing of global neuronal workspace and integrated information theories of consciousness
+AUTHORS: Oscar Ferrante, Urszula Gorska-Klimowska, Simon Henin, Rony Hirschhorn, A. Khalaf, Alex Lepauvre, Ling Liu, David Richter, Yamil Vidal, Niccolò Bonacchi, Tanya Brown, P. Sripad, Marcelo Armendariz, Katarina Bendtz, Tara Ghafari, Dorottya Hetenyi, Jay Jeschke, Csaba Kozma, David R. Mazumder, Stephanie Montenegro, Alia Seedat, Abdelrahman Sharafeldin, Shujun Yang, S. Baillet, David J. Chalmers, Radoslaw M. Cichy, F. Fallon, T. Panagiotaropoulos, H. Blumenfeld, F. D. de Lange, S. Devore, Ole Jensen, G. Kreiman, Huan Luo, M. Boly, S. Dehaene, Christof Koch, G. Tononi, Michael Pitts, L. Mudrik, L. Melloni
+JOURNAL: Nature
+YEAR: 2025
+CITATIONS: 142
+ABSTRACT: Different theories explain how subjective experience arises from brain activity1,2. These theories have independently accrued evidence, but have not been directly compared3. Here we present an open science adversarial collaboration directly juxtaposing integrated information theory (IIT)4,5 and global neuronal workspace theory (GNWT)6, 7, 8, 9–10 via a theory-neutral consortium11, 12–13. The theory proponents and the consortium developed and preregistered the experimental design, divergent predictions, expected outcomes and interpretation thereof12. Human participants (n = 256) viewed suprathreshold stimuli for variable durations while neural activity was measured with functional magnetic resonance imaging, magnetoencephalography and intracranial electroencephalography. We found information about conscious content in visual, ventrotemporal and inferior frontal cortex, with sustained responses in occipital and lateral temporal cortex reflecting stimulus duration, and content-specific synchronization between frontal and early visual areas. These results align with some predictions of IIT and GNWT, while substantially challenging key tenets of both theories. For IIT, a lack of sustained synchronization within the posterior cortex contradicts the claim that network connectivity specifies consciousness. GNWT is challenged by the general lack of ignition at stimulus offset and limited representation of certain conscious dimensions in the prefrontal cortex. These challenges extend to other theories of consciousness that share some of the predictions tested here14, 15, 16–17. Beyond challenging the theories, we present an alternative approach to advance cognitive neuroscience through principled, theory-driven, collaborative research and highlight the need for a quantitative framework for systematic theory testing and building. Multimodal results (iEEG, fMRI and MEG) of predictions from integrated information theory and global neuronal workspace theory align with some predictions of both theories on visual consciousness, but also critically challenge key tenets of both theories.
+---
+DOCUMENT
+ID: ss_3076b6637e025c7d66bfaa0230f9925083c6e597
+SOURCE: semantic_scholar
+TITLE: Restructuring consciousness –the psychedelic state in light of integrated information theory
+AUTHORS: A. Gallimore
+JOURNAL: Frontiers in Human Neuroscience
+YEAR: 2015
+CITATIONS: 50
+ABSTRACT: The psychological state elicited by the classic psychedelics drugs, such as LSD and psilocybin, is one of the most fascinating and yet least understood states of consciousness. However, with the advent of modern functional neuroimaging techniques, the effect of these drugs on neural activity is now being revealed, although many of the varied phenomenological features of the psychedelic state remain challenging to explain. Integrated information theory (IIT) is one of the foremost contemporary theories of consciousness, providing a mathematical formalization of both the quantity and quality of conscious experience. This theory can be applied to all known states of consciousness, including the psychedelic state. Using the results of functional neuroimaging data on the psychedelic state, the effects of psychedelic drugs on both the level and structure of consciousness can be explained in terms of the conceptual framework of IIT. This new IIT-based model of the psychedelic state provides an explanation for many of its phenomenological features, including unconstrained cognition, alterations in the structure and meaning of concepts and a sense of expanded awareness. This model also suggests that whilst cognitive flexibility, creativity, and imagination are enhanced during the psychedelic state, this occurs at the expense of cause-effect information, as well as degrading the brain's ability to organize, categorize, and differentiate the constituents of conscious experience. Furthermore, the model generates specific predictions that can be tested using a combination of functional imaging techniques, as has been applied to the study of levels of consciousness during anesthesia and following brain injury.
+---
+DOCUMENT
+ID: ss_f9471b7ce38579d4875066b07f4e59e4f776b1ec
+SOURCE: semantic_scholar
+TITLE: An integration of integrated information theory with fundamental physics
+AUTHORS: A. Barrett
+JOURNAL: Frontiers in Psychology
+YEAR: 2014
+CITATIONS: 64
+ABSTRACT: To truly eliminate Cartesian ghosts from the science of consciousness, we must describe consciousness as an aspect of the physical. Integrated Information Theory states that consciousness arises from intrinsic information generated by dynamical systems; however existing formulations of this theory are not applicable to standard models of fundamental physical entities. Modern physics has shown that fields are fundamental entities, and in particular that the electromagnetic field is fundamental. Here I hypothesize that consciousness arises from information intrinsic to fundamental fields. This hypothesis unites fundamental physics with what we know empirically about the neuroscience underlying consciousness, and it bypasses the need to consider quantum effects.
+---
+DOCUMENT
+ID: ss_f419ae8436fe9647b2f5c9f2e8ab42ba3c60b7a3
+SOURCE: semantic_scholar
+TITLE: Sensing With Communication Signals: From Information Theory to Signal Processing
+AUTHORS: Fan Liu, Ya-Feng Liu, Yuan-Hao Cui, C. Masouros, Jie Xu, Tony Xiao Han, Stefano Buzzi, Y. Eldar, Shi Jin
+JOURNAL: IEEE Journal on Selected Areas in Communications
+YEAR: 2025
+CITATIONS: 56
+ABSTRACT: The Integrated Sensing and Communications (ISAC) paradigm is anticipated to be a cornerstone of the upcoming 6G networks. In order to optimize the use of wireless resources, 6G ISAC systems need to harness the communication data payload signals, which are inherently random, for both sensing and communication (S&C) purposes. This tutorial paper provides a comprehensive technical overview of the fundamental theory and signal processing methodologies for ISAC transmission with random communication signals. We begin by introducing the deterministic-random tradeoff (DRT) between S&C from an information-theoretic perspective, emphasizing the need for specialized signal processing techniques tailored to random ISAC signals. Building on this foundation, we review the core signal models and processing pipelines for communication-centric ISAC systems, and analyze the average squared auto-correlation function (ACF) of random ISAC signals, which serves as a fundamental performance metric for multi-target ranging tasks. Drawing insights from these theoretical results, we outline the design principles for the three key components of communication-centric ISAC systems: modulation schemes, constellation design, and pulse shaping filters. The goal is to either enhance sensing performance without compromising communication efficiency or to establish a scalable tradeoff between the two. We then extend our analysis from a single-antenna ISAC system to its multi-antenna counterpart, discussing recent advancements in multi-input multi-output (MIMO) precoding techniques specifically designed for random ISAC signals. We conclude by highlighting several open challenges and future research directions in the field of sensing with communication signals.
+---
+DOCUMENT
+ID: ss_6ad514b0a607e13c5334ba1f741a45b1edd83fc3
+SOURCE: semantic_scholar
+TITLE: An Integrated World Modeling Theory (IWMT) of Consciousness: Combining Integrated Information and Global Neuronal Workspace Theories With the Free Energy Principle and Active Inference Framework; Toward Solving the Hard Problem and Characterizing Agentic Causation
+AUTHORS: A. Safron
+JOURNAL: Frontiers in Artificial Intelligence
+YEAR: 2019
+CITATIONS: 94
+ABSTRACT: The Free Energy Principle and Active Inference Framework (FEP-AI) begins with the understanding that persisting systems must regulate environmental exchanges and prevent entropic accumulation. In FEP-AI, minds and brains are predictive controllers for autonomous systems, where action-driven perception is realized as probabilistic inference. Integrated Information Theory (IIT) begins with considering the preconditions for a system to intrinsically exist, as well as axioms regarding the nature of consciousness. IIT has produced controversy because of its surprising entailments: quasi-panpsychism; subjectivity without referents or dynamics; and the possibility of fully-intelligent-yet-unconscious brain simulations. Here, I describe how these controversies might be resolved by integrating IIT with FEP-AI, where integrated information only entails consciousness for systems with perspectival reference frames capable of generating models with spatial, temporal, and causal coherence for self and world. Without that connection with external reality, systems could have arbitrarily high amounts of integrated information, but nonetheless would not entail subjective experience. I further describe how an integration of these frameworks may contribute to their evolution as unified systems theories and models of emergent causation. Then, inspired by both Global Neuronal Workspace Theory (GNWT) and the Harmonic Brain Modes framework, I describe how streams of consciousness may emerge as an evolving generation of sensorimotor predictions, with the precise composition of experiences depending on the integration abilities of synchronous complexes as self-organizing harmonic modes (SOHMs). These integrating dynamics may be particularly likely to occur via richly connected subnetworks affording body-centric sources of phenomenal binding and executive control. Along these connectivity backbones, SOHMs are proposed to implement turbo coding via loopy message-passing over predictive (autoencoding) networks, thus generating maximum a posteriori estimates as coherent vectors governing neural evolution, with alpha frequencies generating basic awareness, and cross-frequency phase-coupling within theta frequencies for access consciousness and volitional control. These dynamic cores of integrated information also function as global workspaces, centered on posterior cortices, but capable of being entrained with frontal cortices and interoceptive hierarchies, thus affording agentic causation. Integrated World Modeling Theory (IWMT) represents a synthetic approach to understanding minds that reveals compatibility between leading theories of consciousness, thus enabling inferential synergy.
+---
+DOCUMENT
+ID: ss_b0daa6443f88619f938696da2c7bda9fa731a649
+SOURCE: semantic_scholar
+TITLE: Measuring Integrated Information: Comparison of Candidate Measures in Theory and Simulation
+AUTHORS: P. Mediano, Anil K. Seth, A. Barrett
+JOURNAL: Entropy
+YEAR: 2018
+CITATIONS: 126
+ABSTRACT: Integrated Information Theory (IIT) is a prominent theory of consciousness that has at its centre measures that quantify the extent to which a system generates more information than the sum of its parts. While several candidate measures of integrated information (“Φ”) now exist, little is known about how they compare, especially in terms of their behaviour on non-trivial network models. In this article, we provide clear and intuitive descriptions of six distinct candidate measures. We then explore the properties of each of these measures in simulation on networks consisting of eight interacting nodes, animated with Gaussian linear autoregressive dynamics. We find a striking diversity in the behaviour of these measures—no two measures show consistent agreement across all analyses. A subset of the measures appears to reflect some form of dynamical complexity, in the sense of simultaneous segregation and integration between system components. Our results help guide the operationalisation of IIT and advance the development of measures of integrated information and dynamical complexity that may have more general applicability.
+---
+DOCUMENT
+ID: ss_4ac53cd871d9a38edfb6efe3cf69d8eb7d7869ff
+SOURCE: semantic_scholar
+TITLE: Shannon information and integrated information: message and meaning
+AUTHORS: Alireza Zaeemzadeh, G. Tononi
+JOURNAL: ArXiv
+YEAR: 2024
+CITATIONS: 9
+ABSTRACT: Information theory, introduced by Shannon, has been extremely successful and influential as a mathematical theory of communication. Shannon's notion of information does not consider the meaning of the messages being communicated but only their probability. Even so, computational approaches regularly appeal to"information processing"to study how meaning is encoded and decoded in natural and artificial systems. Here, we contrast Shannon information theory with integrated information theory (IIT), which was developed to account for the presence and properties of consciousness. IIT considers meaning as integrated information and characterizes it as a structure, rather than as a message or code. In principle, IIT's axioms and postulates allow one to"unfold"a cause-effect structure from a substrate in a state, a structure that fully defines the intrinsic meaning of an experience and its contents. It follows that, for the communication of meaning, the cause-effect structures of sender and receiver must be similar.
+---
+DOCUMENT
+ID: ss_58812304fa2d85083fe8487e45e9eaf8a8bb85c7
+SOURCE: semantic_scholar
+TITLE: Robust OFDM integrated radar and communications waveform design based on information theory
+AUTHORS: Yong-Jun Liu, G. Liao, Rick S. Blum, Zhiwei Yang
+JOURNAL: Signal Process.
+YEAR: 2018
+CITATIONS: 78
+ABSTRACT: An integrated radar and communications system (IRCS) is considered where the radar target response and communications channel response are generally frequency selective but the corresponding frequency responses functions are not exactly known. In particular, these frequency responses are only known to lie in an uncertainty class. To ensure the IRCS simultaneously provides acceptable target classification performance and communications rate, a robust orthogonal frequency division multiplexing (OFDM) integrated radar and communications waveform design method is proposed. The approach finds a waveform that provides a sufficiently large weighted sum of the communications data information rate (DIR) and the conditional mutual information (MI) between the observed signal and the radar target over the entire uncertainty class. First, the conditional MI and DIR based on the integrated OFDM waveform are derived. Then, a robust OFDM integrated radar and communications waveform optimization problem based on the minimax design philosophy is developed such that closed-form solution is derived. Finally, several numerical results are presented to demonstrate the effectiveness of the proposed method.
+---
+DOCUMENT
+ID: ss_b2b115cfe7ee9313adf0c48f9dd91e80c305bf3c
+SOURCE: semantic_scholar
+TITLE: Is Consciousness Computable? Quantifying Integrated Information Using Algorithmic Information Theory
+AUTHORS: P. Maguire, Philippe Moser, R. Maguire, V. Griffith
+JOURNAL: ArXiv
+YEAR: 2014
+CITATIONS: 14
+ABSTRACT: In this article we review Tononi's (2008) theory of consciousness as integrated information. We argue that previous formalizations of integrated information (e.g. Griffith, 2014) depend on information loss. Since lossy integration would necessitate continuous damage to existing memories, we propose it is more natural to frame consciousness as a lossless integrative process and provide a formalization of this idea using algorithmic information theory. We prove that complete lossless integration requires noncomputable functions. This result implies that if unitary consciousness exists, it cannot be modelled computationally.
+---
+DOCUMENT
+ID: ss_18a59f7e74a8ba5915c526cf201bba78ac2ef193
+SOURCE: semantic_scholar
+TITLE: The role of management control and integrated information systems for the resilience of SMEs
+AUTHORS: P. Roffia, Marina Dabic
+JOURNAL: Review of Managerial Science
+YEAR: 2023
+CITATIONS: 74
+ABSTRACT: This paper investigates the resilience of small and medium-sized enterprises (SMEs) in relation to the COVID-19 pandemic, particularly the influence exerted by certain factors related to management control, integrated information systems (enterprise resource planning [ERP]), information and communication technology (ICT) systems, and financial resources. For this purpose, leveraging from the dynamic capability theory, in late spring 2020, a questionnaire was sent to limited-liability SMEs in Verona and Vicenza provinces in Italy operating in the manufacturing, construction, and distribution sectors. Respondents were asked to answer a set of questions and to evaluate the resilience of their firms as of January 1, 2020; May 1, 2020; and one year later, as of July 2021. Using a multivariate regression model to analyze data from the 143 questionnaires received, we found a positive influence of budgeting, business continuity tools, availability of supplementary financial resources, and resilience of the entrepreneur on both COVID-19 resilience and the organizational resilience of SMEs. SMEs with a high intention to use ERP systems also had high resilience levels. ICT use for smart working was not statistically significant. Despite the limitations concerning the sample and period considered, we believe that this study contributes to both academic debate, by illustrating the influence of certain managerial and organizational factors on the resilience of SMEs, and practice, by supporting a greater empirical use of management control tools, such as budgets and contingency plans, and integrated information systems (ERP). Our study supports the creation of financial buffers and strengthening the entrepreneur’s resilience for improving SME resilience. L29, M10, M15, C29.
+---
+DOCUMENT
+ID: ss_63d4e72b3b93afc9a64ade7703e48b95f27de682
+SOURCE: semantic_scholar
+TITLE: Computing the Integrated Information of a Quantum Mechanism
+AUTHORS: L. Albantakis, R. Prentner, Ian T. Durham
+JOURNAL: Entropy
+YEAR: 2023
+CITATIONS: 16
+ABSTRACT: Originally conceived as a theory of consciousness, integrated information theory (IIT) provides a theoretical framework intended to characterize the compositional causal information that a system, in its current state, specifies about itself. However, it remains to be determined whether IIT as a theory of consciousness is compatible with quantum mechanics as a theory of microphysics. Here, we present an extension of IIT’s latest formalism to evaluate the mechanism integrated information (φ) of a system subset to discrete, finite-dimensional quantum systems (e.g., quantum logic gates). To that end, we translate a recently developed, unique measure of intrinsic information into a density matrix formulation and extend the notion of conditional independence to accommodate quantum entanglement. The compositional nature of the IIT analysis might shed some light on the internal structure of composite quantum states and operators that cannot be obtained using standard information-theoretical analysis. Finally, our results should inform theoretical arguments about the link between consciousness, causation, and physics from the classical to the quantum.
+---
+DOCUMENT
+ID: ss_18519c33df9e6ac57a48f4db4d2bd5505175d46b
+SOURCE: semantic_scholar
+TITLE: Upper bounds for integrated information
+AUTHORS: Alireza Zaeemzadeh, G. Tononi
+JOURNAL: PLOS Computational Biology
+YEAR: 2023
+CITATIONS: 12
+ABSTRACT: Originally developed as a theory of consciousness, integrated information theory provides a mathematical framework to quantify the causal irreducibility of systems and subsets of units in the system. Specifically, mechanism integrated information quantifies how much of the causal powers of a subset of units in a state, also referred to as a mechanism, cannot be accounted for by its parts. If the causal powers of the mechanism can be fully explained by its parts, it is reducible and its integrated information is zero. Here, we study the upper bound of this measure and how it is achieved. We study mechanisms in isolation, groups of mechanisms, and groups of causal relations among mechanisms. We put forward new theoretical results that show mechanisms that share parts with each other cannot all achieve their maximum. We also introduce techniques to design systems that can maximize the integrated information of a subset of their mechanisms or relations. Our results can potentially be used to exploit the symmetries and constraints to reduce the computations significantly and to compare different connectivity profiles in terms of their maximal achievable integrated information.
+---
+DOCUMENT
+ID: ss_bea51e1a1a407c4b80b2df22b11046b9144f6aec
+SOURCE: semantic_scholar
+TITLE: System Integrated Information
+AUTHORS: W. Marshall, M. Grasso, Will Mayner, Alireza Zaeemzadeh, Leonardo S. Barbosa, Erick J. Chastain, Graham Findlay, Shuntaro Sasai, L. Albantakis, G. Tononi
+JOURNAL: Entropy
+YEAR: 2022
+CITATIONS: 26
+ABSTRACT: Integrated information theory (IIT) starts from consciousness itself and identifies a set of properties (axioms) that are true of every conceivable experience. The axioms are translated into a set of postulates about the substrate of consciousness (called a complex), which are then used to formulate a mathematical framework for assessing both the quality and quantity of experience. The explanatory identity proposed by IIT is that an experience is identical to the cause–effect structure unfolded from a maximally irreducible substrate (a Φ-structure). In this work we introduce a definition for the integrated information of a system (φs) that is based on the existence, intrinsicality, information, and integration postulates of IIT. We explore how notions of determinism, degeneracy, and fault lines in the connectivity impact system-integrated information. We then demonstrate how the proposed measure identifies complexes as systems, the φs of which is greater than the φs of any overlapping candidate systems.
+---
+DOCUMENT
+ID: ss_dc2c043f3f2516ddae4a45185b0c23d10c1d4a7a
+SOURCE: semantic_scholar
+TITLE: Integrated information as a common signature of dynamical and information-processing complexity
+AUTHORS: P. Mediano, F. Rosas, Juan Carlos Farah, M. Shanahan, D. Bor, Adam B Barrett
+JOURNAL: Chaos (Woodbury, N.Y.)
+YEAR: 2021
+CITATIONS: 68
+ABSTRACT: The apparent dichotomy between information-processing and dynamical approaches to complexity science forces researchers to choose between two diverging sets of tools and explanations, creating conflict and often hindering scientific progress. Nonetheless, given the shared theoretical goals between both approaches, it is reasonable to conjecture the existence of underlying common signatures that capture interesting behavior in both dynamical and information-processing systems. Here, we argue that a pragmatic use of integrated information theory (IIT), originally conceived in theoretical neuroscience, can provide a potential unifying framework to study complexity in general multivariate systems. By leveraging metrics put forward by the integrated information decomposition framework, our results reveal that integrated information can effectively capture surprisingly heterogeneous signatures of complexity—including metastability and criticality in networks of coupled oscillators as well as distributed computation and emergent stable particles in cellular automata—without relying on idiosyncratic, ad hoc criteria. These results show how an agnostic use of IIT can provide important steps toward bridging the gap between informational and dynamical approaches to complex systems.
+---
+DOCUMENT
+ID: ss_ce85e3348d66b88883c92d77ebf9f925cc0a1ad4
+SOURCE: semantic_scholar
+TITLE: Mechanism Integrated Information
+AUTHORS: Leonardo S. Barbosa, W. Marshall, L. Albantakis, G. Tononi
+JOURNAL: Entropy
+YEAR: 2021
+CITATIONS: 41
+ABSTRACT: The Integrated Information Theory (IIT) of consciousness starts from essential phenomenological properties, which are then translated into postulates that any physical system must satisfy in order to specify the physical substrate of consciousness. We recently introduced an information measure (Barbosa et al., 2020) that captures three postulates of IIT—existence, intrinsicality and information—and is unique. Here we show that the new measure also satisfies the remaining postulates of IIT—integration and exclusion—and create the framework that identifies maximally irreducible mechanisms. These mechanisms can then form maximally irreducible systems, which in turn will specify the physical substrate of conscious experience.
+---
+DOCUMENT
+ID: ss_c120b6c7ab897fa7799257bebf9e341f4784f324
+SOURCE: semantic_scholar
+TITLE: Facing up to the Hard Problem of Consciousness as an Integrated Information Theorist
+AUTHORS: Robert Chis-Ciure, F. Ellia
+JOURNAL: Foundations of Science
+YEAR: 2021
+CITATIONS: 31
+ABSTRACT: In this paper we provide a philosophical analysis of the Hard Problem of consciousness and the implications of conceivability scenarios for current neuroscientific research. In particular, we focus on one of the most prominent neuroscientific theories of consciousness, integrated information theory (IIT). After a brief introduction on IIT, we present Chalmers’ original formulation and propose our own layered view of the hard problem, showing how 2 separate issues can be distinguished. More specifically, we argue that it’s possible to disentangle a core problem of consciousness from a layered hard problem, the latter being essentially connected to Chalmers’ conceivability argument. We then assess the relation between the Hard Problem and IIT, showing how the theory resists conceivability scenarios, and how it is equipped to face up to the hard problem in its broadest acceptation.
+---
+DOCUMENT
+ID: ss_e6eb53fe681fe3ffb23b90202cb3ff42db6069f8
+SOURCE: semantic_scholar
+TITLE: What Is Consciousness? Integrated Information vs. Inference
+AUTHORS: James E. Cooke
+JOURNAL: Entropy
+YEAR: 2021
+CITATIONS: 6
+ABSTRACT: Any successful naturalistic account of consciousness must state what consciousness is, in terms that are compatible with the rest of our naturalistic descriptions of the world. Integrated Information Theory represents a pioneering attempt to do just this. This theory accounts for the core features of consciousness by holding that there is an equivalence between the phenomenal experience associated with a system and its intrinsic causal power. The proposal, however, fails to provide insight into the qualitative character of consciousness and, as a result of its proposed equivalence between consciousness and purely internal dynamics, into the intentional character of conscious perception. In recent years, an alternate group of theories has been proposed that claims consciousness to be equivalent to certain forms of inference. One such theory is the Living Mirror theory, which holds consciousness to be a form of inference performed by all living systems. The proposal of consciousness as inference overcomes the shortcomings of Integrated Information Theory, particularly in the case of conscious perception. A synthesis of these two perspectives can be reached by appreciating that conscious living systems are self-organising in nature. This mode of organization requires them to have a high level of integration. From this perspective, we can understand consciousness as being dependent on a system possessing non-trivial amounts of integrated information while holding that the process of inference performed by the system is the fact of consciousness itself.
+---
+DOCUMENT
+ID: ss_fa017b6bfb5b15912e509793e258638c9ab78914
+SOURCE: semantic_scholar
+TITLE: Integrated information structure collapses with anesthetic loss of conscious arousal in Drosophila melanogaster
+AUTHORS: Angus Leung, Dror Cohen, B. van Swinderen, N. Tsuchiya
+JOURNAL: PLoS Computational Biology
+YEAR: 2020
+CITATIONS: 37
+ABSTRACT: The physical basis of consciousness remains one of the most elusive concepts in current science. One influential conjecture is that consciousness is to do with some form of causality, measurable through information. The integrated information theory of consciousness (IIT) proposes that conscious experience, filled with rich and specific content, corresponds directly to a hierarchically organised, irreducible pattern of causal interactions; i.e. an integrated informational structure among elements of a system. Here, we tested this conjecture in a simple biological system (fruit flies), estimating the information structure of the system during wakefulness and general anesthesia. We found that causal interactions among populations of neurons during wakefulness collapsed to isolated clusters of interactions during anesthesia. We used classification analysis to quantify the accuracy of discrimination between wakeful and anesthetised states, and found that informational structures inferred conscious states with greater accuracy than a scalar summary of the structure, a measure which is generally championed as the main measure of IIT. Spatially, we found that the information structures collapsed rather uniformly across the fly brain. Our results speak to the potential utility of the novel concept of an “informational structure” as a measure for level of consciousness, above and beyond simple scalar values. Author summary The physical basis of consciousness remains elusive. Efforts to measure consciousness have generally been restricted to simple, scalar quantities which summarise the complexity of a system, inspired by integrated information theory, which links a multi-dimensional, informational structure to the contents of experience in a system. Due to the complexity of the definition of the structure, assessment of its utility as a measure of conscious arousal in a system has largely been ignored. In this manuscript we evaluate the utility of such an information structure in measuring the level of consciousness in the fruit fly. Our results indicate that this structure can be more informative about the level of consciousness in a system than even the scalar summary proposed by the theory itself. These results may push consciousness research towards the notion of multi-dimensional informational structures, instead of traditional summaries.
+---
+DOCUMENT
+ID: ss_d116149d40355254db214b251f5985df9e550edb
+SOURCE: semantic_scholar
+TITLE: Integrated information as a possible basis for plant consciousness.
+AUTHORS: P. Calvo, F. Baluška, A. Trewavas
+JOURNAL: Biochemical and biophysical research communications
+YEAR: 2020
+CITATIONS: 26
+ABSTRACT: It is commonly assumed that plants do not possess consciousness. Since the criterion for this assumption is usually human consciousness this assumption represents a top down attitude. It is obvious that plants are not animals and using animal criteria of consciousness will lead to its rejection in plants. However using a bottom up evolutionary approach and a leading theory of consciousness, Integrated Information Theory, we report that we find evidence that indicates that plant meristems act in a conscious fashion although probably at the level of minimal consciousness. Since many plants contain multiple meristems these observations highlight a very different evolutionary approach to consciousness in biological organisms.
+---
+DOCUMENT
+ID: ss_943695aa2fd4f9ca0fd077e28c5dabaa8ca92399
+SOURCE: semantic_scholar
+TITLE: Role of big data analytics capability in developing integrated hospital supply chains and operational flexibility: An organizational information processing theory perspective
+AUTHORS: Wan-Tao Yu, Gen Zhao, Qi Liu, Yong-Tao Song
+JOURNAL: Technological Forecasting and Social Change
+YEAR: 2020
+CITATIONS: 232
+ABSTRACT: Abstract Despite increasing research interest in big data analytics, exploring its important role in implementing supply chain management practices in healthcare organisations is still one of the major challenges for both academics and practitioners. We propose a research model theoretically grounded on organizational information processing theory (OIPT) to investigate the roles of big data analytics capability (BDAC) in developing hospital supply chain integration (SCI) and operational flexibility. The results from our analysis of survey data from a sample of 105 senior executives from the Chinese hospitals reveal that BDAC has a significant impact on three dimensions of hospital SCI: inter-functional integration, hospital-patient integration, and hospital-supplier integration; and that hospital-patient integration and hospital-supplier integration fully mediate the relationship between inter-functional integration and operational flexibility. These findings extend and validate OIPT within the context of big data-driven hospital supply chains, while also providing useful and timely guidance to healthcare practitioners in developing data-driven SCI for better operational flexibility, especially to respond to the unprecedented disruption caused by the COVID-19 outbreak.
+---
+DOCUMENT
+ID: ss_cdcc0c9a7829b6b45e03b635da34648f7a761fd0
+SOURCE: semantic_scholar
+TITLE: Integrated Information in Process Theories
+AUTHORS: S. Tull, Johannes Kleiner
+JOURNAL: ArXiv
+YEAR: 2020
+CITATIONS: 15
+ABSTRACT: We demonstrate how the key notions of Tononi et al.'s Integrated Information Theory (IIT) can be studied within the simple graphical language of process theories, i.e. symmetric monoidal categories. This allows IIT to be generalised to a broad range of physical theories, including as a special case the Quantum IIT of Zanardi, Tomka and Venuti.
+---
+DOCUMENT
+ID: ss_1c949fe795dc43a8fae65f21c88975384cc219eb
+SOURCE: semantic_scholar
+TITLE: The Phi measure of integrated information is not well-defined for general physical systems
+AUTHORS: A. Barrett, P. Mediano
+JOURNAL: arXiv: Neurons and Cognition
+YEAR: 2019
+CITATIONS: 48
+ABSTRACT: According to the integrated information theory of consciousness (IIT), consciousness is a fundamental observer-independent property of physical systems, and the measure Φ (Phi) of integrated information is identical to the quantity or level of consciousness. For this to be plausible, there should be no alternative formulae for Φ consistent with the axioms of IIT, and there should not be cases of Φ being ill-defined. This article presents three ways in which Φ, in its current formulation, fails to meet these standards, and discusses how this problem might be addressed.
+---
+DOCUMENT
+ID: ss_7a128409cf45d0eaceca4b037af3a9bc90e515e2
+SOURCE: semantic_scholar
+TITLE: Computing Integrated Information (Φ) in Discrete Dynamical Systems with Multi-Valued Elements
+AUTHORS: J. D. Gómez, Will Mayner, M. Beheler-Amass, G. Tononi, L. Albantakis
+JOURNAL: Entropy
+YEAR: 2020
+CITATIONS: 15
+ABSTRACT: Integrated information theory (IIT) provides a mathematical framework to characterize the cause-effect structure of a physical system and its amount of integrated information (Φ). An accompanying Python software package (“PyPhi”) was recently introduced to implement this framework for the causal analysis of discrete dynamical systems of binary elements. Here, we present an update to PyPhi that extends its applicability to systems constituted of discrete, but multi-valued elements. This allows us to analyze and compare general causal properties of random networks made up of binary, ternary, quaternary, and mixed nodes. Moreover, we apply the developed tools for causal analysis to a simple non-binary regulatory network model (p53-Mdm2) and discuss commonly used binarization methods in light of their capacity to preserve the causal structure of the original system with multi-valued elements.
+---
+DOCUMENT
+ID: ss_e3b338fecee2cd0ad34926933a57c8217e39f4ba
+SOURCE: semantic_scholar
+TITLE: Criticality as a Determinant of Integrated Information Φ in Human Brain Networks
+AUTHORS: Hyoungkyu Kim, A. Hudetz, George A. Mashour, UnCheol Lee
+JOURNAL: Entropy
+YEAR: 2019
+CITATIONS: 42
+ABSTRACT: Integrated information theory (IIT) postulates that consciousness arises from the cause-effect structure of a system but the optimal network conditions for this structure have not been elucidated. In the study, we test the hypothesis that network criticality, a dynamically balanced state between a large variation of functional network configurations and a large constraint of structural network configurations, is a necessary condition for the emergence of a cause-effect structure that results in a large Φ, a surrogate of integrated information. We also hypothesized that if the brain deviates from criticality, the cause-effect structure is obscured and Φ diminishes. We tested these hypotheses with a large-scale brain network model and high-density electroencephalography (EEG) acquired during various levels of human consciousness during general anesthesia. In the modeling study, maximal criticality coincided with maximal Φ. The constraint of the structural network on the functional network is maximized in the maximal criticality. The EEG study demonstrated an explicit relationship between Φ, criticality, and level of consciousness. Functional brain network significantly correlated with structural brain network only in conscious states. The results support the hypothesis that network criticality maximizes Φ.
+---
+DOCUMENT
+ID: ss_871a81929071a133df8b839510713eaa6174b129
+SOURCE: semantic_scholar
+TITLE: Modelling and quantification of industry 4.0 manufacturing complexity based on information theory: a robotics case study
+AUTHORS: D. Mourtzis, Sophia Fotia, Nikoletta Boli, Ekaterini Vlachou
+JOURNAL: International Journal of Production Research
+YEAR: 2019
+CITATIONS: 81
+ABSTRACT: The new industrial revolution called Industry 4.0 imposes new challenges to the research community. One of the main issues in Industry 4.0 is the management of the huge amount of information exchanged among its different integrated systems. The present work demonstrates how the traditional manufacturing system is transformed to the Industry 4.0 manufacturing system and proposes a modelling and quantification approach, which includes metrics from the Information Theory estimating the complexity and the capacity of the Industry 4.0, from the perspective of the communication among the systems. The application impact of the proposed Industry 4.0 system and the comparison of these metrics before and after shifting to Industry 4.0 is also analysed and validated in a case study from the Robotics Industry.
+---
+DOCUMENT
+ID: ss_871a81929071a133df8b839510713eaa6174b129
+SOURCE: semantic_scholar
+TITLE: Modelling and quantification of industry 4.0 manufacturing complexity based on information theory: a robotics case study
+AUTHORS: D. Mourtzis, Sophia Fotia, Nikoletta Boli, Ekaterini Vlachou
+JOURNAL: International Journal of Production Research
+YEAR: 2019
+CITATIONS: 81
+ABSTRACT: The new industrial revolution called Industry 4.0 imposes new challenges to the research community. One of the main issues in Industry 4.0 is the management of the huge amount of information exchanged among its different integrated systems. The present work demonstrates how the traditional manufacturing system is transformed to the Industry 4.0 manufacturing system and proposes a modelling and quantification approach, which includes metrics from the Information Theory estimating the complexity and the capacity of the Industry 4.0, from the perspective of the communication among the systems. The application impact of the proposed Industry 4.0 system and the comparison of these metrics before and after shifting to Industry 4.0 is also analysed and validated in a case study from the Robotics Industry.
+---
+DOCUMENT
+ID: ss_a470185b6641decc984d83e273dabba33c5f9e33
+SOURCE: semantic_scholar
+TITLE: Evaluating Approximations and Heuristic Measures of Integrated Information
+AUTHORS: André Sevenius Nilsen, B. Juel, W. Marshall, J. F. Storm
+JOURNAL: Entropy
+YEAR: 2019
+CITATIONS: 20
+ABSTRACT: Integrated information theory (IIT) proposes a measure of integrated information, termed Phi (Φ), to capture the level of consciousness of a physical system in a given state. Unfortunately, calculating Φ itself is currently possible only for very small model systems and far from computable for the kinds of system typically associated with consciousness (brains). Here, we considered several proposed heuristic measures and computational approximations, some of which can be applied to larger systems, and tested if they correlate well with Φ. While these measures and approximations capture intuitions underlying IIT and some have had success in practical applications, it has not been shown that they actually quantify the type of integrated information specified by the latest version of IIT and, thus, whether they can be used to test the theory. In this study, we evaluated these approximations and heuristic measures considering how well they estimated the Φ values of model systems and not on the basis of practical or clinical considerations. To do this, we simulated networks consisting of 3–6 binary linear threshold nodes randomly connected with excitatory and inhibitory connections. For each system, we then constructed the system’s state transition probability matrix (TPM) and generated observed data over time from all possible initial conditions. We then calculated Φ, approximations to Φ, and measures based on state differentiation, coalition entropy, state uniqueness, and integrated information. Our findings suggest that Φ can be approximated closely in small binary systems by using one or more of the readily available approximations (r > 0.95) but without major reductions in computational demands. Furthermore, the maximum value of Φ across states (a state-independent quantity) correlated strongly with measures of signal complexity (LZ, rs = 0.722), decoder-based integrated information (Φ*, rs = 0.816), and state differentiation (D1, rs = 0.827). These measures could allow for the efficient estimation of a system’s capacity for high Φ or function as accurate predictors of low- (but not high-)Φ systems. While it is uncertain whether the results extend to larger systems or systems with other dynamics, we stress the importance that measures aimed at being practical alternatives to Φ be, at a minimum, rigorously tested in an environment where the ground truth can be established.
+---
+DOCUMENT
+ID: ss_94dd8071c81a540ed976bb91b8def705fea9d5ac
+SOURCE: semantic_scholar
+TITLE: Digitization of healthcare organizations: The digital health landscape and information theory
+AUTHORS: M. V. van Velthoven, Carlos Cordon, Goutam N. Challagalla
+JOURNAL: International journal of medical informatics
+YEAR: 2019
+CITATIONS: 51
+ABSTRACT: BACKGROUND
+This paper builds on an integrated framework of digital opportunities, based on information theory that was initially proposed by Claude Shannon: 1) providers of infrastructure for transmitting information; 2) platforms, devices, and software to bundle, store and deliver others' content; 3) original content creator); 4) platforms enabling peer-to-peer exchange; and 5) connected intelligence embed in devices. We aimed to clarify the meaning of digitization of organisations in the healthcare landscape and answer 'how can healthcare organisations compete in a world that is rapidly digitizing?'.
+
+
+METHODS
+To gain more insight into the views of different stakeholders, we invited 12 participants with a wide range of backgrounds to a workshop. Stakeholders included people representing the views from patients, carers, local hospitals, pharmacy retailers, health insurers, health services researchers, engineers, and technology and pharmaceutical companies. We organised the workshop at the IMD business school in Lausanne and used Switzerland as a case study. We asked participants to take part in group work to identify organisations with digital health products and their key success factors. We evaluated organisations' aims and competencies, and through which pathway they competed.
+
+
+MAIN FINDINGS
+There was overlap in some key success factors, such as security, interoperability, low cost, and enough people using it, between different types of digital opportunities of the framework. No organisations that were identified during the workshop were currently operating in different opportunities. We found a range of different ways through which digital health organisations partnered with other organisations. The relatively smaller organisations identified in our workshop operated through one pathway.
+
+
+PRINCIPAL CONCLUSIONS
+This work has implications for organisations in understanding the digital health landscape and their competitors' digital initiatives. Firstly, organisations can identify where they operate and map strengths and limitations of their digital initiatives. Secondly, they can learn from different competition pathways: 1) develop new capabilities faster; 2) collaborate with technology organisations; 3) create collaborations with traditional competitors; and 4) create a new business model. This knowledge needs to be the basis for the development of digital solutions, which will be crucial for the survival of many organisations in the healthcare landscape.
+---
+DOCUMENT
+ID: ss_1e3409ca2eb96db229657b87ab1ad3a22b5447a0
+SOURCE: semantic_scholar
+TITLE: Estimating the Integrated Information Measure Phi from High-Density Electroencephalography during States of Consciousness in Humans
+AUTHORS: Hyoungkyu Kim, A. Hudetz, Joseph Lee, G. Mashour, UnCheol Lee
+JOURNAL: Frontiers in Human Neuroscience
+YEAR: 2018
+CITATIONS: 78
+ABSTRACT: The integrated information theory (IIT) proposes a quantitative measure, denoted as Φ, of the amount of integrated information in a physical system, which is postulated to have an identity relationship with consciousness. IIT predicts that the value of Φ estimated from brain activities represents the level of consciousness across phylogeny and functional states. Practical limitations, such as the explosive computational demands required to estimate Φ for real systems, have hindered its application to the brain and raised questions about the utility of IIT in general. To achieve practical relevance for studying the human brain, it will be beneficial to establish the reliable estimation of Φ from multichannel electroencephalogram (EEG) and define the relationship of Φ to EEG properties conventionally used to define states of consciousness. In this study, we introduce a practical method to estimate Φ from high-density (128-channel) EEG and determine the contribution of each channel to Φ. We examine the correlation of power, frequency, functional connectivity, and modularity of EEG with regional Φ in various states of consciousness as modulated by diverse anesthetics. We find that our approximation of Φ alone is insufficient to discriminate certain states of anesthesia. However, a multi-dimensional parameter space extended by four parameters related to Φ and EEG connectivity is able to differentiate all states of consciousness. The association of Φ with EEG connectivity during clinically defined anesthetic states represents a new practical approach to the application of IIT, which may be used to characterize various physiological (sleep), pharmacological (anesthesia), and pathological (coma) states of consciousness in the human brain.
+---
+DOCUMENT
+ID: ss_8a3afc0fdc94ede3f18e2677848bd0e97dbf4a54
+SOURCE: semantic_scholar
+TITLE: Integrated risk assessment for agricultural drought and flood disasters based on entropy information diffusion theory in the middle and lower reaches of the Yangtze River, China
+AUTHORS: Yun-Qiang Liu, Ming You, Jia-Ling Zhu, Fang Wang, Rui-Ping Ran
+JOURNAL: International Journal of Disaster Risk Reduction
+YEAR: 2019
+CITATIONS: 98
+ABSTRACT: Abstract In the context of global climate change, catastrophic events associated with extreme weather are increasing, especially droughts and floods. Assessing agricultural drought and flood risks is of great significance in formulating disaster prevention and increasing farmers' income. In this paper, the new method combining multi-index comprehensive evaluation with entropy information diffusion model is used to assess the risk of agricultural drought and flood disasters in the middle and lower reaches of the Yangtze River, and relevant policy recommendations are proposed based on the assessment results. The method considers the effects of natural, economic and social factors on disasters while solving the problem of insufficient information and visualizing disaster risk in the region. The assessment results show that, first of all, the research area is threatened by agricultural drought and flood, and the threat of flooding is greater than the threat of drought. Second, with the change of disaster intensity, the risk characteristics of drought and flood disasters are different. Third, the cities in the middle reaches of the Yangtze River are more vulnerable to disasters than the cities in the lower reaches, and the drought in the study area has become an agricultural threat that cannot be ignored. Based on the model of solving the problem of insufficient information and the consideration of comprehensive disaster factors, the assessment of disaster risk can more intuitively and comprehensively reflect the laws and characteristics of disasters, and is of great significance for the implementation of disaster prevention and mitigation in the region.
+---
+DOCUMENT
+ID: ss_0f204429e40f4b1d597f64ef1ef56bd4a0dff144
+SOURCE: semantic_scholar
+TITLE: Criticality as a Determinant of Integrated Information Φ in Human Brain Networks
+AUTHORS: Hyoungkyu Kim, UnCheol Lee
+JOURNAL: Entropy
+YEAR: 2019
+CITATIONS: 14
+ABSTRACT: Integrated information theory (IIT) describes consciousness as information integrated across highly differentiated but irreducible constituent parts in a system. However, in a complex dynamic system such as the brain, the optimal conditions for large integrated information systems have not been elucidated. In this study, we hypothesized that network criticality, a balanced state between a large variation in functional network configuration and a large constraint on structural network configuration, may be the basis of the emergence of a large Φ, a surrogate of integrated information. We also hypothesized that as consciousness diminishes, the brain loses network criticality and Φ decreases. We tested these hypotheses with a large-scale brain network model and high-density electroencephalography (EEG) acquired during various levels of human consciousness under general anesthesia. In the modeling study, maximal criticality coincided with maximal Φ. The EEG study demonstrated an explicit relationship between Φ, criticality, and level of consciousness. The conscious resting state showed the largest Φ and criticality, whereas the balance between variation and constraint in the brain network broke down as the response rate dwindled. The results suggest network criticality as a necessary condition of a large Φ in the human brain.
+---
+DOCUMENT
+ID: ss_3dfb010f81c8983890231c154efdd139077c6730
+SOURCE: semantic_scholar
+TITLE: Risk-based performance of combined cooling, heating and power (CCHP) integrated with renewable energies using information gap decision theory
+AUTHORS: Sayyad Nojavan, K. Saberi, K. Zare
+JOURNAL: Applied Thermal Engineering
+YEAR: 2019
+CITATIONS: 38
+ABSTRACT: Abstract The priority of financial aspects of energy systems led the optimization goals to be focused on reducing operation cost as much as possible. The uncertainty of electricity price is one of the main issues of supplying, and modeling the energy systems. To overcome this issue, providing one model, which handles the unpredictable deviations of some basic parameters such as electricity price, is of special importance. In this article, an information gap decision theory (IGDT) has been applied to cope with the electricity price uncertainty. IGDT proposes two functions for two different strategies namely robustness and opportunity which are risk-averse and risk-taker to model the optimization operation in the uncertain environment, respectively. Three energy hubs in a multi-carrier energy system, combined cooling, heating and power (CCHP) integrated with renewable energies such as photovoltaic (PV) and wind turbine (WT) are implemented in a micro energy grid to model this particular system. In addition, the real-time demand response program (DRP) is implemented to manage the loads in different periods. The risk-constrained operation optimization of energy hub model based on proposed IGDT approach has been solved in GAMS software using mixed integer linear programming and results have proven the DRP sufficiency.
+---
+DOCUMENT
+ID: ss_3d1d94e62e05bf8087f4298f9c9ba8a6139848bd
+SOURCE: semantic_scholar
+TITLE: Informational structures: A dynamical system approach for integrated information
+AUTHORS: F. Esteban, J. A. Galadí, J. Langa, J. Portillo, F. Soler-Toscano
+JOURNAL: PLoS Computational Biology
+YEAR: 2018
+CITATIONS: 39
+ABSTRACT: Integrated Information Theory (IIT) has become nowadays the most sensible general theory of consciousness. In addition to very important statements, it opens the door for an abstract (mathematical) formulation of the theory. Given a mechanism in a particular state, IIT identifies a conscious experience with a conceptual structure, an informational object which exists, is composed of identified parts, is informative, integrated and maximally irreducible. This paper introduces a space-time continuous version of the concept of integrated information. To this aim, a graph and a dynamical systems treatment is used to define, for a given mechanism in a state for which a dynamics is settled, an Informational Structure, which is associated to the global attractor at each time of the system. By definition, the informational structure determines all the past and future behavior of the system, possesses an informational nature and, moreover, enriches all the points of the phase space with cause-effect power by means of its associated Informational Field. A detailed description of its inner structure by invariants and connections between them allows to associate a transition probability matrix to each informational structure and to develop a measure for the level of integrated information of the system.
+---
+DOCUMENT
+ID: ss_04c6b41730ce47beff5eddc02314246b01f13f5e
+SOURCE: semantic_scholar
+TITLE: Waveform Design for MIMO-OFDM Integrated Sensing and Communication System: An Information Theoretical Approach
+AUTHORS: Zhi-Qing Wei, Jinghui Piao, Xin Yuan, Hui-Ci Wu, J. A. Zhang, Zhi-Yong Feng, L. Wang, Ping Zhang
+JOURNAL: IEEE Transactions on Communications
+YEAR: 2023
+CITATIONS: 109
+ABSTRACT: Integrated sensing and communication (ISAC) is regarded as the enabling technology in the future 5th-Generation-Advanced (5G-A) and 6th-Generation (6G) mobile communication system. ISAC waveform design is critical in ISAC system. However, the difference of the performance metrics between sensing and communication brings challenges for the ISAC waveform design. This paper applies the unified performance metrics in information theory, namely mutual information (MI), to measure the communication and sensing performance in multicarrier ISAC system. In multi-input multi-output orthogonal frequency division multiplexing (MIMO-OFDM) ISAC system, we first derive the sensing and communication MI with subcarrier correlation and spatial correlation. Then, we propose optimal waveform designs for maximizing the sensing MI, communication MI and the weighted sum of sensing and communication MI, respectively. The optimization results are validated by Monte Carlo simulations. Our work provides effective closed-form expressions for waveform design, enabling the realization of MIMO-OFDM ISAC system with balanced performance in communication and sensing.
+---
+DOCUMENT
+ID: ss_a2e722e2fad3f110e18704f83834bb10f7336c64
+SOURCE: semantic_scholar
+TITLE: Integrated information in the EEG of preterm infants increases with family nurture intervention, age, and conscious state
+AUTHORS: J. Isler, R. Stark, P. G. Grieve, M. G. Welch, M. Myers
+JOURNAL: PLoS ONE
+YEAR: 2018
+CITATIONS: 31
+ABSTRACT: A putative quantifier of consciousness, integrated information, was applied to preterm infant EEG data after novel pre-processing. Integrated information had a non-random structure as a function of the time lag over which it was computed. For most lags, it increased with age in early life, but even more so in infants exposed to Family Nurture Intervention (FNI), providing further evidence that FNI advances brain maturation in preterm infants. Also, it discriminated between conscious states (awake, REM sleep, NREM sleep), providing empirical support for the Integrated Information Theory of Consciousness in human infants.
+---
+DOCUMENT
+ID: ss_73d51aa43705c98c071bd01896f594807c9e8d4f
+SOURCE: semantic_scholar
+TITLE: Conscious Perception as Integrated Information Patterns in Human Electrocorticography
+AUTHORS: A. Haun, Masafumi Oizumi, Christopher K. Kovach, H. Kawasaki, H. Oya, M. Howard, R. Adolphs, Naotsugu Tsuchiya
+JOURNAL: eNeuro
+YEAR: 2017
+CITATIONS: 44
+ABSTRACT: Abstract A significant problem in neuroscience concerns the distinction between neural processing that is correlated with conscious percepts from processing that is not. Here, we tested if a hierarchical structure of causal interactions between neuronal populations correlates with conscious perception. We derived the hierarchical causal structure as a pattern of integrated information, inspired by the integrated information theory (IIT) of consciousness. We computed integrated information patterns from intracranial electrocorticography (ECoG) from six human neurosurgical patients with electrodes implanted over lateral and ventral cortices. During recording, subjects viewed continuous flash suppression (CFS) and backward masking (BM) stimuli intended to dissociate conscious percept from stimulus, and unmasked suprathreshold stimuli. Object-sensitive areas revealed correspondence between conscious percepts and integrated information patterns. We quantified this correspondence using unsupervised classification methods that revealed clustering of visual experiences with integrated information, but not with broader information measures including mutual information and entropy. Our findings point to a significant role of locally integrated information for understanding the neural substrate of conscious object perception.
+---
+DOCUMENT
+ID: ss_8c315c01d0db7fa9f9ff4bed81ca47f0ca41a8cf
+SOURCE: semantic_scholar
+TITLE: Astrocyte-induced positive integrated information in neuron-astrocyte ensembles.
+AUTHORS: O. Kanakov, S. Gordleeva, A. Ermolaeva, S. Jalan, A. Zaikin
+JOURNAL: Physical review. E
+YEAR: 2018
+CITATIONS: 34
+ABSTRACT: Integrated information is a quantitative measure from information theory of how tightly all parts of a system are interconnected in terms of information exchange. In this study we show that astrocytes, playing an important role in regulation of information transmission between neurons, may contribute to a generation of positive integrated information in neuronal ensembles. Analytically and numerically we show that the presence of astrocytic regulation of neurotransmission may be essential for this information attribute in neuroastrocytic ensembles. Moreover, the proposed "spiking-bursting" mechanism of generating positive integrated information is shown to be generic and not limited to neuron-astrocyte networks and is given a complete analytic description.
+---
+DOCUMENT
+ID: ss_2a5558ed3124f85c9467299dd3747cf811600f0e
+SOURCE: semantic_scholar
+TITLE: Integrated information in the thermodynamic limit
+AUTHORS: Miguel Aguilera, E. Di Paolo
+JOURNAL: Neural networks : the official journal of the International Neural Network Society
+YEAR: 2018
+CITATIONS: 22
+ABSTRACT: The capacity to integrate information is a prominent feature of biological, neural, and cognitive processes. Integrated Information Theory (IIT) provides mathematical tools for quantifying the level of integration in a system, but its computational cost generally precludes applications beyond relatively small models. In consequence, it is not yet well understood how integration scales up with the size of a system or with different temporal scales of activity, nor how a system maintains integration as it interacts with its environment. After revising some assumptions of the theory, we show for the first time how modified measures of information integration scale when a neural network becomes very large. Using kinetic Ising models and mean-field approximations, we show that information integration diverges in the thermodynamic limit at certain critical points. Moreover, by comparing different divergent tendencies of blocks that make up a system at these critical points, we can use information integration to delimit the boundary between an integrated unit and its environment. Finally, we present a model that adaptively maintains its integration despite changes in its environment by generating a critical surface where its integrity is preserved. We argue that the exploration of integrated information for these limit cases helps in addressing a variety of poorly understood questions about the organization of biological, neural, and cognitive systems.
+---
+DOCUMENT
+ID: ss_2bb5e99b16aee9c4790c3797f0ffa9b7b07c4490
+SOURCE: semantic_scholar
+TITLE: Can the macro beat the micro? Integrated information across spatiotemporal scales.
+AUTHORS: Erik P. Hoel, L. Albantakis, W. Marshall, G. Tononi
+JOURNAL: Neuroscience of consciousness
+YEAR: 2016
+CITATIONS: 133
+ABSTRACT: Causal interactions within complex systems such as the brain can be analyzed at multiple spatiotemporal levels. It is widely assumed that the micro level is causally complete, thus excluding causation at the macro level. However, by measuring effective information-how much a system's mechanisms constrain its past and future states-we recently showed that causal power can be stronger at macro rather than micro levels. In this work, we go beyond effective information and consider additional requirements of a proper measure of causal power from the intrinsic perspective of a system: composition (the cause-effect power of the parts), state-dependency (the cause-effect power of the system in a specific state); integration (the causal irreducibility of the whole to its parts), and exclusion (the causal borders of the system). A measure satisfying these requirements, called Φ Max, was developed in the context of integrated information theory. Here, we evaluate Φ Max systematically at micro and macro levels in space and time using simplified neuronal-like systems. We show that for systems characterized by indeterminism and/or degeneracy, Φ can indeed peak at a macro level. This happens if coarse-graining micro elements produces macro mechanisms with high irreducible causal selectivity. These results are relevant to a theoretical account of consciousness, because for integrated information theory the spatiotemporal maximum of integrated information fixes the spatiotemporal scale of consciousness. More generally, these results show that the notions of macro causal emergence and micro causal exclusion hold when causal power is assessed in full and from the intrinsic perspective of a system.
+---
+DOCUMENT
+ID: ss_8af78f6f4fe2bdcd3c9d3bafc424b04a22d4e5ea
+SOURCE: semantic_scholar
+TITLE: An integrated theory of the mind.
+AUTHORS: John R. Anderson, Daniel Bothell, M. Byrne, Scott Douglass, C. Lebiere, Yu-Lin Qin
+JOURNAL: Psychological review
+YEAR: 2004
+CITATIONS: 3296
+ABSTRACT: Adaptive control of thought-rational (ACT-R; J. R. Anderson & C. Lebiere, 1998) has evolved into a theory that consists of multiple modules but also explains how these modules are integrated to produce coherent cognition. The perceptual-motor modules, the goal module, and the declarative memory module are presented as examples of specialized systems in ACT-R. These modules are associated with distinct cortical regions. These modules place chunks in buffers where they can be detected by a production system that responds to patterns of information in the buffers. At any point in time, a single production rule is selected to respond to the current pattern. Subsymbolic processes serve to guide the selection of rules to fire as well as the internal operations of some modules. Much of learning involves tuning of these subsymbolic processes. A number of simple and complex empirical examples are described to illustrate how these modules function singly and in concert.
+---
+DOCUMENT
+ID: ss_371071ab8260b574a79764a6ea12595c3d1f41f5
+SOURCE: semantic_scholar
+TITLE: Integrated information and dimensionality in continuous attractor dynamics
+AUTHORS: Satohiro Tajima, R. Kanai
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2017
+CITATIONS: 12
+ABSTRACT: Abstract There has been increasing interest in the integrated information theory (IIT) of consciousness, which hypothesizes that consciousness is integrated information within neuronal dynamics. However, the current formulation of IIT poses both practical and theoretical problems when empirically testing the theory by computing integrated information from neuronal signals. For example, measuring integrated information requires observing all the elements in a considered system at the same time, but this is practically very difficult. Here, we propose that some aspects of these problems are resolved by considering the topological dimensionality of shared attractor dynamics as an indicator of integrated information in continuous attractor dynamics. In this formulation, the effects of unobserved nodes on the attractor dynamics can be reconstructed using a technique called delay embedding, which allows us to identify the dimensionality of an embedded attractor from partial observations. We propose that the topological dimensionality represents a critical property of integrated information, as it is invariant to general coordinate transformations. We illustrate this new framework with simple examples and discuss how it fits with recent findings based on neural recordings from awake and anesthetized animals. This topological approach extends the existing notions of IIT to continuous dynamical systems and offers a much-needed framework for testing the theory with experimental data by substantially relaxing the conditions required for evaluating integrated information in real neural systems.
+---
+DOCUMENT
+ID: ss_01c5f38a148033f370cd0b5ba108eb1ebb62f93b
+SOURCE: semantic_scholar
+TITLE: Nanowire-based integrated photonics for quantum information and quantum sensing
+AUTHORS: Jin Chang, Jun Gao, Iman Esmaeilzadeh, Ali W. Elshaari, V. Zwiller
+JOURNAL: Nanophotonics
+YEAR: 2023
+CITATIONS: 62
+ABSTRACT: Abstract At the core of quantum photonic information processing and sensing, two major building pillars are single-photon emitters and single-photon detectors. In this review, we systematically summarize the working theory, material platform, fabrication process, and game-changing applications enabled by state-of-the-art quantum dots in nanowire emitters and superconducting nanowire single-photon detectors. Such nanowire-based quantum hardware offers promising properties for modern quantum optics experiments. We highlight several burgeoning quantum photonics applications using nanowires and discuss development trends of integrated quantum photonics. Also, we propose quantum information processing and sensing experiments for the quantum optics community, and future interdisciplinary applications.
+---
+DOCUMENT
+ID: ss_ade7af72ca9a48e133be5dbf772e3d438bbb824a
+SOURCE: semantic_scholar
+TITLE: Firm performance in digitally integrated supply chains: a combined perspective of transaction cost economics and relational exchange theory
+AUTHORS: Kiran Patil, Vipul Garg, Janeth Gabaldon, Himali Patil, S. Niranjan, Timothy G. Hawkins
+JOURNAL: J. Enterp. Inf. Manag.
+YEAR: 2023
+CITATIONS: 41
+ABSTRACT: PurposeThis paper aims to examine how interfirm transactional and relational assets drive firm performance (FP) in digitally integrated supply chains.Design/methodology/approachThe authors combine the Transaction Cost Economics (TCE) and Relational Exchange Theory (RET) frameworks to hypothesize that FP will be a function of Asset Specificity (AS), Digital Technology Usage (DTU) and Collaborative Information Sharing (CIS). In addition, the authors hypothesize that Supply Chain Integration (SCI) will partially mediate the effect of DTU and fully mediate the impact of AS and CIS on FP. A cross-sectional survey of supply chain managers is used to test the hypotheses.FindingsFindings indicate that specific investments in digitally integrated supply chains would increase FP. In addition, SCI fully mediates the relationships between AS and FP and CIS and FP, while SCI partially mediates the influence of DTU on FP.Practical implicationsManagers could strategically engage in the technologies that effectively fit within the firm’s supply chain strategies and seek to develop a pragmatic expertise that enables the effective use of technology in a comprehensive setting.Originality/valueThe study enriches the extant literature by incorporating TCE and RET as contradictory viewpoints on AS and investigating how transactional and relational assets affect FP in digitally integrated supply chains.
+---
+DOCUMENT
+ID: ss_8f367c97304a763ba376d934d957fe30f34d37fd
+SOURCE: semantic_scholar
+TITLE: UAV Assisted Integrated Sensing and Communications for Internet of Things: 3D Trajectory Optimization and Resource Allocation
+AUTHORS: Zechen Liu, Xin Liu, Yuemin Liu, Victor C. M. Leung, Tariq S. Durrani
+JOURNAL: IEEE Transactions on Wireless Communications
+YEAR: 2024
+CITATIONS: 111
+ABSTRACT: High-mobility unmanned aerial vehicles (UAVs) can serve as dual-function aerial service platforms for the Internet of Things (IoT), providing both sensing and communication services for IoT nodes without a base station (BS), particularly in emergency situations. In this paper, a UAV-assisted integrated sensing and communications (ISAC) system is proposed for IoT, which simultaneously senses the status information around the IoT and sends the sensing information to both the IoT nodes and a data collection center. In order to assess the sensing performance of ISAC, the radar estimation rate is introduced as a significant metric from the perspective of information theory. Considering the mutual interference between sensing and communications, the radar estimation rate is maximized through the coordinated optimization of UAV task scheduling, transmit power allocation, and 3D flight parameters under the constraint of communication rate. The formulated non-convex mixed-integer programming problem is divided into three subproblems, including UAV task scheduling optimization, UAV sensing and communication power optimization, and UAV 3D flight parameters optimization. The optimal solutions can be achieved by proposing a three-layer iterative optimization algorithm to optimize the three subproblems iteratively. The simulation results show that the radar estimation rate can well measure the sensing performance of the ISAC, which can be effectively improved by optimizing the 3D UAV flight parameters.
+---
+DOCUMENT
+ID: ss_aedf61917924ae8b0b43b2c5eba1eee2cc3fe0dc
+SOURCE: semantic_scholar
+TITLE: Integrated Information and State Differentiation
+AUTHORS: W. Marshall, Jaime Gómez-Ramírez, G. Tononi
+JOURNAL: Frontiers in Psychology
+YEAR: 2016
+CITATIONS: 35
+ABSTRACT: Integrated information (Φ) is a measure of the cause-effect power of a physical system. This paper investigates the relationship between Φ as defined in Integrated Information Theory and state differentiation (D), the number of, and difference between potential system states. Here we provide theoretical justification of the relationship between Φ and D, then validate the results using a simulation study. First, we show that a physical system in a state with high Φ necessarily has many elements and specifies many causal relationships. Furthermore, if the average value of integrated information across all states is high, the system must also have high differentiation. Next, we explore the use of D as a proxy for Φ using artificial networks, evolved to have integrated structures. The results show a positive linear relationship between Φ and D for multiple network sizes and connectivity patterns. Finally we investigate the differentiation evoked by sensory inputs and show that, under certain conditions, it is possible to estimate integrated information without a direct perturbation of its internal elements. In concluding, we discuss the need for further validation on larger networks and explore the potential applications of this work to the empirical study of consciousness, especially concerning the practical estimation of Φ from neuroimaging data.
+---
+DOCUMENT
+ID: ss_5b7611b29bcc93274a2128b508143287bd689a2e
+SOURCE: semantic_scholar
+TITLE: Assessing the Implementation of AI Integrated CRM System for B2C Relationship Management: Integrating Contingency Theory and Dynamic Capability View Theory
+AUTHORS: Sheshadri Chatterjee, P. Mikalef, S. Khorana, Hatice Kizgin
+JOURNAL: Information Systems Frontiers
+YEAR: 2022
+CITATIONS: 69
+ABSTRACT: Customer relationship management (CRM) is a strategic approach to manage an organization’s interaction with current and potential customers. Artificial Intelligence (AI) can analyze huge volume of data without human intervention. The integration of AI with existing legacy CRM system in the business to customer (B2C) relationship makes sense given the massive potential for growth of AI integrated CRM system. Failure to plan AI-CRM technology implementation in an organization could lead some to success and others to failure. The Contingency theory states that it is not possible for organizations to take decisions without a contingency plan and the optimal course of action depends on the internal and external circumstances. The Dynamic Capability View theory emphasizes the organizational ability to react adequately in a timely manner to any external changes and combines multiple capabilities of the organization, including organizational CRM and AI capabilities. Against this background, the purpose of this study is to examine the success and failure of implementation of AI integrated CRM system in an organization from B2C perspective using Contingency theory and Dynamic Capability View theory. The study finds that information quality, system fit, and organizational fit significantly and positively impact the implementation of AI-CRM for B2C relationship management. Also, there is a moderating impact of technology turbulence on both acceptance and failure of AI-CRM capability in the organization.
+---
+DOCUMENT
+ID: ss_99d67c49649fcf81286d07401f1af3092625913f
+SOURCE: semantic_scholar
+TITLE: Computing integrated information
+AUTHORS: S. Krohn, D. Ostwald
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2016
+CITATIONS: 30
+ABSTRACT: Abstract Integrated information theory (IIT) has established itself as one of the leading theories for the study of consciousness. IIT essentially proposes that quantitative consciousness is identical to maximally integrated conceptual information, quantified by a measure called Φmax, and that phenomenological experience corresponds to the associated set of maximally irreducible cause–effect repertoires of a physical system being in a certain state. With the current work, we provide a general formulation of the framework, which comprehensively and parsimoniously expresses Φmax in the language of probabilistic models. Here, the stochastic process describing a system under scrutiny corresponds to a first-order time-invariant Markov process, and all necessary mathematical operations for the definition of Φmax are fully specified by a system’s joint probability distribution over two adjacent points in discrete time. We present a detailed constructive rule for the decomposition of a system into two disjoint subsystems based on flexible marginalization and factorization of this joint distribution. Furthermore, we show that for a given joint distribution, virtualization is identical to a flexible factorization enforcing independence between variable subsets. We then validate our formulation in a previously established discrete example system, in which we also illustrate the previously unexplored theoretical issue of quale underdetermination due to non-unique maximally irreducible cause–effect repertoires. Moreover, we show that the current definition of Φ entails its sensitivity to the shape of the conceptual structure in qualia space, thus tying together IIT’s measures of quantitative and qualitative consciousness, which we suggest be better disentangled. We propose several modifications of the framework in order to address some of these issues.
+---
+DOCUMENT
+ID: ss_fcb69c68cb4e06cb35400cc37117bf5e80e67356
+SOURCE: semantic_scholar
+TITLE: Integrated Information and Metastability in Systems of Coupled Oscillators
+AUTHORS: P. Mediano, Juan Carlos Farah, M. Shanahan
+JOURNAL: arXiv: Neurons and Cognition
+YEAR: 2016
+CITATIONS: 25
+ABSTRACT: It has been shown that sets of oscillators in a modular network can exhibit a rich variety of metastable chimera states, in which synchronisation and desynchronisation coexist. Independently, under the guise of integrated information theory, researchers have attempted to quantify the extent to which a complex dynamical system presents a balance of integrated and segregated activity. In this paper we bring these two areas of research together by showing that the system of oscillators in question exhibits a critical peak of integrated information that coincides with peaks in other measures such as metastability and coalition entropy.
+---
+DOCUMENT
+ID: ss_e19fae250c1cf2428367084b39967ef346a196e8
+SOURCE: semantic_scholar
+TITLE: Moving Past the Minimum Information Partition: How To Quickly and Accurately Calculate Integrated Information
+AUTHORS: Daniel Toker, F. Sommer
+JOURNAL: arXiv: Neurons and Cognition
+YEAR: 2016
+CITATIONS: 12
+ABSTRACT: An outstanding challenge with the Integrated Information Theory of Consciousness (IIT) is to find a way of rapidly and accurately calculating integrated information from neural data. A number of measures of integrated information based on time series data have been proposed, but most measures require finding the Minimum Information Partition of a network, which is computationally expensive and not practical for real brain data. Here, we introduce a novel partition, the Maximum Modularity Partition, across which to quickly calculate integrated information. We also introduce a novel detection task on simulated data to evaluate the performance of integrated information measures across different partitions. We show that integrated information can be reliably and quickly calculated across the Maximum Modularity Partition, as well as the previously proposed atomic partition, even in relatively large networks, which constitutes an advance in researchers' ability to empirically test the predictions of IIT in real brain data.
+---
+DOCUMENT
+ID: ss_78abee4b0bb1b451b00b94528e66aeb45aecae3e
+SOURCE: semantic_scholar
+TITLE: A Compression-Complexity Measure of Integrated Information
+AUTHORS: Mohit Virmani, N. Nagaraj
+JOURNAL: ArXiv
+YEAR: 2016
+CITATIONS: 7
+ABSTRACT: Quantifying integrated information is a leading approach towards building a fundamental theory of consciousness. Integrated Information Theory (IIT) has gained attention in this regard due to its theoretically strong framework. However, it faces some limitations such as current state dependence, computationally expensive and inability to be applied to real brain data. On the other hand, Perturbational Complexity Index (PCI) is a clinical measure for distinguishing different levels of consciousness. Though PCI claims to capture the functional differentiation and integration in brain networks (similar to IIT), its link to integrated information theories is rather weak. Inspired by these two approaches, we propose a new measure - $\Phi^C$ using a novel compression-complexity perspective that serves as a bridge between the two, for the first time. $\Phi^C$ is founded on the principles of lossless data compression based complexity measures which characterize the dynamical complexity of brain networks. $\Phi^{C}$ exhibits following salient innovations: (i) mathematically well bounded, (ii) negligible current state dependence unlike $\Phi$, (iii) integrated information measured as compression-complexity rather than as an infotheoretic quantity, and (iv) faster to compute since number of atomic bipartitions scales linearly with the number of nodes of the network, thus avoiding combinatorial explosion. Our computer simulations show that $\Phi^C$ has similar hierarchy to $ $ for several multiple-node networks and it demonstrates a rich interplay between differentiation, integration and entropy of the nodes of a network. $\Phi^C$ is a promising heuristic measure to characterize the quantity of integrated information (and hence a measure of quantity of consciousness) in larger networks like human brain and provides an opportunity to test the predictions of brain complexity on real neural data.
+---
+DOCUMENT
+ID: ss_cd3b25473d15bc5495851af29d5742ef4395da75
+SOURCE: semantic_scholar
+TITLE: Contents of Consciousness Investigated as Integrated Information in Direct Human Brain Recordings
+AUTHORS: A. Haun, Masafumi Oizumi, Christopher K. Kovach, H. Kawasaki, H. Oya, M. Howard, R. Adolphs, Naotsugu Tsuchiya
+JOURNAL: bioRxiv
+YEAR: 2016
+CITATIONS: 7
+ABSTRACT: Integrated information theory postulates that the particular way stimuli appear when we consciously experience them arises from integrated information relationships across neural populations. We investigated if such equivalence holds by testing if similar/different percepts map onto similar/different information structures. We computed integrated information structure from intracranial EEGs recorded in 6 neurosurgical patients who had electrodes implanted over posterior cortices. During recording, we dissociated subjective percepts from physical inputs in three distinct stimulus paradigms (passive viewing, continuous flash suppression, and backward masking). Unsupervised classification showed that integrated information within stimulus-selective cortical regions classified visual experiences with significant accuracy (peaking on average around 64% classification accuracy). Classification by other relevant information theoretic measures such as mutual information and entropy was consistently poorer (56% and 54% accuracy). The findings argue that concepts from integrated information theory are empirically testable, promising a potential link between conscious experience and informational structures.
+---
+DOCUMENT
+ID: ss_3ff394d3916bb0aed9cfa352d5598190e4429ef1
+SOURCE: semantic_scholar
+TITLE: Integrated Sensing and Communications: Recent Advances and Ten Open Challenges
+AUTHORS: Shih-Jung Lu, F. Liu, Yunxin Li, Kecheng Zhang, Hongjia Huang, Jia-Qi Zou, Xinyu Li, Yuxiang Dong, Fuwang Dong, Jia Zhu, Yifeng Xiong, W. Yuan, Yuan-Hao Cui, L. Hanzo
+JOURNAL: IEEE Internet of Things Journal
+YEAR: 2023
+CITATIONS: 631
+ABSTRACT: It is anticipated that integrated sensing and communications (ISACs) would be one of the key enablers of next-generation wireless networks (such as beyond 5G (B5G) and 6G) for supporting a variety of emerging applications. In this article, we provide a comprehensive review of the recent advances in ISAC systems, with a particular focus on their foundations, physical-layer system design, networking aspects, and ISAC applications. Furthermore, we discuss the corresponding open questions of the above that emerged in each issue. Hence, we commence with the information theory of sensing and communications (S&C), followed by the information-theoretic limits of ISAC systems by shedding light on the fundamental performance metrics. Next, we discuss their clock synchronization and phase offset problems, the associated Pareto-optimal signaling strategies, as well as the associated super-resolution physical-layer ISAC system design. Moreover, we envision that ISAC ushers in a paradigm shift for the future cellular networks relying on network sensing, transforming the classic cellular architecture, cross-layer resource management methods, and transmission protocols. In ISAC applications, we further highlight the security and privacy issues of wireless sensing. Finally, we close by studying the recent advances in a representative ISAC use case, namely, the multiobject–multitask (MOMT) recognition problem using wireless signals.
+---
+DOCUMENT
+ID: ss_a3d40726892a1be3c2df9fd5caa8f76b31e2b61e
+SOURCE: semantic_scholar
+TITLE: Integrated world modeling theory expanded: Implications for the future of consciousness
+AUTHORS: A. Safron
+JOURNAL: Frontiers in Computational Neuroscience
+YEAR: 2022
+CITATIONS: 29
+ABSTRACT: Integrated world modeling theory (IWMT) is a synthetic theory of consciousness that uses the free energy principle and active inference (FEP-AI) framework to combine insights from integrated information theory (IIT) and global neuronal workspace theory (GNWT). Here, I first review philosophical principles and neural systems contributing to IWMT’s integrative perspective. I then go on to describe predictive processing models of brains and their connections to machine learning architectures, with particular emphasis on autoencoders (perceptual and active inference), turbo-codes (establishment of shared latent spaces for multi-modal integration and inferential synergy), and graph neural networks (spatial and somatic modeling and control). Future directions for IIT and GNWT are considered by exploring ways in which modules and workspaces may be evaluated as both complexes of integrated information and arenas for iterated Bayesian model selection. Based on these considerations, I suggest novel ways in which integrated information might be estimated using concepts from probabilistic graphical models, flow networks, and game theory. Mechanistic and computational principles are also considered with respect to the ongoing debate between IIT and GNWT regarding the physical substrates of different kinds of conscious and unconscious phenomena. I further explore how these ideas might relate to the “Bayesian blur problem,” or how it is that a seemingly discrete experience can be generated from probabilistic modeling, with some consideration of analogies from quantum mechanics as potentially revealing different varieties of inferential dynamics. I go on to describe potential means of addressing critiques of causal structure theories based on network unfolding, and the seeming absurdity of conscious expander graphs (without cybernetic symbol grounding). Finally, I discuss future directions for work centered on attentional selection and the evolutionary origins of consciousness as facilitated “unlimited associative learning.” While not quite solving the Hard problem, this article expands on IWMT as a unifying model of consciousness and the potential future evolution of minds.
+---
+DOCUMENT
+ID: ss_ddaeed47b06d1115ee5b9192c0ff437eb304bfe2
+SOURCE: semantic_scholar
+TITLE: Measuring Integrated Information from the Decoding Perspective
+AUTHORS: Masafumi Oizumi, S. Amari, T. Yanagawa, N. Fujii, Naotsugu Tsuchiya
+JOURNAL: PLoS Computational Biology
+YEAR: 2015
+CITATIONS: 195
+ABSTRACT: Accumulating evidence indicates that the capacity to integrate information in the brain is a prerequisite for consciousness. Integrated Information Theory (IIT) of consciousness provides a mathematical approach to quantifying the information integrated in a system, called integrated information, Φ. Integrated information is defined theoretically as the amount of information a system generates as a whole, above and beyond the amount of information its parts independently generate. IIT predicts that the amount of integrated information in the brain should reflect levels of consciousness. Empirical evaluation of this theory requires computing integrated information from neural data acquired from experiments, although difficulties with using the original measure Φ precludes such computations. Although some practical measures have been previously proposed, we found that these measures fail to satisfy the theoretical requirements as a measure of integrated information. Measures of integrated information should satisfy the lower and upper bounds as follows: The lower bound of integrated information should be 0 and is equal to 0 when the system does not generate information (no information) or when the system comprises independent parts (no integration). The upper bound of integrated information is the amount of information generated by the whole system. Here we derive the novel practical measure Φ* by introducing a concept of mismatched decoding developed from information theory. We show that Φ* is properly bounded from below and above, as required, as a measure of integrated information. We derive the analytical expression of Φ* under the Gaussian assumption, which makes it readily applicable to experimental data. Our novel measure Φ* can generally be used as a measure of integrated information in research on consciousness, and also as a tool for network analysis on diverse areas of biology.
+---
+DOCUMENT
+ID: ss_d7c3b581a4ebc84432d73577a7a7fe1ff0ab42cc
+SOURCE: semantic_scholar
+TITLE: UAV Meets Integrated Sensing and Communication: Challenges and Future Directions
+AUTHORS: Jun-Sheng Mu, Ronghui Zhang, Yuan-Hao Cui, Ning Gao, Xiaojun Jing
+JOURNAL: IEEE Communications Magazine
+YEAR: 2023
+CITATIONS: 235
+ABSTRACT: Currently, sensing and communication are two indispensable functions in the UAV platform while these two modules are independent in hardware. However, the similarities between them seem a growing trend, such as hardware, channel characteristics, signal processing methods, etc. Integrated sensing and communication (ISAC) has been the hot topic to alleviate the issue of low spectrum efficiency and pursuit the hardware gain and integration gain as far as possible. As the vital platform for the sensing and communication functions, UAV is facing great potential for development when meeting ISAC. If ISAC load replaces the independent communication load and sensing load, UAV will be more flexible due to the reduction of load weight. Moreover, the capacity of sensing and communication functions will be mutually beneficial, gradually deriving a new information theory. Motivated by this, this article focuses on the possible challenges and future directions of ISAC-empowered UAV. More specifically, ISAC between UAV and base station is firstly discussed from the angles of base station for UAV and UAV for base station. Then, ISAC with UAV swarm is exploited, including ISAC for swarm internal, ISAC for swarm external and ISAC-enabled UAV swarm. Finally, UAV-assisted sensing for ground targets is analyzed. This article aims at providing our superficial opinions for ISAC-enabled UAV and UAV-assisted ISAC, promoting the further progress of ISAC, UAV and their integration.
+---
+DOCUMENT
+ID: ss_37d9ae7ba408f7d6eb121b1ad6cf772535173905
+SOURCE: semantic_scholar
+TITLE: Information Structure: Towards an integrated formal theory of pragmatics
+AUTHORS: Craige Roberts
+JOURNAL: Semantics and Pragmatics
+YEAR: 2012
+CITATIONS: 953
+ABSTRACT: A framework for pragmatic analysis is proposed which treats discourse as a game, with context as a scoreboard organized around the questions under discussion by the interlocutors. The framework is intended to be coordinated with a dynamic compositional semantics. Accordingly, the context of utterance is modeled as a tuple of different types of information, and the questions therein — modeled, as is usual in formal semantics, as alternative sets of propositions — constrain the felicitous flow of discourse. A requirement of Relevance is satisfied by an utterance (whether an assertion, a question or a suggestion) iff it addresses the question under discussion. Finally, it is argued that the prosodic focus of an utterance canonically serves to reflect the question under discussion (at least in English), placing additional constraints on felicity in context. 
+ 
+http://dx.doi.org/10.3765/sp.5.6 
+ 
+ BibTeX info
+---
+DOCUMENT
+ID: ss_5cd5ca2b60d17ea6cab4f637fa660b8bc9f120d9
+SOURCE: semantic_scholar
+TITLE: The impact of national culture on integrated reporting quality. A stakeholder theory approach
+AUTHORS: Filippo Vitolla, Nicola Raimo, M. Rubino, Antonello Garzoni
+JOURNAL: Business Strategy and the Environment
+YEAR: 2019
+CITATIONS: 262
+ABSTRACT: Integrated reporting (IR) is a new corporate‐reporting system that aims to represent the firm's value creation in the short, medium, and long term. In contrast to other disclosure systems focusing on non‐financial dimensions, including social and environmental aspects, IR is characterized by information connectivity. In recent years, integrated reporting has received increasing interest, both academic and professional. However, report quality is still a critical aspect of IR. Although several studies investigate IR, few focus on quality and its determinants. This study aims to fill this gap by investigating the impact of national culture, an external determinant, from a stakeholder theory perspective. The results show that IR quality is related to five dimensions of Hofstede—power distance, individualism, masculinity, and indulgence negatively and uncertainty avoidance positively. This study contributes to the relevant literature by analysing an additional factor that influences the quality of corporate reports, namely, national culture. This is the first study that investigates national culture as a determinant of integrated‐reporting quality.
+---
+DOCUMENT
+ID: ss_d10a97e0889b4d615e67f19901c91fb4cb4f347d
+SOURCE: semantic_scholar
+TITLE: Exploring Influence Factors of WeChat Users’ Health Information Sharing Behavior: Based on an Integrated Model of TPB, UGT and SCT
+AUTHORS: Xiaoli Wu, Wen-Bo Kuang
+JOURNAL: International Journal of Human–Computer Interaction
+YEAR: 2021
+CITATIONS: 66
+ABSTRACT: ABSTRACT In this digital era, social media plays a significant role in information distribution. Health information sharing behavior is an essential component of information exchange, which has become one of the key research fields in health communication. Yet, knowledge about the influence factors of health information sharing behavior in social media remains limited. Hence, drawing from the theory of planned behavior (TPB), uses and gratifications (U&G), and social cognitive theory (SCT), this study explored the impact factors of health information sharing intention and behavior. To examine the research model, an online survey was drawn up and administered to 412 WeChat users. The results of structural equation modeling (SEM) analysis revealed that the research model fits the data well. Our finding indicated that these factors impact users’ health information sharing behavior on WeChat via their attitude, subjective norm, perceived self-efficacy, and behavioral intention in various patterns. It was found that three factors positively influence both attitude toward behavior and subjective norm: status seeking, social interaction, and norm of reciprocity. We also found that social support has positive effects on the subjective norm within the context of health information sharing, but the critical mass has no effect on the subjective norm. Moreover, we found that entertainment is not the impact factor for users’ attitude toward behavior, but information needs. Overall, this study not only enriched the existing literature on health information sharing behavior and presents a new integrated conceptual model to explain multiple variables that affect WeChat users’ sharing behavior regards to health information, but also provides important theoretical and practical implications regarding motivating public participation through information sharing on social media in health communication.
+---
+DOCUMENT
+ID: ss_e4a4f7bb65bdabc1daad80117f9f00ddadae4950
+SOURCE: semantic_scholar
+TITLE: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems publication information
+AUTHORS: 
+JOURNAL: IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+YEAR: 2020
+CITATIONS: 83
+ABSTRACT: The IEEE T RANSACTIONS ON C OMPUTER -A IDED D ESIGN OF I NTEGRATED C IRCUITS AND S YSTEMS publishes manuscripts focusing on methods, algorithms, and human-machine interfaces for physical and logical design, including: planning, synthesis, partitioning, modeling, simulation, layout, veriﬁcation, testing, and documentation of integrated-circuit and systems designs of all complexities. Practical applications of aids resulting in producible analog, digital, optical, or microwave integrated circuits are emphasized.TheIEEE T RANSACTIONS ON C OMPUTER -A IDED D ESIGN OF I NTEGRATED C IRCUITS AND S YSTEMS is published by the IEEE Council on Electronic Design Au- tomation. The IEEE Council on Electronic Design Automation (CEDA) is an organizational unit of the IEEE that has six IEEE member societies, namely, Antennas and Propagation, Circuits and Systems, Computer, Electron Devices, Microwave Theory and Techniques, and the Solid-State Circuits Societies. The objectives of CEDA include fostering design automation of electronic circuits and systems at all levels, by means of publications, conferences/workshops and volunteer activities. For membership and subscription information and pricing, please visit www.ieee.org/membership-catalog. Member copies of Transactions/Journals are for personal use only.
+---

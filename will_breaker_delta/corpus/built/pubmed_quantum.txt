@@ -1,0 +1,900 @@
+DOCUMENT
+ID: pubmed_31807566
+SOURCE: pubmed
+TITLE: The finer scale of consciousness: quantum theory.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2019
+ABSTRACT: Consciousness is a multidisciplinary problem that has puzzled all human beings since the origin of human life. Being defined in various pointcuts by philosophers, biologists, physicists, and neuroscientists, the definitive explanation of consciousness is still suspending. The nature of consciousness has taken great evolution by centering on the behavioral and neuronal correlates of perception and cognition, for example, the theory of Neural Correlates of Consciousness, the Global Workspace Theory, the Integrated Information Theory. While tremendous progress has been achieved, they are not enough if we are to understand even basic facts-how and where does the consciousness emerge. The Quantum mechanics, a thriving branch of physics, has an inseparable relationship with consciousness (e.g., observer effect) since Planck created this subject and its derived quantum consciousness theory can perfectly fill this gap. In this review, we briefly introduce some consciousness hypotheses derived from quantum mechanics and focus on the framework of orchestrated objective reduction (Orch-OR), including its principal points and practicality.
+---
+DOCUMENT
+ID: pubmed_24070914
+SOURCE: pubmed
+TITLE: Consciousness in the universe: a review of the 'Orch OR' theory.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2014
+ABSTRACT: The nature of consciousness, the mechanism by which it occurs in the brain, and its ultimate place in the universe are unknown. We proposed in the mid 1990's that consciousness depends on biologically 'orchestrated' coherent quantum processes in collections of microtubules within brain neurons, that these quantum processes correlate with, and regulate, neuronal synaptic and membrane activity, and that the continuous Schrödinger evolution of each such process terminates in accordance with the specific Diósi-Penrose (DP) scheme of 'objective reduction' ('OR') of the quantum state. This orchestrated OR activity ('Orch OR') is taken to result in moments of conscious awareness and/or choice. The DP form of OR is related to the fundamentals of quantum mechanics and space-time geometry, so Orch OR suggests that there is a connection between the brain's biomolecular processes and the basic structure of the universe. Here we review Orch OR in light of criticisms and developments in quantum biology, neuroscience, physics and cosmology. We also introduce a novel suggestion of 'beat frequencies' of faster microtubule vibrations as a possible source of the observed electro-encephalographic ('EEG') correlates of consciousness. We conclude that consciousness plays an intrinsic role in the universe.
+---
+DOCUMENT
+ID: pubmed_38281544
+SOURCE: pubmed
+TITLE: A landscape of consciousness: Toward a taxonomy of explanations and implications.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2024
+ABSTRACT: Diverse explanations or theories of consciousness are arrayed on a roughly physicalist-to-nonphysicalist landscape of essences and mechanisms. Categories: Materialism Theories (philosophical, neurobiological, electromagnetic field, computational and informational, homeostatic and affective, embodied and enactive, relational, representational, language, phylogenetic evolution); Non-Reductive Physicalism; Quantum Theories; Integrated Information Theory; Panpsychisms; Monisms; Dualisms; Idealisms; Anomalous and Altered States Theories; Challenge Theories. There are many subcategories, especially for Materialism Theories. Each explanation is self-described by its adherents, critique is minimal and only for clarification, and there is no attempt to adjudicate among theories. The implications of consciousness explanations or theories are assessed with respect to four questions: meaning/purpose/value (if any); AI consciousness; virtual immortality; and survival beyond death. A Landscape of Consciousness, I suggest, offers perspective.
+---
+DOCUMENT
+ID: pubmed_33378843
+SOURCE: pubmed
+TITLE: From quantum chemistry to quantum biology: a path toward consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2020
+ABSTRACT: This paper presents a historical overview of quantum physics methodology's development and application to various science fields beyond physics, especially biology and consciousness. Following a successful interpretation of several early 20t⁢h century experiments, quantum physics gradually provided a conceptual framework for molecular bonds via quantum chemistry. In recent years individual biological phenomena such as photosynthesis and bird navigation have been experimentally and theoretically analyzed using quantum methods, building conceptual foundations for quantum physics' entry into biology. Quantum concepts have also been recently employed to explain physiology's allometric scaling laws by introducing quantum metabolism theory. In the second part of this work, we discuss how quantum physics may also be pivotal to our understanding of consciousness, which has been touted by some researchers as the last frontier of modern science. Others believe that consciousness does not belong within the realm of science at all. Several hypotheses, especially the Orch OR theory, have been suggested over the past two decades to introduce a scientific basis to consciousness theory. We discuss the merits and potential extensions of these approaches.
+---
+DOCUMENT
+ID: pubmed_36368375
+SOURCE: pubmed
+TITLE: Consciousness, embodied Quantum Entanglement.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2023
+ABSTRACT: We have systematically misconstrued the nature of consciousness by overlooking our own physiology as that awareness. The following is a way to rectify this error through a deep understanding of what life 'means' in order to further advance our knowledge of who and what we are. The evolution of consciousness from the cell membrane to physiology is revealed by the effect of microgravity on phenotypic identity, revealing the two levels of consciousness experimentally. As does the classic Double-Slit experiment, exposing the dual way in which consciousness functions as both the day-to-day of the cell membrane and the transcendent property of our physiology.
+---
+DOCUMENT
+ID: pubmed_40216218
+SOURCE: pubmed
+TITLE: Quantum information theoretic approach to the hard problem of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: Functional theories of consciousness, based on emergence of conscious experiences from the execution of a particular function by an insentient brain, face the hard problem of consciousness of explaining why the insentient brain should produce any conscious experiences at all. This problem is exacerbated by the determinism characterizing the laws of classical physics, due to the resulting lack of causal potency of the emergent consciousness, which is not present already as a physical quantity in the deterministic equations of motion of the brain. Here, we present a quantum information theoretic approach to the hard problem of consciousness that avoids all of the drawbacks of emergence. This is achieved through reductive identification of first-person subjective conscious states with unobservable quantum state vectors in the brain, whereas the anatomically observable brain is viewed as a third-person objective construct created by classical bits of information obtained during the measurement of a subset of commuting quantum brain observables by the environment. Quantum resource theory further implies that the quantum features of consciousness granted by quantum no-go theorems cannot be replicated by any classical physical device.
+---
+DOCUMENT
+ID: pubmed_22925839
+SOURCE: pubmed
+TITLE: Consciousness, biology and quantum hypotheses.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2012
+ABSTRACT: Natural phenomena are reducible to quantum events in principle, but quantum mechanics does not always provide the best level of analysis. The many-body problem, chaotic avalanches, materials properties, biological organisms, and weather systems are better addressed at higher levels. Animals are highly organized, goal-directed, adaptive, selectionist, information-preserving, functionally redundant, multicellular, quasi-autonomous, highly mobile, reproducing, dissipative systems that conserve many fundamental features over remarkably long periods of time at the species level. Animal brains consist of massive, layered networks of specialized signaling cells with 10,000 communication points per cell, and interacting up to 1000 Hz. Neurons begin to divide and differentiate very early in gestation, and continue to develop until middle age. Waking brains operate far from thermodynamic equilibrium under delicate homeostatic control, making them extremely sensitive to a range of physical and chemical stimuli, highly adaptive, and able to produce a remarkable range of goal-relevant actions. Consciousness is "a difference that makes a difference" at the level of massive neuronal interactions in the most parallel-interactive anatomical structure of the mammalian brain, the cortico-thalamic (C-T) system. Other brain structures are not established to result in direct conscious experiences, at least in humans. However, indirect extra-cortical influences on the C-T system are pervasive. Learning, brain plasticity and major life adaptations may require conscious cognition. While brains evolved over hundreds of millions of years, and individual brains grow over months, years and decades, conscious events appear to have a duty cycle of ∼100 ms, fading after a few seconds. They can of course be refreshed by inner rehearsal, re-visualization, or attending to recurrent stimulus sources. These very distinctive brain events are needed when animals seek out and cope with new, unpredictable and highly valued life events, such as evading predators, gathering critical information, seeking mates and hunting prey. Attentional selection of conscious events can be observed behaviorally in animals showing coordinated receptor orienting, flexible responding, alertness, emotional reactions, seeking, motivation and curiosity, as well as behavioral surprise and cortical and autonomic arousal. Brain events corresponding to attentional selection are prominent and widespread. Attention generally results in conscious experiences, which may be needed to recruit widespread processing resources in the brain. Many neuronal processes never become conscious, such as the balance system of the inner ear. An air traveler may "see" the passenger cabin tilt downward as the plane tilts to descend for a landing. That visual experience occurs even at night, when the traveler has no external frame of spatial reference. The passenger's body tilt with respect to gravity is detected unconsciously via the hair cells of the vestibular canals, which act as liquid accelerometers. However, that sensory activity is not experienced directly. It only becomes conscious via vision and the body senses. The vestibular sense is therefore quite different from visual perception, which "reports" accurately to a conscious field of experience, so that we can point accurately to a bright star on a dark night. Vestibular input is also precise but unconscious. Conscious cognition is therefore a distinct kind of brain event. Many of its features are well established, and must be accounted for by any adequate theory. No non-biological examples are known. Penrose and Hameroff have proposed that consciousness may be viewed as a fundamental problem in quantum physics. Specifically, their 'orchestrated objective reduction' (Orch-OR) hypothesis posits that conscious states arise from quantum computations in the microtubules of neurons. However, a number of microtubule-associated proteins are found in both plant and animal cells (like neurons) and plants are not generally considered to be conscious. Current quantum-level proposals do not explain the prominent empirical features of consciousness. Notably, they do not distinguish between closely matched conscious and unconscious brain events, as cognitive-biological theories must. About half of the human brain does not support conscious contents directly, yet neurons in these "unconscious" brain regions contain large numbers of microtubules. QM phenomena are famously observer-dependent, but to the best of our knowledge it has not been shown that they require a conscious observer, as opposed to a particle detector. Conscious humans cannot detect quantum events "as such" without the aid of special instrumentation. Instead, we categorize the wavelengths of light into conscious sensory events that neglect their quantum mechanical properties. In science the burden of proof is on the proposer, and this burden has not yet been met by quantum-level proposals. While in the future we may discover quantum effects that bear distinctively on conscious cognition 'as such,' we do not have such evidence today.
+---
+DOCUMENT
+ID: pubmed_35782391
+SOURCE: pubmed
+TITLE: Consciousness, Cognition and the Neuronal Cytoskeleton - A New Paradigm Needed in Neuroscience.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2022
+ABSTRACT: Viewing the brain as a complex computer of simple neurons cannot account for consciousness nor essential features of cognition. Single cell organisms with no synapses perform purposeful intelligent functions using their cytoskeletal microtubules. A new paradigm is needed to view the brain as a scale-invariant hierarchy extending both upward from the level of neurons to larger and larger neuronal networks, but also downward, inward, to deeper, faster quantum and classical processes in cytoskeletal microtubules inside neurons. Evidence shows self-similar patterns of conductive resonances repeating in terahertz, gigahertz, megahertz, kilohertz and hertz frequency ranges in microtubules. These conductive resonances apparently originate in terahertz quantum dipole oscillations and optical interactions among pi electron resonance clouds of aromatic amino acid rings of tryptophan, phenylalanine and tyrosine within each tubulin, the component subunit of microtubules, and the brain's most abundant protein. Evidence from cultured neuronal networks also now shows that gigahertz and megahertz oscillations in dendritic-somatic microtubules regulate specific firings of distal axonal branches, 
+---
+DOCUMENT
+ID: pubmed_42137085
+SOURCE: pubmed
+TITLE: Quantum theories of consciousness: a critical review of feasibility, philosophical sufficiency, and empirical testability.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: Explaining subjective experience (the "hard problem") remains a central challenge in consciousness science. Research on "quantum consciousness" has grown rapidly in recent years, yet a substantial subset merely links terms such as collapse, superposition, and entanglement to qualia in verbal maneuvers that lack testable mechanistic commitments. This article adopts a theory-first critical-review framework and evaluates three classes of quantum theories of consciousness along three axes: (1) physical feasibility in warm, wet neural tissue strongly coupled to its environment; (2) philosophical sufficiency, i.e., a bridge from posited quantum processes to phenomenal character; and (3) empirical testability against classical alternatives. Based on the synthesized evidence, the present review suggests that further progress should prioritize experimentally tractable programs, in order to avoid the use of quantum terminology without mechanistic grounding in consciousness research and to convert debates into discriminating empirical programs.
+---
+DOCUMENT
+ID: pubmed_42083532
+SOURCE: pubmed
+TITLE: Quantum Consciousness: A Molecular Perspective Involving Glycoprotein-Tunnelling Hypothesis (GPTH).
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: Long-term memory exhibits a remarkable problem: it is extraordinarily stable over decades, yet it supports rapid, flexible cognition, logic, and conscious awareness. Classical neuroscience has largely attributed memory to synaptic plasticity and networklevel dynamics; however, these mechanisms alone do not adequately explain the molecular durability of memory traces in the face of continuous protein turnover. A hypothesis advanced by the author proposes that memory is encoded in stable, folded glycoprotein patterns, particularly within synaptic and peri-synaptic environments. This review examines how such structurally persistent molecular architectures could support dynamic information processing through quantum-enabled chemical mechanisms. Considering recent advances in glycobiology, enzymology, quantum biology, and medicinal chemistry, it is suggested that proton and electron tunnelling provide a plausible and experimentally grounded mechanism for reading out stable glycoprotein-encoded information without requiring large-scale molecular rearrangement or long-lived macroscopic quantum coherence. Such an approach reconciles molecular stability with cognitive flexibility and yields testable predictions that are relevant to neurodegenerative disease and drug discovery.
+---
+DOCUMENT
+ID: pubmed_38255663
+SOURCE: pubmed
+TITLE: Evolution of Consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2023
+ABSTRACT: The natural evolution of consciousness in different animal species mandates that conscious experiences are causally potent in order to confer any advantage in the struggle for survival. Any endeavor to construct a physical theory of consciousness based on emergence within the framework of classical physics, however, leads to causally impotent conscious experiences in direct contradiction to evolutionary theory since epiphenomenal consciousness cannot evolve through natural selection. Here, we review recent theoretical advances in describing sentience and free will as fundamental aspects of reality granted by quantum physical laws. Modern quantum information theory considers quantum states as a physical resource that endows quantum systems with the capacity to perform physical tasks that are classically impossible. Reductive identification of conscious experiences with the quantum information comprised in quantum brain states allows for causally potent consciousness that is capable of performing genuine choices for future courses of physical action. The consequent evolution of brain cortical networks contributes to increased computational power, memory capacity, and cognitive intelligence of the living organisms.
+---
+DOCUMENT
+ID: pubmed_40149167
+SOURCE: pubmed
+TITLE: Quantum Models of Consciousness from a Quantum Information Science Perspective.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: This perspective explores various quantum models of consciousness from the viewpoint of quantum information science, offering potential ideas and insights. The models under consideration can be categorized into three distinct groups based on the level at which quantum mechanics might operate within the brain: those suggesting that consciousness arises from electron delocalization within microtubules inside neurons, those proposing it emerges from the electromagnetic field surrounding the entire neural network, and those positing it originates from the interactions between individual neurons governed by neurotransmitter molecules. Our focus is particularly on the Posner model of cognition, for which we provide preliminary calculations on the preservation of entanglement of phosphate molecules within the geometric structure of Posner clusters. These findings provide valuable insights into how quantum information theory can enhance our understanding of brain functions.
+---
+DOCUMENT
+ID: pubmed_40171221
+SOURCE: pubmed
+TITLE: Evidence of quantum-entangled higher states of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: What if quantum entanglement could accelerate learning by unlocking 
+---
+DOCUMENT
+ID: pubmed_33232193
+SOURCE: pubmed
+TITLE: 'Orch OR' is the most complete, and most easily falsifiable theory of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2021
+ABSTRACT: The 'Orch OR' theory attributes consciousness to quantum computations in microtubules inside brain neurons. Quantum computers process information as superpositions of multiple possibilities (quantum bits or qubits) which, in Orch OR, are alternative collective dipole oscillations orchestrated ('Orch') by microtubules. These orchestrated oscillations entangle, compute, and terminate ('collapse of the wavefunction') by Penrose objective reduction ('OR'), resulting in sequences of Orch OR moments with orchestrated conscious experience (metaphorically more like music than computation). Each Orch OR event selects microtubule states which govern neuronal functions. Orch OR has broad explanatory power, and is easily falsifiable.
+---
+DOCUMENT
+ID: pubmed_42041796
+SOURCE: pubmed
+TITLE: Quantum-Inspired and Non-Classical Approaches to Consciousness: Models, Evidence and Constraints.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: Consciousness presents a structural puzzle: a unified, context-sensitive, globally integrated mode of experience emerging from distributed neural dynamics. While classical neuroscience has mapped synaptic, oscillatory, and network-level mechanisms with increasing precision, debate persists as to whether classical formalisms fully capture the integrative and contextual features of conscious processing. This review examines whether quantum principles offer explanatory leverage in two distinct senses: as formal mathematical frameworks for modeling contextual cognition, and as mechanistic hypotheses proposing biologically instantiated non-classical states. We surveyed empirical and theoretical developments spanning zero-quantum-coherence in MRI signals, entanglement-structured learning paradigms, quantum-inspired computational models, and proposed neural substrates, including microtubules, nuclear spins, and photonic architectures. Although certain findings have been interpreted as consistent with a non-classical structure, no study to date has demonstrated entanglement, long-lived coherence, or collapse dynamics in neural tissue under operational criteria comparable to those used in controlled quantum systems. Replication remains limited, biological entanglement witnesses are not yet established, and nonlinear classical dynamics can reproduce many putative quantum signatures. Accordingly, the decisive question is not whether the brain is quantum, but whether its dynamics exceed the explanatory reach of rigorously defined classical models. Progress hinges on replication, adversarial scrutiny, and operational criteria precise enough to discriminate genuine non-classical correlations from classical complexity. Whether quantum mechanisms ultimately prove necessary or refined classical models remain sufficient, this inquiry compels a deeper understanding of integration, contextuality, and the physical constraints shaping conscious experience.
+---
+DOCUMENT
+ID: pubmed_15025876
+SOURCE: pubmed
+TITLE: Consciousness and quantum information processing: uncovering the foundation for a medicine of light.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2004
+ABSTRACT: Great progress has been made by Russian and German researchers in recent years (Popp, Voeikov, and others) to examine the biophysical aspects of biophotonic processes in humans. This paper suggests that there is a many-body reality to the way biophysical light interacts with the human self-organization of information that may be achieved by means of biomolecular, metabolic, or neural communication. These systems may merge as mobile energy relay systems similar to what is seen as qi processes in acupuncture science, suggesting a "holomovement" that seeks to confirm itself and increasingly retrieves and uses only the information that serves its exchanges with the environment. This coevolution of evolutionary process levels, expressed in process terms, can be seen as a foundation for a Medicine of Light integrating hidden variables in consciousness studies with functional differentiation and new findings in the biologic sciences.
+---
+DOCUMENT
+ID: pubmed_10049159
+SOURCE: pubmed
+TITLE: Anesthesia, consciousness and hydrophobic pockets--a unitary quantum hypothesis of anesthetic action.
+AUTHORS: 
+JOURNAL: 
+YEAR: 1998
+ABSTRACT: 1. A consensus view holds that anesthetics act by van der Waals forces in hydrophobic pockets of select brain proteins to ablate consciousness. 2. What is consciousness? Enigmatic features of consciousness (e.g. 'qualia', binding, non-computability, pre-conscious-->conscious transition, nondeterministic free will) may be explained by the occurrence of quantum coherent states in the brain. 3. Van der Waals electron pair couplings (London forces) in hydrophobic pockets in non-anesthetic (conscious) conditions are a particular type of quantum capable of supporting macroscopic quantum coherence. 4. The mechanism of anesthetics may be to inhibit electron mobility and London forces necessary for quantum states and consciousness in hydrophobic pockets of select brain proteins.
+---
+DOCUMENT
+ID: pubmed_41850148
+SOURCE: pubmed
+TITLE: Improving consciousness assessment through neuroadaptive artificial intelligence and quantum-enhanced brain-computer interfaces.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: Accurate assessment of consciousness in patients with disorders of consciousness (DoC) remains a major clinical challenge, particularly when motor impairment masks evidence of preserved awareness. Recent advances in neuroadaptive artificial intelligence (NA-AI) may help transform brain-computer interfaces (BCIs) from experimental systems into more clinically scalable tools tailored to each patient, continuously adjusting their models in real time to changes in an individual's (neuro)physiological signals. Generative and self-adapting AI models can account for inter-individual variability and temporal instability in neural signals, enabling faster calibration, improved robustness and personalized decoding of conscious intent. AI world-model approaches further enable realistic and dynamic representations of a patient's neurophysiology, allowing BCIs to interpret neural activity in the context of evolving brain states rather than static classifications of consciousness levels. Emerging work in quantum-enhanced machine and deep learning suggests that some current computational bottlenecks in BCIs, including high-dimensional optimization and complex pattern discovery, may be further alleviated. We argue that the convergence of neuroadaptive AI and quantum-enabled computation could improve the sensitivity, speed and reliability of consciousness assessments. Given the exploratory stage of quantum-AI research, rigorous clinical validation and governance frameworks will be required to ensure safe deployment and improved patient outcomes. If validated, quantum-AI BCIs could reduce diagnostic uncertainty, improve prognostication and support ethically grounded decision-making for patients unable to communicate.
+---
+DOCUMENT
+ID: pubmed_28232245
+SOURCE: pubmed
+TITLE: The quantum basis of spatiotemporality in perception and consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2017
+ABSTRACT: Living systems inhabit the area of the world which is shaped by the predictable space-time of physical objects and forces that can be incorporated into their perception pattern. The process of selecting a "habitable" space-time is the internal quantum measurement in which living systems become embedded into the environment that supports their living state. This means that living organisms choose a coordinate system in which the influence of measurement is minimal. We discuss specific roles of biological macromolecules, in particular of the cytoskeleton, in shaping perception patterns formed in the internal measurement process. Operation of neuron is based on the transmission of signals via cytoskeleton where the digital output is generated that can be decoded through a reflective action of the perceiving agent. It is concluded that the principle of optimality in biology as formulated by Liberman et al. (BioSystems 22, 135-154, 1989) is related to the establishment of spatiotemporal patterns that are maximally predictable and can hold the living state for a prolonged time. This is achieved by the selection of a habitable space approximated to the conditions described by classical physics.
+---
+DOCUMENT
+ID: pubmed_17115084
+SOURCE: pubmed
+TITLE: Human development VIII: a theory of "deep" quantum chemistry and cell consciousness: quantum chemistry controls genes and biochemistry to give cells and higher organisms consciousness and complex behavior.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2006
+ABSTRACT: Deep quantum chemistry is a theory of deeply structured quantum fields carrying the biological information of the cell, making it able to remember, intend, represent the inner and outer world for comparison, understand what it "sees", and make choices on its structure, form, behavior and division. We suggest that deep quantum chemistry gives the cell consciousness and all the qualities and abilities related to consciousness. We use geometric symbolism, which is a pre-mathematical and philosophical approach to problems that cannot yet be handled mathematically. Using Occam's razor we have started with the simplest model that works; we presume this to be a many-dimensional, spiral fractal. We suggest that all the electrons of the large biological molecules' orbitals make one huge "cell-orbital", which is structured according to the spiral fractal nature of quantum fields. Consciousness of single cells, multi cellular structures as e.g. organs, multi-cellular organisms and multi-individual colonies (like ants) and human societies can thus be explained by deep quantum chemistry. When biochemical activity is strictly controlled by the quantum-mechanical super-orbital of the cell, this orbital can deliver energetic quanta as biological information, distributed through many fractal levels of the cell to guide form and behavior of an individual single or a multi-cellular organism. The top level of information is the consciousness of the cell or organism, which controls all the biochemical processes. By this speculative work inspired by Penrose and Hameroff we hope to inspire other researchers to formulate more strict and mathematically correct hypothesis on the complex and coherence nature of matter, life and consciousness.
+---
+DOCUMENT
+ID: pubmed_33749435
+SOURCE: pubmed
+TITLE: Watson's Ten Caritas Processes with the Lens of Unitary Human Caring Science.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2021
+ABSTRACT: The author in this paper articulates how Watson's caritas processes evolved to caritas-veritas light on virtues, facilitating unitary transformative experience. This shift builds harmonic coherence between major streams of consciousness that focus on (a) the physical and conceptually concrete (objective/quantitative/particulate/determinate); (b) the mental, emotional, meaningful/belief systems (subjective/qualitative/interactive/integrative); and (c) the gestalt of spirit and the natural environment (virtual/quantum/unitary/transformative). The lived experience of harmonically braided streams of consciousness melds human-environment, potentiating health, healing, love, and compassion. Unitary transformative pandimensional awareness unfolds in the consciousness and everyday life of the practicing nurse, facilitating a direct experience of sacred praxis.
+---
+DOCUMENT
+ID: pubmed_42719279
+SOURCE: pubmed
+TITLE: Quantum evidence of nonlocal consciousness during clinical death.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: If consciousness can operate under quantum principles, then the boundaries between life, death, and cognition are far more permeable than current science allows. In the first large-scale, randomized, double-blind, multicenter trial to test this possibility, conducted across 13 hospitals in the UK and Spain, we investigated whether the human mind can access information during clinical death-but only when exposed to auditory stimuli governed by quantum entanglement. The entangled stimulation circuit was implemented and synchronized with the 127-qubit IBM Brisbane quantum supercomputer and delivered during in-hospital cardiopulmonary arrest (CA), beginning 120 s after arrest onset. Quantum entanglement was verified through statistically significant violations of Mermin inequalities. During resuscitation, we measured neurophysiological biomarkers including cerebral oxygenation via near-infrared spectroscopy (NIRS), brain temperature, and blood pH, lactate, and serum concentrations of brain-derived neurotrophic factor (BDNF). After reanimation, 142 survivors completed a forced-choice recall test, near-death experience (NDE) scales, and other clinical control assessments. False memories, hallucinations, and confounding biases were successfully controlled. Notably, recall lucidity increased momentarily as NIRS values dropped, and NDEs positively correlated with neuroplasticity during CA. Biomarker models explained up to 56.8% of the variance in recall. These findings compel a radical rethinking of clinical death: consciousness may persist-quantum bound, detectable, and not yet defeated.
+---
+DOCUMENT
+ID: pubmed_40342554
+SOURCE: pubmed
+TITLE: A quantum microtubule substrate of consciousness is experimentally supported and solves the binding and epiphenomenalism problems.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: Recent experimental evidence, briefly reviewed here, points to intraneuronal microtubules as a functional target of inhalational anesthetics. This finding is consistent with the general hypothesis that the biophysical substrate of consciousness is a collective quantum state of microtubules and is specifically predicted by the Orchestrated Objective Reduction theory of Penrose and Hameroff. I also review experimental evidence that functionally relevant quantum effects occur in microtubules at room temperature, and direct physical evidence of a macroscopic quantum entangled state in the living human brain that is correlated with the conscious state and working memory performance. Having established the physical and biological plausibility of quantum microtubule states related to consciousness, I turn to consider potential practical advantages of a quantum brain and enormous theoretical advantages of a quantum consciousness model. In particular, I explain how the quantum model makes panprotopsychism a viable solution to physicalism's hard problem by solving the phenomenal binding or combination problem. Postulating a quantum physical substrate of consciousness solves the binding problem in principle but appears to leave us with an epiphenomenalism problem, meaning that consciousness seems to have no causal power to confer a fitness advantage, so its evolution remains as an inexplicable mystery. I propose that, contrary to a certain (zombie) intuition, the quantum approach can also solve this problem in a nontrivial way. The Orchestrated Objective Reduction (Orch OR) theory of Penrose and Hameroff embodies these advantages of a quantum model and also accounts for nonalgorithmic human understanding and the psychological arrow of time.
+---
+DOCUMENT
+ID: pubmed_9105916
+SOURCE: pubmed
+TITLE: Consciousness and biological order: toward a quantum theory of life and its evolution.
+AUTHORS: 
+JOURNAL: 
+YEAR: 1997
+ABSTRACT: Biological order is discussed within the context of the idealist interpretation of quantum mechanics. A quantum mechanism is proposed for quantum speciation and for quantum evolution, in general. It is shown that an extension of neo-Darwinism to include quantum evolution via a quantum mechanism can resolve some of the recent controversies that have rattled evolution theory. It is pointed out that the quantum approach has the further benefit of giving a straightforward insight into the nature of life itself. Experimental support for some aspects of the theory is discussed.
+---
+DOCUMENT
+ID: pubmed_40977855
+SOURCE: pubmed
+TITLE: The quantum-classical complexity of consciousness and orchestrated objective reduction.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_29103044
+SOURCE: pubmed
+TITLE: Editorial.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2017
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_38395203
+SOURCE: pubmed
+TITLE: The quantum cell.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2024
+ABSTRACT: There is a consensus that we are conscious of something greater than ourselves, as if we are derived from some other primordial set of principles. Classical or Newtonian physics is based on the Laws of Nature. Conversely, in a recent series of articles, it has been hypothesized that the cell was formed from lipid molecules submerged in the primordial ocean that covered the earth 100 million years after it formed. Since lipids are amphiphiles, with both a positively- and negatively-charged pole, the negatively-charged pole is miscible in water. Under the influence of earth's gravity, the lipid molecules stand up perpendicularly to the surface of the water, packing together until the negative charge neutralizes the Van der Waals force for surface tension, causing the lipid molecules to 'leap' into the micellar form as a sphere with a semi-permeable membrane. Particles in the water freely enter and exit such spheres based on mass action. Over time such protocells evolved Symbiogenesis, encountering factors that posed existential threats, assimilating them to form physiology to maintain homeostatic control. Importantly, when differentiated lung or bone cells are exposed to zero gravity, they lose their phenotypic identity in their evolved state, which has been interpreted as transiting from local to non-local consciousness.
+---
+DOCUMENT
+ID: pubmed_25012711
+SOURCE: pubmed
+TITLE: Quantum effects in the understanding of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2014
+ABSTRACT: This paper presents a historical perspective on the development and application of quantum physics methodology beyond physics, especially in biology and in the area of consciousness studies. Quantum physics provides a conceptual framework for the structural aspects of biological systems and processes via quantum chemistry. In recent years individual biological phenomena such as photosynthesis and bird navigation have been experimentally and theoretically analyzed using quantum methods building conceptual foundations for quantum biology. Since consciousness is attributed to human (and possibly animal) mind, quantum underpinnings of cognitive processes are a logical extension. Several proposals, especially the Orch OR hypothesis, have been put forth in an effort to introduce a scientific basis to the theory of consciousness. At the center of these approaches are microtubules as the substrate on which conscious processes in terms of quantum coherence and entanglement can be built. Additionally, Quantum Metabolism, quantum processes in ion channels and quantum effects in sensory stimulation are discussed in this connection. We discuss the challenges and merits related to quantum consciousness approaches as well as their potential extensions.
+---
+DOCUMENT
+ID: pubmed_28597248
+SOURCE: pubmed
+TITLE: The Soul, as an Uninhibited Mental Activity, is Reduced into Consciousness by Rules of Quantum Physics.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2017
+ABSTRACT: This paper is an effort to describe, in neuroscientific terms, one of the most ambiguous concepts of the universe-the soul. Previous efforts to understand what the soul is and where it may exist have accepted the soul as a subjective and individual entity. We will make two additions to this view: (1) The soul is a result of uninhibited mental activity and lacks spatial and temporal information; (2) The soul is an undivided whole and, to become divided, the soul has to be reduced into unconscious and conscious mental events. This reduction process parallels the maturation of the frontal cortex and GABA becoming the main inhibitory neurotransmitter. As examples of uninhibited mental activity, we will discuss the perceptual differences of a newborn, individuals undergoing dissociation, and individuals induced by psychedelic drugs. Then, we will explain the similarities between the structure of the universe and the structure of the brain, and we propose that consideration of the rules of quantum physics is necessary to understand how the soul is reduced into consciousness.
+---
+DOCUMENT
+ID: pubmed_29337208
+SOURCE: pubmed
+TITLE: Quantum Mechanics predicts evolutionary biology.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2018
+ABSTRACT: Nowhere are the shortcomings of conventional descriptive biology more evident than in the literature on Quantum Biology. In the on-going effort to apply Quantum Mechanics to evolutionary biology, merging Quantum Mechanics with the fundamentals of evolution as the First Principles of Physiology-namely negentropy, chemiosmosis and homeostasis-offers an authentic opportunity to understand how and why physics constitutes the basic principles of biology. Negentropy and chemiosmosis confer determinism on the unicell, whereas homeostasis constitutes Free Will because it offers a probabilistic range of physiologic set points. Similarly, on this basis several principles of Quantum Mechanics also apply directly to biology. The Pauli Exclusion Principle is both deterministic and probabilistic, whereas non-localization and the Heisenberg Uncertainty Principle are both probabilistic, providing the long-sought after ontologic and causal continuum from physics to biology and evolution as the holistic integration recognized as consciousness for the first time.
+---
+DOCUMENT
+ID: pubmed_31470243
+SOURCE: pubmed
+TITLE: Quantum nature of consciousness - Double slit diffraction experiment in medicine.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2019
+ABSTRACT: The essence of our hypothesis is quantum properties of conscious processes as well as the possibility to measure changes in conscious attention by using quantum double-slit experiment. We supposed that the act of observing in state of focused attention cause a wave function collapse in double-slit diffraction. In order to test the hypothesis, 26 participants took part in the study divided into physical and physiological parts of the experiment. The purpose of the physical system was to reproduce the brain quantum process via hypothesized quantum entanglement. The physical part consisted of a red laser source, neutral density filter, double-slit diaphragm, and linear couple charged camera, while the physiological part of the experiment was significant for the physiological quantifying state of attention. Physiological data were collected by using 29 channel electrophysiological unit with 21 channel electroencephalograph. The study had control and experimental group according to dependent variables measured in the physical part of the experiment. The data in the experimental group were collected over ten studies (sessions). Results obtained in hypothesis testing showed significant increases in corpuscular properties of the electromagnetic wave as well as significant quantum entanglement between the brain and external double-slit quantum system. Our results also offer insight into the connection between the chaotic dynamic of the electroencephalographic signals and uncertainty in the physical system due to focused attention effect. We also hypothesized that the state of concentrated attention was highest during the first several seconds. The last hypothesis considered possible backward time referral effect of cognitive evoked potential p300.
+---
+DOCUMENT
+ID: pubmed_40288602
+SOURCE: pubmed
+TITLE: Quantum information as the scientific basis for the explanation of human consciousness and its evolution.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: A scientific explanation of consciousness and its evolution has become possible by a generalized quantum information concept. Crucial to this is a new understanding of matter and energy. Our consciousness, being an information structure, processes the information that we absorb from our bodies and our environment. This information reaches us as properties of material objects and the massless quanta of light, the photons. One of the properties of matter is motion - physically, kinetic energy. Einstein's E = mc
+---
+DOCUMENT
+ID: pubmed_11684479
+SOURCE: pubmed
+TITLE: A quantum approach to visual consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2001
+ABSTRACT: A theoretical approach relying on quantum computation in microtubules within neurons can potentially resolve the enigmatic features of visual consciousness, but raises other questions. For example, how can delicate quantum states, which in the technological realm demand extreme cold and isolation to avoid environmental 'decoherence', manage to survive in the warm, wet brain? And if such states could survive within neuronal cell interiors, how could quantum states grow to encompass the whole brain? We present a physiological model for visual consciousness that can accommodate brain-wide quantum computation according to the Penrose-Hameroff 'Orch OR' model. In this view, visual consciousness occurs as a series of several-hundred-millisecond epochs, each comprising 'crescendo sequences' of quantum computations occurring at approximately 40 Hz.
+---
+DOCUMENT
+ID: pubmed_40862889
+SOURCE: pubmed
+TITLE: NeuroQ: Quantum-Inspired Brain Emulation.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: Traditional brain emulation approaches often rely on classical computational models that inadequately capture the stochastic, nonlinear, and potentially coherent features of biological neural systems. In this position paper, we introduce NeuroQ a quantum-inspired framework grounded in stochastic mechanics, particularly Nelson's formulation. By reformulating the FitzHugh-Nagumo neuron model with structured noise, we derive a Schrödinger-like equation that encodes membrane dynamics in a quantum-like formalism. This formulation enables the use of quantum simulation strategies-including Hamiltonian encoding, variational eigensolvers, and continuous-variable models-for neural emulation. We outline a conceptual roadmap for implementing NeuroQ on near-term quantum platforms and discuss its broader implications for neuromorphic quantum hardware, artificial consciousness, and time-symmetric cognitive architectures. Rather than demonstrating a working prototype, this work aims to establish a coherent theoretical foundation for future research in quantum brain emulation.
+---
+DOCUMENT
+ID: pubmed_26227538
+SOURCE: pubmed
+TITLE: On the possible quantum role of serotonin in consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2015
+ABSTRACT: Cell membrane's fatty acids (FAs) have been carefully investigated in neurons and platelets in order to study a possible connection to psychopathologies. An important link between the FA distribution and membrane dynamics appears to emerge with the cytoskeleton dynamics. Microtubules (MTs) in particular have been implicated in some recent quantum consciousness models and analyses. The recently proposed quantum model of Craddock et al. (2014) states that MTs possess structural and functional characteristics that are consistent with collective quantum coherent excitations in the aromatic groups of their tryptophan residues. These excitations are consistent with a clocking mechanism on a sub-nanosecond scale. This mechanism and analogous phenomena in light-harvesting complexes in plants and bacteria, are induced by photons and have been touted as evidence of quantum processes in biology. A possible source of intra-cellular photons could be membrane lipid peroxidation processes, so the FA profile could then be linked to the bio-photon emission. The model presented here suggests new ways to understand the role serotonin plays in relation to FAs. In plants, tryptophan conversion of light to exciton energy can participate in the directional orientation of leaves toward sunlight. Since serotonin is structurally similar to tryptophan, in the human brain, neurons could use tryptophan to capture photons and also use serotonin to initiate movement toward the source of light. Hence, we postulate two possible new roles for serotonin: (1) as an antioxidant, in order to counter-balance the oxidative effect of FAs, and (2) to participate in quantum interactions with MTs, in the same way as anesthetics and psychoactive compounds have been recently shown to act. In this latter case, the FA profile could provide an indirect measure of serotonin levels.
+---
+DOCUMENT
+ID: pubmed_41135132
+SOURCE: pubmed
+TITLE: Between myth and history: von Neumann on consciousness in quantum mechanics.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: The von Neumann attitude on such a deep interpretational question as the role of a human observer in order for the quantum description of measurement to be consistent has been long misrepresented. The large majority of the subsequent literature ascribed to von Neumann a radical view, according to which not only the collapse was in itself a truly physical process, but also the only way to accommodate it within a quantum description of a typical measurement was the introduction of human consciousness as a kind of 'causal' factor. Inspired by the work of reconstruction pursued by the phenomenological reading of the London-Bauer approach, started by Steven French more than twenty years ago, the account I propose substantiates a significantly more cautious attitude by von Neumann: the time seems then ripe to tell a more balanced story on the relation between the notion of consciousness and the foundations of quantum mechanics in the work of the first scientist - János von Neumann - who explicitly and rigorously addressed the implication of a really universal formulation of quantum physics.
+---
+DOCUMENT
+ID: pubmed_42450355
+SOURCE: pubmed
+TITLE: Neuronal Microtubules and Radiofrequency Waves: The Quantum Core of Human Consciousness, Memory, and Pathway to Memory Enhancement/Recovery.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: A unifying theory of both human consciousness and memory is presented that is based on neuronal microtubules (MTs) being central to both, and different populations of pyramidal cells in neocortex and hippocampus being responsible for consciousness or memory. First, two quantum theories of consciousness are presented-the Orchestrated Objective Reduction (Orch OR) theory of Penrose/Hameroff and the Environmental-Induced Decoherence Theory (EID) theory of Neven. A Hybrid (MT/EID) theory is proposed in the context of "consciousness"-dedicated pyramidal cells in Layer V of the cerebral cortex. This MT/EID theory involves the MT vibrations of the Orch OR Theory, along with the continual superposition qubit (SPQ) formation and SPQ entanglement of the EID Theory to collectively induce SPQ formation/entanglement in Layer V of the cerebral cortex. Orch OR's objective reduction (collapse of the waveform) is not included in this Hybrid theory because the system of SPQs themselves continuously collapses due to EID. For memory, it is proposed that Orch OR forms its basis with three specific modifications: (1) presenting "endogenous" radiofrequency (RF) vibrations generated by neuronal microtubules as forming a microtubule/RF wave "vibrational fabric" involving microtubular crystalline water cores, (2) refining Orch OR for memory by proposing SPQ formation for short-term memory and objective reduction of those qubits primarily in "memory-dedicated" pyramidal cells within cortical Layers II/III for long-term memory storage through "Quantum Darwinism" (SPQ/OR), and (3) integrating SPQ/OR with the ability of "externally" applied RF waves at 1 GHz to beneficially influence human memory through microtubule-enhancing mechanisms. It is proposed that a vibrational fabric consisting of MTs, RF waves, and generated photons provides the Photonic/RF-wave quantum coherence necessary for brain memory processing. Strong evidence for beneficial effects of exogenous RF wave treatment on memory is provided by a new bioengineered technology-Transcranial Radiofrequency Wave Treatment (TRFT; also known as TEMT). This evidence is presented in both pre-clinical and clinical studies involving normal and Alzheimer's Disease (AD) transgenic mice, and AD patients bearing memory loss. In support of MT involvement in memory, TRFT would appear to be an ideal non-pharmacologic technology to beneficially modulate the microtubule/RF wave vibrational fabric-an intraneuronal fabric that may be at the deep core of human memory, and thus the key to Alzheimer's Disease memory rescue.
+---
+DOCUMENT
+ID: pubmed_40530587
+SOURCE: pubmed
+TITLE: The Wolf's Trail.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: None
+---
+DOCUMENT
+ID: pubmed_17560360
+SOURCE: pubmed
+TITLE: The complementarity of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2007
+ABSTRACT: The concept of complementarity, originally proposed by Bohr in a microphysical context, and subsequently extended by himself, Heisenberg and Pauli to encompass subjective as well as objective dimensions of human experience, can be further expanded to apply to many common attitudes of human consciousness. At issue is the replacement of strict polar opposition of superficially antithetical consciousness capacities, such as analysis and synthesis, logic and intuition, or doing and being, by more generous conjugation that allows the pairs to operate in constructive triangulation and harmony. In this format, the physical principle of uncertainty also acquires metaphoric relevance in limiting the attainable sharpness of specification of any consciousness complements, and may serve to define their optimum balance in establishing reality. These principles thus lend themselves to representation of wave-like vs. particle-like operations of consciousness; to trade-offs between rigor and ambience in consciousness research; to generic masculine/feminine reinforcement; and to the interplay of science and spirit in any creative enterprise.
+---
+DOCUMENT
+ID: pubmed_38296164
+SOURCE: pubmed
+TITLE: The holism of evolution as consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2024
+ABSTRACT: Quantum Entanglement has been hypothesized to mediate non-local consciousness, underlying which, empirically, is the force of gravity. Upon further reflection, the case can be made for 'the breath' as the physiologic trait that binds all of these properties together, offering further opportunity for hypothesis testing experimentation. Humans have inexplicably made extraordinary intellectual and technical advances within a relatively very short period of time, referred to as the 'great leap forward'. It would be of great value if we could identify how and why we have evolved so rapidly. There is a holotropism that begins with the Big Bang that is centered on the homeostatic control of energy, perpetually referencing the First Principles of Physiology. "The Breath" is how and why our physiology has managed to perpetuate our species, and perhaps why the lung has been 'over-engineered' in order to facilitate the role of breathing in consciousness.
+---
+DOCUMENT
+ID: pubmed_40475802
+SOURCE: pubmed
+TITLE: Mathematical proof of the Fisher-Escolà
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: Quantum theories have long sought to explain conscious experience, yet their biggest challenge is not conceptual but methodological. A critical gap remains: the lack of statistical tools capable of empirically testing these theories against objective reality. This study introduces and formalizes the 
+---
+DOCUMENT
+ID: pubmed_38979125
+SOURCE: pubmed
+TITLE: Could there be an experimental way to link consciousness and quantum computations of brain microtubules?
+AUTHORS: 
+JOURNAL: 
+YEAR: 2024
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_29948787
+SOURCE: pubmed
+TITLE: Consciousness as an Inhibited Manifestation and Quantum Physics.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2018
+ABSTRACT: The term soul is used in the traditional literature as a synonym for one's true Self and is associated with the subjective essence of one's living. Since, we don't have any means to quantify it, the science has ruled out this idea from its investigations. But, in a recent study, Ceylan et al. (2017) has reintroduced the word soul to scientific literature and examined the possibility of the study of the soul through scientific modalities. The primary focus of their study is to find and understand the scientific analog of the soul as quoted and discussed in the traditional literature. In the present paper, we examine the idea of a soul that uses a novel approach; integrating neuroscience and quantum physics, as proposed in Ceylan et al. (2017). For this purpose, we make use of findings from neuroscientific studies on meditation to understand the concepts of soul and consciousness in terms of inhibition mechanisms. In this context, this paper serves as an attempt to call for more studies to discuss and expand the hypothesis about the soul as uninhibited mental activity.
+---
+DOCUMENT
+ID: pubmed_41420689
+SOURCE: pubmed
+TITLE: What a "Landscape of Consciousness" Means for Neurology and Neuroscience.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: To gather (almost) all (reasonable) theories of phenomenal consciousness, describe them neutrally (largely in the words of their authors), and organize them in a comprehensive, cross-disciplinary taxonomy of categories-"Landscape of Consciousness." Perhaps the process can encourage novel ways of thinking among medical (psychiatry/neurology) practitioners and neuroscientists.
+---
+DOCUMENT
+ID: pubmed_36424755
+SOURCE: pubmed
+TITLE: On the Mechanistic Perceptions of Consciousness: From Quantum Mechanics to Consciousness and Free Will and from David Bohm to Benjamin Libet.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2022
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_19698908
+SOURCE: pubmed
+TITLE: A quantum physics account of consciousness: much less than meets the eye.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2009
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_25668717
+SOURCE: pubmed
+TITLE: Quantum neurophysics: From non-living matter to quantum neurobiology and psychopathology.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2016
+ABSTRACT: The concepts of quantum brain, quantum mind and quantum consciousness have been increasingly gaining currency in recent years, both in scientific papers and in the popular press. In fact, the concept of the quantum brain is a general framework. Included in it are basically four main sub-headings. These are often incorrectly used interchangeably. The first of these and the one which started the quantum mind/consciousness debate was the place of consciousness in the problem of measurement in quantum mechanics. Debate on the problem of quantum measurement and about the place of the conscious observer has lasted almost a century. One solution to this problem is that the participation of a conscious observer in the experiment will radically change our understanding of the universe and our relationship with the outside world. The second topic is that of quantum biology. This topic has become a popular field of research, especially in the last decade. It concerns whether or not the rules of quantum physics operate in biological structures. It has been shown in the latest research on photosynthesis, the sense of smell and magnetic direction finding in animals that the laws of quantum physics may operate in warm-wet-noisy biological structures. The third sub-heading is quantum neurobiology. This topic has not yet gained wide acceptance and is still in its early stages. Its primary purpose is directed to understand whether the laws of quantum physics are effective in the biology of the nervous system or not. A further step in brain neurobiology, toward the understanding of consciousness formation, is the research of quantum laws effects upon neural network functions. The fourth and final topic is quantum psychopathology. This topic takes its basis and its support from quantum neurobiology. It comes from the idea that if quantum physics is involved in the normal working of the brain, diseased conditions of the brain such as depression, anxiety, dementia, schizophrenia and hallucinations can be explained by quantum physical pathology. In this article, these topics will be reviewed in a general framework, and for the first time a general classification will be made for the quantum brain theory.
+---
+DOCUMENT
+ID: pubmed_16004255
+SOURCE: pubmed
+TITLE: [Geoelectromagnetic field and consciousness quantum].
+AUTHORS: 
+JOURNAL: 
+YEAR: 2005
+ABSTRACT: A physically grounded model of consciousness quantum associated with free radical spins of the biomembranes is proposed. Essentially, is the consciousness quantum physically valid as a fundamental constant of 10(40) spins? According to our concept, consciousness quantum transduction is possible in geoelectromagnetic field of 0.5 erg by a 1.4 MHz electromagnetic wave under conditions of magnetic resonance. At the same time, the presented rationale requires further consideration.
+---
+DOCUMENT
+ID: pubmed_39163215
+SOURCE: pubmed
+TITLE: Dinosaur Consciousness: How we'll learn more about dark matter, quantum gravity and substitutes for lab animals.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2024
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_12086706
+SOURCE: pubmed
+TITLE: The neurophysics of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2002
+ABSTRACT: Consciousness combines information about attributes of the present multimodal sensory environment with relevant elements of the past. Information from each modality is continuously fractionated into distinct features, processed locally by different brain regions relatively specialized for extracting these disparate components and globally by interactions among these regions. Information is represented by levels of synchronization within neuronal populations and of coherence among multiple brain regions that deviate from random fluctuations. Significant deviations constitute local and global negative entropy, or information. Local field potentials reflect the degree of synchronization among the neurons of the local ensembles. Large-scale integration, or 'binding', is proposed to involve oscillations of local field potentials that play an important role in facilitating synchronization and coherence, assessed by neuronal coincidence detectors, and parsed into perceptual frames by cortico-thalamo-cortical loops. The most probable baseline levels of local synchrony, coherent interactions among brain regions, and frame durations have been quantitatively described in large studies of their age-appropriate normative distributions and are considered as an approximation to a conscious 'ground state'. The level of consciousness during anesthesia can be accurately predicted by the magnitude and direction of reversible multivariate deviations from this ground state. An invariant set of changes takes place during anesthesia, independent of the particular anesthetic agent. Evidence from a variety of neuroscience areas supporting these propositions, together with the invariant reversible electrophysiological changes observed with loss and return of consciousness, are used to provide a foundation for this theory of consciousness. This paper illustrates the increasingly recognized need to consider global as well as local processes in the search for better explanations of how the brain accomplishes the transformation from synchronous and distributed neuronal discharges to seamless global subjective awareness.
+---
+DOCUMENT
+ID: pubmed_11311462
+SOURCE: pubmed
+TITLE: N-methyl-D-aspartate channel and consciousness: from signal coincidence detection to quantum computing.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2001
+ABSTRACT: Research on Blindsight, Neglect/Extinction and Phantom limb syndromes, as well as electrical measurements of mammalian brain activity, have suggested the dependence of vivid perception on both incoming sensory information at primary sensory cortex and reentrant information from associative cortex. Coherence between incoming and reentrant signals seems to be a necessary condition for (conscious) perception. General reticular activating system and local electrical synchronization are some of the tools used by the brain to establish coarse coherence at the sensory cortex, upon which biochemical processes are coordinated. Besides electrical synchrony and chemical modulation at the synapse, a central mechanism supporting such a coherence is the N-methyl-D-aspartate channel, working as a 'coincidence detector' for an incoming signal causing the depolarization necessary to remove Mg(2+), and reentrant information releasing the glutamate that finally prompts Ca(2+) entry. We propose that a signal transduction pathway activated by Ca(2+) entry into cortical neurons is in charge of triggering a quantum computational process that accelerates inter-neuronal communication, thus solving systemic conflict and supporting the unity of consciousness.
+---
+DOCUMENT
+ID: pubmed_20677696
+SOURCE: pubmed
+TITLE: Quantum questions.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2010
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_25012718
+SOURCE: pubmed
+TITLE: Editorial.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2014
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_42028039
+SOURCE: pubmed
+TITLE: Editorial: Quantum and quantum-like effects across neuroscience.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_40999612
+SOURCE: pubmed
+TITLE: A Unified Model of Consciousness: Glycoprotein Patterns in Memory Processes and Quantum Entanglement.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: The author had previously proposed that memory could be encoded as patterns of hydrogen-bonded "frozen" conformers of neuronal glycoproteins. These stabilised molecular patterns represent an ideal template for information storage in the human brain because of the large number of asymmetric centres present in sugar molecules with attached hydroxyl groups. Hydrogen bonding of hydroxyl groups present on sugar molecules with other hydroxyl or amino groups on nearby sugar or nucleic acid units, by intramolecular or intermolecular hydrogen bonding, can result in the formation of memory patterns comprising such "frozen conformers". This mechanism can be involved in learning, information storage, and its recall. Penrose and Hameroff's orchestrated objective reduction (Orch OR) theory proposes that quantum superpositions and entanglement within neuronal microtubules are orchestrated by cellular processes and periodically undergo objective reduction, yielding discrete moments of conscious awareness. Recent developments in quantum biology and protein photophysics have significantly narrowed the gap between these perspectives. Most notably, Babcock et al. (2024) demonstrated that ultraviolet super radiance can occur in tryptophan- containing protein networks, including tubulin assemblies, indicating that protein architectures can support collective excitonic states (and associated subradiant "dark" manifolds) under physiological conditions. These findings can potentially address decoherence objections and provide a tangible mechanism by which aromatic amino-acid networks could mediate coherent energy/information transfer in living cells. We present here a possible unified model combining these concepts: Microtubules are proposed to function as quantum information processors that may bind and route distributed information through excitonic or entanglement dynamics, while glycoprotein conformational patterns could serve as a molecular register for memory storage. The convergent evidence from spectroscopy, anesthetic pharmacology, and glycosylation biology are reviewed in this context. The combination of these concepts can offer a mechanistic bridge between quantum events and cognitive function.
+---
+DOCUMENT
+ID: pubmed_29125496
+SOURCE: pubmed
+TITLE: Consciousness in hibernation and synthetic torpor.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2017
+ABSTRACT: While human hibernation would provide many advantages for medical applications and space exploration, the intrinsic risks of the procedure itself, as well as those involved if the procedure were to be misused, need to be assessed. Moreover, the distinctive brain state that is present during a hibernation-like state raises questions regarding the state of consciousness of the subject. Since, in animal studies, the cortical activity of this state differs from that of sleep, coma, or even general anesthesia, and resembles a sort of "slowed wakefulness", it is uncertain whether residual consciousness may still be present. In this review, I will present a brief summary of the literature on hibernation and of the current state of the art in inducing a state of artificial hibernation (synthetic torpor); I will then focus on the brain changes that are observed during hibernation, on how these could modify the neural substrate of consciousness, and on the possible use of hibernation as a model for quantum biology. Finally, some ethical considerations on the use of synthetic torpor technology will be presented.
+---
+DOCUMENT
+ID: pubmed_17365106
+SOURCE: pubmed
+TITLE: A theory of neurophysics and quantum neuroscience: implications for brain function and the limits of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2007
+ABSTRACT: The authors have assumed there are specific temporal patterns of complex electromagnetic fields that can access and affect all levels of brain space. The article presents formulae and results that might reveal the required field configurations to obtain this access and to represent these levels in human consciousness. The frequency for the transition from an imaginary to real solution for the four-dimensional human brain was the wavelength of hydrogen whereas the optimal distance in space was the width of a proton or electron. The time required to expand one Planck's length as inferred by Hubble's constant for the proton was about 1 to 3 ms, the optimal resonant "point duration" of our most bioeffective magnetic fields. Calculations indicated the volume of a proton is equivalent to a tube or string with the radius of Planck's length and the longitudinal length of m (the width of the universe). Solutions from this approach predicted the characteristics of many biological phenomena, seven more "dimensions" of space between Planck's length and the level of the proton, and an inflection point between increments of space and time that corresponded to the distances occupied by chemical bonds. The multiple congruencies of the solutions suggest that brain space could contain inordinately large amounts of information reflecting the nature of extraordinarily large increments of space and time.
+---
+DOCUMENT
+ID: pubmed_24987382
+SOURCE: pubmed
+TITLE: Objects of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2014
+ABSTRACT: Current models of visual perception typically assume that human vision estimates true properties of physical objects, properties that exist even if unperceived. However, recent studies of perceptual evolution, using evolutionary games and genetic algorithms, reveal that natural selection often drives true perceptions to extinction when they compete with perceptions tuned to fitness rather than truth: Perception guides adaptive behavior; it does not estimate a preexisting physical truth. Moreover, shifting from evolutionary biology to quantum physics, there is reason to disbelieve in preexisting physical truths: Certain interpretations of quantum theory deny that dynamical properties of physical objects have definite values when unobserved. In some of these interpretations the observer is fundamental, and wave functions are compendia of subjective probabilities, not preexisting elements of physical reality. These two considerations, from evolutionary biology and quantum physics, suggest that current models of object perception require fundamental reformulation. Here we begin such a reformulation, starting with a formal model of consciousness that we call a "conscious agent." We develop the dynamics of interacting conscious agents, and study how the perception of objects and space-time can emerge from such dynamics. We show that one particular object, the quantum free particle, has a wave function that is identical in form to the harmonic functions that characterize the asymptotic dynamics of conscious agents; particles are vibrations not of strings but of interacting conscious agents. This allows us to reinterpret physical properties such as position, momentum, and energy as properties of interacting conscious agents, rather than as preexisting physical truths. We sketch how this approach might extend to the perception of relativistic quantum objects, and to classical objects of macroscopic scale.
+---
+DOCUMENT
+ID: pubmed_30076851
+SOURCE: pubmed
+TITLE: The Singularity of nature.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2019
+ABSTRACT: The feasibility of formulating the Singularity of Nature was enunciated by Einstein's mathematical formula, demonstrating the equivalency of energy and mass (E = mc
+---
+DOCUMENT
+ID: pubmed_21645434
+SOURCE: pubmed
+TITLE: Q-consciousness: where is the flow?
+AUTHORS: 
+JOURNAL: 
+YEAR: 2011
+ABSTRACT: What can recent research on quantum-consciousness (Q-consciousness) tell us about the connection between quantum level phenomena and human consciousness? Q-consciousness theorists propose and experimenters purport to show evidence linking quantum mechanisms of one kind or another to changes in biologically important atomic and molecular processes that produce and shape 'consciousness.' Several mechanisms are identified. In the studies reviewed, consciousness is not operationally defined. How Q-level events influence or are responsible for the complex performance of consciousness in its environment is not specified. Several problems with specifying causality within and between different temporalities at the biological and quantum level are not addressed. The morphogenic rules that govern the origin, continuous or discontinuous, and spontaneous presenting of an organized consciousness are missing. The literature reviewed shows that there are causal links between quantum events and molecular changes that affect biological processes such as photosynthesis and bird migration. Even so, the connections between the quantum level of reality, biological processes, mind and the diverse flow of consciousness are not well and consistently defined, or characterized and understood in ways useful for conducting research of the morphogenesis of consciousness. No overall experimental direction is Q-consciousness research is discernable. Finally, the preponderance of limited experimental evidence does not point toward a particular Q-consciousness theory. Suggestions are made about how recasting cell doctrine, thinking of consciousness as 'performance,' and nonlinear and complexity theory may provide some guidance relevant to the possible flow of Q-consciousness.
+---
+DOCUMENT
+ID: pubmed_25714379
+SOURCE: pubmed
+TITLE: Anesthetics act in quantum channels in brain microtubules to prevent consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2015
+ABSTRACT: The mechanism by which anesthetic gases selectively prevent consciousness and memory (sparing non-conscious brain functions) remains unknown. At the turn of the 20(th) century Meyer and Overton showed that potency of structurally dissimilar anesthetic gas molecules correlated precisely over many orders of magnitude with one factor, solubility in a non-polar, 'hydrophobic' medium akin to olive oil. In the 1980s Franks and Lieb showed anesthetics acted in such a medium within proteins, suggesting post-synaptic membrane receptors. But anesthetic studies on such proteins yielded only confusing results. In recent years Eckenhoff and colleagues have found anesthetic action in microtubules, cytoskeletal polymers of the protein tubulin inside brain neurons. 'Quantum mobility' in microtubules has been proposed to mediate consciousness. Through molecular modeling we have previously shown: (1) olive oil-like non-polar, hydrophobic quantum mobility pathways ('quantum channels') of tryptophan rings in tubulin, (2) binding of anesthetic gas molecules in these channels, and (3) capabilities for π-electron resonant energy transfer, or exciton hopping, among tryptophan aromatic rings in quantum channels, similar to photosynthesis protein quantum coherence. Here, we show anesthetic molecules can impair π-resonance energy transfer and exciton hopping in tubulin quantum channels, and thus account for selective action of anesthetics on consciousness and memory.
+---
+DOCUMENT
+ID: pubmed_28351500
+SOURCE: pubmed
+TITLE: Stream of consciousness: Quantum and biochemical assumptions regarding psychopathology.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2017
+ABSTRACT: The accepted paradigms of mainstream neuropsychiatry appear to be incompletely adequate and in various cases offer equivocal analyses. However, a growing number of new approaches are being proposed that suggest the emergence of paradigm shifts in this area. In particular, quantum theories of mind, brain and consciousness seem to offer a profound change to the current approaches. Unfortunately these quantum paradigms harbor at least two serious problems. First, they are simply models, theories, and assumptions, with no convincing experiments supporting their claims. Second, they deviate from contemporary mainstream views of psychiatric illness and do so in revolutionary ways. We suggest a possible way to integrate experimental neuroscience with quantum models in order to address outstanding issues in psychopathology. A key role is played by the phenomenon called the "stream of consciousness", which can be linked to the so-called "Gamma Synchrony" (GS), which is clearly demonstrated by EEG data. In our novel proposal, a unipolar depressed patient could be seen as a subject with an altered stream of consciousness. In particular, some clues suggest that depression is linked to an "increased power" stream of consciousness. It is additionally suggested that such an approach to depression might be extended to psychopathology in general with potential benefits to diagnostics and therapeutics in neuropsychiatry.
+---
+DOCUMENT
+ID: pubmed_1502142
+SOURCE: pubmed
+TITLE: Evolution of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 1992
+ABSTRACT: The hypothesis of the origin of consciousness is built upon the unique properties of the mammalian neocortex. The apical dendrites of the pyramidal cells bundle together as they ascend to lamina I to form neural receptor units of approximately 100 apical dendrites plus branches receiving hundreds of thousands of excitatory synapses, the collective assemblage being called a dendron. It is proposed that the whole world of consciousness, the mental world, is microgranular, with mental units called psychons, and that in mind-brain interaction one psychon is linked to one dendron through quantum physics. The hypothesis is that in mammalian evolution dendrons evolved for more effective integration of the increased complexity of sensory inputs. These evolved dendrons had the capacity for interacting with psychons that came to exist, so forming the mental world and giving the mammal conscious experiences. In Darwinian evolution, consciousness would have occurred initially some 200 million years ago in relation to the primitive cerebral cortices of evolving mammals. It would give global experiences of a surrounding world for guiding behavior beyond what is given by the unconscious operation of sensory cortical areas per se. So conscious experiences would give mammals evolutionary advantage over the reptiles, which lack a neocortex giving consciousness. The Wulst of the avian brain needs further investigation to discover how it could give birds the consciousness that they seem to have.
+---
+DOCUMENT
+ID: pubmed_41747921
+SOURCE: pubmed
+TITLE: Dissipation, consciousness and the unconscious.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: In this paper, we review the dissipative quantum model of brain and some of its recent developments. The model emphasizes the fact that the brain is open to its environment, with outgoing and incoming flows of energy, matter, and information. For a living brain, these flows are always active; they can be enhanced or reduced, never fully eliminated. This characteristic is crucial for understanding brain activity, which is indeed described by the dissipative dynamics, and is fundamental to generating the phenomenon of consciousness. We briefly discuss several results derived from the dissipative model, including the hidden territory of the unconscious, the process of constructing meanings out of information, the dynamic nature of memory, which reveals to be memory of meanings rather than memory of information, the nature of mental activity, the observed chaotic activity of the brain, its fractal self-similarity, its social dimension, the formation of linguistic forms and concepts. Additionally, we address the concept of the brain's entanglement with its environment, and of free will, limited to the formal frame of the Bayes rule derivation.
+---
+DOCUMENT
+ID: pubmed_40609732
+SOURCE: pubmed
+TITLE: Towards a Possible Definition of Consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: There is no consensus about what cognition and its emergent form, consciousness, are. Yet this article proposes a new definition of consciousness. As many researchers, philosophers and other thinkers believe that life means cognising, this new definition of consciousness stems from a generalisation of the existing definition of life which postulates that Life is a far from equilibrium self-maintaining chemical system capable of processing, transforming, and accumulating information acquired from the environment. The new definition includes the thermodynamical aspect as a far from equilibrium system and considers the flow of information from the environment to a conscious system. The new definition of consciousness presented herein is formulated in a minimal manner; simultaneously, it is general enough to cover all emergent forms of cognition, e.g. thinking and rationality. The newly formulated definition states that Consciousness is an emergent property of a far from equilibrium system of quantum particles sustained by an autopoietic system and capable of processing, transforming, and accumulating information acquired from the environment. The newly proposed definition of consciousness may be of interest to cognitive and computer sciences - and even to the development of artificial intelligence. Furthermore, it presents a possible solution to Chalmers' hard problem of consciousness. This article discusses a possible generalisation by introducing quantum particles to the definition of life stated herein, refining it into a broader concept: Life is a far from equilibrium self-maintaining system of quantum particles capable of processing, transforming, and accumulating information acquired from the environment.
+---
+DOCUMENT
+ID: pubmed_32291583
+SOURCE: pubmed
+TITLE: The QBIT Theory of Consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2020
+ABSTRACT: The QBIT theory is an attempt toward solving the problem of consciousness based on empirical evidence provided by various scientific disciplines including quantum mechanics, biology, information theory, and thermodynamics. This theory formulates the problem of consciousness in the following four questions, and provides preliminary answers for each question: Question 1: What is the nature of qualia?
+---
+DOCUMENT
+ID: pubmed_11349432
+SOURCE: pubmed
+TITLE: Consciousness, the brain, and spacetime geometry.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2001
+ABSTRACT: What is consciousness? Conventional approaches see it as an emergent property of complex interactions among individual neurons; however these approaches fail to address enigmatic features of consciousness. Accordingly, some philosophers have contended that "qualia," or an experiential medium from which consciousness is derived, exists as a fundamental component of reality. Whitehead, for example, described the universe as being composed of "occasions of experience." To examine this possibility scientifically, the very nature of physical reality must be re-examined. We must come to terms with the physics of spacetime--as described by Einstein's general theory of relativity, and its relation to the fundamental theory of matter--as described by quantum theory. Roger Penrose has proposed a new physics of objective reduction: "OR," which appeals to a form of quantum gravity to provide a useful description of fundamental processes at the quantum/classical borderline. Within the OR scheme, we consider that consciousness occurs if an appropriately organized system is able to develop and maintain quantum coherent superposition until a specific "objective" criterion (a threshold related to quantum gravity) is reached; the coherent system then self-reduces (objective reduction: OR). We contend that this type of objective self-collapse introduces non-computability, an essential feature of consciousness which distinguishes our minds from classical computers. Each OR is taken as an instantaneous event--the climax of a self-organizing process in fundamental spacetime--and a candidate for a conscious Whitehead "occasion of experience." How could an OR process occur in the brain, be coupled to neural activities, and account for other features of consciousness? We nominate a quantum computational OR process with the requisite characteristics to be occurring in cytoskeletal micro-tubules within the brain's neurons. In this model, quantum-superposed states develop in microtubule subunit proteins ("tubulins") within certain brain neurons, remain coherent, and recruit more superposed tubulins until a mass-time-energy threshold (related to quantum gravity) is reached. At that point, self-collapse, or objective reduction (OR), abruptly occurs. We equate the pre-reduction, coherent superposition ("quantum computing") phase with pre-conscious processes, and each instantaneous (and non-computable) OR, or self-collapse, with a discrete conscious event. Sequences of OR events give rise to a "stream" of consciousness. Microtubule-associated proteins can "tune" the quantum oscillations of the coherent superposed states; the OR is thus self-organized, or "orchestrated" ("Orch OR"). Each Orch OR event selects (non-computably) microtubule subunit states which regulate synaptic/neural functions using classical signaling. The quantum gravity threshold for self-collapse is relevant to consciousness, according to our arguments, because macroscopic superposed quantum states each have their own spacetime geometries. These geometries are also superposed, and in some way "separated," but when sufficiently separated, the superposition of spacetime geometries becomes significantly unstable and reduces to a single universe state. Quantum gravity determines the limits of the instability; we contend that the actual choice of state made by Nature is non-computable. Thus each Orch OR event is a self-selection of spacetime geometry, coupled to the brain through microtubules and other biomolecules. If conscious experience is intimately connected with the very physics underlying spacetime structure, then Orch OR in microtubules indeed provides us with a completely new and uniquely promising perspective on the difficult problems of consciousness.
+---
+DOCUMENT
+ID: pubmed_11755497
+SOURCE: pubmed
+TITLE: Conduction pathways in microtubules, biological quantum computation, and consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2002
+ABSTRACT: Technological computation is entering the quantum realm, focusing attention on biomolecular information processing systems such as proteins, as presaged by the work of Michael Conrad. Protein conformational dynamics and pharmacological evidence suggest that protein conformational states-fundamental information units ('bits') in biological systems-are governed by quantum events, and are thus perhaps akin to quantum bits ('qubits') as utilized in quantum computation. 'Real time' dynamic activities within cells are regulated by the cell cytoskeleton, particularly microtubules (MTs) which are cylindrical lattice polymers of the protein tubulin. Recent evidence shows signaling, communication and conductivity in MTs, and theoretical models have predicted both classical and quantum information processing in MTs. In this paper we show conduction pathways for electron mobility and possible quantum tunneling and superconductivity among aromatic amino acids in tubulins. The pathways within tubulin match helical patterns in the microtubule lattice structure, which lend themselves to topological quantum effects resistant to decoherence. The Penrose-Hameroff 'Orch OR' model of consciousness is reviewed as an example of the possible utility of quantum computation in MTs.
+---
+DOCUMENT
+ID: pubmed_36466618
+SOURCE: pubmed
+TITLE: Consciousness and inward electromagnetic field interactions.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2022
+ABSTRACT: Electromagnetic field (EMF) theories of mind/brain integration have been proposed to explain brain function for over seventy years. Interest in this theory continues to this day because it explains mind-brain integration and it offers a simple solution to the "binding problem" of our unified conscious experience. Thus, it addresses at least in part the "hard problem" of consciousness. EMFs are easily measured and many corelates have been noted for field activity; associated with loss and recovery of consciousness, sensory perceptions, and behavior. Unfortunately, the theory was challenged early on by experiments that were thought to have ruled out a role of EMFs in brain activity, and the field of neuroscience has since marginalized EMF theories. Here I explain why early evidence against EMFs contributing to consciousness was misinterpreted and offer an alternative view to help direct future research.
+---
+DOCUMENT
+ID: pubmed_36126802
+SOURCE: pubmed
+TITLE: Semantic parsing of the life process by quantum biology.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2022
+ABSTRACT: A fact that an ever-increasingly number of research attention has focused on quantum biology demonstrates that it is, by no means, new to works in physic and mathematics, but to molecular biologists, geneticists, and biochemists. This is owing to that quantum biology serves as a distinctive discipline, by using quantum theory to study life sciences in combination with physics, mechanics, mathematics, statistics, and modern biology. Notably, quantum mechanics and its fundamental principles have been employed to clarify complex biological processes and molecular homeostasis within the organic life. Consequently, using the principles of quantum mechanics to study dynamic changes and energy transfer of molecules at the quantum level in biology has been accepted as an unusually distinguishable way to a better explanation of many phenomena in life. It is plausible that a clear conceptual quantum theoretical event is also considered to generally occur for short-term picoseconds or femtoseconds on microscopic nano- and subnanometer scales in biology and biosciences. For instance, photosynthesis, enzyme -catalyzed reactions, magnetic perception, the capture of smell and vision, DNA fragmentation, cellular breathing, mitochondrial processing, as well as brain thinking and consciousness, are all manifested within quantum superposition, quantum coherence, quantum entanglement, quantum tunneling, and other effects. In this mini-review, we describe the recent progress in quantum biology, with a promising direction for further insights into this field.
+---
+DOCUMENT
+ID: pubmed_41420905
+SOURCE: pubmed
+TITLE: Consciousness and the measurement problem.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: This paper examines two approaches to the measurement problem in quantum mechanics, invoking the concept of consciousness and highlighting the strengths and weaknesses of each. The first approach is the model proposed by David Chalmers and Kelvin McQueen, based on the idea of the Consciousness Collapses Wave Function (CCWF), originally attributed to John von Neumann and Eugene Wigner. The second approach is the phenomenological framework known as the London-Bauer-French (LBF) approach. We contend that significant challenges have been raised against key features of the CCWF model. However, these criticisms require further arguments to effectively undermine its most crucial claim: that the model can be tested to determine whether consciousness collapses the wave function. We will demonstrate that while CCWF offers a mathematically defined collapse mechanism that yields straightforward, experimentally testable predictions about collapse per se, these tests do not, by themselves, establish that consciousness is the cause of collapse. Nevertheless, despite this limitation, their model provides conceptual clarity in addressing the measurement problem, as it utilizes a mathematically defined collapse mechanism that offers a straightforward and testable solution. In contrast, the LBF approach lacks conceptual clarity regarding the measurement problem, as it continues to depend on the standard quantum formalism.
+---
+DOCUMENT
+ID: pubmed_12849132
+SOURCE: pubmed
+TITLE: Quantum mind.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2003
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_29709302
+SOURCE: pubmed
+TITLE: The Cosmologic continuum from physics to consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2018
+ABSTRACT: Reduction of developmental biology to self-referential cell-cell communication offers a portal for understanding fundamental mechanisms of physiology as derived from physics through quantum mechanics. It is argued that self-referential organization is implicit to the Big Bang and its further expression is a recoil reaction to that Singularity. When such a frame is considered, in combination with experimental evidence for the importance of epigenetic inheritance, the unicellular state can be reappraised as the primary object of selection. This framework provides a significant shift in understanding the relationship between physics and biology, providing novel insights to the nature and origin of consciousness.
+---
+DOCUMENT
+ID: pubmed_33254566
+SOURCE: pubmed
+TITLE: Consciousness and the rabbit holes of delirium.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2020
+ABSTRACT: Delirium is a common disorder in hospitalized older adults and the defining characteristic is a disturbance of consciousness. Unfortunately, there are currently no testable measures of consciousness as pertains to its disruption in delirium. Not surprisingly rates of recognition of delirium suffer. Arguably, a greater understanding of the quantum of consciousness may improve delirium diagnosis through better diagnostic tools. Candidate dimensions of consciousness derived from fields of psychology, psychiatry, and philosophy are discussed and relevance to delirium explored. Based upon existing literature in the field of consciousness we identify the pre-reflective state, experiential awareness, and functional networks as candidate sites that may be affected in delirium. Opportunities for clinical instrument development and how these tools can be tested are discussed. We conclude that consciousness content may not hold to a unitary measurement, but facets of its integrity that are impacted in delirium are open to further exploration. Disorders in pre-reflective status, experiential awareness, and functional networks may represent the measurable "rabbit holes" of consciousness disturbance.
+---
+DOCUMENT
+ID: pubmed_36981337
+SOURCE: pubmed
+TITLE: Computing the Integrated Information of a Quantum Mechanism.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2023
+ABSTRACT: Originally conceived as a theory of consciousness, integrated information theory (IIT) provides a theoretical framework intended to characterize the compositional causal information that a system, in its current state, specifies about itself. However, it remains to be determined whether IIT as a theory of consciousness is compatible with quantum mechanics as a theory of microphysics. Here, we present an extension of IIT's latest formalism to evaluate the mechanism integrated information (φ) of a system subset to discrete, finite-dimensional quantum systems (e.g., quantum logic gates). To that end, we translate a recently developed, unique measure of intrinsic information into a density matrix formulation and extend the notion of conditional independence to accommodate quantum entanglement. The compositional nature of the IIT analysis might shed some light on the internal structure of composite quantum states and operators that cannot be obtained using standard information-theoretical analysis. Finally, our results should inform theoretical arguments about the link between consciousness, causation, and physics from the classical to the quantum.
+---
+DOCUMENT
+ID: pubmed_33378844
+SOURCE: pubmed
+TITLE: Matter, mind and consciousness: from information to meaning.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2020
+ABSTRACT: This is a perspective on some theoretical studies obtained in the framework of the dissipative quantum model of brain. The formation of long range neuronal correlations is described in terms of quantum field theory mechanisms operating in systems with a huge number of degrees of freedom. Memory states are constructed through the condensation in the lowest energy state of quanta associated to the long range correlations. Many properties derived from such a modeling are discussed, also in relation with classical/quantum modeling interplay. The brain flexibility in responding to incoming inputs producing novel correlation patterns is attributed to the chaotic character of trajectories or paths through the memory states. A relevant role in the model is played by the fact that the brain is permanently open to its environment. The brain/mind activity is thus described in the formalism of dissipative systems, also accounting for the formation of the meanings of the information carried by the perceptual experiences. A recent novel description of criticality in brain activity during dreaming, meditation and non-ordinary brain states is briefly mentioned. In the model, it is proposed that consciousness finds its origin in the permanent dialog or interaction of the brain with its environment. Although a long way has been done, much work is still necessary to understand the extraordinary functional properties of brain.
+---
+DOCUMENT
+ID: pubmed_41132902
+SOURCE: pubmed
+TITLE: Consciousness and spintronic coherence in microtubules.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: Microtubules are nanoscale spintronic oscillators with memristive properties. Spintronic and memristive effects, together with some unique conditions found in the axon initial segment (AIS), allow quantum coherence to emerge spontaneously in a population of microtubules located within the AIS. According to the QBIT theory, the spontaneous emergence of coherence in a population of microtubules is the necessary and sufficient condition for the generation of a micro-consciousness (a quale) by the brain. Simultaneous generation of multiple qualia by synchronized activity in different parts of the cerebral cortex gives rise to the appearance of a macro-consciousness: a seemingly unified subjective experience.
+---
+DOCUMENT
+ID: pubmed_7501129
+SOURCE: pubmed
+TITLE: An introduction to the biology of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 1995
+ABSTRACT: This paper summarizes the main steps in a scientific study of consciousness. From a survey of the recent literature, it appears that: (1) there is a clear tendency to consider consciousness as a scientific object; (2) consistent subjective and objective descriptions of consciousness are possible; an intentional-modeling structure accounts for its main features; (3) from the evolutionary biology standpoint, conscious cognitive activities, as based on models of the self, the world and the alter-ego, have a functional value; (4) the material basis of consciousness can be clarified without recourse to new properties of the matter or to quantum physics. Current neurobiology, based on classical macrophysics, appears able to handle the problem. In this scope, the neurobiology of sleep-wakefulness and attention, and neuropsychology, have already achieved substantial advances.
+---
+DOCUMENT
+ID: pubmed_36160593
+SOURCE: pubmed
+TITLE: What if consciousness is not an emergent property of the brain? Observational and empirical challenges to materialistic models.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2022
+ABSTRACT: The nature of consciousness is considered one of science's most perplexing and persistent mysteries. We all know the subjective experience of consciousness, but where does it arise? What is its purpose? What are its full capacities? The assumption within today's neuroscience is that all aspects of consciousness arise solely from interactions among neurons in the brain. However, the origin and mechanisms of 
+---
+DOCUMENT
+ID: pubmed_29794803
+SOURCE: pubmed
+TITLE: Anesthetic Action and "Quantum Consciousness": A Match Made in Olive Oil.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2018
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_42264167
+SOURCE: pubmed
+TITLE: Brain entangled quantum states in radical pairs: a possible link to consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: Current approaches to the study of consciousness have significantly advanced our understanding of this widespread phenomenon in neurocognitive science. Research involving EEG oscillatory dynamics and electromagnetic field activity within brain tissue has provided increasingly detailed insights into arousal states. The neuro-molecular bases of conscious experience have been further clarified, including investigations exploring potential quantum mechanical contributions. However, the precise location, origin, and mechanisms of consciousness within the brain, as well as its connection to fundamental biophysical principles, remain elusive. In this work, we investigate the possible involvement of quantum effects in consciousness by extending rigorous scientific equations and quantum information formalisms-specifically those describing electronic quantum wavefunctions and their parameters-to connect abstract quantum information and photons, atomic, molecular, and neuronal circuit activity, with brain spiking patterns and frequency coding. Testable hypothesis 1: A conscious experience-such as a strong human emotional experience globally connected to sensory perception and the corresponding physical and temporal environment-is registered by the brain through its embedding in N-Methyl-D-Aspartate (NMDA) receptor (NMDAR)-based radical pairs. Local intracranial EEG (iEEG) - Electron Paramagnetic Resonance (EPR) measurements help in supporting the occurrence of such embedding. Hypothesis 1 assessment - Empirical observations that would falsify it: Measurable or inferred parameter values that support the embedding of conscious experience are listed in Tables 1 and 2 and should comply with the ranges and conditions specified therein. Testable hypotheses 2: The NMDAR micropopulation of entangled spin states within relevant radical pairs encodes and transfers sensory and cognitive information of conscious experiences into measurable, stable nanoscale parameters of the quantum iEEG wavefunction. These parameters are transmitted in biconditional manner to the corresponding neuronal spike frequency and timing codes of associated neural circuits. Hypothesis 2 assessment - Empirical observations that would falsify it: iEEG, EEG, EPR, and related radical-pair parameter measurements should comply biconditionally with the relevant neuronal, molecular, and nanoscale measurements and conditions in Tables 1 and 2.
+---
+DOCUMENT
+ID: pubmed_29125495
+SOURCE: pubmed
+TITLE: A dialogue on the issue of the "quantum brain" between consciousness and unconsciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2017
+ABSTRACT: In this paper, we present some diverse points of view on the issue of the quantum brain.The paper is structured in the form of opening statements by each of the co-authors followed by comments and critique presented by the other co-authors. The main focus of the discussion is on the interplay between the state of being alive and consciousness, both of which possess characteristics of quantum physical states.
+---
+DOCUMENT
+ID: pubmed_37424348
+SOURCE: pubmed
+TITLE: Protein Folding and Molecular Basis of Memory: Molecular Vibrations and Quantum Entanglement as Basis of Consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2024
+ABSTRACT: 
+---
+DOCUMENT
+ID: pubmed_31352520
+SOURCE: pubmed
+TITLE: Semiology and Mechanisms of Near-Death Experiences.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2019
+ABSTRACT: Near-death experiences (NDEs) are conscious perceptual experiences, including self-related emotional, spiritual, and mystical experiences, occurring in close encounters with death or in non-life-threatening situations. The origin of NDEs remains unknown. Here, we review recent advances in the understanding of NDE semiology and pathophysiology.
+---
+DOCUMENT
+ID: pubmed_1333607
+SOURCE: pubmed
+TITLE: Quantum aspects of brain activity and the role of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 1992
+ABSTRACT: The relationship of brain activity to conscious intentions is considered on the basis of the functional microstructure of the cerebral cortex. Each incoming nerve impulse causes the emission of transmitter molecules by the process of exocytosis. Since exocytosis is a quantal phenomenon of the presynaptic vesicular grid with a probability much less than 1, we present a quantum mechanical model for it based on a tunneling process of the trigger mechanism. Consciousness manifests itself in mental intentions. The consequent voluntary actions become effective by momentary increases of the probability of vesicular emission in the thousands of synapses on each pyramidal cell by quantal selection.
+---
+DOCUMENT
+ID: pubmed_24653768
+SOURCE: pubmed
+TITLE: Conscience and consciousness: a definition.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2014
+ABSTRACT: While consciousness has been examined extensively in its different aspects, like in philosophy, psychiatry, neurophysiology, neuroplasticity, etc., conscience though it is an equal important aspect of the human existence, which remains an unknown to a great degree as an almost transcendental aspect of the human mind. It has not been examined as thoroughly as consciousness and largely remains a "terra incognita" for its neurophysiology, brain topography, etc. Conscience and consciousness are part of a system of information that governs our experience and decision making process. The intent of this paper is to define these terms, to discuss about consciousness from both neurological and quantum physics point of view, the relationship between the dynamics of consciousness and neuroplasticity and to highlight the relationship between conscience, stress and health.
+---
+DOCUMENT
+ID: pubmed_39595875
+SOURCE: pubmed
+TITLE: Consciousness and Energy Processing in Neural Systems.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2024
+ABSTRACT: Our understanding of the relationship between neural activity and psychological states has advanced greatly in recent decades. But we are still unable to explain conscious experience in terms of physical processes occurring in our brains.
+---
+DOCUMENT
+ID: pubmed_27065819
+SOURCE: pubmed
+TITLE: On the Character of Consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2016
+ABSTRACT: The human brain is a particularly demanding system to infer its nature from observations. Thus, there is on one hand plenty of room for theorizing and on the other hand a pressing need for a rigorous theory. We apply statistical mechanics of open systems to describe the brain as a hierarchical system in consuming free energy in least time. This holistic tenet accounts for cellular metabolism, neuronal signaling, cognitive processes all together, or any other process by a formal equation of motion that extends down to the ultimate precision of one quantum of action. According to this general thermodynamic theory cognitive processes are no different by their operational and organizational principle from other natural processes. Cognition too will emerge and evolve along path-dependent and non-determinate trajectories by consuming free energy in least time to attain thermodynamic balance within the nervous system itself and with its surrounding systems. Specifically, consciousness can be ascribed to a natural process that integrates various neural networks for coherent consumption of free energy, i.e., for meaningful deeds. The whole hierarchy of integrated systems can be formally summed up to thermodynamic entropy. The holistic tenet provides insight to the character of consciousness also by acknowledging awareness in other systems at other levels of nature's hierarchy.
+---
+DOCUMENT
+ID: pubmed_32835610
+SOURCE: pubmed
+TITLE: From Quantum Physics to Quantum Hypnosis:
+AUTHORS: 
+JOURNAL: 
+YEAR: 2020
+ABSTRACT: A novel, heuristic model based upon chaotic complex systems theory and quantum mechanics is proposed to overcome the dichotomy between mind and body. The mind-body interface represents a chaotic system, ruled by the probability principle, as shown in quantum mechanics. Neuronal activity shows many patterns of chaotic behavior, and applications of chaotic patterns seem to be relevant for research regarding the mind-body relationship and the process of trance. A quantum consciousness theory has been proposed, largely controversial, since quantum physics applies to subatomic world and not to macrostructures, such as the brain. Quantum cognition is an emerging field that applies the formalism of quantum theory to model cognitive phenomena such as information processing by the human brain; it overcomes limits and shortcomings of cartesian dualism as well as quantum general theory. As hypnosis is a state of consciousness, it applies to hypnotic cognitive functioning rather than hypnotic structure.
+---
+DOCUMENT
+ID: pubmed_42253571
+SOURCE: pubmed
+TITLE: The theory of psychic quanta: a quantum model for the unity of individual consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2026
+ABSTRACT: The Theory of Psychic Quanta (TPQ) postulates the existence of a universal non-local psychic field whose quantized excitations-termed 
+---
+DOCUMENT
+ID: pubmed_19573504
+SOURCE: pubmed
+TITLE: [Functional pathophysiology of consciousness].
+AUTHORS: 
+JOURNAL: 
+YEAR: 2009
+ABSTRACT: Consciousness (Latin conscientia "moral conscience"), according to the English philosopher John Locke (1632-1704) [103], is the awareness of all that occurs in the mind of a person, whereas the American philosopher John Searle (2000) defined it as "inner qualitative, subjective states and processes of awareness". In modern science it is defined as a continuous state of full awareness of the Self and one's relationship to the external and internal environment, describing the degree of wakefulness in which an organism recognizes stimuli. This widely discussed biological term for complex neuronal processes that allow an individuum to recognize itself and its environment and to act accordingly, has been and still is the subject of much research in philosophy and natural/neuroscience. Its definition is often used for awareness and recognition, too. While the Egyptians in the papyrus Edwin Smith already recognized the brain as the seat of consciousness, René Descartes (1644 [36]) believed its special structure should be "a small gland in the middle", but the anatomical structures and physiological processes involved in consciousness were elucidated only in the middle of the 20th century. Neuronal substrates include several functional networks that are hierarchically organized and cooperate functionally. The lowest level is the mesencephalic formatio reticularis and its projections to the thalamus that were identified als ascending reticular system (ARAS) by the classical experiments of Moruzzi and Magoun, whereas later analyses of patients with impaired consciousness provided further insights. The mesencephalic ARAS as motor of the function of higher structures projects 1. via the reticular thalamus diffusely to the cortex, 2. via hypothalamus to the basal forebrain and limbic system, and 3. to the medial raphe of the brainstem and locus coeruleus and their diffuse cortical projections. The reticular system is stimulated directly and indirectly via numerous collaterals from important somatic and sensory pathways and acts as a control system of neuronal activities of the cerebral cortex. The principal function of the ARAS is to focus our alertness on specific stimuli or internal processes, which run via complex neuronal cell groups and numerous neurotransmitters that influence various aspects of consciousness and wakefulness. Stimulation of the ARAS produces an arousal reaction as the electric correlate of consciousness; its destruction causes coma and related states. The highest level are cortical (prefrontal and association) networks for recognition, motor activity, longterm memory and attention, the left hemisphere being considered as the dominant one. Different levels of consciousness are distinguished: 1. hyperalertness, 2. alertness (normal state of wakefulness), 3. somnolence or lethargy, 4. obtundation with tendency to fall asleep, 5. stupor, 6. coma and its subtypes, like akinetic mutism, apallic syndrome or persistent vegative state, locked-in syndrome, delirium, and catatonia. They are caused by damages in various functional levels of the brain, by psychogenic factors or experimentally, and are accompanied by characteristic neurological and psychiatric disorders. The relevant morphological lesions can be detected by electrophysiological and imaging studies. The bases of functional anatomy and pathophysiology of consciousness, its cognitive aspects and its major disorders, their causes and functional substrates with reference to sleep and both spontaneous and iatrogenic disorders of consciousness are critically summarized.
+---
+DOCUMENT
+ID: pubmed_28462124
+SOURCE: pubmed
+TITLE: The quantum universe: philosophical foundations and oriental medicine.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2016
+ABSTRACT: The existence of universal principles in both science and medicine implies that one can explore their common applicability. Here we explore what we have learned from quantum mechanics, phenomena such as entanglement and nonlocality, the role of participation of the observer, and how these may apply to oriental medicine. The universal principles of integrated polarity, recursion, and creative interactivity apply to all levels of existence and all human activities, including healing and medicine. This review examines the possibility that what we have learned from quantum mechanics may provide clues to better understand the operational principles of oriental medicine in an integrated way. Common to both is the assertion that Consciousness is at the foundation of the universe and the inner core of all human beings. This view goes beyond both science and medicine and has strong philosophical foundations in Western philosophy as well as monistic systems of the East.
+---
+DOCUMENT
+ID: pubmed_32663056
+SOURCE: pubmed
+TITLE: Hard criteria for empirical theories of consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2021
+ABSTRACT: Consciousness is now a well-established field of empirical research. A large body of experimental results has been accumulated and is steadily growing. In parallel, many Theories of Consciousness (ToCs) have been proposed. These theories are diverse in nature, ranging from computational to neurophysiological and quantum theoretical approaches. This contrasts with other fields of natural science, which host a smaller number of competing theories. We suggest that one reason for this abundance of extremely different theories may be the lack of stringent criteria specifying how empirical data constrains ToCs. First, we argue that consciousness is a well-defined topic from an empirical point of view and motivate a purely empirical stance on the quest for consciousness. Second, we present a checklist of criteria that, we propose, empirical ToCs need to cope with. Third, we review 13 of the most influential ToCs and subject them to the criteria. Our analysis helps to situate these different ToCs in the theoretical landscapeand sheds light on their strengths and weaknesses from a strictly empirical point of view.
+---
+DOCUMENT
+ID: pubmed_21702826
+SOURCE: pubmed
+TITLE: Is the brain a quantum computer?
+AUTHORS: 
+JOURNAL: 
+YEAR: 2006
+ABSTRACT: We argue that computation via quantum mechanical processes is irrelevant to explaining how brains produce thought, contrary to the ongoing speculations of many theorists. First, quantum effects do not have the temporal properties required for neural information processing. Second, there are substantial physical obstacles to any organic instantiation of quantum computation. Third, there is no psychological evidence that such mental phenomena as consciousness and mathematical thinking require explanation via quantum theory. We conclude that understanding brain function is unlikely to require quantum computation or similar mechanisms.
+---
+DOCUMENT
+ID: pubmed_28887144
+SOURCE: pubmed
+TITLE: Sheaf theoretic formulation for consciousness and qualia and relationship to the idealism of non-dual philosophies.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2017
+ABSTRACT: Questions about the nature of reality, whether Consciousness is the fundamental reality in the universe, and what is Consciousness itself, have no answer in systems that assume an external reality independent of Consciousness. Ultimately, the ontological foundation of such systems is the absolute division of subject and object. We advocate instead what we consider to be an approach that is in agreement with the foundation of quantum reality, which is based on Rāmānuja's version of Vedanta philosophy and non-dual Kashmir Śaivism. Quantum mechanics opened the door to consciousness, but it cannot account for consciousness. However, the quantum measurement problem implies that we cannot remove subjective experience from the practice of science. It is then appropriate to seek mathematical formalisms for the workings of consciousness that don't rely on specific interpretations of quantum mechanics. Temporal topos provides such a framework. In the theory of temporal topos, which we outline here, the difference between a subject and an object involves the direction of a morphism in a category. We also note that in the dual category, the direction of the morphism is in the opposite direction compared with the original direction of the original category. The resulting formalism provides powerful ways to address consciousness and qualia, beyond attempts to account for consciousness through physical theories. We also discuss the implications of the mathematics presented here for the convergence of science and non-dualist philosophies, as an emerging science of Consciousness, that may bring out the underlying unity of physics, life and mind.
+---
+DOCUMENT
+ID: pubmed_35359218
+SOURCE: pubmed
+TITLE: The QBIT theory of consciousness: Entropy and qualia.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2023
+ABSTRACT: The QBIT theory is a recently introduced multi-disciplinary approach to the problem of consciousness. One of the main axioms of the theory is that when information-theoretic certainty of an observer about a stimulus goes beyond a certain threshold, the observer becomes conscious of that stimulus. This axiom could provide an explanation for how the brain generates consciousness.In short, the QBIT theory suggests that the brain generates consciousness by reducing the entropy of its internal representations below a critical threshold. This paper explains how the brain gradually minimizes the entropy of its internal representations and consequently generate minimum-entropy representations (also known as conscious representations or qualia). The paper also explores the consequences of this entropy-minimization process in the context of quantum information theory.
+---
+DOCUMENT
+ID: pubmed_40522379
+SOURCE: pubmed
+TITLE: Consciousness, Microtubules, and the Axon Initial Segment.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2025
+ABSTRACT: This paper presents an explanation for the neural basis of consciousness from the perspective of the QBIT theory. It is hypothesized that consciousness is substrate-dependent, and the substrate of consciousness is tubulin. Consciousness depends on the spontaneous emergence of coherence in a population of microtubules located at the axon initial segments of cortical neurons. When quantum coherence spontaneously emerges in a system consisting of many microtubules, the resultant entity is a kind of matter-field. Different configurations of this field correspond to different conscious experiences.
+---
+DOCUMENT
+ID: pubmed_40322731
+SOURCE: pubmed
+TITLE: Quantum-like Qualia hypothesis: from quantum cognition to quantum perception.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2024
+ABSTRACT: To arbitrate theories of consciousness, scientists need to understand mathematical structures of quality of consciousness, or qualia. The dominant view regards qualia as points in a dimensional space. This view implicitly assumes that qualia can be measured without any effect on them. This contrasts with intuitions and empirical findings to show that by means of internal attention qualia can change when they are measured. What is a proper mathematical structure for entities that are affected by the act of measurement? Here we propose the mathematical structure used in quantum theory, in which we consider qualia as "observables" (i.e., entities that can, in principle, be observed), sensory inputs and internal attention as "states" that specify the context that a measurement takes place, and "measurement outcomes" with probabilities that qualia observables take particular values. Based on this mathematical structure, the Quantum-like Qualia (QQ) hypothesis proposes that qualia observables interact with the world, as if through an interface of sensory inputs and internal attention. We argue that this qualia-interface-world scheme has the same mathematical structure as observables-states-environment in quantum theory. Moreover, within this structure, the concept of a "measurement instrument" in quantum theory can precisely model how measurements affect qualia observables and states. We argue that QQ naturally explains known properties of qualia and predicts that qualia are sometimes indeterminate. Such predictions can be empirically determined by the presence of order effects or violations of Bell inequalities. Confirmation of such predictions substantiates our overarching claim that the mathematical structure of QQ will offer novel insights into the nature of consciousness.
+---
+DOCUMENT
+ID: pubmed_29371042
+SOURCE: pubmed
+TITLE: The quantum physics of synaptic communication via the SNARE protein complex.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2018
+ABSTRACT: Twenty five years ago, Sir John Carew Eccles together with Friedrich Beck proposed a quantum mechanical model of neurotransmitter release at synapses in the human cerebral cortex. The model endorsed causal influence of human consciousness upon the functioning of synapses in the brain through quantum tunneling of unidentified quasiparticles that trigger the exocytosis of synaptic vesicles, thereby initiating the transmission of information from the presynaptic towards the postsynaptic neuron. Here, we provide a molecular upgrade of the Beck and Eccles model by identifying the quantum quasiparticles as Davydov solitons that twist the protein α-helices and trigger exocytosis of synaptic vesicles through helical zipping of the SNARE protein complex. We also calculate the observable probabilities for exocytosis based on the mass of this quasiparticle, along with the characteristics of the potential energy barrier through which tunneling is necessary. We further review the current experimental evidence in support of this novel bio-molecular model as presented.
+---
+DOCUMENT
+ID: pubmed_36359629
+SOURCE: pubmed
+TITLE: Non-Separability of Physical Systems as a Foundation of Consciousness.
+AUTHORS: 
+JOURNAL: 
+YEAR: 2022
+ABSTRACT: A hypothesis is presented that non-separability of degrees of freedom is the fundamental property underlying consciousness in physical systems. The amount of consciousness in a system is determined by the extent of non-separability and the number of degrees of freedom involved. Non-interacting and feedforward systems have zero consciousness, whereas most systems of interacting particles appear to have low non-separability and consciousness. By contrast, brain circuits exhibit high complexity and weak but tightly coordinated interactions, which appear to support high non-separability and therefore high amount of consciousness. The hypothesis applies to both classical and quantum cases, and we highlight the formalism employing the Wigner function (which in the classical limit becomes the Liouville density function) as a potentially fruitful framework for characterizing non-separability and, thus, the amount of consciousness in a system. The hypothesis appears to be consistent with both the Integrated Information Theory and the Orchestrated Objective Reduction Theory and may help reconcile the two. It offers a natural explanation for the physical properties underlying the amount of consciousness and points to methods of estimating the amount of non-separability as promising ways of characterizing the amount of consciousness.
+---

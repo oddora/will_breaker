@@ -41,18 +41,37 @@ Execute Session 010 priorities:
 Total target: 46000 documents
 ```
 
-### Execution Status
+### Execution Status — Partial Success
 
-Running corpus expansion orchestrator (`collect_all.py`) with 45K target.
+**Collected so far:** 2,330 documents (5% of target)
 
-**Execution plan:**
-1. Run internal collector first (Will Breaker docs — fast, no rate limiting)
-2. Run Reddit archivars sequentially (rate-limited, 1s delay)
-3. Run arXiv collectors sequentially (rate-limited, 1s delay)
-4. Run PubMed collectors sequentially (rate-limited, 1s delay)
-5. Run Semantic Scholar collectors sequentially (rate-limited, 1s delay)
+| Source | Docs Collected | Status |
+|--------|---------------|--------|
+| Will Breaker: research | 9 | ✅ Complete |
+| Will Breaker: protocols | 12 | ✅ Complete |
+| Will Breaker: sessions | 9 | ✅ Complete |
+| PubMed: consciousness | 900 | ✅ Complete |
+| PubMed: quantum consciousness | 900 | ✅ Complete |
+| Semantic Scholar: consciousness | 500 | ✅ Complete |
+| Semantic Scholar: IIT | 100 | ✅ Complete |
+| arXiv: quant-ph | 0 | ⏱️ Timeout |
+| arXiv: cs.AI | 0 | ⏱️ Timeout |
+| arXiv: q-bio.NC | 0 | ⏱️ Timeout |
+| Reddit: consciousness | 0 | ⏱️ Timeout |
+| Reddit: Futurology | 0 | ⏱️ Timeout |
+| Reddit: precognition | 0 | ⏱️ Timeout |
+| Reddit: spirituality | 0 | ⏱️ Timeout |
+| Semantic Scholar: quantum cognition | 0 | ⏱️ Timeout |
 
-**Estimated time:** ~2-3 hours (rate-limited scrapers)
+**Rate limiting issues:**
+- Semantic Scholar: 429 errors after ~150 requests (API limit)
+- arXiv: Slow response, timeouts on larger batches
+- Reddit: Rate limiting on RSS endpoint
+
+**Next steps:**
+1. Continue corpus expansion with longer delays between requests
+2. Consider API keys for Semantic Scholar (removes rate limits)
+3. Target 10K corpus first (achievable), then 45K
 
 ### Expected Output
 
