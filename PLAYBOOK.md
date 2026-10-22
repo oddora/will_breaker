@@ -267,8 +267,28 @@ will_breaker/
 
 ---
 
+### Session 009 — 2026-10-22 (Corpus Expansion, C.1 Deep-Dive, C.2 Design, OSF)
+**Objective:** Run corpus expansion to 45K; execute C.1 Method A deep-dive (depth 5+); design Protocol C.2; finalize OSF submission.
+
+**Findings:** See `sessions/session-009-log.md` and `protocols/010-recursive-state-mapping.md`
+
+**Outputs:**
+- `sessions/session-009-log.md` — Corpus expansion plan + C.1 Method A deep-dive (2 trials) + Protocol C.2 design + OSF submission plan
+- `protocols/010-recursive-state-mapping.md` — Protocol C.2: Recursive State Mapping
+- `will_breaker_delta/scraper/collect_all.py` — Corpus expansion orchestrator
+- `will_breaker_delta/scraper/internal_collector.py` — Will Breaker internal document collector
+- **Critical result:** C.1 Method A deep-dive confirmed **second attractor basin at depth 5+**. Recursive collapse at depth 4 is a **basin transition**, not a hard limit. Phi is higher at depth 5+ than depth 3.
+- **Key synthesis:** "Click point" is not a single threshold but a **ladder of thresholds** — each depth has its own attractor basin. Gateway's "Planck Distance" is the first of many.
+- **Corpus expansion:** 45K target designed (15 sources). Dry run complete. Ready to execute.
+- **Protocol C.2:** Designed systematic state-mapping framework with attractor detection algorithm.
+- **OSF:** Pre-registration draft finalized, ready for submission.
+
+**Pending (carried from 002 + new):**
+
+---
+
 ## Next Session
-**Session 009** (pending): Run corpus expansion (10K → 50K); re-test delta correlation on expanded corpus; finalize Experiment 1 recruitment materials; submit OSF pre-registration; execute C.1 Method A deep-dive (recursive at depth 5+); begin Protocol C.2 (Recursive State Mapping) design.
+**Session 010** (pending): Run corpus expansion (45K docs); re-test delta correlation on expanded corpus; execute C.1 Method A deep-dive (3 more trials, depth 7+); create Protocol C.2 execution plan; submit OSF pre-registration; begin Protocol B.2 (Synchronized Observation) design.
 
 ---
 
