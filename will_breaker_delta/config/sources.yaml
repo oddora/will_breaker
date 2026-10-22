@@ -1,0 +1,98 @@
+# Will Breaker Delta-Detection — Data Sources Configuration
+# RSS feeds, API endpoints, and collection settings
+
+sources:
+  # Reddit feeds (high signal for shifting discourse)
+  - name: reddit_consciousness
+    type: rss
+    url: https://www.reddit.com/r/consciousness/.rss
+    max_docs: 500
+    priority: high
+    
+  - name: reddit_futurology
+    type: rss
+    url: https://www.reddit.com/r/Futurology/.rss
+    max_docs: 500
+    priority: high
+    
+  - name: reddit_precognition
+    type: rss
+    url: https://www.reddit.com/r/precognition/.rss
+    max_docs: 300
+    priority: medium
+    
+  - name: reddit_spirituality
+    type: rss
+    url: https://www.reddit.com/r/spirituality/.rss
+    max_docs: 300
+    priority: medium
+    
+  # News feeds (academic language shifts)
+  - name: nature_news
+    type: rss
+    url: https://www.nature.com/nature.rss
+    max_docs: 300
+    priority: high
+    
+  - name: science_news
+    type: rss
+    url: https://www.sciencemag.org/rss/news_current.xml
+    max_docs: 300
+    priority: high
+    
+  - name: newscientist
+    type: rss
+    url: https://www.newscientist.com/feed/article/rss20-last.rss
+    max_docs: 300
+    priority: medium
+    
+  # Government/declassified (intel language changes)
+  - name: cia_foia
+    type: rss
+    url: https://www.cia.gov/rss/foia-reading-room.xml
+    max_docs: 200
+    priority: medium
+    
+  - name: nsarchive
+    type: rss
+    url: https://www.nsarchive.org/rss/
+    max_docs: 200
+    priority: medium
+    
+  # Will Breaker internal (direct correlation target)
+  - name: will_breaker_shift_reports
+    type: internal
+    path: ../sessions/*.json
+    priority: critical
+    
+  - name: will_breaker_research
+    type: internal
+    path: ../research/*.md
+    priority: high
+
+collection:
+  # Rate limiting
+  delay_between_requests: 1.0  # seconds
+  max_requests_per_minute: 20
+  
+  # Retention
+  max_age_days: 365
+  purge_on_collect: true
+  
+  # Output
+  output_dir: ../corpus/built
+  backup_dir: ../corpus/raw
+
+thresholds:
+  # Anomaly thresholds
+  high_anomaly: 2.0
+  medium_anomaly: 1.5
+  low_anomaly: 1.0
+  
+  # Delta thresholds
+  significant_delta: 0.5
+  precursor_delta: 1.0
+  
+  # Correlation windows
+  shift_correlation_days: 7
+  precursor_window_hours: 168

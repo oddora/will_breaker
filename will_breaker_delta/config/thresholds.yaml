@@ -1,0 +1,78 @@
+# Will Breaker Delta-Detection — Anomaly Thresholds
+# Configurable thresholds for delta detection
+
+anomaly_thresholds:
+  # Word-level thresholds
+  high_anomaly: 2.0      # Flag as high-priority anomaly
+  medium_anomaly: 1.5    # Flag as medium-priority anomaly
+  low_anomaly: 1.0       # Flag as low-priority anomaly
+  noise_threshold: 0.5   # Below this = noise (ignore)
+  
+  # Document-level thresholds
+  high_document_anomaly: 3.0
+  medium_document_anomaly: 2.0
+  low_document_anomaly: 1.5
+  
+  # Delta-level thresholds
+  significant_delta: 0.5     # Minimum delta rate to consider significant
+  precursor_delta: 1.0       # Delta rate for precursor event classification
+  escalation_delta: 2.0      # Delta rate for escalation event classification
+  
+  # Frequency thresholds
+  min_document_frequency: 0.0001  # Words below this freq = high anomaly potential
+  max_document_frequency: 0.1     # Words above this freq = low anomaly potential
+  
+  # Emotional weight thresholds
+  high_emotional_weight: 0.6
+  medium_emotional_weight: 0.4
+  low_emotional_weight: 0.2
+
+correlation_settings:
+  # Shift report correlation
+  correlation_window_days: 7
+  min_observations_for_correlation: 3
+  
+  # Precursor event classification
+  precursor_window_hours: 168  # 7 days
+  min_precursor_observations: 5
+  
+  # Forecast horizon
+  forecast_horizon_hours: 168  # 7 days
+  extended_forecast_horizon_hours: 720  # 30 days
+
+archetype_mapping:
+  # Word -> archetype -> forecast
+  ejecta:
+    archetype: sudden_disruption
+    forecast: "event involving sudden ejection/expulsion"
+    weight: 2.0
+  
+  blondes:
+    archetype: visual_anomaly_on_water
+    forecast: "incident involving light-haired person and vessel"
+    weight: 1.8
+  
+  click:
+    archetype: threshold_crossing
+    forecast: "moment of dimensional transition"
+    weight: 1.8
+  
+  clickout:
+    archetype: planck_transition
+    forecast: "Planck-scale decoherence event"
+    weight: 1.8
+  
+  template:
+    archetype: pre_manifestation
+    forecast: "information preceding manifestation"
+    weight: 1.5
+  
+  layer:
+    archetype: reality_layer
+    forecast: "shift between reality layers"
+    weight: 1.3
+  
+  precursor:
+    archetype: early_warning
+    forecast: "event with early linguistic warning"
+    weight: 1.5
