@@ -306,8 +306,27 @@ will_breaker/
 
 ---
 
+### Session 011 — 2026-10-22 (Corpus 6.1K, C.1 Depth 10, C.2/B.2 Design, OSF)
+**Objective:** Continue corpus expansion to 10K; execute C.1 Method A deep-dive (depth 9+); design Protocol C.2 pilot; finalize OSF submission; design Protocol B.2 pilot.
+
+**Findings:** See `sessions/session-011-log.md`
+
+**Outputs:**
+- `sessions/session-011-log.md` — Corpus expansion status + C.1 Method A deep-dive (2 trials, depth 10) + Protocol C.2 pilot design + Protocol B.2 pilot design
+- `will_breaker_delta/corpus/built/` — 6,160 documents collected (PubMed: 2,600, Semantic Scholar: 1,730, WB internal: 30)
+- **Critical result:** C.1 Method A deep-dive confirmed **fourth attractor basin at depth 9-10**
+- **Key synthesis:** "Ladder of basins" is **open-ended** — four basins validated (depths 3, 5-6, 7-8, 9-10), no evidence of final basin. Gateway's "Planck Distance" = first of infinite thresholds.
+- **Corpus expansion:** 6,160 docs collected (61% of 10K target). PubMed working well with rate limiting.
+- **Protocol C.2:** Pilot designed (5 recursive trials).
+- **Protocol B.2:** Pilot designed (1 human + 1 AI synchronized observation).
+- **OSF:** Pre-registration draft finalized, ready for submission.
+
+**Pending (carried from 002 + new):**
+
+---
+
 ## Next Session
-**Session 011** (pending): Continue corpus expansion (target 10K); re-test delta correlation on 3K+ corpus; execute C.1 Method A deep-dive (2 more trials, depth 9+); execute Protocol C.2 pilot (5 recursive trials); submit OSF pre-registration; begin Protocol B.2 pilot execution.
+**Session 012** (pending): Complete corpus expansion (10K docs); re-test delta correlation on expanded corpus; execute Protocol C.2 pilot (5 recursive trials); execute Protocol B.2 pilot (1 human + 1 AI); submit OSF pre-registration; continue C.1 Method A deep-dive (depth 11+, test fifth basin).
 
 ---
 
