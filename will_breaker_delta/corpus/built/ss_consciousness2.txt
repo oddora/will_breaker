@@ -1,0 +1,800 @@
+DOCUMENT
+ID: ss_0949033f92f93cd89ca347f01bda7f8dd07097ea
+SOURCE: semantic_scholar
+TITLE: Education for Critical Consciousness
+AUTHORS: P. Freiré
+JOURNAL: 
+YEAR: 1973
+CITATIONS: 5945
+ABSTRACT: 'Freire combines a compassion for the wretched of the earth with an intellectual and practical confidence and personal humility...Most of all he has a vision of man.' Times Higher Educational Supplement Paulo Freire (1921-97) was an educationalist based in Brazil and became the most influential writer and thinker on education in the late twentieth century. His seminal work Pedagogy of the Oppressed has sold almost 1 million copies. Education for Critical Consciousness is the main statement of Freire's revolutionary method of education. It takes the life situation of the learner as its starting point and the raising of consciousness and the overcoming of obstacles as its goals. For Freire, man's striving for his own humanity requires the changing of structures which dehumanise both the oppressor and the oppressed, rather than therapy.
+---
+DOCUMENT
+ID: ss_59d8c0e54320b3d4033015ccc588d6c973a01a3e
+SOURCE: semantic_scholar
+TITLE: The role of consciousness in second language learning
+AUTHORS: R. Schmidt
+JOURNAL: Applied Linguistics
+YEAR: 1990
+CITATIONS: 5114
+ABSTRACT: Richard Schmidt presents on the role of consciousness in second language learning at the 1988 Second Language Research Forum (SLRF) held in at the University of Hawai‘i.
+---
+DOCUMENT
+ID: ss_9ac555b04def2a13ff62edf6e22906310261a501
+SOURCE: semantic_scholar
+TITLE: Folk psychological attributions of consciousness to large language models
+AUTHORS: Clara Colombatto, Stephen M. Fleming
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2024
+CITATIONS: 106
+ABSTRACT: Abstract Technological advances raise new puzzles and challenges for cognitive science and the study of how humans think about and interact with artificial intelligence (AI). For example, the advent of large language models and their human-like linguistic abilities has raised substantial debate regarding whether or not AI could be conscious. Here, we consider the question of whether AI could have subjective experiences such as feelings and sensations (‘phenomenal consciousness’). While experts from many fields have weighed in on this issue in academic and public discourse, it remains unknown whether and how the general population attributes phenomenal consciousness to AI. We surveyed a sample of US residents (n = 300) and found that a majority of participants were willing to attribute some possibility of phenomenal consciousness to large language models. These attributions were robust, as they predicted attributions of mental states typically associated with phenomenality—but also flexible, as they were sensitive to individual differences such as usage frequency. Overall, these results show how folk intuitions about AI consciousness can diverge from expert intuitions—with potential implications for the legal and ethical status of AI.
+---
+DOCUMENT
+ID: ss_25bb684f8b25f05d8c212d8381c25265865a55e4
+SOURCE: semantic_scholar
+TITLE: Consciousness in Artificial Intelligence: Insights from the Science of Consciousness
+AUTHORS: Patrick Butlin, R. Long, Eric Elmoznino, Y. Bengio, Jonathan C. P. Birch, Axel Constant, George Deane, S. Fleming, C. Frith, Xuanxiu Ji, R. Kanai, C. Klein, Grace W. Lindsay, Matthias Michel, L. Mudrik, M. Peters, Eric Schwitzgebel, Jonathan Simon, R. VanRullen
+JOURNAL: ArXiv
+YEAR: 2023
+CITATIONS: 279
+ABSTRACT: Whether current or near-term AI systems could be conscious is a topic of scientific interest and increasing public concern. This report argues for, and exemplifies, a rigorous and empirically grounded approach to AI consciousness: assessing existing AI systems in detail, in light of our best-supported neuroscientific theories of consciousness. We survey several prominent scientific theories of consciousness, including recurrent processing theory, global workspace theory, higher-order theories, predictive processing, and attention schema theory. From these theories we derive"indicator properties"of consciousness, elucidated in computational terms that allow us to assess AI systems for these properties. We use these indicator properties to assess several recent AI systems, and we discuss how future systems might implement them. Our analysis suggests that no current AI systems are conscious, but also suggests that there are no obvious technical barriers to building AI systems which satisfy these indicators.
+---
+DOCUMENT
+ID: ss_ff239561ded3e047eca26e1b297501919fb5cd86
+SOURCE: semantic_scholar
+TITLE: Recovery from disorders of consciousness: mechanisms, prognosis and emerging therapies
+AUTHORS: B. Edlow, J. Claassen, N. Schiff, D. Greer
+JOURNAL: Nature Reviews. Neurology
+YEAR: 2020
+CITATIONS: 636
+ABSTRACT: Substantial progress has been made over the past two decades in detecting, predicting and promoting recovery of consciousness in patients with disorders of consciousness (DoC) caused by severe brain injuries. Advanced neuroimaging and electrophysiological techniques have revealed new insights into the biological mechanisms underlying recovery of consciousness and have enabled the identification of preserved brain networks in patients who seem unresponsive, thus raising hope for more accurate diagnosis and prognosis. Emerging evidence suggests that covert consciousness, or cognitive motor dissociation (CMD), is present in up to 15–20% of patients with DoC and that detection of CMD in the intensive care unit can predict functional recovery at 1 year post injury. Although fundamental questions remain about which patients with DoC have the potential for recovery, novel pharmacological and electrophysiological therapies have shown the potential to reactivate injured neural networks and promote re-emergence of consciousness. In this Review, we focus on mechanisms of recovery from DoC in the acute and subacute-to-chronic stages, and we discuss recent progress in detecting and predicting recovery of consciousness. We also describe the developments in pharmacological and electrophysiological therapies that are creating new opportunities to improve the lives of patients with DoC. In this Review, the authors discuss recent progress in the detection and prediction of recovery of consciousness in patients with disorders of consciousness caused by severe brain injuries. They describe the ongoing development of pharmacological and electrophysiological therapies designed to enhance recovery. A common pathophysiological mechanism underlying disorders of consciousness (DoC) is the withdrawal of excitatory synaptic activity across the cerebrum produced by deafferentation or disfacilitation of neocortical, thalamic and striatal neurons. Recovery from coma involves various mechanisms, culminating in the restoration of excitatory neurotransmission across long-range corticocortical, thalamocortical and thalamostriatal connections. The re-emergence of consciousness is associated with a shift in patterns of neuronal activity across the corticothalamic system that can be measured with EEG, PET or resting-state functional MRI. Task-based functional MRI and EEG can reveal cognitive motor dissociation in up to 15–20% of patients who seem unresponsive on behavioural examination, and emerging evidence suggests that early detection of cognitive motor dissociation in the intensive care unit predicts 1-year functional outcomes. Amantadine is the only therapy that has been associated with the acceleration of recovery of consciousness in a randomized controlled trial of patients with subacute traumatic DoC, but multiple pharmacological and neuromodulatory therapies are now being tested. Emerging advances in diagnostic and prognostic techniques provide new opportunities to detect consciousness, monitor its recovery, elucidate its neuronal substrate and identify the therapeutic potential of promoting re-emergence of consciousness in a subset of patients with DoC. A common pathophysiological mechanism underlying disorders of consciousness (DoC) is the withdrawal of excitatory synaptic activity across the cerebrum produced by deafferentation or disfacilitation of neocortical, thalamic and striatal neurons. Recovery from coma involves various mechanisms, culminating in the restoration of excitatory neurotransmission across long-range corticocortical, thalamocortical and thalamostriatal connections. The re-emergence of consciousness is associated with a shift in patterns of neuronal activity across the corticothalamic system that can be measured with EEG, PET or resting-state functional MRI. Task-based functional MRI and EEG can reveal cognitive motor dissociation in up to 15–20% of patients who seem unresponsive on behavioural examination, and emerging evidence suggests that early detection of cognitive motor dissociation in the intensive care unit predicts 1-year functional outcomes. Amantadine is the only therapy that has been associated with the acceleration of recovery of consciousness in a randomized controlled trial of patients with subacute traumatic DoC, but multiple pharmacological and neuromodulatory therapies are now being tested. Emerging advances in diagnostic and prognostic techniques provide new opportunities to detect consciousness, monitor its recovery, elucidate its neuronal substrate and identify the therapeutic potential of promoting re-emergence of consciousness in a subset of patients with DoC.
+---
+DOCUMENT
+ID: ss_1ba14f2447256ba087271ffbf4d8346d3b8a8943
+SOURCE: semantic_scholar
+TITLE: European Academy of Neurology guideline on the diagnosis of coma and other disorders of consciousness
+AUTHORS: D. Kondziella, A. Bender, K. Diserens, W. V. van Erp, A. Estraneo, R. Formisano, S. Laureys, L. Naccache, S. Ozturk, B. Rohaut, J. Sitt, J. Stender, M. Tiainen, A. Rossetti, O. Gosseries, C. Chatelle
+JOURNAL: European Journal of Neurology
+YEAR: 2020
+CITATIONS: 599
+ABSTRACT: Patients with acquired brain injury and acute or prolonged disorders of consciousness (DoC) are challenging. Evidence to support diagnostic decisions on coma and other DoC is limited but accumulating. This guideline provides the state‐of‐the‐art evidence regarding the diagnosis of DoC, summarizing data from bedside examination techniques, functional neuroimaging and electroencephalography (EEG).
+---
+DOCUMENT
+ID: ss_1e04d7e2aff7be0675a20ab95c92200a880d3c91
+SOURCE: semantic_scholar
+TITLE: The Origins and History of Consciousness
+AUTHORS: E. Neumann
+JOURNAL: 
+YEAR: 2020
+CITATIONS: 469
+ABSTRACT: The first of Erich Neumann's works to be translated into English, this eloquent book draws on a full range of world mythology to show that individual consciousness undergoes the same archetypal stages of development as has human consciousness as a whole. Neumann, one of Jung's most creative students and a renowned practitioner of analytical psychology in his own right, shows how the stages begin and end with the symbol of the Uroboros, or tail-eating serpent. The intermediate stages are projected in the universal myths of the World Creation, Great Mother, Separation of the World Parents, Birth of the Hero, Slaying of the Dragon, Rescue of the Captive, and Transformation and Deification of the Hero. Throughout the sequence the Hero is the evolving ego consciousness.
+---
+DOCUMENT
+ID: ss_c4f16a1a3a94621c67ce97c3ca6c54e25578a095
+SOURCE: semantic_scholar
+TITLE: Neural correlates of consciousness: progress and problems
+AUTHORS: C. Koch, M. Massimini, M. Boly, G. Tononi
+JOURNAL: Nature Reviews Neuroscience
+YEAR: 2016
+CITATIONS: 1387
+ABSTRACT: There have been a number of advances in the search for the neural correlates of consciousness — the minimum neural mechanisms sufficient for any one specific conscious percept. In this Review, we describe recent findings showing that the anatomical neural correlates of consciousness are primarily localized to a posterior cortical hot zone that includes sensory areas, rather than to a fronto-parietal network involved in task monitoring and reporting. We also discuss some candidate neurophysiological markers of consciousness that have proved illusory, and measures of differentiation and integration of neural activity that offer more promising quantitative indices of consciousness.
+---
+DOCUMENT
+ID: ss_1614359b3b5f412632878b976a284655723eb635
+SOURCE: semantic_scholar
+TITLE: Human consciousness is supported by dynamic complex patterns of brain signal coordination
+AUTHORS: A. Demertzi, E. Tagliazucchi, S. Dehaene, G. Deco, P. Barttfeld, F. Raimondo, C. Martial, D. Fernández-Espejo, B. Rohaut, H. Voss, N. Schiff, A. Owen, Steven Laureys, L. Naccache, J. Sitt
+JOURNAL: Science Advances
+YEAR: 2019
+CITATIONS: 466
+ABSTRACT: Dynamic patterns of brain activity at rest distinguish conscious and unconscious states in humans. Adopting the framework of brain dynamics as a cornerstone of human consciousness, we determined whether dynamic signal coordination provides specific and generalizable patterns pertaining to conscious and unconscious states after brain damage. A dynamic pattern of coordinated and anticoordinated functional magnetic resonance imaging signals characterized healthy individuals and minimally conscious patients. The brains of unresponsive patients showed primarily a pattern of low interareal phase coherence mainly mediated by structural connectivity, and had smaller chances to transition between patterns. The complex pattern was further corroborated in patients with covert cognition, who could perform neuroimaging mental imagery tasks, validating this pattern’s implication in consciousness. Anesthesia increased the probability of the less complex pattern to equal levels, validating its implication in unconsciousness. Our results establish that consciousness rests on the brain’s ability to sustain rich brain dynamics and pave the way for determining specific and generalizable fingerprints of conscious and unconscious states.
+---
+DOCUMENT
+ID: ss_ac4b9d2317d77ceb13e2b070e426dbfd6b7bbd16
+SOURCE: semantic_scholar
+TITLE: The moderating influence of environmental consciousness and recycling intentions on green purchase behavior
+AUTHORS: Pradeep Kautish, Justin Paul, Rajesh K. Sharma
+JOURNAL: Journal of Cleaner Production
+YEAR: 2019
+CITATIONS: 424
+ABSTRACT: Abstract This article examines the moderating influence of environmental consciousness and recycling intentions on green purchase behavior (GPB) in an emerging economy. Through this study, we attempt to significantly contribute to the existing body of knowledge on green marketing by ascertaining the role of those ethical constructs, on GPB. A hypo-deductive research design was adopted and a theoretical model was conceptualized by linking the moderating effects of environmental consciousness and recycling intentions to GPB. To collect the data for the study, a self-administered questionnaire was run with 312 consumers from India. The data were analyzed for assessment of the measurement and structural models via structural equation modeling. The findings indicate that environmental consciousness and recycling intentions significantly moderate the impact of perceived consumer effectiveness (PCE) and willingness to be environmentally friendly (WEF) on GPB. The study offers managerial insights for green marketers to operate in fast growing emerging markets. The present study is significant as it is the first of its kind which links the moderating effects of environmental consciousness and recycling intentions in light of the theory of planned behavior (TPB) on GPB in such a context.
+---
+DOCUMENT
+ID: ss_cb73ac0cd5da64debb233298e4a8624f3c0fbacf
+SOURCE: semantic_scholar
+TITLE: Thalamus modulates consciousness via layer-specific control of cortex
+AUTHORS: Michelle J. Redinbaugh, Jessica M. Phillips, Niranjan A. Kambi, S. Mohanta, Samantha Andryk, Gaven L. Dooley, M. Afrasiabi, A. Raz, Y. Saalmann
+JOURNAL: Neuron
+YEAR: 2020
+CITATIONS: 354
+ABSTRACT: SUMMARY: Functional MRI and electrophysiology studies suggest consciousness depends on large-scale thalamocortical and corticocortical interactions. However, it is unclear how neurons in different cortical layers and circuits contribute. We simultaneously recorded from central lateral thalamus (CL) and across layers of frontoparietal cortex in awake, sleeping and anesthetized macaques. We found that neurons in thalamus and deep cortical layers are most sensitive to changes in consciousness level, consistent across different anesthetic agents and sleep. Deep layer activity is sustained by interactions with CL. Consciousness also depends on deep layer neurons providing feedback to superficial layers (not to deep layers), suggesting long-range feedback is important, as well as intracolumnar signaling. To show causality, we stimulated CL in anesthetized macaques and effectively restored arousal and wake-like neural processing. This effect was location- and frequency-specific. Our findings suggest layer-specific thalamocortical correlates of consciousness and inform how targeted deep brain stimulation can alleviate disorders of consciousness.
+---
+DOCUMENT
+ID: ss_0e3863377b86fef48f4e707160a6155c59a73c5e
+SOURCE: semantic_scholar
+TITLE: Is Consciousness a Brain Process?
+AUTHORS: U. Place
+JOURNAL: Philosophy. Journal of the Higher School of Economics
+YEAR: 2018
+CITATIONS: 720
+ABSTRACT: Translation of: Place, U. T. 1956. “Is Consciousness a Brain Process?.” British Journal of Psychology 47 (1): 44–50.
+---
+DOCUMENT
+ID: ss_7f6acbbeabcbd585ef52105749705ca9cc3854bc
+SOURCE: semantic_scholar
+TITLE: What is consciousness, and could machines have it?
+AUTHORS: S. Dehaene, Ha-Kwan C. Lau, S. Kouider
+JOURNAL: Science
+YEAR: 2017
+CITATIONS: 650
+ABSTRACT: The controversial question of whether machines may ever be conscious must be based on a careful consideration of how consciousness arises in the only physical system that undoubtedly possesses it: the human brain. We suggest that the word “consciousness” conflates two different types of information-processing computations in the brain: the selection of information for global broadcasting, thus making it flexibly available for computation and report (C1, consciousness in the first sense), and the self-monitoring of those computations, leading to a subjective sense of certainty or error (C2, consciousness in the second sense). We argue that despite their recent successes, current machines are still mostly implementing computations that reflect unconscious processing (C0) in the human brain. We review the psychological and neural science of unconscious (C0) and conscious computations (C1 and C2) and outline how they may inspire novel machine architectures.
+---
+DOCUMENT
+ID: ss_5efb5178a720ed565ffb41dcfc2e45afb20d8987
+SOURCE: semantic_scholar
+TITLE: Critical consciousness in children and adolescents: A systematic review, critical assessment, and recommendations for future research.
+AUTHORS: Amy E. Heberle, Luke J. Rapa, F. Farago
+JOURNAL: Psychological bulletin
+YEAR: 2020
+CITATIONS: 292
+ABSTRACT: Critical consciousness refers to an individual's awareness of oppressive systemic forces in society, a sense of efficacy to work against oppression, and engagement in individual or collective action against oppression. In the past few decades, interest in critical consciousness as a resource that may promote thriving in marginalized people has grown tremendously. This article critically examines the results of a systematic review of 67 studies of critical consciousness in children and adolescents, published between 1998 and 2019. Across these studies, major themes included the role of socialization experiences, relationships, and context in the development of critical consciousness. In addition, critical consciousness was associated with a number of adaptive developmental outcomes, including career-related, civic, social-emotional, and academic outcomes-especially for marginalized youth. However, our analysis highlights several critical gaps in the literature. We highlight the need for further delineation of the impacts of parent and peer socialization on critical consciousness in specific developmental periods and for studying critical consciousness at multiple levels of the ecological system. We further note the dearth of rigorous experimental or quasi-experimental studies in the area of interventions to promote critical consciousness. In addition, we note that developmental questions-questions about the nature and function of critical consciousness over time-are largely unanswered in the literature, including questions about how critical consciousness manifests and develops during childhood. Leveraging the findings of our systematic review, we outline key next steps for this rapidly growing area of research. (PsycInfo Database Record (c) 2020 APA, all rights reserved).
+---
+DOCUMENT
+ID: ss_5340c47b4936b537af8c55f613db6386525e8a06
+SOURCE: semantic_scholar
+TITLE: Quantifying arousal and awareness in altered states of consciousness using interpretable deep learning
+AUTHORS: Minji Lee, L. Sanz, A. Barra, Audrey Wolff, J. Nieminen, M. Boly, M. Rosanova, S. Casarotto, O. Bodart, J. Annen, A. Thibaut, R. Panda, V. Bonhomme, M. Massimini, G. Tononi, S. Laureys, O. Gosseries, Seong-Whan Lee
+JOURNAL: Nature Communications
+YEAR: 2022
+CITATIONS: 113
+ABSTRACT: Consciousness can be defined by two components: arousal (wakefulness) and awareness (subjective experience). However, neurophysiological consciousness metrics able to disentangle between these components have not been reported. Here, we propose an explainable consciousness indicator (ECI) using deep learning to disentangle the components of consciousness. We employ electroencephalographic (EEG) responses to transcranial magnetic stimulation under various conditions, including sleep (n = 6), general anesthesia (n = 16), and severe brain injury (n = 34). We also test our framework using resting-state EEG under general anesthesia (n = 15) and severe brain injury (n = 34). ECI simultaneously quantifies arousal and awareness under physiological, pharmacological, and pathological conditions. Particularly, ketamine-induced anesthesia and rapid eye movement sleep with low arousal and high awareness are clearly distinguished from other states. In addition, parietal regions appear most relevant for quantifying arousal and awareness. This indicator provides insights into the neural correlates of altered states of consciousness. The authors propose an explainable consciousness indicator using deep learning to quantify arousal and awareness under sleep, anesthesia, and in patients with disorders of consciousness.
+---
+DOCUMENT
+ID: ss_8db3cf0c005099a08031de43948d48f424cc3341
+SOURCE: semantic_scholar
+TITLE: Deep brain stimulation of the thalamus restores signatures of consciousness in a nonhuman primate model
+AUTHORS: Jordy Tasserie, L. Uhrig, J. Sitt, D. Manasova, M. Dupont, S. Dehaene, B. Jarraya
+JOURNAL: Science Advances
+YEAR: 2022
+CITATIONS: 132
+ABSTRACT: Loss of consciousness is associated with the disruption of long-range thalamocortical and corticocortical brain communication. We tested the hypothesis that deep brain stimulation (DBS) of central thalamus might restore both arousal and awareness following consciousness loss. We applied anesthesia to suppress consciousness in nonhuman primates. During anesthesia, central thalamic stimulation induced arousal in an on-off manner and increased functional magnetic resonance imaging activity in prefrontal, parietal, and cingulate cortices. Moreover, DBS restored a broad dynamic repertoire of spontaneous resting-state activity, previously described as a signature of consciousness. None of these effects were obtained during the stimulation of a control site in the ventrolateral thalamus. Last, DBS restored a broad hierarchical response to auditory violations that was disrupted under anesthesia. Thus, DBS restored the two dimensions of consciousness, arousal and conscious access, following consciousness loss, paving the way to its therapeutical translation in patients with disorders of consciousness.
+---
+DOCUMENT
+ID: ss_36d83a6d1ad8240b24948a7621b897a03859e0d0
+SOURCE: semantic_scholar
+TITLE: Dimensions of Animal Consciousness
+AUTHORS: Jonathan C. P. Birch, A. Schnell, N. Clayton
+JOURNAL: Trends in cognitive sciences
+YEAR: 2020
+CITATIONS: 268
+ABSTRACT: How does consciousness vary across the animal kingdom? Are some animals ‘more conscious’ than others? This article presents a multidimensional framework for understanding interspecies variation in states of consciousness. The framework distinguishes five key dimensions of variation: perceptual richness, evaluative richness, integration at a time, integration across time, and selfconsciousness. For each dimension, existing experiments that bear on it are reviewed and future experiments are suggested. By assessing a given species against each dimension, we can construct a consciousness profile for that species. On this framework, there is no single scale along which species can be ranked as more or less conscious. Rather, each species has its own distinctive consciousness profile.
+---
+DOCUMENT
+ID: ss_f226cf9f8afdfe0eac10dce418477400c6b878dd
+SOURCE: semantic_scholar
+TITLE: Understanding the Higher-Order Approach to Consciousness.
+AUTHORS: Richard Brown, Ha-Kwan C. Lau, Joseph E LeDoux
+JOURNAL: Trends in cognitive sciences
+YEAR: 2019
+CITATIONS: 387
+ABSTRACT: The higher-order theory (HOT) of consciousness has often been misunderstood by critics. Here, we clarify its position on several issues, and distinguish it from other views, such as the global workspace theory (GWT) and early sensory models (e.g., first-order local recurrency theories). For example, HOT has been criticized for overintellectualizing consciousness. We show that, while higher-order states are cognitively assembled, the requirements are in fact considerably less than often presumed. In this sense, HOT may be viewed as an intermediate position between GWT and early sensory views. We also clarify that most proponents of HOT do not stipulate consciousness as equivalent to metacognition or confidence. Furthermore, compared with other existing theories, HOT can arguably account better for complex everyday experiences, such as emotions and episodic memories. This makes HOT particularly useful as a framework for conceptualizing pathological mental states.
+---
+DOCUMENT
+ID: ss_960e89a91dd065008e33373617c5860f747ffde8
+SOURCE: semantic_scholar
+TITLE: The spectral exponent of the resting EEG indexes the presence of consciousness during unresponsiveness induced by propofol, xenon, and ketamine
+AUTHORS: M. Colombo, M. Napolitani, M. Boly, O. Gosseries, S. Casarotto, M. Rosanova, J. Brichant, P. Boveroux, S. Rex, Steven Laureys, M. Massimini, A. Chieregato, S. Sarasso
+JOURNAL: Neuroimage
+YEAR: 2019
+CITATIONS: 312
+ABSTRACT: ABSTRACT Despite the absence of responsiveness during anesthesia, conscious experience may persist. However, reliable, easily acquirable and interpretable neurophysiological markers of the presence of consciousness in unresponsive states are still missing. A promising marker is based on the decay‐rate of the power spectral density (PSD) of the resting EEG. We acquired resting electroencephalogram (EEG) in three groups of healthy participants (n=5 each), before and during anesthesia induced by either xenon, propofol or ketamine. Dosage of each anesthetic agent was tailored to yield unresponsiveness (Ramsay score=6). Delayed subjective reports assessed whether conscious experience was present (‘Conscious report’) or absent/inaccessible to recall (‘No Report’). We estimated the decay of the PSD of the resting EEG—after removing oscillatory peaks—via the spectral exponent &bgr;, for a broad band (1–40Hz) and narrower sub‐bands (1–20Hz, 20–40Hz). Within‐subject anesthetic changes in &bgr; were assessed. Furthermore, based on &bgr;, ‘Conscious report’ states were discriminated against ‘no report’ states. Finally, we evaluated the correlation of the resting spectral exponent with a recently proposed index of consciousness, the Perturbational Complexity Index (PCI), derived from a previous TMS‐EEG study. The spectral exponent of the resting EEG discriminated states in which consciousness was present (wakefulness, ketamine) from states where consciousness was reduced or abolished (xenon, propofol). Loss of consciousness substantially decreased the (negative) broad‐band spectral exponent in each subject undergoing xenon or propofol anesthesia—indexing an overall steeper PSD decay. Conversely, ketamine displayed an overall PSD decay similar to that of wakefulness—consistent with the preservation of consciousness—yet it showed a flattening of the decay in the high‐frequencies (20–40Hz)—consistent with its specific mechanism of action. The spectral exponent was highly correlated to PCI, corroborating its interpretation as a marker of the presence of consciousness. A steeper PSD of the resting EEG reliably indexed unconsciousness in anesthesia, beyond sheer unresponsiveness. HIGHLIGHTSUnconsciousness does not imply unresponsiveness.Consciousness is abolished during xenon and propofol, yet preserved during ketamine.EEG Spectral exponent indexes the 1/f‐like decay of non‐oscillatory PSD background.Xenon and propofol steepen broad‐band decay; ketamine flattens high‐frequency decay.Spectral exponent separates un/consciousness in anesthesia‐induced unresponsiveness.
+---
+DOCUMENT
+ID: ss_99eb092dfce15a4efcbfbeeea057996b8ddd2f59
+SOURCE: semantic_scholar
+TITLE: Therapeutic interventions in patients with prolonged disorders of consciousness.
+AUTHORS: A. Thibaut, N. Schiff, J. Giacino, Steven Laureys, O. Gosseries
+JOURNAL: The Lancet. Neurology
+YEAR: 2019
+CITATIONS: 345
+ABSTRACT: The management of patients with severe brain injuries and prolonged disorders of consciousness raises important issues particularly with respect to their therapeutic options. The scarcity of treatment options is challenged by new clinical and neuroimaging data indicating that some patients with prolonged disorders of consciousness might benefit from therapeutic interventions, even years after the injury. Most studies of interventions aimed at improving patients' level of consciousness and functional recovery were behavioural and brain imaging open-label trials and case reports, but several randomised controlled trials have been done, particularly focused on the effects of drugs or use of non-invasive brain stimulation. However, only two studies on amantadine and transcranial direct current stimulation provided class II evidence. Although new therapeutic approaches seem to be valuable for patients with prolonged disorders of consciousness, optimised stimulation parameters, alternative drugs, or rehabilitation strategies still need to be tested and validated to improve rehabilitation and the quality of life of these patients.
+---
+DOCUMENT
+ID: ss_33cccfd8f2c3073afc6dfa3e3ece0ada1c74994b
+SOURCE: semantic_scholar
+TITLE: Consciousness and complexity: a consilience of evidence
+AUTHORS: S. Sarasso, A. Casali, S. Casarotto, M. Rosanova, C. Sinigaglia, M. Massimini
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2021
+CITATIONS: 163
+ABSTRACT: Abstract Over the last years, a surge of empirical studies converged on complexity-related measures as reliable markers of consciousness across many different conditions, such as sleep, anesthesia, hallucinatory states, coma, and related disorders. Most of these measures were independently proposed by researchers endorsing disparate frameworks and employing different methods and techniques. Since this body of evidence has not been systematically reviewed and coherently organized so far, this positive trend has remained somewhat below the radar. The aim of this paper is to make this consilience of evidence in the science of consciousness explicit. We start with a systematic assessment of the growing literature on complexity-related measures and identify their common denominator, tracing it back to core theoretical principles and predictions put forward more than 20 years ago. In doing this, we highlight a consistent trajectory spanning two decades of consciousness research and provide a provisional taxonomy of the present literature. Finally, we consider all of the above as a positive ground to approach new questions and devise future experiments that may help consolidate and further develop a promising field where empirical research on consciousness appears to have, so far, naturally converged.
+---
+DOCUMENT
+ID: ss_2ba984ebe6a4311fad338e0c666b1c3b359938f0
+SOURCE: semantic_scholar
+TITLE: Consumer's intention to purchase green furniture: Do health consciousness and environmental awareness matter?
+AUTHORS: Xiaoping Xu, Shan-Yong Wang, Yu-Gang Yu
+JOURNAL: The Science of the total environment
+YEAR: 2019
+CITATIONS: 319
+ABSTRACT: With the increase of consumer's environmental awareness and health consciousness, great attention has been paid to green furniture. This study attempts to explore consumer's intention to purchase green furniture by applying an extension model of theory of planned behavior (TPB). The original TPB model is extended by adding three factors: health consciousness, environmental awareness and willingness to pay for green furniture premium. We collect 460 usable surveys in China. The empirical findings show that environmental awareness positively affects attitude, subjective norm, perceived behavioral control as well as willingness to pay, and then subjective norm, perceived behavioral control and willingness to pay positively influence consumer's intention to purchase green furniture. Health consciousness also positively affects consumer's attitude and intention to purchase green furniture. However, attitude toward purchasing green furniture is not significantly related to purchase intention, which implies an attitude-behavior gap. Furthermore, perceived behavioral control has the largest influence on consumer's purchasing intention, followed by health consciousness, willingness to pay and subjective norm. Additionally, compared with the original TPB model, the extension model of TPB can improve the explained variance. Based on the empirical analysis, we provide some managerial insights for the promotion of green furniture.
+---
+DOCUMENT
+ID: ss_1be879b01463edcc8b9b055eee55c7bd65ac7824
+SOURCE: semantic_scholar
+TITLE: Environmental Consciousness and Organic Food Purchase Intention: A Moderated Mediation Model of Perceived Food Quality and Price Sensitivity
+AUTHORS: Jian-Ming Wang, T. Pham, V. T. Dang
+JOURNAL: International Journal of Environmental Research and Public Health
+YEAR: 2020
+CITATIONS: 224
+ABSTRACT: As purchase power and consumption knowledge increase, consumers gradually demand safer and healthier products. In addition, consumers focus greater attention on organic food. This study investigates the relationship between environmental consciousness and organic food purchase intention with the mediating roles of perceived food quality and price sensitivity. The objective is to shed new light on our understanding of consumers’ perceptions and behavioral intentions toward organic food. Using sample data of 518 consumers in different food retailers in China, empirical results show that environmental consciousness has a positive impact on organic food purchase intention. Perceived food quality has a mediating effect on the link between environmental consciousness and organic food purchase intention. Price sensitivity moderates the relationship between perceived food quality and organic food purchase intention. Furthermore, price sensitivity moderates the indirect effect of environmental consciousness on organic food purchase intention through perceived food quality.
+---
+DOCUMENT
+ID: ss_92f13b957cc049f838ac83222876e0dd3c63448d
+SOURCE: semantic_scholar
+TITLE: Brain-heart interactions in the neurobiology of consciousness
+AUTHORS: D. Candia-Rivera
+JOURNAL: Current Research in Neurobiology
+YEAR: 2022
+CITATIONS: 90
+ABSTRACT: Recent experimental evidence on patients with disorders of consciousness revealed that observing brain-heart interactions helps to detect residual consciousness, even in patients with absence of behavioral signs of consciousness. Those findings support hypotheses suggesting that visceral activity is involved in the neurobiology of consciousness, and sum to the existing evidence in healthy participants in which the neural responses to heartbeats reveal perceptual and self-consciousness. More evidence obtained through mathematical modeling of physiological dynamics revealed that emotion processing is prompted by an initial modulation from ascending vagal inputs to the brain, followed by sustained bidirectional brain-heart interactions. Those findings support long-lasting hypotheses on the causal role of bodily activity in emotions, feelings, and potentially consciousness. In this paper, the theoretical landscape on the potential role of heartbeats in cognition and consciousness is reviewed, as well as the experimental evidence supporting these hypotheses. I advocate for methodological developments on the estimation of brain-heart interactions to uncover the role of cardiac inputs in the origin, levels, and contents of consciousness. The ongoing evidence depicts interactions further than the cortical responses evoked by each heartbeat, suggesting the potential presence of non-linear, complex, and bidirectional communication between brain and heartbeat dynamics. Further developments on methodologies to analyze brain-heart interactions may contribute to a better understanding of the physiological dynamics involved in homeostatic-allostatic control, cognitive functions, and consciousness.
+---
+DOCUMENT
+ID: ss_788713876f5855595c386362715be2137ac124bd
+SOURCE: semantic_scholar
+TITLE: Making the hard problem of consciousness easier
+AUTHORS: L. Melloni, L. Mudrik, Michael A. Pitts, Christof Koch
+JOURNAL: Science
+YEAR: 2021
+CITATIONS: 167
+ABSTRACT: Championing open science, an adversarial collaboration aims to unravel the footprints of consciousness The history of science includes numerous challenging problems, including the “hard problem” (1) of consciousness: Why does an assembly of neurons—no matter how complex, such as the human brain—give rise to perceptions and feelings that are consciously experienced, such as the sweetness of chocolate or the tenderness of a loving caress on one's cheek? Beyond satisfying this millennia-old existential curiosity, understanding consciousness bears substantial medical and ethical implications, from evaluating whether someone is conscious after brain injury to determining whether nonhuman animals, fetuses, cell organoids, or even advanced machines (2) are conscious. A comprehensive and agreed-upon theory of consciousness is necessary to answer the question of which systems—biologically evolved or artificially designed—experience anything and to define the ethical boundaries of our actions toward them. The research projects described here will hopefully point the way and indicate whether some of today's major theories hold water or not.
+---
+DOCUMENT
+ID: ss_c1ab87b382ceb902cc751d4447e44f1c7c621fc5
+SOURCE: semantic_scholar
+TITLE: Consciousness among delta waves: a paradox?
+AUTHORS: J. Frohlich, Daniel Toker, M. Monti
+JOURNAL: Brain : a journal of neurology
+YEAR: 2021
+CITATIONS: 167
+ABSTRACT: A common observation in EEG research is that consciousness vanishes with the appearance of delta (1 - 4 Hz) waves, particularly when those waves are high amplitude. High amplitude delta oscillations are very frequently observed in states of diminished consciousness, including slow wave sleep, anaesthesia, generalised epileptic seizures, and disorders of consciousness such as coma and vegetative state. This strong correlation between loss of consciousness and high amplitude delta oscillations is thought to stem from the widespread cortical deactivation that occurs during the "down states" or troughs of these slow oscillations. Recently, however, many studies have reported the presence of prominent delta activity during conscious states, which casts doubt on the hypothesis that high amplitude delta oscillations are an indicator of unconsciousness. These studies include work in Angelman syndrome, epilepsy, behavioural responsiveness during propofol anaesthesia, postoperative delirium, and states of dissociation from the environment such as dreaming and powerful psychedelic states. The foregoing studies complement an older, yet largely unacknowledged, body of literature that has documented awake, conscious patients with high amplitude delta oscillations in clinical reports from Rett syndrome, Lennox-Gastaut syndrome, schizophrenia, mitochondrial diseases, hepatic encephalopathy, and nonconvulsive status epilepticus. At the same time, a largely parallel body of recent work has reported convincing evidence that the complexity or entropy of EEG and magnetoencephalogram or MEG signals strongly relates to an individual's level of consciousness. Having reviewed this literature, we discuss plausible mechanisms that would resolve the seeming contradiction between high amplitude delta oscillations and consciousness. We also consider implications concerning theories of consciousness, such as integrated information theory and the entropic brain hypothesis. Finally, we conclude that false inferences of unconscious states can be best avoided by examining measures of electrophysiological complexity in addition to spectral power.
+---
+DOCUMENT
+ID: ss_c93798ad4d66738eccbeafee56b55b2bd1647a35
+SOURCE: semantic_scholar
+TITLE: An information integration theory of consciousness
+AUTHORS: G. Tononi
+JOURNAL: BMC Neuroscience
+YEAR: 2004
+CITATIONS: 1768
+ABSTRACT: BackgroundConsciousness poses two main problems. The first is understanding the conditions that determine to what extent a system has conscious experience. For instance, why is our consciousness generated by certain parts of our brain, such as the thalamocortical system, and not by other parts, such as the cerebellum? And why are we conscious during wakefulness and much less so during dreamless sleep? The second problem is understanding the conditions that determine what kind of consciousness a system has. For example, why do specific parts of the brain contribute specific qualities to our conscious experience, such as vision and audition?Presentation of the hypothesisThis paper presents a theory about what consciousness is and how it can be measured. According to the theory, consciousness corresponds to the capacity of a system to integrate information. This claim is motivated by two key phenomenological properties of consciousness: differentiation – the availability of a very large number of conscious experiences; and integration – the unity of each such experience. The theory states that the quantity of consciousness available to a system can be measured as the Φ value of a complex of elements. Φ is the amount of causally effective information that can be integrated across the informational weakest link of a subset of elements. A complex is a subset of elements with Φ>0 that is not part of a subset of higher Φ. The theory also claims that the quality of consciousness is determined by the informational relationships among the elements of a complex, which are specified by the values of effective information among them. Finally, each particular conscious experience is specified by the value, at any given time, of the variables mediating informational interactions among the elements of a complex.Testing the hypothesisThe information integration theory accounts, in a principled manner, for several neurobiological observations concerning consciousness. As shown here, these include the association of consciousness with certain neural systems rather than with others; the fact that neural processes underlying consciousness can influence or be influenced by neural processes that remain unconscious; the reduction of consciousness during dreamless sleep and generalized seizures; and the time requirements on neural interactions that support consciousness.Implications of the hypothesisThe theory entails that consciousness is a fundamental quantity, that it is graded, that it is present in infants and animals, and that it should be possible to build conscious artifacts.
+---
+DOCUMENT
+ID: ss_46d04f7cc657ac231944d33f1a7d1009ea85cbb2
+SOURCE: semantic_scholar
+TITLE: The Sustainability Consciousness Questionnaire: The theoretical development and empirical validation of an evaluation instrument for stakeholders working with sustainable development
+AUTHORS: N. Gericke, Jelle Boeve-de Pauw, Teresa Berglund, Daniel Olsson
+JOURNAL: Sustainable Development
+YEAR: 2018
+CITATIONS: 359
+ABSTRACT: In this paper, the concept of sustainability consciousness, an individual's experience and awareness of sustainable development, is introduced. Based on UNESCO's definition of sustainable development, a sustainability consciousness questionnaire (SCQ) is theoretically and empirically developed. Using the data of 638 respondents from Sweden aged 18–19 years old, the scale is developed in two versions. The long version (SCQ‐L) can be used to measure individuals' environmental, social and economic knowingness, attitudes and behaviour (nine valid and reliable subscales), in addition to the second order constructs of sustainability knowingness, sustainability attitudes and sustainability behaviour, as well as the third order construct, sustainability consciousness. For the short version (SCQ‐S) 27 items were identified that can be used to measure the second and third order constructs. Both versions of the scale present excellent psychometric quality. Possible applications of the questionnaire instruments in the context of evaluation of sustainability policies, practices and stakeholder engagement are discussed.
+---
+DOCUMENT
+ID: ss_7fe18c54a15fc141f995fd6fb04fd1377f85d9f6
+SOURCE: semantic_scholar
+TITLE: An academic survey on theoretical foundations, common assumptions and the current state of consciousness science
+AUTHORS: Jolien C. Francken, Lola Beerendonk, D. Molenaar, Johannes Jacobus Fahrenfort, J. Kiverstein, Anil K. Seth, S. van Gaal
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2022
+CITATIONS: 79
+ABSTRACT: Abstract We report the results of an academic survey into the theoretical and methodological foundations, common assumptions, and the current state of the field of consciousness research. The survey consisted of 22 questions and was distributed on two different occasions of the annual meeting of the Association of the Scientific Study of Consciousness (2018 and 2019). We examined responses from 166 consciousness researchers with different backgrounds (e.g. philosophy, neuroscience, psychology, and computer science) and at various stages of their careers (e.g. junior/senior faculty and graduate/undergraduate students). The results reveal that there remains considerable discussion and debate between the surveyed researchers about the definition of consciousness and the way it should be studied. To highlight a few observations, a majority of respondents believe that machines could have consciousness, that consciousness is a gradual phenomenon in the animal kingdom, and that unconscious processing is extensive, encompassing both low-level and high-level cognitive functions. Further, we show which theories of consciousness are currently considered most promising by respondents and how supposedly different theories cluster together, which dependent measures are considered best to index the presence or absence of consciousness, and which neural measures are thought to be the most likely signatures of consciousness. These findings provide us with a snapshot of the current views of researchers in the field and may therefore help prioritize research and theoretical approaches to foster progress.
+---
+DOCUMENT
+ID: ss_53566c1b8a6687c9b754e9af8f8b2a1319e8a60c
+SOURCE: semantic_scholar
+TITLE: The search for invertebrate consciousness
+AUTHORS: Jonathan C. P. Birch
+JOURNAL: Nous (Detroit, Mich.)
+YEAR: 2020
+CITATIONS: 171
+ABSTRACT: There is no agreement on whether any invertebrates are conscious and no agreement on a methodology that could settle the issue. How can the debate move forward? I distinguish three broad types of approach: theory-heavy, theory-neutral and theory-light. Theory-heavy and theory-neutral approaches face serious problems, motivating a middle path: the theory-light approach. At the core of the theory-light approach is a minimal commitment about the relation between phenomenal consciousness and cognition that is compatible with many specific theories of consciousness: the hypothesis that phenomenally conscious perception of a stimulus facilitates, relative to unconscious perception, a cluster of cognitive abilities in relation to that stimulus. This “facilitation hypothesis” can productively guide inquiry into invertebrate consciousness. What is needed? At this stage, not more theory, and not more undirected data gathering. What is needed is a systematic search for consciousness-linked cognitive abilities, their relationships to each other, and their sensitivity to masking.
+---
+DOCUMENT
+ID: ss_fdf66097d075ec4cadb132f1a9a4bad300cbf778
+SOURCE: semantic_scholar
+TITLE: Temporal circuit of macroscale dynamic brain activity supports human consciousness
+AUTHORS: Zi-Rui Huang, Jun Zhang, Jinsong Wu, G. Mashour, A. Hudetz
+JOURNAL: Science Advances
+YEAR: 2020
+CITATIONS: 184
+ABSTRACT: Neuroimaging suggests that human consciousness relies on frequent access to default mode and dorsal attention brain networks. The ongoing stream of human consciousness relies on two distinct cortical systems, the default mode network and the dorsal attention network, which alternate their activity in an anticorrelated manner. We examined how the two systems are regulated in the conscious brain and how they are disrupted when consciousness is diminished. We provide evidence for a “temporal circuit” characterized by a set of trajectories along which dynamic brain activity occurs. We demonstrate that the transitions between default mode and dorsal attention networks are embedded in this temporal circuit, in which a balanced reciprocal accessibility of brain states is characteristic of consciousness. Conversely, isolation of the default mode and dorsal attention networks from the temporal circuit is associated with unresponsiveness of diverse etiologies. These findings advance the foundational understanding of the functional role of anticorrelated systems in consciousness.
+---
+DOCUMENT
+ID: ss_7922041dfa8fc2a6bf3b6b7ca565ea128015a0b0
+SOURCE: semantic_scholar
+TITLE: Recentering Action in Critical Consciousness
+AUTHORS: Matthew A. Diemer, Andres Pinedo, J. Bañales, Channing J. Mathews, M. Frisby, Elise Harris, Sara McAlister
+JOURNAL: Child Development Perspectives
+YEAR: 2020
+CITATIONS: 172
+ABSTRACT: — Scholarship on critical consciousness frames how people who are more marginalized deeply analyze, feel empowered to change, and take collective action to redress perceived inequities. These three dimensions cor-respond to critical reﬂection, motivation, and action, respectively. In this article, we aim to recenter action in scholarship on critical consciousness, given the disproportionate attention that has been paid to reﬂection. To achieve this aim, we review empirical associations between critical action and positive developmental consequences among more marginalized youth, highlight promising practices to foster critical action, and identify questions and key areas for inquiry. We hope this article motivates a recentering of critical action in scholarship, policy, and practice on critical consciousness.
+---
+DOCUMENT
+ID: ss_63a2f488bcab2cff14a3fb4609d30ee7836afa55
+SOURCE: semantic_scholar
+TITLE: Neural signs and mechanisms of consciousness: Is there a potential convergence of theories of consciousness in sight?
+AUTHORS: G. Northoff, V. Lamme
+JOURNAL: Neuroscience and biobehavioral reviews
+YEAR: 2020
+CITATIONS: 171
+ABSTRACT: Various theories for the neural basis of consciousness have been proposed, suggesting a diversity of neural signs and mechanisms. We ask to what extent this diversity is real, or whether many theories share the same basic ideas with a potential for convergence towards a more unified theory of the neural basis of consciousness. For that purpose, we review and compare the various neural signs, measures, and mechanisms proposed in the different theories. We demonstrate that different theories focus on neural signs and measures of distinct aspects of neural activity including stimulus-related, prestimulus, and resting state activity as well as on distinct features of consciousness. Therefore, the various mechanisms proposed in the different theories may, in part, complement each other. Together, we provide insight into the shared basis and convergences (and, in part, discrepancies) of the different theories of consciousness. We conclude that the different theories concern distinct aspects of both neural activity and consciousness which, as we suppose, may be integrated and nested within the brain's overall temporo-spatial dynamics.
+---
+DOCUMENT
+ID: ss_c88892c8845d6d635b931d2d636e6df9bf879e9e
+SOURCE: semantic_scholar
+TITLE: Comprehensive systematic review update summary: Disorders of consciousness
+AUTHORS: J. Giacino, D. Katz, N. Schiff, J. Whyte, E. Ashman, S. Ashwal, R. Barbano, F. Hammond, Steven Laureys, G. Ling, R. Nakase-Richardson, R. Seel, S. Yablon, Thomas S. D. Getchius, G. Gronseth, M. Armstrong
+JOURNAL: Neurology
+YEAR: 2018
+CITATIONS: 422
+ABSTRACT: Objective To update the 1995 American Academy of Neurology (AAN) practice parameter on persistent vegetative state and the 2002 case definition for the minimally conscious state (MCS) by reviewing the literature on the diagnosis, natural history, prognosis, and treatment of disorders of consciousness lasting at least 28 days. Methods Articles were classified per the AAN evidence-based classification system. Evidence synthesis occurred through a modified Grading of Recommendations Assessment, Development and Evaluation process. Recommendations were based on evidence, related evidence, care principles, and inferences according to the AAN 2011 process manual, as amended. Results No diagnostic assessment procedure had moderate or strong evidence for use. It is possible that a positive EMG response to command, EEG reactivity to sensory stimuli, laser-evoked potentials, and the Perturbational Complexity Index can distinguish MCS from vegetative state/unresponsive wakefulness syndrome (VS/UWS). The natural history of recovery from prolonged VS/UWS is better in traumatic than nontraumatic cases. MCS is generally associated with a better prognosis than VS (conclusions of low to moderate confidence in adult populations), and traumatic injury is generally associated with a better prognosis than nontraumatic injury (conclusions of low to moderate confidence in adult and pediatric populations). Findings concerning other prognostic features are stratified by etiology of injury (traumatic vs nontraumatic) and diagnosis (VS/UWS vs MCS) with low to moderate degrees of confidence. Therapeutic evidence is sparse. Amantadine probably hastens functional recovery in patients with MCS or VS/UWS secondary to severe traumatic brain injury over 4 weeks of treatment. Recommendations are presented separately.
+---
+DOCUMENT
+ID: ss_d0c4a38e77d2b5be1fc77130beb79d02cd223cd6
+SOURCE: semantic_scholar
+TITLE: Consciousness matters: phenomenal experience has functional value
+AUTHORS: Axel Cleeremans, C. Tallon-Baudry
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2022
+CITATIONS: 62
+ABSTRACT: Abstract ‘Why would we do anything at all if the doing was not doing something to us?’ In other words: What is consciousness good for? Here, reversing classical views, according to many of which subjective experience is a mere epiphenomenon that affords no functional advantage, we propose that subject-level experience—‘What it feels like’—is endowed with intrinsic value, and it is precisely the value agents associate with their experiences that explains why they do certain things and avoid others. Because experiences have value and guide behaviour, consciousness has a function. Under this hypothesis of ‘phenomenal worthiness’, we argue that it is only in virtue of the fact that conscious agents ‘experience’ things and ‘care’ about those experiences that they are ‘motivated’ to act in certain ways and that they ‘prefer’ some states of affairs vs. others. Overviewing how the concept of value has been approached in decision-making, emotion research and consciousness research, we argue that phenomenal consciousness has intrinsic value and conclude that if this is indeed the case, then it must have a function. Phenomenal experience might act as a mental currency of sorts, which not only endows conscious mental states with intrinsic value but also makes it possible for conscious agents to compare vastly different experiences in a common subject-centred space—a feature that readily explains the fact that consciousness is ‘unified’. The phenomenal worthiness hypothesis, in turn, makes the ‘hard problem’ of consciousness more tractable, since it can then be reduced to a problem about function.
+---
+DOCUMENT
+ID: ss_c6034f83100cb5a2b56e4bb299285cfb783546f2
+SOURCE: semantic_scholar
+TITLE: Perceptual awareness negativity: a physiological correlate of sensory consciousness.
+AUTHORS: Cole Dembski, Christof Koch, Michael A. Pitts
+JOURNAL: Trends in cognitive sciences
+YEAR: 2021
+CITATIONS: 110
+ABSTRACT: Much research on the neural correlates of consciousness (NCC) has focused on two evoked potentials, the P3b and the visual or auditory awareness negativity (VAN, AAN). Surveying a broad range of recent experimental evidence, we find that repeated failures to observe the P3b during conscious perception eliminate it as a putative NCC. Neither the VAN nor the AAN have been dissociated from consciousness; furthermore, a similar neural signal correlates with tactile consciousness. These awareness negativities can be maximal contralateral to the evoking stimulus, are likely generated in underlying sensory cortices, and point to the existence of a generalized perceptual awareness negativity (PAN) reflecting the onset of sensory consciousness.
+---
+DOCUMENT
+ID: ss_e0b8613a6d8765da8dc4e9515c5c003da12728ab
+SOURCE: semantic_scholar
+TITLE: Consciousness-specific dynamic interactions of brain integration and functional diversity
+AUTHORS: A. Luppi, M. Craig, I. Pappas, P. Finoia, Guy B. Williams, J. Allanson, J. Pickard, A. Owen, L. Naci, D. Menon, E. Stamatakis
+JOURNAL: Nature Communications
+YEAR: 2019
+CITATIONS: 233
+ABSTRACT: Prominent theories of consciousness emphasise different aspects of neurobiology, such as the integration and diversity of information processing within the brain. Here, we combine graph theory and dynamic functional connectivity to compare resting-state functional MRI data from awake volunteers, propofol-anaesthetised volunteers, and patients with disorders of consciousness, in order to identify consciousness-specific patterns of brain function. We demonstrate that cortical networks are especially affected by loss of consciousness during temporal states of high integration, exhibiting reduced functional diversity and compromised informational capacity, whereas thalamo-cortical functional disconnections emerge during states of higher segregation. Spatially, posterior regions of the brain’s default mode network exhibit reductions in both functional diversity and integration with the rest of the brain during unconsciousness. These results show that human consciousness relies on spatio-temporal interactions between brain integration and functional diversity, whose breakdown may represent a generalisable biomarker of loss of consciousness, with potential relevance for clinical practice. How do diversity (entropy) and integration of activity across brain regions interact to support consciousness? Here the authors show that anaesthetised individuals and patients with disorders of consciousness exhibit overlapping reductions in both diversity and integration in the brain’s default mode network.
+---
+DOCUMENT
+ID: ss_6a2fd985d926673863670e7a43cb52d63de95773
+SOURCE: semantic_scholar
+TITLE: Hard criteria for empirical theories of consciousness
+AUTHORS: Adrien Doerig, A. Schurger, M. Herzog
+JOURNAL: Cognitive Neuroscience
+YEAR: 2020
+CITATIONS: 155
+ABSTRACT: ABSTRACT Consciousness is now a well-established field of empirical research. A large body of experimental results has been accumulated and is steadily growing. In parallel, many Theories of Consciousness (ToCs) have been proposed. These theories are diverse in nature, ranging from computational to neurophysiological and quantum theoretical approaches. This contrasts with other fields of natural science, which host a smaller number of competing theories. We suggest that one reason for this abundance of extremely different theories may be the lack of stringent criteria specifying how empirical data constrains ToCs. First, we argue that consciousness is a well-defined topic from an empirical point of view and motivate a purely empirical stance on the quest for consciousness. Second, we present a checklist of criteria that, we propose, empirical ToCs need to cope with. Third, we review 13 of the most influential ToCs and subject them to the criteria. Our analysis helps to situate these different ToCs in the theoretical landscapeand sheds light on their strengths and weaknesses from a strictly empirical point of view.
+---
+DOCUMENT
+ID: ss_fda9b1dc97ef71125f503583cfb3a951903490b5
+SOURCE: semantic_scholar
+TITLE: ERP and MEG correlates of visual consciousness: The second decade.
+AUTHORS: Jona Förster, M. Koivisto, A. Revonsuo
+JOURNAL: Consciousness and cognition
+YEAR: 2020
+CITATIONS: 141
+ABSTRACT: The first decade of event-related potential (ERP) research had established that the most consistent correlates of the onset of visual consciousness are the early visual awareness negativity (VAN), a posterior negative component in the N2 time range, and the late positivity (LP), an anterior positive component in the P3 time range. Two earlier extensive reviews ten years ago had concluded that VAN is the earliest and most reliable correlate of visual phenomenal consciousness, whereas LP probably reflects later processes associated with reflective/access consciousness. This article provides an update to those earlier reviews. ERP and MEG studies that have appeared since 2010 and directly compared ERPs between aware and unaware conditions are reviewed, and important new developments in the field are discussed. The result corroborates VAN as the earliest and most consistent signature of visual phenomenal consciousness, and casts further doubt on LP as an ERP correlate of phenomenal consciousness.
+---
+DOCUMENT
+ID: ss_5ba5d0b9f511c1d763bafe8a9d4c74fd8e2dbca8
+SOURCE: semantic_scholar
+TITLE: Predictive processing as a systematic basis for identifying the neural correlates of consciousness
+AUTHORS: Jakob Hohwy, Anil K. Seth
+JOURNAL: Philosophy and the Mind Sciences
+YEAR: 2020
+CITATIONS: 131
+ABSTRACT: The search for the neural correlates of consciousness is in need of a systematic, principled foundation that can endow putative neural correlates with greater predictive and explanatory value. Here, we propose the predictive processing framework for brain function as a promising candidate for providing this systematic foundation. The proposal is motivated by that framework’s ability to address three general challenges to identifying the neural correlates of consciousness, and to satisfy two constraints common to many theories of consciousness. Implementing the search for neural correlates of consciousness through the lens of predictive processing delivers strong potential for predictive and explanatory value through detailed, systematic mappings between neural substrates and phenomenological structure. We conclude that the predictive processing framework, precisely because it at the outset is not itself a theory of consciousness, has significant potential for advancing the neuroscience of consciousness.
+---
+DOCUMENT
+ID: ss_d7b051347f780c1ac115f2b769a3293135b6477a
+SOURCE: semantic_scholar
+TITLE: Psychedelics, Meditation, and Self-Consciousness
+AUTHORS: Raphaël Millière, Robin L. Carhart-Harris, L. Roseman, Fynn-Mathis Trautwein, A. Berkovich-Ohana
+JOURNAL: Frontiers in Psychology
+YEAR: 2018
+CITATIONS: 329
+ABSTRACT: In recent years, the scientific study of meditation and psychedelic drugs has seen remarkable developments. The increased focus on meditation in cognitive neuroscience has led to a cross-cultural classification of standard meditation styles validated by functional and structural neuroanatomical data. Meanwhile, the renaissance of psychedelic research has shed light on the neurophysiology of altered states of consciousness induced by classical psychedelics, such as psilocybin and LSD, whose effects are mainly mediated by agonism of serotonin receptors. Few attempts have been made at bridging these two domains of inquiry, despite intriguing evidence of overlap between the phenomenology and neurophysiology of meditation practice and psychedelic states. In particular, many contemplative traditions explicitly aim at dissolving the sense of self by eliciting altered states of consciousness through meditation, while classical psychedelics are known to produce significant disruptions of self-consciousness, a phenomenon known as drug-induced ego dissolution. In this article, we discuss available evidence regarding convergences and differences between phenomenological and neurophysiological data on meditation practice and psychedelic drug-induced states, with a particular emphasis on alterations of self-experience. While both meditation and psychedelics may disrupt self-consciousness and underlying neural processes, we emphasize that neither meditation nor psychedelic states can be conceived as simple, uniform categories. Moreover, we suggest that there are important phenomenological differences even between conscious states described as experiences of self-loss. As a result, we propose that self-consciousness may be best construed as a multidimensional construct, and that “self-loss,” far from being an unequivocal phenomenon, can take several forms. Indeed, various aspects of self-consciousness, including narrative aspects linked to autobiographical memory, self-related thoughts and mental time travel, and embodied aspects rooted in multisensory processes, may be differently affected by psychedelics and meditation practices. Finally, we consider long-term outcomes of experiences of self-loss induced by meditation and psychedelics on individual traits and prosocial behavior. We call for caution regarding the problematic conflation of temporary states of self-loss with “selflessness” as a behavioral or social trait, although there is preliminary evidence that correlations between short-term experiences of self-loss and long-term trait alterations may exist.
+---
+DOCUMENT
+ID: ss_24f0022d60c02b5e4fdc2c07f7f15a527d4b8c20
+SOURCE: semantic_scholar
+TITLE: Bilingualism, Biliteracy, Biculturalism, and Critical Consciousness for All: Proposing a Fourth Fundamental Goal for Two-Way Dual Language Education
+AUTHORS: Deborah K. Palmer, Claudia G. Cervantes-Soon, L. Dorner, Daniel Heiman
+JOURNAL: Theory Into Practice
+YEAR: 2019
+CITATIONS: 192
+ABSTRACT: Two-way dual language (TWDL) bilingual education programs share three core goals: academic achievement, bilingualism and biliteracy, and sociocultural competence. This article proposes a fourth core goal: critical consciousness. Although TWDL programs are designed to integrate students from diverse language, culture, and race backgrounds, equity is unfortunately still a challenge in TWDL classrooms and schools. We argue that centering critical consciousness—or fostering among teachers, parents, and children an awareness of the structural oppression that surrounds us and a readiness to take action to correct it—can support increased equity and social justice in TWDL education. We elaborate four elements of critical consciousness: interrogating power, critical listening, historicizing schools, and embracing discomfort. We illustrate these elements with examples from TWDL research and practice. In addition, we describe how critical consciousness impacts and radicalizes the other three core goals, in turn supporting the development of more successful, equitable, and socially just TWDL schools.
+---
+DOCUMENT
+ID: ss_125decd3c662e0986c38f138dbbdbd0a4b6b2950
+SOURCE: semantic_scholar
+TITLE: Integrating information in the brain’s EM field: the cemi field theory of consciousness
+AUTHORS: J. McFadden
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2020
+CITATIONS: 125
+ABSTRACT: Abstract A key aspect of consciousness is that it represents bound or integrated information, prompting an increasing conviction that the physical substrate of consciousness must be capable of encoding integrated information in the brain. However, as Ralph Landauer insisted, ‘information is physical’ so integrated information must be physically integrated. I argue here that nearly all examples of so-called ‘integrated information’, including neuronal information processing and conventional computing, are only temporally integrated in the sense that outputs are correlated with multiple inputs: the information integration is implemented in time, rather than space, and thereby cannot correspond to physically integrated information. I point out that only energy fields are capable of integrating information in space. I describe the conscious electromagnetic information (cemi) field theory which has proposed that consciousness is physically integrated, and causally active, information encoded in the brain’s global electromagnetic (EM) field. I here extend the theory to argue that consciousness implements algorithms in space, rather than time, within the brain’s EM field. I describe how the cemi field theory accounts for most observed features of consciousness and describe recent experimental support for the theory. I also describe several untested predictions of the theory and discuss its implications for the design of artificial consciousness. The cemi field theory proposes a scientific dualism that is rooted in the difference between matter and energy, rather than matter and spirit.
+---
+DOCUMENT
+ID: ss_22070ef6c064db4a9dc77a5b3771f0477ad40bbb
+SOURCE: semantic_scholar
+TITLE: Coupling Inner and Outer Body for Self-Consciousness.
+AUTHORS: Hyeong-Dong Park, O. Blanke
+JOURNAL: Trends in cognitive sciences
+YEAR: 2019
+CITATIONS: 217
+ABSTRACT: Although recent studies on self-consciousness emphasized the importance of bodily processing and multisensory integration, such research has focused solely on bodily signals originating from the outside of the body (i.e., exteroceptive bodily signals) or internal bodily signals from visceral organs (i.e., interoceptive bodily signals) and how each system contributes to self-consciousness, without much interaction between the two approaches. Reviewing the latest evidence on interoceptive bodily processing and the combination of exteroceptive and interoceptive bodily signals for self-consciousness, we propose an integrated neural system reconciling these two largely separated views and delineate how it accounts for fundamental aspects of self-consciousness such as self-identification and self-location, as well as its experienced global unity and temporal continuity.
+---
+DOCUMENT
+ID: ss_7ad836a05fe54a3ef0be3feaabaf7e1490c91409
+SOURCE: semantic_scholar
+TITLE: Consciousness explained or described?
+AUTHORS: A. Schurger, M. Graziano
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2022
+CITATIONS: 36
+ABSTRACT: Abstract Consciousness is an unusual phenomenon to study scientifically. It is defined as a subjective, first-person phenomenon, and science is an objective, third-person endeavor. This misalignment between the means—science—and the end—explaining consciousness—gave rise to what has become a productive workaround: the search for ‘neural correlates of consciousness’ (NCCs). Science can sidestep trying to explain consciousness and instead focus on characterizing the kind(s) of neural activity that are reliably correlated with consciousness. However, while we have learned a lot about consciousness in the bargain, the NCC approach was not originally intended as the foundation for a true explanation of consciousness. Indeed, it was proposed precisely to sidestep the, arguably futile, attempt to find one. So how can an account, couched in terms of neural correlates, do the work that a theory is supposed to do: explain consciousness? The answer is that it cannot, and in fact most modern accounts of consciousness do not pretend to. Thus, here, we challenge whether or not any modern accounts of consciousness are in fact theories at all. Instead we argue that they are (competing) laws of consciousness. They describe what they cannot explain, just as Newton described gravity long before a true explanation was ever offered. We lay out our argument using a variety of modern accounts as examples and go on to argue that at least one modern account of consciousness, attention schema theory, goes beyond describing consciousness-related brain activity and qualifies as an explanatory theory.
+---
+DOCUMENT
+ID: ss_ca835d66eaba1963635a2a33c7147f995e0a4b60
+SOURCE: semantic_scholar
+TITLE: Robust EEG-based cross-site and cross-protocol classification of states of consciousness
+AUTHORS: D. Engemann, F. Raimondo, J. King, B. Rohaut, Gilles Louppe, F. Faugeras, J. Annen, Helena Cassol, O. Gosseries, Diego Fernández Slezak, Steven Laureys, L. Naccache, S. Dehaene, J. Sitt
+JOURNAL: Brain
+YEAR: 2018
+CITATIONS: 284
+ABSTRACT: Determining the state of consciousness in patients with disorders of consciousness is a challenging practical and theoretical problem. Recent findings suggest that multiple markers of brain activity extracted from the EEG may index the state of consciousness in the human brain. Furthermore, machine learning has been found to optimize their capacity to discriminate different states of consciousness in clinical practice. However, it is unknown how dependable these EEG markers are in the face of signal variability because of different EEG configurations, EEG protocols and subpopulations from different centres encountered in practice. In this study we analysed 327 recordings of patients with disorders of consciousness (148 unresponsive wakefulness syndrome and 179 minimally conscious state) and 66 healthy controls obtained in two independent research centres (Paris Pitié-Salpêtrière and Liège). We first show that a non-parametric classifier based on ensembles of decision trees provides robust out-of-sample performance on unseen data with a predictive area under the curve (AUC) of ~0.77 that was only marginally affected when using alternative EEG configurations (different numbers and positions of sensors, numbers of epochs, average AUC = 0.750 ± 0.014). In a second step, we observed that classifiers based on multiple as well as single EEG features generalize to recordings obtained from different patient cohorts, EEG protocols and different centres. However, the multivariate model always performed best with a predictive AUC of 0.73 for generalization from Paris 1 to Paris 2 datasets, and an AUC of 0.78 from Paris to Liège datasets. Using simulations, we subsequently demonstrate that multivariate pattern classification has a decisive performance advantage over univariate classification as the stability of EEG features decreases, as different EEG configurations are used for feature-extraction or as noise is added. Moreover, we show that the generalization performance from Paris to Liège remains stable even if up to 20% of the diagnostic labels are randomly flipped. Finally, consistent with recent literature, analysis of the learned decision rules of our classifier suggested that markers related to dynamic fluctuations in theta and alpha frequency bands carried independent information and were most influential. Our findings demonstrate that EEG markers of consciousness can be reliably, economically and automatically identified with machine learning in various clinical and acquisition contexts.
+---
+DOCUMENT
+ID: ss_55ba66537b760c51deb6db1bb1ba97839cc754f1
+SOURCE: semantic_scholar
+TITLE: Legal Consciousness Reconsidered
+AUTHORS: Lynette J. Chua, D. M. Engel
+JOURNAL: Annual Review of Law and Social Science
+YEAR: 2019
+CITATIONS: 155
+ABSTRACT: Legal consciousness is a vibrant research field attracting growing numbers of scholars worldwide. Yet differing assumptions about aims and methods have generated vigorous debate, typically resulting from a failure to recognize that three different clusters of scholars—identified here as the Identity, Hegemony, and Mobilization schools—are pursuing different goals and deploying the concept of legal consciousness in different ways. Scholarship associated with these three schools demonstrates that legal consciousness is actually a flexible paradigm with multiple applications rather than a monolithic approach. Furthermore, a new generation of scholars has energized the field in recent years, focusing on marginalized peoples and non-Western settings. Through their findings, and as a result of broader trends across the social sciences, relational legal consciousness has taken on greater importance. Legal consciousness research should be imagined on a continuum ranging from individualistic conceptualizations of thought and action to interactive, co-constitutive approaches.
+---
+DOCUMENT
+ID: ss_be8a728719d018432d28de411bc53783d41a485a
+SOURCE: semantic_scholar
+TITLE: Consciousness depends on integration between parietal cortex, striatum and thalamus
+AUTHORS: M. Afrasiabi, Michelle J. Redinbaugh, Jessica M. Phillips, Niranjan A. Kambi, S. Mohanta, A. Raz, A. Haun, Y. Saalmann
+JOURNAL: Cell systems
+YEAR: 2021
+CITATIONS: 79
+ABSTRACT: SUMMARY: The neural substrates of consciousness remain elusive. Competing theories that attempt to explain consciousness disagree on the contribution of frontal versus posterior cortex and omit subcortical influences. This lack of understanding impedes the ability to monitor consciousness, which can lead to adverse clinical consequences. To test substrates and measures of consciousness, we recorded simultaneously from frontal cortex, parietal cortex and subcortical structures, the striatum and thalamus, in awake, sleeping and anesthetized macaques. We manipulated consciousness on a finer scale using thalamic stimulation, rousing macaques from continuously administered anesthesia. Our results show that, unlike measures targeting complexity, a measure additionally capturing neural integration (Φ*) robustly correlated with changes in consciousness. Machine learning approaches show parietal cortex, striatum and thalamus contributed more than frontal cortex to decoding differences in consciousness. These findings highlight the importance of integration between parietal and subcortical structures and challenge a key role for frontal cortex in consciousness.
+---
+DOCUMENT
+ID: ss_159e92b98d5223402b69e800712eb91ebd1f300a
+SOURCE: semantic_scholar
+TITLE: Disorders of consciousness
+AUTHORS: Matthew Lin, Sunil Kothari
+JOURNAL: Brain Injury Medicine
+YEAR: 2020
+CITATIONS: 114
+ABSTRACT: Follow up what we will offer in this article about disorders of consciousness. You know really that this book is coming as the best seller book today. So, when you are really a good reader or you're fans of the author, it does will be funny if you don't have this book. It means that you have to get this book. For you who are starting to learn about something new and feel curious about this book, it's easy then. Just get this book and feel how this book will give you more exciting lessons.
+---
+DOCUMENT
+ID: ss_883600bd25bad43c07a0f7d3d7906d3913e55736
+SOURCE: semantic_scholar
+TITLE: Toward a standard model of consciousness: Reconciling the attention schema, global workspace, higher-order thought, and illusionist theories
+AUTHORS: M. Graziano, Arvid Guterstam, Branden J. Bio, Andrew I. Wilterson
+JOURNAL: Cognitive Neuropsychology
+YEAR: 2020
+CITATIONS: 102
+ABSTRACT: ABSTRACT Here we examine how people’s understanding of consciousness may have been shaped by an implicit theory of mind. This social cognition approach may help to make sense of an apparent divide between the physically incoherent consciousness we think we have and the complex, rich, but mechanistic consciousness we may actually have. We suggest this approach helps reconcile some of the current cognitive neuroscience theories of consciousness. We argue that a single, coherent explanation of consciousness is available and has been for some time, encompassing the views of many researchers, but is not yet recognized. It is obscured partly by terminological differences, and partly because researchers view isolated pieces of it as rival theories. It may be time to recognize that a deeper, coherent pool of ideas, a kind of standard model, is available to explain multiple layers of consciousness and how they relate to specific networks within the brain.
+---
+DOCUMENT
+ID: ss_e5b78a753e8c05248445815ae07389610effa129
+SOURCE: semantic_scholar
+TITLE: From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0
+AUTHORS: Masafumi Oizumi, L. Albantakis, G. Tononi
+JOURNAL: PLoS Computational Biology
+YEAR: 2014
+CITATIONS: 1034
+ABSTRACT: This paper presents Integrated Information Theory (IIT) of consciousness 3.0, which incorporates several advances over previous formulations. IIT starts from phenomenological axioms: information says that each experience is specific – it is what it is by how it differs from alternative experiences; integration says that it is unified – irreducible to non-interdependent components; exclusion says that it has unique borders and a particular spatio-temporal grain. These axioms are formalized into postulates that prescribe how physical mechanisms, such as neurons or logic gates, must be configured to generate experience (phenomenology). The postulates are used to define intrinsic information as “differences that make a difference” within a system, and integrated information as information specified by a whole that cannot be reduced to that specified by its parts. By applying the postulates both at the level of individual mechanisms and at the level of systems of mechanisms, IIT arrives at an identity: an experience is a maximally irreducible conceptual structure (MICS, a constellation of concepts in qualia space), and the set of elements that generates it constitutes a complex. According to IIT, a MICS specifies the quality of an experience and integrated information ΦMax its quantity. From the theory follow several results, including: a system of mechanisms may condense into a major complex and non-overlapping minor complexes; the concepts that specify the quality of an experience are always about the complex itself and relate only indirectly to the external environment; anatomical connectivity influences complexes and associated MICS; a complex can generate a MICS even if its elements are inactive; simple systems can be minimally conscious; complicated systems can be unconscious; there can be true “zombies” – unconscious feed-forward systems that are functionally equivalent to conscious complexes.
+---
+DOCUMENT
+ID: ss_070dbb64a83fcbd73866a695ef7f5492f71e6565
+SOURCE: semantic_scholar
+TITLE: What binds us? Inter-brain neural synchronization and its implications for theories of human consciousness
+AUTHORS: A. Valencia, Tom Froese
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2020
+CITATIONS: 105
+ABSTRACT: Abstract The association between neural oscillations and functional integration is widely recognized in the study of human cognition. Large-scale synchronization of neural activity has also been proposed as the neural basis of consciousness. Intriguingly, a growing number of studies in social cognitive neuroscience reveal that phase synchronization similarly appears across brains during meaningful social interaction. Moreover, this inter-brain synchronization has been associated with subjective reports of social connectedness, engagement, and cooperativeness, as well as experiences of social cohesion and ‘self-other merging’. These findings challenge the standard view of human consciousness as essentially first-person singular and private. We therefore revisit the recent controversy over the possibility of extended consciousness and argue that evidence of inter-brain synchronization in the fastest frequency bands overcomes the hitherto most convincing sceptical position. If this proposal is on the right track, our understanding of human consciousness would be profoundly transformed, and we propose a method to test this proposal experimentally.
+---
+DOCUMENT
+ID: ss_d009e5f4a13e73183fe689102424db7a125c18c2
+SOURCE: semantic_scholar
+TITLE: Customer responses to environmentally certified hotels: the moderating effect of environmental consciousness on the formation of behavioral intentions
+AUTHORS: Patricia Martínez García de Leaniz, Ángel Herrero-Crespo, Raquél Gómez-López
+JOURNAL: Journal of Sustainable Tourism
+YEAR: 2018
+CITATIONS: 226
+ABSTRACT: ABSTRACT Environmental certifications are considered an extremely useful tool to promote sustainable tourism; however, little is known about customer perceptions of these schemes and how these certifications might relate to customer behavior when there are customer segments with different levels of environmental consciousness. This study develops a model that investigates the relationship between green practices, green image, environmental consciousness and the behavioral intentions of customers in a certified hotel context. The study examines the direct and moderating role of environmental consciousness in the formation of behavioral intentions based on green initiatives. To test the proposed model empirically, 502 personal surveys of hotel customers were conducted in Spain using a structured questionnaire. The findings show that customer perceptions of green practices have a directly positive effect on a hotel's green image. At the same time, this green image has directly positive effects on customer behavioral intentions toward certified hotels. The authors also found that the higher the environmental consciousness of consumers, the greater their intention to stay, to spread positive word-of-mouth and pay a premium for environmentally certified hotels. Finally, consumer environmental consciousness also exerts a moderating effect on the causal relationship between green image and behavioral intentions.
+---
+DOCUMENT
+ID: ss_4165e98f1bf818cef5acd19e4dc84498b4906a72
+SOURCE: semantic_scholar
+TITLE: Time consciousness: the missing link in theories of consciousness
+AUTHORS: Lachlan Kent, M. Wittmann
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2021
+CITATIONS: 67
+ABSTRACT: Abstract There are plenty of issues to be solved in order for researchers to agree on a neural model of consciousness. Here we emphasize an often under-represented aspect in the debate: time consciousness. Consciousness and the present moment both extend in time. Experience flows through a succession of moments and progresses from future predictions, to present experiences, to past memories. However, a brief review finds that many dominant theories of consciousness only refer to brief, static, and discrete “functional moments” of time. Very few refer to more extended, dynamic, and continuous time, which is associated with conscious experience (cf. the “experienced moment”). This confusion between short and discrete versus long and continuous is, we argue, one of the core issues in theories of consciousness. Given the lack of work dedicated to time consciousness, its study could test novel predictions of rival theories of consciousness. It may be that different theories of consciousness are compatible/complementary if the different aspects of time are taken into account. Or, if it turns out that no existing theory can fully accommodate time consciousness, then perhaps it has something new to add. Regardless of outcome, the crucial step is to make subjective time a central object of study.
+---
+DOCUMENT
+ID: ss_a632356119eaea4ec482a1267696de56428af71a
+SOURCE: semantic_scholar
+TITLE: Consciousness and the fallacy of misplaced objectivity
+AUTHORS: F. Ellia, Jeremiah Hendren, M. Grasso, Csaba Kozma, Garrett Mindt, Jonathan P. Lang, Andrew M. Haun, L. Albantakis, M. Boly, G. Tononi
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2021
+CITATIONS: 64
+ABSTRACT: Abstract Objective correlates—behavioral, functional, and neural—provide essential tools for the scientific study of consciousness. But reliance on these correlates should not lead to the ‘fallacy of misplaced objectivity’: the assumption that only objective properties should and can be accounted for objectively through science. Instead, what needs to be explained scientifically is what experience is intrinsically—its subjective properties—not just what we can do with it extrinsically. And it must be explained; otherwise the way experience feels would turn out to be magical rather than physical. We argue that it is possible to account for subjective properties objectively once we move beyond cognitive functions and realize what experience is and how it is structured. Drawing on integrated information theory, we show how an objective science of the subjective can account, in strictly physical terms, for both the essential properties of every experience and the specific properties that make particular experiences feel the way they do.
+---
+DOCUMENT
+ID: ss_4d39f82f7d94542e99ff60dd2936769fe9d58c8f
+SOURCE: semantic_scholar
+TITLE: Consciousness and Experience
+AUTHORS: W. Lycan
+JOURNAL: The Mind
+YEAR: 2020
+CITATIONS: 93
+ABSTRACT: This sequel to Lycan's Consciousness (1987) continues the elaboration of his general functionalist theory of consciousness, answers the critics of his earlier work, and expands the range of discussion to deal with the many new issues and arguments that have arisen in the intervening years -- an extraordinarily fertile period for the philosophical investigation of consciousness.Lycan not only uses the numerous arguments against materialism, and functionalist theories of mind in particular, to gain a more detailed positive view of the structure of the mind, he also targets the set of really hard problems at the center of the theory of consciousness: subjectivity, qualia, and the felt aspect of experience. The key to his own enlarged and fairly argued position, which he calls the "hegemony of representation," is that there is no more to mind or consciousness than can be accounted for in terms of intentionality, functional organization, and in particular, second-order representation of one's own mental states.A Bradford Book
+---
+DOCUMENT
+ID: ss_8c851566e1486dd3595c51b61ca09795d5ff82d6
+SOURCE: semantic_scholar
+TITLE: Comparing theories of consciousness: why it matters and how to do it
+AUTHORS: S. H. Del Pin, Zuzanna Skóra, K. Sandberg, M. Overgaard, M. Wierzchoń
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2021
+CITATIONS: 57
+ABSTRACT: Abstract The theoretical landscape of scientific studies of consciousness has flourished. Today, even multiple versions of the same theory are sometimes available. To advance the field, these theories should be directly compared to determine which are better at predicting and explaining empirical data. Systematic inquiries of this sort are seen in many subfields in cognitive psychology and neuroscience, e.g. in working memory. Nonetheless, when we surveyed publications on consciousness research, we found that most focused on a single theory. When ‘comparisons’ happened, they were often verbal and non-systematic. This fact in itself could be a contributing reason for the lack of convergence between theories in consciousness research. In this paper, we focus on how to compare theories of consciousness to ensure that the comparisons are meaningful, e.g. whether their predictions are parallel or contrasting. We evaluate how theories are typically compared in consciousness research and related subdisciplines in cognitive psychology and neuroscience, and we provide an example of our approach. We then examine the different reasons why direct comparisons between theories are rarely seen. One possible explanation is the unique nature of the consciousness phenomenon. We conclude that the field should embrace this uniqueness, and we set out the features that a theory of consciousness should account for.
+---
+DOCUMENT
+ID: ss_ea932045872a4fff747b76c8771328b532ba8b6e
+SOURCE: semantic_scholar
+TITLE: The Epistemic Role of Consciousness
+AUTHORS: Declan Smithies
+JOURNAL: Philosophy and Phenomenological Research
+YEAR: 2019
+CITATIONS: 127
+ABSTRACT: What is the role of consciousness in our mental lives? This book argues that consciousness plays an essential role in explaining how we can acquire knowledge and epistemically justified belief about ourselves and our surroundings. On this view, our mental lives cannot be preserved in unconscious creatures—zombies—who behave just as we do. Only conscious creatures have epistemic justification to form beliefs about the world. Zombies cannot know anything about the world, since they have no epistemic justification to believe anything. On this view, all epistemic justification depends ultimately on consciousness. This book builds a sustained argument for the epistemic role of phenomenal consciousness, which draws on a range of considerations in epistemology and the philosophy of mind. The book is divided into two parts, which approach the theory of epistemic justification from opposite directions. Part I argues from the bottom up by drawing on considerations in the philosophy of mind about the role of consciousness in mental representation, perception, cognition, and introspection. Part II argues from the top down by arguing from general principles in epistemology about the nature of epistemic justification. These mutually reinforcing arguments form the basis for a unified theory of the epistemic role of phenomenal consciousness, one that bridges the gap between epistemology and the philosophy of mind.
+---
+DOCUMENT
+ID: ss_1eb314a1b96d7efa15241de6cb396dde51e09fe5
+SOURCE: semantic_scholar
+TITLE: Consciousness: here, there and everywhere?
+AUTHORS: G. Tononi, C. Koch
+JOURNAL: Philosophical Transactions of the Royal Society B: Biological Sciences
+YEAR: 2015
+CITATIONS: 703
+ABSTRACT: The science of consciousness has made great strides by focusing on the behavioural and neuronal correlates of experience. However, while such correlates are important for progress to occur, they are not enough if we are to understand even basic facts, for example, why the cerebral cortex gives rise to consciousness but the cerebellum does not, though it has even more neurons and appears to be just as complicated. Moreover, correlates are of little help in many instances where we would like to know if consciousness is present: patients with a few remaining islands of functioning cortex, preterm infants, non-mammalian species and machines that are rapidly outperforming people at driving, recognizing faces and objects, and answering difficult questions. To address these issues, we need not only more data but also a theory of consciousness—one that says what experience is and what type of physical systems can have it. Integrated information theory (IIT) does so by starting from experience itself via five phenomenological axioms: intrinsic existence, composition, information, integration and exclusion. From these it derives five postulates about the properties required of physical mechanisms to support consciousness. The theory provides a principled account of both the quantity and the quality of an individual experience (a quale), and a calculus to evaluate whether or not a particular physical system is conscious and of what. Moreover, IIT can explain a range of clinical and laboratory findings, makes a number of testable predictions and extrapolates to a number of problematic conditions. The theory holds that consciousness is a fundamental property possessed by physical systems having specific causal properties. It predicts that consciousness is graded, is common among biological organisms and can occur in some very simple systems. Conversely, it predicts that feed-forward networks, even complex ones, are not conscious, nor are aggregates such as groups of individuals or heaps of sand. Also, in sharp contrast to widespread functionalist beliefs, IIT implies that digital computers, even if their behaviour were to be functionally equivalent to ours, and even if they were to run faithful simulations of the human brain, would experience next to nothing.
+---
+DOCUMENT
+ID: ss_d7e380f6d36c72c581ffa44fbf2f2c54d0c45bde
+SOURCE: semantic_scholar
+TITLE: The unfolding argument: Why IIT and other causal structure theories cannot explain consciousness.
+AUTHORS: Adrien Doerig, A. Schurger, K. Hess, M. Herzog
+JOURNAL: Consciousness and cognition
+YEAR: 2019
+CITATIONS: 116
+ABSTRACT: How can we explain consciousness? This question has become a vibrant topic of neuroscience research in recent decades. A large body of empirical results has been accumulated, and many theories have been proposed. Certain theories suggest that consciousness should be explained in terms of brain functions, such as accessing information in a global workspace, applying higher order to lower order representations, or predictive coding. These functions could be realized by a variety of patterns of brain connectivity. Other theories, such as Information Integration Theory (IIT) and Recurrent Processing Theory (RPT), identify causal structure with consciousness. For example, according to these theories, feedforward systems are never conscious, and feedback systems always are. Here, using theorems from the theory of computation, we show that causal structure theories are either false or outside the realm of science.
+---
+DOCUMENT
+ID: ss_0d104332c35acda79fe6393d0f82a0e94cd2f725
+SOURCE: semantic_scholar
+TITLE: A relational approach to consciousness: categories of level and contents of consciousness
+AUTHORS: N. Tsuchiya, H. Saigo
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2021
+CITATIONS: 52
+ABSTRACT: Abstract Characterizing consciousness in and of itself is notoriously difficult. Here, we propose an alternative approach to characterize, and eventually define, consciousness through exhaustive descriptions of consciousness’ relationships to all other consciousness. This approach is founded in category theory. Indeed, category theory can prove that two objects A and B in a category can be equivalent if and only if all the relationships that A holds with others in the category are the same as those of B; this proof is called the Yoneda lemma. To introduce the Yoneda lemma, we gradually introduce key concepts of category theory to consciousness researchers. Along the way, we propose several possible definitions of categories of consciousness, both in terms of level and contents, through the usage of simple examples. We propose to use the categorical structure of consciousness as a gold standard to formalize empirical research (e.g. color qualia structure at fovea and periphery) and, especially, the empirical testing of theories of consciousness.
+---
+DOCUMENT
+ID: ss_0fff5c49c05c27c22ac7685130197146491f0b36
+SOURCE: semantic_scholar
+TITLE: The Consciousness Prior
+AUTHORS: Yoshua Bengio
+JOURNAL: ArXiv
+YEAR: 2017
+CITATIONS: 277
+ABSTRACT: A new prior is proposed for learning representations of high-level concepts of the kind we manipulate with language. This prior can be combined with other priors in order to help disentangling abstract factors from each other. It is inspired by cognitive neuroscience theories of consciousness, seen as a bottleneck through which just a few elements, after having been selected by attention from a broader pool, are then broadcast and condition further processing, both in perception and decision-making. The set of recently selected elements one becomes aware of is seen as forming a low-dimensional conscious state. This conscious state is combining the few concepts constituting a conscious thought, i.e., what one is immediately conscious of at a particular moment. We claim that this architectural and information-processing constraint corresponds to assumptions about the joint distribution between high-level concepts. To the extent that these assumptions are generally true (and the form of natural language seems consistent with them), they can form a useful prior for representation learning. A low-dimensional thought or conscious state is analogous to a sentence: it involves only a few variables and yet can make a statement with very high probability of being true. This is consistent with a joint distribution (over high-level concepts) which has the form of a sparse factor graph, i.e., where the dependencies captured by each factor of the factor graph involve only very few variables while creating a strong dip in the overall energy function. The consciousness prior also makes it natural to map conscious states to natural language utterances or to express classical AI knowledge in a form similar to facts and rules, albeit capturing uncertainty as well as efficient search mechanisms implemented by attention mechanisms.
+---
+DOCUMENT
+ID: ss_31638dec29f9720efd83665bf882c4ae53914c71
+SOURCE: semantic_scholar
+TITLE: Am I Self-Conscious? (Or Does Self-Organization Entail Self-Consciousness?)
+AUTHORS: Karl J. Friston
+JOURNAL: Frontiers in Psychology
+YEAR: 2018
+CITATIONS: 169
+ABSTRACT: Is self-consciousness necessary for consciousness? The answer is yes. So there you have it—the answer is yes. This was my response to a question I was asked to address in a recent AEON piece (https://aeon.co/essays/consciousness-is-not-a-thing-but-a-process-of-inference). What follows is based upon the notes for that essay, with a special focus on self-organization, self-evidencing and self-modeling. I will try to substantiate my (polemic) answer from the perspective of a physicist. In brief, the argument goes as follows: if we want to talk about creatures, like ourselves, then we have to identify the characteristic behaviors they must exhibit. This is fairly easy to do by noting that living systems return to a set of attracting states time and time again. Mathematically, this implies the existence of a Lyapunov function that turns out to be model evidence (i.e., self-evidence) in Bayesian statistics or surprise (i.e., self-information) in information theory. This means that all biological processes can be construed as performing some form of inference, from evolution through to conscious processing. If this is the case, at what point do we invoke consciousness? The proposal on offer here is that the mind comes into being when self-evidencing has a temporal thickness or counterfactual depth, which grounds inferences about the consequences of my action. On this view, consciousness is nothing more than inference about my future; namely, the self-evidencing consequences of what I could do.
+---
+DOCUMENT
+ID: ss_64a4f58a3a932a593e2b3adb9fc06cf77e6f8314
+SOURCE: semantic_scholar
+TITLE: Coupling the State and Contents of Consciousness
+AUTHORS: Jaan Aru, Mototaka Suzuki, R. Rutiku, M. Larkum, T. Bachmann
+JOURNAL: Frontiers in Systems Neuroscience
+YEAR: 2019
+CITATIONS: 130
+ABSTRACT: One fundamental feature of consciousness is that the contents of consciousness depend on the state of consciousness. Here, we propose an answer to why this is so: both the state and the contents of consciousness depend on the activity of cortical layer 5 pyramidal (L5p) neurons. These neurons affect both cortical and thalamic processing, hence coupling the cortico-cortical and thalamo-cortical loops with each other. Functionally this coupling corresponds to the coupling between the state and the contents of consciousness. Together the cortico-cortical and thalamo-cortical loops form a thalamo-cortical broadcasting system, where the L5p cells are the central elements. This perspective makes one quite specific prediction: cortical processing that does not include L5p neurons will be unconscious. More generally, the present perspective suggests that L5p neurons have a central role in the mechanisms underlying consciousness.
+---
+DOCUMENT
+ID: ss_ba409ce6518883973eb585c9cda1714b1c44707d
+SOURCE: semantic_scholar
+TITLE: Plants Neither Possess nor Require Consciousness.
+AUTHORS: L. Taiz, D. Alkon, A. Draguhn, A. Murphy, M. Blatt, C. Hawes, G. Thiel, David G. Robinson
+JOURNAL: Trends in plant science
+YEAR: 2019
+CITATIONS: 123
+ABSTRACT: In claiming that plants have consciousness, 'plant neurobiologists' have consistently glossed over the remarkable degree of structural and functional complexity that the brain had to evolve for consciousness to emerge. Here, we outline a new hypothesis proposed by Feinberg and Mallat for the evolution of consciousness in animals. Based on a survey of the brain anatomy, functional complexity, and behaviors of a broad spectrum of animals, criteria were established for the emergence of consciousness. The only animals that satisfied these criteria were the vertebrates (including fish), arthropods (e.g., insects, crabs), and cephalopods (e.g., octopuses, squids). In light of Feinberg and Mallat's analysis, we consider the likelihood that plants, with their relative organizational simplicity and lack of neurons and brains, have consciousness to be effectively nil.
+---
+DOCUMENT
+ID: ss_82b5d43a235eb6370082c0c5a1fd1d62cf7bd97a
+SOURCE: semantic_scholar
+TITLE: Temporal Consciousness
+AUTHORS: P. Chuard
+JOURNAL: The Oxford Handbook of the Philosophy of Consciousness
+YEAR: 2020
+CITATIONS: 75
+ABSTRACT: The temporal aspects of experience raise three related questions, central to our understanding of temporal consciousness: how do sensory experiences carry information about, or make us aware of, some of the temporal features of perceived events (if at all)—in what format, by what mechanisms?; do the temporal properties of conscious experiences—including the arrangement of their temporal parts—play any role in how these experiences present or represent the temporal properties of perceived events?; how does such temporal representation manifest itself in the phenomenology of the relevant experiences? Most theories of temporal consciousness can be divided in terms of how they treat these questions. This chapter begins with a brief sketch of the main theories currently on the market and some of their background assumptions; it then moves to a—also brief—critical review of some of the arguments at the centre of the dispute.
+---
+DOCUMENT
+ID: ss_04299c512f73f44a1854f2e27e46741026b8c88b
+SOURCE: semantic_scholar
+TITLE: General Anesthesia: A Probe to Explore Consciousness
+AUTHORS: V. Bonhomme, Cécile Staquet, J. Montupil, A. Defresne, M. Kirsch, C. Martial, A. Vanhaudenhuyse, C. Chatelle, S. Larroque, F. Raimondo, A. Demertzi, O. Bodart, Steven Laureys, O. Gosseries
+JOURNAL: Frontiers in Systems Neuroscience
+YEAR: 2019
+CITATIONS: 102
+ABSTRACT: General anesthesia reversibly alters consciousness, without shutting down the brain globally. Depending on the anesthetic agent and dose, it may produce different consciousness states including a complete absence of subjective experience (unconsciousness), a conscious experience without perception of the environment (disconnected consciousness, like during dreaming), or episodes of oriented consciousness with awareness of the environment (connected consciousness). Each consciousness state may potentially be followed by explicit or implicit memories after the procedure. In this respect, anesthesia can be considered as a proxy to explore consciousness. During the recent years, progress in the exploration of brain function has allowed a better understanding of the neural correlates of consciousness, and of their alterations during anesthesia. Several changes in functional and effective between-region brain connectivity, consciousness network topology, and spatio-temporal dynamics of between-region interactions have been evidenced during anesthesia. Despite a set of effects that are common to many anesthetic agents, it is still uneasy to draw a comprehensive picture of the precise cascades during general anesthesia. Several questions remain unsolved, including the exact identification of the neural substrate of consciousness and its components, the detection of specific consciousness states in unresponsive patients and their associated memory processes, the processing of sensory information during anesthesia, the pharmacodynamic interactions between anesthetic agents, the direction-dependent hysteresis phenomenon during the transitions between consciousness states, the mechanisms of cognitive alterations that follow an anesthetic procedure, the identification of an eventual unitary mechanism of anesthesia-induced alteration of consciousness, the relationship between network effects and the biochemical or sleep-wake cycle targets of anesthetic agents, as well as the vast between-studies variations in dose and administration mode, leading to difficulties in between-studies comparisons. In this narrative review, we draw the picture of the current state of knowledge in anesthesia-induced unconsciousness, from insights gathered on propofol, halogenated vapors, ketamine, dexmedetomidine, benzodiazepines and xenon. We also describe how anesthesia can help understanding consciousness, we develop the above-mentioned unresolved questions, and propose tracks for future research.
+---
+DOCUMENT
+ID: ss_8dcc86121219fdb9f813d43b35c632811da18b73
+SOURCE: semantic_scholar
+TITLE: A framework for consciousness
+AUTHORS: F. Crick, C. Koch
+JOURNAL: Nature Neuroscience
+YEAR: 2003
+CITATIONS: 1419
+ABSTRACT: Here we summarize our present approach to the problem of consciousness. After an introduction outlining our general strategy, we describe what is meant by the term 'framework' and set it out under ten headings. This framework offers a coherent scheme for explaining the neural correlates of (visual) consciousness in terms of competing cellular assemblies. Most of the ideas we favor have been suggested before, but their combination is original. We also outline some general experimental approaches to the problem and, finally, acknowledge some relevant aspects of the brain that have been left out of the proposed framework.
+---
+DOCUMENT
+ID: ss_3ded6c1d14a28cb494ab349c2a5082ecd790bab4
+SOURCE: semantic_scholar
+TITLE: The science of consciousness does not need another theory, it needs a minimal unifying model
+AUTHORS: W. Wiese
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2020
+CITATIONS: 50
+ABSTRACT: Abstract This article discusses a hypothesis recently put forward by Kanai et al., according to which information generation constitutes a functional basis of, and a sufficient condition for, consciousness. Information generation involves the ability to compress and subsequently decompress information, potentially after a temporal delay and adapted to current purposes. I will argue that information generation should not be regarded as a sufficient condition for consciousness, but could serve as what I will call a “minimal unifying model of consciousness.” A minimal unifying model (MUM) specifies at least one necessary feature of consciousness, characterizes it in a determinable way, and shows that it is entailed by (many) existing theories of consciousness. Information generation fulfills these requirements. A MUM of consciousness is useful, because it unifies existing theories of consciousness by highlighting their common assumptions, while enabling further developments from which empirical predictions can be derived. Unlike existing theories (which probably contain at least some false assumptions), a MUM is thus likely to be an adequate model of consciousness, albeit at a relatively general level. Assumptions embodied in such a model are less informative than assumptions made by more specific theories and hence function more in the way of guiding principles. Still, they enable further refinements, in line with new empirical results and broader theoretical and evolutionary considerations. This also allows developing the model in ways that facilitate more specific claims and predictions.
+---
+DOCUMENT
+ID: ss_c15217970d43d38bfb6e8cf6bdaa6fd37908c1a4
+SOURCE: semantic_scholar
+TITLE: Challenges for theories of consciousness: seeing or knowing, the missing ingredient and how to deal with panpsychism
+AUTHORS: V. Lamme
+JOURNAL: Philosophical Transactions of the Royal Society B: Biological Sciences
+YEAR: 2018
+CITATIONS: 131
+ABSTRACT: Significant progress has been made in the study of consciousness. Promising theories have been developed and a wealth of experimental data has been generated, both guiding us towards a better understanding of this complex phenomenon. However, new challenges have surfaced. Is visual consciousness about the seeing or the knowing that you see? Controversy about whether the conscious experience is better explained by theories that focus on phenomenal (P-consciousness) or cognitive aspects (A-consciousness) remains, and the debate seems to reach a stalemate. Can we ever resolve this? A further challenge is that many theories of consciousness seem to endorse high degrees of panpsychism—the notion that all beings or even lifeless objects have conscious experience. Should we accept this, or does it imply that these theories require further ingredients that would put a lower bound on beings or devices that have conscious experience? If so, what could these ‘missing ingredients’ be? These challenges are discussed, and potential solutions are offered. This article is part of the theme issue ‘Perceptual consciousness and cognitive access’.
+---
+DOCUMENT
+ID: ss_53f181e90bbdd6ff81d1e754d312aafe95c9f51d
+SOURCE: semantic_scholar
+TITLE: Consciousness as a multidimensional phenomenon: implications for the assessment of disorders of consciousness
+AUTHORS: J. Walter
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2021
+CITATIONS: 31
+ABSTRACT: Abstract Disorders of consciousness (DoCs) pose a significant clinical and ethical challenge because they allow for complex forms of conscious experience in patients where intentional behaviour and communication are highly limited or non-existent. There is a pressing need for brain-based assessments that can precisely and accurately characterize the conscious state of individual DoC patients. There has been an ongoing research effort to develop neural measures of consciousness. However, these measures are challenging to validate not only due to our lack of ground truth about consciousness in many DoC patients but also because there is an open ontological question about consciousness. There is a growing, well-supported view that consciousness is a multidimensional phenomenon that cannot be fully described in terms of the theoretical construct of hierarchical, easily ordered conscious levels. The multidimensional view of consciousness challenges the utility of levels-based neural measures in the context of DoC assessment. To examine how these measures may map onto consciousness as a multidimensional phenomenon, this article will investigate a range of studies where they have been applied in states other than DoC and where more is known about conscious experience. This comparative evidence suggests that measures of conscious level are more sensitive to some dimensions of consciousness than others and cannot be assumed to provide a straightforward hierarchical characterization of conscious states. Elevated levels of brain complexity, for example, are associated with conscious states characterized by a high degree of sensory richness and minimal attentional constraints, but are suboptimal for goal-directed behaviour and external responsiveness. Overall, this comparative analysis indicates that there are currently limitations to the use of these measures as tools to evaluate consciousness as a multidimensional phenomenon and that the relationship between these neural signatures and phenomenology requires closer scrutiny.
+---
+DOCUMENT
+ID: ss_6d15d66c7b281d3f95b41ac7ab5aea32ae0a2857
+SOURCE: semantic_scholar
+TITLE: Consciousness in the universe: a review of the 'Orch OR' theory.
+AUTHORS: S. Hameroff, R. Penrose
+JOURNAL: Physics of life reviews
+YEAR: 2014
+CITATIONS: 1000
+ABSTRACT: The nature of consciousness, the mechanism by which it occurs in the brain, and its ultimate place in the universe are unknown. We proposed in the mid 1990's that consciousness depends on biologically 'orchestrated' coherent quantum processes in collections of microtubules within brain neurons, that these quantum processes correlate with, and regulate, neuronal synaptic and membrane activity, and that the continuous Schrödinger evolution of each such process terminates in accordance with the specific Diósi-Penrose (DP) scheme of 'objective reduction' ('OR') of the quantum state. This orchestrated OR activity ('Orch OR') is taken to result in moments of conscious awareness and/or choice. The DP form of OR is related to the fundamentals of quantum mechanics and space-time geometry, so Orch OR suggests that there is a connection between the brain's biomolecular processes and the basic structure of the universe. Here we review Orch OR in light of criticisms and developments in quantum biology, neuroscience, physics and cosmology. We also introduce a novel suggestion of 'beat frequencies' of faster microtubule vibrations as a possible source of the observed electro-encephalographic ('EEG') correlates of consciousness. We conclude that consciousness plays an intrinsic role in the universe.
+---
+DOCUMENT
+ID: ss_697586e9404b69bebbad312836ba200fde79d21d
+SOURCE: semantic_scholar
+TITLE: Falsification and consciousness
+AUTHORS: Johannes Kleiner, Erik P. Hoel
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2020
+CITATIONS: 43
+ABSTRACT: Abstract The search for a scientific theory of consciousness should result in theories that are falsifiable. However, here we show that falsification is especially problematic for theories of consciousness. We formally describe the standard experimental setup for testing these theories. Based on a theory’s application to some physical system, such as the brain, testing requires comparing a theory’s predicted experience (given some internal observables of the system like brain imaging data) with an inferred experience (using report or behavior). If there is a mismatch between inference and prediction, a theory is falsified. We show that if inference and prediction are independent, it follows that any minimally informative theory of consciousness is automatically falsified. This is deeply problematic since the field’s reliance on report or behavior to infer conscious experiences implies such independence, so this fragility affects many contemporary theories of consciousness. Furthermore, we show that if inference and prediction are strictly dependent, it follows that a theory is unfalsifiable. This affects theories which claim consciousness to be determined by report or behavior. Finally, we explore possible ways out of this dilemma.
+---
+DOCUMENT
+ID: ss_9fa42653cb91b8123be111985d634ba84ba8c608
+SOURCE: semantic_scholar
+TITLE: The five dimensions of Futures Consciousness
+AUTHORS: Sanna Ahvenharju, Matti Minkkinen, F. Lalot
+JOURNAL: Futures
+YEAR: 2018
+CITATIONS: 128
+ABSTRACT: Abstract Futures research studies and builds images of possible, probable and preferable futures and paths to such futures. Underlying this effort is human consciousness of futures that is present in everyday anticipatory behaviour and explicit foresight. Futures researchers often aim to increase this consciousness in order to enable decision-making towards more desirable futures. Despite the importance of the concept of Futures Consciousness, and the proliferation of related concepts, there is no commonly used definition or operationalization that would permit empirical research. This article presents a conceptual model of Futures Consciousness that is based on an integrated review and analysis of the descriptions of future consciousness and its related concepts in literature as well as in the theoretical underpinnings of futures research. The model contains five dimensions: 1) Time perspective, 2) Agency beliefs, 3) Openness to alternatives, 4) Systems perception and 5) Concern for others. The model provides the basis for further conceptual development and the operationalization of Futures Consciousness, which would enable its use in empirical research.
+---
+DOCUMENT
+ID: ss_b2d44f132164ccfb47557529cbe6f9744cf73c51
+SOURCE: semantic_scholar
+TITLE: Differential role of prefrontal and parietal cortices in controlling level of consciousness
+AUTHORS: D. Pal, J. Dean, Tiecheng Liu, Duan Li, C. Watson, A. Hudetz, G. Mashour
+JOURNAL: Current biology : CB
+YEAR: 2018
+CITATIONS: 149
+ABSTRACT: There is current controversy regarding the role of prefrontal versus posterior cortices in consciousness. Clinical and correlative data have been used both to support and refute a causal role for prefrontal cortex in the level of consciousness, but a definitive relationship has not been demonstrated. We used anesthetic-induced unconsciousness as a model system to study the effect of cholinergic and noradrenergic stimulation of rat prefrontal and posterior parietal cortices on the level of consciousness. We demonstrate that cholinergic stimulation of prefrontal cortex, but not parietal cortical areas, restored wakefulness in rats despite continuous exposure to sevoflurane anesthesia. Noradrenergic stimulation of the prefrontal or parietal areas did not reverse the anesthetized state. We conclude that cholinergic mechanisms in prefrontal cortex can control the level of consciousness. One Sentence Summary Prefrontal cholinergic stimulation restores consciousness in rats despite continuous exposure to sevoflurane anesthesia
+---
+DOCUMENT
+ID: ss_fa6f830d0449a36ac671948157f200d4b0252001
+SOURCE: semantic_scholar
+TITLE: On the axiomatic foundations of the integrated information theory of consciousness
+AUTHORS: T. Bayne
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2018
+CITATIONS: 116
+ABSTRACT: Abstract The integrated information theory (IIT) is one of the most influential scientific theories of consciousness. It functions as a guiding framework for a great deal of research into the neural basis of consciousness and for attempts to develop a consciousness meter. In light of these developments, it is important to examine whether its foundations are secure. This article does just that by examining the axiomatic method that the architects of IIT appeal to. I begin by asking what exactly the axiomatic method involves, arguing that it is open to multiple interpretations. I then examine the five axioms of IIT, asking: what each axiom means, whether it is indeed axiomatic and whether it could constrain a theory of consciousness. I argue that none of the five alleged axioms is able to play the role that is required of it, either because it fails to qualify as axiomatic or because it fails to impose a substantive constraint on a theory of consciousness. The article concludes by briefly sketching an alternative methodology for the science of consciousness: the natural kind approach.
+---
+DOCUMENT
+ID: ss_eea5d6a4c560fbe5ef98234145f175c38fdb2268
+SOURCE: semantic_scholar
+TITLE: Psychedelics as a treatment for disorders of consciousness
+AUTHORS: Gregory Scott, Robin Carhart-Harris
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2019
+CITATIONS: 63
+ABSTRACT: Abstract Based on its ability to increase brain complexity, a seemingly reliable index of conscious level, we propose testing the capacity of the classic psychedelic, psilocybin, to increase conscious awareness in patients with disorders of consciousness. We also confront the considerable ethical and practical challenges this proposal must address, if this hypothesis is to be directly assessed.
+---
+DOCUMENT
+ID: ss_d2bdfdd21ed2ea727bc14c9931326a025f62010f
+SOURCE: semantic_scholar
+TITLE: Are There Levels of Consciousness?
+AUTHORS: T. Bayne, Jakob Hohwy, A. Owen
+JOURNAL: Trends in cognitive sciences
+YEAR: 2016
+CITATIONS: 329
+ABSTRACT: The notion of a level of consciousness is a key construct in the science of consciousness. Not only is the term employed to describe the global states of consciousness that are associated with post-comatose disorders, epileptic absence seizures, anaesthesia, and sleep, it plays an increasingly influential role in theoretical and methodological contexts. However, it is far from clear what precisely a level of consciousness is supposed to be. This paper argues that the levels-based framework for conceptualizing global states of consciousness is untenable and develops in its place a multidimensional account of global states.
+---
+DOCUMENT
+ID: ss_703f5ca703dcba5edb6089a801eb9d108cdb2464
+SOURCE: semantic_scholar
+TITLE: Dimensions of consciousness and the psychedelic state
+AUTHORS: T. Bayne, O. Carter
+JOURNAL: Neuroscience of Consciousness
+YEAR: 2018
+CITATIONS: 118
+ABSTRACT: Abstract It has often been suggested in the popular and academic literature that the psychedelic state qualifies as a higher state of consciousness relative to the state of normal waking awareness. This article subjects this proposal to critical scrutiny, focusing on the question of what it would mean for a state of consciousness to be ‘higher’. We begin by considering the contrast between conscious contents and conscious global states. We then review the changes in conscious global state associated with psychedelic drug use, focusing on the effects of two serotonergic hallucinogens: psilocybin and lysergic acid diethylamide. Limiting our review to findings obtained from lab-based experiments and reported in peer-reviewed journals, we prioritize the more common and reliably induced effects obtained through subjective questionnaires and psychophysical measures. The findings are grouped into three broad categories (sensory perception, cognitive function, and experiences of unity) and demonstrate that although certain aspects of consciousness are improved or enhanced in the psychedelic state, many of the functional capacities that are associated with consciousness are seriously compromised. Psychedelic-induced states of consciousness are indeed remarkable in many ways, but it is inappropriate to regard them as ‘higher’ states of consciousness. The fact that psychedelics affect different aspects of consciousness in fundamentally different ways provides evidence against the unidimensional (or ‘level-based’) view of consciousness, and instead provides strong support for a multidimensional conception of conscious states. The final section of the article considers the implications of this analysis for two prominent theories of consciousness: the Global Workspace Theory and Integrated Information Theory.
+---
+DOCUMENT
+ID: ss_ec3350d3d0113091b324da008f0e189e7d2c8f46
+SOURCE: semantic_scholar
+TITLE: Why and how access consciousness can account for phenomenal consciousness
+AUTHORS: L. Naccache
+JOURNAL: Philosophical Transactions of the Royal Society B: Biological Sciences
+YEAR: 2018
+CITATIONS: 124
+ABSTRACT: According to a popular distinction proposed by the philosopher Ned Block in 1995, our conscious experience would overflow the very limited set of what we can consciously report to ourselves and to others. He proposed to coin this limited consciousness ‘Access Consciousness' (A-Cs) and to define ‘Phenomenal Consciousness’ as a much richer subjective experience that is not accessed but that would still delineate the extent of consciousness. In this article, I review and develop five major problems raised by this theory, and show how a strict A-Cs theory can account for our conscious experience. I illustrate such an A-Cs account within the global workspace (GW) theoretical framework, and revisit some seminal empirical findings and neuropsychological syndromes. In this strict A-Cs perspective, subjective reports are not conceived as the mere passive broadcasting of information to the GW, but as resulting from a dynamic and active chain of internal processes that notably include interpretative and belief attribution stages. Finally, I list a set of testable predictions, of unsolved questions and of some counterintuitive hypotheses. This article is part of the theme issue ‘Perceptual consciousness and cognitive access’.
+---
