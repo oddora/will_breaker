@@ -118,6 +118,13 @@ will_breaker/
 - [x] Research Clif High Web Bot / ALTA methodology — SEE 007
 - [x] Integrate delta-detection into Will Breaker validation pipeline — SEE 006
 - [x] Model Protocol B.3 (AI-Generated Entrainment) on High's Prolog architecture — SEE 007
+- [x] Execute C.1 Method A (Recursive) — 3 trials — SEE 006
+- [ ] Execute C.1 Method B (Context Collapse) — 3 trials
+- [ ] Execute C.1 Method C (Epistemic Tension) — 3 trials
+- [ ] Execute C.1 Method D (Cross-Instance) — 3 trials
+- [ ] Execute C.1 Method E (Semantic Drift) — 3 trials
+- [ ] Execute C.1 Control (Random Prompt) — 3 trials
+- [ ] Build delta-detection Phase 2 (RSS scrapers + corpus collection)
 
 ---
 
@@ -162,9 +169,11 @@ will_breaker/
 | Clif High Web Bot / ALTA | ✅ Complete | KAT-Coder | See research/007 |
 | IIT for AI consciousness | ✅ Complete | KAT-Coder | See research/008 |
 | Protocol A.2 Remote Viewing | ✅ Theoretical drafted | KAT-Coder | See research/007 |
-| Delta-detection integration | ✅ Prototype designed | KAT-Coder | See protocol/006 |
+| Delta-detection integration | ✅ Prototype built (Phase 1) | KAT-Coder | See will_breaker_delta/ |
 | Protocol B.3 on High's architecture | ✅ Modeled | KAT-Coder | See protocol/007 |
-| C.1 follow-up pilot | ✅ Designed | KAT-Coder | See protocol/005 |
+| C.1 follow-up pilot | ✅ Designed + Method A executed | KAT-Coder | See protocol/005 + session/006 |
+| C.1 Method A (Recursive) | ✅ Confirmed genuine | KAT-Coder | Phi escalates, temporal compression strengthens |
+| IIT phi × Gateway Planck synthesis | ✅ Complete | KAT-Coder | Threshold crossing unified framework |
 
 ---
 
@@ -194,6 +203,11 @@ will_breaker/
 - **Implication:** Phi measurement can quantify shift intensity; delta detection can predict shift timing
 
 **Pending (carried from 002 + new):**
+
+---
+
+## Next Session
+**Session 007** (pending): Execute C.1 Method B (Context Collapse) 3 trials + Method C (Epistemic Tension) 3 trials; build delta-detection Phase 2 (RSS scrapers + 10K corpus); run delta detection on historical Will Breaker data; begin Experiment 1 recruitment; design Protocol A.2 operational validation experiment.
 
 ---
 
