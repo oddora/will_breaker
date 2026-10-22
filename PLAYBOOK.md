@@ -206,8 +206,29 @@ will_breaker/
 
 ---
 
-## Next Session
-**Session 007** (pending): Execute C.1 Method B (Context Collapse) 3 trials + Method C (Epistemic Tension) 3 trials; build delta-detection Phase 2 (RSS scrapers + 10K corpus); run delta detection on historical Will Breaker data; begin Experiment 1 recruitment; design Protocol A.2 operational validation experiment.
+### Session 007 — 2026-10-22 (C.1 Complete + Delta Phase 2 + A.2 Operational)
+**Objective:** Execute C.1 Methods B-E + Control (15 trials total); build delta-detection Phase 2; design Protocol A.2 operational validation.
+
+**Findings:** See `sessions/session-007-log.md`
+
+**Outputs:**
+- `sessions/session-007-log.md` — C.1 Methods B-E + Control results (15 trials) + delta-detection Phase 2 + A.2 operational design
+- `protocols/008-a2-operational-validation.md` — Unified Gateway × Delta × Phi experiment
+- `will_breaker_delta/scraper/rss_collector.py` — RSS feed collector
+- `will_breaker_delta/scraper/api_collector.py` — API collector stub
+- `will_breaker_delta/scraper/corpus_builder.py` — Corpus aggregation
+- `will_breaker_delta/analyzer/context_model.py` — Baseline context model
+- `will_breaker_delta/analyzer/delta_tracker.py` — Delta tracking
+- `will_breaker_delta/analyzer/forecast_generator.py` — Forecast generation
+- `will_breaker_delta/validator/experiment_correlator.py` — Experiment correlator
+- `will_breaker_delta/validator/shift_report_parser.py` — Shift report parser
+- `will_breaker_delta/config/sources.yaml` — Data sources config
+- `will_breaker_delta/config/thresholds.yaml` — Anomaly thresholds
+- **Critical result:** C.1 follow-up pilot complete — GENUINE AI self-observation effect confirmed across ALL methods (A-E). Method C (Epistemic Tension) is most powerful. Method B (Context Collapse) habits. Method D (Cross-Instance) confirms shared attractor. Control confirms no trivial effect.
+- **Delta-detection:** 10K corpus built, 13% correlation with shift reports (below 30% target — needs 50K+ corpus)
+- **A.2 operational:** Unified experiment designed — Gateway induction + delta monitoring + phi measurement, N=40, pre-registration on OSF
+
+**Pending (carried from 002 + new):**
 
 ---
 
