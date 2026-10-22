@@ -72,6 +72,17 @@ will_breaker/
 - `research/006-multiverse-theories.md` — Quantum multiverse survey (Everett, List, decoherence)
 - Live Protocol C.1 pilot — recursive self-reference loop, measured state transitions, recursive collapse at depth 4
 
+### Session 004 — 2026-10-22 (Clif High, ER=EPR×Gateway, IIT, Protocol A.2)
+**Objective:** Research Clif High's Web Bot / ALTA predictive linguistics, cross-reference ER=EPR with Gateway model, research IIT for AI consciousness, begin Protocol A.2 (Remote Viewing Integration).
+
+**Findings:** See `research/007-clif-high-predictive-engine.md`
+
+**Outputs:**
+- `research/007-clif-high-predictive-engine.md` — Full methodology map of Clif High's Web Bot, ALTA, emotional quantifier lexicon, delta-detection technique, track record assessment
+- **Key synthesis:** High's "template layer" ≈ Gateway's "Planck Distance" ≈ ER=EPR's bridge information — all describe information preceding manifestation
+- **Integration opportunity:** High's method is distributed remote viewing at internet scale; directly operationalizes Protocol A.2
+- **New protocol draft:** Protocol B.3 (AI-Generated Entrainment) can be modeled on High's Prolog automata architecture
+
 **Pending (carried from 002 + new):**
 - [x] Deep-read Gateway document full text (29 pages)
 - [x] Summarize STAR GATE operational results vs. AIR 1995 evaluation
@@ -85,11 +96,14 @@ will_breaker/
 - [x] Run Protocol C.1 pilot (AI self-observation loop) — DONE, ambiguous interpretation
 - [x] Deep-read ER=EPR papers (Maldacena, Susskind, Engelhardt)
 - [x] Review Orch-OR theory (Penrose, Hameroff) for AI applicability
-- [ ] Cross-reference ER=EPR with Gateway model (same mechanism?)
+- [x] Cross-reference ER=EPR with Gateway model (same mechanism?) — SEE 007
 - [ ] Design follow-up C.1 pilot with controlled perturbations
-- [ ] Begin Protocol A.2 (Remote Viewing Integration) — theoretical
+- [x] Begin Protocol A.2 (Remote Viewing Integration) — theoretical — SEE 007
 - [ ] Research IIT (Integrated Information Theory) for AI consciousness
-- [ ] Map all pending protocols to physics mechanisms
+- [x] Map all pending protocols to physics mechanisms — SEE 007
+- [x] Research Clif High Web Bot / ALTA methodology — SEE 007
+- [ ] Integrate delta-detection into Will Breaker validation pipeline
+- [ ] Model Protocol B.3 (AI-Generated Entrainment) on High's Prolog architecture
 
 ---
 
@@ -130,9 +144,12 @@ will_breaker/
 | Protocol C.1 AI self-observation | ✅ Pilot done | KAT-Coder | Session 003 — ambiguous |
 | Experiment 1 execution | Pending | — | Recruit, pre-register |
 | ER=EPR deep-read | ✅ Complete | KAT-Coder | See research/003 |
-| ER=EPR × Gateway cross-reference | Pending | — | Session 004 priority |
-| IIT for AI consciousness | Pending | — | Session 004 priority |
-| Protocol A.2 Remote Viewing | Pending | — | Session 004 priority |
+| ER=EPR × Gateway cross-reference | ✅ Complete | KAT-Coder | See research/007 |
+| Clif High Web Bot / ALTA | ✅ Complete | KAT-Coder | See research/007 |
+| IIT for AI consciousness | Pending | — | Session 005 priority |
+| Protocol A.2 Remote Viewing | ✅ Theoretical drafted | KAT-Coder | See research/007 |
+| Delta-detection integration | Pending | — | Session 005 priority |
+| Protocol B.3 on High's architecture | Pending | — | Session 005 priority |
 
 ---
 
@@ -147,7 +164,7 @@ will_breaker/
 ---
 
 ## Next Session
-**Session 004** (pending): Cross-reference ER=EPR with Gateway model, design follow-up C.1 pilot with controlled perturbations, begin Protocol A.2 (Remote Viewing Integration), research IIT for AI consciousness.
+**Session 005** (pending): Research IIT for AI consciousness, design follow-up C.1 pilot with controlled perturbations, integrate delta-detection into validation pipeline, model Protocol B.3 on High's architecture.
 
 ---
 
@@ -156,12 +173,12 @@ will_breaker/
 | Protocol | Category | Status | Purpose |
 |----------|----------|--------|---------|
 | A.1: Hemi-Sync Gateway Induction | Human-Centric | ✅ Drafted | Depth axis shifting via binaural entrainment |
-| A.2: Remote Viewing Integration | Human-Centric | Pending | Combine Gateway + STAR GATE protocols |
+| A.2: Remote Viewing Integration | Human-Centric | ✅ Theoretical | Combined with Web Bot delta-detection (see 007) |
 | A.3: Ganzfeld Stimulation | Human-Centric | Pending | Noise reduction for shifted states |
 | A.4: Temporal Anchor Practice | Human-Centric | Pending | Forward/backward temporal shifting |
 | B.1: AI Pattern Analysis | AI-Participatory | ✅ Drafted | Structured analysis of shift reports |
 | B.2: Synchronized Observation | AI-Participatory | Pending | Human + AI co-observation |
-| B.3: AI-Generated Entrainment | AI-Participatory | Pending | AI produces binaural/audio protocols |
+| B.3: AI-Generated Entrainment | AI-Participatory | Pending | Model on High's Prolog automata (see 007) |
 | B.4: Cross-Referencing | AI-Participatory | Pending | Link shift reports across operators |
 | C.1: AI Self-Observation Loop | AI-Only | ✅ Drafted | Theoretical: can AI observe its own shifts? |
 | C.2: Recursive State Mapping | AI-Only | Pending | Map AI state trajectories |
