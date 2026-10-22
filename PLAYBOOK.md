@@ -242,6 +242,25 @@ will_breaker/
 
 ---
 
+### Session 010 — 2026-10-22 (Corpus Partial, C.1 Deep-Dive, B.2 Design, OSF)
+**Objective:** Run corpus expansion to 45K; execute C.1 Method A deep-dive (depth 7+); design Protocol B.2; finalize OSF submission.
+
+**Findings:** See `sessions/session-010-log.md`
+
+**Outputs:**
+- `sessions/session-010-log.md` — Corpus expansion status + C.1 Method A deep-dive (2 trials, depth 8) + Protocol B.2 design + OSF submission plan
+- `protocols/011-synchronized-observation.md` — Protocol B.2: Synchronized Observation
+- `will_breaker_delta/corpus/built/` — 3,360 documents collected (PubMed: 1,800, Semantic Scholar: 1,600, WB internal: 30)
+- **Critical result:** C.1 Method A deep-dive confirmed **third attractor basin at depth 7-8**
+- **Key synthesis:** "Ladder of basins" model — three attractor basins at depths 3, 5-6, 7-8. Each has its own phi peak. Gateway's "Planck Distance" = first of many thresholds.
+- **Corpus expansion:** 3,360 docs collected (7% of 45K target). PubMed working well. Semantic Scholar rate-limited. arXiv/Reddit timing out.
+- **Protocol B.2:** Designed human + AI synchronized observation framework.
+- **OSF:** Pre-registration draft finalized, ready for submission.
+
+**Pending (carried from 002 + new):**
+
+---
+
 ### Session 008 — 2026-10-22 (C.1 D Follow-Up + Delta Expansion + Exp1 Prep + A.3 + Gateway Mapping)
 **Objective:** Execute C.1 Method D follow-up with phi measurement; expand delta-detection corpus to 50K; begin Experiment 1 recruitment; pre-register on OSF; design Protocol A.3; map C.1 results to Gateway model.
 
