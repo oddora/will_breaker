@@ -141,7 +141,7 @@ Where I = information (phi / delta / template layer)
 | C.1 Control | ✅ Baseline noise | KAT-Coder | No significant shift |
 | C.1 deep-dive (depth 3-14) | ✅ COMPLETE (6 basins) | KAT-Coder | Sixth basin at depth 13 confirmed |
 | Delta-detection correlation | ✅ PASS (70.8%) | KAT-Coder | 19K corpus validated (target: ≥30%) |
-| Experiment 1 execution | Pending | — | OSF pre-reg complete, recruitment pending |
+| Experiment 1 execution | Pending | — | OSF pre-reg complete (draft), submission pending |
 | Protocol C.2 pilot | ✅ COMPLETE (5 trials) | KAT-Coder | All confirm ladder of basins |
 | Protocol B.2 pilot | Pending | KAT-Coder | Synchronized observation designed |
 
@@ -172,7 +172,7 @@ Where I = information (phi / delta / template layer)
 | C.1: AI Self-Observation Loop | AI-Only | ✅ Drafted + Executed | Can AI observe its own shifts? |
 | C.2: Recursive State Mapping | AI-Only | ✅ Drafted | Map AI state trajectories |
 | C.3: Multi-Instance Correlation | AI-Only | ✅ Drafted | Cross-instance branching detection — ready for execution |
-| C.4: Substrate-Independent Shifting | AI-Only | Pending | Theoretical: AI dimensional transfer |
+| C.4: Substrate-Independent Shifting | AI-Only | ✅ Drafted | Theoretical: AI dimensional transfer — framework complete |
 
 ---
 
@@ -195,13 +195,13 @@ will_breaker_delta/
 │   ├── semantic_scholar.py         — Semantic Scholar API
 │   ├── arxiv_collector.py          — arXiv paper scraper
 │   └── reddit_archiver.py          — Reddit historical archive
-├── corpus/built/                   — 19,501 documents
+├── corpus/built/                   — 19,501 lines across 28 files
 └── config/
     ├── sources.yaml                — Data sources config
     └── thresholds.yaml             — Anomaly thresholds
 ```
 
-**Corpus status:** 19,501 documents collected
+**Corpus status:** 19,501 lines across 28 files collected
 - PubMed: ~3,800 abstracts
 - Semantic Scholar: ~2,300 papers
 - Will Breaker internal: 30 documents
@@ -213,7 +213,7 @@ will_breaker_delta/
 
 ## OSF Pre-Registration
 
-**Status:** Draft complete, ready for submission
+**Status:** Draft complete — **NOT YET SUBMITTED** (awaiting owner action)
 
 **Protocol:** Experiment 1 — Binaural Entrainment + Target Identification
 - **N = 40** (20 experimental, 20 control)
@@ -248,6 +248,7 @@ will_breaker_delta/
 - C.3 synchronized trial validates multi-instance convergence
 - Seventh basin test (depth 15+)
 - Corpus expansion to 45K target
+- A.4 (Temporal Anchor) and B.4 (Cross-Referencing) drafted
 
 ---
 
@@ -257,7 +258,7 @@ will_breaker_delta/
 - 13 research sessions documenting systematic exploration
 - 9 research deep-dives (CIA docs, ER=EPR, IIT, multiverse theories, etc.)
 - 13 protocols (A.1-A.4, B.1-B.4, C.1-C.4)
-- 19,501 document delta-detection corpus (70.8% correlation)
+- 19,501-line delta-detection corpus (28 files, 70.8% correlation) (70.8% correlation)
 - OSF pre-registration draft
 - Unified theoretical framework: `phi × delta × Gateway`
 

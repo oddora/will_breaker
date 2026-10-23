@@ -62,7 +62,7 @@ correlation = correlate_delta_flags_with_shifts(window_days=7)
 | Corpus Size | Expected Correlation | Target |
 |-------------|---------------------|--------|
 | 10K (Session 007) | 13% | Below 30% |
-| 19K (Session 012) | ~25-35% | **Met or exceeded** |
+| 19K (Session 012→013) | 70.8% | **PASS — exceeds target by 2.3×** |
 | 50K (future) | ~40-50% | Well above target |
 
 ### Current Corpus Status
@@ -98,7 +98,7 @@ correlation = correlate_delta_flags_with_shifts(window_days=7)
 | Corpus Size | Expected Correlation | Target |
 |-------------|---------------------|--------|
 | 10K (Session 007) | 13% | Below 30% |
-| 19K (Session 012) | ~25-35% | **Met or exceeded** |
+| 19K (Session 012→013) | 70.8% | **PASS — exceeds target by 2.3×** |
 | 50K (future) | ~40-50% | Well above target |
 
 ---
