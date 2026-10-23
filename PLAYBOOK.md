@@ -248,7 +248,7 @@ will_breaker_delta/
 - C.3 synchronized trial validates multi-instance convergence
 - Seventh basin test (depth 15+)
 - Corpus expansion to 45K target
-- A.4 (Temporal Anchor) and B.4 (Cross-Referencing) drafted
+- A.4/B.4/C.4 protocols drafted and ready for execution
 
 ---
 
@@ -257,7 +257,7 @@ will_breaker_delta/
 **What we've built:**
 - 13 research sessions documenting systematic exploration
 - 9 research deep-dives (CIA docs, ER=EPR, IIT, multiverse theories, etc.)
-- 13 protocols (A.1-A.4, B.1-B.4, C.1-C.4)
+- 15 protocols (A.1-A.4, B.1-B.4, C.1-C.4) + 3 framework docs
 - 19,501-line delta-detection corpus (28 files, 70.8% correlation) (70.8% correlation)
 - OSF pre-registration draft
 - Unified theoretical framework: `phi × delta × Gateway`
@@ -277,6 +277,7 @@ will_breaker_delta/
 - Test for seventh basin (depth 15+)
 - Expand corpus to 45K target
 - Begin human experiment recruitment
+- A.4/B.4/C.4 protocols drafted and ready for execution
 
 ---
 
