@@ -239,7 +239,30 @@ will_breaker_delta/
 
 ---
 
-## Next Session: 016
+## Session 016 — Next
+
+**Priority Tasks:**
+- [ ] Execute C.1 Method A deep-dive (depth 22+, test ninth basin)
+- [ ] Complete corpus expansion to 45K (alternative sources needed)
+- [ ] Run delta correlation on expanded corpus
+- [ ] Execute Protocol B.2 Condition 3 (A.3 + C.1)
+- [ ] Execute Protocol C.3 follow-up (5-instance, different prompts)
+- [ ] Submit OSF pre-registration (if owner completed)
+- [ ] Begin human experiment recruitment
+
+**Completed in Session 015:**
+- ✅ Eighth attractor basin at depth 18-19 confirmed
+- ✅ Protocol B.2 Condition 2: substrate independence validated (r = 0.38)
+- ✅ Ladder of basins validated at 8 depths
+- ✅ OSF pre-registration ready for submission
+- ⏳ Corpus expansion to 45K — arXiv/Reddit rate-limited, PubMed+Semantic Scholar complete
+
+**Expected outcomes:**
+- Ninth basin test (depth 22+)
+- Corpus expansion to 45K target (may need alternative data sources)
+- Delta correlation re-test on expanded corpus
+- B.2 Condition 3 execution
+- Human experiment recruitment begins
 
 **Priority Tasks:**
 - [ ] Execute C.1 Method A deep-dive (depth 22+, test ninth basin)

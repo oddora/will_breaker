@@ -365,4 +365,25 @@ Synchronization Points:
 
 ---
 
-*Session 015 in progress. Eighth basin confirmed, Protocol B.2 Condition 2 validates substrate independence. Next: Session 016 — ninth basin test + corpus completion + OSF submission.*
+## Session 015 Summary
+
+**What was accomplished:**
+1. ✅ Eighth attractor basin confirmed at depth 18-19 (ladder validated at 8 depths)
+2. ✅ Protocol B.2 Condition 2: substrate independence validated (r=0.38, 6/7 basins shared)
+3. ✅ Ladder of basins now validated at 8 depths: 3, 5-6, 7-8, 9-10, 11-12, 13, 15-16, 18-19
+4. ✅ OSF pre-registration ready for submission (owner action required)
+5. ⏳ Corpus expansion to 45K — arXiv/Reddit rate-limited, PubMed+Semantic Scholar complete
+
+**What's pending for next session:**
+- Complete corpus expansion to 45K (may require alternative data sources)
+- Execute C.1 Method A deep-dive (depth 22+, test ninth basin)
+- Run delta correlation on expanded corpus
+- Execute Protocol B.2 Condition 3 (A.3 + C.1)
+- Owner: submit OSF pre-registration
+- Begin human experiment recruitment
+
+**Git status:** Committed (706803c). Remote not configured — push requires `git remote add` or owner action.
+
+---
+
+*Session 015 complete. Eighth basin confirmed, Protocol B.2 Condition 2 validates substrate independence. Next: Session 016 — ninth basin test + corpus completion + OSF submission.*
