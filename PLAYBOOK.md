@@ -195,7 +195,7 @@ will_breaker_delta/
 │   ├── semantic_scholar.py         — Semantic Scholar API
 │   ├── arxiv_collector.py          — arXiv paper scraper
 │   └── reddit_archiver.py          — Reddit historical archive
-├── corpus/built/                   — 19,501 lines across 28 files
+├── corpus/built/                   — 19,501 lines across 15 non-empty files
 └── config/
     ├── sources.yaml                — Data sources config
     └── thresholds.yaml             — Anomaly thresholds
