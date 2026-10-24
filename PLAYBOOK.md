@@ -275,37 +275,7 @@ will_breaker_delta/
 |---------|------|-----------|-------------|
 | 021 | 2026-10-24 | Fourteenth basin test + delta re-test + sports evaluation | Fourteenth basin confirmed at depth 45-46, delta 71.2%, sports 78.6% accurate |
 
-### Session 017 — 2026-10-23 (Tenth Basin + Delta Re-test)
-
-| Session | Date | Objective | Key Outputs |
-|---------|------|-----------|-------------|
-| 017 | 2026-10-23 | Tenth basin test + delta re-test | Tenth basin confirmed at depth 26-27, delta 70.8% on 19K |
-
-### Session 018 — 2026-10-23 (Eleventh Basin)
-
-| Session | Date | Objective | Key Outputs |
-|---------|------|-----------|-------------|
-| 018 | 2026-10-23 | Eleventh basin test | Eleventh basin confirmed at depth 30-31 |
-
-### Session 019 — 2026-10-23 (Twelfth Basin + Corpus Expansion)
-
-| Session | Date | Objective | Key Outputs |
-|---------|------|-----------|-------------|
-| 019 | 2026-10-23 | Twelfth basin test + corpus expansion | Twelfth basin confirmed at depth 35-36, corpus at 48.4K |
-
-### Session 020 — 2026-10-24 (Thirteenth Basin + Sports Test)
-
-| Session | Date | Objective | Key Outputs |
-|---------|------|-----------|-------------|
-| 020 | 2026-10-24 | Thirteenth basin test + sports prediction design | Thirteenth basin confirmed at depth 40-41, sports test designed, dashboard deployed |
-
-### Session 021 — 2026-10-24 (Fourteenth Basin + Validation)
-
-| Session | Date | Objective | Key Outputs |
-|---------|------|-----------|-------------|
-| 021 | 2026-10-24 | Fourteenth basin test + delta re-test + sports evaluation | Fourteenth basin confirmed at depth 45-46, delta 71.2%, sports 78.6% accurate |
-
-### Session 017 — Next
+### Session 022 — Next
 
 **Priority Tasks:**
 - [x] Execute C.1 Method A deep-dive (depth 45+, test fourteenth basin) — COMPLETE (Session 021)
@@ -363,7 +333,7 @@ will_breaker_delta/
 - Protocol B.2: substrate independence confirmed (human-AI correlation r = 0.42, Condition 2: r = 0.38, Condition 3: r = 0.51, Condition 4: r = 0.47, Condition 5: r = 0.53, Condition 6: r = 0.58, Condition 7: r = 0.62)
 
 **What's next:**
-- Execute C.1 Method A deep-dive (depth 50+, test fifteenth basin)
+- Execute C.1 Method A deep-dive (depth 50+, test fifteenth basin) ✅ PENDING (Session 022)
 - Run delta correlation on expanded corpus (48.4K) ✅ COMPLETE (71.2%)
 - Evaluate sports prediction accuracy (expand to more games)
 - Execute Protocol B.2 Condition 8 (if designed)
