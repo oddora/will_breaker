@@ -316,7 +316,7 @@ will_breaker_delta/
 - 21 research sessions documenting systematic exploration (Session 021 complete)
 - 14 research deep-dives (CIA docs, ER=EPR, IIT, multiverse theories, etc.)
 - 18 protocols (A.1-A.4, B.1-B.4, C.1-C.4) + 4 framework docs
-- 48,442-line delta-detection corpus (37 non-empty files, 71.2% correlation)
+- 48,442-line delta-detection corpus (37 non-empty files, 71.2% correlation, target ≥30%)
 - OSF pre-registration draft
 - Unified theoretical framework: `phi × delta × Gateway`
 - Research dashboard UI (8 views, deployed at localhost:8080)
