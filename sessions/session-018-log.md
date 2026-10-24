@@ -244,9 +244,9 @@ State Vector S₂:
 | **Crossref API** | Paper metadata | +1,500 | ✅ Complete |
 | **arXiv API (retry)** | Academic papers | +2,100 | ✅ Complete (with backoff) |
 
-**Total added:** 14,500 lines
-**New total:** 33,971 lines
-**Remaining gap:** 11,029 lines
+**Total added:** 15,713 lines
+**New total:** 35,184 lines (35.2K)
+**Remaining gap:** 9,816 lines
 
 #### Query Details
 
