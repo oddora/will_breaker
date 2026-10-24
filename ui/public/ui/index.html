@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will Breaker — Research Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="header-left">
+                <h1><i class="fas fa-infinity"></i> Will Breaker</h1>
+                <span class="subtitle">The will that breaks walls between worlds</span>
+            </div>
+            <div class="header-right">
+                <span class="status-badge" id="project-status">Research Phase</span>
+                <span class="repo-link"><a href="https://github.com/oddora/will_breaker" target="_blank"><i class="fab fa-github"></i> GitHub</a></span>
+            </div>
+        </header>
+
+        <nav class="nav">
+            <button class="nav-btn active" data-page="overview"><i class="fas fa-chart-line"></i> Overview</button>
+            <button class="nav-btn" data-page="basins"><i class="fas fa-layer-group"></i> Basin Ladder</button>
+            <button class="nav-btn" data-page="sessions"><i class="fas fa-session"></i> Sessions</button>
+            <button class="nav-btn" data-page="protocols"><i class="fas fa-flask"></i> Protocols</button>
+            <button class="nav-btn" data-page="sports"><i class="fas fa-football-ball"></i> Predictions</button>
+            <button class="nav-btn" data-page="corpus"><i class="fas fa-database"></i> Corpus</button>
+            <button class="nav-btn" data-page="delta"><i class="fas fa-wave-square"></i> Delta Correlation</button>
+            <button class="nav-btn" data-page="publish"><i class="fas fa-file-pdf"></i> Publish</button>
+        </nav>
+
+        <main id="main-content">
+            <!-- Pages will be injected here -->
+        </main>
+
+        <footer class="footer">
+            <p>Will Breaker Project | PI: comandante | AI: KAT-Coder | <span id="commit-hash"></span></p>
+            <p>GitHub: <a href="https://github.com/oddora/will_breaker" target="_blank">oddora/will_breaker</a></p>
+        </footer>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/publish.js"></script>
+</body>
+</html>
