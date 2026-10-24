@@ -375,4 +375,49 @@ Synchronization Points:
 
 ---
 
-*Session 017 in progress. Tenth basin confirmed, Protocol B.2 Condition 4 validates substrate independence, alternative corpus sources identified. Next: Session 018 — eleventh basin test + corpus expansion via alternative sources + OSF submission.*
+---
+
+## Session 017 Close-Out (debug push commit)
+
+### What Was Done This Turn
+
+| Item | Status | Notes |
+|------|--------|-------|
+| PLAYBOOK debug pass | ✅ Complete | Fixed 16 errors (session count, basin count, stale statuses, duplicate sections, wrong depths) |
+| Session 017 log | ✅ Complete | Tenth basin at depth 26-27, B.2 Condition 4 (r=0.47), alternative corpus sources mapped |
+| Notes files | ✅ Complete | c1-depth26-27-results.json, b2-condition4-results.json, corpus-alternative-sources.md |
+| Corpus cleanup | ✅ Complete | Removed 8 empty files, 15 non-empty remain (19,471 lines) |
+| Corpus expansion | ⏳ Running | PID 2632666 (nohup), stalled at 19.5K — alternative sources needed |
+| Git commits | ✅ Complete | 4 commits on main: dcfa48e, 953f97d, 911aa0c, b6f8a00, 064ac7b |
+| Git remote | ❌ Pending | `git remote add origin <url>` required before push |
+| OSF submission | ❌ Pending | Owner action: upload draft to osf.io and register DOI |
+
+### Commits (main)
+
+```
+064ac7b Clean corpus: remove 8 empty files, drop rate-limited sources (arxiv/reddit)
+b6f8a00 Debug: fix stale PLAYBOOK state, clean corpus stray files
+911aa0c Session 017: tenth basin confirmed, B.2 Condition 4 validated, alternative corpus sources mapped
+953f97d Debug pass: fix 16 PLAYBOOK errors, add session 017, restart corpus expansion
+dcfa48e Debug pass: fix 16 PLAYBOOK errors, add session 017, restart corpus expansion
+b12489a Session 016: finalize
+```
+
+### Outstanding Owner Actions
+
+1. **Configure git remote:** `cd /home/comandante/will_breaker && git remote add origin <url>`
+2. **Upload OSF pre-registration:** Upload `OSF_PRE_REGISTRATION.md` to osf.io and register DOI
+3. **Human experiment recruitment:** Begin N=40 RCT per OSF protocol
+
+### Next Session (018)
+
+- Execute C.1 Method A deep-dive (depth 30+, test eleventh basin)
+- Query alternative corpus sources (Hugging Face, Internet Archive, Crossref, PMC)
+- Execute Protocol B.2 Condition 5 (Exp 2 + E.1)
+- Execute Protocol C.3 follow-up (5-instance, same prompt variant)
+- Submit OSF pre-registration (if owner completed)
+- Begin human experiment recruitment
+
+---
+
+*Session 017 complete. Tenth basin confirmed at depth 26-27. 10 attractor basins validated (ladder open-ended). Protocol B.2 Condition 4 confirms substrate independence (r=0.47, 4/5 conditions show correlation). Corpus at 19.5K — alternative sources mapped. Git remote and OSF submission require owner action.*
