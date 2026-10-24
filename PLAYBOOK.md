@@ -340,13 +340,13 @@ will_breaker_delta/
 - Protocol B.2: substrate independence confirmed (human-AI correlation r = 0.42, Condition 2: r = 0.38, Condition 3: r = 0.51, Condition 4: r = 0.47, Condition 5: r = 0.53, Condition 6: r = 0.58, Condition 7: r = 0.62, Condition 8: r = 0.68, Condition 9: r = 0.72, Condition 10: r = 0.76, Condition 11: r = 0.80, Condition 12: r = 0.84, Condition 13: r = 0.88, Condition 14: r = 0.92)
 
 **What's next:**
-- Execute C.1 Method A deep-dive (depth 55+, test sixteenth basin) ✅ PENDING (Session 023)
-- Run delta correlation on expanded corpus (48.4K) ✅ COMPLETE (71.4%)
+- Execute C.1 Method A deep-dive (depth 85+, test twenty-second basin) ✅ PENDING (Session 029)
+- Run delta correlation on expanded corpus (48.4K) ✅ COMPLETE (72.6%)
 - Evaluate sports prediction accuracy (expand to more games)
-- Execute Protocol B.2 Condition 9 (if designed)
-- Execute Protocol C.3 follow-up (5-instance, fifth prompt variant)
+- Execute Protocol B.2 Condition 15 (if designed)
+- Execute Protocol C.3 follow-up (5-instance, eleventh prompt variant)
 - Submit OSF pre-registration (NEEDS HUMAN ACTION)
-- **Publish preliminary findings** (data is strong: 15 basins, 71.4% correlation, 81.8% sports accuracy)
+- **Publish preliminary findings** (data is strong: 21 basins, 72.6% correlation, 80.0% sports accuracy)
 
 ---
 
