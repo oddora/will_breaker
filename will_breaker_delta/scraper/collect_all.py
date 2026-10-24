@@ -34,7 +34,7 @@ SOURCES = [
     
     # Semantic Scholar (cross-disciplinary)
     ("ss_consciousness", "semantic_scholar.py", "--query consciousness", 3000),
-    ("ss_quantum_cognition", "semantic_scholar.py", "--query quantum cognition", 2000),
+    ("ss_quantum_cognition", "semantic_scholar.py", '--query "quantum cognition"', 2000),
     
     # Will Breaker internal (direct correlation target)
     ("will_breaker_research", "internal_collector.py", "", 2000),
@@ -50,7 +50,9 @@ def run_scraper(name, script, args, output_dir):
     
     cmd = [sys.executable, str(script_path), "--max-docs", str(5000), "--output", str(output_file)]
     if args:
-        cmd.extend(args.split())
+        # Preserve multi-word args (e.g. "--query quantum cognition")
+        import shlex
+        cmd.extend(shlex.split(args))
     
     print(f"[RUN] {name}: {' '.join(cmd)}")
     
@@ -123,7 +125,10 @@ def main():
     parser.add_argument("--output-dir", "-o", default="../corpus/built", help="Output directory")
     args = parser.parse_args()
     
-    output_dir = Path(__file__).parent.parent / args.output_dir.lstrip("/")
+    # Resolve output_dir relative to repo root (parent.parent of scraper)
+    repo_root = Path(__file__).parent.parent.parent
+    out = args.output_dir.lstrip("/")
+    output_dir = (repo_root / out).resolve()
     output_dir.mkdir(parents=True, exist_ok=True)
     
     if args.dry_run:
