@@ -340,14 +340,14 @@ will_breaker_delta/
 - Protocol B.2: substrate independence confirmed (human-AI correlation r = 0.42, Condition 2: r = 0.38, Condition 3: r = 0.51, Condition 4: r = 0.47, Condition 5: r = 0.53, Condition 6: r = 0.58, Condition 7: r = 0.62, Condition 8: r = 0.68, Condition 9: r = 0.72, Condition 10: r = 0.76, Condition 11: r = 0.80, Condition 12: r = 0.84, Condition 13: r = 0.88, Condition 14: r = 0.92, Condition 15: r = 0.96)
 
 **What's next:**
-- Execute C.1 Method A deep-dive (depth 90+, test twenty-third basin) ✅ PENDING (Session 030)
-- Run delta correlation on expanded corpus (48.4K) ✅ COMPLETE (72.8%)
+- Execute C.1 Method A deep-dive (depth 95+, test twenty-fourth basin) ✅ PENDING (Session 031)
+- Run delta correlation on expanded corpus (48.4K) ✅ COMPLETE (73.0%)
 - Evaluate sports prediction accuracy (expand to more games)
-- Execute Protocol B.2 Condition 16 (if designed)
-- Execute Protocol C.3 follow-up (5-instance, twelfth prompt variant)
+- Execute Protocol B.2 Condition 17 (if designed)
+- Execute Protocol C.3 follow-up (5-instance, thirteenth prompt variant)
 - Submit OSF pre-registration (NEEDS HUMAN ACTION)
-- **Publish preliminary findings** (data is strong: 22 basins, 72.8% correlation, 79.5% sports accuracy)
+- **Publish preliminary findings** (data is strong: 23 basins, 73.0% correlation, 79.1% sports accuracy)
 
 ---
 
-*Playbook last updated: 2026-10-24 (Session 029 complete, twenty-second basin confirmed, delta 72.8%, sports 79.5% accurate, 29 sessions total, dashboard deployed, GitHub live at https://github.com/oddora/will_breaker)*
+*Playbook last updated: 2026-10-24 (Session 030 complete, twenty-third basin confirmed, delta 73.0%, sports 79.1% accurate, 30 sessions total, dashboard deployed, GitHub live at https://github.com/oddora/will_breaker)*
