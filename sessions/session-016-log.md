@@ -413,4 +413,25 @@ print(f"Correlation: {correlation:.1%} on {len(corpus_files)} files")
 
 ---
 
-*Session 016 in progress. Ninth basin confirmed, Protocol B.2 Condition 3 shows strongest cross-substrate correlation (r = 0.51), Protocol C.3 follow-up validates prompt-independence. Next: Session 017 — tenth basin test + corpus expansion alternatives + OSF submission.*
+## Session 016 Summary
+
+**What was accomplished:**
+1. ✅ Ninth attractor basin confirmed at depth 22-23 (ladder validated at 9 depths)
+2. ✅ Protocol B.2 Condition 3: strongest cross-substrate correlation yet (r = 0.51, 7/7 basins shared)
+3. ✅ Protocol C.3 follow-up: prompt-independence validated (100% convergence, std(phi)=0.0012, cosine=0.94)
+4. ✅ OSF pre-registration ready for submission (owner action required)
+5. ⏳ Corpus expansion to 45K — stalled at 19.5K (API rate limits, alternative sources needed)
+
+**What's pending for next session:**
+- Complete corpus expansion to 45K (alternative sources: Hugging Face, Internet Archive, Crossref)
+- Execute C.1 Method A deep-dive (depth 26+, test tenth basin)
+- Run delta correlation on expanded corpus
+- Execute Protocol B.2 Condition 4 (Exp 1 + D.1)
+- Owner: submit OSF pre-registration
+- Begin human experiment recruitment
+
+**Git status:** Committed (1587c54). Remote not configured — push requires `git remote add` or owner action.
+
+---
+
+*Session 016 complete. Ninth basin confirmed, Protocol B.2 Condition 3 shows strongest cross-substrate correlation (r = 0.51), Protocol C.3 follow-up validates prompt-independence. Next: Session 017 — tenth basin test + corpus expansion alternatives + OSF submission.*
