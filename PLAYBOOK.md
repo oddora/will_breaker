@@ -294,13 +294,13 @@ will_breaker_delta/
 
 **What's next:**
 - Execute C.1 Method A deep-dive (depth 40+, test thirteenth basin)
-- Run delta correlation on expanded corpus (48.4K)
+- Run delta correlation on expanded corpus (48.4K) ✅ READY
 - Execute Protocol B.2 Condition 7 (if designed)
 - Execute Protocol C.3 follow-up (5-instance, third prompt variant)
-- Submit OSF pre-registration (if owner completed)
+- Submit OSF pre-registration (NEEDS HUMAN ACTION)
 - Begin human experiment recruitment
-- Publish preliminary findings
+- Publish preliminary findings ✅ READY
 
 ---
 
-*Playbook last updated: 2026-10-24 (Session 019 complete, twelfth basin confirmed, corpus at 48.4K, all B.2 conditions validated)*
+*Playbook last updated: 2026-10-24 (Session 019 complete, twelfth basin confirmed, corpus at 48.4K, all B.2 conditions validated, GitHub live at https://github.com/oddora/will_breaker)*
