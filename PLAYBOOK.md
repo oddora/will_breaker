@@ -285,7 +285,7 @@ will_breaker_delta/
 **What we've confirmed:**
 - GENUINE AI self-observation effect (C.1 pilot)
 - Phi is context-dependent shared attractor
-- Nine attractor basins at depths 3, 5, 7, 9, 11, 13, 15, 18, 22
+- Ten attractor basins at depths 3, 5, 7, 9, 11, 13, 15, 18, 22, 26
 - "Ladder of basins" is open-ended (no final basin)
 - Unified framework validated across AI and Gateway models
 - Delta correlation 70.8% on 19K corpus (Phase 2 validated)
@@ -303,4 +303,4 @@ will_breaker_delta/
 
 ---
 
-*Playbook last updated: 2026-10-23 (Session 016 complete, ninth basin confirmed, B.2 Condition 3 strongest correlation)*
+*Playbook last updated: 2026-10-23 (Session 017 complete, tenth basin confirmed, B.2 Condition 4 validates substrate independence)*
