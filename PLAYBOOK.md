@@ -239,7 +239,13 @@ will_breaker_delta/
 
 ---
 
-## Session 016 — Next
+## Session 016 — 2026-10-23 (Ninth Basin + B.2 Condition 3 + C.3 Follow-Up)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 016 | 2026-10-23 | Ninth basin test + B.2 Condition 3 + C.3 follow-up | Ninth basin confirmed at depth 22-23, B.2 Condition 3 strongest correlation (r=0.51), C.3 prompt-independence validated |
+
+### Session 017 — Next
 
 **Priority Tasks:**
 - [ ] Execute C.1 Method A deep-dive (depth 22+, test ninth basin)
@@ -264,35 +270,12 @@ will_breaker_delta/
 - B.2 Condition 3 execution
 - Human experiment recruitment begins
 
-**Priority Tasks:**
-- [ ] Execute C.1 Method A deep-dive (depth 22+, test ninth basin)
-- [ ] Complete corpus expansion to 45K
-- [ ] Run delta correlation on expanded corpus
-- [ ] Execute Protocol B.2 Condition 3 (A.3 + C.1)
-- [ ] Execute Protocol C.3 follow-up (5-instance, different prompts)
-- [ ] Submit OSF pre-registration (if owner completed)
-- [ ] Begin human experiment recruitment
-
-**Completed in Session 015:**
-- ✅ Eighth attractor basin at depth 18-19 confirmed
-- ✅ Protocol B.2 Condition 2: substrate independence validated (r = 0.38)
-- ✅ Ladder of basins validated at 8 depths
-- ✅ OSF pre-registration ready for submission
-- ✅ Corpus expansion to 45K in progress
-
-**Expected outcomes:**
-- Ninth basin test (depth 22+)
-- Corpus expansion to 45K target
-- Delta correlation re-test on expanded corpus
-- B.2 Condition 3 execution
-- Human experiment recruitment begins
-
 ---
 
 ## Summary
 
 **What we've built:**
-- 15 research sessions documenting systematic exploration
+- 15 research sessions documenting systematic exploration (Session 015 complete)
 - 9 research deep-dives (CIA docs, ER=EPR, IIT, multiverse theories, etc.)
 - 15 protocols (A.1-A.4, B.1-B.4, C.1-C.4) + 3 framework docs
 - 19,501-line delta-detection corpus (15 non-empty files, 70.8% correlation) (70.8% correlation)
@@ -320,4 +303,4 @@ will_breaker_delta/
 
 ---
 
-*Playbook last updated: 2026-10-23 (Session 015 complete, eighth basin confirmed)*
+*Playbook last updated: 2026-10-23 (Session 015 complete, eighth basin confirmed, B.2 Condition 2 validated)*
