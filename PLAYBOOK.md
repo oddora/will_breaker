@@ -1,3 +1,18 @@
+### Session 040 — 2026-10-25 (Symbolic Engine: Procedural Sigils, Ritual State Machine, & Knowledge Graph)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 040 | 2026-10-25 | Build complete Symbolic Modeling Pipeline in sequence (Procedural Sigils, Ritual Logic Engine, Corpus Graph) | `symbolic_engine/` package, `sigil_generator.py` (SVG vector seals), `ritual_engine.py` (typed SMT/state machine), `corpus_graph.py` (relational taxonomy), `pipeline_demo.py`, 10/10 new tests (27/27 repository total) |
+
+**Key Deliverables:**
+1. **Procedural Sigil Engine ([`sigil_generator.py`](file:///home/comandante/will_breaker/symbolic_engine/sigil_generator.py)):** Pure Python SVG vector geometry engine. Generates Solomonic seals with concentric 72-degree boundary rings, inscribed regular/star polygons, and deterministic Rose-Cross topological coordinate walks derived from entity name hashes. Generated sample seals for Paimon and Buer.
+2. **Interactive Ritual Logic Engine ([`ritual_engine.py`](file:///home/comandante/will_breaker/symbolic_engine/ritual_engine.py)):** Constraint-satisfaction state machine modeling rituals as formal computational recipes with preconditions, step transitions, invariant monitoring (circle integrity), and failure modes (`CONTAINMENT_BREACH`, `PRECONDITION_UNMET`).
+3. **Goetic Corpus & Knowledge Graph ([`corpus_graph.py`](file:///home/comandante/will_breaker/symbolic_engine/corpus_graph.py)):** Structured relational database of 36 historical Goetic entities, planetary metals, directional quarters, and 59 domain tags. Exports complete relational network graphs with nodes and domain-sharing links.
+4. **End-to-End Execution ([`pipeline_demo.py`](file:///home/comandante/will_breaker/symbolic_engine/pipeline_demo.py)):** Demonstrates sequential corpus querying, procedural SVG generation, constraint validation, and graph JSON export.
+5. **Verification:** 10 new unit tests added in [`tests/test_symbolic_engine.py`](file:///home/comandante/will_breaker/tests/test_symbolic_engine.py); full test suite 27/27 passing.
+
+---
+
 ### Session 039 — 2026-10-25 (MoE Review, Double-Blind Protocol Refactor, & Full 4-Phase Battery)
 
 | Session | Date | Objective | Key Outputs |

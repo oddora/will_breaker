@@ -1,0 +1,1279 @@
+{
+  "metadata": {
+    "total_entities": 36,
+    "total_relationships": 85,
+    "domains": [
+      "alchemy",
+      "animal_speech",
+      "archery",
+      "arts",
+      "astronomy",
+      "barrenness",
+      "battles",
+      "binding",
+      "bloodshed",
+      "combat",
+      "cosmology",
+      "courage",
+      "cunning",
+      "desire",
+      "dignity",
+      "diplomacy",
+      "divine_secrets",
+      "earthquakes",
+      "eloquence",
+      "fall_of_angels",
+      "familiar",
+      "familiars",
+      "fire",
+      "gemstones",
+      "geometry",
+      "healing",
+      "herbalism",
+      "hidden_affairs",
+      "hidden_treasures",
+      "honesty",
+      "honor",
+      "invincibility",
+      "invisibility",
+      "languages",
+      "liberal_sciences",
+      "logic",
+      "lost_items",
+      "love",
+      "mechanical_arts",
+      "military_strategy",
+      "necromancy",
+      "pacifism",
+      "passion",
+      "past_future",
+      "philosophy",
+      "reconciliation",
+      "reputation",
+      "retrieval",
+      "rhetoric",
+      "sciences",
+      "secrets",
+      "shapeshifting",
+      "storms",
+      "teleportation",
+      "theft",
+      "wealth",
+      "wisdom",
+      "wit",
+      "wounds"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "Bael",
+      "label": "Bael (King)",
+      "number": 1,
+      "group": "King",
+      "metal": "Gold",
+      "direction": "East",
+      "legions": 66,
+      "domains": [
+        "invisibility",
+        "wisdom"
+      ]
+    },
+    {
+      "id": "Agares",
+      "label": "Agares (Duke)",
+      "number": 2,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "East",
+      "legions": 31,
+      "domains": [
+        "languages",
+        "earthquakes",
+        "retrieval"
+      ]
+    },
+    {
+      "id": "Vassago",
+      "label": "Vassago (Prince)",
+      "number": 3,
+      "group": "Prince",
+      "metal": "Tin",
+      "direction": "North",
+      "legions": 26,
+      "domains": [
+        "past_future",
+        "lost_items"
+      ]
+    },
+    {
+      "id": "Gamigin",
+      "label": "Gamigin (Marquis)",
+      "number": 4,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "South",
+      "legions": 30,
+      "domains": [
+        "liberal_sciences",
+        "necromancy"
+      ]
+    },
+    {
+      "id": "Marbas",
+      "label": "Marbas (President)",
+      "number": 5,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "East",
+      "legions": 36,
+      "domains": [
+        "healing",
+        "mechanical_arts",
+        "shapeshifting"
+      ]
+    },
+    {
+      "id": "Valefor",
+      "label": "Valefor (Duke)",
+      "number": 6,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "North",
+      "legions": 10,
+      "domains": [
+        "theft",
+        "familiar"
+      ]
+    },
+    {
+      "id": "Amon",
+      "label": "Amon (Marquis)",
+      "number": 7,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "North",
+      "legions": 40,
+      "domains": [
+        "reconciliation",
+        "past_future"
+      ]
+    },
+    {
+      "id": "Barbatos",
+      "label": "Barbatos (Duke)",
+      "number": 8,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "South",
+      "legions": 30,
+      "domains": [
+        "animal_speech",
+        "hidden_treasures"
+      ]
+    },
+    {
+      "id": "Paimon",
+      "label": "Paimon (King)",
+      "number": 9,
+      "group": "King",
+      "metal": "Gold",
+      "direction": "North",
+      "legions": 200,
+      "domains": [
+        "sciences",
+        "arts",
+        "binding"
+      ]
+    },
+    {
+      "id": "Buer",
+      "label": "Buer (President)",
+      "number": 10,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "South",
+      "legions": 50,
+      "domains": [
+        "philosophy",
+        "herbalism",
+        "healing"
+      ]
+    },
+    {
+      "id": "Gusion",
+      "label": "Gusion (Duke)",
+      "number": 11,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "East",
+      "legions": 40,
+      "domains": [
+        "honor",
+        "diplomacy",
+        "past_future"
+      ]
+    },
+    {
+      "id": "Sitri",
+      "label": "Sitri (Prince)",
+      "number": 12,
+      "group": "Prince",
+      "metal": "Tin",
+      "direction": "North",
+      "legions": 60,
+      "domains": [
+        "love",
+        "desire",
+        "secrets"
+      ]
+    },
+    {
+      "id": "Beleth",
+      "label": "Beleth (King)",
+      "number": 13,
+      "group": "King",
+      "metal": "Gold",
+      "direction": "North",
+      "legions": 85,
+      "domains": [
+        "love",
+        "passion"
+      ]
+    },
+    {
+      "id": "Leraje",
+      "label": "Leraje (Marquis)",
+      "number": 14,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "North",
+      "legions": 30,
+      "domains": [
+        "archery",
+        "battles",
+        "wounds"
+      ]
+    },
+    {
+      "id": "Eligos",
+      "label": "Eligos (Duke)",
+      "number": 15,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "South",
+      "legions": 60,
+      "domains": [
+        "military_strategy",
+        "hidden_affairs"
+      ]
+    },
+    {
+      "id": "Zepar",
+      "label": "Zepar (Duke)",
+      "number": 16,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "West",
+      "legions": 26,
+      "domains": [
+        "love",
+        "barrenness"
+      ]
+    },
+    {
+      "id": "Botis",
+      "label": "Botis (President)",
+      "number": 17,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "North",
+      "legions": 60,
+      "domains": [
+        "past_future",
+        "reconciliation"
+      ]
+    },
+    {
+      "id": "Bathin",
+      "label": "Bathin (Duke)",
+      "number": 18,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "East",
+      "legions": 30,
+      "domains": [
+        "herbalism",
+        "gemstones",
+        "teleportation"
+      ]
+    },
+    {
+      "id": "Saleos",
+      "label": "Saleos (Duke)",
+      "number": 19,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "South",
+      "legions": 30,
+      "domains": [
+        "love",
+        "pacifism"
+      ]
+    },
+    {
+      "id": "Purson",
+      "label": "Purson (King)",
+      "number": 20,
+      "group": "King",
+      "metal": "Gold",
+      "direction": "South",
+      "legions": 22,
+      "domains": [
+        "hidden_treasures",
+        "cosmology"
+      ]
+    },
+    {
+      "id": "Morax",
+      "label": "Morax (Earl)",
+      "number": 21,
+      "group": "Earl",
+      "metal": "Iron",
+      "direction": "South",
+      "legions": 36,
+      "domains": [
+        "astronomy",
+        "herbalism",
+        "sciences"
+      ]
+    },
+    {
+      "id": "Ipos",
+      "label": "Ipos (Earl)",
+      "number": 22,
+      "group": "Earl",
+      "metal": "Iron",
+      "direction": "North",
+      "legions": 36,
+      "domains": [
+        "wit",
+        "courage",
+        "past_future"
+      ]
+    },
+    {
+      "id": "Aim",
+      "label": "Aim (Duke)",
+      "number": 23,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "North",
+      "legions": 26,
+      "domains": [
+        "wit",
+        "cunning",
+        "fire"
+      ]
+    },
+    {
+      "id": "Naberius",
+      "label": "Naberius (Marquis)",
+      "number": 24,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "South",
+      "legions": 19,
+      "domains": [
+        "rhetoric",
+        "dignity",
+        "arts"
+      ]
+    },
+    {
+      "id": "Glasya-Labolas",
+      "label": "Glasya-Labolas (President)",
+      "number": 25,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "North",
+      "legions": 36,
+      "domains": [
+        "bloodshed",
+        "sciences",
+        "invisibility"
+      ]
+    },
+    {
+      "id": "Bune",
+      "label": "Bune (Duke)",
+      "number": 26,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "West",
+      "legions": 30,
+      "domains": [
+        "wealth",
+        "eloquence",
+        "wisdom"
+      ]
+    },
+    {
+      "id": "Ronove",
+      "label": "Ronove (Marquis)",
+      "number": 27,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "East",
+      "legions": 19,
+      "domains": [
+        "rhetoric",
+        "languages",
+        "familiars"
+      ]
+    },
+    {
+      "id": "Berith",
+      "label": "Berith (Duke)",
+      "number": 28,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "North",
+      "legions": 26,
+      "domains": [
+        "alchemy",
+        "dignity",
+        "past_future"
+      ]
+    },
+    {
+      "id": "Astaroth",
+      "label": "Astaroth (Duke)",
+      "number": 29,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "West",
+      "legions": 40,
+      "domains": [
+        "liberal_sciences",
+        "fall_of_angels"
+      ]
+    },
+    {
+      "id": "Forneus",
+      "label": "Forneus (Marquis)",
+      "number": 30,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "North",
+      "legions": 29,
+      "domains": [
+        "rhetoric",
+        "languages",
+        "reputation"
+      ]
+    },
+    {
+      "id": "Foras",
+      "label": "Foras (President)",
+      "number": 31,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "North",
+      "legions": 29,
+      "domains": [
+        "herbalism",
+        "logic",
+        "invisibility"
+      ]
+    },
+    {
+      "id": "Asmoday",
+      "label": "Asmoday (King)",
+      "number": 32,
+      "group": "King",
+      "metal": "Gold",
+      "direction": "East",
+      "legions": 72,
+      "domains": [
+        "astronomy",
+        "geometry",
+        "invincibility"
+      ]
+    },
+    {
+      "id": "Gaap",
+      "label": "Gaap (President)",
+      "number": 33,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "South",
+      "legions": 66,
+      "domains": [
+        "philosophy",
+        "teleportation",
+        "familiar"
+      ]
+    },
+    {
+      "id": "Furfur",
+      "label": "Furfur (Earl)",
+      "number": 34,
+      "group": "Earl",
+      "metal": "Iron",
+      "direction": "South",
+      "legions": 26,
+      "domains": [
+        "storms",
+        "love",
+        "divine_secrets"
+      ]
+    },
+    {
+      "id": "Marchosias",
+      "label": "Marchosias (Marquis)",
+      "number": 35,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "South",
+      "legions": 30,
+      "domains": [
+        "combat",
+        "courage",
+        "honesty"
+      ]
+    },
+    {
+      "id": "Stolas",
+      "label": "Stolas (Prince)",
+      "number": 36,
+      "group": "Prince",
+      "metal": "Tin",
+      "direction": "North",
+      "legions": 26,
+      "domains": [
+        "astronomy",
+        "herbalism",
+        "gemstones"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "Bael",
+      "target": "Glasya-Labolas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "invisibility"
+      ]
+    },
+    {
+      "source": "Bael",
+      "target": "Bune",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "wisdom"
+      ]
+    },
+    {
+      "source": "Bael",
+      "target": "Foras",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "invisibility"
+      ]
+    },
+    {
+      "source": "Bael",
+      "target": "Asmoday",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Agares",
+      "target": "Gusion",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Agares",
+      "target": "Bathin",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Agares",
+      "target": "Ronove",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "languages"
+      ]
+    },
+    {
+      "source": "Agares",
+      "target": "Forneus",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "languages"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Amon",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Gusion",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Sitri",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Vassago",
+      "target": "Botis",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Ipos",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Berith",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Stolas",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gamigin",
+      "target": "Naberius",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gamigin",
+      "target": "Astaroth",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "liberal_sciences"
+      ]
+    },
+    {
+      "source": "Gamigin",
+      "target": "Marchosias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Marbas",
+      "target": "Buer",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "healing"
+      ]
+    },
+    {
+      "source": "Valefor",
+      "target": "Aim",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Valefor",
+      "target": "Berith",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Valefor",
+      "target": "Gaap",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "familiar"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Gusion",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Leraje",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Amon",
+      "target": "Botis",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "past_future",
+        "reconciliation"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Ipos",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Berith",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Forneus",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Barbatos",
+      "target": "Eligos",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Barbatos",
+      "target": "Saleos",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Barbatos",
+      "target": "Purson",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
+      ]
+    },
+    {
+      "source": "Paimon",
+      "target": "Beleth",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Paimon",
+      "target": "Morax",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Paimon",
+      "target": "Naberius",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "arts"
+      ]
+    },
+    {
+      "source": "Paimon",
+      "target": "Glasya-Labolas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Buer",
+      "target": "Bathin",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Buer",
+      "target": "Morax",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Buer",
+      "target": "Foras",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Buer",
+      "target": "Gaap",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Buer",
+      "target": "Stolas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Gusion",
+      "target": "Botis",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gusion",
+      "target": "Bathin",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gusion",
+      "target": "Ipos",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gusion",
+      "target": "Berith",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Sitri",
+      "target": "Beleth",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Sitri",
+      "target": "Zepar",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Sitri",
+      "target": "Saleos",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Sitri",
+      "target": "Furfur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Sitri",
+      "target": "Stolas",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Beleth",
+      "target": "Zepar",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Beleth",
+      "target": "Saleos",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Beleth",
+      "target": "Furfur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Leraje",
+      "target": "Forneus",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Eligos",
+      "target": "Saleos",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Zepar",
+      "target": "Saleos",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Zepar",
+      "target": "Bune",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Zepar",
+      "target": "Astaroth",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Zepar",
+      "target": "Furfur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Botis",
+      "target": "Ipos",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Botis",
+      "target": "Glasya-Labolas",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Botis",
+      "target": "Berith",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Botis",
+      "target": "Foras",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Bathin",
+      "target": "Morax",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Bathin",
+      "target": "Foras",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Bathin",
+      "target": "Gaap",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "teleportation"
+      ]
+    },
+    {
+      "source": "Bathin",
+      "target": "Stolas",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "gemstones",
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Saleos",
+      "target": "Furfur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Glasya-Labolas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Foras",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Asmoday",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Furfur",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Morax",
+      "target": "Stolas",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "astronomy",
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Ipos",
+      "target": "Aim",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "wit"
+      ]
+    },
+    {
+      "source": "Ipos",
+      "target": "Berith",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Ipos",
+      "target": "Marchosias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "courage"
+      ]
+    },
+    {
+      "source": "Aim",
+      "target": "Berith",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Naberius",
+      "target": "Ronove",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Naberius",
+      "target": "Berith",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "dignity"
+      ]
+    },
+    {
+      "source": "Naberius",
+      "target": "Forneus",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Naberius",
+      "target": "Marchosias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Glasya-Labolas",
+      "target": "Foras",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "invisibility"
+      ]
+    },
+    {
+      "source": "Bune",
+      "target": "Astaroth",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Ronove",
+      "target": "Forneus",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "languages",
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Foras",
+      "target": "Stolas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Asmoday",
+      "target": "Stolas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    }
+  ]
+}
