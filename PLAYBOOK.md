@@ -24,6 +24,11 @@
    - Cryptographically sealed all 22 picks with SHA-256 hashes into [`notes/crypto_predictions_registry.jsonl`](file:///home/comandante/will_breaker/notes/crypto_predictions_registry.jsonl) prior to game starts.
    - Built [`resolve_sports_battery.py`](file:///home/comandante/will_breaker/research/sports/resolve_sports_battery.py) to audit Brier Score, Brier Skill Score ($BSS$), and ATS hit rate against official box scores.
    - Added 4 unit tests in [`tests/test_sports_battery.py`](file:///home/comandante/will_breaker/tests/test_sports_battery.py); repo test total now 38/38 passing.
+8. **Hardware Inference & Throughput Benchmark ([`benchmark_kat.py`](file:///home/comandante/will_breaker/research/benchmarks/benchmark_kat.py)):**
+   - Empirical hardware benchmarking of local MoE 35B (`kat` on `:18283`) across Short (40 tok), Medium (277 tok), and Long (1,107 tok) prompts.
+   - Text generation speed remained remarkably constant at **~71 tokens/second** regardless of context size.
+   - Prompt evaluation throughput scaled from 88 tok/s up to **669.8 tok/s** on long context batches.
+   - Verified via unit test [`tests/test_benchmarks.py`](file:///home/comandante/will_breaker/tests/test_benchmarks.py); full test suite 39/39 passing.
 
 ---
 
