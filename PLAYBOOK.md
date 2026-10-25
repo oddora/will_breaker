@@ -52,7 +52,10 @@
    - Features 7 selectable planetary matrix geometries, animated counter-rotations, real-time circle integrity slider with dynamic jagged fissure overlays, turn-based liturgical simulator console, and 72-spirit taxonomy search/filter explorer.
 14. **Sports Resolution Engine CLI ([`resolve_sports_battery.py`](file:///home/comandante/will_breaker/research/sports/resolve_sports_battery.py)):**
    - Enhanced resolver with `--status`, `--scores`, and `--scores-file` CLI arguments. Confirmed all 22 commitments for Session 041 are `SEALED` and awaiting official final box scores tonight.
-   - Full repository test suite now **55/55 passing**.
+15. **Workflow & Regression Audits (Session Closeout):**
+   - Fixed `resolve_sports_battery.py`: added `resolve_battery` alias, defaulted `slate_json_path` to `session_041_sealed_slate.json`, and added polymorphic score intake for both dict `{"away_score": X, "home_score": Y}` and list/tuple `[away, home]`.
+   - Fixed `tests/test_advancements.py`: isolated `LiveCrawlerPipeline` outputs to temporary directories, eliminating disk-write side effects that previously dirtied `latest_forecast.json` during test runs.
+   - Expanded unit test coverage in `tests/test_sports_battery.py` to 5 tests; full repository test suite is now **56/56 passing** with a clean working tree post-execution.
 
 ---
 

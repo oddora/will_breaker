@@ -80,14 +80,24 @@ class SportsResolver:
 
     def resolve_slate(
         self,
-        slate_json_path: Path,
-        box_scores: Dict[str, Dict[str, int]],
+        slate_json_path: Optional[Path] = None,
+        box_scores: Optional[Dict[str, Any]] = None,
         session_id: str = "041",
     ) -> Dict[str, Any]:
         """
         Resolve all sealed commitments from the slate against ground truth box scores.
-        box_scores format: { game_id: {"away_score": X, "home_score": Y} }
+        box_scores format: { game_id: {"away_score": X, "home_score": Y} } or { game_id: [away_score, home_score] }
         """
+        if slate_json_path is None:
+            slate_json_path = base_dir / "results" / "sports_predictions" / f"session_{session_id}_sealed_slate.json"
+        
+        slate_json_path = Path(slate_json_path)
+        if not slate_json_path.exists():
+            raise FileNotFoundError(f"Sealed slate file not found at {slate_json_path}")
+
+        if box_scores is None:
+            box_scores = {}
+
         with open(slate_json_path, "r", encoding="utf-8") as f:
             slate_data = json.load(f)
 
@@ -109,7 +119,15 @@ class SportsResolver:
                 continue
 
             score = box_scores[gid]
-            outcomes = self.evaluate_box_score(f_item, score["away_score"], score["home_score"])
+            if isinstance(score, (list, tuple)) and len(score) >= 2:
+                away_score, home_score = int(score[0]), int(score[1])
+            elif isinstance(score, dict):
+                away_score = int(score.get("away_score", score.get("away", 0)))
+                home_score = int(score.get("home_score", score.get("home", 0)))
+            else:
+                continue
+
+            outcomes = self.evaluate_box_score(f_item, away_score, home_score)
 
             # Resolve ATS Commitment
             ats_cid = f_item["ats_commitment_id"]
@@ -203,6 +221,19 @@ class SportsResolver:
         }
 
         return summary
+
+    def resolve_battery(
+        self,
+        box_scores: Dict[str, Any],
+        session_id: str = "041",
+        slate_json_path: Optional[Path] = None,
+    ) -> Dict[str, Any]:
+        """Convenience method resolving battery against default or custom slate."""
+        return self.resolve_slate(
+            slate_json_path=slate_json_path,
+            box_scores=box_scores,
+            session_id=session_id
+        )
 
 
 if __name__ == "__main__":

@@ -131,6 +131,28 @@ Evaluating matchup Dallas @ SF...
         self.assertIn("mean_brier_score", res)
         self.assertIn("brier_skill_score", res)
 
+    def test_resolve_battery_with_list_scores(self):
+        """Verify resolve_battery supports [away, home] list format and resolve_battery alias."""
+        game = GameMatchup(
+            game_id="nfl_test_game_list",
+            sport="NFL",
+            away_team="Denver Broncos",
+            home_team="Arizona Cardinals",
+            venue="State Farm Stadium",
+            market_spread="Cardinals -1.5",
+            market_total=41.5,
+            kickoff_utc="2026-10-25T20:05:00Z",
+        )
+        forecasts = self.battery.run_slate_forecasts([game], session_id="test_list_041")
+        json_out, _ = self.battery.export_sealed_ledger(forecasts, Path(self.temp_dir.name), session_id="test_list_041")
+
+        # Pass score as [away, home] list
+        box_scores = {"nfl_test_game_list": [24, 21]} # Broncos 24, Cardinals 21
+        res = self.resolver.resolve_battery(box_scores, session_id="test_list_041", slate_json_path=json_out)
+        self.assertEqual(res["games_resolved"], 1)
+        self.assertEqual(res["total_commitments_resolved"], 2)
+        self.assertIn("overall_accuracy", res)
+
 
 if __name__ == "__main__":
     unittest.main()

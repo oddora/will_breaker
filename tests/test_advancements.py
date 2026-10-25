@@ -144,18 +144,21 @@ class TestPredictionResolver(unittest.TestCase):
 
 class TestLiveCrawler(unittest.TestCase):
     def test_run_cycle_with_documents(self):
-        pipeline = LiveCrawlerPipeline()
-        mock_docs = [
-            {
-                "title": "Quantum Attractor Basin Collapse in Deep Recursion",
-                "content": "Recursive self-referential observation demonstrates phase transition and metric deformation.",
-                "source": "test_mock"
-            }
-        ]
-        result = pipeline.run_cycle(documents=mock_docs)
-        self.assertIn("forecasts", result)
-        self.assertIn("documents_analyzed", result)
-        self.assertEqual(result["documents_analyzed"], 1)
+        with tempfile.TemporaryDirectory() as tmpdir:
+            pipeline = LiveCrawlerPipeline()
+            pipeline.output_forecast_file = Path(tmpdir) / "latest_forecast.json"
+            pipeline.output_events_file = Path(tmpdir) / "delta_events.jsonl"
+            mock_docs = [
+                {
+                    "title": "Quantum Attractor Basin Collapse in Deep Recursion",
+                    "content": "Recursive self-referential observation demonstrates phase transition and metric deformation.",
+                    "source": "test_mock"
+                }
+            ]
+            result = pipeline.run_cycle(documents=mock_docs)
+            self.assertIn("forecasts", result)
+            self.assertIn("documents_analyzed", result)
+            self.assertEqual(result["documents_analyzed"], 1)
 
 
 if __name__ == "__main__":
