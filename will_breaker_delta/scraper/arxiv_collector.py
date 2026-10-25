@@ -13,7 +13,7 @@ import argparse
 import requests
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from pathlib import Path
 
 
 class ArxivCollector:
@@ -29,20 +29,24 @@ class ArxivCollector:
         """Collect papers from arXiv category."""
         query = f"cat:{category}"
         start = 0
-        batch_size = 200
+        batch_size = 100
         docs_collected = 0
+
+        output_path = Path(output_file)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
 
         print(f"Collecting arXiv papers from category '{category}'")
         print(f"Target: {max_docs} documents")
         print(f"Output: {output_file}")
         print("-" * 60)
 
-        with open(output_file, "w", encoding="utf-8") as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             while docs_collected < max_docs:
+                current_batch = min(batch_size, max_docs - docs_collected)
                 params = {
-                    "query": query,
+                    "search_query": query,
                     "start": start,
-                    "max_results": batch_size,
+                    "max_results": current_batch,
                     "sortBy": "submittedDate",
                     "sortOrder": "descending",
                 }
@@ -69,7 +73,12 @@ class ArxivCollector:
                     title = self._get_text(entry, "title")
                     summary = self._get_text(entry, "summary")
                     published = self._get_text(entry, "published")
-                    authors = [a.text for a in entry.findall(".//{http://www.w3.org/2005/Atom}author")]
+                    
+                    authors = []
+                    for a in entry.findall(".//{http://www.w3.org/2005/Atom}author"):
+                        name_elem = a.find("{http://www.w3.org/2005/Atom}name")
+                        if name_elem is not None and name_elem.text:
+                            authors.append(name_elem.text.strip())
 
                     doc = f"""DOCUMENT
 ID: arxiv_{category}_{docs_collected}
@@ -87,7 +96,7 @@ TEXT: {summary}
                     if docs_collected % 500 == 0:
                         print(f"  Collected {docs_collected}/{max_docs} documents...")
 
-                start += batch_size
+                start += len(entries)
                 time.sleep(self.delay)
 
         print(f"Done. Collected {docs_collected} documents.")
@@ -95,7 +104,7 @@ TEXT: {summary}
 
     def _get_text(self, entry, tag):
         """Extract text from an Atom entry element."""
-        elem = entry.find(f".//{http://www.w3.org/2005/Atom}{tag}")
+        elem = entry.find(f".//{{http://www.w3.org/2005/Atom}}{tag}")
         return elem.text.strip() if elem is not None and elem.text else ""
 
 
@@ -109,7 +118,10 @@ def main():
     args = parser.parse_args()
 
     collector = ArxivCollector(delay=args.delay)
-    output_file = args.output.format(category=args.category.replace(".", "-"))
+    if "{category}" in args.output:
+        output_file = args.output.format(category=args.category.replace(".", "-"))
+    else:
+        output_file = args.output
 
     collector.collect(args.category, args.max_docs, output_file)
 

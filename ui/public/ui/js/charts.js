@@ -84,13 +84,17 @@ function drawCorpusChart(canvasId, sources) {
 document.addEventListener('DOMContentLoaded', () => {
     // Basin chart
     const basinCanvas = document.getElementById('basin-chart');
-    if (basinCanvas) {
+    if (basinCanvas && typeof PROJECT_DATA !== 'undefined') {
         drawBasinChart('basin-chart', PROJECT_DATA.basins);
     }
     
     // Corpus chart
     const corpusCanvas = document.getElementById('corpus-chart');
-    if (corpusCanvas) {
+    if (corpusCanvas && typeof PROJECT_DATA !== 'undefined') {
         drawCorpusChart('corpus-chart', PROJECT_DATA.corpus.sources);
     }
 });
+
+// Export to window
+window.drawBasinChart = drawBasinChart;
+window.drawCorpusChart = drawCorpusChart;

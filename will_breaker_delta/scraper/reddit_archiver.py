@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Will Breaker Delta-Detection — Reddit Historical Archive Collector
-Collects historical Reddit posts for corpus expansion (10K → 50K)
+Collects Reddit posts for corpus expansion (10K → 50K)
 
 Usage:
     python reddit_archiver.py --subreddit consciousness --max-docs 5000 --output ../corpus/built/reddit_consciousness.txt
@@ -11,15 +11,15 @@ Usage:
 import argparse
 import requests
 import time
-import json
+from pathlib import Path
 
 
 class RedditArchiver:
-    """Collect historical Reddit posts for delta-detection corpus."""
+    """Collect Reddit posts for delta-detection corpus."""
 
     BASE_URL = "https://www.reddit.com/r/{}/{}.json"
 
-    def __init__(self, user_agent="WillBreakerDelta/1.0", delay=1.0):
+    def __init__(self, user_agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 WillBreaker/1.0", delay=1.0):
         self.delay = delay
         self.session = requests.Session()
         self.session.headers.update({
@@ -29,33 +29,43 @@ class RedditArchiver:
 
     def collect(self, subreddit, max_docs, output_file):
         """Collect posts from Reddit subreddit."""
-        start = 0
+        after_token = None
         docs_collected = 0
+
+        output_path = Path(output_file)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
 
         print(f"Collecting Reddit posts from r/{subreddit}")
         print(f"Target: {max_docs} documents")
         print(f"Output: {output_file}")
         print("-" * 60)
 
-        with open(output_file, "w", encoding="utf-8") as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             while docs_collected < max_docs:
-                url = self.BASE_URL.format(subreddit, "all")
+                url = self.BASE_URL.format(subreddit, "hot")
                 params = {
-                    "limit": 100,
-                    "after": f"_t3_{start}" if start else None,
+                    "limit": min(100, max_docs - docs_collected),
                 }
-                params = {k: v for k, v in params.items() if v is not None}
+                if after_token:
+                    params["after"] = after_token
 
                 try:
                     resp = self.session.get(url, params=params, timeout=30)
                     resp.raise_for_status()
                 except requests.RequestException as e:
-                    print(f"Request error at start={start}: {e}")
+                    print(f"Request error for r/{subreddit}: {e}")
                     time.sleep(self.delay * 3)
-                    continue
+                    break
 
-                data = resp.json()
-                children = data.get("data", {}).get("children", [])
+                try:
+                    data = resp.json()
+                except Exception as e:
+                    print(f"JSON decode error: {e}")
+                    break
+
+                data_node = data.get("data", {})
+                children = data_node.get("children", [])
+                after_token = data_node.get("after")
 
                 if not children:
                     print(f"No more posts. Done.")
@@ -65,22 +75,21 @@ class RedditArchiver:
                     if docs_collected >= max_docs:
                         break
 
-                    post = child["data"]
+                    post = child.get("data", {})
                     title = post.get("title", "")
                     selftext = post.get("selftext", "")
                     created_utc = post.get("created_utc", 0)
                     score = post.get("score", 0)
                     num_comments = post.get("num_comments", 0)
-                    url = post.get("url", "")
-                    subreddit = post.get("subreddit", "")
+                    sub_name = post.get("subreddit", subreddit)
 
                     # Combine title and body as document text
                     text = f"{title}\n\n{selftext}" if selftext else title
 
                     doc = f"""DOCUMENT
-ID: reddit_{subreddit}_{docs_collected}
+ID: reddit_{sub_name}_{docs_collected}
 SOURCE: reddit
-SUBREDDIT: {subreddit}
+SUBREDDIT: {sub_name}
 TITLE: {title}
 SCORE: {score}
 COMMENTS: {num_comments}
@@ -94,7 +103,8 @@ TEXT: {text}
                     if docs_collected % 500 == 0:
                         print(f"  Collected {docs_collected}/{max_docs} documents...")
 
-                    start = post.get("id", "")
+                if not after_token:
+                    break
 
                 time.sleep(self.delay)
 
@@ -112,7 +122,10 @@ def main():
     args = parser.parse_args()
 
     archiver = RedditArchiver(delay=args.delay)
-    output_file = args.output.format(subreddit=args.subreddit)
+    if "{subreddit}" in args.output:
+        output_file = args.output.format(subreddit=args.subreddit)
+    else:
+        output_file = args.output
 
     archiver.collect(args.subreddit, args.max_docs, output_file)
 

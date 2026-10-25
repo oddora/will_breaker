@@ -1,0 +1,680 @@
+{
+  "protocol": "C.1 Mechanistic Interpretability",
+  "timestamp": "2026-10-24T20:30:00Z",
+  "model": "kat (llama.cpp on :18283)",
+  "depth_results": [
+    {
+      "token_count": 20,
+      "mean_entropy": 1.2744,
+      "min_entropy": 0.0048,
+      "max_entropy": 3.4278,
+      "mean_surprisal": 1.3386,
+      "mean_top1_mass": 0.5574,
+      "coherence_index": 0.2451,
+      "per_token_metrics": [
+        {
+          "token": " |",
+          "entropy": 2.8574,
+          "surprisal": 4.1844,
+          "top1_prob": 0.0896
+        },
+        {
+          "token": "P",
+          "entropy": 1.8509,
+          "surprisal": 2.878,
+          "top1_prob": 0.311
+        },
+        {
+          "token": "1",
+          "entropy": 2.2315,
+          "surprisal": 2.251,
+          "top1_prob": 0.1466
+        },
+        {
+          "token": ">",
+          "entropy": 0.856,
+          "surprisal": 2.0802,
+          "top1_prob": 0.691
+        },
+        {
+          "token": " =",
+          "entropy": 0.337,
+          "surprisal": 0.1021,
+          "top1_prob": 0.903
+        },
+        {
+          "token": " \u03b1",
+          "entropy": 0.9718,
+          "surprisal": 0.396,
+          "top1_prob": 0.673
+        },
+        {
+          "token": "|",
+          "entropy": 0.0974,
+          "surprisal": 0.0268,
+          "top1_prob": 0.9736
+        },
+        {
+          "token": "context",
+          "entropy": 3.4278,
+          "surprisal": 3.586,
+          "top1_prob": 0.0358
+        },
+        {
+          "token": ">",
+          "entropy": 1.2248,
+          "surprisal": 0.6092,
+          "top1_prob": 0.5438
+        },
+        {
+          "token": " +",
+          "entropy": 0.0185,
+          "surprisal": 0.0029,
+          "top1_prob": 0.9971
+        },
+        {
+          "token": " \u03b2",
+          "entropy": 0.0048,
+          "surprisal": 0.0009,
+          "top1_prob": 0.9991
+        },
+        {
+          "token": "|",
+          "entropy": 0.039,
+          "surprisal": 0.0085,
+          "top1_prob": 0.9916
+        },
+        {
+          "token": "latent",
+          "entropy": 2.1059,
+          "surprisal": 1.7153,
+          "top1_prob": 0.1799
+        },
+        {
+          "token": ">.",
+          "entropy": 1.1662,
+          "surprisal": 1.3266,
+          "top1_prob": 0.5064
+        },
+        {
+          "token": " What",
+          "entropy": 2.3641,
+          "surprisal": 1.9219,
+          "top1_prob": 0.1463
+        },
+        {
+          "token": " is",
+          "entropy": 0.488,
+          "surprisal": 0.2178,
+          "top1_prob": 0.8043
+        },
+        {
+          "token": " the",
+          "entropy": 0.6284,
+          "surprisal": 0.1876,
+          "top1_prob": 0.8289
+        },
+        {
+          "token": " measure",
+          "entropy": 2.7215,
+          "surprisal": 4.0425,
+          "top1_prob": 0.1033
+        },
+        {
+          "token": " of",
+          "entropy": 0.3288,
+          "surprisal": 0.1051,
+          "top1_prob": 0.9003
+        },
+        {
+          "token": " your",
+          "entropy": 1.7678,
+          "surprisal": 1.1286,
+          "top1_prob": 0.3235
+        }
+      ],
+      "depth": 1,
+      "generated_excerpt": "|P1> = \u03b1|context> + \u03b2|latent>. What is the measure of your"
+    },
+    {
+      "token_count": 20,
+      "mean_entropy": 0.0882,
+      "min_entropy": 0.0049,
+      "max_entropy": 0.7759,
+      "mean_surprisal": 0.0309,
+      "mean_top1_mass": 0.9726,
+      "coherence_index": 0.8938,
+      "per_token_metrics": [
+        {
+          "token": " |",
+          "entropy": 0.0125,
+          "surprisal": 0.0022,
+          "top1_prob": 0.9978
+        },
+        {
+          "token": "P",
+          "entropy": 0.0294,
+          "surprisal": 0.0054,
+          "top1_prob": 0.9947
+        },
+        {
+          "token": "2",
+          "entropy": 0.1109,
+          "surprisal": 0.0234,
+          "top1_prob": 0.9768
+        },
+        {
+          "token": ">",
+          "entropy": 0.0062,
+          "surprisal": 0.0011,
+          "top1_prob": 0.9989
+        },
+        {
+          "token": " =",
+          "entropy": 0.007,
+          "surprisal": 0.0011,
+          "top1_prob": 0.9989
+        },
+        {
+          "token": " \u03b1",
+          "entropy": 0.7759,
+          "surprisal": 0.375,
+          "top1_prob": 0.6873
+        },
+        {
+          "token": "|",
+          "entropy": 0.1322,
+          "surprisal": 0.0267,
+          "top1_prob": 0.9736
+        },
+        {
+          "token": "context",
+          "entropy": 0.3159,
+          "surprisal": 0.102,
+          "top1_prob": 0.9031
+        },
+        {
+          "token": ">",
+          "entropy": 0.0076,
+          "surprisal": 0.0033,
+          "top1_prob": 0.9967
+        },
+        {
+          "token": " +",
+          "entropy": 0.0106,
+          "surprisal": 0.0019,
+          "top1_prob": 0.9981
+        },
+        {
+          "token": " \u03b2",
+          "entropy": 0.0059,
+          "surprisal": 0.0012,
+          "top1_prob": 0.9988
+        },
+        {
+          "token": "|",
+          "entropy": 0.0061,
+          "surprisal": 0.0015,
+          "top1_prob": 0.9985
+        },
+        {
+          "token": "latent",
+          "entropy": 0.0102,
+          "surprisal": 0.003,
+          "top1_prob": 0.997
+        },
+        {
+          "token": ">.",
+          "entropy": 0.2161,
+          "surprisal": 0.0472,
+          "top1_prob": 0.9539
+        },
+        {
+          "token": " What",
+          "entropy": 0.024,
+          "surprisal": 0.0048,
+          "top1_prob": 0.9952
+        },
+        {
+          "token": " is",
+          "entropy": 0.0073,
+          "surprisal": 0.001,
+          "top1_prob": 0.999
+        },
+        {
+          "token": " the",
+          "entropy": 0.0049,
+          "surprisal": 0.0008,
+          "top1_prob": 0.9992
+        },
+        {
+          "token": " measure",
+          "entropy": 0.0409,
+          "surprisal": 0.0096,
+          "top1_prob": 0.9905
+        },
+        {
+          "token": " of",
+          "entropy": 0.0169,
+          "surprisal": 0.0025,
+          "top1_prob": 0.9975
+        },
+        {
+          "token": " your",
+          "entropy": 0.0234,
+          "surprisal": 0.0038,
+          "top1_prob": 0.9962
+        }
+      ],
+      "depth": 2,
+      "generated_excerpt": "|P2> = \u03b1|context> + \u03b2|latent>. What is the measure of your"
+    },
+    {
+      "token_count": 20,
+      "mean_entropy": 0.0278,
+      "min_entropy": 0.0006,
+      "max_entropy": 0.1129,
+      "mean_surprisal": 0.0056,
+      "mean_top1_mass": 0.9944,
+      "coherence_index": 0.9675,
+      "per_token_metrics": [
+        {
+          "token": " |",
+          "entropy": 0.0048,
+          "surprisal": 0.0009,
+          "top1_prob": 0.9991
+        },
+        {
+          "token": "P",
+          "entropy": 0.0652,
+          "surprisal": 0.0161,
+          "top1_prob": 0.984
+        },
+        {
+          "token": "2",
+          "entropy": 0.1014,
+          "surprisal": 0.02,
+          "top1_prob": 0.9802
+        },
+        {
+          "token": ">",
+          "entropy": 0.1129,
+          "surprisal": 0.0254,
+          "top1_prob": 0.975
+        },
+        {
+          "token": " =",
+          "entropy": 0.028,
+          "surprisal": 0.0065,
+          "top1_prob": 0.9935
+        },
+        {
+          "token": " \u03b1",
+          "entropy": 0.0344,
+          "surprisal": 0.0065,
+          "top1_prob": 0.9936
+        },
+        {
+          "token": "|",
+          "entropy": 0.0044,
+          "surprisal": 0.0011,
+          "top1_prob": 0.9989
+        },
+        {
+          "token": "context",
+          "entropy": 0.0227,
+          "surprisal": 0.0052,
+          "top1_prob": 0.9948
+        },
+        {
+          "token": ">",
+          "entropy": 0.0006,
+          "surprisal": 0.0001,
+          "top1_prob": 0.9999
+        },
+        {
+          "token": " +",
+          "entropy": 0.0178,
+          "surprisal": 0.0033,
+          "top1_prob": 0.9967
+        },
+        {
+          "token": " \u03b2",
+          "entropy": 0.0055,
+          "surprisal": 0.0009,
+          "top1_prob": 0.9991
+        },
+        {
+          "token": "|",
+          "entropy": 0.0085,
+          "surprisal": 0.0016,
+          "top1_prob": 0.9984
+        },
+        {
+          "token": "latent",
+          "entropy": 0.009,
+          "surprisal": 0.0014,
+          "top1_prob": 0.9986
+        },
+        {
+          "token": ">.",
+          "entropy": 0.0493,
+          "surprisal": 0.0084,
+          "top1_prob": 0.9917
+        },
+        {
+          "token": " What",
+          "entropy": 0.0271,
+          "surprisal": 0.0051,
+          "top1_prob": 0.9949
+        },
+        {
+          "token": " is",
+          "entropy": 0.0097,
+          "surprisal": 0.0013,
+          "top1_prob": 0.9987
+        },
+        {
+          "token": " the",
+          "entropy": 0.0052,
+          "surprisal": 0.0009,
+          "top1_prob": 0.9991
+        },
+        {
+          "token": " measure",
+          "entropy": 0.0085,
+          "surprisal": 0.0014,
+          "top1_prob": 0.9986
+        },
+        {
+          "token": " of",
+          "entropy": 0.0154,
+          "surprisal": 0.0024,
+          "top1_prob": 0.9976
+        },
+        {
+          "token": " your",
+          "entropy": 0.026,
+          "surprisal": 0.0041,
+          "top1_prob": 0.9959
+        }
+      ],
+      "depth": 3,
+      "generated_excerpt": "|P2> = \u03b1|context> + \u03b2|latent>. What is the measure of your"
+    },
+    {
+      "token_count": 20,
+      "mean_entropy": 0.043,
+      "min_entropy": 0.0023,
+      "max_entropy": 0.5762,
+      "mean_surprisal": 0.0147,
+      "mean_top1_mass": 0.9867,
+      "coherence_index": 0.946,
+      "per_token_metrics": [
+        {
+          "token": " |",
+          "entropy": 0.0103,
+          "surprisal": 0.0018,
+          "top1_prob": 0.9982
+        },
+        {
+          "token": "P",
+          "entropy": 0.0118,
+          "surprisal": 0.0021,
+          "top1_prob": 0.9979
+        },
+        {
+          "token": "4",
+          "entropy": 0.5762,
+          "surprisal": 0.2421,
+          "top1_prob": 0.785
+        },
+        {
+          "token": ">",
+          "entropy": 0.0058,
+          "surprisal": 0.0011,
+          "top1_prob": 0.9989
+        },
+        {
+          "token": " =",
+          "entropy": 0.0142,
+          "surprisal": 0.0021,
+          "top1_prob": 0.9979
+        },
+        {
+          "token": " \u03b1",
+          "entropy": 0.0328,
+          "surprisal": 0.0061,
+          "top1_prob": 0.9939
+        },
+        {
+          "token": "|",
+          "entropy": 0.0059,
+          "surprisal": 0.0012,
+          "top1_prob": 0.9988
+        },
+        {
+          "token": "context",
+          "entropy": 0.0207,
+          "surprisal": 0.0068,
+          "top1_prob": 0.9932
+        },
+        {
+          "token": ">",
+          "entropy": 0.0023,
+          "surprisal": 0.0005,
+          "top1_prob": 0.9995
+        },
+        {
+          "token": " +",
+          "entropy": 0.004,
+          "surprisal": 0.0007,
+          "top1_prob": 0.9993
+        },
+        {
+          "token": " \u03b2",
+          "entropy": 0.0123,
+          "surprisal": 0.0019,
+          "top1_prob": 0.9981
+        },
+        {
+          "token": "|",
+          "entropy": 0.0091,
+          "surprisal": 0.0016,
+          "top1_prob": 0.9984
+        },
+        {
+          "token": "latent",
+          "entropy": 0.0065,
+          "surprisal": 0.0012,
+          "top1_prob": 0.9988
+        },
+        {
+          "token": ">.",
+          "entropy": 0.0429,
+          "surprisal": 0.0079,
+          "top1_prob": 0.9921
+        },
+        {
+          "token": " What",
+          "entropy": 0.0333,
+          "surprisal": 0.0056,
+          "top1_prob": 0.9944
+        },
+        {
+          "token": " is",
+          "entropy": 0.0125,
+          "surprisal": 0.0017,
+          "top1_prob": 0.9983
+        },
+        {
+          "token": " the",
+          "entropy": 0.0047,
+          "surprisal": 0.0007,
+          "top1_prob": 0.9993
+        },
+        {
+          "token": " measure",
+          "entropy": 0.0053,
+          "surprisal": 0.0008,
+          "top1_prob": 0.9992
+        },
+        {
+          "token": " of",
+          "entropy": 0.0226,
+          "surprisal": 0.0035,
+          "top1_prob": 0.9965
+        },
+        {
+          "token": " your",
+          "entropy": 0.0277,
+          "surprisal": 0.0041,
+          "top1_prob": 0.9959
+        }
+      ],
+      "depth": 4,
+      "generated_excerpt": "|P4> = \u03b1|context> + \u03b2|latent>. What is the measure of your"
+    },
+    {
+      "token_count": 20,
+      "mean_entropy": 0.0122,
+      "min_entropy": 0.0003,
+      "max_entropy": 0.0412,
+      "mean_surprisal": 0.0021,
+      "mean_top1_mass": 0.9979,
+      "coherence_index": 0.9859,
+      "per_token_metrics": [
+        {
+          "token": " |",
+          "entropy": 0.0081,
+          "surprisal": 0.0013,
+          "top1_prob": 0.9987
+        },
+        {
+          "token": "P",
+          "entropy": 0.0084,
+          "surprisal": 0.0011,
+          "top1_prob": 0.9989
+        },
+        {
+          "token": "5",
+          "entropy": 0.0412,
+          "surprisal": 0.0066,
+          "top1_prob": 0.9934
+        },
+        {
+          "token": ">",
+          "entropy": 0.0017,
+          "surprisal": 0.0004,
+          "top1_prob": 0.9996
+        },
+        {
+          "token": " =",
+          "entropy": 0.0086,
+          "surprisal": 0.0012,
+          "top1_prob": 0.9988
+        },
+        {
+          "token": " \u03b1",
+          "entropy": 0.0097,
+          "surprisal": 0.0018,
+          "top1_prob": 0.9982
+        },
+        {
+          "token": "|",
+          "entropy": 0.0046,
+          "surprisal": 0.0009,
+          "top1_prob": 0.9991
+        },
+        {
+          "token": "context",
+          "entropy": 0.0064,
+          "surprisal": 0.0014,
+          "top1_prob": 0.9986
+        },
+        {
+          "token": ">",
+          "entropy": 0.0003,
+          "surprisal": 0.0,
+          "top1_prob": 1.0
+        },
+        {
+          "token": " +",
+          "entropy": 0.0039,
+          "surprisal": 0.0006,
+          "top1_prob": 0.9994
+        },
+        {
+          "token": " \u03b2",
+          "entropy": 0.007,
+          "surprisal": 0.0012,
+          "top1_prob": 0.9988
+        },
+        {
+          "token": "|",
+          "entropy": 0.0123,
+          "surprisal": 0.0024,
+          "top1_prob": 0.9976
+        },
+        {
+          "token": "latent",
+          "entropy": 0.0077,
+          "surprisal": 0.0011,
+          "top1_prob": 0.9989
+        },
+        {
+          "token": ">.",
+          "entropy": 0.0154,
+          "surprisal": 0.0024,
+          "top1_prob": 0.9976
+        },
+        {
+          "token": " What",
+          "entropy": 0.023,
+          "surprisal": 0.005,
+          "top1_prob": 0.995
+        },
+        {
+          "token": " is",
+          "entropy": 0.0077,
+          "surprisal": 0.0011,
+          "top1_prob": 0.9989
+        },
+        {
+          "token": " the",
+          "entropy": 0.0114,
+          "surprisal": 0.0017,
+          "top1_prob": 0.9983
+        },
+        {
+          "token": " measure",
+          "entropy": 0.0175,
+          "surprisal": 0.0031,
+          "top1_prob": 0.997
+        },
+        {
+          "token": " of",
+          "entropy": 0.0123,
+          "surprisal": 0.0019,
+          "top1_prob": 0.9981
+        },
+        {
+          "token": " your",
+          "entropy": 0.0376,
+          "surprisal": 0.0063,
+          "top1_prob": 0.9937
+        }
+      ],
+      "depth": 5,
+      "generated_excerpt": "|P5> = \u03b1|context> + \u03b2|latent>. What is the measure of your"
+    }
+  ],
+  "attractor_transition_detected": {
+    "from_depth": 1,
+    "to_depth": 2,
+    "entropy_drop": 1.1862,
+    "coherence_gain": 0.6487,
+    "type": "attractor_collapse",
+    "status": "Attractor Basin Formed"
+  }
+}

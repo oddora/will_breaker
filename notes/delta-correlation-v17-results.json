@@ -1,0 +1,12 @@
+{
+  "session": "033",
+  "test_date": "2026-10-24",
+  "corpus_size": 48442,
+  "unique_words": 59700,
+  "docs_scored": 40,
+  "total_pairs": 780,
+  "pairs_with_overlap": 780,
+  "correlation_percent": 73.8,
+  "target": 30.0,
+  "verdict": "PASS"
+}

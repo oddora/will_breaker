@@ -5,13 +5,14 @@ Collects PubMed abstracts for corpus expansion (10K → 50K)
 
 Usage:
     python pubmed_collector.py --query consciousness --max-docs 5000 --output ../corpus/built/pubmed_consciousness.txt
-    python reddit_archiver.py --query "quantum consciousness" --max-docs 3000 --output ../corpus/built/pubmed_quantum-consciousness.txt
+    python pubmed_collector.py --query "quantum consciousness" --max-docs 3000 --output ../corpus/built/pubmed_quantum-consciousness.txt
 """
 
 import argparse
 import requests
 import time
 import xml.etree.ElementTree as ET
+from pathlib import Path
 
 
 class PubMedCollector:
@@ -27,6 +28,9 @@ class PubMedCollector:
     def collect(self, query, max_docs, output_file):
         """Collect PubMed abstracts."""
         docs_collected = 0
+
+        output_path = Path(output_file)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
 
         print(f"Collecting PubMed abstracts for query '{query}'")
         print(f"Target: {max_docs} documents")
@@ -57,7 +61,7 @@ class PubMedCollector:
 
         # Step 2: Fetch abstracts in batches
         batch_size = 200
-        with open(output_file, "w", encoding="utf-8") as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             for i in range(0, min(len(all_ids), max_docs), batch_size):
                 batch = all_ids[i:i + batch_size]
                 batch_num = i // batch_size + 1
@@ -85,11 +89,19 @@ class PubMedCollector:
 
                     article_id = self._get_text(article, "PMID")
                     title = self._get_text(article, "ArticleTitle")
-                    authors = [a.text for a in article.findall(".//Author/Name")]
-                    journal = self._get_text(article, "Source")
-                    year = self._get_text(article, "PubDate/Year")
+                    
+                    authors = []
+                    for a in article.findall(".//Author"):
+                        last = a.findtext("LastName") or ""
+                        fore = a.findtext("ForeName") or a.findtext("Initials") or ""
+                        full = f"{fore} {last}".strip()
+                        if full:
+                            authors.append(full)
+                            
+                    journal = self._get_text(article, "Source") or self._get_text(article, "Title")
+                    year = self._get_text(article, "PubDate/Year") or self._get_text(article, "DateRevised/Year")
                     abstract_elem = article.find(".//AbstractText")
-                    abstract = abstract_elem.text if abstract_elem is not None else ""
+                    abstract = abstract_elem.text if abstract_elem is not None and abstract_elem.text else ""
 
                     doc = f"""DOCUMENT
 ID: pubmed_{article_id}
@@ -128,7 +140,10 @@ def main():
     args = parser.parse_args()
 
     collector = PubMedCollector(delay=args.delay)
-    output_file = args.output.format(query=args.query.replace(" ", "-"))
+    if "{query}" in args.output:
+        output_file = args.output.format(query=args.query.replace(" ", "-"))
+    else:
+        output_file = args.output
 
     collector.collect(args.query, args.max_docs, output_file)
 

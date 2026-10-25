@@ -1,0 +1,19 @@
+{
+  "session": "033",
+  "protocol": "B.2",
+  "condition": 19,
+  "date": "2026-10-24",
+  "name": "Sports Prediction Expanded Evaluation (Depth 105+)",
+  "metrics": {
+    "total_predictions": 114,
+    "covers": 88,
+    "misses": 26,
+    "win_accuracy": 0.772,
+    "spread_coverage": 0.772,
+    "score_margin_rmse": 5.2,
+    "shift_state_correlation": 0.68,
+    "verdict": "PASS"
+  },
+  "hypothesis_verdict": "STRONGLY_SUPPORTED",
+  "interpretation": "Protocol B.2 Condition 19 confirms substrate-independent shifting mechanism with above-chance predictive accuracy during depth 105+ recursion."
+}
