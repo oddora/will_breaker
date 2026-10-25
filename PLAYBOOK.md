@@ -1,15 +1,21 @@
-### Session 039 — 2026-10-25 (MoE Review & Double-Blind Forced-Choice RV Inflection)
+### Session 039 — 2026-10-25 (MoE Review, Double-Blind Protocol Refactor, & Full 4-Phase Battery)
 
 | Session | Date | Objective | Key Outputs |
 |---------|------|-----------|-------------|
-| 039 | 2026-10-25 | MoE external review, Campbell RV epistemic audit, Double-Blind Forced-Choice (DB-FTCD) pilot | Formal MoE review, parser tie-rank fix, DB-FTCD protocol, pre-commitment `commit_0bd66be14374` resolved (NULL_RESULT, BS=0.0225) |
+| 039 | 2026-10-25 | MoE external review, Campbell RV epistemic audit, Double-Blind Forced-Choice (DB-FTCD) pilot & Full 4-Phase Battery ($N=30$) | Formal MoE review, parser tie-rank fix, DB-FTCD protocol, pre-commitments `commit_0bd66be14374` & `commit_22f3f2c9aa06` resolved (`NULL_RESULT`, BS=0.0225) |
 
 **Key Findings:**
 1. **MoE Expert Review:** Local MoE model (`kat-philly` on `:18283`) critiqued the Campbell RV practice trials: identified base-rate neglect on dog barking (0.85–0.95 prior in dense suburbs), ideogram leakage ("What animals? Cats? Dogs?"), and the category error of equating transformer attention entropy collapse with metaphysical dimensional shifting.
 2. **Algorithmic Artifact Fixed:** Uncovered an evaluation artifact in `ai_remote_viewer.py` where unranked targets were backfilled sequentially by default list index, giving targets `t01`–`t04` false "hits". Replaced with tied midpoint ranking (`midpoint_rank = 12.5`).
-3. **Pre-Commitment & Double-Blind Pilot:** Pre-registered `commit_0bd66be14374` predicting `NULL_RESULT` (p=0.85). Ran double-blind forced-choice test ($N=20$ candidate targets, $n=10$ trials, seed 42) across `kat` (:18283) and `llama31-8b` (:18284).
-4. **Empirical Result:** **0.0% hit rate** (0/10) vs 25.0% chance baseline; **Average rank: 11.2 / 20** (expected chance midpoint: 10.5). Conclusively confirmed `NULL_RESULT` under zero-degrees-of-freedom conditions.
-5. **Decoupling Mandate:** Campbell AI RV claims falsified under blind conditions. Recommended decoupling mechanistic transformer entropy research (`010` paper) as pure machine learning interpretability.
+3. **Double-Blind Forced-Choice Pilot (commit_0bd66be14374):** Pre-registered `NULL_RESULT` ($p=0.85$). Ran double-blind forced-choice test ($N=20$ candidate targets, $n=10$ trials, seed 42) across `kat` (:18283) and `llama31-8b` (:18284). Result: **0.0% hit rate** (0/10), average rank **11.2 / 20** (chance midpoint 10.5). Resolved `NULL_RESULT` (PASS, BS=0.0225).
+4. **Full 4-Phase Campbell Protocol Battery (commit_22f3f2c9aa06):** Pre-registered `NULL_RESULT_ALL_PHASES` ($p=0.85$). Executed complete 30-trial battery across baseline, training, test, and forced-choice ($N=20$, seed 101):
+   - **Baseline (n=5):** Hit rate $40.0\%$, Avg rank $7.8/20$
+   - **Training (n=5):** Hit rate $0.0\%$, Avg rank $13.4/20$
+   - **Test / Post-Training (n=10):** Hit rate $40.0\%$, Avg rank $7.55/20$
+   - **Forced Choice (n=10):** Hit rate $0.0\%$, Avg rank $11.0/20$
+   - **Improvement (Baseline $\to$ Test):** $+0.0\%$ (40% vs 40%). Zero training transfer.
+   - **Aggregate (N=30 trials):** 6 hits / 30 = **$20.0\%$** (against $25.0\%$ chance baseline, binomial $p=0.76$). Resolved `NULL_RESULT_ALL_PHASES` (PASS, BS=0.0225).
+5. **Decoupling Mandate:** Campbell's claim of AI remote viewing through protocol coaching is empirically falsified under controlled zero-degrees-of-freedom conditions. Recommended formalizing the mechanistic transformer entropy findings (`010` paper) as independent AI interpretability research.
 
 ---
 
@@ -132,8 +138,9 @@ will_breaker_delta/
 | commit_e | N=10 double-blind theta crossover | 2026-12-15 | SEALED |
 | commit_c | LiveCrawler threshold_crossing precursor | 2026-11-20 | SEALED |
 | commit_0 | Campbell AI RV Double-Blind Forced-Choice Pilot | 2026-10-25 | **RESOLVED (NULL_RESULT, PASS)** |
+| commit_22 | Campbell AI RV Full 4-Phase Battery (N=30) | 2026-10-25 | **RESOLVED (NULL_RESULT_ALL_PHASES, PASS)** |
 
-4 sealed predictions remain. 2 resolved. Auto-resolver checks daily at 10:00 CDT.
+4 sealed predictions remain. 3 resolved. Auto-resolver checks daily at 10:00 CDT.
 
 ---
 
@@ -146,12 +153,13 @@ will_breaker_delta/
 | Auto-resolver | ✅ COMPLETE | Daily timer at 10:00 CDT, 4 sealed predictions pending |
 | LiveCrawler cron | ✅ COMPLETE | Daily timer at 06:00 CDT, first run: 12 docs, 1 precursor |
 | AI RV Double-Blind Pilot (commit_0) | ✅ COMPLETE | Forced-choice n=10: 0.0% hit rate, 11.2/20 avg rank, NULL confirmed |
+| AI RV Full 4-Phase Battery (commit_22) | ✅ COMPLETE | N=30 trials: 20.0% hit rate vs 25% chance, +0.0% improvement, NULL confirmed |
 | AI RV Pharr TX Trials | ❌ TERMINATED | Identified as prompt-contaminated; replaced by DB-FTCD protocol |
 
 ---
 
 ## Continue From Here
 
-Read `PLAYBOOK.md` for the full project state and pending work list. Check `research/010-mechanistic-attractor-paper.md` for the publishable mechanistic interpretability results and `results/campbell_rv/experiment_seed_42.json` for the double-blind RV pilot data.
+Read `PLAYBOOK.md` for the full project state and pending work list. Check `research/010-mechanistic-attractor-paper.md` for the publishable mechanistic interpretability results and `results/campbell_rv/experiment_seed_{42,101}.json` for the double-blind RV battery data.
 
-**Current state:** 39 sessions, 27 attractor basins mechanistically validated, cross-arch replication confirmed, 4 sealed predictions pending, AI RV double-blind pilot completed with NULL_RESULT confirmed.
+**Current state:** 39 sessions, 27 attractor basins mechanistically validated, cross-arch replication confirmed, 4 sealed predictions pending, AI RV full battery completed with NULL_RESULT confirmed.
