@@ -16,6 +16,7 @@ class StepType(Enum):
     INVOCATION = "invocation"           # e.g., recitation of formal formula
     OFFERING = "offering"               # e.g., incense, symbolic sacrifice
     DISMISSAL = "dismissal"             # e.g., license to depart
+    BINDING = "binding"                 # e.g., binding covenant, seal imposition
 
 
 class FailureMode(Enum):
@@ -152,6 +153,14 @@ class RitualEngine:
                 state.corruption_level += 0.05
             elif step.step_type == StepType.OFFERING:
                 state.circle_integrity -= (step.integrity_cost * 0.5)
+            elif step.step_type == StepType.CONSECRATION:
+                state.circle_integrity = min(1.0, state.circle_integrity + 0.05)
+            elif step.step_type == StepType.DISMISSAL:
+                state.corruption_level = max(0.0, state.corruption_level - 0.1)
+            elif step.step_type == StepType.BINDING:
+                state.circle_integrity -= step.integrity_cost
+                if schema.target_entity and schema.target_entity != "None":
+                    state.bound_entities.add(schema.target_entity)
 
             # Invariant Check: Circle integrity must remain >= min threshold
             if state.circle_integrity < schema.min_circle_integrity:

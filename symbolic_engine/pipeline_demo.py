@@ -17,9 +17,10 @@ sys.path.insert(0, str(base_dir))
 from symbolic_engine import (
     SigilGenerator, SigilConfig,
     RitualEngine, RitualSchema, RitualStep,
-    GoeticCorpus
+    GoeticCorpus,
+    LiturgicalCompiler, LiturgicalSlots, RiteType, WorldState
 )
-from symbolic_engine.ritual_engine import StepType, WorldState
+from symbolic_engine.ritual_engine import StepType
 
 
 def run_demo():
@@ -134,8 +135,61 @@ def run_demo():
     print(f"  Total Relationships (Links): {graph_data['metadata']['total_relationships']}")
     print(f"  Taxonomic Domains: {len(graph_data['metadata']['domains'])}")
 
+    # ---------------------------------------------------------
+    # STEP 5: Liturgical Slot-Filler Compilation (with KAT MoE)
+    # ---------------------------------------------------------
+    print(f"\n[STEP 5] Testing Liturgical Slot-Filler Compiler...")
+    compiler = LiturgicalCompiler()
+    endpoint_up = compiler.is_endpoint_available()
+    print(f"  KAT Endpoint Available (:18283): {endpoint_up}")
+
+    sample_intent = (
+        "Conduct a solar evocation of King Paimon at midday. "
+        "The adept uses consecrated chalk to trace the circle, a gold lamen, and burns frankincense to bind the spirit."
+    )
+
+    if endpoint_up:
+        print(f"  Sending Natural Language Intent to KAT...")
+        print(f"  Intent: \"{sample_intent}\"")
+        compile_res = compiler.compile_from_intent(sample_intent, timeout=60.0)
+    else:
+        print("  Using local deterministic slot definition (KAT offline)...")
+        sample_slots = {
+            "rite_type": "evocation",
+            "target_entity": "Paimon",
+            "officiant": "purified_adept",
+            "matter": ["consecrated_chalk", "gold_lamen", "frankincense"],
+            "form": ["solar_circle", "seal_paimon"],
+            "temporal_window": ["day"],
+            "formula_sequence": [
+                {"step_id": "s1", "step_type": "purification", "description": "Solar ablution", "required_item": None, "integrity_cost": 0.0},
+                {"step_id": "s2", "step_type": "inscription", "description": "Tracing solar circle", "required_item": "consecrated_chalk", "target_inscription": "solar_circle", "integrity_cost": 0.05},
+                {"step_id": "s3", "step_type": "offering", "description": "Burning frankincense", "required_item": "frankincense", "integrity_cost": 0.04},
+                {"step_id": "s4", "step_type": "invocation", "description": "Invoking King Paimon", "required_item": "gold_lamen", "target_inscription": "seal_paimon", "integrity_cost": 0.15},
+            ],
+        }
+        compile_res = compiler.compile(sample_slots)
+
+    print(f"  Compiler Result: Success={compile_res.success} (Source: {compile_res.source})")
+    if compile_res.success:
+        print(f"  Compiled Ritual Schema: {compile_res.schema.ritual_id} ('{compile_res.schema.name}')")
+        print(f"  Required Matter: {sorted(list(compile_res.schema.required_items))}")
+        print(f"  Allowed Hours: {sorted(list(compile_res.schema.allowed_temporal_hours))}")
+        print(f"  Steps ({len(compile_res.schema.steps)}): {[s.step_id for s in compile_res.schema.steps]}")
+
+        # Execute compiled schema
+        sim_state = WorldState(
+            circle_integrity=1.0,
+            temporal_hour="day",
+            inventory=set(compile_res.schema.required_items),
+        )
+        sim_res = compiler.execute(compile_res.schema, sim_state)
+        print(f"  Execution Status: {sim_res.status} (Valid: {sim_res.is_valid})")
+        print(f"  Bound Entities: {list(sim_res.final_world_state.bound_entities)}")
+        print(f"  Final Circle Integrity: {sim_res.final_world_state.circle_integrity:.2f}")
+
     print("\n" + "=" * 65)
-    print("ALL 3 PHASES COMPLETED SUCCESSFULLY")
+    print("ALL 5 PHASES COMPLETED SUCCESSFULLY")
     print("=" * 65)
 
 

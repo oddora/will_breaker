@@ -1,3 +1,25 @@
+### Session 041 — 2026-10-25 (Liturgical Slot-Filler Compiler with KAT MoE & Adversarial Fuzzing)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 041 | 2026-10-25 | Build KAT-Driven Liturgical Slot-Filler Compiler, canonical Goetic validation, & adversarial fuzzing battery | `symbolic_engine/liturgical_compiler.py`, StepType.BINDING & synonym resolution, `pipeline_demo.py` Phase 5, 7 new tests in `tests/test_liturgical_compiler.py` (34/34 passing repo total) |
+
+**Key Deliverables:**
+1. **Liturgical Slot-Filler Compiler ([`liturgical_compiler.py`](file:///home/comandante/will_breaker/symbolic_engine/liturgical_compiler.py)):** Formal slot-filling compiler transforming natural language ritual intents into typed `LiturgicalSlots` (`rite_type`, `target_entity`, `officiant`, `matter`, `form`, `temporal_window`, `formula_sequence`). Enforces historical Goetic correspondences (Kings require Gold and Day; Presidents require Mercury/brass and Twilight/Day; Marquis require Silver and Night).
+2. **MoE (KAT) Sidecar Integration:** Direct ChatML query pipeline to local 35B MoE (`kat` on `http://127.0.0.1:18283/v1/chat/completions`). Features markdown/think-token JSON extraction and a synonym normalization dictionary mapping grimoire vernacular (`binding`, `covenant`, `ablution`, `conjuration`) to canonical typed `StepType` enums.
+3. **Standard Instantiations Verified (T-01 to T-03):**
+   - **T-01 (Space Consecration):** Consecrates circle boundary using chalk and perimeter tracing; reaches `SAT_COMPLETED`.
+   - **T-02 (Solar Evocation of King Paimon):** Maps gold lamen, frankincense, and daytime zenith; validates 200 legions and royal rank; binds entity in `WorldState`.
+   - **T-03 (Mercurial Healing of President Buer):** Compiles laurel leaves and brass vessel at twilight; executes herbal healing rite.
+4. **Adversarial Batteries Verified (A-01 to A-03):**
+   - **A-01 (Missing Slots & Matter):** Accurately rejects empty matter, undeclared step dependencies, and runtime missing items with `PRECONDITION_UNMET`.
+   - **A-02 (Invalid Enums & Alignment Mismatch):** Catches invalid step/rite types and temporal misalignments (e.g., nocturnal evocation of a solar King).
+   - **A-03 (Invariant Degradation & Containment Breach):** Fuzzes high-stress sequential invocations; validates that circle integrity collapse below `min_circle_integrity` triggers `CONTAINMENT_BREACH` and liminal catastrophe state.
+5. **End-to-End Live Pipeline:** Updated [`pipeline_demo.py`](file:///home/comandante/will_breaker/symbolic_engine/pipeline_demo.py) with Step 5. Live queries KAT on `:18283`, compiles intent, and validates world-state state transitions.
+6. **Full Test Suite:** 7 new unit tests in [`tests/test_liturgical_compiler.py`](file:///home/comandante/will_breaker/tests/test_liturgical_compiler.py); 34/34 tests passing across the entire repository.
+
+---
+
 ### Session 040 — 2026-10-25 (Symbolic Engine: Procedural Sigils, Ritual State Machine, & Knowledge Graph)
 
 | Session | Date | Objective | Key Outputs |
