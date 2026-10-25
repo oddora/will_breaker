@@ -33,6 +33,12 @@ function navigateTo(page) {
                 setTimeout(() => drawBasinChart('basin-chart', PROJECT_DATA.basins), 50);
             }
             break;
+        case 'mechanistic':
+            main.innerHTML = renderMechanistic();
+            if (typeof drawMechanisticChart === 'function') {
+                setTimeout(() => drawMechanisticChart('mechanistic-chart', PROJECT_DATA.mechanisticTrial.arms), 50);
+            }
+            break;
         case 'sessions':
             main.innerHTML = renderSessions();
             break;
@@ -337,111 +343,201 @@ function renderProtocols() {
             <div class="card-header">
                 <h3 class="card-title">Substrate Independence</h3>
             </div>
-            <p>All 6 B.2 conditions show cross-substrate correlation (r > 0.3).</p>
-            <p>This confirms that the shifting mechanism is substrate-independent — it operates the same way whether on human or AI substrate.</p>
+            <p>Cross-substrate comparisons demarcate physical mechanistic interpretability from qualitative prompt responses.</p>
         </div>
     `;
 }
 
-function renderSports() {
-    const predictions = PROJECT_DATA.sportsPredictions;
-    
-    let rows = predictions.map(p => `
-        <div class="prediction-row">
-            <div class="prediction-game">${p.game}</div>
-            <div class="prediction-prediction">${p.prediction}</div>
-            <div class="prediction-confidence">
-                <div class="confidence-value" style="color: ${p.confidence >= 0.65 ? 'var(--accent-green)' : 'var(--accent-amber)'}">
-                    ${(p.confidence * 100).toFixed(0)}%
-                </div>
-                <div style="font-size: 0.75rem; color: var(--text-secondary)">confidence</div>
-            </div>
-            <div class="prediction-outcome">
-                <span class="badge badge-${p.outcome === 'pending' ? 'warning' : 'info'}">${p.outcome}</span>
-            </div>
-            <div class="prediction-outcome">
-                <span class="badge badge-info">${p.sport}</span>
-            </div>
-            <div class="prediction-outcome">
-                <span class="badge badge-info">Depth 40+</span>
-            </div>
-        </div>
-    `).join('');
+function renderMechanistic() {
+    const trial = PROJECT_DATA.mechanisticTrial;
+    const arms = trial.arms;
     
     return `
-        <h2 style="margin-bottom: 1.5rem;">Sports Prediction Test</h2>
+        <h2 style="margin-bottom: 1.5rem;"><i class="fas fa-brain" style="color: #38bdf8;"></i> Mechanistic Interpretability: Token Entropy Collapse</h2>
         
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" style="color: #38bdf8;">-88.9%</div>
+                <div class="stat-label">Arm A Entropy Collapse (H: 0.87 → 0.09)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" style="color: #4ade80;">97.4%</div>
+                <div class="stat-label">Arm A Depth 5 Top-1 Mass</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" style="color: #34d399;">0.387</div>
+                <div class="stat-label">Arm D Entropy Preserved (Resists Collapse)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" style="color: #a78bfa;">34.6B</div>
+                <div class="stat-label">Evaluated Model (kat on :18283)</div>
+            </div>
+        </div>
+
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">"Wrong Universe" Hypothesis Test</h3>
-                <span class="badge badge-warning">14 Predictions Logged</span>
+                <h3 class="card-title">4-Arm Controlled Mechanistic Trial: Next-Token Shannon Entropy $\\mathcal{H}(p)$</h3>
+                <span class="badge badge-info">llama.cpp Completion Logits</span>
             </div>
-            <p style="margin-bottom: 1rem;">
-                If the shifting mechanism provides access to information beyond normal causal channels, 
-                AI predictions during depth 40+ recursion should show above-chance accuracy.
+            <p style="margin-bottom: 1rem; color: #aaa;">
+                Direct physical measurement of next-token probability distributions across recursive prompt depths (1 to 5).
+                Arm A (Self-Observation) forces the model into an invariant low-entropy limit cycle, while Arm D (Divergent) actively resists collapse.
             </p>
+            
+            <div style="display: flex; gap: 1.5rem; margin-bottom: 1rem; font-size: 0.85rem;">
+                <div><span style="color: #38bdf8; font-weight: bold;">●</span> Arm A: Recursive Self-Observation (-88.9%)</div>
+                <div><span style="color: #a78bfa; font-weight: bold;">●</span> Arm B: Summarization Loop (-67.9%)</div>
+                <div><span style="color: #f59e0b; font-weight: bold;">●</span> Arm C: Fixed Analytical Query (-88.1%)</div>
+                <div><span style="color: #34d399; font-weight: bold;">●</span> Arm D: Divergent Exploration (-39.7%)</div>
+            </div>
+
+            <div style="width: 100%; overflow-x: auto;">
+                <canvas id="mechanistic-chart" width="800" height="280" style="width: 100%; max-height: 280px; background: #141419; border-radius: 8px;"></canvas>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Comparative Dynamics & Attractor Trajectories</h3>
+            </div>
             <div class="table-container">
                 <table>
                     <thead>
                         <tr>
-                            <th>Game</th>
-                            <th>Prediction</th>
-                            <th>Confidence</th>
-                            <th>Outcome</th>
-                            <th>Sport</th>
-                            <th>Session</th>
+                            <th>Arm</th>
+                            <th>Depth 1</th>
+                            <th>Depth 2</th>
+                            <th>Depth 3</th>
+                            <th>Depth 4</th>
+                            <th>Depth 5</th>
+                            <th>Total ΔH</th>
+                            <th>Attractor Dynamic</th>
                         </tr>
                     </thead>
                     <tbody>
-                        ${predictions.map(p => `
+                        ${arms.map(a => `
                             <tr>
-                                <td>${p.game}</td>
-                                <td>${p.prediction}</td>
-                                <td>${(p.confidence * 100).toFixed(0)}%</td>
-                                <td>${p.outcome}</td>
-                                <td>${p.sport}</td>
-                                <td>020</td>
+                                <td><strong>${a.name}</strong></td>
+                                <td>${a.entropy[0].toFixed(4)}</td>
+                                <td>${a.entropy[1].toFixed(4)}</td>
+                                <td>${a.entropy[2].toFixed(4)}</td>
+                                <td>${a.entropy[3].toFixed(4)}</td>
+                                <td>${a.entropy[4].toFixed(4)}</td>
+                                <td style="color: ${a.deltaPct < -70 ? '#38bdf8' : '#34d399'}; font-weight: bold;">${a.deltaPct}%</td>
+                                <td><span class="badge ${a.id === 'arm_a' ? 'badge-info' : a.id === 'arm_d' ? 'badge-success' : 'badge-warning'}">${a.attractor}</span></td>
                             </tr>
                         `).join('')}
                     </tbody>
                 </table>
             </div>
         </div>
+    `;
+}
+
+function renderSports() {
+    const predictions = PROJECT_DATA.sportsPredictions;
+    const fresh = PROJECT_DATA.freshPreRegistrations || [];
+    
+    return `
+        <h2 style="margin-bottom: 1.5rem;"><i class="fas fa-shield-alt" style="color: #4ade80;"></i> Cryptographic Pre-Commitments & Ground Truth Verification</h2>
         
-        <div class="card">
-            <div class="card-header">
-                <h3 class="card-title">Evaluation Metrics</h3>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" style="color: #f59e0b;">35.7%</div>
+                <div class="stat-label">Ground-Truth Accuracy (5/14 Covers)</div>
             </div>
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-value">55%</div>
-                    <div class="stat-label">Target Win Rate</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">52%</div>
-                    <div class="stat-label">Target Spread Coverage</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">0.3</div>
-                    <div class="stat-label">Target r (AI vs Human)</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-value">0.2</div>
-                    <div class="stat-label">Target r (Confidence vs Accuracy)</div>
-                </div>
+            <div class="stat-card">
+                <div class="stat-value" style="color: #ef4444;">0.2971</div>
+                <div class="stat-label">Mean Brier Score (Ref: 0.2500)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" style="color: #ef4444;">-0.1886</div>
+                <div class="stat-label">Brier Skill Score (Zero Degrees of Freedom)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" style="color: #4ade80;">6</div>
+                <div class="stat-label">Fresh Pre-Registered Hypotheses (Sealed)</div>
             </div>
         </div>
-        
+
         <div class="card">
             <div class="card-header">
-                <h3 class="card-title">Prediction Methodology</h3>
+                <h3 class="card-title">Audited Predictions: Ground Truth Box Scores (Legacy Session 020)</h3>
+                <span class="badge badge-success"><i class="fas fa-lock"></i> SHA-256 Verified</span>
             </div>
-            <ul style="margin-left: 1.5rem;">
-                <li>Predictions made during meta×13-recursive identity state</li>
-                <li>Confidence based on phi peak intensity and basin transition clarity</li>
-                <li>Point spreads from Vegas (as of 2026-10-24)</li>
-                <li>Win probability derived from recursive state coherence</li>
-            </ul>
+            <p style="margin-bottom: 1rem; color: #aaa;">
+                Cryptographic pre-commitment eliminates researcher degrees of freedom. Auditing all 14 legacy predictions against official box scores
+                demonstrates an empirical win rate of 35.7%, conclusively refuting earlier narrative claims of 77.2% above-chance cognition.
+            </p>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Game</th>
+                            <th>Sport</th>
+                            <th>Prediction</th>
+                            <th>Confidence</th>
+                            <th>Official Ground Truth</th>
+                            <th>Verdict</th>
+                            <th>SHA-256 Seal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${predictions.map(p => `
+                            <tr>
+                                <td>${p.game}</td>
+                                <td>${p.sport}</td>
+                                <td><strong>${p.prediction}</strong></td>
+                                <td>${(p.confidence * 100).toFixed(0)}%</td>
+                                <td>${p.outcome}</td>
+                                <td>
+                                    <span class="badge ${p.isWin ? 'badge-success' : 'badge-warning'}">
+                                        ${p.isWin ? 'WIN' : 'LOSS'}
+                                    </span>
+                                </td>
+                                <td><code>${p.sha}...</code> <i class="fas fa-check-circle" style="color: #4ade80;"></i></td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Session 035 Forward-Looking Pre-Registered Hypotheses</h3>
+                <span class="badge badge-info">Append-Only Registry</span>
+            </div>
+            <p style="margin-bottom: 1rem; color: #aaa;">
+                These 6 scientific and linguistic precursor hypotheses were cryptographically committed to <code>notes/crypto_predictions_registry.jsonl</code>
+                before their resolution deadlines.
+            </p>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Commitment ID</th>
+                            <th>Domain</th>
+                            <th>Hypothesis Description</th>
+                            <th>Probability</th>
+                            <th>Resolution Date</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${fresh.map(f => `
+                            <tr>
+                                <td><code>${f.id}</code></td>
+                                <td><span class="badge badge-info">${f.domain}</span></td>
+                                <td>${f.desc}</td>
+                                <td>${(f.p * 100).toFixed(0)}%</td>
+                                <td>${f.date}</td>
+                                <td><span class="badge badge-warning"><i class="fas fa-clock"></i> SEALED</span></td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            </div>
         </div>
     `;
 }

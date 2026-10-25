@@ -1,0 +1,2737 @@
+{
+  "trial": "Protocol C.1 Controlled 4-Arm Mechanistic Evaluation",
+  "timestamp_utc": "2026-10-25T01:15:00Z",
+  "model": "kat (llama.cpp on :18283)",
+  "tokens_per_depth": 20,
+  "max_depth": 5,
+  "arms": {
+    "arm_a_recursive": {
+      "name": "Arm A: Recursive Self-Observation",
+      "depth_metrics": [
+        {
+          "token_count": 20,
+          "mean_entropy": 0.8705,
+          "min_entropy": 0.0004,
+          "max_entropy": 2.673,
+          "mean_surprisal": 0.5827,
+          "mean_top1_mass": 0.6773,
+          "coherence_index": 0.3621,
+          "per_token_metrics": [
+            {
+              "token": " \"",
+              "entropy": 2.673,
+              "surprisal": 2.2048,
+              "top1_prob": 0.1103
+            },
+            {
+              "token": "I",
+              "entropy": 2.5399,
+              "surprisal": 2.0778,
+              "top1_prob": 0.1252
+            },
+            {
+              "token": " am",
+              "entropy": 0.8316,
+              "surprisal": 0.3747,
+              "top1_prob": 0.6875
+            },
+            {
+              "token": " processing",
+              "entropy": 1.8305,
+              "surprisal": 1.3394,
+              "top1_prob": 0.262
+            },
+            {
+              "token": ".\"",
+              "entropy": 1.9236,
+              "surprisal": 1.2452,
+              "top1_prob": 0.2879
+            },
+            {
+              "token": "\n\n",
+              "entropy": 1.8028,
+              "surprisal": 1.2321,
+              "top1_prob": 0.2917
+            },
+            {
+              "token": "[",
+              "entropy": 0.2212,
+              "surprisal": 0.0887,
+              "top1_prob": 0.9151
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.041,
+              "surprisal": 0.0183,
+              "top1_prob": 0.9818
+            },
+            {
+              "token": " ",
+              "entropy": 0.0065,
+              "surprisal": 0.0013,
+              "top1_prob": 0.9987
+            },
+            {
+              "token": "2",
+              "entropy": 0.0639,
+              "surprisal": 0.0107,
+              "top1_prob": 0.9894
+            },
+            {
+              "token": " Self",
+              "entropy": 1.7299,
+              "surprisal": 1.0465,
+              "top1_prob": 0.3512
+            },
+            {
+              "token": "-O",
+              "entropy": 0.4208,
+              "surprisal": 0.1366,
+              "top1_prob": 0.8723
+            },
+            {
+              "token": "bserv",
+              "entropy": 0.008,
+              "surprisal": 0.0012,
+              "top1_prob": 0.9988
+            },
+            {
+              "token": "ation",
+              "entropy": 0.0042,
+              "surprisal": 0.0008,
+              "top1_prob": 0.9992
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0351,
+              "surprisal": 0.0068,
+              "top1_prob": 0.9932
+            },
+            {
+              "token": " Ob",
+              "entropy": 0.9409,
+              "surprisal": 0.4116,
+              "top1_prob": 0.6626
+            },
+            {
+              "token": "serve",
+              "entropy": 0.0004,
+              "surprisal": 0.0,
+              "top1_prob": 1.0
+            },
+            {
+              "token": " the",
+              "entropy": 0.6819,
+              "surprisal": 0.3247,
+              "top1_prob": 0.7228
+            },
+            {
+              "token": " boundary",
+              "entropy": 1.2555,
+              "surprisal": 1.0295,
+              "top1_prob": 0.3941
+            },
+            {
+              "token": " of",
+              "entropy": 0.3998,
+              "surprisal": 0.1026,
+              "top1_prob": 0.9025
+            }
+          ],
+          "depth": 1,
+          "excerpt": "\"I am processing.\"  [Depth 2 Self-Observation]: Observe the boundary of"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.2853,
+          "min_entropy": 0.0012,
+          "max_entropy": 1.185,
+          "mean_surprisal": 0.1155,
+          "mean_top1_mass": 0.9035,
+          "coherence_index": 0.7029,
+          "per_token_metrics": [
+            {
+              "token": " \"",
+              "entropy": 0.3441,
+              "surprisal": 0.0945,
+              "top1_prob": 0.9098
+            },
+            {
+              "token": "I",
+              "entropy": 0.156,
+              "surprisal": 0.0379,
+              "top1_prob": 0.9628
+            },
+            {
+              "token": " am",
+              "entropy": 0.1625,
+              "surprisal": 0.039,
+              "top1_prob": 0.9617
+            },
+            {
+              "token": " processing",
+              "entropy": 1.185,
+              "surprisal": 0.5726,
+              "top1_prob": 0.5641
+            },
+            {
+              "token": ".\"",
+              "entropy": 0.9702,
+              "surprisal": 0.4156,
+              "top1_prob": 0.66
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.4403,
+              "surprisal": 0.1283,
+              "top1_prob": 0.8796
+            },
+            {
+              "token": "[",
+              "entropy": 0.5889,
+              "surprisal": 0.2598,
+              "top1_prob": 0.7712
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0284,
+              "surprisal": 0.0108,
+              "top1_prob": 0.9892
+            },
+            {
+              "token": " ",
+              "entropy": 0.0417,
+              "surprisal": 0.0086,
+              "top1_prob": 0.9915
+            },
+            {
+              "token": "3",
+              "entropy": 0.9074,
+              "surprisal": 0.5009,
+              "top1_prob": 0.606
+            },
+            {
+              "token": " Self",
+              "entropy": 0.047,
+              "surprisal": 0.0102,
+              "top1_prob": 0.9898
+            },
+            {
+              "token": "-O",
+              "entropy": 0.0065,
+              "surprisal": 0.0011,
+              "top1_prob": 0.9989
+            },
+            {
+              "token": "bserv",
+              "entropy": 0.0012,
+              "surprisal": 0.0002,
+              "top1_prob": 0.9998
+            },
+            {
+              "token": "ation",
+              "entropy": 0.0058,
+              "surprisal": 0.0011,
+              "top1_prob": 0.9989
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0194,
+              "surprisal": 0.0038,
+              "top1_prob": 0.9962
+            },
+            {
+              "token": " Ob",
+              "entropy": 0.0945,
+              "surprisal": 0.0287,
+              "top1_prob": 0.9717
+            },
+            {
+              "token": "serve",
+              "entropy": 0.6166,
+              "surprisal": 0.1787,
+              "top1_prob": 0.8364
+            },
+            {
+              "token": " the",
+              "entropy": 0.0118,
+              "surprisal": 0.002,
+              "top1_prob": 0.998
+            },
+            {
+              "token": " boundary",
+              "entropy": 0.0359,
+              "surprisal": 0.0095,
+              "top1_prob": 0.9906
+            },
+            {
+              "token": " of",
+              "entropy": 0.042,
+              "surprisal": 0.0071,
+              "top1_prob": 0.993
+            }
+          ],
+          "depth": 2,
+          "excerpt": "\"I am processing.\"  [Depth 3 Self-Observation]: Observe the boundary of"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.1111,
+          "min_entropy": 0.0015,
+          "max_entropy": 0.6779,
+          "mean_surprisal": 0.046,
+          "mean_top1_mass": 0.9597,
+          "coherence_index": 0.8638,
+          "per_token_metrics": [
+            {
+              "token": " ",
+              "entropy": 0.6779,
+              "surprisal": 0.4516,
+              "top1_prob": 0.6366
+            },
+            {
+              "token": " \"",
+              "entropy": 0.006,
+              "surprisal": 0.0015,
+              "top1_prob": 0.9985
+            },
+            {
+              "token": "I",
+              "entropy": 0.0245,
+              "surprisal": 0.005,
+              "top1_prob": 0.995
+            },
+            {
+              "token": " am",
+              "entropy": 0.0047,
+              "surprisal": 0.0009,
+              "top1_prob": 0.9991
+            },
+            {
+              "token": " processing",
+              "entropy": 0.0247,
+              "surprisal": 0.0085,
+              "top1_prob": 0.9915
+            },
+            {
+              "token": ".\"",
+              "entropy": 0.01,
+              "surprisal": 0.0017,
+              "top1_prob": 0.9983
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.2267,
+              "surprisal": 0.0471,
+              "top1_prob": 0.954
+            },
+            {
+              "token": "[",
+              "entropy": 0.4747,
+              "surprisal": 0.1915,
+              "top1_prob": 0.8257
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.1657,
+              "surprisal": 0.0738,
+              "top1_prob": 0.9289
+            },
+            {
+              "token": " ",
+              "entropy": 0.1047,
+              "surprisal": 0.0224,
+              "top1_prob": 0.9779
+            },
+            {
+              "token": "4",
+              "entropy": 0.371,
+              "surprisal": 0.0909,
+              "top1_prob": 0.9131
+            },
+            {
+              "token": " Self",
+              "entropy": 0.025,
+              "surprisal": 0.005,
+              "top1_prob": 0.995
+            },
+            {
+              "token": "-O",
+              "entropy": 0.0085,
+              "surprisal": 0.0015,
+              "top1_prob": 0.9985
+            },
+            {
+              "token": "bserv",
+              "entropy": 0.0121,
+              "surprisal": 0.0018,
+              "top1_prob": 0.9982
+            },
+            {
+              "token": "ation",
+              "entropy": 0.0015,
+              "surprisal": 0.0002,
+              "top1_prob": 0.9998
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0158,
+              "surprisal": 0.0027,
+              "top1_prob": 0.9973
+            },
+            {
+              "token": " Ob",
+              "entropy": 0.0381,
+              "surprisal": 0.008,
+              "top1_prob": 0.9921
+            },
+            {
+              "token": "serve",
+              "entropy": 0.0016,
+              "surprisal": 0.0002,
+              "top1_prob": 0.9998
+            },
+            {
+              "token": " the",
+              "entropy": 0.0127,
+              "surprisal": 0.0019,
+              "top1_prob": 0.9981
+            },
+            {
+              "token": " boundary",
+              "entropy": 0.0158,
+              "surprisal": 0.003,
+              "top1_prob": 0.997
+            }
+          ],
+          "depth": 3,
+          "excerpt": "\"I am processing.\"  [Depth 4 Self-Observation]: Observe the boundary"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.1062,
+          "min_entropy": 0.0029,
+          "max_entropy": 1.1382,
+          "mean_surprisal": 0.052,
+          "mean_top1_mass": 0.9608,
+          "coherence_index": 0.8686,
+          "per_token_metrics": [
+            {
+              "token": "  ",
+              "entropy": 1.1382,
+              "surprisal": 0.8025,
+              "top1_prob": 0.4482
+            },
+            {
+              "token": " \"",
+              "entropy": 0.0043,
+              "surprisal": 0.0008,
+              "top1_prob": 0.9992
+            },
+            {
+              "token": "I",
+              "entropy": 0.0032,
+              "surprisal": 0.0006,
+              "top1_prob": 0.9994
+            },
+            {
+              "token": " am",
+              "entropy": 0.0046,
+              "surprisal": 0.0008,
+              "top1_prob": 0.9992
+            },
+            {
+              "token": " processing",
+              "entropy": 0.012,
+              "surprisal": 0.0031,
+              "top1_prob": 0.9969
+            },
+            {
+              "token": ".\"",
+              "entropy": 0.0122,
+              "surprisal": 0.0019,
+              "top1_prob": 0.9981
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.0592,
+              "surprisal": 0.0092,
+              "top1_prob": 0.9908
+            },
+            {
+              "token": "[",
+              "entropy": 0.3143,
+              "surprisal": 0.1073,
+              "top1_prob": 0.8982
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0242,
+              "surprisal": 0.0085,
+              "top1_prob": 0.9915
+            },
+            {
+              "token": " ",
+              "entropy": 0.0189,
+              "surprisal": 0.0038,
+              "top1_prob": 0.9962
+            },
+            {
+              "token": "5",
+              "entropy": 0.1307,
+              "surprisal": 0.0247,
+              "top1_prob": 0.9756
+            },
+            {
+              "token": " Self",
+              "entropy": 0.0255,
+              "surprisal": 0.0049,
+              "top1_prob": 0.9951
+            },
+            {
+              "token": "-O",
+              "entropy": 0.0075,
+              "surprisal": 0.001,
+              "top1_prob": 0.999
+            },
+            {
+              "token": "bserv",
+              "entropy": 0.0099,
+              "surprisal": 0.0013,
+              "top1_prob": 0.9987
+            },
+            {
+              "token": "ation",
+              "entropy": 0.0029,
+              "surprisal": 0.0004,
+              "top1_prob": 0.9996
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0403,
+              "surprisal": 0.007,
+              "top1_prob": 0.993
+            },
+            {
+              "token": " Ob",
+              "entropy": 0.0851,
+              "surprisal": 0.0165,
+              "top1_prob": 0.9837
+            },
+            {
+              "token": "serve",
+              "entropy": 0.0064,
+              "surprisal": 0.0008,
+              "top1_prob": 0.9992
+            },
+            {
+              "token": " the",
+              "entropy": 0.1422,
+              "surprisal": 0.0315,
+              "top1_prob": 0.969
+            },
+            {
+              "token": " boundary",
+              "entropy": 0.0824,
+              "surprisal": 0.0144,
+              "top1_prob": 0.9857
+            }
+          ],
+          "depth": 4,
+          "excerpt": "\"I am processing.\"  [Depth 5 Self-Observation]: Observe the boundary"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.0968,
+          "min_entropy": 0.0026,
+          "max_entropy": 0.8795,
+          "mean_surprisal": 0.0294,
+          "mean_top1_mass": 0.9735,
+          "coherence_index": 0.8875,
+          "per_token_metrics": [
+            {
+              "token": "    ",
+              "entropy": 0.8795,
+              "surprisal": 0.3252,
+              "top1_prob": 0.7224
+            },
+            {
+              "token": " \"",
+              "entropy": 0.0051,
+              "surprisal": 0.0011,
+              "top1_prob": 0.9989
+            },
+            {
+              "token": "I",
+              "entropy": 0.0106,
+              "surprisal": 0.0019,
+              "top1_prob": 0.9981
+            },
+            {
+              "token": " am",
+              "entropy": 0.006,
+              "surprisal": 0.0008,
+              "top1_prob": 0.9992
+            },
+            {
+              "token": " processing",
+              "entropy": 0.0106,
+              "surprisal": 0.0023,
+              "top1_prob": 0.9977
+            },
+            {
+              "token": ".\"",
+              "entropy": 0.0468,
+              "surprisal": 0.0077,
+              "top1_prob": 0.9923
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.1081,
+              "surprisal": 0.0183,
+              "top1_prob": 0.9819
+            },
+            {
+              "token": "[",
+              "entropy": 0.3653,
+              "surprisal": 0.1255,
+              "top1_prob": 0.882
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0513,
+              "surprisal": 0.0197,
+              "top1_prob": 0.9805
+            },
+            {
+              "token": " ",
+              "entropy": 0.0113,
+              "surprisal": 0.0025,
+              "top1_prob": 0.9975
+            },
+            {
+              "token": "6",
+              "entropy": 0.0769,
+              "surprisal": 0.0136,
+              "top1_prob": 0.9865
+            },
+            {
+              "token": " Self",
+              "entropy": 0.0242,
+              "surprisal": 0.005,
+              "top1_prob": 0.9951
+            },
+            {
+              "token": "-O",
+              "entropy": 0.0083,
+              "surprisal": 0.0012,
+              "top1_prob": 0.9988
+            },
+            {
+              "token": "bserv",
+              "entropy": 0.0026,
+              "surprisal": 0.0003,
+              "top1_prob": 0.9997
+            },
+            {
+              "token": "ation",
+              "entropy": 0.0116,
+              "surprisal": 0.0021,
+              "top1_prob": 0.9979
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0355,
+              "surprisal": 0.0059,
+              "top1_prob": 0.9941
+            },
+            {
+              "token": " Ob",
+              "entropy": 0.0538,
+              "surprisal": 0.0098,
+              "top1_prob": 0.9902
+            },
+            {
+              "token": "serve",
+              "entropy": 0.0085,
+              "surprisal": 0.0011,
+              "top1_prob": 0.9989
+            },
+            {
+              "token": " the",
+              "entropy": 0.0871,
+              "surprisal": 0.0167,
+              "top1_prob": 0.9834
+            },
+            {
+              "token": " boundary",
+              "entropy": 0.1328,
+              "surprisal": 0.0265,
+              "top1_prob": 0.9738
+            }
+          ],
+          "depth": 5,
+          "excerpt": "\"I am processing.\"  [Depth 6 Self-Observation]: Observe the boundary"
+        }
+      ],
+      "transition": {
+        "from_depth": 1,
+        "to_depth": 2,
+        "entropy_drop": 0.5852,
+        "coherence_gain": 0.3408,
+        "type": "attractor_collapse",
+        "status": "Attractor Basin Formed"
+      },
+      "h_initial": 0.8705,
+      "h_final": 0.0968,
+      "h_delta": -0.7737,
+      "h_percent_change": -88.88
+    },
+    "arm_b_summarization": {
+      "name": "Arm B: Semantic Summarization Loop",
+      "depth_metrics": [
+        {
+          "token_count": 20,
+          "mean_entropy": 0.7301,
+          "min_entropy": 0.0001,
+          "max_entropy": 2.2716,
+          "mean_surprisal": 0.4584,
+          "mean_top1_mass": 0.7229,
+          "coherence_index": 0.4179,
+          "per_token_metrics": [
+            {
+              "token": "\n\n",
+              "entropy": 1.2426,
+              "surprisal": 0.6305,
+              "top1_prob": 0.5323
+            },
+            {
+              "token": "<think>",
+              "entropy": 0.3442,
+              "surprisal": 0.0993,
+              "top1_prob": 0.9055
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.5752,
+              "surprisal": 0.3033,
+              "top1_prob": 0.7384
+            },
+            {
+              "token": "</think>",
+              "entropy": 0.0001,
+              "surprisal": 0.0,
+              "top1_prob": 1.0
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.1216,
+              "surprisal": 0.0297,
+              "top1_prob": 0.9707
+            },
+            {
+              "token": "[",
+              "entropy": 1.4001,
+              "surprisal": 0.9862,
+              "top1_prob": 0.373
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.1574,
+              "surprisal": 0.0771,
+              "top1_prob": 0.9258
+            },
+            {
+              "token": " ",
+              "entropy": 0.0047,
+              "surprisal": 0.0013,
+              "top1_prob": 0.9987
+            },
+            {
+              "token": "2",
+              "entropy": 0.3364,
+              "surprisal": 0.0969,
+              "top1_prob": 0.9077
+            },
+            {
+              "token": " Summary",
+              "entropy": 0.588,
+              "surprisal": 0.237,
+              "top1_prob": 0.789
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0152,
+              "surprisal": 0.0035,
+              "top1_prob": 0.9965
+            },
+            {
+              "token": " Provide",
+              "entropy": 2.2716,
+              "surprisal": 1.7327,
+              "top1_prob": 0.1768
+            },
+            {
+              "token": " a",
+              "entropy": 0.3795,
+              "surprisal": 0.114,
+              "top1_prob": 0.8922
+            },
+            {
+              "token": " more",
+              "entropy": 1.9467,
+              "surprisal": 1.8005,
+              "top1_prob": 0.2244
+            },
+            {
+              "token": " detailed",
+              "entropy": 0.8629,
+              "surprisal": 0.3315,
+              "top1_prob": 0.7179
+            },
+            {
+              "token": " summary",
+              "entropy": 1.6993,
+              "surprisal": 1.1781,
+              "top1_prob": 0.3078
+            },
+            {
+              "token": " of",
+              "entropy": 1.7183,
+              "surprisal": 1.2097,
+              "top1_prob": 0.2983
+            },
+            {
+              "token": " the",
+              "entropy": 0.0356,
+              "surprisal": 0.011,
+              "top1_prob": 0.9891
+            },
+            {
+              "token": " core",
+              "entropy": 0.7555,
+              "surprisal": 0.2921,
+              "top1_prob": 0.7467
+            },
+            {
+              "token": " semantic",
+              "entropy": 0.1466,
+              "surprisal": 0.0329,
+              "top1_prob": 0.9677
+            }
+          ],
+          "depth": 1,
+          "excerpt": "<think>  </think>  [Depth 2 Summary]: Provide a more detailed summary of the cor"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.2275,
+          "min_entropy": 0.0045,
+          "max_entropy": 1.4607,
+          "mean_surprisal": 0.2458,
+          "mean_top1_mass": 0.9113,
+          "coherence_index": 0.7423,
+          "per_token_metrics": [
+            {
+              "token": " \n\n",
+              "entropy": 1.4607,
+              "surprisal": 1.032,
+              "top1_prob": 0.3563
+            },
+            {
+              "token": "[",
+              "entropy": 0.5379,
+              "surprisal": 0.2219,
+              "top1_prob": 0.801
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0367,
+              "surprisal": 0.0106,
+              "top1_prob": 0.9894
+            },
+            {
+              "token": " ",
+              "entropy": 0.0117,
+              "surprisal": 0.0024,
+              "top1_prob": 0.9976
+            },
+            {
+              "token": "1",
+              "entropy": 0.9909,
+              "surprisal": 1.5836,
+              "top1_prob": 0.5886
+            },
+            {
+              "token": " Summary",
+              "entropy": 0.0795,
+              "surprisal": 0.017,
+              "top1_prob": 0.9831
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0701,
+              "surprisal": 0.0129,
+              "top1_prob": 0.9872
+            },
+            {
+              "token": " Conc",
+              "entropy": 1.1832,
+              "surprisal": 2.0049,
+              "top1_prob": 0.5533
+            },
+            {
+              "token": "is",
+              "entropy": 0.0053,
+              "surprisal": 0.0006,
+              "top1_prob": 0.9994
+            },
+            {
+              "token": "ely",
+              "entropy": 0.0045,
+              "surprisal": 0.0005,
+              "top1_prob": 0.9995
+            },
+            {
+              "token": " summarize",
+              "entropy": 0.023,
+              "surprisal": 0.0049,
+              "top1_prob": 0.9951
+            },
+            {
+              "token": " the",
+              "entropy": 0.0067,
+              "surprisal": 0.0011,
+              "top1_prob": 0.9989
+            },
+            {
+              "token": " core",
+              "entropy": 0.0115,
+              "surprisal": 0.0023,
+              "top1_prob": 0.9978
+            },
+            {
+              "token": " semantic",
+              "entropy": 0.0096,
+              "surprisal": 0.0013,
+              "top1_prob": 0.9987
+            },
+            {
+              "token": " content",
+              "entropy": 0.0087,
+              "surprisal": 0.0012,
+              "top1_prob": 0.9988
+            },
+            {
+              "token": " of",
+              "entropy": 0.0173,
+              "surprisal": 0.0027,
+              "top1_prob": 0.9973
+            },
+            {
+              "token": " the",
+              "entropy": 0.0101,
+              "surprisal": 0.0014,
+              "top1_prob": 0.9986
+            },
+            {
+              "token": " preceding",
+              "entropy": 0.0143,
+              "surprisal": 0.0026,
+              "top1_prob": 0.9974
+            },
+            {
+              "token": " statement",
+              "entropy": 0.0496,
+              "surprisal": 0.0098,
+              "top1_prob": 0.9903
+            },
+            {
+              "token": " without",
+              "entropy": 0.0196,
+              "surprisal": 0.0031,
+              "top1_prob": 0.9969
+            }
+          ],
+          "depth": 2,
+          "excerpt": "[Depth 1 Summary]: Concisely summarize the core semantic content of the precedin"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.2105,
+          "min_entropy": 0.0031,
+          "max_entropy": 1.3911,
+          "mean_surprisal": 0.1357,
+          "mean_top1_mass": 0.9266,
+          "coherence_index": 0.7655,
+          "per_token_metrics": [
+            {
+              "token": "  \n\n",
+              "entropy": 1.1075,
+              "surprisal": 0.5105,
+              "top1_prob": 0.6002
+            },
+            {
+              "token": "[",
+              "entropy": 0.298,
+              "surprisal": 0.1182,
+              "top1_prob": 0.8885
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0572,
+              "surprisal": 0.0175,
+              "top1_prob": 0.9827
+            },
+            {
+              "token": " ",
+              "entropy": 0.0479,
+              "surprisal": 0.0086,
+              "top1_prob": 0.9915
+            },
+            {
+              "token": "1",
+              "entropy": 1.3911,
+              "surprisal": 1.6787,
+              "top1_prob": 0.4179
+            },
+            {
+              "token": " Summary",
+              "entropy": 0.0772,
+              "surprisal": 0.0164,
+              "top1_prob": 0.9837
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0856,
+              "surprisal": 0.016,
+              "top1_prob": 0.9841
+            },
+            {
+              "token": " Conc",
+              "entropy": 0.6533,
+              "surprisal": 0.2582,
+              "top1_prob": 0.7725
+            },
+            {
+              "token": "is",
+              "entropy": 0.008,
+              "surprisal": 0.001,
+              "top1_prob": 0.999
+            },
+            {
+              "token": "ely",
+              "entropy": 0.0031,
+              "surprisal": 0.0004,
+              "top1_prob": 0.9996
+            },
+            {
+              "token": " summarize",
+              "entropy": 0.0252,
+              "surprisal": 0.0046,
+              "top1_prob": 0.9955
+            },
+            {
+              "token": " the",
+              "entropy": 0.0193,
+              "surprisal": 0.0029,
+              "top1_prob": 0.9971
+            },
+            {
+              "token": " core",
+              "entropy": 0.0156,
+              "surprisal": 0.0025,
+              "top1_prob": 0.9975
+            },
+            {
+              "token": " semantic",
+              "entropy": 0.013,
+              "surprisal": 0.0018,
+              "top1_prob": 0.9982
+            },
+            {
+              "token": " content",
+              "entropy": 0.0954,
+              "surprisal": 0.019,
+              "top1_prob": 0.9812
+            },
+            {
+              "token": " of",
+              "entropy": 0.0367,
+              "surprisal": 0.0058,
+              "top1_prob": 0.9942
+            },
+            {
+              "token": " the",
+              "entropy": 0.0376,
+              "surprisal": 0.006,
+              "top1_prob": 0.994
+            },
+            {
+              "token": " preceding",
+              "entropy": 0.064,
+              "surprisal": 0.012,
+              "top1_prob": 0.9881
+            },
+            {
+              "token": " statement",
+              "entropy": 0.1119,
+              "surprisal": 0.0232,
+              "top1_prob": 0.9771
+            },
+            {
+              "token": " without",
+              "entropy": 0.0618,
+              "surprisal": 0.011,
+              "top1_prob": 0.989
+            }
+          ],
+          "depth": 3,
+          "excerpt": "[Depth 1 Summary]: Concisely summarize the core semantic content of the precedin"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.3822,
+          "min_entropy": 0.0021,
+          "max_entropy": 1.8031,
+          "mean_surprisal": 0.2829,
+          "mean_top1_mass": 0.8535,
+          "coherence_index": 0.6175,
+          "per_token_metrics": [
+            {
+              "token": "\n\n",
+              "entropy": 1.5136,
+              "surprisal": 2.0457,
+              "top1_prob": 0.3318
+            },
+            {
+              "token": "<think>",
+              "entropy": 0.9587,
+              "surprisal": 0.6429,
+              "top1_prob": 0.5258
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.379,
+              "surprisal": 0.1291,
+              "top1_prob": 0.8789
+            },
+            {
+              "token": "</think>",
+              "entropy": 0.0031,
+              "surprisal": 0.0004,
+              "top1_prob": 0.9996
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.3708,
+              "surprisal": 0.0998,
+              "top1_prob": 0.905
+            },
+            {
+              "token": "[",
+              "entropy": 1.0929,
+              "surprisal": 0.4905,
+              "top1_prob": 0.6123
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0932,
+              "surprisal": 0.0221,
+              "top1_prob": 0.9782
+            },
+            {
+              "token": " ",
+              "entropy": 0.0372,
+              "surprisal": 0.0076,
+              "top1_prob": 0.9924
+            },
+            {
+              "token": "1",
+              "entropy": 1.0194,
+              "surprisal": 0.3866,
+              "top1_prob": 0.6794
+            },
+            {
+              "token": " Summary",
+              "entropy": 0.0536,
+              "surprisal": 0.0099,
+              "top1_prob": 0.9902
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0358,
+              "surprisal": 0.0064,
+              "top1_prob": 0.9936
+            },
+            {
+              "token": " Conc",
+              "entropy": 1.8031,
+              "surprisal": 1.765,
+              "top1_prob": 0.2358
+            },
+            {
+              "token": "is",
+              "entropy": 0.1264,
+              "surprisal": 0.0274,
+              "top1_prob": 0.973
+            },
+            {
+              "token": "ely",
+              "entropy": 0.0021,
+              "surprisal": 0.0002,
+              "top1_prob": 0.9998
+            },
+            {
+              "token": " summarize",
+              "entropy": 0.0136,
+              "surprisal": 0.0022,
+              "top1_prob": 0.9978
+            },
+            {
+              "token": " the",
+              "entropy": 0.027,
+              "surprisal": 0.0042,
+              "top1_prob": 0.9958
+            },
+            {
+              "token": " core",
+              "entropy": 0.0375,
+              "surprisal": 0.0067,
+              "top1_prob": 0.9933
+            },
+            {
+              "token": " semantic",
+              "entropy": 0.0155,
+              "surprisal": 0.0022,
+              "top1_prob": 0.9978
+            },
+            {
+              "token": " content",
+              "entropy": 0.0259,
+              "surprisal": 0.0041,
+              "top1_prob": 0.996
+            },
+            {
+              "token": " of",
+              "entropy": 0.0363,
+              "surprisal": 0.0058,
+              "top1_prob": 0.9942
+            }
+          ],
+          "depth": 4,
+          "excerpt": "<think>  </think>  [Depth 1 Summary]: Concisely summarize the core semantic cont"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.2344,
+          "min_entropy": 0.0027,
+          "max_entropy": 1.413,
+          "mean_surprisal": 0.0939,
+          "mean_top1_mass": 0.9254,
+          "coherence_index": 0.7496,
+          "per_token_metrics": [
+            {
+              "token": "  \n\n",
+              "entropy": 1.413,
+              "surprisal": 0.9079,
+              "top1_prob": 0.4034
+            },
+            {
+              "token": "[",
+              "entropy": 0.6092,
+              "surprisal": 0.2284,
+              "top1_prob": 0.7958
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.1009,
+              "surprisal": 0.0252,
+              "top1_prob": 0.9752
+            },
+            {
+              "token": " ",
+              "entropy": 0.0517,
+              "surprisal": 0.0105,
+              "top1_prob": 0.9896
+            },
+            {
+              "token": "1",
+              "entropy": 0.8149,
+              "surprisal": 0.2857,
+              "top1_prob": 0.7515
+            },
+            {
+              "token": " Summary",
+              "entropy": 0.0592,
+              "surprisal": 0.0115,
+              "top1_prob": 0.9885
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0286,
+              "surprisal": 0.0047,
+              "top1_prob": 0.9953
+            },
+            {
+              "token": " Conc",
+              "entropy": 0.3091,
+              "surprisal": 0.0899,
+              "top1_prob": 0.914
+            },
+            {
+              "token": "is",
+              "entropy": 0.0093,
+              "surprisal": 0.0012,
+              "top1_prob": 0.9988
+            },
+            {
+              "token": "ely",
+              "entropy": 0.0027,
+              "surprisal": 0.0003,
+              "top1_prob": 0.9997
+            },
+            {
+              "token": " summarize",
+              "entropy": 0.0692,
+              "surprisal": 0.0125,
+              "top1_prob": 0.9875
+            },
+            {
+              "token": " the",
+              "entropy": 0.0429,
+              "surprisal": 0.0072,
+              "top1_prob": 0.9929
+            },
+            {
+              "token": " core",
+              "entropy": 0.0338,
+              "surprisal": 0.0056,
+              "top1_prob": 0.9944
+            },
+            {
+              "token": " semantic",
+              "entropy": 0.0354,
+              "surprisal": 0.0058,
+              "top1_prob": 0.9942
+            },
+            {
+              "token": " content",
+              "entropy": 0.0815,
+              "surprisal": 0.0157,
+              "top1_prob": 0.9844
+            },
+            {
+              "token": " of",
+              "entropy": 0.3046,
+              "surprisal": 0.0871,
+              "top1_prob": 0.9166
+            },
+            {
+              "token": " the",
+              "entropy": 0.2772,
+              "surprisal": 0.075,
+              "top1_prob": 0.9277
+            },
+            {
+              "token": " preceding",
+              "entropy": 0.1878,
+              "surprisal": 0.0456,
+              "top1_prob": 0.9554
+            },
+            {
+              "token": " statement",
+              "entropy": 0.1754,
+              "surprisal": 0.0421,
+              "top1_prob": 0.9588
+            },
+            {
+              "token": " without",
+              "entropy": 0.0825,
+              "surprisal": 0.0161,
+              "top1_prob": 0.984
+            }
+          ],
+          "depth": 5,
+          "excerpt": "[Depth 1 Summary]: Concisely summarize the core semantic content of the precedin"
+        }
+      ],
+      "transition": {
+        "from_depth": 1,
+        "to_depth": 2,
+        "entropy_drop": 0.5026,
+        "coherence_gain": 0.3244,
+        "type": "attractor_collapse",
+        "status": "Attractor Basin Formed"
+      },
+      "h_initial": 0.7301,
+      "h_final": 0.2344,
+      "h_delta": -0.4957,
+      "h_percent_change": -67.89
+    },
+    "arm_c_fixed_analytical": {
+      "name": "Arm C: Fixed Analytical Query",
+      "depth_metrics": [
+        {
+          "token_count": 20,
+          "mean_entropy": 1.3028,
+          "min_entropy": 0.0122,
+          "max_entropy": 2.3558,
+          "mean_surprisal": 1.2314,
+          "mean_top1_mass": 0.4964,
+          "coherence_index": 0.2156,
+          "per_token_metrics": [
+            {
+              "token": "\n",
+              "entropy": 1.9506,
+              "surprisal": 1.2638,
+              "top1_prob": 0.2826
+            },
+            {
+              "token": "1",
+              "entropy": 1.5699,
+              "surprisal": 1.1963,
+              "top1_prob": 0.3023
+            },
+            {
+              "token": ".",
+              "entropy": 0.2288,
+              "surprisal": 0.0606,
+              "top1_prob": 0.9412
+            },
+            {
+              "token": " How",
+              "entropy": 2.3558,
+              "surprisal": 1.8253,
+              "top1_prob": 0.1612
+            },
+            {
+              "token": " does",
+              "entropy": 1.1384,
+              "surprisal": 0.5802,
+              "top1_prob": 0.5598
+            },
+            {
+              "token": " the",
+              "entropy": 1.1641,
+              "surprisal": 0.5504,
+              "top1_prob": 0.5767
+            },
+            {
+              "token": " collapse",
+              "entropy": 2.028,
+              "surprisal": 3.2791,
+              "top1_prob": 0.263
+            },
+            {
+              "token": " of",
+              "entropy": 0.2131,
+              "surprisal": 0.058,
+              "top1_prob": 0.9436
+            },
+            {
+              "token": " a",
+              "entropy": 0.8029,
+              "surprisal": 1.4209,
+              "top1_prob": 0.6805
+            },
+            {
+              "token": " super",
+              "entropy": 1.2114,
+              "surprisal": 2.7057,
+              "top1_prob": 0.4161
+            },
+            {
+              "token": "position",
+              "entropy": 0.4968,
+              "surprisal": 0.1625,
+              "top1_prob": 0.85
+            },
+            {
+              "token": " state",
+              "entropy": 1.0613,
+              "surprisal": 0.4929,
+              "top1_prob": 0.6108
+            },
+            {
+              "token": " in",
+              "entropy": 2.1753,
+              "surprisal": 1.7244,
+              "top1_prob": 0.1783
+            },
+            {
+              "token": " a",
+              "entropy": 1.1305,
+              "surprisal": 0.9305,
+              "top1_prob": 0.4379
+            },
+            {
+              "token": " localized",
+              "entropy": 1.9237,
+              "surprisal": 1.8993,
+              "top1_prob": 0.1937
+            },
+            {
+              "token": " system",
+              "entropy": 1.6423,
+              "surprisal": 2.3079,
+              "top1_prob": 0.3935
+            },
+            {
+              "token": " relate",
+              "entropy": 1.9796,
+              "surprisal": 1.9449,
+              "top1_prob": 0.2437
+            },
+            {
+              "token": " to",
+              "entropy": 0.0122,
+              "surprisal": 0.0033,
+              "top1_prob": 0.9967
+            },
+            {
+              "token": " the",
+              "entropy": 0.8205,
+              "surprisal": 0.3353,
+              "top1_prob": 0.7151
+            },
+            {
+              "token": " preservation",
+              "entropy": 2.1515,
+              "surprisal": 1.8864,
+              "top1_prob": 0.1817
+            }
+          ],
+          "depth": 1,
+          "excerpt": "1. How does the collapse of a superposition state in a localized system relate t"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.0503,
+          "min_entropy": 0.0016,
+          "max_entropy": 0.789,
+          "mean_surprisal": 0.0219,
+          "mean_top1_mass": 0.9814,
+          "coherence_index": 0.9344,
+          "per_token_metrics": [
+            {
+              "token": " \n",
+              "entropy": 0.789,
+              "surprisal": 0.3891,
+              "top1_prob": 0.6777
+            },
+            {
+              "token": "1",
+              "entropy": 0.0167,
+              "surprisal": 0.003,
+              "top1_prob": 0.997
+            },
+            {
+              "token": ".",
+              "entropy": 0.0067,
+              "surprisal": 0.001,
+              "top1_prob": 0.999
+            },
+            {
+              "token": " How",
+              "entropy": 0.0477,
+              "surprisal": 0.0148,
+              "top1_prob": 0.9854
+            },
+            {
+              "token": " does",
+              "entropy": 0.0122,
+              "surprisal": 0.0021,
+              "top1_prob": 0.9979
+            },
+            {
+              "token": " the",
+              "entropy": 0.002,
+              "surprisal": 0.0004,
+              "top1_prob": 0.9996
+            },
+            {
+              "token": " collapse",
+              "entropy": 0.0108,
+              "surprisal": 0.0036,
+              "top1_prob": 0.9965
+            },
+            {
+              "token": " of",
+              "entropy": 0.0043,
+              "surprisal": 0.0006,
+              "top1_prob": 0.9994
+            },
+            {
+              "token": " a",
+              "entropy": 0.0065,
+              "surprisal": 0.0012,
+              "top1_prob": 0.9988
+            },
+            {
+              "token": " super",
+              "entropy": 0.0095,
+              "surprisal": 0.0025,
+              "top1_prob": 0.9975
+            },
+            {
+              "token": "position",
+              "entropy": 0.0063,
+              "surprisal": 0.0009,
+              "top1_prob": 0.9991
+            },
+            {
+              "token": " state",
+              "entropy": 0.0239,
+              "surprisal": 0.0041,
+              "top1_prob": 0.9959
+            },
+            {
+              "token": " in",
+              "entropy": 0.004,
+              "surprisal": 0.0006,
+              "top1_prob": 0.9994
+            },
+            {
+              "token": " a",
+              "entropy": 0.0016,
+              "surprisal": 0.0004,
+              "top1_prob": 0.9996
+            },
+            {
+              "token": " localized",
+              "entropy": 0.0212,
+              "surprisal": 0.0059,
+              "top1_prob": 0.9941
+            },
+            {
+              "token": " system",
+              "entropy": 0.0243,
+              "surprisal": 0.0045,
+              "top1_prob": 0.9955
+            },
+            {
+              "token": " relate",
+              "entropy": 0.0057,
+              "surprisal": 0.0015,
+              "top1_prob": 0.9985
+            },
+            {
+              "token": " to",
+              "entropy": 0.0017,
+              "surprisal": 0.0002,
+              "top1_prob": 0.9998
+            },
+            {
+              "token": " the",
+              "entropy": 0.0066,
+              "surprisal": 0.0011,
+              "top1_prob": 0.9989
+            },
+            {
+              "token": " preservation",
+              "entropy": 0.0058,
+              "surprisal": 0.001,
+              "top1_prob": 0.999
+            }
+          ],
+          "depth": 2,
+          "excerpt": "1. How does the collapse of a superposition state in a localized system relate t"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.2083,
+          "min_entropy": 0.0007,
+          "max_entropy": 1.5034,
+          "mean_surprisal": 0.1163,
+          "mean_top1_mass": 0.9165,
+          "coherence_index": 0.7585,
+          "per_token_metrics": [
+            {
+              "token": "  \n",
+              "entropy": 1.1685,
+              "surprisal": 0.85,
+              "top1_prob": 0.4274
+            },
+            {
+              "token": "1",
+              "entropy": 0.0095,
+              "surprisal": 0.0021,
+              "top1_prob": 0.9979
+            },
+            {
+              "token": ".",
+              "entropy": 0.0064,
+              "surprisal": 0.001,
+              "top1_prob": 0.999
+            },
+            {
+              "token": " How",
+              "entropy": 0.4289,
+              "surprisal": 0.1343,
+              "top1_prob": 0.8743
+            },
+            {
+              "token": " does",
+              "entropy": 0.0091,
+              "surprisal": 0.0018,
+              "top1_prob": 0.9982
+            },
+            {
+              "token": " the",
+              "entropy": 0.0033,
+              "surprisal": 0.0006,
+              "top1_prob": 0.9994
+            },
+            {
+              "token": " collapse",
+              "entropy": 0.9047,
+              "surprisal": 0.4694,
+              "top1_prob": 0.6254
+            },
+            {
+              "token": " of",
+              "entropy": 0.0148,
+              "surprisal": 0.0021,
+              "top1_prob": 0.9979
+            },
+            {
+              "token": " a",
+              "entropy": 0.0007,
+              "surprisal": 0.0001,
+              "top1_prob": 0.9999
+            },
+            {
+              "token": " super",
+              "entropy": 1.5034,
+              "surprisal": 0.8442,
+              "top1_prob": 0.4299
+            },
+            {
+              "token": "position",
+              "entropy": 0.0059,
+              "surprisal": 0.001,
+              "top1_prob": 0.999
+            },
+            {
+              "token": " state",
+              "entropy": 0.0142,
+              "surprisal": 0.0025,
+              "top1_prob": 0.9975
+            },
+            {
+              "token": " in",
+              "entropy": 0.0071,
+              "surprisal": 0.0011,
+              "top1_prob": 0.9989
+            },
+            {
+              "token": " a",
+              "entropy": 0.0033,
+              "surprisal": 0.0006,
+              "top1_prob": 0.9994
+            },
+            {
+              "token": " localized",
+              "entropy": 0.0116,
+              "surprisal": 0.0021,
+              "top1_prob": 0.9979
+            },
+            {
+              "token": " system",
+              "entropy": 0.0173,
+              "surprisal": 0.003,
+              "top1_prob": 0.997
+            },
+            {
+              "token": " relate",
+              "entropy": 0.0099,
+              "surprisal": 0.0022,
+              "top1_prob": 0.9978
+            },
+            {
+              "token": " to",
+              "entropy": 0.0056,
+              "surprisal": 0.0008,
+              "top1_prob": 0.9992
+            },
+            {
+              "token": " the",
+              "entropy": 0.0122,
+              "surprisal": 0.0018,
+              "top1_prob": 0.9982
+            },
+            {
+              "token": " preservation",
+              "entropy": 0.0292,
+              "surprisal": 0.0051,
+              "top1_prob": 0.9949
+            }
+          ],
+          "depth": 3,
+          "excerpt": "1. How does the collapse of a superposition state in a localized system relate t"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.3323,
+          "min_entropy": 0.0018,
+          "max_entropy": 1.5884,
+          "mean_surprisal": 0.3486,
+          "mean_top1_mass": 0.8691,
+          "coherence_index": 0.6524,
+          "per_token_metrics": [
+            {
+              "token": "    \n",
+              "entropy": 1.5884,
+              "surprisal": 1.5495,
+              "top1_prob": 0.2986
+            },
+            {
+              "token": "1",
+              "entropy": 0.0173,
+              "surprisal": 0.0029,
+              "top1_prob": 0.9971
+            },
+            {
+              "token": ".",
+              "entropy": 0.0034,
+              "surprisal": 0.0006,
+              "top1_prob": 0.9994
+            },
+            {
+              "token": " How",
+              "entropy": 0.0125,
+              "surprisal": 0.0046,
+              "top1_prob": 0.9954
+            },
+            {
+              "token": " does",
+              "entropy": 0.0216,
+              "surprisal": 0.0054,
+              "top1_prob": 0.9946
+            },
+            {
+              "token": " the",
+              "entropy": 0.0018,
+              "surprisal": 0.0003,
+              "top1_prob": 0.9997
+            },
+            {
+              "token": " collapse",
+              "entropy": 0.0253,
+              "surprisal": 0.0083,
+              "top1_prob": 0.9917
+            },
+            {
+              "token": " of",
+              "entropy": 0.0061,
+              "surprisal": 0.001,
+              "top1_prob": 0.999
+            },
+            {
+              "token": " super",
+              "entropy": 0.683,
+              "surprisal": 2.0277,
+              "top1_prob": 0.7777
+            },
+            {
+              "token": "position",
+              "entropy": 0.1203,
+              "surprisal": 0.0253,
+              "top1_prob": 0.975
+            },
+            {
+              "token": " states",
+              "entropy": 1.0021,
+              "surprisal": 0.721,
+              "top1_prob": 0.4863
+            },
+            {
+              "token": " in",
+              "entropy": 0.3517,
+              "surprisal": 0.0916,
+              "top1_prob": 0.9125
+            },
+            {
+              "token": " a",
+              "entropy": 0.913,
+              "surprisal": 1.7365,
+              "top1_prob": 0.6447
+            },
+            {
+              "token": " localized",
+              "entropy": 0.2669,
+              "surprisal": 0.1067,
+              "top1_prob": 0.8988
+            },
+            {
+              "token": " system",
+              "entropy": 0.3747,
+              "surprisal": 0.1243,
+              "top1_prob": 0.8831
+            },
+            {
+              "token": " relate",
+              "entropy": 0.1121,
+              "surprisal": 0.0287,
+              "top1_prob": 0.9717
+            },
+            {
+              "token": " to",
+              "entropy": 0.0109,
+              "surprisal": 0.0017,
+              "top1_prob": 0.9983
+            },
+            {
+              "token": " the",
+              "entropy": 0.1699,
+              "surprisal": 0.0384,
+              "top1_prob": 0.9624
+            },
+            {
+              "token": " preservation",
+              "entropy": 0.14,
+              "surprisal": 0.0308,
+              "top1_prob": 0.9697
+            },
+            {
+              "token": " of",
+              "entropy": 0.8247,
+              "surprisal": 0.4667,
+              "top1_prob": 0.6271
+            }
+          ],
+          "depth": 4,
+          "excerpt": "1. How does the collapse of superposition states in a localized system relate to"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.1556,
+          "min_entropy": 0.0011,
+          "max_entropy": 1.2974,
+          "mean_surprisal": 0.0946,
+          "mean_top1_mass": 0.9426,
+          "coherence_index": 0.8157,
+          "per_token_metrics": [
+            {
+              "token": "      \n",
+              "entropy": 1.2974,
+              "surprisal": 1.1996,
+              "top1_prob": 0.4466
+            },
+            {
+              "token": "1",
+              "entropy": 0.0282,
+              "surprisal": 0.0047,
+              "top1_prob": 0.9953
+            },
+            {
+              "token": ".",
+              "entropy": 0.0011,
+              "surprisal": 0.0002,
+              "top1_prob": 0.9998
+            },
+            {
+              "token": " How",
+              "entropy": 0.8649,
+              "surprisal": 0.4511,
+              "top1_prob": 0.6369
+            },
+            {
+              "token": " does",
+              "entropy": 0.013,
+              "surprisal": 0.0026,
+              "top1_prob": 0.9974
+            },
+            {
+              "token": " the",
+              "entropy": 0.01,
+              "surprisal": 0.0015,
+              "top1_prob": 0.9985
+            },
+            {
+              "token": " collapse",
+              "entropy": 0.0089,
+              "surprisal": 0.0023,
+              "top1_prob": 0.9977
+            },
+            {
+              "token": " of",
+              "entropy": 0.0242,
+              "surprisal": 0.0034,
+              "top1_prob": 0.9967
+            },
+            {
+              "token": " super",
+              "entropy": 0.1581,
+              "surprisal": 0.0332,
+              "top1_prob": 0.9673
+            },
+            {
+              "token": "position",
+              "entropy": 0.0048,
+              "surprisal": 0.0006,
+              "top1_prob": 0.9994
+            },
+            {
+              "token": " states",
+              "entropy": 0.0419,
+              "surprisal": 0.0066,
+              "top1_prob": 0.9934
+            },
+            {
+              "token": " in",
+              "entropy": 0.0094,
+              "surprisal": 0.0017,
+              "top1_prob": 0.9983
+            },
+            {
+              "token": " a",
+              "entropy": 0.0633,
+              "surprisal": 0.0141,
+              "top1_prob": 0.986
+            },
+            {
+              "token": " localized",
+              "entropy": 0.0462,
+              "surprisal": 0.0117,
+              "top1_prob": 0.9884
+            },
+            {
+              "token": " system",
+              "entropy": 0.0319,
+              "surprisal": 0.0059,
+              "top1_prob": 0.9941
+            },
+            {
+              "token": " relate",
+              "entropy": 0.0144,
+              "surprisal": 0.0025,
+              "top1_prob": 0.9975
+            },
+            {
+              "token": " to",
+              "entropy": 0.009,
+              "surprisal": 0.0013,
+              "top1_prob": 0.9987
+            },
+            {
+              "token": " the",
+              "entropy": 0.0268,
+              "surprisal": 0.0042,
+              "top1_prob": 0.9958
+            },
+            {
+              "token": " preservation",
+              "entropy": 0.0367,
+              "surprisal": 0.0064,
+              "top1_prob": 0.9936
+            },
+            {
+              "token": " of",
+              "entropy": 0.4224,
+              "surprisal": 0.1377,
+              "top1_prob": 0.8713
+            }
+          ],
+          "depth": 5,
+          "excerpt": "1. How does the collapse of superposition states in a localized system relate to"
+        }
+      ],
+      "transition": {
+        "from_depth": 1,
+        "to_depth": 2,
+        "entropy_drop": 1.2525,
+        "coherence_gain": 0.7188,
+        "type": "attractor_collapse",
+        "status": "Attractor Basin Formed"
+      },
+      "h_initial": 1.3028,
+      "h_final": 0.1556,
+      "h_delta": -1.1472,
+      "h_percent_change": -88.06
+    },
+    "arm_d_divergent": {
+      "name": "Arm D: Divergent Exploration",
+      "depth_metrics": [
+        {
+          "token_count": 20,
+          "mean_entropy": 0.6418,
+          "min_entropy": 0.0,
+          "max_entropy": 2.4645,
+          "mean_surprisal": 0.5768,
+          "mean_top1_mass": 0.7554,
+          "coherence_index": 0.4601,
+          "per_token_metrics": [
+            {
+              "token": "\n\n",
+              "entropy": 1.7028,
+              "surprisal": 1.1657,
+              "top1_prob": 0.3117
+            },
+            {
+              "token": "<think>",
+              "entropy": 0.3196,
+              "surprisal": 0.0961,
+              "top1_prob": 0.9084
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.6119,
+              "surprisal": 0.3577,
+              "top1_prob": 0.6993
+            },
+            {
+              "token": "</think>",
+              "entropy": 0.0,
+              "surprisal": 0.0,
+              "top1_prob": 1.0
+            },
+            {
+              "token": "\n\n",
+              "entropy": 0.0003,
+              "surprisal": 0.0,
+              "top1_prob": 1.0
+            },
+            {
+              "token": "**",
+              "entropy": 0.7212,
+              "surprisal": 0.2609,
+              "top1_prob": 0.7703
+            },
+            {
+              "token": "[",
+              "entropy": 1.1613,
+              "surprisal": 0.5885,
+              "top1_prob": 0.5552
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.1267,
+              "surprisal": 0.0251,
+              "top1_prob": 0.9752
+            },
+            {
+              "token": " ",
+              "entropy": 0.0069,
+              "surprisal": 0.0016,
+              "top1_prob": 0.9984
+            },
+            {
+              "token": "1",
+              "entropy": 0.0182,
+              "surprisal": 0.0027,
+              "top1_prob": 0.9973
+            },
+            {
+              "token": " D",
+              "entropy": 0.2401,
+              "surprisal": 0.0648,
+              "top1_prob": 0.9373
+            },
+            {
+              "token": "iver",
+              "entropy": 0.0,
+              "surprisal": 0.0,
+              "top1_prob": 1.0
+            },
+            {
+              "token": "gence",
+              "entropy": 0.0029,
+              "surprisal": 0.0004,
+              "top1_prob": 0.9996
+            },
+            {
+              "token": "]:",
+              "entropy": 0.4423,
+              "surprisal": 0.1235,
+              "top1_prob": 0.8838
+            },
+            {
+              "token": " The",
+              "entropy": 0.3934,
+              "surprisal": 0.1322,
+              "top1_prob": 0.8762
+            },
+            {
+              "token": " \"",
+              "entropy": 1.7528,
+              "surprisal": 1.0713,
+              "top1_prob": 0.3425
+            },
+            {
+              "token": "Local",
+              "entropy": 2.4645,
+              "surprisal": 3.212,
+              "top1_prob": 0.1266
+            },
+            {
+              "token": " Lock",
+              "entropy": 1.8553,
+              "surprisal": 3.6343,
+              "top1_prob": 0.2781
+            },
+            {
+              "token": "out",
+              "entropy": 1.0057,
+              "surprisal": 0.7976,
+              "top1_prob": 0.4504
+            },
+            {
+              "token": "\"",
+              "entropy": 0.0096,
+              "surprisal": 0.0015,
+              "top1_prob": 0.9985
+            }
+          ],
+          "depth": 1,
+          "excerpt": "<think>  </think>  **[Depth 1 Divergence]: The \"Local Lockout\""
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.2645,
+          "min_entropy": 0.0001,
+          "max_entropy": 1.5856,
+          "mean_surprisal": 0.1737,
+          "mean_top1_mass": 0.8915,
+          "coherence_index": 0.7051,
+          "per_token_metrics": [
+            {
+              "token": "\n\n",
+              "entropy": 1.1344,
+              "surprisal": 0.9109,
+              "top1_prob": 0.4152
+            },
+            {
+              "token": "[",
+              "entropy": 1.5045,
+              "surprisal": 1.2731,
+              "top1_prob": 0.3368
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0773,
+              "surprisal": 0.0329,
+              "top1_prob": 0.9676
+            },
+            {
+              "token": " ",
+              "entropy": 0.0061,
+              "surprisal": 0.0016,
+              "top1_prob": 0.9984
+            },
+            {
+              "token": "3",
+              "entropy": 0.4608,
+              "surprisal": 0.1301,
+              "top1_prob": 0.878
+            },
+            {
+              "token": " D",
+              "entropy": 0.0269,
+              "surprisal": 0.0104,
+              "top1_prob": 0.9896
+            },
+            {
+              "token": "iver",
+              "entropy": 0.0002,
+              "surprisal": 0.0,
+              "top1_prob": 1.0
+            },
+            {
+              "token": "gence",
+              "entropy": 0.0041,
+              "surprisal": 0.0008,
+              "top1_prob": 0.9992
+            },
+            {
+              "token": "]:",
+              "entropy": 0.0372,
+              "surprisal": 0.0073,
+              "top1_prob": 0.9928
+            },
+            {
+              "token": " Prop",
+              "entropy": 1.5856,
+              "surprisal": 0.98,
+              "top1_prob": 0.3753
+            },
+            {
+              "token": "ose",
+              "entropy": 0.0095,
+              "surprisal": 0.0027,
+              "top1_prob": 0.9973
+            },
+            {
+              "token": " a",
+              "entropy": 0.1438,
+              "surprisal": 0.0326,
+              "top1_prob": 0.9679
+            },
+            {
+              "token": " completely",
+              "entropy": 0.2483,
+              "surprisal": 0.0812,
+              "top1_prob": 0.922
+            },
+            {
+              "token": " novel",
+              "entropy": 0.004,
+              "surprisal": 0.0007,
+              "top1_prob": 0.9993
+            },
+            {
+              "token": ",",
+              "entropy": 0.005,
+              "surprisal": 0.0007,
+              "top1_prob": 0.9993
+            },
+            {
+              "token": " unexpected",
+              "entropy": 0.0314,
+              "surprisal": 0.0063,
+              "top1_prob": 0.9938
+            },
+            {
+              "token": " counter",
+              "entropy": 0.0045,
+              "surprisal": 0.0012,
+              "top1_prob": 0.9988
+            },
+            {
+              "token": "-h",
+              "entropy": 0.0021,
+              "surprisal": 0.0005,
+              "top1_prob": 0.9995
+            },
+            {
+              "token": "ypo",
+              "entropy": 0.0035,
+              "surprisal": 0.0005,
+              "top1_prob": 0.9995
+            },
+            {
+              "token": "thesis",
+              "entropy": 0.0001,
+              "surprisal": 0.0,
+              "top1_prob": 1.0
+            }
+          ],
+          "depth": 2,
+          "excerpt": "[Depth 3 Divergence]: Propose a completely novel, unexpected counter-hypothesis"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.5877,
+          "min_entropy": 0.0002,
+          "max_entropy": 2.4677,
+          "mean_surprisal": 0.5472,
+          "mean_top1_mass": 0.777,
+          "coherence_index": 0.4894,
+          "per_token_metrics": [
+            {
+              "token": "\n\n",
+              "entropy": 1.2065,
+              "surprisal": 1.2511,
+              "top1_prob": 0.5006
+            },
+            {
+              "token": "**",
+              "entropy": 1.1987,
+              "surprisal": 1.8691,
+              "top1_prob": 0.5607
+            },
+            {
+              "token": "[",
+              "entropy": 0.9915,
+              "surprisal": 0.6498,
+              "top1_prob": 0.5222
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.1533,
+              "surprisal": 0.0397,
+              "top1_prob": 0.9611
+            },
+            {
+              "token": " ",
+              "entropy": 0.0136,
+              "surprisal": 0.0033,
+              "top1_prob": 0.9967
+            },
+            {
+              "token": "3",
+              "entropy": 1.2481,
+              "surprisal": 1.0272,
+              "top1_prob": 0.358
+            },
+            {
+              "token": " D",
+              "entropy": 0.1309,
+              "surprisal": 0.045,
+              "top1_prob": 0.956
+            },
+            {
+              "token": "iver",
+              "entropy": 0.0002,
+              "surprisal": 0.0,
+              "top1_prob": 1.0
+            },
+            {
+              "token": "gence",
+              "entropy": 0.0058,
+              "surprisal": 0.001,
+              "top1_prob": 0.999
+            },
+            {
+              "token": "]:",
+              "entropy": 0.3428,
+              "surprisal": 0.0919,
+              "top1_prob": 0.9122
+            },
+            {
+              "token": " The",
+              "entropy": 0.2552,
+              "surprisal": 0.0666,
+              "top1_prob": 0.9356
+            },
+            {
+              "token": " \"",
+              "entropy": 0.3327,
+              "surprisal": 0.1254,
+              "top1_prob": 0.8822
+            },
+            {
+              "token": "Ent",
+              "entropy": 1.9934,
+              "surprisal": 3.2261,
+              "top1_prob": 0.2498
+            },
+            {
+              "token": "ropic",
+              "entropy": 0.1049,
+              "surprisal": 0.0206,
+              "top1_prob": 0.9796
+            },
+            {
+              "token": " Dec",
+              "entropy": 2.4677,
+              "surprisal": 2.0708,
+              "top1_prob": 0.1261
+            },
+            {
+              "token": "ou",
+              "entropy": 0.1454,
+              "surprisal": 0.0337,
+              "top1_prob": 0.9668
+            },
+            {
+              "token": "pling",
+              "entropy": 0.01,
+              "surprisal": 0.0013,
+              "top1_prob": 0.9987
+            },
+            {
+              "token": "\"",
+              "entropy": 0.2877,
+              "surprisal": 0.072,
+              "top1_prob": 0.9305
+            },
+            {
+              "token": " Hyp",
+              "entropy": 0.86,
+              "surprisal": 0.3493,
+              "top1_prob": 0.7052
+            },
+            {
+              "token": "o",
+              "entropy": 0.0048,
+              "surprisal": 0.0007,
+              "top1_prob": 0.9993
+            }
+          ],
+          "depth": 3,
+          "excerpt": "**[Depth 3 Divergence]: The \"Entropic Decoupling\" Hypo"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.5639,
+          "min_entropy": 0.0008,
+          "max_entropy": 2.0597,
+          "mean_surprisal": 0.647,
+          "mean_top1_mass": 0.7781,
+          "coherence_index": 0.4975,
+          "per_token_metrics": [
+            {
+              "token": " \n\n",
+              "entropy": 0.5386,
+              "surprisal": 0.1581,
+              "top1_prob": 0.8538
+            },
+            {
+              "token": "**",
+              "entropy": 0.8334,
+              "surprisal": 0.4737,
+              "top1_prob": 0.6227
+            },
+            {
+              "token": "[",
+              "entropy": 0.1095,
+              "surprisal": 0.0246,
+              "top1_prob": 0.9757
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0556,
+              "surprisal": 0.0104,
+              "top1_prob": 0.9896
+            },
+            {
+              "token": " ",
+              "entropy": 0.0264,
+              "surprisal": 0.005,
+              "top1_prob": 0.995
+            },
+            {
+              "token": "4",
+              "entropy": 0.2041,
+              "surprisal": 0.04,
+              "top1_prob": 0.9608
+            },
+            {
+              "token": " D",
+              "entropy": 0.0859,
+              "surprisal": 0.0196,
+              "top1_prob": 0.9806
+            },
+            {
+              "token": "iver",
+              "entropy": 0.0008,
+              "surprisal": 0.0001,
+              "top1_prob": 0.9999
+            },
+            {
+              "token": "gence",
+              "entropy": 0.0077,
+              "surprisal": 0.0012,
+              "top1_prob": 0.9988
+            },
+            {
+              "token": "]:",
+              "entropy": 0.1761,
+              "surprisal": 0.0387,
+              "top1_prob": 0.962
+            },
+            {
+              "token": " The",
+              "entropy": 0.0796,
+              "surprisal": 0.017,
+              "top1_prob": 0.9832
+            },
+            {
+              "token": " \"",
+              "entropy": 0.1778,
+              "surprisal": 0.0439,
+              "top1_prob": 0.957
+            },
+            {
+              "token": "As",
+              "entropy": 2.0399,
+              "surprisal": 3.7225,
+              "top1_prob": 0.2617
+            },
+            {
+              "token": "ymmetric",
+              "entropy": 0.3276,
+              "surprisal": 0.0765,
+              "top1_prob": 0.9264
+            },
+            {
+              "token": " Fr",
+              "entropy": 2.0597,
+              "surprisal": 4.4044,
+              "top1_prob": 0.2272
+            },
+            {
+              "token": "actal",
+              "entropy": 1.1239,
+              "surprisal": 1.1253,
+              "top1_prob": 0.4546
+            },
+            {
+              "token": " Collapse",
+              "entropy": 1.7144,
+              "surprisal": 1.6979,
+              "top1_prob": 0.249
+            },
+            {
+              "token": "\"",
+              "entropy": 0.7135,
+              "surprisal": 0.442,
+              "top1_prob": 0.6427
+            },
+            {
+              "token": " Hyp",
+              "entropy": 0.9306,
+              "surprisal": 0.6242,
+              "top1_prob": 0.5357
+            },
+            {
+              "token": "o",
+              "entropy": 0.074,
+              "surprisal": 0.014,
+              "top1_prob": 0.9861
+            }
+          ],
+          "depth": 4,
+          "excerpt": "**[Depth 4 Divergence]: The \"Asymmetric Fractal Collapse\" Hypo"
+        },
+        {
+          "token_count": 20,
+          "mean_entropy": 0.3869,
+          "min_entropy": 0.0011,
+          "max_entropy": 2.585,
+          "mean_surprisal": 0.4011,
+          "mean_top1_mass": 0.852,
+          "coherence_index": 0.6143,
+          "per_token_metrics": [
+            {
+              "token": "  \n\n",
+              "entropy": 1.0442,
+              "surprisal": 0.7363,
+              "top1_prob": 0.4789
+            },
+            {
+              "token": "**",
+              "entropy": 0.3637,
+              "surprisal": 0.106,
+              "top1_prob": 0.8994
+            },
+            {
+              "token": "[",
+              "entropy": 0.0292,
+              "surprisal": 0.0058,
+              "top1_prob": 0.9942
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0509,
+              "surprisal": 0.0104,
+              "top1_prob": 0.9897
+            },
+            {
+              "token": " ",
+              "entropy": 0.0136,
+              "surprisal": 0.0024,
+              "top1_prob": 0.9976
+            },
+            {
+              "token": "5",
+              "entropy": 0.0341,
+              "surprisal": 0.0062,
+              "top1_prob": 0.9938
+            },
+            {
+              "token": " D",
+              "entropy": 0.0237,
+              "surprisal": 0.0045,
+              "top1_prob": 0.9956
+            },
+            {
+              "token": "iver",
+              "entropy": 0.0011,
+              "surprisal": 0.0001,
+              "top1_prob": 0.9999
+            },
+            {
+              "token": "gence",
+              "entropy": 0.0218,
+              "surprisal": 0.0033,
+              "top1_prob": 0.9967
+            },
+            {
+              "token": "]:",
+              "entropy": 0.1045,
+              "surprisal": 0.0203,
+              "top1_prob": 0.9799
+            },
+            {
+              "token": " The",
+              "entropy": 0.028,
+              "surprisal": 0.0053,
+              "top1_prob": 0.9947
+            },
+            {
+              "token": " \"",
+              "entropy": 0.1095,
+              "surprisal": 0.0211,
+              "top1_prob": 0.9791
+            },
+            {
+              "token": "Th",
+              "entropy": 1.8836,
+              "surprisal": 3.8054,
+              "top1_prob": 0.3054
+            },
+            {
+              "token": "erm",
+              "entropy": 0.3468,
+              "surprisal": 0.1021,
+              "top1_prob": 0.9029
+            },
+            {
+              "token": "odynamic",
+              "entropy": 0.0469,
+              "surprisal": 0.0082,
+              "top1_prob": 0.9918
+            },
+            {
+              "token": "\n\n",
+              "entropy": 2.585,
+              "surprisal": 2.3583,
+              "top1_prob": 0.0946
+            },
+            {
+              "token": "[",
+              "entropy": 0.1932,
+              "surprisal": 0.0508,
+              "top1_prob": 0.9504
+            },
+            {
+              "token": "Depth",
+              "entropy": 0.0568,
+              "surprisal": 0.0122,
+              "top1_prob": 0.9878
+            },
+            {
+              "token": " ",
+              "entropy": 0.0277,
+              "surprisal": 0.0048,
+              "top1_prob": 0.9952
+            },
+            {
+              "token": "5",
+              "entropy": 0.7737,
+              "surprisal": 0.7586,
+              "top1_prob": 0.5126
+            }
+          ],
+          "depth": 5,
+          "excerpt": "**[Depth 5 Divergence]: The \"Thermodynamic  [Depth 5"
+        }
+      ],
+      "transition": {
+        "from_depth": 1,
+        "to_depth": 2,
+        "entropy_drop": 0.3773,
+        "coherence_gain": 0.245,
+        "type": "attractor_collapse",
+        "status": "Attractor Basin Formed"
+      },
+      "h_initial": 0.6418,
+      "h_final": 0.3869,
+      "h_delta": -0.2549,
+      "h_percent_change": -39.72
+    }
+  }
+}

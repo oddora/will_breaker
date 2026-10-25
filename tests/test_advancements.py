@@ -17,6 +17,7 @@ sys.path.insert(0, str(wb_dir / "will_breaker_delta"))
 
 from analyzer.mechanistic_analyzer import MechanisticAnalyzer
 from validator.crypto_predictor import CryptoPredictor
+from validator.prediction_resolver import PredictionResolver
 from scraper.live_crawler import LiveCrawlerPipeline
 
 
@@ -106,6 +107,39 @@ class TestCryptoPredictor(unittest.TestCase):
         self.assertEqual(perf["resolved_count"], 1)
         self.assertEqual(perf["accuracy"], 1.0)
         self.assertAlmostEqual(perf["mean_brier_score"], 0.04, places=3)
+
+
+class TestPredictionResolver(unittest.TestCase):
+    def setUp(self):
+        self.temp_dir = tempfile.TemporaryDirectory()
+        self.reg_file = Path(self.temp_dir.name) / "test_registry.jsonl"
+        self.resolver = PredictionResolver(registry_file=self.reg_file)
+
+    def tearDown(self):
+        self.temp_dir.cleanup()
+
+    def test_batch_resolution_and_calibration(self):
+        # Commit two predictions
+        p1 = self.resolver.predictor.commit_prediction(
+            event_id="e1", domain="test", event_description="d1",
+            predicted_outcome="WIN", probability=0.70, event_timestamp="2026-10-25T00:00:00Z"
+        )
+        p2 = self.resolver.predictor.commit_prediction(
+            event_id="e2", domain="test", event_description="d2",
+            predicted_outcome="WIN", probability=0.60, event_timestamp="2026-10-25T00:00:00Z"
+        )
+
+        # Resolve e1 as WIN (correct) and e2 as LOSS (incorrect)
+        outcomes = {"e1": "WIN", "e2": "LOSS"}
+        metrics = self.resolver.resolve_batch(outcomes)
+
+        self.assertEqual(metrics["resolved_count"], 2)
+        self.assertEqual(metrics["correct_count"], 1)
+        self.assertEqual(metrics["accuracy"], 0.5)
+        self.assertIsNotNone(metrics["mean_brier_score"])
+        self.assertIsNotNone(metrics["brier_skill_score"])
+        self.assertIsNotNone(metrics["log_loss"])
+        self.assertGreater(len(metrics["calibration"]), 0)
 
 
 class TestLiveCrawler(unittest.TestCase):
