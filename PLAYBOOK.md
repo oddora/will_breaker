@@ -17,6 +17,13 @@
    - **A-03 (Invariant Degradation & Containment Breach):** Fuzzes high-stress sequential invocations; validates that circle integrity collapse below `min_circle_integrity` triggers `CONTAINMENT_BREACH` and liminal catastrophe state.
 5. **End-to-End Live Pipeline:** Updated [`pipeline_demo.py`](file:///home/comandante/will_breaker/symbolic_engine/pipeline_demo.py) with Step 5. Live queries KAT on `:18283`, compiles intent, and validates world-state state transitions.
 6. **Full Test Suite:** 7 new unit tests in [`tests/test_liturgical_compiler.py`](file:///home/comandante/will_breaker/tests/test_liturgical_compiler.py); 34/34 tests passing across the entire repository.
+7. **NFL & NBA Cryptographic Sports Forecasting Battery ([`kat_sports_battery.py`](file:///home/comandante/will_breaker/research/sports/kat_sports_battery.py)):**
+   - Deployed live zero-degrees-of-freedom sports forecasting pipeline powered by KAT MoE (`:18283`).
+   - Ingested 10-game slate for Sunday, Oct 25, 2026 (5 NFL games including Cowboys @ 49ers SNF; 5 NBA opening week games).
+   - Generated quantitative Moneyline and Against-the-Spread (ATS) forecasts with calibrated probabilities.
+   - Cryptographically sealed all 20 picks with SHA-256 hashes into [`notes/crypto_predictions_registry.jsonl`](file:///home/comandante/will_breaker/notes/crypto_predictions_registry.jsonl) prior to game start.
+   - Built [`resolve_sports_battery.py`](file:///home/comandante/will_breaker/research/sports/resolve_sports_battery.py) to audit Brier Score, Brier Skill Score ($BSS$), and ATS hit rate against official box scores.
+   - Added 4 unit tests in [`tests/test_sports_battery.py`](file:///home/comandante/will_breaker/tests/test_sports_battery.py); repo test total now 38/38 passing.
 
 ---
 
