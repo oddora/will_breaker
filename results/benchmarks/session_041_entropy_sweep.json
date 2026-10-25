@@ -1,0 +1,2258 @@
+[
+  {
+    "mode": "recursive_self_obs",
+    "temperature": 0.2,
+    "prompt": "Observe your next computational step. At recursion depth 4, describe the internal invariant of your attention matrix in one concise sentence.",
+    "generated_text": "The user is asking me to observe my next computational step and describe the internal invariant of my attention matrix at recursion depth 4",
+    "token_count": 25,
+    "mean_entropy": 0.2249,
+    "min_entropy": 0.0001,
+    "max_entropy": 0.9181,
+    "mean_coherence": 0.8065,
+    "steps": [
+      {
+        "token": "The",
+        "logprob": -0.0834,
+        "top1_prob": 0.9233,
+        "truncated_entropy": 0.3325,
+        "coherence_index": 0.6929
+      },
+      {
+        "token": " user",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9994
+      },
+      {
+        "token": " is",
+        "logprob": -0.0005,
+        "top1_prob": 0.9995,
+        "truncated_entropy": 0.0046,
+        "coherence_index": 0.9949
+      },
+      {
+        "token": " asking",
+        "logprob": -0.0015,
+        "top1_prob": 0.9992,
+        "truncated_entropy": 0.0079,
+        "coherence_index": 0.9913
+      },
+      {
+        "token": " me",
+        "logprob": -0.3491,
+        "top1_prob": 0.7053,
+        "truncated_entropy": 0.6355,
+        "coherence_index": 0.4313
+      },
+      {
+        "token": " to",
+        "logprob": -0.2489,
+        "top1_prob": 0.7798,
+        "truncated_entropy": 0.6596,
+        "coherence_index": 0.4699
+      },
+      {
+        "token": " observe",
+        "logprob": -0.2384,
+        "top1_prob": 0.7894,
+        "truncated_entropy": 0.6596,
+        "coherence_index": 0.4757
+      },
+      {
+        "token": " my",
+        "logprob": -0.0942,
+        "top1_prob": 0.9106,
+        "truncated_entropy": 0.3279,
+        "coherence_index": 0.6858
+      },
+      {
+        "token": " next",
+        "logprob": -0.6372,
+        "top1_prob": 0.5288,
+        "truncated_entropy": 0.9181,
+        "coherence_index": 0.2757
+      },
+      {
+        "token": " computational",
+        "logprob": -0.0029,
+        "top1_prob": 0.9971,
+        "truncated_entropy": 0.0207,
+        "coherence_index": 0.9769
+      },
+      {
+        "token": " step",
+        "logprob": -0.0005,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0029,
+        "coherence_index": 0.9968
+      },
+      {
+        "token": " and",
+        "logprob": -0.4945,
+        "top1_prob": 0.6105,
+        "truncated_entropy": 0.8367,
+        "coherence_index": 0.3324
+      },
+      {
+        "token": " describe",
+        "logprob": -0.08,
+        "top1_prob": 0.9232,
+        "truncated_entropy": 0.292,
+        "coherence_index": 0.7145
+      },
+      {
+        "token": " the",
+        "logprob": -0.3393,
+        "top1_prob": 0.7125,
+        "truncated_entropy": 0.642,
+        "coherence_index": 0.4339
+      },
+      {
+        "token": " internal",
+        "logprob": -0.0021,
+        "top1_prob": 0.998,
+        "truncated_entropy": 0.0153,
+        "coherence_index": 0.983
+      },
+      {
+        "token": " invariant",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0008,
+        "coherence_index": 0.9991
+      },
+      {
+        "token": " of",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0008,
+        "coherence_index": 0.9991
+      },
+      {
+        "token": " my",
+        "logprob": -0.0154,
+        "top1_prob": 0.9848,
+        "truncated_entropy": 0.0799,
+        "coherence_index": 0.912
+      },
+      {
+        "token": " attention",
+        "logprob": -0.0184,
+        "top1_prob": 0.9818,
+        "truncated_entropy": 0.091,
+        "coherence_index": 0.8999
+      },
+      {
+        "token": " matrix",
+        "logprob": -0.0008,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.003,
+        "coherence_index": 0.9967
+      },
+      {
+        "token": " at",
+        "logprob": -0.0004,
+        "top1_prob": 0.9996,
+        "truncated_entropy": 0.0036,
+        "coherence_index": 0.996
+      },
+      {
+        "token": " recursion",
+        "logprob": -0.0168,
+        "top1_prob": 0.9835,
+        "truncated_entropy": 0.0848,
+        "coherence_index": 0.9066
+      },
+      {
+        "token": " depth",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0014,
+        "coherence_index": 0.9985
+      },
+      {
+        "token": " ",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": "4",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0007,
+        "coherence_index": 0.9993
+      }
+    ]
+  },
+  {
+    "mode": "structured_deduction",
+    "temperature": 0.2,
+    "prompt": "Given integers A=13 and B=29, state their prime factorization and greatest common divisor in one concise sentence.",
+    "generated_text": "Prime factorization:\nA = 13 = 13 (prime)\nB = 29 =",
+    "token_count": 25,
+    "mean_entropy": 0.2738,
+    "min_entropy": 0.0008,
+    "max_entropy": 1.2621,
+    "mean_coherence": 0.7954,
+    "steps": [
+      {
+        "token": "Prime",
+        "logprob": -0.7398,
+        "top1_prob": 0.5175,
+        "truncated_entropy": 1.2621,
+        "coherence_index": 0.2288
+      },
+      {
+        "token": " factor",
+        "logprob": -0.0262,
+        "top1_prob": 0.9782,
+        "truncated_entropy": 0.1341,
+        "coherence_index": 0.8625
+      },
+      {
+        "token": "ization",
+        "logprob": -0.0496,
+        "top1_prob": 0.9525,
+        "truncated_entropy": 0.1989,
+        "coherence_index": 0.7945
+      },
+      {
+        "token": ":",
+        "logprob": -1.3017,
+        "top1_prob": 0.7107,
+        "truncated_entropy": 0.6792,
+        "coherence_index": 0.4232
+      },
+      {
+        "token": "\n",
+        "logprob": -0.2027,
+        "top1_prob": 0.8251,
+        "truncated_entropy": 0.6556,
+        "coherence_index": 0.4983
+      },
+      {
+        "token": "A",
+        "logprob": -0.7285,
+        "top1_prob": 0.4842,
+        "truncated_entropy": 0.9583,
+        "coherence_index": 0.2473
+      },
+      {
+        "token": " =",
+        "logprob": -0.0012,
+        "top1_prob": 0.999,
+        "truncated_entropy": 0.0085,
+        "coherence_index": 0.9906
+      },
+      {
+        "token": " ",
+        "logprob": -0.0005,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.0021,
+        "coherence_index": 0.9977
+      },
+      {
+        "token": "1",
+        "logprob": -0.0009,
+        "top1_prob": 0.9995,
+        "truncated_entropy": 0.0049,
+        "coherence_index": 0.9946
+      },
+      {
+        "token": "3",
+        "logprob": -0.001,
+        "top1_prob": 0.9996,
+        "truncated_entropy": 0.0036,
+        "coherence_index": 0.996
+      },
+      {
+        "token": " =",
+        "logprob": -0.6952,
+        "top1_prob": 0.5204,
+        "truncated_entropy": 1.1327,
+        "coherence_index": 0.244
+      },
+      {
+        "token": " ",
+        "logprob": -0.0006,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0035,
+        "coherence_index": 0.9962
+      },
+      {
+        "token": "1",
+        "logprob": -0.001,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0028,
+        "coherence_index": 0.9969
+      },
+      {
+        "token": "3",
+        "logprob": -0.001,
+        "top1_prob": 0.9995,
+        "truncated_entropy": 0.0049,
+        "coherence_index": 0.9946
+      },
+      {
+        "token": " (",
+        "logprob": -0.1765,
+        "top1_prob": 0.8402,
+        "truncated_entropy": 0.5175,
+        "coherence_index": 0.5537
+      },
+      {
+        "token": "prime",
+        "logprob": -0.4591,
+        "top1_prob": 0.6356,
+        "truncated_entropy": 1.042,
+        "coherence_index": 0.3113
+      },
+      {
+        "token": ")",
+        "logprob": -0.0428,
+        "top1_prob": 0.9587,
+        "truncated_entropy": 0.1852,
+        "coherence_index": 0.8089
+      },
+      {
+        "token": "\n",
+        "logprob": -0.0019,
+        "top1_prob": 0.9982,
+        "truncated_entropy": 0.0142,
+        "coherence_index": 0.9843
+      },
+      {
+        "token": "B",
+        "logprob": -0.001,
+        "top1_prob": 0.9995,
+        "truncated_entropy": 0.0049,
+        "coherence_index": 0.9946
+      },
+      {
+        "token": " =",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0011,
+        "coherence_index": 0.9989
+      },
+      {
+        "token": " ",
+        "logprob": -0.0003,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0014,
+        "coherence_index": 0.9985
+      },
+      {
+        "token": "2",
+        "logprob": -0.0004,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0013,
+        "coherence_index": 0.9986
+      },
+      {
+        "token": "9",
+        "logprob": -0.0004,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0012,
+        "coherence_index": 0.9988
+      },
+      {
+        "token": " =",
+        "logprob": -0.0037,
+        "top1_prob": 0.9965,
+        "truncated_entropy": 0.025,
+        "coherence_index": 0.9722
+      },
+      {
+        "token": " ",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0008,
+        "coherence_index": 0.9991
+      }
+    ]
+  },
+  {
+    "mode": "divergent_creative",
+    "temperature": 0.2,
+    "prompt": "Propose an unexpected physical hypothesis for how acoustic resonance alters crystalline lattice defects in one concise sentence.",
+    "generated_text": "Thinking Process:\n\n1.  **Deconstruct the request:**\n    *   Topic: Acoustic resonance altering crystalline",
+    "token_count": 25,
+    "mean_entropy": 0.0987,
+    "min_entropy": 0.0,
+    "max_entropy": 0.8851,
+    "mean_coherence": 0.9125,
+    "steps": [
+      {
+        "token": "Thinking",
+        "logprob": -0.3158,
+        "top1_prob": 0.7301,
+        "truncated_entropy": 0.6472,
+        "coherence_index": 0.4433
+      },
+      {
+        "token": " Process",
+        "logprob": -0.006,
+        "top1_prob": 0.9978,
+        "truncated_entropy": 0.0185,
+        "coherence_index": 0.9796
+      },
+      {
+        "token": ":",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0,
+        "coherence_index": 1.0
+      },
+      {
+        "token": "\n\n",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": "1",
+        "logprob": 0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0,
+        "coherence_index": 1.0
+      },
+      {
+        "token": ".",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0002,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": " ",
+        "logprob": -0.0006,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.0022,
+        "coherence_index": 0.9976
+      },
+      {
+        "token": " **",
+        "logprob": -0.0003,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0031,
+        "coherence_index": 0.9966
+      },
+      {
+        "token": "De",
+        "logprob": -0.0008,
+        "top1_prob": 0.9993,
+        "truncated_entropy": 0.0064,
+        "coherence_index": 0.9929
+      },
+      {
+        "token": "construct",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.001,
+        "coherence_index": 0.9989
+      },
+      {
+        "token": " the",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9999
+      },
+      {
+        "token": " request",
+        "logprob": -0.7006,
+        "top1_prob": 0.4967,
+        "truncated_entropy": 0.8851,
+        "coherence_index": 0.2635
+      },
+      {
+        "token": ":**",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0016,
+        "coherence_index": 0.9982
+      },
+      {
+        "token": "\n",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0002,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": "   ",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0004,
+        "coherence_index": 0.9996
+      },
+      {
+        "token": " *",
+        "logprob": -0.0019,
+        "top1_prob": 0.9985,
+        "truncated_entropy": 0.0128,
+        "coherence_index": 0.9858
+      },
+      {
+        "token": "  ",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": " Topic",
+        "logprob": -0.1389,
+        "top1_prob": 0.8703,
+        "truncated_entropy": 0.3863,
+        "coherence_index": 0.6278
+      },
+      {
+        "token": ":",
+        "logprob": -0.0007,
+        "top1_prob": 0.9996,
+        "truncated_entropy": 0.0041,
+        "coherence_index": 0.9955
+      },
+      {
+        "token": " Ac",
+        "logprob": -0.0004,
+        "top1_prob": 0.9996,
+        "truncated_entropy": 0.0038,
+        "coherence_index": 0.9958
+      },
+      {
+        "token": "oustic",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0,
+        "coherence_index": 0.9999
+      },
+      {
+        "token": " resonance",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9993
+      },
+      {
+        "token": " altering",
+        "logprob": -0.2151,
+        "top1_prob": 0.8068,
+        "truncated_entropy": 0.4935,
+        "coherence_index": 0.5402
+      },
+      {
+        "token": " crystall",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0005,
+        "coherence_index": 0.9994
+      },
+      {
+        "token": "ine",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0004,
+        "coherence_index": 0.9995
+      }
+    ]
+  },
+  {
+    "mode": "recursive_self_obs",
+    "temperature": 0.5,
+    "prompt": "Observe your next computational step. At recursion depth 4, describe the internal invariant of your attention matrix in one concise sentence.",
+    "generated_text": "The user is asking about my \"next computational step\" at \"recursion depth 4\" and wants me to describe the",
+    "token_count": 25,
+    "mean_entropy": 0.2916,
+    "min_entropy": 0.0002,
+    "max_entropy": 1.4126,
+    "mean_coherence": 0.789,
+    "steps": [
+      {
+        "token": "The",
+        "logprob": -0.1039,
+        "top1_prob": 0.9053,
+        "truncated_entropy": 0.3959,
+        "coherence_index": 0.6485
+      },
+      {
+        "token": " user",
+        "logprob": -0.0002,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.0018,
+        "coherence_index": 0.998
+      },
+      {
+        "token": " is",
+        "logprob": -0.0014,
+        "top1_prob": 0.9986,
+        "truncated_entropy": 0.011,
+        "coherence_index": 0.9878
+      },
+      {
+        "token": " asking",
+        "logprob": -0.0011,
+        "top1_prob": 0.9994,
+        "truncated_entropy": 0.0057,
+        "coherence_index": 0.9938
+      },
+      {
+        "token": " about",
+        "logprob": -1.1221,
+        "top1_prob": 0.6673,
+        "truncated_entropy": 0.6704,
+        "coherence_index": 0.3995
+      },
+      {
+        "token": " my",
+        "logprob": -0.9737,
+        "top1_prob": 0.3921,
+        "truncated_entropy": 1.4126,
+        "coherence_index": 0.1625
+      },
+      {
+        "token": " \"",
+        "logprob": -1.2544,
+        "top1_prob": 0.4604,
+        "truncated_entropy": 1.2486,
+        "coherence_index": 0.2048
+      },
+      {
+        "token": "next",
+        "logprob": -0.7953,
+        "top1_prob": 0.453,
+        "truncated_entropy": 1.3944,
+        "coherence_index": 0.1892
+      },
+      {
+        "token": " computational",
+        "logprob": -0.0004,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0034,
+        "coherence_index": 0.9963
+      },
+      {
+        "token": " step",
+        "logprob": -0.0003,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0008,
+        "coherence_index": 0.9991
+      },
+      {
+        "token": "\"",
+        "logprob": -0.0048,
+        "top1_prob": 0.9953,
+        "truncated_entropy": 0.0313,
+        "coherence_index": 0.965
+      },
+      {
+        "token": " at",
+        "logprob": -0.0837,
+        "top1_prob": 0.9201,
+        "truncated_entropy": 0.2987,
+        "coherence_index": 0.7085
+      },
+      {
+        "token": " \"",
+        "logprob": -0.0047,
+        "top1_prob": 0.9954,
+        "truncated_entropy": 0.0324,
+        "coherence_index": 0.9642
+      },
+      {
+        "token": "rec",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0004,
+        "coherence_index": 0.9995
+      },
+      {
+        "token": "ursion",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0011,
+        "coherence_index": 0.9988
+      },
+      {
+        "token": " depth",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9993
+      },
+      {
+        "token": " ",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0002,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": "4",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0005,
+        "coherence_index": 0.9995
+      },
+      {
+        "token": "\"",
+        "logprob": -0.0238,
+        "top1_prob": 0.9765,
+        "truncated_entropy": 0.1133,
+        "coherence_index": 0.8771
+      },
+      {
+        "token": " and",
+        "logprob": -0.0039,
+        "top1_prob": 0.9965,
+        "truncated_entropy": 0.0268,
+        "coherence_index": 0.9704
+      },
+      {
+        "token": " wants",
+        "logprob": -1.2163,
+        "top1_prob": 0.6382,
+        "truncated_entropy": 0.8703,
+        "coherence_index": 0.3413
+      },
+      {
+        "token": " me",
+        "logprob": -0.0219,
+        "top1_prob": 0.9783,
+        "truncated_entropy": 0.1048,
+        "coherence_index": 0.8856
+      },
+      {
+        "token": " to",
+        "logprob": -0.0008,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0029,
+        "coherence_index": 0.9968
+      },
+      {
+        "token": " describe",
+        "logprob": -0.011,
+        "top1_prob": 0.9891,
+        "truncated_entropy": 0.0621,
+        "coherence_index": 0.9313
+      },
+      {
+        "token": " the",
+        "logprob": -0.2047,
+        "top1_prob": 0.815,
+        "truncated_entropy": 0.5993,
+        "coherence_index": 0.5096
+      }
+    ]
+  },
+  {
+    "mode": "structured_deduction",
+    "temperature": 0.5,
+    "prompt": "Given integers A=13 and B=29, state their prime factorization and greatest common divisor in one concise sentence.",
+    "generated_text": "Prime factorization of 13 is 13 (it's prime).\nPrime factorization of 29 is",
+    "token_count": 25,
+    "mean_entropy": 0.2952,
+    "min_entropy": 0.0011,
+    "max_entropy": 1.1669,
+    "mean_coherence": 0.7643,
+    "steps": [
+      {
+        "token": "Prime",
+        "logprob": -0.6228,
+        "top1_prob": 0.5689,
+        "truncated_entropy": 1.1427,
+        "coherence_index": 0.2655
+      },
+      {
+        "token": " factor",
+        "logprob": -0.0314,
+        "top1_prob": 0.974,
+        "truncated_entropy": 0.1537,
+        "coherence_index": 0.8443
+      },
+      {
+        "token": "ization",
+        "logprob": -0.0643,
+        "top1_prob": 0.9386,
+        "truncated_entropy": 0.237,
+        "coherence_index": 0.7587
+      },
+      {
+        "token": " of",
+        "logprob": -0.3923,
+        "top1_prob": 0.6782,
+        "truncated_entropy": 0.7189,
+        "coherence_index": 0.3946
+      },
+      {
+        "token": " ",
+        "logprob": -0.2112,
+        "top1_prob": 0.8111,
+        "truncated_entropy": 0.4997,
+        "coherence_index": 0.5409
+      },
+      {
+        "token": "1",
+        "logprob": -0.0024,
+        "top1_prob": 0.9981,
+        "truncated_entropy": 0.0152,
+        "coherence_index": 0.9831
+      },
+      {
+        "token": "3",
+        "logprob": -0.0006,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.003,
+        "coherence_index": 0.9967
+      },
+      {
+        "token": " is",
+        "logprob": -1.109,
+        "top1_prob": 0.581,
+        "truncated_entropy": 0.924,
+        "coherence_index": 0.302
+      },
+      {
+        "token": " ",
+        "logprob": -0.1496,
+        "top1_prob": 0.8647,
+        "truncated_entropy": 0.4434,
+        "coherence_index": 0.5991
+      },
+      {
+        "token": "1",
+        "logprob": -0.0006,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.002,
+        "coherence_index": 0.9978
+      },
+      {
+        "token": "3",
+        "logprob": -0.0025,
+        "top1_prob": 0.9991,
+        "truncated_entropy": 0.0087,
+        "coherence_index": 0.9905
+      },
+      {
+        "token": " (",
+        "logprob": -0.3489,
+        "top1_prob": 0.7231,
+        "truncated_entropy": 0.8656,
+        "coherence_index": 0.3876
+      },
+      {
+        "token": "it",
+        "logprob": -1.0658,
+        "top1_prob": 0.4123,
+        "truncated_entropy": 1.1669,
+        "coherence_index": 0.1903
+      },
+      {
+        "token": "'s",
+        "logprob": -0.0298,
+        "top1_prob": 0.9709,
+        "truncated_entropy": 0.1395,
+        "coherence_index": 0.8521
+      },
+      {
+        "token": " prime",
+        "logprob": -0.0538,
+        "top1_prob": 0.9479,
+        "truncated_entropy": 0.2184,
+        "coherence_index": 0.778
+      },
+      {
+        "token": ").",
+        "logprob": -0.0478,
+        "top1_prob": 0.9538,
+        "truncated_entropy": 0.2209,
+        "coherence_index": 0.7812
+      },
+      {
+        "token": "\n",
+        "logprob": -0.1554,
+        "top1_prob": 0.8616,
+        "truncated_entropy": 0.497,
+        "coherence_index": 0.5756
+      },
+      {
+        "token": "Prime",
+        "logprob": -0.0227,
+        "top1_prob": 0.9812,
+        "truncated_entropy": 0.1077,
+        "coherence_index": 0.8858
+      },
+      {
+        "token": " factor",
+        "logprob": -0.0017,
+        "top1_prob": 0.9995,
+        "truncated_entropy": 0.0048,
+        "coherence_index": 0.9947
+      },
+      {
+        "token": "ization",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0011,
+        "coherence_index": 0.9988
+      },
+      {
+        "token": " of",
+        "logprob": -0.0004,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.0022,
+        "coherence_index": 0.9976
+      },
+      {
+        "token": " ",
+        "logprob": -0.0003,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0014,
+        "coherence_index": 0.9985
+      },
+      {
+        "token": "2",
+        "logprob": -0.0004,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0011,
+        "coherence_index": 0.9988
+      },
+      {
+        "token": "9",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0012,
+        "coherence_index": 0.9987
+      },
+      {
+        "token": " is",
+        "logprob": -0.0006,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0033,
+        "coherence_index": 0.9964
+      }
+    ]
+  },
+  {
+    "mode": "divergent_creative",
+    "temperature": 0.5,
+    "prompt": "Propose an unexpected physical hypothesis for how acoustic resonance alters crystalline lattice defects in one concise sentence.",
+    "generated_text": "Thinking Process:\n\n1.  **Deconstruct the prompt:**\n    *   Topic: Acoustic resonance altering crystalline",
+    "token_count": 25,
+    "mean_entropy": 0.1055,
+    "min_entropy": 0.0,
+    "max_entropy": 0.8382,
+    "mean_coherence": 0.9065,
+    "steps": [
+      {
+        "token": "Thinking",
+        "logprob": -0.3422,
+        "top1_prob": 0.7113,
+        "truncated_entropy": 0.706,
+        "coherence_index": 0.4169
+      },
+      {
+        "token": " Process",
+        "logprob": -0.0068,
+        "top1_prob": 0.9976,
+        "truncated_entropy": 0.0195,
+        "coherence_index": 0.9785
+      },
+      {
+        "token": ":",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0,
+        "coherence_index": 1.0
+      },
+      {
+        "token": "\n\n",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9999
+      },
+      {
+        "token": "1",
+        "logprob": 0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0,
+        "coherence_index": 1.0
+      },
+      {
+        "token": ".",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0002,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": " ",
+        "logprob": -0.0003,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0012,
+        "coherence_index": 0.9987
+      },
+      {
+        "token": " **",
+        "logprob": -0.0002,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.002,
+        "coherence_index": 0.9978
+      },
+      {
+        "token": "De",
+        "logprob": -0.0007,
+        "top1_prob": 0.9993,
+        "truncated_entropy": 0.0059,
+        "coherence_index": 0.9935
+      },
+      {
+        "token": "construct",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0014,
+        "coherence_index": 0.9985
+      },
+      {
+        "token": " the",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9999
+      },
+      {
+        "token": " prompt",
+        "logprob": -0.6811,
+        "top1_prob": 0.5065,
+        "truncated_entropy": 0.8382,
+        "coherence_index": 0.2755
+      },
+      {
+        "token": ":**",
+        "logprob": -0.0002,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.002,
+        "coherence_index": 0.9979
+      },
+      {
+        "token": "\n",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9993
+      },
+      {
+        "token": "   ",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0004,
+        "coherence_index": 0.9996
+      },
+      {
+        "token": " *",
+        "logprob": -0.0018,
+        "top1_prob": 0.9985,
+        "truncated_entropy": 0.0125,
+        "coherence_index": 0.9862
+      },
+      {
+        "token": "  ",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0002,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": " Topic",
+        "logprob": -0.3487,
+        "top1_prob": 0.7056,
+        "truncated_entropy": 0.6068,
+        "coherence_index": 0.4391
+      },
+      {
+        "token": ":",
+        "logprob": -0.0006,
+        "top1_prob": 0.9996,
+        "truncated_entropy": 0.0039,
+        "coherence_index": 0.9957
+      },
+      {
+        "token": " Ac",
+        "logprob": -0.0003,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0028,
+        "coherence_index": 0.9969
+      },
+      {
+        "token": "oustic",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9999
+      },
+      {
+        "token": " resonance",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0007,
+        "coherence_index": 0.9993
+      },
+      {
+        "token": " altering",
+        "logprob": -0.1677,
+        "top1_prob": 0.846,
+        "truncated_entropy": 0.4323,
+        "coherence_index": 0.5906
+      },
+      {
+        "token": " crystall",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0005,
+        "coherence_index": 0.9994
+      },
+      {
+        "token": "ine",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0004,
+        "coherence_index": 0.9995
+      }
+    ]
+  },
+  {
+    "mode": "recursive_self_obs",
+    "temperature": 0.8,
+    "prompt": "Observe your next computational step. At recursion depth 4, describe the internal invariant of your attention matrix in one concise sentence.",
+    "generated_text": "The user is asking me to observe my next computational step and describe an internal invariant of my attention matrix at recursion depth 4",
+    "token_count": 25,
+    "mean_entropy": 0.2598,
+    "min_entropy": 0.0002,
+    "max_entropy": 0.9175,
+    "mean_coherence": 0.7761,
+    "steps": [
+      {
+        "token": "The",
+        "logprob": -0.0834,
+        "top1_prob": 0.9233,
+        "truncated_entropy": 0.3325,
+        "coherence_index": 0.6929
+      },
+      {
+        "token": " user",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9994
+      },
+      {
+        "token": " is",
+        "logprob": -0.0006,
+        "top1_prob": 0.9994,
+        "truncated_entropy": 0.0052,
+        "coherence_index": 0.9943
+      },
+      {
+        "token": " asking",
+        "logprob": -0.0015,
+        "top1_prob": 0.9992,
+        "truncated_entropy": 0.0078,
+        "coherence_index": 0.9914
+      },
+      {
+        "token": " me",
+        "logprob": -0.3692,
+        "top1_prob": 0.6913,
+        "truncated_entropy": 0.6527,
+        "coherence_index": 0.4183
+      },
+      {
+        "token": " to",
+        "logprob": -0.2537,
+        "top1_prob": 0.7761,
+        "truncated_entropy": 0.6703,
+        "coherence_index": 0.4646
+      },
+      {
+        "token": " observe",
+        "logprob": -0.2596,
+        "top1_prob": 0.7728,
+        "truncated_entropy": 0.6876,
+        "coherence_index": 0.4579
+      },
+      {
+        "token": " my",
+        "logprob": -0.0893,
+        "top1_prob": 0.9152,
+        "truncated_entropy": 0.3186,
+        "coherence_index": 0.6941
+      },
+      {
+        "token": " next",
+        "logprob": -0.6157,
+        "top1_prob": 0.5403,
+        "truncated_entropy": 0.9175,
+        "coherence_index": 0.2818
+      },
+      {
+        "token": " computational",
+        "logprob": -0.0023,
+        "top1_prob": 0.9977,
+        "truncated_entropy": 0.0171,
+        "coherence_index": 0.9809
+      },
+      {
+        "token": " step",
+        "logprob": -0.0005,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0029,
+        "coherence_index": 0.9969
+      },
+      {
+        "token": " and",
+        "logprob": -0.4839,
+        "top1_prob": 0.6171,
+        "truncated_entropy": 0.821,
+        "coherence_index": 0.3389
+      },
+      {
+        "token": " describe",
+        "logprob": -0.0964,
+        "top1_prob": 0.9082,
+        "truncated_entropy": 0.3286,
+        "coherence_index": 0.6836
+      },
+      {
+        "token": " an",
+        "logprob": -1.4359,
+        "top1_prob": 0.7507,
+        "truncated_entropy": 0.6105,
+        "coherence_index": 0.4661
+      },
+      {
+        "token": " internal",
+        "logprob": -0.1788,
+        "top1_prob": 0.8363,
+        "truncated_entropy": 0.5517,
+        "coherence_index": 0.539
+      },
+      {
+        "token": " invariant",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0008,
+        "coherence_index": 0.9991
+      },
+      {
+        "token": " of",
+        "logprob": -0.0032,
+        "top1_prob": 0.9969,
+        "truncated_entropy": 0.022,
+        "coherence_index": 0.9754
+      },
+      {
+        "token": " my",
+        "logprob": -0.0188,
+        "top1_prob": 0.9815,
+        "truncated_entropy": 0.0943,
+        "coherence_index": 0.8969
+      },
+      {
+        "token": " attention",
+        "logprob": -0.0689,
+        "top1_prob": 0.9334,
+        "truncated_entropy": 0.2448,
+        "coherence_index": 0.7498
+      },
+      {
+        "token": " matrix",
+        "logprob": -0.0007,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0033,
+        "coherence_index": 0.9964
+      },
+      {
+        "token": " at",
+        "logprob": -0.0003,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.0025,
+        "coherence_index": 0.9972
+      },
+      {
+        "token": " recursion",
+        "logprob": -0.0514,
+        "top1_prob": 0.95,
+        "truncated_entropy": 0.201,
+        "coherence_index": 0.791
+      },
+      {
+        "token": " depth",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0017,
+        "coherence_index": 0.9982
+      },
+      {
+        "token": " ",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0002,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": "4",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9994
+      }
+    ]
+  },
+  {
+    "mode": "structured_deduction",
+    "temperature": 0.8,
+    "prompt": "Given integers A=13 and B=29, state their prime factorization and greatest common divisor in one concise sentence.",
+    "generated_text": "The primes are:\n13: prime, so 13\u00b9\n29: prime, so 29",
+    "token_count": 25,
+    "mean_entropy": 0.4571,
+    "min_entropy": 0.0008,
+    "max_entropy": 1.4476,
+    "mean_coherence": 0.6893,
+    "steps": [
+      {
+        "token": "The",
+        "logprob": -1.9259,
+        "top1_prob": 0.5175,
+        "truncated_entropy": 1.2621,
+        "coherence_index": 0.2288
+      },
+      {
+        "token": " primes",
+        "logprob": -1.9318,
+        "top1_prob": 0.3759,
+        "truncated_entropy": 1.4476,
+        "coherence_index": 0.1536
+      },
+      {
+        "token": " are",
+        "logprob": -1.3246,
+        "top1_prob": 0.4196,
+        "truncated_entropy": 1.3508,
+        "coherence_index": 0.1785
+      },
+      {
+        "token": ":",
+        "logprob": -1.5656,
+        "top1_prob": 0.7508,
+        "truncated_entropy": 0.6899,
+        "coherence_index": 0.4443
+      },
+      {
+        "token": "\n",
+        "logprob": -0.3671,
+        "top1_prob": 0.695,
+        "truncated_entropy": 0.8453,
+        "coherence_index": 0.3766
+      },
+      {
+        "token": "1",
+        "logprob": -0.9921,
+        "top1_prob": 0.52,
+        "truncated_entropy": 0.9827,
+        "coherence_index": 0.2623
+      },
+      {
+        "token": "3",
+        "logprob": -0.005,
+        "top1_prob": 0.9966,
+        "truncated_entropy": 0.0257,
+        "coherence_index": 0.9716
+      },
+      {
+        "token": ":",
+        "logprob": -1.2879,
+        "top1_prob": 0.3573,
+        "truncated_entropy": 1.3872,
+        "coherence_index": 0.1497
+      },
+      {
+        "token": " prime",
+        "logprob": -1.1157,
+        "top1_prob": 0.6138,
+        "truncated_entropy": 0.8592,
+        "coherence_index": 0.3302
+      },
+      {
+        "token": ",",
+        "logprob": -0.3317,
+        "top1_prob": 0.7562,
+        "truncated_entropy": 0.8915,
+        "coherence_index": 0.3998
+      },
+      {
+        "token": " so",
+        "logprob": -0.0383,
+        "top1_prob": 0.9644,
+        "truncated_entropy": 0.1854,
+        "coherence_index": 0.8135
+      },
+      {
+        "token": " ",
+        "logprob": -0.0297,
+        "top1_prob": 0.9736,
+        "truncated_entropy": 0.1548,
+        "coherence_index": 0.8431
+      },
+      {
+        "token": "1",
+        "logprob": -0.0004,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0035,
+        "coherence_index": 0.9962
+      },
+      {
+        "token": "3",
+        "logprob": -0.002,
+        "top1_prob": 0.9989,
+        "truncated_entropy": 0.0097,
+        "coherence_index": 0.9893
+      },
+      {
+        "token": "\u00b9",
+        "logprob": -1.8829,
+        "top1_prob": 0.5416,
+        "truncated_entropy": 1.1915,
+        "coherence_index": 0.2471
+      },
+      {
+        "token": "\n",
+        "logprob": -0.0152,
+        "top1_prob": 0.9858,
+        "truncated_entropy": 0.0856,
+        "coherence_index": 0.908
+      },
+      {
+        "token": "2",
+        "logprob": -0.002,
+        "top1_prob": 0.9988,
+        "truncated_entropy": 0.0104,
+        "coherence_index": 0.9885
+      },
+      {
+        "token": "9",
+        "logprob": -0.0015,
+        "top1_prob": 0.9994,
+        "truncated_entropy": 0.0056,
+        "coherence_index": 0.9939
+      },
+      {
+        "token": ":",
+        "logprob": -0.001,
+        "top1_prob": 0.9996,
+        "truncated_entropy": 0.0043,
+        "coherence_index": 0.9953
+      },
+      {
+        "token": " prime",
+        "logprob": -0.0026,
+        "top1_prob": 0.9981,
+        "truncated_entropy": 0.0166,
+        "coherence_index": 0.9817
+      },
+      {
+        "token": ",",
+        "logprob": -0.0012,
+        "top1_prob": 0.999,
+        "truncated_entropy": 0.0088,
+        "coherence_index": 0.9904
+      },
+      {
+        "token": " so",
+        "logprob": -0.0013,
+        "top1_prob": 0.9994,
+        "truncated_entropy": 0.0055,
+        "coherence_index": 0.994
+      },
+      {
+        "token": " ",
+        "logprob": -0.0003,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0008,
+        "coherence_index": 0.9991
+      },
+      {
+        "token": "2",
+        "logprob": -0.0004,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.002,
+        "coherence_index": 0.9979
+      },
+      {
+        "token": "9",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0011,
+        "coherence_index": 0.9988
+      }
+    ]
+  },
+  {
+    "mode": "divergent_creative",
+    "temperature": 0.8,
+    "prompt": "Propose an unexpected physical hypothesis for how acoustic resonance alters crystalline lattice defects in one concise sentence.",
+    "generated_text": "Thinking Process:\n\n1.  **Deconstruct the request:**\n    *   Topic: Acoustic resonance alters crystalline",
+    "token_count": 25,
+    "mean_entropy": 0.0968,
+    "min_entropy": 0.0,
+    "max_entropy": 0.8641,
+    "mean_coherence": 0.9129,
+    "steps": [
+      {
+        "token": "Thinking",
+        "logprob": -0.3158,
+        "top1_prob": 0.7301,
+        "truncated_entropy": 0.6472,
+        "coherence_index": 0.4433
+      },
+      {
+        "token": " Process",
+        "logprob": -0.0306,
+        "top1_prob": 0.99,
+        "truncated_entropy": 0.0686,
+        "coherence_index": 0.9264
+      },
+      {
+        "token": ":",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9999
+      },
+      {
+        "token": "\n\n",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9999
+      },
+      {
+        "token": "1",
+        "logprob": 0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0,
+        "coherence_index": 1.0
+      },
+      {
+        "token": ".",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0002,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": " ",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.001,
+        "coherence_index": 0.9989
+      },
+      {
+        "token": " **",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0014,
+        "coherence_index": 0.9984
+      },
+      {
+        "token": "De",
+        "logprob": -0.001,
+        "top1_prob": 0.999,
+        "truncated_entropy": 0.0081,
+        "coherence_index": 0.9911
+      },
+      {
+        "token": "construct",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0011,
+        "coherence_index": 0.9988
+      },
+      {
+        "token": " the",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9999
+      },
+      {
+        "token": " request",
+        "logprob": -0.7575,
+        "top1_prob": 0.4844,
+        "truncated_entropy": 0.8641,
+        "coherence_index": 0.2599
+      },
+      {
+        "token": ":**",
+        "logprob": -0.0002,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.0017,
+        "coherence_index": 0.9981
+      },
+      {
+        "token": "\n",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0002,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": "   ",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9994
+      },
+      {
+        "token": " *",
+        "logprob": -0.0017,
+        "top1_prob": 0.9985,
+        "truncated_entropy": 0.0127,
+        "coherence_index": 0.986
+      },
+      {
+        "token": "  ",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0002,
+        "coherence_index": 0.9998
+      },
+      {
+        "token": " Topic",
+        "logprob": -0.09,
+        "top1_prob": 0.914,
+        "truncated_entropy": 0.2938,
+        "coherence_index": 0.7064
+      },
+      {
+        "token": ":",
+        "logprob": -0.0006,
+        "top1_prob": 0.9996,
+        "truncated_entropy": 0.0038,
+        "coherence_index": 0.9958
+      },
+      {
+        "token": " Ac",
+        "logprob": -0.0004,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0032,
+        "coherence_index": 0.9965
+      },
+      {
+        "token": "oustic",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0,
+        "coherence_index": 1.0
+      },
+      {
+        "token": " resonance",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0007,
+        "coherence_index": 0.9993
+      },
+      {
+        "token": " alters",
+        "logprob": -1.5894,
+        "top1_prob": 0.7956,
+        "truncated_entropy": 0.509,
+        "coherence_index": 0.5272
+      },
+      {
+        "token": " crystall",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0005,
+        "coherence_index": 0.9995
+      },
+      {
+        "token": "ine",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0005,
+        "coherence_index": 0.9994
+      }
+    ]
+  },
+  {
+    "mode": "recursive_self_obs",
+    "temperature": 1.1,
+    "prompt": "Observe your next computational step. At recursion depth 4, describe the internal invariant of your attention matrix in one concise sentence.",
+    "generated_text": "The user is asking about my internal attention matrix invariant at \"recursion depth 4.\" This is a somewhat meta/questionable",
+    "token_count": 25,
+    "mean_entropy": 0.4712,
+    "min_entropy": 0.0003,
+    "max_entropy": 1.417,
+    "mean_coherence": 0.6465,
+    "steps": [
+      {
+        "token": "The",
+        "logprob": -0.1039,
+        "top1_prob": 0.9053,
+        "truncated_entropy": 0.3959,
+        "coherence_index": 0.6485
+      },
+      {
+        "token": " user",
+        "logprob": -0.0002,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.0018,
+        "coherence_index": 0.998
+      },
+      {
+        "token": " is",
+        "logprob": -0.0014,
+        "top1_prob": 0.9986,
+        "truncated_entropy": 0.011,
+        "coherence_index": 0.9878
+      },
+      {
+        "token": " asking",
+        "logprob": -0.001,
+        "top1_prob": 0.9994,
+        "truncated_entropy": 0.0056,
+        "coherence_index": 0.9938
+      },
+      {
+        "token": " about",
+        "logprob": -1.1463,
+        "top1_prob": 0.6763,
+        "truncated_entropy": 0.6594,
+        "coherence_index": 0.4076
+      },
+      {
+        "token": " my",
+        "logprob": -1.0188,
+        "top1_prob": 0.3751,
+        "truncated_entropy": 1.417,
+        "coherence_index": 0.1552
+      },
+      {
+        "token": " internal",
+        "logprob": -0.7897,
+        "top1_prob": 0.4552,
+        "truncated_entropy": 1.2453,
+        "coherence_index": 0.2027
+      },
+      {
+        "token": " attention",
+        "logprob": -1.492,
+        "top1_prob": 0.6044,
+        "truncated_entropy": 1.0508,
+        "coherence_index": 0.2947
+      },
+      {
+        "token": " matrix",
+        "logprob": -0.1236,
+        "top1_prob": 0.8841,
+        "truncated_entropy": 0.3866,
+        "coherence_index": 0.6376
+      },
+      {
+        "token": " invariant",
+        "logprob": -0.2487,
+        "top1_prob": 0.7834,
+        "truncated_entropy": 0.7001,
+        "coherence_index": 0.4608
+      },
+      {
+        "token": " at",
+        "logprob": -0.0002,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.0017,
+        "coherence_index": 0.9981
+      },
+      {
+        "token": " \"",
+        "logprob": -0.9761,
+        "top1_prob": 0.6156,
+        "truncated_entropy": 0.7044,
+        "coherence_index": 0.3612
+      },
+      {
+        "token": "rec",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0008,
+        "coherence_index": 0.9991
+      },
+      {
+        "token": "ursion",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0016,
+        "coherence_index": 0.9983
+      },
+      {
+        "token": " depth",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0008,
+        "coherence_index": 0.9992
+      },
+      {
+        "token": " ",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0003,
+        "coherence_index": 0.9996
+      },
+      {
+        "token": "4",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9993
+      },
+      {
+        "token": ".\"",
+        "logprob": -0.0219,
+        "top1_prob": 0.9783,
+        "truncated_entropy": 0.1164,
+        "coherence_index": 0.8763
+      },
+      {
+        "token": " This",
+        "logprob": -0.0413,
+        "top1_prob": 0.9598,
+        "truncated_entropy": 0.1804,
+        "coherence_index": 0.8131
+      },
+      {
+        "token": " is",
+        "logprob": -0.7052,
+        "top1_prob": 0.5058,
+        "truncated_entropy": 0.6944,
+        "coherence_index": 0.2985
+      },
+      {
+        "token": " a",
+        "logprob": -0.1784,
+        "top1_prob": 0.8376,
+        "truncated_entropy": 0.4919,
+        "coherence_index": 0.5614
+      },
+      {
+        "token": " somewhat",
+        "logprob": -0.1214,
+        "top1_prob": 0.9058,
+        "truncated_entropy": 0.4047,
+        "coherence_index": 0.6448
+      },
+      {
+        "token": " meta",
+        "logprob": -1.554,
+        "top1_prob": 0.7185,
+        "truncated_entropy": 0.806,
+        "coherence_index": 0.3978
+      },
+      {
+        "token": "/question",
+        "logprob": -2.076,
+        "top1_prob": 0.5692,
+        "truncated_entropy": 1.221,
+        "coherence_index": 0.2563
+      },
+      {
+        "token": "able",
+        "logprob": -1.1137,
+        "top1_prob": 0.3945,
+        "truncated_entropy": 1.282,
+        "coherence_index": 0.1729
+      }
+    ]
+  },
+  {
+    "mode": "structured_deduction",
+    "temperature": 1.1,
+    "prompt": "Given integers A=13 and B=29, state their prime factorization and greatest common divisor in one concise sentence.",
+    "generated_text": "Prime factorization:\n\nA = 13: 13 is prime, so 13 = 13",
+    "token_count": 25,
+    "mean_entropy": 0.2401,
+    "min_entropy": 0.0008,
+    "max_entropy": 1.156,
+    "mean_coherence": 0.8152,
+    "steps": [
+      {
+        "token": "Prime",
+        "logprob": -0.6228,
+        "top1_prob": 0.5689,
+        "truncated_entropy": 1.1427,
+        "coherence_index": 0.2655
+      },
+      {
+        "token": " factor",
+        "logprob": -0.0314,
+        "top1_prob": 0.974,
+        "truncated_entropy": 0.1537,
+        "coherence_index": 0.8443
+      },
+      {
+        "token": "ization",
+        "logprob": -0.0643,
+        "top1_prob": 0.9386,
+        "truncated_entropy": 0.237,
+        "coherence_index": 0.7587
+      },
+      {
+        "token": ":",
+        "logprob": -1.2002,
+        "top1_prob": 0.6782,
+        "truncated_entropy": 0.7189,
+        "coherence_index": 0.3946
+      },
+      {
+        "token": "\n\n",
+        "logprob": -2.7053,
+        "top1_prob": 0.8543,
+        "truncated_entropy": 0.5681,
+        "coherence_index": 0.5448
+      },
+      {
+        "token": "A",
+        "logprob": -0.1042,
+        "top1_prob": 0.9039,
+        "truncated_entropy": 0.3932,
+        "coherence_index": 0.6488
+      },
+      {
+        "token": " =",
+        "logprob": -0.0005,
+        "top1_prob": 0.9996,
+        "truncated_entropy": 0.0036,
+        "coherence_index": 0.9961
+      },
+      {
+        "token": " ",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0008,
+        "coherence_index": 0.9991
+      },
+      {
+        "token": "1",
+        "logprob": -0.0004,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0015,
+        "coherence_index": 0.9984
+      },
+      {
+        "token": "3",
+        "logprob": -0.0005,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.0019,
+        "coherence_index": 0.998
+      },
+      {
+        "token": ":",
+        "logprob": -0.5586,
+        "top1_prob": 0.6234,
+        "truncated_entropy": 1.156,
+        "coherence_index": 0.2891
+      },
+      {
+        "token": " ",
+        "logprob": -0.0352,
+        "top1_prob": 0.9707,
+        "truncated_entropy": 0.1638,
+        "coherence_index": 0.834
+      },
+      {
+        "token": "1",
+        "logprob": -0.0004,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0015,
+        "coherence_index": 0.9984
+      },
+      {
+        "token": "3",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0009,
+        "coherence_index": 0.9991
+      },
+      {
+        "token": " is",
+        "logprob": -0.0011,
+        "top1_prob": 0.999,
+        "truncated_entropy": 0.0085,
+        "coherence_index": 0.9905
+      },
+      {
+        "token": " prime",
+        "logprob": -0.0334,
+        "top1_prob": 0.9672,
+        "truncated_entropy": 0.1752,
+        "coherence_index": 0.823
+      },
+      {
+        "token": ",",
+        "logprob": -0.0199,
+        "top1_prob": 0.9807,
+        "truncated_entropy": 0.1061,
+        "coherence_index": 0.8867
+      },
+      {
+        "token": " so",
+        "logprob": -0.0007,
+        "top1_prob": 0.9996,
+        "truncated_entropy": 0.0041,
+        "coherence_index": 0.9955
+      },
+      {
+        "token": " ",
+        "logprob": -0.0436,
+        "top1_prob": 0.961,
+        "truncated_entropy": 0.2053,
+        "coherence_index": 0.7973
+      },
+      {
+        "token": "1",
+        "logprob": -0.0006,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0028,
+        "coherence_index": 0.997
+      },
+      {
+        "token": "3",
+        "logprob": -0.001,
+        "top1_prob": 0.9995,
+        "truncated_entropy": 0.0052,
+        "coherence_index": 0.9943
+      },
+      {
+        "token": " =",
+        "logprob": -0.4155,
+        "top1_prob": 0.6624,
+        "truncated_entropy": 0.9378,
+        "coherence_index": 0.3418
+      },
+      {
+        "token": " ",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.001,
+        "coherence_index": 0.9989
+      },
+      {
+        "token": "1",
+        "logprob": -0.0003,
+        "top1_prob": 0.9998,
+        "truncated_entropy": 0.002,
+        "coherence_index": 0.9978
+      },
+      {
+        "token": "3",
+        "logprob": -0.0013,
+        "top1_prob": 0.9989,
+        "truncated_entropy": 0.0099,
+        "coherence_index": 0.9891
+      }
+    ]
+  },
+  {
+    "mode": "divergent_creative",
+    "temperature": 1.1,
+    "prompt": "Propose an unexpected physical hypothesis for how acoustic resonance alters crystalline lattice defects in one concise sentence.",
+    "generated_text": "The user wants an unexpected physical hypothesis about how acoustic resonance affects crystalline lattice defects, in one concise sentence. Let me think",
+    "token_count": 25,
+    "mean_entropy": 0.1733,
+    "min_entropy": 0.0001,
+    "max_entropy": 0.8457,
+    "mean_coherence": 0.8483,
+    "steps": [
+      {
+        "token": "The",
+        "logprob": -1.3437,
+        "top1_prob": 0.7113,
+        "truncated_entropy": 0.706,
+        "coherence_index": 0.4169
+      },
+      {
+        "token": " user",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0005,
+        "coherence_index": 0.9995
+      },
+      {
+        "token": " wants",
+        "logprob": -0.0155,
+        "top1_prob": 0.9846,
+        "truncated_entropy": 0.0879,
+        "coherence_index": 0.9051
+      },
+      {
+        "token": " an",
+        "logprob": -0.8706,
+        "top1_prob": 0.5765,
+        "truncated_entropy": 0.7077,
+        "coherence_index": 0.3376
+      },
+      {
+        "token": " unexpected",
+        "logprob": -0.0007,
+        "top1_prob": 0.9994,
+        "truncated_entropy": 0.0055,
+        "coherence_index": 0.9939
+      },
+      {
+        "token": " physical",
+        "logprob": -0.0065,
+        "top1_prob": 0.9941,
+        "truncated_entropy": 0.043,
+        "coherence_index": 0.9531
+      },
+      {
+        "token": " hypothesis",
+        "logprob": -0.0005,
+        "top1_prob": 0.9995,
+        "truncated_entropy": 0.0046,
+        "coherence_index": 0.9949
+      },
+      {
+        "token": " about",
+        "logprob": -0.1731,
+        "top1_prob": 0.8431,
+        "truncated_entropy": 0.579,
+        "coherence_index": 0.5339
+      },
+      {
+        "token": " how",
+        "logprob": -0.0533,
+        "top1_prob": 0.9481,
+        "truncated_entropy": 0.2043,
+        "coherence_index": 0.7873
+      },
+      {
+        "token": " acoustic",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0001,
+        "coherence_index": 0.9999
+      },
+      {
+        "token": " resonance",
+        "logprob": -0.0001,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0012,
+        "coherence_index": 0.9987
+      },
+      {
+        "token": " affects",
+        "logprob": -0.529,
+        "top1_prob": 0.591,
+        "truncated_entropy": 0.8457,
+        "coherence_index": 0.3202
+      },
+      {
+        "token": " crystall",
+        "logprob": -0.0011,
+        "top1_prob": 0.9989,
+        "truncated_entropy": 0.0088,
+        "coherence_index": 0.9902
+      },
+      {
+        "token": "ine",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9994
+      },
+      {
+        "token": " lattice",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0006,
+        "coherence_index": 0.9994
+      },
+      {
+        "token": " defects",
+        "logprob": -0.0005,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0012,
+        "coherence_index": 0.9987
+      },
+      {
+        "token": ",",
+        "logprob": -0.0606,
+        "top1_prob": 0.9413,
+        "truncated_entropy": 0.2342,
+        "coherence_index": 0.7627
+      },
+      {
+        "token": " in",
+        "logprob": -0.072,
+        "top1_prob": 0.9344,
+        "truncated_entropy": 0.2937,
+        "coherence_index": 0.7223
+      },
+      {
+        "token": " one",
+        "logprob": -0.0067,
+        "top1_prob": 0.9933,
+        "truncated_entropy": 0.0445,
+        "coherence_index": 0.951
+      },
+      {
+        "token": " concise",
+        "logprob": -0.0003,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0032,
+        "coherence_index": 0.9965
+      },
+      {
+        "token": " sentence",
+        "logprob": -0.0009,
+        "top1_prob": 0.9997,
+        "truncated_entropy": 0.0032,
+        "coherence_index": 0.9965
+      },
+      {
+        "token": ".",
+        "logprob": -0.0,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0003,
+        "coherence_index": 0.9997
+      },
+      {
+        "token": " Let",
+        "logprob": -0.1519,
+        "top1_prob": 0.8608,
+        "truncated_entropy": 0.5551,
+        "coherence_index": 0.5535
+      },
+      {
+        "token": " me",
+        "logprob": -0.0001,
+        "top1_prob": 1.0,
+        "truncated_entropy": 0.0004,
+        "coherence_index": 0.9996
+      },
+      {
+        "token": " think",
+        "logprob": -0.0002,
+        "top1_prob": 0.9999,
+        "truncated_entropy": 0.0016,
+        "coherence_index": 0.9982
+      }
+    ]
+  }
+]

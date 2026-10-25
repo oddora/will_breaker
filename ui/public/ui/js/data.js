@@ -186,6 +186,43 @@ const PROJECT_DATA = {
         { item: "Academic Pre-Print Manuscript authored (research/010)", done: true },
         { item: "Automated Live Crawler & Archetype Forecaster deployed", done: true },
         { item: "Submit OSF Pre-registration (NEEDS HUMAN ACTION)", done: false },
-        { item: "Desktop UI launcher & shortcut trusted and operational", done: true }
-    ]
+        { item: "Desktop UI launcher & shortcut trusted and operational", done: true },
+        { item: "Session 041: Local MoE Benchmark & Throughput Audit (71 tok/s)", done: true },
+        { item: "Session 041: Liturgical Slot-Filler Compiler with Goetic Validation", done: true },
+        { item: "Session 041: Complete 72-Spirit Corpus Knowledge Graph & Procedural Sigil Engine", done: true }
+    ],
+
+    symbolicEngine: {
+        totalSpirits: 72,
+        totalRelationships: 374,
+        taxonomicDomains: 104,
+        planets: [
+            { name: "Sun", metal: "Gold", color: "#f59e0b", points: 6, rotPeriod: 60, dir: "clockwise", office: "Kings" },
+            { name: "Moon", metal: "Silver", color: "#cbd5e1", points: 9, rotPeriod: 28, dir: "counter-clockwise", office: "Marquises" },
+            { name: "Mars", metal: "Iron", color: "#ef4444", points: 5, rotPeriod: 45, dir: "counter-clockwise", office: "Earls" },
+            { name: "Mercury", metal: "Mercury", color: "#818cf8", points: 8, rotPeriod: 88, dir: "clockwise", office: "Presidents" },
+            { name: "Jupiter", metal: "Tin", color: "#38bdf8", points: 4, rotPeriod: 120, dir: "clockwise", office: "Princes" },
+            { name: "Venus", metal: "Copper", color: "#34d399", points: 7, rotPeriod: 225, dir: "counter-clockwise", office: "Dukes" },
+            { name: "Saturn", metal: "Lead", color: "#64748b", points: 3, rotPeriod: 300, dir: "clockwise", office: "Knights" }
+        ],
+        sampleEntities: [
+            { num: 1, name: "Bael", rank: "King", metal: "Gold", direction: "East", legions: 66, domains: ["invisibility", "wisdom"] },
+            { num: 2, name: "Agares", rank: "Duke", metal: "Copper", direction: "East", legions: 31, domains: ["languages", "earthquakes", "retrieval"] },
+            { num: 5, name: "Marbas", rank: "President", metal: "Mercury", direction: "East", legions: 36, domains: ["healing", "mechanical_arts", "shapeshifting"] },
+            { num: 9, name: "Paimon", rank: "King", metal: "Gold", direction: "North", legions: 200, domains: ["sciences", "arts", "binding"] },
+            { num: 10, name: "Buer", rank: "President", metal: "Mercury", direction: "South", legions: 50, domains: ["philosophy", "herbalism", "healing"] },
+            { num: 28, name: "Berith", rank: "Duke", metal: "Copper", direction: "North", legions: 26, domains: ["alchemy", "dignity", "past_future"] },
+            { num: 32, name: "Asmoday", rank: "King", metal: "Gold", direction: "East", legions: 72, domains: ["astronomy", "geometry", "invincibility"] },
+            { num: 50, name: "Furcas", rank: "Knight", metal: "Lead", direction: "North", legions: 20, domains: ["philosophy", "astronomy", "logic", "chiromancy"] },
+            { num: 68, name: "Belial", rank: "King", metal: "Gold", direction: "South", legions: 80, domains: ["dignity", "senatorships", "favor_of_friends"] },
+            { num: 72, name: "Andromalius", rank: "Earl", metal: "Iron", direction: "South", legions: 36, domains: ["retrieval", "theft_punishment", "hidden_treasures"] }
+        ],
+        benchmark: {
+            hardware: "34.6B MoE (kat-philly-Q4_K_M on port :18283)",
+            genSpeed: "71.0 tok/s",
+            evalSpeed: "669.8 tok/s",
+            entropyCollapse: "-88.9% (at Depth 5)",
+            status: "NOMINAL"
+        }
+    }
 };

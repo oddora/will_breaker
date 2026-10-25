@@ -206,4 +206,42 @@ class SportsResolver:
 
 
 if __name__ == "__main__":
-    print("SportsResolver ready.")
+    import argparse
+    parser = argparse.ArgumentParser(description="Will Breaker Sports Resolution Engine")
+    parser.add_argument("--status", action="store_true", help="List all sealed sports commitments")
+    parser.add_argument("--scores", type=str, help="JSON dictionary of game_id -> [away_score, home_score]")
+    parser.add_argument("--scores-file", type=str, help="Path to JSON file containing box scores")
+    parser.add_argument("--session", type=str, default="041", help="Session ID to resolve (default: 041)")
+    args = parser.parse_args()
+
+    resolver = SportsResolver()
+
+    if args.status or (not args.scores and not args.scores_file):
+        print(f"=== WILL BREAKER SPORTS PREDICTIONS: SESSION {args.session} ===")
+        all_records = resolver.predictor.load_all_commitments()
+        unresolved = [
+            r for r in all_records
+            if r.get("status") == "SEALED" and r.get("prediction", {}).get("session_id") == args.session
+        ]
+        print(f"Total Sealed Commitments: {len(unresolved)}")
+        for r in unresolved:
+            p = r.get("prediction", {})
+            print(f"  [{r['commitment_id']}] {p.get('event_description')}")
+            print(f"    Pick: {p.get('predicted_outcome')} (p={p.get('probability')}) | Seal: {r['sha256_seal'][:12]}...")
+
+    if args.scores or args.scores_file:
+        box_scores = {}
+        if args.scores:
+            box_scores.update(json.loads(args.scores))
+        if args.scores_file:
+            with open(args.scores_file, "r", encoding="utf-8") as f:
+                box_scores.update(json.load(f))
+
+        print(f"\nResolving {len(box_scores)} game(s) for Session {args.session}...")
+        summary = resolver.resolve_battery(box_scores, session_id=args.session)
+        print(f"Games Resolved: {summary['games_resolved']}")
+        print(f"ATS Record: {summary['ats_record']} ({summary['ats_hit_rate'] * 100:.1f}%)")
+        print(f"Moneyline Record: {summary['ml_record']} ({summary['ml_hit_rate'] * 100:.1f}%)")
+        print(f"Overall Accuracy: {summary['overall_accuracy'] * 100:.1f}%")
+        print(f"Mean Brier Score: {summary['mean_brier_score']}")
+        print(f"Brier Skill Score (BSS): {summary['brier_skill_score']}")

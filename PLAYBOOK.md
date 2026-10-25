@@ -38,6 +38,21 @@
    - Explores the tension between mathematical state machines (`circle_integrity < 0.50`), mechanistic token entropy collapse, procedural vector strain overlays, and human operator narrative projection ("The Solomonic Illusion").
    - Strict epistemic demarcation separating fictional worldbuilding from objective empirical reality.
    - Added 4 unit tests in [`tests/test_fiction_dossier.py`](file:///home/comandante/will_breaker/tests/test_fiction_dossier.py); full repository test suite now **51/51 passing**.
+11. **Complete 72-Spirit Goetic Knowledge Taxonomy ([`corpus_graph.py`](file:///home/comandante/will_breaker/symbolic_engine/corpus_graph.py)):**
+   - Expanded catalog to all 72 historical Ars Goetia spirits, 374 relational links, and 104 domain tags.
+   - Enforces complete coverage of all 7 classical planetary metals: Gold (Kings), Copper (Dukes), Tin (Princes), Silver (Marquises), Iron (Earls), Mercury (Presidents), and Lead (Knight Furcas).
+   - Exported full knowledge graph to [`results/symbolic_engine/goetic_knowledge_graph.json`](file:///home/comandante/will_breaker/results/symbolic_engine/goetic_knowledge_graph.json).
+12. **Mechanistic Hyperparameter & Entropy Sweep on KAT ([`entropy_hyperparameter_sweep.py`](file:///home/comandante/will_breaker/research/benchmarks/entropy_hyperparameter_sweep.py)):**
+   - Empirical sweep across temperatures $T \in [0.2, 0.5, 0.8, 1.1]$ and prompt regimes (recursive self-observation, structured deduction, divergent exploration) on `:18283`.
+   - Measured per-token Shannon entropy $\mathcal{H}$, surprisal $\mathcal{I}(x)$, and Coherence Index $\mathcal{C}$.
+   - Results documented in [`results/benchmarks/session_041_entropy_sweep.md`](file:///home/comandante/will_breaker/results/benchmarks/session_041_entropy_sweep.md): replicates Paper `010` showing monotonic entropy collapse under self-referential prompts ($\mathcal{H} = 0.18 - 0.22\text{ nats}$, Coherence $> 0.80$).
+   - Added 3 unit tests in [`tests/test_entropy_sweep.py`](file:///home/comandante/will_breaker/tests/test_entropy_sweep.py).
+13. **Live Web Dashboard Integration (`ui/` on port `:8080`):**
+   - Added new `Symbolic Engine` interactive page to live dashboard with client-side procedural SVG rendering.
+   - Features 7 selectable planetary matrix geometries, animated counter-rotations, real-time circle integrity slider with dynamic jagged fissure overlays, turn-based liturgical simulator console, and 72-spirit taxonomy search/filter explorer.
+14. **Sports Resolution Engine CLI ([`resolve_sports_battery.py`](file:///home/comandante/will_breaker/research/sports/resolve_sports_battery.py)):**
+   - Enhanced resolver with `--status`, `--scores`, and `--scores-file` CLI arguments. Confirmed all 22 commitments for Session 041 are `SEALED` and awaiting official final box scores tonight.
+   - Full repository test suite now **55/55 passing**.
 
 ---
 

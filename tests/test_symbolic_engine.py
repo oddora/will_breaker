@@ -145,8 +145,26 @@ class TestGoeticCorpus(unittest.TestCase):
         graph = self.corpus.to_network_graph()
         self.assertIn("nodes", graph)
         self.assertIn("links", graph)
-        self.assertGreater(len(graph["nodes"]), 30)
-        self.assertGreater(len(graph["links"]), 50)
+        self.assertEqual(len(graph["nodes"]), 72)
+        self.assertGreater(len(graph["links"]), 100)
+
+    def test_complete_72_corpus_taxonomies(self):
+        """Verify all 72 entities and the 7 classical planetary metals."""
+        self.assertEqual(len(self.corpus.records), 72)
+        # Verify Knight rank and Lead metal
+        furcas = self.corpus.get_by_name("Furcas")
+        self.assertIsNotNone(furcas)
+        self.assertEqual(furcas.rank, "Knight")
+        self.assertEqual(furcas.metal, "Lead")
+
+        # Verify all 7 metals exist in corpus
+        metals = {r.metal for r in self.corpus.records}
+        self.assertEqual(metals, {"Gold", "Copper", "Tin", "Silver", "Iron", "Mercury", "Lead"})
+
+        # Verify spirit 72
+        andromalius = self.corpus.get_by_number(72)
+        self.assertIsNotNone(andromalius)
+        self.assertEqual(andromalius.name, "Andromalius")
 
 
 if __name__ == '__main__':

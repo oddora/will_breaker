@@ -1,66 +1,111 @@
 {
   "metadata": {
-    "total_entities": 36,
-    "total_relationships": 85,
+    "total_entities": 72,
+    "total_relationships": 374,
     "domains": [
       "alchemy",
       "animal_speech",
       "archery",
+      "architecture",
       "arts",
+      "arts_sciences",
+      "astrology",
       "astronomy",
       "barrenness",
       "battles",
       "binding",
+      "birds",
       "bloodshed",
+      "chiromancy",
       "combat",
+      "construction",
       "cosmology",
       "courage",
       "cunning",
       "desire",
       "dignity",
       "diplomacy",
+      "discord",
+      "discovery",
       "divine_secrets",
+      "divinity",
+      "drowning",
       "earthquakes",
       "eloquence",
+      "enemy_secrets",
       "fall_of_angels",
       "familiar",
       "familiars",
+      "favor_of_friends",
+      "feuds",
       "fire",
+      "fortifications",
+      "fortresses",
+      "future",
+      "gangrene",
       "gemstones",
       "geometry",
+      "grammar",
+      "handicrafts",
       "healing",
       "herbalism",
       "hidden_affairs",
+      "hidden_things",
       "hidden_treasures",
       "honesty",
       "honor",
+      "instruments",
       "invincibility",
       "invisibility",
       "languages",
+      "liberal_arts",
       "liberal_sciences",
       "logic",
       "lost_items",
       "love",
       "mechanical_arts",
+      "mechanics",
+      "mensuration",
       "military_strategy",
+      "mind_influence",
+      "music",
+      "naval_guidance",
       "necromancy",
       "pacifism",
       "passion",
       "past_future",
       "philosophy",
+      "poetry",
       "reconciliation",
       "reputation",
       "retrieval",
       "rhetoric",
       "sciences",
       "secrets",
+      "senatorships",
+      "serpents",
       "shapeshifting",
+      "sight_deprivation",
+      "souls",
       "storms",
+      "swiftness",
       "teleportation",
       "theft",
+      "theft_punishment",
+      "thought_reading",
+      "towers",
+      "transformation",
+      "transmutation",
+      "truth",
+      "warfare",
+      "warm_waters",
+      "water_sounds",
       "wealth",
+      "weapons",
+      "winds",
       "wisdom",
       "wit",
+      "witchcraft",
       "wounds"
     ]
   },
@@ -555,6 +600,515 @@
         "herbalism",
         "gemstones"
       ]
+    },
+    {
+      "id": "Phenex",
+      "label": "Phenex (Marquis)",
+      "number": 37,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "East",
+      "legions": 20,
+      "domains": [
+        "poetry",
+        "sciences",
+        "music"
+      ]
+    },
+    {
+      "id": "Halphas",
+      "label": "Halphas (Earl)",
+      "number": 38,
+      "group": "Earl",
+      "metal": "Iron",
+      "direction": "East",
+      "legions": 26,
+      "domains": [
+        "fortifications",
+        "weapons",
+        "warfare"
+      ]
+    },
+    {
+      "id": "Malphas",
+      "label": "Malphas (President)",
+      "number": 39,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "South",
+      "legions": 40,
+      "domains": [
+        "construction",
+        "enemy_secrets",
+        "architecture"
+      ]
+    },
+    {
+      "id": "Raum",
+      "label": "Raum (Earl)",
+      "number": 40,
+      "group": "Earl",
+      "metal": "Iron",
+      "direction": "North",
+      "legions": 30,
+      "domains": [
+        "theft",
+        "reconciliation",
+        "past_future"
+      ]
+    },
+    {
+      "id": "Focalor",
+      "label": "Focalor (Duke)",
+      "number": 41,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "West",
+      "legions": 30,
+      "domains": [
+        "winds",
+        "storms",
+        "drowning"
+      ]
+    },
+    {
+      "id": "Vepar",
+      "label": "Vepar (Duke)",
+      "number": 42,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "North",
+      "legions": 29,
+      "domains": [
+        "naval_guidance",
+        "wounds",
+        "storms"
+      ]
+    },
+    {
+      "id": "Sabnock",
+      "label": "Sabnock (Marquis)",
+      "number": 43,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "South",
+      "legions": 50,
+      "domains": [
+        "fortresses",
+        "architecture",
+        "gangrene"
+      ]
+    },
+    {
+      "id": "Shax",
+      "label": "Shax (Marquis)",
+      "number": 44,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "East",
+      "legions": 30,
+      "domains": [
+        "sight_deprivation",
+        "theft",
+        "discovery"
+      ]
+    },
+    {
+      "id": "Vine",
+      "label": "Vine (King)",
+      "number": 45,
+      "group": "King",
+      "metal": "Gold",
+      "direction": "North",
+      "legions": 36,
+      "domains": [
+        "hidden_things",
+        "witchcraft",
+        "towers"
+      ]
+    },
+    {
+      "id": "Bifrons",
+      "label": "Bifrons (Earl)",
+      "number": 46,
+      "group": "Earl",
+      "metal": "Iron",
+      "direction": "South",
+      "legions": 26,
+      "domains": [
+        "geometry",
+        "astronomy",
+        "necromancy",
+        "herbalism"
+      ]
+    },
+    {
+      "id": "Vual",
+      "label": "Vual (Duke)",
+      "number": 47,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "North",
+      "legions": 37,
+      "domains": [
+        "love",
+        "past_future",
+        "diplomacy"
+      ]
+    },
+    {
+      "id": "Haagenti",
+      "label": "Haagenti (President)",
+      "number": 48,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "South",
+      "legions": 33,
+      "domains": [
+        "alchemy",
+        "transmutation",
+        "wisdom"
+      ]
+    },
+    {
+      "id": "Crocell",
+      "label": "Crocell (Duke)",
+      "number": 49,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "North",
+      "legions": 48,
+      "domains": [
+        "geometry",
+        "sciences",
+        "warm_waters"
+      ]
+    },
+    {
+      "id": "Furcas",
+      "label": "Furcas (Knight)",
+      "number": 50,
+      "group": "Knight",
+      "metal": "Lead",
+      "direction": "North",
+      "legions": 20,
+      "domains": [
+        "philosophy",
+        "astronomy",
+        "logic",
+        "rhetoric",
+        "chiromancy"
+      ]
+    },
+    {
+      "id": "Balam",
+      "label": "Balam (King)",
+      "number": 51,
+      "group": "King",
+      "metal": "Gold",
+      "direction": "North",
+      "legions": 40,
+      "domains": [
+        "past_future",
+        "wit",
+        "invisibility"
+      ]
+    },
+    {
+      "id": "Alloces",
+      "label": "Alloces (Duke)",
+      "number": 52,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "South",
+      "legions": 36,
+      "domains": [
+        "astronomy",
+        "liberal_arts",
+        "familiars"
+      ]
+    },
+    {
+      "id": "Camio",
+      "label": "Camio (President)",
+      "number": 53,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "South",
+      "legions": 30,
+      "domains": [
+        "animal_speech",
+        "water_sounds",
+        "future"
+      ]
+    },
+    {
+      "id": "Murmur",
+      "label": "Murmur (Duke)",
+      "number": 54,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "South",
+      "legions": 30,
+      "domains": [
+        "philosophy",
+        "necromancy",
+        "souls"
+      ]
+    },
+    {
+      "id": "Orobas",
+      "label": "Orobas (Prince)",
+      "number": 55,
+      "group": "Prince",
+      "metal": "Tin",
+      "direction": "West",
+      "legions": 20,
+      "domains": [
+        "past_future",
+        "divinity",
+        "honor",
+        "truth"
+      ]
+    },
+    {
+      "id": "Gremory",
+      "label": "Gremory (Duke)",
+      "number": 56,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "South",
+      "legions": 26,
+      "domains": [
+        "past_future",
+        "hidden_treasures",
+        "love"
+      ]
+    },
+    {
+      "id": "Ose",
+      "label": "Ose (President)",
+      "number": 57,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "North",
+      "legions": 30,
+      "domains": [
+        "liberal_sciences",
+        "transformation",
+        "secrets"
+      ]
+    },
+    {
+      "id": "Amy",
+      "label": "Amy (President)",
+      "number": 58,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "South",
+      "legions": 36,
+      "domains": [
+        "astrology",
+        "liberal_sciences",
+        "familiars"
+      ]
+    },
+    {
+      "id": "Orias",
+      "label": "Orias (Marquis)",
+      "number": 59,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "East",
+      "legions": 30,
+      "domains": [
+        "astronomy",
+        "astrology",
+        "dignity",
+        "transformation"
+      ]
+    },
+    {
+      "id": "Vapula",
+      "label": "Vapula (Duke)",
+      "number": 60,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "South",
+      "legions": 36,
+      "domains": [
+        "mechanics",
+        "handicrafts",
+        "philosophy"
+      ]
+    },
+    {
+      "id": "Zagan",
+      "label": "Zagan (King)",
+      "number": 61,
+      "group": "King",
+      "metal": "Gold",
+      "direction": "North",
+      "legions": 33,
+      "domains": [
+        "wit",
+        "alchemy",
+        "transmutation"
+      ]
+    },
+    {
+      "id": "Valac",
+      "label": "Valac (President)",
+      "number": 62,
+      "group": "President",
+      "metal": "Mercury",
+      "direction": "West",
+      "legions": 38,
+      "domains": [
+        "hidden_treasures",
+        "serpents"
+      ]
+    },
+    {
+      "id": "Andras",
+      "label": "Andras (Marquis)",
+      "number": 63,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "East",
+      "legions": 30,
+      "domains": [
+        "discord",
+        "feuds",
+        "combat"
+      ]
+    },
+    {
+      "id": "Haures",
+      "label": "Haures (Duke)",
+      "number": 64,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "South",
+      "legions": 36,
+      "domains": [
+        "past_future",
+        "fire",
+        "divinity"
+      ]
+    },
+    {
+      "id": "Andrealphus",
+      "label": "Andrealphus (Marquis)",
+      "number": 65,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "North",
+      "legions": 30,
+      "domains": [
+        "geometry",
+        "astronomy",
+        "mensuration"
+      ]
+    },
+    {
+      "id": "Cimejes",
+      "label": "Cimejes (Marquis)",
+      "number": 66,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "North",
+      "legions": 20,
+      "domains": [
+        "grammar",
+        "logic",
+        "rhetoric",
+        "retrieval"
+      ]
+    },
+    {
+      "id": "Amdusias",
+      "label": "Amdusias (Duke)",
+      "number": 67,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "North",
+      "legions": 29,
+      "domains": [
+        "music",
+        "instruments",
+        "familiars"
+      ]
+    },
+    {
+      "id": "Belial",
+      "label": "Belial (King)",
+      "number": 68,
+      "group": "King",
+      "metal": "Gold",
+      "direction": "South",
+      "legions": 80,
+      "domains": [
+        "dignity",
+        "senatorships",
+        "favor_of_friends"
+      ]
+    },
+    {
+      "id": "Decarabia",
+      "label": "Decarabia (Marquis)",
+      "number": 69,
+      "group": "Marquis",
+      "metal": "Silver",
+      "direction": "East",
+      "legions": 30,
+      "domains": [
+        "herbalism",
+        "gemstones",
+        "birds"
+      ]
+    },
+    {
+      "id": "Seere",
+      "label": "Seere (Prince)",
+      "number": 70,
+      "group": "Prince",
+      "metal": "Tin",
+      "direction": "East",
+      "legions": 26,
+      "domains": [
+        "swiftness",
+        "teleportation",
+        "retrieval"
+      ]
+    },
+    {
+      "id": "Dantalion",
+      "label": "Dantalion (Duke)",
+      "number": 71,
+      "group": "Duke",
+      "metal": "Copper",
+      "direction": "South",
+      "legions": 36,
+      "domains": [
+        "arts_sciences",
+        "thought_reading",
+        "mind_influence"
+      ]
+    },
+    {
+      "id": "Andromalius",
+      "label": "Andromalius (Earl)",
+      "number": 72,
+      "group": "Earl",
+      "metal": "Iron",
+      "direction": "South",
+      "legions": 36,
+      "domains": [
+        "retrieval",
+        "theft_punishment",
+        "hidden_treasures"
+      ]
     }
   ],
   "links": [
@@ -593,6 +1147,24 @@
       "domains": []
     },
     {
+      "source": "Bael",
+      "target": "Haagenti",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "wisdom"
+      ]
+    },
+    {
+      "source": "Bael",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "invisibility"
+      ]
+    },
+    {
       "source": "Agares",
       "target": "Gusion",
       "relationship": "same_office_and_direction",
@@ -622,6 +1194,33 @@
       "weight": 1,
       "domains": [
         "languages"
+      ]
+    },
+    {
+      "source": "Agares",
+      "target": "Cimejes",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "retrieval"
+      ]
+    },
+    {
+      "source": "Agares",
+      "target": "Seere",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "retrieval"
+      ]
+    },
+    {
+      "source": "Agares",
+      "target": "Andromalius",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "retrieval"
       ]
     },
     {
@@ -684,6 +1283,60 @@
       "domains": []
     },
     {
+      "source": "Vassago",
+      "target": "Raum",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Orobas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vassago",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
       "source": "Gamigin",
       "target": "Naberius",
       "relationship": "same_office_and_direction",
@@ -705,6 +1358,49 @@
       "relationship": "same_office_and_direction",
       "weight": 1,
       "domains": []
+    },
+    {
+      "source": "Gamigin",
+      "target": "Sabnock",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gamigin",
+      "target": "Bifrons",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "necromancy"
+      ]
+    },
+    {
+      "source": "Gamigin",
+      "target": "Murmur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "necromancy"
+      ]
+    },
+    {
+      "source": "Gamigin",
+      "target": "Ose",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "liberal_sciences"
+      ]
+    },
+    {
+      "source": "Gamigin",
+      "target": "Amy",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "liberal_sciences"
+      ]
     },
     {
       "source": "Marbas",
@@ -737,6 +1433,52 @@
       "domains": [
         "familiar"
       ]
+    },
+    {
+      "source": "Valefor",
+      "target": "Raum",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "theft"
+      ]
+    },
+    {
+      "source": "Valefor",
+      "target": "Vepar",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Valefor",
+      "target": "Shax",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "theft"
+      ]
+    },
+    {
+      "source": "Valefor",
+      "target": "Vual",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Valefor",
+      "target": "Crocell",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Valefor",
+      "target": "Amdusias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
     },
     {
       "source": "Amon",
@@ -790,6 +1532,75 @@
       "domains": []
     },
     {
+      "source": "Amon",
+      "target": "Raum",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "past_future",
+        "reconciliation"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Orobas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Amon",
+      "target": "Andrealphus",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Amon",
+      "target": "Cimejes",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
       "source": "Barbatos",
       "target": "Eligos",
       "relationship": "same_office_and_direction",
@@ -806,6 +1617,77 @@
     {
       "source": "Barbatos",
       "target": "Purson",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
+      ]
+    },
+    {
+      "source": "Barbatos",
+      "target": "Alloces",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Barbatos",
+      "target": "Camio",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "animal_speech"
+      ]
+    },
+    {
+      "source": "Barbatos",
+      "target": "Murmur",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Barbatos",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
+      ]
+    },
+    {
+      "source": "Barbatos",
+      "target": "Vapula",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Barbatos",
+      "target": "Valac",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
+      ]
+    },
+    {
+      "source": "Barbatos",
+      "target": "Haures",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Barbatos",
+      "target": "Dantalion",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Barbatos",
+      "target": "Andromalius",
       "relationship": "shares_domain",
       "weight": 1,
       "domains": [
@@ -845,6 +1727,45 @@
       "domains": [
         "sciences"
       ]
+    },
+    {
+      "source": "Paimon",
+      "target": "Phenex",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Paimon",
+      "target": "Vine",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Paimon",
+      "target": "Crocell",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Paimon",
+      "target": "Balam",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Paimon",
+      "target": "Zagan",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
     },
     {
       "source": "Buer",
@@ -892,6 +1813,79 @@
       ]
     },
     {
+      "source": "Buer",
+      "target": "Malphas",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Buer",
+      "target": "Bifrons",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Buer",
+      "target": "Haagenti",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Buer",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Buer",
+      "target": "Camio",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Buer",
+      "target": "Murmur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Buer",
+      "target": "Amy",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Buer",
+      "target": "Vapula",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Buer",
+      "target": "Decarabia",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
       "source": "Gusion",
       "target": "Botis",
       "relationship": "shares_domain",
@@ -919,6 +1913,62 @@
     {
       "source": "Gusion",
       "target": "Berith",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gusion",
+      "target": "Raum",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gusion",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "diplomacy",
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gusion",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gusion",
+      "target": "Orobas",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "honor",
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gusion",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gusion",
+      "target": "Haures",
       "relationship": "shares_domain",
       "weight": 1,
       "domains": [
@@ -969,6 +2019,33 @@
       "domains": []
     },
     {
+      "source": "Sitri",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Sitri",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Sitri",
+      "target": "Ose",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "secrets"
+      ]
+    },
+    {
       "source": "Beleth",
       "target": "Zepar",
       "relationship": "shares_domain",
@@ -996,6 +2073,45 @@
       ]
     },
     {
+      "source": "Beleth",
+      "target": "Vine",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Beleth",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Beleth",
+      "target": "Balam",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Beleth",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Beleth",
+      "target": "Zagan",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
       "source": "Leraje",
       "target": "Forneus",
       "relationship": "same_office_and_direction",
@@ -1003,8 +2119,73 @@
       "domains": []
     },
     {
+      "source": "Leraje",
+      "target": "Vepar",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "wounds"
+      ]
+    },
+    {
+      "source": "Leraje",
+      "target": "Andrealphus",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Leraje",
+      "target": "Cimejes",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
       "source": "Eligos",
       "target": "Saleos",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Eligos",
+      "target": "Alloces",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Eligos",
+      "target": "Murmur",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Eligos",
+      "target": "Gremory",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Eligos",
+      "target": "Vapula",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Eligos",
+      "target": "Haures",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Eligos",
+      "target": "Dantalion",
       "relationship": "same_office_and_direction",
       "weight": 1,
       "domains": []
@@ -1035,6 +2216,31 @@
     {
       "source": "Zepar",
       "target": "Furfur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Zepar",
+      "target": "Focalor",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Zepar",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Zepar",
+      "target": "Gremory",
       "relationship": "shares_domain",
       "weight": 1,
       "domains": [
@@ -1074,6 +2280,68 @@
       "domains": []
     },
     {
+      "source": "Botis",
+      "target": "Raum",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "past_future",
+        "reconciliation"
+      ]
+    },
+    {
+      "source": "Botis",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Botis",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Botis",
+      "target": "Orobas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Botis",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Botis",
+      "target": "Ose",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Botis",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
       "source": "Bathin",
       "target": "Morax",
       "relationship": "shares_domain",
@@ -1111,12 +2379,127 @@
       ]
     },
     {
+      "source": "Bathin",
+      "target": "Bifrons",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Bathin",
+      "target": "Decarabia",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "gemstones",
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Bathin",
+      "target": "Seere",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "teleportation"
+      ]
+    },
+    {
       "source": "Saleos",
       "target": "Furfur",
       "relationship": "shares_domain",
       "weight": 1,
       "domains": [
         "love"
+      ]
+    },
+    {
+      "source": "Saleos",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Saleos",
+      "target": "Alloces",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Saleos",
+      "target": "Murmur",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Saleos",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Saleos",
+      "target": "Vapula",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Saleos",
+      "target": "Haures",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Saleos",
+      "target": "Dantalion",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Purson",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
+      ]
+    },
+    {
+      "source": "Purson",
+      "target": "Valac",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
+      ]
+    },
+    {
+      "source": "Purson",
+      "target": "Belial",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Purson",
+      "target": "Andromalius",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
       ]
     },
     {
@@ -1164,6 +2547,86 @@
       ]
     },
     {
+      "source": "Morax",
+      "target": "Phenex",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Bifrons",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "astronomy",
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Crocell",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Alloces",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Andrealphus",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Decarabia",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Morax",
+      "target": "Andromalius",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
       "source": "Ipos",
       "target": "Aim",
       "relationship": "shares_domain",
@@ -1191,8 +2654,127 @@
       ]
     },
     {
+      "source": "Ipos",
+      "target": "Raum",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Ipos",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Ipos",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "past_future",
+        "wit"
+      ]
+    },
+    {
+      "source": "Ipos",
+      "target": "Orobas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Ipos",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Ipos",
+      "target": "Zagan",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "wit"
+      ]
+    },
+    {
+      "source": "Ipos",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
       "source": "Aim",
       "target": "Berith",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Aim",
+      "target": "Vepar",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Aim",
+      "target": "Vual",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Aim",
+      "target": "Crocell",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Aim",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "wit"
+      ]
+    },
+    {
+      "source": "Aim",
+      "target": "Zagan",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "wit"
+      ]
+    },
+    {
+      "source": "Aim",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "fire"
+      ]
+    },
+    {
+      "source": "Aim",
+      "target": "Amdusias",
       "relationship": "same_office_and_direction",
       "weight": 1,
       "domains": []
@@ -1232,6 +2814,49 @@
       "domains": []
     },
     {
+      "source": "Naberius",
+      "target": "Sabnock",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Naberius",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Naberius",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "dignity"
+      ]
+    },
+    {
+      "source": "Naberius",
+      "target": "Cimejes",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Naberius",
+      "target": "Belial",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "dignity"
+      ]
+    },
+    {
       "source": "Glasya-Labolas",
       "target": "Foras",
       "relationship": "shares_domain",
@@ -1241,11 +2866,61 @@
       ]
     },
     {
+      "source": "Glasya-Labolas",
+      "target": "Phenex",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Glasya-Labolas",
+      "target": "Crocell",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Glasya-Labolas",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "invisibility"
+      ]
+    },
+    {
+      "source": "Glasya-Labolas",
+      "target": "Ose",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
       "source": "Bune",
       "target": "Astaroth",
       "relationship": "same_office_and_direction",
       "weight": 1,
       "domains": []
+    },
+    {
+      "source": "Bune",
+      "target": "Focalor",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Bune",
+      "target": "Haagenti",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "wisdom"
+      ]
     },
     {
       "source": "Ronove",
@@ -1254,6 +2929,247 @@
       "weight": 2,
       "domains": [
         "languages",
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Ronove",
+      "target": "Phenex",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Ronove",
+      "target": "Shax",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Ronove",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Ronove",
+      "target": "Alloces",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "familiars"
+      ]
+    },
+    {
+      "source": "Ronove",
+      "target": "Amy",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "familiars"
+      ]
+    },
+    {
+      "source": "Ronove",
+      "target": "Orias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Ronove",
+      "target": "Andras",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Ronove",
+      "target": "Cimejes",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Ronove",
+      "target": "Amdusias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "familiars"
+      ]
+    },
+    {
+      "source": "Ronove",
+      "target": "Decarabia",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Berith",
+      "target": "Raum",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Berith",
+      "target": "Vepar",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Berith",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Berith",
+      "target": "Haagenti",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "alchemy"
+      ]
+    },
+    {
+      "source": "Berith",
+      "target": "Crocell",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Berith",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Berith",
+      "target": "Orobas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Berith",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Berith",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "dignity"
+      ]
+    },
+    {
+      "source": "Berith",
+      "target": "Zagan",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "alchemy"
+      ]
+    },
+    {
+      "source": "Berith",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Berith",
+      "target": "Amdusias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Berith",
+      "target": "Belial",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "dignity"
+      ]
+    },
+    {
+      "source": "Astaroth",
+      "target": "Focalor",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Astaroth",
+      "target": "Ose",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "liberal_sciences"
+      ]
+    },
+    {
+      "source": "Astaroth",
+      "target": "Amy",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "liberal_sciences"
+      ]
+    },
+    {
+      "source": "Forneus",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Forneus",
+      "target": "Andrealphus",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Forneus",
+      "target": "Cimejes",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
         "rhetoric"
       ]
     },
@@ -1267,12 +3183,1061 @@
       ]
     },
     {
+      "source": "Foras",
+      "target": "Bifrons",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Foras",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "logic"
+      ]
+    },
+    {
+      "source": "Foras",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "invisibility"
+      ]
+    },
+    {
+      "source": "Foras",
+      "target": "Ose",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Foras",
+      "target": "Cimejes",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "logic"
+      ]
+    },
+    {
+      "source": "Foras",
+      "target": "Decarabia",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
       "source": "Asmoday",
       "target": "Stolas",
       "relationship": "shares_domain",
       "weight": 1,
       "domains": [
         "astronomy"
+      ]
+    },
+    {
+      "source": "Asmoday",
+      "target": "Bifrons",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "astronomy",
+        "geometry"
+      ]
+    },
+    {
+      "source": "Asmoday",
+      "target": "Crocell",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "geometry"
+      ]
+    },
+    {
+      "source": "Asmoday",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Asmoday",
+      "target": "Alloces",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Asmoday",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Asmoday",
+      "target": "Andrealphus",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "astronomy",
+        "geometry"
+      ]
+    },
+    {
+      "source": "Gaap",
+      "target": "Malphas",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gaap",
+      "target": "Haagenti",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gaap",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Gaap",
+      "target": "Camio",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gaap",
+      "target": "Murmur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Gaap",
+      "target": "Amy",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gaap",
+      "target": "Vapula",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Gaap",
+      "target": "Seere",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "teleportation"
+      ]
+    },
+    {
+      "source": "Furfur",
+      "target": "Focalor",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "storms"
+      ]
+    },
+    {
+      "source": "Furfur",
+      "target": "Vepar",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "storms"
+      ]
+    },
+    {
+      "source": "Furfur",
+      "target": "Bifrons",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Furfur",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Furfur",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "love"
+      ]
+    },
+    {
+      "source": "Furfur",
+      "target": "Andromalius",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Marchosias",
+      "target": "Sabnock",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Marchosias",
+      "target": "Andras",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "combat"
+      ]
+    },
+    {
+      "source": "Stolas",
+      "target": "Bifrons",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "astronomy",
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Stolas",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Stolas",
+      "target": "Alloces",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Stolas",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Stolas",
+      "target": "Andrealphus",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Stolas",
+      "target": "Decarabia",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "gemstones",
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Phenex",
+      "target": "Shax",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Phenex",
+      "target": "Crocell",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "sciences"
+      ]
+    },
+    {
+      "source": "Phenex",
+      "target": "Orias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Phenex",
+      "target": "Andras",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Phenex",
+      "target": "Amdusias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "music"
+      ]
+    },
+    {
+      "source": "Phenex",
+      "target": "Decarabia",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Malphas",
+      "target": "Sabnock",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "architecture"
+      ]
+    },
+    {
+      "source": "Malphas",
+      "target": "Haagenti",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Malphas",
+      "target": "Camio",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Malphas",
+      "target": "Amy",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Raum",
+      "target": "Shax",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "theft"
+      ]
+    },
+    {
+      "source": "Raum",
+      "target": "Vual",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Raum",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Raum",
+      "target": "Orobas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Raum",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Raum",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Focalor",
+      "target": "Vepar",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "storms"
+      ]
+    },
+    {
+      "source": "Vepar",
+      "target": "Vual",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Vepar",
+      "target": "Crocell",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Vepar",
+      "target": "Amdusias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Shax",
+      "target": "Orias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Shax",
+      "target": "Andras",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Shax",
+      "target": "Decarabia",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Vine",
+      "target": "Balam",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Vine",
+      "target": "Zagan",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Bifrons",
+      "target": "Crocell",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "geometry"
+      ]
+    },
+    {
+      "source": "Bifrons",
+      "target": "Furcas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Bifrons",
+      "target": "Alloces",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Bifrons",
+      "target": "Murmur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "necromancy"
+      ]
+    },
+    {
+      "source": "Bifrons",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Bifrons",
+      "target": "Andrealphus",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "astronomy",
+        "geometry"
+      ]
+    },
+    {
+      "source": "Bifrons",
+      "target": "Decarabia",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "herbalism"
+      ]
+    },
+    {
+      "source": "Bifrons",
+      "target": "Andromalius",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Vual",
+      "target": "Crocell",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Vual",
+      "target": "Balam",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vual",
+      "target": "Orobas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vual",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "love",
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vual",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Vual",
+      "target": "Amdusias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Haagenti",
+      "target": "Camio",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Haagenti",
+      "target": "Amy",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Haagenti",
+      "target": "Zagan",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "alchemy",
+        "transmutation"
+      ]
+    },
+    {
+      "source": "Crocell",
+      "target": "Andrealphus",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "geometry"
+      ]
+    },
+    {
+      "source": "Crocell",
+      "target": "Amdusias",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Furcas",
+      "target": "Alloces",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Furcas",
+      "target": "Murmur",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Furcas",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Furcas",
+      "target": "Vapula",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Furcas",
+      "target": "Andrealphus",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Furcas",
+      "target": "Cimejes",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "logic",
+        "rhetoric"
+      ]
+    },
+    {
+      "source": "Balam",
+      "target": "Orobas",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Balam",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Balam",
+      "target": "Zagan",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "wit"
+      ]
+    },
+    {
+      "source": "Balam",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Alloces",
+      "target": "Murmur",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Alloces",
+      "target": "Gremory",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Alloces",
+      "target": "Amy",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "familiars"
+      ]
+    },
+    {
+      "source": "Alloces",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Alloces",
+      "target": "Vapula",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Alloces",
+      "target": "Haures",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Alloces",
+      "target": "Andrealphus",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Alloces",
+      "target": "Amdusias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "familiars"
+      ]
+    },
+    {
+      "source": "Alloces",
+      "target": "Dantalion",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Camio",
+      "target": "Amy",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Murmur",
+      "target": "Gremory",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Murmur",
+      "target": "Vapula",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "philosophy"
+      ]
+    },
+    {
+      "source": "Murmur",
+      "target": "Haures",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Murmur",
+      "target": "Dantalion",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Orobas",
+      "target": "Gremory",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Orobas",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 2,
+      "domains": [
+        "divinity",
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gremory",
+      "target": "Vapula",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gremory",
+      "target": "Valac",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
+      ]
+    },
+    {
+      "source": "Gremory",
+      "target": "Haures",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "past_future"
+      ]
+    },
+    {
+      "source": "Gremory",
+      "target": "Dantalion",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Gremory",
+      "target": "Andromalius",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
+      ]
+    },
+    {
+      "source": "Ose",
+      "target": "Amy",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "liberal_sciences"
+      ]
+    },
+    {
+      "source": "Ose",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "transformation"
+      ]
+    },
+    {
+      "source": "Amy",
+      "target": "Orias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astrology"
+      ]
+    },
+    {
+      "source": "Amy",
+      "target": "Amdusias",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "familiars"
+      ]
+    },
+    {
+      "source": "Orias",
+      "target": "Andras",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Orias",
+      "target": "Andrealphus",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "astronomy"
+      ]
+    },
+    {
+      "source": "Orias",
+      "target": "Belial",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "dignity"
+      ]
+    },
+    {
+      "source": "Orias",
+      "target": "Decarabia",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Vapula",
+      "target": "Haures",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Vapula",
+      "target": "Dantalion",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Valac",
+      "target": "Andromalius",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "hidden_treasures"
+      ]
+    },
+    {
+      "source": "Andras",
+      "target": "Decarabia",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Haures",
+      "target": "Dantalion",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Andrealphus",
+      "target": "Cimejes",
+      "relationship": "same_office_and_direction",
+      "weight": 1,
+      "domains": []
+    },
+    {
+      "source": "Cimejes",
+      "target": "Seere",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "retrieval"
+      ]
+    },
+    {
+      "source": "Cimejes",
+      "target": "Andromalius",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "retrieval"
+      ]
+    },
+    {
+      "source": "Seere",
+      "target": "Andromalius",
+      "relationship": "shares_domain",
+      "weight": 1,
+      "domains": [
+        "retrieval"
       ]
     }
   ]
