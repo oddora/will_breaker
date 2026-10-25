@@ -29,6 +29,10 @@
    - Text generation speed remained remarkably constant at **~71 tokens/second** regardless of context size.
    - Prompt evaluation throughput scaled from 88 tok/s up to **669.8 tok/s** on long context batches.
    - Verified via unit test [`tests/test_benchmarks.py`](file:///home/comandante/will_breaker/tests/test_benchmarks.py); full test suite 39/39 passing.
+9. **Interactive Engine & Animated Vector Generator ([`interactive_session.py`](file:///home/comandante/will_breaker/symbolic_engine/interactive_session.py) & [`sigil_generator.py`](file:///home/comandante/will_breaker/symbolic_engine/sigil_generator.py)):**
+   - Extended procedural sigil generator with classical 7-planet sacred geometry presets (`PLANETARY_MATRICES`), dynamic SVG `<animateTransform>` counter-rotations, and real-time boundary strain fissure overlays scaling with circle integrity.
+   - Built turn-based `InteractiveRitualSimulator` supporting discrete operator counter-actions (`advance_step`, `emergency_banish`, `offer_incense`, `abort_dismissal`).
+   - Added 8 unit tests in [`tests/test_interactive_session.py`](file:///home/comandante/will_breaker/tests/test_interactive_session.py); full repository test suite now **47/47 passing**.
 
 ---
 
