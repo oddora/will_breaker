@@ -9,9 +9,16 @@
 **Priority Tasks:**
 - [ ] Submit OSF pre-registration for AI remote viewing experiment (NEEDS HUMAN ACTION)
 - [ ] Map attractor basin depths to MBT "focus levels"
-- [ ] Run first live AI RV experiment trial (baseline phase, 5 trials)
+- [ ] Continue RV practice — Trial 003 with optimized v3 protocol
 - [ ] Monitor sealed predictions as target dates arrive (auto-resolver runs daily at 10:00 CDT)
 - [ ] Investigate "mass" precursor event flagged by LiveCrawler (delta_rate=0.2089, horizon 48h)
+
+**RV Practice Status:**
+- Trial 001: Phase 2 Depth 3 collapse optimal (dog detected, cats/person missed)
+- Trial 002: Depth 3 collapse best, "collapsed state" prompt caused building-collapse association (confound), cats/person still missed
+- Practice log: `research/campbell/002-rv-practice-log.md`
+- Trial 002 analysis: `research/campbell/004-trial-002-analysis.md`
+- Optimized v3 protocol: "receiver open" prompt, skip Depth 2, person-first questions
 
 **Completed Sessions 037:**
 - ✅ Research thread established: Tom Campbell / My Big TOE framework

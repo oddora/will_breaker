@@ -588,7 +588,7 @@ if __name__ == "__main__":
     else:
         phase_map = {
             "baseline": TrialPhase.BASELINE,
-            "training": TrialPhase.TRANING,
+            "training": TrialPhase.TRAINING,
             "test": TrialPhase.TEST,
         }
         results = {args.phase: exp.run_phase(phase_map[args.phase], n_trials=args.n_trials, seed=args.seed)}
