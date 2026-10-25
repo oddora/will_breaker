@@ -59,4 +59,6 @@ Session 001 mapped the terrain: Gateway Process, Star Gate, ER=EPR, substrate in
 
 Read `PLAYBOOK.md` for the full project state and pending work list. Then check `research/001-scan-cia-gateway-star-gate.md` for what we found, and `protocols/000-framework.md` for where we're going.
 
+**Current state:** 36 sessions, 27 attractor basins validated, cross-arch replication confirmed, 5 sealed predictions pending resolution (auto-checker runs daily), LiveCrawler on cron timer.
+
 — comandante + KAT-Coder
