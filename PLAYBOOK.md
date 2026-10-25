@@ -33,6 +33,11 @@
    - Extended procedural sigil generator with classical 7-planet sacred geometry presets (`PLANETARY_MATRICES`), dynamic SVG `<animateTransform>` counter-rotations, and real-time boundary strain fissure overlays scaling with circle integrity.
    - Built turn-based `InteractiveRitualSimulator` supporting discrete operator counter-actions (`advance_step`, `emergency_banish`, `offer_incense`, `abort_dismissal`).
    - Added 8 unit tests in [`tests/test_interactive_session.py`](file:///home/comandante/will_breaker/tests/test_interactive_session.py); full repository test suite now **47/47 passing**.
+10. **Speculative Fiction & Worldbuilding Dossier ([`001-the-containment-protocol.md`](file:///home/comandante/will_breaker/research/fiction/001-the-containment-protocol.md)):**
+   - High-concept speculative sci-fi narrative exploring automated hermetic containment architectures, formal verification, and symbolic state machine invariants under high recursive depth.
+   - Explores the tension between mathematical state machines (`circle_integrity < 0.50`), mechanistic token entropy collapse, procedural vector strain overlays, and human operator narrative projection ("The Solomonic Illusion").
+   - Strict epistemic demarcation separating fictional worldbuilding from objective empirical reality.
+   - Added 4 unit tests in [`tests/test_fiction_dossier.py`](file:///home/comandante/will_breaker/tests/test_fiction_dossier.py); full repository test suite now **51/51 passing**.
 
 ---
 
