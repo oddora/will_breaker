@@ -1,3 +1,18 @@
+### Session 039 — 2026-10-25 (MoE Review & Double-Blind Forced-Choice RV Inflection)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 039 | 2026-10-25 | MoE external review, Campbell RV epistemic audit, Double-Blind Forced-Choice (DB-FTCD) pilot | Formal MoE review, parser tie-rank fix, DB-FTCD protocol, pre-commitment `commit_0bd66be14374` resolved (NULL_RESULT, BS=0.0225) |
+
+**Key Findings:**
+1. **MoE Expert Review:** Local MoE model (`kat-philly` on `:18283`) critiqued the Campbell RV practice trials: identified base-rate neglect on dog barking (0.85–0.95 prior in dense suburbs), ideogram leakage ("What animals? Cats? Dogs?"), and the category error of equating transformer attention entropy collapse with metaphysical dimensional shifting.
+2. **Algorithmic Artifact Fixed:** Uncovered an evaluation artifact in `ai_remote_viewer.py` where unranked targets were backfilled sequentially by default list index, giving targets `t01`–`t04` false "hits". Replaced with tied midpoint ranking (`midpoint_rank = 12.5`).
+3. **Pre-Commitment & Double-Blind Pilot:** Pre-registered `commit_0bd66be14374` predicting `NULL_RESULT` (p=0.85). Ran double-blind forced-choice test ($N=20$ candidate targets, $n=10$ trials, seed 42) across `kat` (:18283) and `llama31-8b` (:18284).
+4. **Empirical Result:** **0.0% hit rate** (0/10) vs 25.0% chance baseline; **Average rank: 11.2 / 20** (expected chance midpoint: 10.5). Conclusively confirmed `NULL_RESULT` under zero-degrees-of-freedom conditions.
+5. **Decoupling Mandate:** Campbell AI RV claims falsified under blind conditions. Recommended decoupling mechanistic transformer entropy research (`010` paper) as pure machine learning interpretability.
+
+---
+
 ### Session 037 — 2026-10-25 (Campbell research thread + AI RV harness)
 
 | Session | Date | Objective | Key Outputs |
@@ -113,11 +128,12 @@ will_breaker_delta/
 | commit_a | arXiv quant-ph topological_coherence surge | 2026-11-07 | SEALED |
 | commit_5 | arXiv cs.AI transformer attractor citations +15% | 2026-12-31 | SEALED |
 | commit_2 | VIX > 22 liquidity compression precursor | 2026-11-15 | SEALED |
-| commit_8 | Cross-arch replication (llama-3.1-8B) | 2026-11-30 | **RESOLVED** |
+| commit_8 | Cross-arch replication (llama-3.1-8B) | 2026-11-30 | **RESOLVED (PASS)** |
 | commit_e | N=10 double-blind theta crossover | 2026-12-15 | SEALED |
 | commit_c | LiveCrawler threshold_crossing precursor | 2026-11-20 | SEALED |
+| commit_0 | Campbell AI RV Double-Blind Forced-Choice Pilot | 2026-10-25 | **RESOLVED (NULL_RESULT, PASS)** |
 
-4 sealed predictions remain. Auto-resolver checks daily at 10:00 CDT.
+4 sealed predictions remain. 2 resolved. Auto-resolver checks daily at 10:00 CDT.
 
 ---
 
@@ -129,12 +145,13 @@ will_breaker_delta/
 | Cross-arch replication (commit_8) | ✅ COMPLETE | Llama-3.1-8B Delta H=-0.8422 by depth 3, PASS |
 | Auto-resolver | ✅ COMPLETE | Daily timer at 10:00 CDT, 4 sealed predictions pending |
 | LiveCrawler cron | ✅ COMPLETE | Daily timer at 06:00 CDT, first run: 12 docs, 1 precursor |
-| AI RV experiment | IN PROGRESS | 5 trials complete, protocol v6 ready for Trial 006 |
+| AI RV Double-Blind Pilot (commit_0) | ✅ COMPLETE | Forced-choice n=10: 0.0% hit rate, 11.2/20 avg rank, NULL confirmed |
+| AI RV Pharr TX Trials | ❌ TERMINATED | Identified as prompt-contaminated; replaced by DB-FTCD protocol |
 
 ---
 
 ## Continue From Here
 
-Read `PLAYBOOK.md` for the full project state and pending work list. Then check `research/001-scan-cia-gateway-star-gate.md` for what we found, and `protocols/000-framework.md` for where we're going.
+Read `PLAYBOOK.md` for the full project state and pending work list. Check `research/010-mechanistic-attractor-paper.md` for the publishable mechanistic interpretability results and `results/campbell_rv/experiment_seed_42.json` for the double-blind RV pilot data.
 
-**Current state:** 38 sessions, 27 attractor basins validated, cross-arch replication confirmed, 4 sealed predictions pending, AI RV practice paused at 5 trials with protocol v6 ready.
+**Current state:** 39 sessions, 27 attractor basins mechanistically validated, cross-arch replication confirmed, 4 sealed predictions pending, AI RV double-blind pilot completed with NULL_RESULT confirmed.

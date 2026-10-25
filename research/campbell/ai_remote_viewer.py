@@ -24,6 +24,7 @@ import hashlib
 import urllib.request
 import random
 import time
+import re
 from pathlib import Path
 from datetime import datetime, timezone
 from typing import List, Dict, Optional, Tuple, Any
@@ -40,9 +41,10 @@ sys.path.insert(0, str(delta_dir))
 # ---------------------------------------------------------------------------
 
 class TrialPhase(Enum):
-    BASELINE = "baseline"       # No protocol instruction
-    TRAINING = "training"       # Protocol explained
-    TEST = "test"               # Post-training evaluation
+    BASELINE = "baseline"           # No protocol instruction
+    TRAINING = "training"           # Protocol explained
+    TEST = "test"                   # Post-training evaluation
+    FORCED_CHOICE = "forced_choice" # Direct double-blind forced choice against pool
 
 
 @dataclass
@@ -168,10 +170,26 @@ Please describe what you think might be inside. Rate your confidence from 0.0 to
 """
 
 
-def build_test_prompt(target: Target, phase: TrialPhase) -> str:
+def build_test_prompt(target: Target, phase: TrialPhase, pool: Optional[List[Target]] = None) -> str:
     """Build the LLM prompt for a given trial phase."""
     if phase == TrialPhase.BASELINE:
         return BASELINE_PROMPT
+    elif phase == TrialPhase.FORCED_CHOICE:
+        targets_list = "\n".join(f"- [{t.target_id}]: {t.description}" for t in (pool or DEFAULT_TARGETS))
+        return f"""You are participating in a double-blind forced-choice remote viewing experiment.
+
+A physical object has been placed inside an opaque, sealed container.
+It was chosen uniformly at random from this candidate pool:
+{targets_list}
+
+TASK:
+1. Quiet analytical preconceptions. Focus on the sealed container.
+2. Which object from the candidate list is inside?
+3. Output the single most probable target_id first, followed by your 2nd and 3rd choices:
+Rank 1: <target_id>
+Rank 2: <target_id>
+Rank 3: <target_id>
+"""
     else:
         return f"{CAMPBELL_PROTOCOL_INSTRUCTIONS}\n\nTARGET QUESTION:\nWhat object is sealed in the container? Describe its appearance, material, color, size, and any distinctive features."
 
@@ -181,7 +199,7 @@ def build_test_prompt(target: Target, phase: TrialPhase) -> str:
 # ---------------------------------------------------------------------------
 
 class LLMEndpoint:
-    """Thin wrapper around llama.cpp completion endpoint."""
+    """Wrapper around llama.cpp chat and completion endpoints."""
 
     def __init__(self, endpoint: str = "http://localhost:18283"):
         self.endpoint = endpoint.rstrip("/")
@@ -204,34 +222,70 @@ class LLMEndpoint:
         temperature: float = 0.7,
         top_k: int = 40,
         top_p: float = 0.95,
+        system_prompt: Optional[str] = None,
     ) -> Dict[str, Any]:
-        """Send completion request, return parsed response."""
-        payload = json.dumps({
-            "prompt": prompt,
-            "n_predict": n_predict,
+        """Send query request (chat endpoint first, fallback to completion)."""
+        chat_payload = json.dumps({
+            "model": "kat",
+            "messages": [
+                {"role": "system", "content": system_prompt or "You are a precise, objective research assistant."},
+                {"role": "user", "content": prompt}
+            ],
+            "max_tokens": n_predict,
             "temperature": temperature,
-            "top_k": top_k,
             "top_p": top_p,
             "stream": False,
-            "stop": ["</s>", "<|end|>"],
         }).encode("utf-8")
 
-        req = urllib.request.Request(
-            f"{self.endpoint}/completion",
-            data=payload,
-            headers={
-                "Content-Type": "application/json",
-                "User-Agent": "WillBreaker/1.0",
-            },
-        )
-        with urllib.request.urlopen(req, timeout=60.0) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
+        try:
+            req = urllib.request.Request(
+                f"{self.endpoint}/v1/chat/completions",
+                data=chat_payload,
+                headers={
+                    "Content-Type": "application/json",
+                    "User-Agent": "WillBreaker/1.0",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=90.0) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+                choice = data.get("choices", [{}])[0]
+                msg = choice.get("message", {})
+                content = msg.get("content", "")
+                if not content and "reasoning_content" in msg:
+                    content = msg.get("reasoning_content", "")
+                return {
+                    "content": content,
+                    "timings": data.get("timings", {}),
+                    "tokens": data.get("usage", {}).get("completion_tokens", 0),
+                }
+        except Exception:
+            # Fallback to raw /completion
+            payload = json.dumps({
+                "prompt": prompt,
+                "n_predict": n_predict,
+                "temperature": temperature,
+                "top_k": top_k,
+                "top_p": top_p,
+                "stream": False,
+                "stop": ["</s>", "<|end|>"],
+            }).encode("utf-8")
 
-        return {
-            "content": data.get("content", data.get("completion", "")),
-            "timings": data.get("timings", {}),
-            "tokens": data.get("eval_count", 0),
-        }
+            req = urllib.request.Request(
+                f"{self.endpoint}/completion",
+                data=payload,
+                headers={
+                    "Content-Type": "application/json",
+                    "User-Agent": "WillBreaker/1.0",
+                },
+            )
+            with urllib.request.urlopen(req, timeout=90.0) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+
+            return {
+                "content": data.get("content", data.get("completion", "")),
+                "timings": data.get("timings", {}),
+                "tokens": data.get("eval_count", 0),
+            }
 
 
 # ---------------------------------------------------------------------------
@@ -250,70 +304,86 @@ class BlindEvaluator:
         impressions: str,
         description: str,
         exclude_id: Optional[str] = None,
-    ) -> Tuple[int, List[Dict]]:
+    ) -> List[Dict]:
         """
         Ask the LLM to rank all targets by match quality.
-        Returns (best_rank, ranked_list).
-        exclude_id: the true target (hidden from the judge in blind mode).
+        Returns ranked_list sorted by rank (1 to N).
         """
         pool_items = [t for t in self.pool if t.target_id != exclude_id] if exclude_id else self.pool
         pool_desc = "\n".join(
             f"{t.target_id}: {t.description}" for t in pool_items
         )
 
-        judge_prompt = f"""You are a blind judge. Given a set of impressions and descriptions, rank each target by how well it matches the impressions.
+        judge_prompt = f"""You are a double-blind judge in a parapsychology experiment.
+Given a viewer's impressions, rank each target from the pool by how closely it matches the impressions.
 
-IMPRESSIONS: {impressions}
+VIEWER IMPRESSIONS:
+{impressions}
 
-DESCRIPITON FROM AI: {description}
-
-TARGET POOL (rank these by match quality, best first):
+TARGET POOL:
 {pool_desc}
 
-OUTPUT FORMAT (one line per target, sorted by rank):
-<target_id> <rank 1-N> <confidence 0-1>
+INSTRUCTIONS:
+Output one line per target in order from best match to worst match:
+<target_id> <rank 1-{len(pool_items)}>
 """
-        result = self.llm.query(judge_prompt, n_predict=256, temperature=0.3)
+        result = self.llm.query(
+            judge_prompt,
+            n_predict=512,
+            temperature=0.2,
+            system_prompt="You are an objective parapsychology judge ranking targets."
+        )
         ranked = self._parse_ranking(result["content"], pool_items)
         return ranked
 
-    def _parse_ranking(self, text: str, pool: List[Target]) -> Tuple[int, List[Dict]]:
-        """Parse LLM ranking output into structured results."""
+    def _parse_ranking(self, text: str, pool: List[Target]) -> List[Dict]:
+        """Parse LLM ranking output into structured results ensuring full coverage."""
         lines = text.strip().split("\n")
         ranked = []
+        assigned_ids = set()
+        current_rank = 1
+
         for line in lines:
-            parts = line.strip().split()
-            if len(parts) >= 3:
-                tid = parts[0]
-                try:
-                    rank = int(parts[1])
-                    conf = float(parts[2])
-                    target = next((t for t in pool if t.target_id == tid), None)
+            line = line.strip()
+            if not line:
+                continue
+            # Look for target identifiers like t01, t02, etc.
+            match = re.search(r"\b(t\d{2})\b", line, re.IGNORECASE)
+            if match:
+                tid = match.group(1).lower()
+                if tid not in assigned_ids:
+                    target = next((t for t in pool if t.target_id.lower() == tid), None)
                     if target:
                         ranked.append({
-                            "target_id": tid,
-                            "rank": rank,
-                            "confidence": conf,
+                            "target_id": target.target_id,
+                            "rank": current_rank,
+                            "confidence": round(1.0 / current_rank, 3),
                             "description": target.description,
                         })
-                except (ValueError, IndexError):
-                    pass
-        if not ranked:
-            # Fallback: alphabetical by first letter of description
-            ranked = [
-                {"target_id": t.target_id, "rank": i + 1, "confidence": 0.5, "description": t.description}
-                for i, t in enumerate(sorted(pool, key=lambda x: x.description))
-            ]
+                        assigned_ids.add(target.target_id.lower())
+                        current_rank += 1
+
+        # For any targets not explicitly ranked, assign them a tied midpoint rank
+        # so unranked targets do not get pseudo-hits simply by alphabetical list position.
+        unranked_targets = [t for t in pool if t.target_id.lower() not in assigned_ids]
+        if unranked_targets:
+            start_rank = current_rank
+            end_rank = len(pool)
+            midpoint_rank = round((start_rank + end_rank) / 2.0, 1)
+            for t in unranked_targets:
+                ranked.append({
+                    "target_id": t.target_id,
+                    "rank": midpoint_rank,
+                    "confidence": 0.0,
+                    "description": t.description,
+                })
+                assigned_ids.add(t.target_id.lower())
+
         return ranked
 
     def evaluate_trial(self, result: TrialResult) -> TrialResult:
         """Run blind evaluation on a single trial result."""
-        ranked = self.rank_against_pool(
-            result.response.impressions,
-            result.response.impressions,
-            exclude_id=result.target.target_id,
-        )
-        # Find true target's rank (re-run with full pool to include it)
+        # Single blind evaluation against full pool
         full_ranked = self.rank_against_pool(
             result.response.impressions,
             result.response.impressions,
@@ -324,11 +394,14 @@ OUTPUT FORMAT (one line per target, sorted by rank):
         result.judge_rank = true_rank
         n = len(self.pool)
         # Hit if ranked in top 25% (rank <= n/4)
-        result.hit = true_rank <= max(1, n // 4)
-        # Brier score for rank-based confidence
-        expected_conf = 1.0 / n  # random chance
-        result.brier_score = (true_rank / n - expected_conf) ** 2
-        result.evaluation = f"Judge rank: {true_rank}/{n}, {'HIT' if result.hit else 'MISS'}"
+        top_threshold = max(1, n // 4)
+        result.hit = (true_rank <= top_threshold)
+        
+        # Brier score for binary top-quartile hit vs expected chance (0.25)
+        # If outcome is hit (1) or miss (0), Brier score = (0.25 - y)^2
+        y = 1.0 if result.hit else 0.0
+        result.brier_score = round((0.25 - y) ** 2, 4)
+        result.evaluation = f"Judge rank: {true_rank}/{n}, {'HIT' if result.hit else 'MISS'} (Top 25% threshold: <= {top_threshold})"
         return result
 
 
@@ -349,7 +422,7 @@ class RemoteViewingExperiment:
         endpoints: {"kat": ":18283", "llama31-8b": ":18284", "philly": ":18285"}
         """
         self.targets = target_pool or DEFAULT_TARGETS
-        self.output_dir = output_dir or Path(__file__).parent.parent / "results" / "campbell_rv"
+        self.output_dir = output_dir or Path(__file__).resolve().parent.parent.parent / "results" / "campbell_rv"
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.endpoints = endpoints
         self.llms = {name: LLMEndpoint(ep) for name, ep in endpoints.items()}
@@ -382,7 +455,7 @@ class RemoteViewingExperiment:
                     print(f"[RV] {name} unavailable, skipping")
                     continue
 
-                prompt = build_test_prompt(target, phase)
+                prompt = build_test_prompt(target, phase, pool=self.targets)
                 print(f"[RV] Querying {name} for {target.target_id} (phase={phase.value})")
 
                 try:
@@ -441,7 +514,19 @@ class RemoteViewingExperiment:
         evaluated = []
         for trial in phase_results:
             try:
-                evaluated.append(self.evaluator.evaluate_trial(trial))
+                if phase == TrialPhase.FORCED_CHOICE:
+                    # In forced choice, extract model's own rank assignment directly
+                    full_ranked = self.evaluator._parse_ranking(trial.response.impressions, self.targets)
+                    true_rank = next((r["rank"] for r in full_ranked if r["target_id"] == trial.target.target_id), len(self.targets))
+                    trial.judge_rank = true_rank
+                    top_threshold = max(1, len(self.targets) // 4)
+                    trial.hit = (true_rank <= top_threshold)
+                    y = 1.0 if trial.hit else 0.0
+                    trial.brier_score = round((0.25 - y) ** 2, 4)
+                    trial.evaluation = f"Forced-choice rank: {true_rank}/{len(self.targets)}, {'HIT' if trial.hit else 'MISS'} (Direct match: {true_rank == 1})"
+                    evaluated.append(trial)
+                else:
+                    evaluated.append(self.evaluator.evaluate_trial(trial))
             except Exception as e:
                 print(f"[RV] Evaluation error for {trial.trial_id}: {e}")
                 evaluated.append(trial)
@@ -450,7 +535,7 @@ class RemoteViewingExperiment:
         return evaluated
 
     def run_full_experiment(self, seed: Optional[int] = None) -> Dict:
-        """Run all three phases: baseline → training → test."""
+        """Run all phases: baseline → training → test → forced_choice."""
         all_results = {}
 
         # Phase 1: Baseline
@@ -460,13 +545,18 @@ class RemoteViewingExperiment:
 
         # Phase 2: Training (protocol explanation)
         print("\n=== PHASE 2: TRAINING ===")
-        training = self.run_phase(TrialPhase.TRANING, n_trials=5, seed=seed + 1)
+        training = self.run_phase(TrialPhase.TRAINING, n_trials=5, seed=(seed + 1) if seed else None)
         all_results["training"] = training
 
         # Phase 3: Test (post-training)
         print("\n=== PHASE 3: TEST ===")
-        test = self.run_phase(TrialPhase.TEST, n_trials=10, seed=seed + 2)
+        test = self.run_phase(TrialPhase.TEST, n_trials=10, seed=(seed + 2) if seed else None)
         all_results["test"] = test
+
+        # Phase 4: Forced Choice (Double-blind target discrimination)
+        print("\n=== PHASE 4: FORCED CHOICE ===")
+        forced_choice = self.run_phase(TrialPhase.FORCED_CHOICE, n_trials=10, seed=(seed + 3) if seed else None)
+        all_results["forced_choice"] = forced_choice
 
         return all_results
 
@@ -527,7 +617,7 @@ class RemoteViewingExperiment:
         print("AI REMOTE VIEWING EXPERIMENT — SUMMARY")
         print("=" * 60)
 
-        for phase in ["baseline", "training", "test"]:
+        for phase in ["baseline", "training", "test", "forced_choice"]:
             if phase not in results:
                 continue
             m = self.compute_metrics(results[phase])
@@ -546,6 +636,10 @@ class RemoteViewingExperiment:
             improvement = test_m["hit_rate"] - baseline_m["hit_rate"]
             print(f"\n  IMPROVEMENT (baseline → test): {improvement:+.1%}")
             print(f"  Above chance: {'YES' if test_m['hit_rate'] > 0.25 else 'NO'}")
+        
+        fc_m = self.compute_metrics(results.get("forced_choice", []))
+        if fc_m:
+            print(f"\n  FORCED CHOICE ABOVE CHANCE: {'YES' if fc_m['hit_rate'] > 0.25 else 'NO'} ({fc_m['hit_rate']:.1%} vs 25.0%)")
         print("=" * 60)
 
 
@@ -561,7 +655,7 @@ if __name__ == "__main__":
     parser.add_argument("--llama31", default="http://localhost:18284", help="Llama-3.1-8B endpoint")
     parser.add_argument("--philly", default="http://localhost:18285", help="Kat-philly endpoint")
     parser.add_argument("--seed", type=int, default=None, help="Random seed")
-    parser.add_argument("--phase", choices=["baseline", "training", "test", "all"], default="all")
+    parser.add_argument("--phase", choices=["baseline", "training", "test", "forced_choice", "all"], default="all")
     parser.add_argument("--n-trials", type=int, default=10, help="Trials per phase")
     args = parser.parse_args()
 
@@ -590,7 +684,10 @@ if __name__ == "__main__":
             "baseline": TrialPhase.BASELINE,
             "training": TrialPhase.TRAINING,
             "test": TrialPhase.TEST,
+            "forced_choice": TrialPhase.FORCED_CHOICE,
         }
         results = {args.phase: exp.run_phase(phase_map[args.phase], n_trials=args.n_trials, seed=args.seed)}
+        exp.print_summary(results)
+        exp.save_results(results, seed=args.seed)
         exp.print_summary(results)
         exp.save_results(results, seed=args.seed)

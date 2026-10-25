@@ -139,5 +139,40 @@ class TestCorpusBuilder(unittest.TestCase):
         self.assertGreater(len(stats), 30, "Should have over 30 source files")
 
 
+class TestAIRemoteViewer(unittest.TestCase):
+    def setUp(self):
+        sys.path.insert(0, str(wb_dir / 'research' / 'campbell'))
+        from ai_remote_viewer import DEFAULT_TARGETS, BlindEvaluator, build_test_prompt, TrialPhase, Target
+        self.targets = DEFAULT_TARGETS
+        self.evaluator = BlindEvaluator(self.targets)
+        self.build_prompt = build_test_prompt
+        self.TrialPhase = TrialPhase
+
+    def test_target_seals_present(self):
+        """Verify all default targets have deterministic SHA-256 seals."""
+        self.assertEqual(len(self.targets), 20)
+        for t in self.targets:
+            self.assertTrue(len(t.hash_seal) == 64)
+
+    def test_evaluator_parses_and_fills_all_targets(self):
+        """Verify blind evaluator parser extracts ranks and backfills missing targets with tied rank."""
+        mock_output = "1. t05\n2. t12\n3. t01\n4. t18"
+        ranked = self.evaluator._parse_ranking(mock_output, self.targets)
+        self.assertEqual(len(ranked), 20, "All 20 targets must receive a rank")
+        self.assertEqual(ranked[0]["target_id"], "t05")
+        self.assertEqual(ranked[0]["rank"], 1)
+        self.assertEqual(ranked[1]["target_id"], "t12")
+        self.assertEqual(ranked[1]["rank"], 2)
+        # Verify unranked targets get tied rank (5 to 20 midpoint: 12.5)
+        self.assertEqual(ranked[4]["rank"], 12.5)
+
+    def test_forced_choice_prompt_contains_targets(self):
+        """Verify forced choice prompt includes candidate pool."""
+        prompt = self.build_prompt(self.targets[0], self.TrialPhase.FORCED_CHOICE, pool=self.targets)
+        self.assertIn("t01", prompt)
+        self.assertIn("t20", prompt)
+        self.assertIn("Rank 1:", prompt)
+
+
 if __name__ == '__main__':
     unittest.main()
