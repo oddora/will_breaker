@@ -33,12 +33,12 @@ class TestSportsBattery(unittest.TestCase):
         self.temp_dir.cleanup()
 
     def test_slate_composition(self):
-        """Verify the slate contains 5 NFL and 5 NBA games for Oct 25, 2026."""
-        self.assertEqual(len(OCT_25_SLATE), 10)
+        """Verify the slate contains 4 NFL and 7 NBA upcoming games for Oct 25, 2026."""
+        self.assertEqual(len(OCT_25_SLATE), 11)
         nfl = [g for g in OCT_25_SLATE if g.sport == "NFL"]
         nba = [g for g in OCT_25_SLATE if g.sport == "NBA"]
-        self.assertEqual(len(nfl), 5)
-        self.assertEqual(len(nba), 5)
+        self.assertEqual(len(nfl), 4)
+        self.assertEqual(len(nba), 7)
 
         for g in OCT_25_SLATE:
             self.assertTrue(g.game_id.startswith(("nfl_", "nba_")))
