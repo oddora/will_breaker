@@ -34,6 +34,20 @@ RCT, Pharr-style RV practice, unsealed/unblinded "trials".
 
 ---
 
+### Session 044 — 2026-10-26 (Temporal Retrieval Battery v1: NULL)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 044 | 2026-10-26 | Test owner hypothesis directly: future-information retrieval ± sigil ritual, sealed before outcomes exist | Protocol 016, 60 sealed predictions (`8a2df36`), **NULL: control 47.3% (p=.84), sigil 50.7% (p=.43)**, verdict `results/temporal/session044_verdict.md` |
+
+Predictions collapsed to 9/8 unique strings (modal ×27/60) — output
+attractors, not retrieval. Third independent sealed NULL on the
+retrieval hypothesis (DB-FTCD, sports, temporal). Charter training
+rule stands: no projection training until a battery beats chance
+twice under fresh seals. OSF/Exp-1 dropped+removed by owner.
+
+---
+
 ### Session 043 — 2026-10-26 (Full-system audit: sports resolver bug corrected)
 
 | Session | Date | Objective | Key Outputs |
