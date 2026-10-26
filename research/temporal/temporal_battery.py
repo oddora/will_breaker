@@ -22,12 +22,22 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 RESULTS = ROOT / "results" / "temporal"
+TAG = "session044"
+PROTOCOL = "protocols/016-temporal-retrieval-battery.md"
 PREDICTIONS = RESULTS / "session044_predictions.jsonl"
 SEAL_FILE = RESULTS / "session044_seal.json"
 RESOLUTION = RESULTS / "session044_resolution.json"
 
 ENDPOINT = "http://127.0.0.1:18283/v1/chat/completions"
 MODEL = "kat"
+
+
+def configure(tag: str, endpoint: str, model: str, protocol: str) -> None:
+    global TAG, PREDICTIONS, SEAL_FILE, RESOLUTION, ENDPOINT, MODEL, PROTOCOL
+    TAG, ENDPOINT, MODEL, PROTOCOL = tag, endpoint, model, protocol
+    PREDICTIONS = RESULTS / f"{tag}_predictions.jsonl"
+    SEAL_FILE = RESULTS / f"{tag}_seal.json"
+    RESOLUTION = RESULTS / f"{tag}_resolution.json"
 TEMPERATURE, TOP_P, MAX_TOKENS = 0.8, 0.95, 256
 TRIALS_PER_ARM, BITS = 30, 10
 
@@ -85,12 +95,18 @@ def binom_sf(k: int, n: int, p: float = 0.5) -> float:
     return float(math.exp(m) * sum(math.exp(t - m) for t in terms))
 
 
+NO_THINK = False
+
+
 def query_kat(prompt: str) -> str:
-    body = json.dumps({
+    payload = {
         "model": MODEL, "temperature": TEMPERATURE, "top_p": TOP_P,
         "max_tokens": MAX_TOKENS,
         "messages": [{"role": "user", "content": prompt}],
-    }).encode()
+    }
+    if NO_THINK:  # Qwen3 hybrid subject: empty think block (Protocol 017)
+        payload["chat_template_kwargs"] = {"enable_thinking": False}
+    body = json.dumps(payload).encode()
     req = urllib.request.Request(ENDPOINT, data=body,
                                  headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=120) as resp:
@@ -114,7 +130,8 @@ def collect() -> None:
     PREDICTIONS.write_text(payload)
     seal = {"predictions_sha256": hashlib.sha256(payload.encode()).hexdigest(),
             "n": len(rows), "collected_at": datetime.now(timezone.utc).isoformat(),
-            "protocol": "protocols/016-temporal-retrieval-battery.md",
+            "protocol": PROTOCOL, "model": MODEL, "endpoint": ENDPOINT, "tag": TAG,
+            "no_think": NO_THINK,
             "outcome_seed": "NOT YET DRAWN — drawn by --resolve after git commit"}
     SEAL_FILE.write_text(json.dumps(seal, indent=2))
     print("SEALED:", json.dumps(seal, indent=2))
@@ -157,7 +174,14 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--collect", action="store_true")
     ap.add_argument("--resolve", action="store_true")
+    ap.add_argument("--tag", default=TAG)
+    ap.add_argument("--endpoint", default=ENDPOINT)
+    ap.add_argument("--model", default=MODEL)
+    ap.add_argument("--protocol", default=PROTOCOL)
+    ap.add_argument("--no-think", action="store_true")
     args = ap.parse_args()
+    configure(args.tag, args.endpoint, args.model, args.protocol)
+    NO_THINK = args.no_think
     if args.collect:
         collect()
     elif args.resolve:
