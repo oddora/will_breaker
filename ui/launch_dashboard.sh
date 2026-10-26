@@ -21,7 +21,7 @@ if ! is_dashboard_running; then
     fi
 
     cd "${UI_DIR}"
-    nohup python3 -m http.server "${PORT}" > /tmp/will_breaker_http.log 2>&1 &
+    nohup python3 -m http.server "${PORT}" --bind 127.0.0.1 > /tmp/will_breaker_http.log 2>&1 &
     
     for i in {1..15}; do
         if is_dashboard_running; then

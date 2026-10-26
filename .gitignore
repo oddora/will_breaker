@@ -3,3 +3,7 @@ __pycache__/
 *$py.class
 .pytest_cache/
 .DS_Store
+# Regenerated every LiveCrawler cron run (snapshots, not evidence;
+# the append-only delta_events.jsonl + crypto registry stay tracked)
+will_breaker_delta/corpus/cron_status.json
+will_breaker_delta/corpus/latest_forecast.json

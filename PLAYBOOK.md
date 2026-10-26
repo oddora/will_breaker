@@ -1,3 +1,22 @@
+### Session 043 — 2026-10-26 (Full-system audit: sports resolver bug corrected)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 043 | 2026-10-26 | Audit all systems, fix every fixable issue, MoE prioritization | Resolver abbreviation bug fixed + 5 regression tests, S041 re-resolved **13/22 (Brier 0.2330)**, roadmap in `host-configs/host/ROADMAP-2026-10-26.md` |
+
+**CORRECTION to Session 041 sports battery:** the published "0/22, Brier 0.3458"
+(commits `29af66e`, host-configs `afa63da`) was a resolver artifact —
+`scripts/resolve_session041.py` compared full-name picks to abbreviation
+winners, auto-failing every pick (ATS favorite detection had the same bug;
+integer spreads could not push). Fixed and re-resolved live vs ESPN:
+**13/22 correct (59.1%), Brier 0.2330, ATS 6/11, ML 7/11** — ≈ chance-level
+skill, honestly measured. `notes/session_041_resolution.json` is corrected.
+Cron snapshots (`cron_status.json`, `latest_forecast.json`) are now
+gitignored; append-only evidence (`delta_events.jsonl`, crypto registry)
+stays tracked. UI `:8080` rebound to localhost.
+
+---
+
 ### Session 041 — 2026-10-25 (Liturgical Slot-Filler Compiler with KAT MoE & Adversarial Fuzzing)
 
 | Session | Date | Objective | Key Outputs |
@@ -238,4 +257,4 @@ will_breaker_delta/
 
 Read `PLAYBOOK.md` for the full project state and pending work list. Check `research/010-mechanistic-attractor-paper.md` for the publishable mechanistic interpretability results and `results/campbell_rv/experiment_seed_{42,101}.json` for the double-blind RV battery data.
 
-**Current state:** 39 sessions, 27 attractor basins mechanistically validated, cross-arch replication confirmed, 4 sealed predictions pending, AI RV full battery completed with NULL_RESULT confirmed.
+**Current state (2026-10-26):** Sessions through 043, 27 attractor basins mechanistically validated, cross-arch replication confirmed, AI RV full battery NULL_RESULT confirmed, Session 041 sports battery corrected to 13/22 (Brier 0.2330). OSF pre-registration submission + RV Trial 006 target await owner.

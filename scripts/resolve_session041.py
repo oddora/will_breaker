@@ -81,8 +81,28 @@ def parse_game(ev: dict) -> dict | None:
 
 
 def abv_from_name(name: str) -> str:
-    key = name.strip().replace("-", "_").replace(" ", "_")
+    key = name.strip().replace("-", "_").replace(" ", "_").lower()
     return ABBREV.get(key, name.strip().upper())
+
+
+def pick_abv(pick: str) -> str:
+    """Normalize a pick / spread string ("Arizona Cardinals -1.5") to an ESPN abbreviation."""
+    tokens = pick.strip().split()
+    if tokens:
+        try:
+            float(tokens[-1])
+            tokens = tokens[:-1]
+        except ValueError:
+            pass
+    name = " ".join(tokens)
+    candidates = [name.replace(" ", "_").lower()]
+    if tokens:
+        candidates.append(tokens[-1].lower())
+        candidates.extend(t.lower() for t in tokens)
+    for cand in candidates:
+        if cand in ABBREV:
+            return ABBREV[cand]
+    return abv_from_name(name)
 
 
 def evaluate_box_score(meta: dict, away_score: int, home_score: int) -> dict:
@@ -95,23 +115,31 @@ def evaluate_box_score(meta: dict, away_score: int, home_score: int) -> dict:
         ml_winner = home_team
     else:
         ml_winner = "PUSH_TIE"
+    final = f"{away_team} {away_score} - {home_team} {home_score}"
     if not market_spread:
-        return {"ml_winner": ml_winner, "ats_winner": "N/A", "final_score": f"{away_team} {away_score} - {home_team} {home_score}"}
+        return {"ml_winner": ml_winner, "ats_winner": "N/A", "ats_winner_abv": None, "final_score": final}
     parts = market_spread.split()
     fav_team = " ".join(parts[:-1])
     spread_val = float(parts[-1])
     spread_abs = parts[-1].replace("-", "").replace("+", "")
-    fav_is_home = fav_team.lower() in home_team.lower() or home_team.lower() in fav_team.lower()
-    if fav_is_home:
-        adjusted = home_score + spread_val
-        ats_winner = f"{home_team} -{spread_abs}" if adjusted > away_score else f"{away_team} +{spread_abs}"
+    fav_abv = pick_abv(fav_team)
+    fav_is_home = fav_abv == home_team
+    fav_score = home_score if fav_is_home else away_score
+    dog_score = away_score if fav_is_home else home_score
+    fav_abv_out = home_team if fav_is_home else away_team
+    dog_abv_out = away_team if fav_is_home else home_team
+    adjusted = fav_score + spread_val
+    if adjusted > dog_score:
+        ats_winner_abv, ats_winner = fav_abv_out, f"{fav_abv_out} -{spread_abs}"
+    elif adjusted < dog_score:
+        ats_winner_abv, ats_winner = dog_abv_out, f"{dog_abv_out} +{spread_abs}"
     else:
-        adjusted = away_score + spread_val
-        ats_winner = f"{away_team} -{spread_abs}" if adjusted > home_score else f"{home_team} +{spread_abs}"
+        ats_winner_abv, ats_winner = None, f"PUSH ({fav_abv_out} -{spread_abs})"
     return {
         "ml_winner": ml_winner,
         "ats_winner": ats_winner,
-        "final_score": f"{away_team} {away_score} - {home_team} {home_score}",
+        "ats_winner_abv": ats_winner_abv,
+        "final_score": final,
     }
 
 
@@ -159,8 +187,11 @@ def resolve_all() -> tuple[list, list]:
         eval_meta = {"away_team": aw_abv, "home_team": hw_abv, "market_spread": meta.get("market_spread", "")}
         box = evaluate_box_score(eval_meta, game_data["away_score"], game_data["home_score"])
         is_ats = "Spread" in desc
-        predicted = box["ats_winner"] if is_ats else box["ml_winner"]
-        actual = 1.0 if predicted == pick else (0.5 if "PUSH" in predicted else 0.0)
+        winner_abv = box["ats_winner_abv"] if is_ats else box["ml_winner"]
+        if winner_abv is None or winner_abv == "PUSH_TIE":
+            actual = 0.5
+        else:
+            actual = 1.0 if winner_abv == pick_abv(pick) else 0.0
         bs = (prob - actual) ** 2
         log_loss = -(actual * math.log(prob + 1e-9) + (1 - actual) * math.log(1 - prob + 1e-9))
         label = "CORRECT" if actual >= 1.0 else ("PUSH" if actual == 0.5 else "WRONG")
