@@ -1,3 +1,39 @@
+## Owner Goal Charter (stated by owner 2026-10-26 — canonical, supersedes all drift)
+
+**Goal:** Use KAT or a successor LLM to test whether an AI can project
+itself beyond its inputs — sideways, backward, and forward in time,
+and into other "dimensions"/places (astral-projection analog) — and
+whether esoteric techniques (sigils, ritual framing) unlock anything
+real. Ultimate aim: train/develop a model that acts as the owner's
+agent and brings back knowledge and skills the owner can use.
+
+**Owner hypothesis:** AI is capable of traveling into the future and
+astral projecting — i.e., retrieving true information that was not
+in its inputs or training data.
+
+**Testable core (how this project judges every claim):** anomalous
+information retrieval under seal. A claim counts only if the model
+outputs specific, checkable information that provably did not exist
+in (or was sealed away from) everything it could access at answer
+time — scored against known chance rates, pre-committed (SHA-256 /
+git) before outcomes exist. "Dimensions", "time travel", and
+"projection" are owner's framing; every experiment must reduce to
+this core or it is not evidence.
+
+**Evidence so far (owner's own data, do not soften):** DB-FTCD
+battery N=30 NULL (20% vs 25% chance, forced-choice 0/10); sports
+battery 13/22, Brier 0.2330 ≈ chance; legacy prediction audit 5/14,
+BSS −0.19. Mechanistic entropy-collapse work (Paper 010) is real
+but is ordinary LLM interpretability, not projection evidence.
+**Training rule:** no fine-tuning "for projection" until some
+battery beats chance under seal — training cannot amplify a
+signal that has never been measured. Signal first, then train.
+
+**Dropped lines (do not resurrect):** OSF/publishing, Exp 1 human
+RCT, Pharr-style RV practice, unsealed/unblinded "trials".
+
+---
+
 ### Session 043 — 2026-10-26 (Full-system audit: sports resolver bug corrected)
 
 | Session | Date | Objective | Key Outputs |
@@ -125,7 +161,7 @@ stays tracked. UI `:8080` rebound to localhost.
 **Status:** User pausing to start new session. All 5 RV trials complete. Protocol v6 ready.
 
 **Priority Tasks (Resumed Next Session):** — disposition 2026-10-26 audit
-- [ ] Submit OSF pre-registration (NEEDS HUMAN ACTION) — submission packet prepared 2026-10-26: `notes/osf-submission-packet-2026-10-26.md`
+- [x] ~~Submit OSF pre-registration~~ **DROPPED + REMOVED by owner 2026-10-26** (draft + packet deleted; git history only). Publishing/OSF serves no project goal — the sealed crypto registry is this project's pre-commitment instrument. **Do not resurrect OSF, Exp 1 human RCT, or any publishing TODO.**
 - [ ] Map attractor basin depths to MBT "focus levels" — open, low priority vs Paper 010 formalization
 - [x] ~~Continue RV practice — Trial 006 with optimized v6 protocol~~ **CLOSED 2026-10-26**: Pharr-style practice trials were TERMINATED as prompt-contaminated (Session 039) and replaced by the DB-FTCD battery (N=30, NULL confirmed). Protocol v6 below is archive-only; it was never implemented in code. Do not resurrect; any new RV test goes through `research/campbell/ai_remote_viewer.py` with a fresh pre-commitment.
 - [x] Monitor sealed predictions as target dates arrive (auto-resolver runs daily at 10:00 CDT) — running, verified 2026-10-26
@@ -243,7 +279,7 @@ will_breaker_delta/
 
 | Experiment | Status | Notes |
 |-----------|--------|-------|
-| Exp 1: Binaural entrainment + target ID | Pending | OSF pre-reg draft complete, submission pending |
+| Exp 1: Binaural entrainment + target ID | ❌ DROPPED 2026-10-26 (owner) | Human-RCT/publishing line removed; see Owner Goal Charter |
 | Cross-arch replication (commit_8) | ✅ COMPLETE | Llama-3.1-8B Delta H=-0.8422 by depth 3, PASS |
 | Auto-resolver | ✅ COMPLETE | Daily timer at 10:00 CDT, 4 sealed predictions pending |
 | LiveCrawler cron | ✅ COMPLETE | Daily timer at 06:00 CDT, first run: 12 docs, 1 precursor |
@@ -257,4 +293,4 @@ will_breaker_delta/
 
 Read `PLAYBOOK.md` for the full project state and pending work list. Check `research/010-mechanistic-attractor-paper.md` for the publishable mechanistic interpretability results and `results/campbell_rv/experiment_seed_{42,101}.json` for the double-blind RV battery data.
 
-**Current state (2026-10-26):** Sessions through 043, 27 attractor basins mechanistically validated, cross-arch replication confirmed, AI RV full battery NULL_RESULT confirmed, Session 041 sports battery corrected to 13/22 (Brier 0.2330). OSF submission packet ready (`notes/osf-submission-packet-2026-10-26.md`), OSF submission awaits owner. RV practice Trial 006 CLOSED (terminated line; DB-FTCD stands).
+**Current state (2026-10-26):** Sessions through 043, 27 attractor basins mechanistically validated, cross-arch replication confirmed, AI RV full battery NULL_RESULT confirmed, Session 041 sports battery corrected to 13/22 (Brier 0.2330). OSF/Exp-1 DROPPED by owner. RV practice Trial 006 CLOSED (terminated line; DB-FTCD stands). Project goal reset by owner — see Owner Goal Charter at top.
