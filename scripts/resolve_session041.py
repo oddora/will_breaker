@@ -122,7 +122,7 @@ def resolve_all() -> tuple[list, list]:
     print(f"Found {len(sealed)} sealed Session 041 predictions\n")
 
     nfl_events = fetch_scoreboard("NFL", date="2026-10-25")
-    nba_events = fetch_scoreboard("NBA", date="2026-10-26")
+    nba_events = fetch_scoreboard("NBA", date="2026-10-25")
     resolved: list[dict] = []
     unresolved: list[tuple[dict, str]] = []
 
@@ -136,7 +136,7 @@ def resolve_all() -> tuple[list, list]:
 
         # Parse team abbreviations from game_id
         parts = gid.replace("nfl_", "").replace("nba_", "").split("_")
-        aw_name, hw_name = parts[0], parts[1]
+        aw_name, hw_name = parts[1], parts[2]
         aw_abv = abv_from_name(aw_name)
         hw_abv = abv_from_name(hw_name)
 
