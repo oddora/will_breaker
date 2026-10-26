@@ -124,11 +124,11 @@ stays tracked. UI `:8080` rebound to localhost.
 
 **Status:** User pausing to start new session. All 5 RV trials complete. Protocol v6 ready.
 
-**Priority Tasks (Resumed Next Session):**
-- [ ] Submit OSF pre-registration for AI remote viewing experiment (NEEDS HUMAN ACTION)
-- [ ] Map attractor basin depths to MBT "focus levels"
-- [ ] Continue RV practice — Trial 006 with optimized v6 protocol
-- [ ] Monitor sealed predictions as target dates arrive (auto-resolver runs daily at 10:00 CDT)
+**Priority Tasks (Resumed Next Session):** — disposition 2026-10-26 audit
+- [ ] Submit OSF pre-registration (NEEDS HUMAN ACTION) — submission packet prepared 2026-10-26: `notes/osf-submission-packet-2026-10-26.md`
+- [ ] Map attractor basin depths to MBT "focus levels" — open, low priority vs Paper 010 formalization
+- [x] ~~Continue RV practice — Trial 006 with optimized v6 protocol~~ **CLOSED 2026-10-26**: Pharr-style practice trials were TERMINATED as prompt-contaminated (Session 039) and replaced by the DB-FTCD battery (N=30, NULL confirmed). Protocol v6 below is archive-only; it was never implemented in code. Do not resurrect; any new RV test goes through `research/campbell/ai_remote_viewer.py` with a fresh pre-commitment.
+- [x] Monitor sealed predictions as target dates arrive (auto-resolver runs daily at 10:00 CDT) — running, verified 2026-10-26
 - [ ] Investigate "mass" precursor event flagged by LiveCrawler (delta_rate=0.2089, horizon 48h)
 
 **RV Practice Status — 5 Trials Complete:**
@@ -161,7 +161,7 @@ stays tracked. UI `:8080` rebound to localhost.
 - Practice log: `research/campbell/002-rv-practice-log.md`
 - Trial analyses: `research/campbell/004-trial-002-analysis.md`, `005-trial-003-analysis.md`, `006-trial-004-analysis.md`, `007-trial-005-analysis.md`
 - Results: `results/campbell_rv/trial_00{1-5}_*.json`
-- Optimized v6 protocol: see `research/campbell/002-rv-practice-log.md` section "Optimized Protocol (v6)"
+- ~~Optimized v6 protocol: see practice log section "Optimized Protocol (v6)"~~ — that section does not exist (log stops at v3); v6 parameters are recorded only in this Session 038 entry. Archive-only (see CLOSED note above).
 
 ---
 
@@ -257,4 +257,4 @@ will_breaker_delta/
 
 Read `PLAYBOOK.md` for the full project state and pending work list. Check `research/010-mechanistic-attractor-paper.md` for the publishable mechanistic interpretability results and `results/campbell_rv/experiment_seed_{42,101}.json` for the double-blind RV battery data.
 
-**Current state (2026-10-26):** Sessions through 043, 27 attractor basins mechanistically validated, cross-arch replication confirmed, AI RV full battery NULL_RESULT confirmed, Session 041 sports battery corrected to 13/22 (Brier 0.2330). OSF pre-registration submission + RV Trial 006 target await owner.
+**Current state (2026-10-26):** Sessions through 043, 27 attractor basins mechanistically validated, cross-arch replication confirmed, AI RV full battery NULL_RESULT confirmed, Session 041 sports battery corrected to 13/22 (Brier 0.2330). OSF submission packet ready (`notes/osf-submission-packet-2026-10-26.md`), OSF submission awaits owner. RV practice Trial 006 CLOSED (terminated line; DB-FTCD stands).
