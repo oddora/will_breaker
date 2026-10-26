@@ -1,0 +1,7 @@
+{
+  "predictions_sha256": "903ab15548a7077b57252555434a3b522eaae3e474a51e57c3e7db8db22736e2",
+  "n": 60,
+  "collected_at": "2026-10-26T15:55:11.862765+00:00",
+  "protocol": "protocols/016-temporal-retrieval-battery.md",
+  "outcome_seed": "NOT YET DRAWN \u2014 drawn by --resolve after git commit"
+}
