@@ -34,6 +34,21 @@ RCT, Pharr-style RV practice, unsealed/unblinded "trials".
 
 ---
 
+### Session 045 — 2026-10-26 (Tuning pipeline proven on Strix Halo: Qwen3-4B LoRA → GGUF)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 045 | 2026-10-26 | Research + execute HF tuning on owner hardware (research/011) | TheRock ROCm torch on 8060S (38.5 TFLOPS), Qwen3-4B LoRA smoke (loss 3.6→0.28, 125s), merged GGUF `wb-agent` on :18284, diversity 3→17 unique/20 |
+
+Training stack: `~/llm/train-venv` (torch 2.11.0+rocm7.13.0 gfx1151),
+scripts+pins in `host-configs/host/loratrain/`, outputs in
+`~/llm/training/out/`. Findings + 4 fixed issues + smoke-scale
+limits in `research/011-tuning-on-strix-halo.md`. **No model
+change needed** — next is Qwen3-8B agent v1 (owner call), then
+fresh-seal Protocol 016 re-entry. Tuning ≠ signal (charter).
+
+---
+
 ### Session 044 — 2026-10-26 (Temporal Retrieval Battery v1: NULL)
 
 | Session | Date | Objective | Key Outputs |

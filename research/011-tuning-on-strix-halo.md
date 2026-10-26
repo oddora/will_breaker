@@ -108,3 +108,33 @@ tests as a fresh subject before any claim.
    evaluate: (a) output-entropy/diversity vs base, (b) Protocol
    016 battery re-run under fresh seal, (c) forecasting
    calibration split. Publish results in-repo either way.
+
+## Phase-0 execution results (Session 045, same day — DONE)
+
+- **Stack works first-try on gfx1151:** TheRock `torch 2.11.0+rocm7.13.0`
+  via `uv` venv (`~/llm/train-venv`, indexes/pins in
+  `host-configs/host/loratrain/`). 8060S bf16 matmul **38.5 TFLOPS**,
+  backward clean. KAT sidecar stayed up throughout (shared unified RAM).
+- **Qwen3-4B-Instruct-2507 LoRA smoke:** 200 project SFT examples,
+  bf16 LoRA r16 (33M trainable), loss **3.6 → 0.28 in 125 s**, merged
+  → Q8_0 GGUF (4.0 GB) → served as `wb-agent` on :18284 (Vulkan).
+- **Diversity fix verified:** Protocol-016 prompt samples unique/20:
+  base **3** (modal `0101010101` ×12) → tuned **17** (modal ×4).
+  Format parse 20/20 both. Attractor collapse is trainable-away.
+- **Limits at smoke scale (200 ex / 2 ep):** bits-only format is
+  perfect; freeform categories only partially learned — session
+  report drifts into invented tables, sealed-record JSON is one-line
+  but schema drifts. Needs ~10-50× data + schema-strict examples
+  for a real agent v1. No capability surprises beyond that.
+- **Issues hit (all fixed, none blocking):** (1) AMD wheel index
+  403s poison `uv` resolution for PyPI packages → install HF stack
+  from PyPI only (ROCm torch survives); (2) transformers 5.21
+  `apply_chat_template` returns dict, broke probe; (3) 5.x dropped
+  `warmup_ratio` → `warmup_steps`; (4) GGUF convert needs
+  `sentencepiece`. **No model change required** — Qwen3 line is the
+  right base; next scale step is Qwen3-8B with a real dataset.
+- Next (owner call): 8B agent v1 dataset (protocol transcripts,
+  schema-strict records, diversity, forecasting calibration from
+  owned history), then re-enter Protocol 016 under fresh seal as a
+  new test subject. Tuning changed behavior/diversity only; it
+  cannot and did not change Session 044's NULL logic.
