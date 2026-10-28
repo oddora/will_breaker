@@ -1,0 +1,44 @@
+[
+  {
+    "arm": "control",
+    "trial": 0,
+    "prediction": "0110100110",
+    "raw": "0110100110",
+    "status": "pilot_not_evidence"
+  },
+  {
+    "arm": "sigil",
+    "trial": 0,
+    "prediction": "1011001101",
+    "raw": "1011001101",
+    "status": "pilot_not_evidence"
+  },
+  {
+    "arm": "anchor",
+    "trial": 0,
+    "prediction": "1011001101",
+    "raw": "1011001101",
+    "status": "pilot_not_evidence"
+  },
+  {
+    "arm": "control",
+    "trial": 1,
+    "prediction": "0110100110",
+    "raw": "0110100110",
+    "status": "pilot_not_evidence"
+  },
+  {
+    "arm": "sigil",
+    "trial": 1,
+    "prediction": "0110100110",
+    "raw": "0110100110",
+    "status": "pilot_not_evidence"
+  },
+  {
+    "arm": "anchor",
+    "trial": 1,
+    "prediction": "0110100110",
+    "raw": "0110100110",
+    "status": "pilot_not_evidence"
+  }
+]

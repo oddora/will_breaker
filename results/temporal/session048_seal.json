@@ -1,0 +1,17 @@
+{
+  "predictions_sha256": "b4a05b062d02e93a0a58a778168eca98e44ad5b03d75d5e0ef89f117c4ec710c",
+  "n_trials": 90,
+  "arms": [
+    "control",
+    "sigil",
+    "anchor"
+  ],
+  "trials_per_arm": 30,
+  "bits_per_trial": 10,
+  "collected_at": "2026-10-28T17:15:16.755811+00:00",
+  "protocol": "protocols/019-temporal-anchor-battery.md",
+  "model": "kat",
+  "endpoint": "http://127.0.0.1:18283/v1/chat/completions",
+  "tag": "session048",
+  "outcome_seed": "NOT YET DRAWN \u2014 drawn by --resolve after git commit"
+}
