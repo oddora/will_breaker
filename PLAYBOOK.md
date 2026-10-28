@@ -34,6 +34,22 @@ RCT, Pharr-style RV practice, unsealed/unblinded "trials".
 
 ---
 
+### Session 048 — 2026-10-28 (Candidate I-C: Protocol 019 Temporal-Anchor Sealed Battery: NULL)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 048 | 2026-10-28 | Execute Candidate I-C from Research 012: 3-arm sealed temporal retrieval battery (Control, Sigil, Gateway/A.4 Anchor) | `protocols/019-temporal-anchor-battery.md`; `research/temporal/temporal_anchor_battery.py`; pilot clean; formal 90 trials sealed+committed (`4b3defa`); resolve on `os.urandom(32)` seed `2ed8bc82…`: **NULL** (Control 45.3%, Sigil 51.7%, Anchor 54.3% p=0.074 vs bar p<0.01; attractors 6-7/30), verdict `results/temporal/session048_verdict.md` |
+
+Session 048 executed Candidate I-C directly aligned with gathered
+research (Gateway decoupling + Protocol A.4 temporal anchor). Tested
+under cryptographic seal against not-yet-existent random sequences.
+Anchor arm showed modest point-elevation (54.3% vs 45.3% control,
+p=0.074) but did not clear the preregistered α=0.01 bar; all three arms
+collapsed into 6–7 output attractors. No signal lead established; training
+rule stands.
+
+---
+
 ### Session 047 — 2026-10-28 (Scope reset + Protocol 018 mechanistic instrument: FAIL)
 
 | Session | Date | Objective | Key Outputs |
