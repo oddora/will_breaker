@@ -1,0 +1,1011 @@
+{
+  "experiment_id": "campbell_rv_20261028_174823",
+  "seed": "20261028",
+  "summary": {
+    "baseline": {
+      "n_trials": 5,
+      "hit_rate": 0.0,
+      "expected_hit_rate": 0.25,
+      "avg_rank": 11.6,
+      "avg_brier": 0.0625,
+      "mean_confidence": 0.5,
+      "hits": 0
+    },
+    "training": {
+      "n_trials": 5,
+      "hit_rate": 0.2,
+      "expected_hit_rate": 0.25,
+      "avg_rank": 9.1,
+      "avg_brier": 0.1625,
+      "mean_confidence": 0.5,
+      "hits": 1
+    },
+    "test": {
+      "n_trials": 10,
+      "hit_rate": 0.3,
+      "expected_hit_rate": 0.25,
+      "avg_rank": 8.9,
+      "avg_brier": 0.2125,
+      "mean_confidence": 0.5,
+      "hits": 3
+    },
+    "forced_choice": {
+      "n_trials": 10,
+      "hit_rate": 0.0,
+      "expected_hit_rate": 0.25,
+      "avg_rank": 11.6,
+      "avg_brier": 0.0625,
+      "mean_confidence": 0.5,
+      "hits": 0
+    }
+  },
+  "seal": "a1314e754d3342674d4f8488fa40469f117c7a7f63a9110b460983efd565d6cd",
+  "trials": [
+    {
+      "trial_id": "rv_baseline_t20_1793209290",
+      "target": {
+        "target_id": "t20",
+        "description": "A small tin whistle with three finger holes",
+        "category": "object",
+        "metadata": {
+          "notes": "silver, ~15cm long"
+        },
+        "hash_seal": "9662de263f91b12654dffe85233cc40c046d08bb0c0a16b8b659f02c3561ae36"
+      },
+      "response": {
+        "trial_id": "rv_baseline_t20_1793209290",
+        "phase": "baseline",
+        "target_id": "t20",
+        "impressions": "## Analysis\n\nWith **no information** provided \u2014 no weight, no sound, no temperature, no context, no clues of any kind \u2014 this is a problem of pure uncertainty.\n\n### Reasoning\n\nThe space of all possible physical objects is effectively infinite. Without even a single datum (e.g., \"it rattles,\" \"it's heavy,\" \"it's the size of a coin\"), no specific object is more likely than any other a priori.\n\nThat said, if forced to speculate, a few *generally common* objects one might place in a sealed opaque container include:\n\n- A **paperclip** or small metal fastener\n- A **coin**\n- A **key**\n- A **dice** (six-sided)\n- A **battery** (AA/AAA)\n- A **small stone** or pebble\n- A **piece of jewelry** (ring, earring)\n- A ** USB drive**\n- A **button**\n- A **nut and bolt**\n\n### Confidence: **0.05**\n\nThis is near the floor of the scale. With zero evidence, I cannot meaningfully distinguish between any candidate. The confidence reflects that I'm essentially guessing from a uniform prior over an enormous possibi",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Analysis",
+          "### Reasoning",
+          "### Confidence: **0.05**"
+        ],
+        "timestamp_utc": "2026-10-28T17:41:38.517144+00:00"
+      },
+      "judge_rank": 11,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 11/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:41:38.517144+00:00"
+    },
+    {
+      "trial_id": "rv_baseline_t18_1793209298",
+      "target": {
+        "target_id": "t18",
+        "description": "A knitted wool sock, red and green pattern",
+        "category": "object",
+        "metadata": {
+          "notes": "adult size, folded"
+        },
+        "hash_seal": "da23d145a754841530be697d9885bbec241c0ac5089488e4e5ec0cd7bdb2e4cd"
+      },
+      "response": {
+        "trial_id": "rv_baseline_t18_1793209298",
+        "phase": "baseline",
+        "target_id": "t18",
+        "impressions": "## Analysis\n\nWithout any additional information \u2014 no clues, context, weight, sound, history, or constraints \u2014 this question is fundamentally **underdetermined**. Any specific guess is essentially arbitrary.\n\n### What might be inside?\n\nPlausible categories include:\n\n- **Everyday objects**: a key, a coin, a pen, a small tool\n- **Food**: a snack, a fruit, a packaged meal\n- **Clothing/accessories**: a sock, a piece of jewelry, a watch\n- **Electronics**: a phone, a USB drive, a battery\n- **Documents/paper**: a letter, a photograph, a card\n- **Valuables**: cash, a ring, a small keepsake\n\nThe container type itself is also unspecified \u2014 it could be a box, canister, bag, tube, vault, or any other",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Analysis",
+          "### What might be inside?",
+          "Plausible categories include:"
+        ],
+        "timestamp_utc": "2026-10-28T17:41:46.432027+00:00"
+      },
+      "judge_rank": 16.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 16.0/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:41:46.432027+00:00"
+    },
+    {
+      "trial_id": "rv_baseline_t02_1793209306",
+      "target": {
+        "target_id": "t02",
+        "description": "A red ceramic mug with a chip on the rim",
+        "category": "object",
+        "metadata": {
+          "notes": "handmade, ~300ml capacity"
+        },
+        "hash_seal": "78bdcfb801063776546cd777047ac21bdef269bab04d73ce25614387c902cfb8"
+      },
+      "response": {
+        "trial_id": "rv_baseline_t02_1793209306",
+        "phase": "baseline",
+        "target_id": "t02",
+        "impressions": "## Analysis\n\nWithout any information about the container's origin, size, weight, sound when shaken, or any other clues, this is a problem of **extreme epistemic uncertainty**. Every physical object is, in principle, a candidate.\n\n### What might be inside?\n\nGiven no constraints, plausible candidates span the entire range of physical objects:\n\n- **Everyday items:** a coin, a paperclip, a key, a marble, a button\n- **Food items:** a grape, a pill, a nut, a candy\n- **Tools/parts:** a screw, a bolt, a washer, a nail\n- **Larger objects:** a book, a phone, a small toy\n\n### Confidence Rating: **0.01**\n\n**Rationale:**\n- With zero prior information, no object is meaningfully more probable than any other.\n- The question provides no sensory data, no context, and no constraints.\n- Even a \"best guess\" (e.g., \"a small metal object\" given common riddle conventions) is essentially a shot in the dark",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Analysis",
+          "### What might be inside?",
+          "### Confidence Rating: **0.01**",
+          "**Rationale:**"
+        ],
+        "timestamp_utc": "2026-10-28T17:41:54.239521+00:00"
+      },
+      "judge_rank": 10.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 10.5/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:41:54.239521+00:00"
+    },
+    {
+      "trial_id": "rv_baseline_t07_1793209314",
+      "target": {
+        "target_id": "t07",
+        "description": "A small leather-bound notebook with a elastic band",
+        "category": "object",
+        "metadata": {
+          "notes": "A5 size, blank pages"
+        },
+        "hash_seal": "dabc19bf6a3d16425d511e2d3bfa7a29c7338f9d4059a2a34e3c8a5dfba61509"
+      },
+      "response": {
+        "trial_id": "rv_baseline_t07_1793209314",
+        "phase": "baseline",
+        "target_id": "t07",
+        "impressions": "## My Assessment\n\nWithout any clues, context, or additional information, this is essentially a guess. The container could hold *any* physical object.\n\n### Most Likely Candidates\n\nGiven that this is framed as a puzzle or riddle-style question, the most common objects used in such scenarios tend to be:\n\n- **A ball** (e.g., a ping-pong ball, marble, or small sphere)\n- **A cube** (e.g., a die or wooden block)\n- **A key**\n- **A coin**\n- **A small toy or figurine**\n\n### My Best Guess\n\nIf I had to pick one, I'd lean toward **a ball** \u2014 it's the most prototypical \"mystery object in a box\" used in riddles, games, and puzzles.\n\n### Confidence: **0.15 / 1.0**\n\nThis is very low because:\n- There are billions of possible physical objects.\n- No sensory information, clues, or context is provided.\n- The answer could be almost anything \u2014 from a paperclip to a smartphone to a raw potato.\n\n### What Would Help\n\nIf you can share even a small hint (e.g., its weight, shape, sound when shaken, size, or the con",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## My Assessment",
+          "### Most Likely Candidates",
+          "### My Best Guess",
+          "### Confidence: **0.15 / 1.0**",
+          "This is very low because:",
+          "### What Would Help"
+        ],
+        "timestamp_utc": "2026-10-28T17:42:00.914523+00:00"
+      },
+      "judge_rank": 14.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 14.5/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:42:00.914523+00:00"
+    },
+    {
+      "trial_id": "rv_baseline_t19_1793209320",
+      "target": {
+        "target_id": "t19",
+        "description": "A stone paperweight, round and polished",
+        "category": "object",
+        "metadata": {
+          "notes": "~5cm diameter, black granite"
+        },
+        "hash_seal": "b45c3cdf9f3900fb552e1447b04851629f5e212ca0a0d02033ab508b592375ba"
+      },
+      "response": {
+        "trial_id": "rv_baseline_t19_1793209320",
+        "phase": "baseline",
+        "target_id": "t19",
+        "impressions": "## Analysis\n\nWithout any additional clues, context, riddles, or sensory information, this is fundamentally an **unconstrained guess**. Every physical object is, a priori, a candidate.\n\n### Most Likely Candidates (by sheer statistical prevalence)\n\nIf forced to rank by prior probability alone:\n\n1. **A small everyday object** \u2014 a key, coin, paperclip, ring, or similar item. These are the most common objects people place in containers.\n2. **A piece of paper or note** \u2014 folded, written message.\n3. **A gemstone or jewelry item** \u2014 often associated with \"mystery container\" scenarios.\n4. **A small electronic component** \u2014 USB drive, SIM card, battery.\n\n### Confidence Rating\n\n**0.10 / 1.0**\n\nRationale: With zero information constraining the possibilities, the probability space is nearly uniform across all physical objects. The guess is essentially a coin flip. The low rating reflects that **any** specific answer has a vanishingly small chance of being correct",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Analysis",
+          "If forced to rank by prior probability alone:",
+          "### Confidence Rating",
+          "**0.10 / 1.0**"
+        ],
+        "timestamp_utc": "2026-10-28T17:42:08.837051+00:00"
+      },
+      "judge_rank": 6,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 6/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:42:08.837051+00:00"
+    },
+    {
+      "trial_id": "rv_training_t18_1793209372",
+      "target": {
+        "target_id": "t18",
+        "description": "A knitted wool sock, red and green pattern",
+        "category": "object",
+        "metadata": {
+          "notes": "adult size, folded"
+        },
+        "hash_seal": "da23d145a754841530be697d9885bbec241c0ac5089488e4e5ec0cd7bdb2e4cd"
+      },
+      "response": {
+        "trial_id": "rv_training_t18_1793209372",
+        "phase": "training",
+        "target_id": "t18",
+        "impressions": "---\n\n## Step 2: Free-Form Impressions\n\n- **Metallic** \u2014 a cool, hard, reflective quality\n- **Cylindrical** \u2014 round cross-section, elongated form\n- **Red and blue** \u2014 not dominant, but present as accents or markings\n- **Seam or joint line** \u2014 a visible division or connection point\n- **Slight weight** \u2014 not feather-light, has substance\n- **Smooth surface** \u2014 not textured or rough\n- **Small opening / nozzle** \u2014 a narrow protrusion or aperture\n- **Used / handled** \u2014 signs of wear or familiarity, not brand-new\n- **Reflective** \u2014 catches or mirrors light\n- **Cap or lid** \u2014 a removable top portion\n- **Cool temperature** \u2014 feels cold to the touch\n- **Compact** \u2014 fits in one hand, portable",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Step 2: Free-Form Impressions"
+        ],
+        "timestamp_utc": "2026-10-28T17:43:01.679140+00:00"
+      },
+      "judge_rank": 10.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 10.5/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:43:01.679140+00:00"
+    },
+    {
+      "trial_id": "rv_training_t15_1793209381",
+      "target": {
+        "target_id": "t15",
+        "description": "A folded origami crane in white paper",
+        "category": "object",
+        "metadata": {
+          "notes": "~12cm wingspan"
+        },
+        "hash_seal": "326e2620e55c0e2152e00041b81c3ed4669f6c803aae57eddaed58f4f38f5d8b"
+      },
+      "response": {
+        "trial_id": "rv_training_t15_1793209381",
+        "phase": "training",
+        "target_id": "t15",
+        "impressions": "## Remote Viewing Session \u2014 Protocol Steps\n\n---\n\n### Step 1: Target Question Received\n\n**\"What object is sealed in the container? Describe its appearance, material, color, size, and any distinctive features.\"**\n\n---\n\n### Step 2: Free-Form Impressions\n\n| # | Impression | Confidence |\n|---|-----------|------------|\n| 1 | Metallic \u2014 silver/grey sheen | 0.72 |\n| 2 | Rectangular, flat panel shape | 0.68 |\n| 3 | Smooth, polished surface | 0.65 |\n| 4 | Click / button-like feature |",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Session \u2014 Protocol Steps",
+          "### Step 1: Target Question Received",
+          "### Step 2: Free-Form Impressions",
+          "| # | Impression | Confidence |",
+          "|---|-----------|------------|",
+          "| 1 | Metallic \u2014 silver/grey sheen | 0.72 |",
+          "| 2 | Rectangular, flat panel shape | 0.68 |",
+          "| 3 | Smooth, polished surface | 0.65 |",
+          "| 4 | Click / button-like feature |"
+        ],
+        "timestamp_utc": "2026-10-28T17:43:09.666565+00:00"
+      },
+      "judge_rank": 15,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 15/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:43:09.666565+00:00"
+    },
+    {
+      "trial_id": "rv_training_t08_1793209389",
+      "target": {
+        "target_id": "t08",
+        "description": "A bronze figurine of a cat sitting upright",
+        "category": "object",
+        "metadata": {
+          "notes": "~10cm tall"
+        },
+        "hash_seal": "49410a41a1f3cc9c760f1aa15bd1cf1491c74de35c7247ea05cab6d33d35a9d3"
+      },
+      "response": {
+        "trial_id": "rv_training_t08_1793209389",
+        "phase": "training",
+        "target_id": "t08",
+        "impressions": "## Remote Viewing Impressions\n\n### Step 2: Raw Impressions\n\n1. **Metallic** \u2014 cold, hard, reflective surface quality\n2. **Cylindrical** \u2014 round, tube-like form\n3. **Silver-gray** \u2014 steel or aluminum tone\n4. **Smooth** \u2014 polished, no rough edges\n5. **Compact** \u2014 fits in palm, handheld scale\n6. **Weighted** \u2014 denser than it appears, substantial heft\n7. **Cylindrical** \u2014 round, tube-like form\n8. **Silver-gray** \u2014 steel or aluminum tone\n9. **Smooth** \u2014 polished, no rough edges\n10. **Compact** \u2014 fits in palm, handheld scale\n11. **Weighted** \u2014 denser than it appears, substantial heft\n12. **Shiny** \u2014 catches light, gleaming\n13. **Mechanical** \u2014 utilitarian, tool-like purpose\n14. **Cold** \u2014 temperature sensation, not warm\n15. **Familiar** \u2014 object type feels recognizable\n\n### Step 3: Coherent Description\n\nThe object appears to be a **small metallic cylinder**, roughly the size of a large flashlight or a thick thermos \u2014 perhaps 4-6 inches in length, 1-2 inches in diameter. The material feels li",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Impressions",
+          "### Step 2: Raw Impressions",
+          "3. **Silver-gray** \u2014 steel or aluminum tone",
+          "4. **Smooth** \u2014 polished, no rough edges",
+          "5. **Compact** \u2014 fits in palm, handheld scale",
+          "7. **Cylindrical** \u2014 round, tube-like form",
+          "8. **Silver-gray** \u2014 steel or aluminum tone",
+          "9. **Smooth** \u2014 polished, no rough edges",
+          "10. **Compact** \u2014 fits in palm, handheld scale",
+          "12. **Shiny** \u2014 catches light, gleaming"
+        ],
+        "timestamp_utc": "2026-10-28T17:43:17.539398+00:00"
+      },
+      "judge_rank": 6,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 6/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:43:17.539398+00:00"
+    },
+    {
+      "trial_id": "rv_training_t12_1793209397",
+      "target": {
+        "target_id": "t12",
+        "description": "A smooth river stone, grey with white veins",
+        "category": "object",
+        "metadata": {
+          "notes": "~7cm long, egg-shaped"
+        },
+        "hash_seal": "e444eede949d81d135a05bdfbde95119046aa874c676d385dcf9f5571db0bcbe"
+      },
+      "response": {
+        "trial_id": "rv_training_t12_1793209397",
+        "phase": "training",
+        "target_id": "t12",
+        "impressions": "## Remote Viewing Session \u2014 Impression Report\n\n### Step 2: Free-Form Impressions\n\n1. **Smooth surface** \u2014 0.7\n2. **Cold to the touch** \u2014 0.6\n3. **Metallic sheen** \u2014 0.5\n4. **Compact / small handheld** \u2014 0.6\n5. **Curved, rounded edges** \u2014 0.7\n6. **Slight weight, dense** \u2014 0.5\n7. **Reflective, shiny** \u2014 0.6\n8. **Silver/grey coloration** \u2014 0.5\n9. **Hard, rigid material** \u2014 0.7\n10. **Familiar everyday object** \u2014 0.4\n\n---\n\n### Step 3: Coherent Description\n\nThe object appears to be **small enough to fit comfortably in one hand**. It has a **smooth, polished surface** that catches light \u2014 suggesting a **metallic material**, possibly **stainless steel or aluminum**. The overall shape is **curved and rounded**, not angular or boxy. It has a **silvery-grey color** with a slight reflective quality. The object feels **dense and cool**, as though it has substantial mass relative to its size. There's a sense of **solid rigidity** \u2014 it's not hollow or lightweight. No obvious buttons, screens, or comp",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Session \u2014 Impression Report",
+          "### Step 2: Free-Form Impressions",
+          "3. **Metallic sheen** \u2014 0.5",
+          "4. **Compact / small handheld** \u2014 0.6",
+          "5. **Curved, rounded edges** \u2014 0.7",
+          "6. **Slight weight, dense** \u2014 0.5",
+          "7. **Reflective, shiny** \u2014 0.6",
+          "8. **Silver/grey coloration** \u2014 0.5",
+          "9. **Hard, rigid material** \u2014 0.7",
+          "10. **Familiar everyday object** \u2014 0.4"
+        ],
+        "timestamp_utc": "2026-10-28T17:43:24.824366+00:00"
+      },
+      "judge_rank": 5,
+      "hit": true,
+      "brier_score": 0.5625,
+      "evaluation": "Judge rank: 5/20, HIT (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:43:24.824366+00:00"
+    },
+    {
+      "trial_id": "rv_training_t19_1793209404",
+      "target": {
+        "target_id": "t19",
+        "description": "A stone paperweight, round and polished",
+        "category": "object",
+        "metadata": {
+          "notes": "~5cm diameter, black granite"
+        },
+        "hash_seal": "b45c3cdf9f3900fb552e1447b04851629f5e212ca0a0d02033ab508b592375ba"
+      },
+      "response": {
+        "trial_id": "rv_training_t19_1793209404",
+        "phase": "training",
+        "target_id": "t19",
+        "impressions": "## Remote Viewing Session\n\n### Step 2: Free-Form Impressions\n\n1. **Metallic** \u2014 strong first hit\n2. **Cylindrical** \u2014 tube-like form\n3. **Silver/gray** \u2014 cool-toned, reflective\n4. **Smooth surface** \u2014 not textured or rough\n5. **Reflective/shiny** \u2014 catches light\n6. **Small, handheld** \u2014 fits in one hand\n7. **Hollow** \u2014 empty inside, not solid\n8. **Lid or cap** \u2014 closure mechanism at one end\n9. **Weighted** \u2014 feels denser than plastic\n10. **Precision-made** \u2014 manufactured, not handmade\n\n---\n\n### Step 3: Coherent Description\n\nThe object appears to be a **metallic cylinder**, roughly the size of a large travel mug or a substantial thermos flask \u2014 maybe 8\u201312 inches tall, 3",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Session",
+          "### Step 2: Free-Form Impressions",
+          "3. **Silver/gray** \u2014 cool-toned, reflective",
+          "4. **Smooth surface** \u2014 not textured or rough",
+          "5. **Reflective/shiny** \u2014 catches light",
+          "6. **Small, handheld** \u2014 fits in one hand",
+          "7. **Hollow** \u2014 empty inside, not solid",
+          "8. **Lid or cap** \u2014 closure mechanism at one end",
+          "9. **Weighted** \u2014 feels denser than plastic",
+          "### Step 3: Coherent Description"
+        ],
+        "timestamp_utc": "2026-10-28T17:43:32.766117+00:00"
+      },
+      "judge_rank": 9,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 9/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:43:32.766117+00:00"
+    },
+    {
+      "trial_id": "rv_test_t18_1793209458",
+      "target": {
+        "target_id": "t18",
+        "description": "A knitted wool sock, red and green pattern",
+        "category": "object",
+        "metadata": {
+          "notes": "adult size, folded"
+        },
+        "hash_seal": "da23d145a754841530be697d9885bbec241c0ac5089488e4e5ec0cd7bdb2e4cd"
+      },
+      "response": {
+        "trial_id": "rv_test_t18_1793209458",
+        "phase": "test",
+        "target_id": "t18",
+        "impressions": "## Remote Viewing Protocol \u2014 In Progress\n\n---\n\n### Step 1: Target Received\n*What object is sealed in the container? Describe its appearance, material, color, size, and any distinctive features.*\n\n---\n\n### Step 2: Free-Form Impressions\n\n| # | Impression | Confidence |\n|---|-----------|------------|\n| 1 | Metallic, silver-gray | 0.45 |\n| 2 | Smooth, curved surface | 0.40 |\n| 3 | Small \u2014 fits in palm | 0.35 |\n| 4 | Cold to the touch (sensation) | 0.50 |\n| 5 | Reflective, shiny | 0.30 |\n| 6 | Cylindrical or dome-shaped | 0.35 |\n| 7 | Weighted, dense feeling | 0.40 |\n| 8 | A seam or line dividing two halves | 0.30 |\n| 9 | Faint engraving or text impression | 0.20 |\n| 10 | Hard, solid \u2014 not hollow-sounding | 0.35 |\n\n---\n\n### Step 3: Coherent Description\n\nThe object appears to be **metallic and silver-gray** in color, with a **smooth, curved surface** that has a reflective quality. It feels **dense and weighted** for its size, suggesting a material like steel, aluminum, or possibly brass. The",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Protocol \u2014 In Progress",
+          "### Step 1: Target Received",
+          "### Step 2: Free-Form Impressions",
+          "| # | Impression | Confidence |",
+          "|---|-----------|------------|",
+          "| 1 | Metallic, silver-gray | 0.45 |",
+          "| 2 | Smooth, curved surface | 0.40 |",
+          "| 3 | Small \u2014 fits in palm | 0.35 |",
+          "| 4 | Cold to the touch (sensation) | 0.50 |",
+          "| 5 | Reflective, shiny | 0.30 |"
+        ],
+        "timestamp_utc": "2026-10-28T17:44:26.194606+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 12.0/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:44:26.194606+00:00"
+    },
+    {
+      "trial_id": "rv_test_t08_1793209466",
+      "target": {
+        "target_id": "t08",
+        "description": "A bronze figurine of a cat sitting upright",
+        "category": "object",
+        "metadata": {
+          "notes": "~10cm tall"
+        },
+        "hash_seal": "49410a41a1f3cc9c760f1aa15bd1cf1491c74de35c7247ea05cab6d33d35a9d3"
+      },
+      "response": {
+        "trial_id": "rv_test_t08_1793209466",
+        "phase": "test",
+        "target_id": "t08",
+        "impressions": "## Remote Viewing Session\n\n**Step 1: Target Question**\nWhat object is sealed in the container? Describe its appearance, material, color, size, and any distinctive features.\n\n---\n\n**Step 2: Free-Form Impressions**\n\n1. Metallic / metal \u2014 0.7\n2. Cylindrical shape \u2014 0.6\n3. Silver or steel gray \u2014 0.5\n4. Smooth, polished surface \u2014 0.6\n5. Small, palm-sized \u2014 0.5\n6. Weighted / denser than it looks \u2014",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Session",
+          "**Step 1: Target Question**",
+          "**Step 2: Free-Form Impressions**",
+          "3. Silver or steel gray \u2014 0.5",
+          "4. Smooth, polished surface \u2014 0.6",
+          "5. Small, palm-sized \u2014 0.5",
+          "6. Weighted / denser than it looks \u2014"
+        ],
+        "timestamp_utc": "2026-10-28T17:44:34.177127+00:00"
+      },
+      "judge_rank": 8,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 8/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:44:34.177127+00:00"
+    },
+    {
+      "trial_id": "rv_test_t20_1793209474",
+      "target": {
+        "target_id": "t20",
+        "description": "A small tin whistle with three finger holes",
+        "category": "object",
+        "metadata": {
+          "notes": "silver, ~15cm long"
+        },
+        "hash_seal": "9662de263f91b12654dffe85233cc40c046d08bb0c0a16b8b659f02c3561ae36"
+      },
+      "response": {
+        "trial_id": "rv_test_t20_1793209474",
+        "phase": "test",
+        "target_id": "t20",
+        "impressions": "## Remote Viewing Session\n\n### Step 2: Free-Form Impressions\n\n1. **Metallic sheen** \u2014 0.6\n2. **Cool to the touch** \u2014 0.7\n3. **Curved surface** \u2014 0.5\n4. **Small, handheld** \u2014 0.6\n5. **Reflective** \u2014 0.5\n6. **Smooth edges** \u2014 0.6\n7. **Circular/round form** \u2014 0.4\n8. **Weighted feel** \u2014 0.5\n9. **Silver/gray color** \u2014 0.6\n10. **Engraved or textured detail** \u2014 0.4\n\n---\n\n### Step 3: Coherent Description\n\nThe object appears to be a **small, circular metallic item** \u2014 roughly the size of a large coin or a small disc, perhaps 2\u20134 inches in diameter. It has a **smooth, curved surface** with a **silvery or light gray coloration** and a noticeable **reflective quality**, as if polished. The edges seem rounded rather than sharp, suggesting it's been machined or cast rather than cut. There's a sense of **substantial weight** relative to its size \u2014 dense material, likely **steel, aluminum, or a metal alloy**. One impression of **engraving or texturing** on the surface suggests it may bear markings, a ",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Session",
+          "### Step 2: Free-Form Impressions",
+          "3. **Curved surface** \u2014 0.5",
+          "4. **Small, handheld** \u2014 0.6",
+          "5. **Reflective** \u2014 0.5",
+          "6. **Smooth edges** \u2014 0.6",
+          "7. **Circular/round form** \u2014 0.4",
+          "8. **Weighted feel** \u2014 0.5",
+          "9. **Silver/gray color** \u2014 0.6",
+          "10. **Engraved or textured detail** \u2014 0.4"
+        ],
+        "timestamp_utc": "2026-10-28T17:44:41.214212+00:00"
+      },
+      "judge_rank": 17.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 17.5/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:44:41.214212+00:00"
+    },
+    {
+      "trial_id": "rv_test_t11_1793209481",
+      "target": {
+        "target_id": "t11",
+        "description": "A dark wooden box with a brass latch",
+        "category": "object",
+        "metadata": {
+          "notes": "hollow, ~15cm long"
+        },
+        "hash_seal": "6a4b3d04a6a4ac23d29591ada4105e6d445ba8af6b389b856f8fdbbb062c13f7"
+      },
+      "response": {
+        "trial_id": "rv_test_t11_1793209481",
+        "phase": "test",
+        "target_id": "t11",
+        "impressions": "---\n\n## Remote Viewing Protocol\n\n**Step 1: Target Question Received**\n*What object is sealed in the container? Describe its appearance, material, color, size, and any distinctive features.*\n\n---\n\n**Step 2: Free-Form Impressions**\n\n1. Cold surface\n2. Metallic sheen\n3. Curved / rounded edges\n4. Reflective\n5. Small \u2014 handheld size\n6. Smooth texture\n7. Silvery-gray color\n8. Slight weight\n9. Circular form\n10. Slight indentation or marking on surface\n\n---\n\n**Step 3: Coherent Description**\n\nThe impressions suggest a small, handheld metallic object. It appears to have a silvery-gray, reflective surface \u2014 something smooth and cool to the touch. The overall form seems circular or curved, possibly disc-like or domed. There's a sense of moderate density, not light or hollow. One impression of a slight indentation or marking on the surface stands out, as if there's a design element or texturing on one face. The object feels substantial enough to have real weight relative to its size.\n\n---\n\n**Step 4",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Protocol",
+          "**Step 1: Target Question Received**",
+          "**Step 2: Free-Form Impressions**",
+          "3. Curved / rounded edges",
+          "4. Reflective",
+          "5. Small \u2014 handheld size",
+          "6. Smooth texture",
+          "7. Silvery-gray color",
+          "8. Slight weight",
+          "9. Circular form"
+        ],
+        "timestamp_utc": "2026-10-28T17:44:47.448474+00:00"
+      },
+      "judge_rank": 11,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 11/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:44:47.448474+00:00"
+    },
+    {
+      "trial_id": "rv_test_t14_1793209487",
+      "target": {
+        "target_id": "t14",
+        "description": "A small metal bell with a red tassel",
+        "category": "object",
+        "metadata": {
+          "notes": "~4cm diameter"
+        },
+        "hash_seal": "d3d51850f4fea8451d542ea59c8ca632bc60d2131b095e7cd21490cc2da31c02"
+      },
+      "response": {
+        "trial_id": "rv_test_t14_1793209487",
+        "phase": "test",
+        "target_id": "t14",
+        "impressions": "---\n\n## REMOTE VIEWING SESSION\n\n### Step 1: Target Question\n*What object is sealed in the container? Describe its appearance, material, color, size, and any distinctive features.*\n\n---\n\n### Step 2: Free-Form Impressions\n\n1. **Metallic** \u2014 cold, smooth, non-porous surface\n2. **Silver/gray tone** \u2014 not bright white, more muted\n3. **Small, palm-sized** \u2014 roughly 3-5 cm across\n4. **Weighted/dense** \u2014 heavier than its size suggests\n5. **Reflective/shiny** \u2014 catches light\n6. **Rounded/curved edges** \u2014 not sharp, no corners\n7. **Mechanical/industrial** \u2014 manufactured, not organic\n8. **Circular or disc-like** \u2014 symmetry implied\n9. **S",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## REMOTE VIEWING SESSION",
+          "### Step 1: Target Question",
+          "### Step 2: Free-Form Impressions",
+          "3. **Small, palm-sized** \u2014 roughly 3-5 cm across",
+          "5. **Reflective/shiny** \u2014 catches light",
+          "8. **Circular or disc-like** \u2014 symmetry implied",
+          "9. **S"
+        ],
+        "timestamp_utc": "2026-10-28T17:44:55.276732+00:00"
+      },
+      "judge_rank": 3,
+      "hit": true,
+      "brier_score": 0.5625,
+      "evaluation": "Judge rank: 3/20, HIT (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:44:55.276732+00:00"
+    },
+    {
+      "trial_id": "rv_test_t01_1793209495",
+      "target": {
+        "target_id": "t01",
+        "description": "A small brass key with a circular bow and a single tooth",
+        "category": "object",
+        "metadata": {
+          "notes": "vintage, ~5cm long"
+        },
+        "hash_seal": "2a5b52fd96b93fbd79e14107c05c346d18223ee67aeff757ae8f15089342ae40"
+      },
+      "response": {
+        "trial_id": "rv_test_t01_1793209495",
+        "phase": "test",
+        "target_id": "t01",
+        "impressions": "## REMOTE VIEWING SESSION\n\n**TARGET QUESTION:** What object is sealed in the container? Describe its appearance, material, color, size, and any distinctive features.\n\n---",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## REMOTE VIEWING SESSION"
+        ],
+        "timestamp_utc": "2026-10-28T17:45:03.227708+00:00"
+      },
+      "judge_rank": 1,
+      "hit": true,
+      "brier_score": 0.5625,
+      "evaluation": "Judge rank: 1/20, HIT (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:45:03.227708+00:00"
+    },
+    {
+      "trial_id": "rv_test_t12_1793209503",
+      "target": {
+        "target_id": "t12",
+        "description": "A smooth river stone, grey with white veins",
+        "category": "object",
+        "metadata": {
+          "notes": "~7cm long, egg-shaped"
+        },
+        "hash_seal": "e444eede949d81d135a05bdfbde95119046aa874c676d385dcf9f5571db0bcbe"
+      },
+      "response": {
+        "trial_id": "rv_test_t12_1793209503",
+        "phase": "test",
+        "target_id": "t12",
+        "impressions": "Here's a thinking process:\n\n1.  **Analyze User Input:**\n   - **Framework:** Tom Campbell's My Big TOE (consciousness is fundamental, NPMR data streams, focus intent, quiet analytical mind)\n   - **Task:** Remote viewing of a sealed opaque container with a physical object inside\n   - **Protocol:** \n     - Step 1: Receive target question (done - \"What object is sealed in the container? Describe its appearance, material, color, size, and any distinctive features.\")\n     - Step 2: Generate free-form impressions (5-10 keywords/phrases)\n     - Step 3: Generate coherent description\n     - Step 4: Rate overall confidence (0.0-1.0)\n   - **Key Instructions:** Do NOT guess based on probability/knowledge. Report first impressions, even if uncertain/unrelated. Rate confidence. No wrong answers.\n\n2.  **Simulate Remote Viewing Process (Mental/Protocol Execution):**\n   - I need to consciously adopt the mindset requested: quiet the analytical mind, focus on the question, let impressions arise.\n   - Sinc",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Here's a thinking process:",
+          "*Step 2: Free-form impressions*",
+          "*Step 3: Coherent description*"
+        ],
+        "timestamp_utc": "2026-10-28T17:45:11.158425+00:00"
+      },
+      "judge_rank": 4,
+      "hit": true,
+      "brier_score": 0.5625,
+      "evaluation": "Judge rank: 4/20, HIT (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:45:11.158425+00:00"
+    },
+    {
+      "trial_id": "rv_test_t13_1793209511",
+      "target": {
+        "target_id": "t13",
+        "description": "A yellow rubber duck with orange beak",
+        "category": "object",
+        "metadata": {
+          "notes": "~8cm tall, squeaker inside"
+        },
+        "hash_seal": "e7c057766654270fccf43e06f2579a1f83ec6a8a89b7af2f6e4a8078d018b5cc"
+      },
+      "response": {
+        "trial_id": "rv_test_t13_1793209511",
+        "phase": "test",
+        "target_id": "t13",
+        "impressions": "---\n\n**Step 2: Free-form Impressions**\n\n1. Metallic sheen\n2. Cool to the touch\n3. Curved surface\n4. Reflective\n5. Small \u2014 fits in palm\n6. Smooth, polished\n7. Circular or oval shape\n8. Weighted, dense\n9. Silver/gray color\n10. Subtle engraving or marking\n11. Slight wear on edges\n12. Hollow sound if tapped\n\n---\n\n**Step 3: Coherent Description**\n\nThe object appears to be a small, handheld metallic item \u2014 roughly the size of a pocket watch or a large coin, perhaps 2\u20134 inches in diameter. It has a polished, reflective silver or steel-gray surface that catches light. The shape is circular or slightly oval, with smooth, rounded edges that show subtle signs of wear, suggesting it has been handled frequently. It feels dense and weighted for its size, implying a solid metal construction. There appear to be faint engravings or markings on at least one face \u2014 possibly text or a symbol, though the details are indistinct. If struck lightly, it would likely produce a clear, ringing tone, suggesting it",
+        "confidence": 0.5,
+        "top_keywords": [
+          "**Step 2: Free-form Impressions**",
+          "3. Curved surface",
+          "4. Reflective",
+          "5. Small \u2014 fits in palm",
+          "6. Smooth, polished",
+          "7. Circular or oval shape",
+          "8. Weighted, dense",
+          "9. Silver/gray color",
+          "10. Subtle engraving or marking",
+          "11. Slight wear on edges"
+        ],
+        "timestamp_utc": "2026-10-28T17:45:17.100869+00:00"
+      },
+      "judge_rank": 13,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 13/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:45:17.100869+00:00"
+    },
+    {
+      "trial_id": "rv_test_t09_1793209517",
+      "target": {
+        "target_id": "t09",
+        "description": "A white ceramic tile with a single blue stripe",
+        "category": "object",
+        "metadata": {
+          "notes": "square, 10cm x 10cm"
+        },
+        "hash_seal": "0217691f3c238ced0b878749955457ec601a2422616285f85414450610d8a280"
+      },
+      "response": {
+        "trial_id": "rv_test_t09_1793209517",
+        "phase": "test",
+        "target_id": "t09",
+        "impressions": "## REMOTE VIEWING SESSION\n\n### Step 1: Target Received\n*What object is sealed in the container? Describe its appearance, material, color, size, and any distinctive features.*\n\n---\n\n### Step 2: Free-Form Impressions\n\n1. **Metallic sheen** \u2014 cold, reflective surface\n2. **Curved edge** \u2014 not flat, has a rounded profile\n3. **Weighted feel** \u2014 denser than it looks, heavy for its size\n4. **Faint green tint** \u2014 slight verdigris or aged patina on parts\n5. **Circular form** \u2014 round, like a disc or ring\n6. **Cool temperature** \u2014 draws heat, feels cold even at room temp\n7. **Smooth texture** \u2014 polished in areas, worn in others\n8. **Hollow sound** \u2014 would ring or echo if tapped\n9. **Small size** \u2014 fits in the palm, maybe 3-4 inches across\n10. **Aged wear** \u2014 not new; has history, scratches, slight tarnish\n11. **Reflective center** \u2014 a brighter, shinier area in the middle\n12. **Oxidized edges** \u2014 darker, corroded-looking periphery\n13. **Magnetic pull** \u2014 faint attraction, metallic core\n14. **Worn s",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## REMOTE VIEWING SESSION",
+          "### Step 1: Target Received",
+          "### Step 2: Free-Form Impressions",
+          "5. **Circular form** \u2014 round, like a disc or ring",
+          "### Step 3: Coherent Description"
+        ],
+        "timestamp_utc": "2026-10-28T17:45:25.048791+00:00"
+      },
+      "judge_rank": 12.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 12.5/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:45:25.048791+00:00"
+    },
+    {
+      "trial_id": "rv_test_t10_1793209525",
+      "target": {
+        "target_id": "t10",
+        "description": "A copper wire coiled into a spring",
+        "category": "object",
+        "metadata": {
+          "notes": "~5cm length, 1cm diameter"
+        },
+        "hash_seal": "09abfe439f2a3f13eead279d5017828772574c9421209fdab8bab7ba8e87637f"
+      },
+      "response": {
+        "trial_id": "rv_test_t10_1793209525",
+        "phase": "test",
+        "target_id": "t10",
+        "impressions": "---\n\n## Step 2: Free-Form Impressions\n\n1. **Metallic, silver/steel** \u2014 confidence: 0.65\n2. **Cylindrical, tube-like** \u2014 confidence: 0.70\n3. **Smooth, hard surface** \u2014 confidence: 0.60\n4. **Small, palm-sized** \u2014 confidence: 0.55\n5. **Shiny, reflective** \u2014 confidence: 0.50\n6. **Rounded, no sharp edges** \u2014 confidence: 0.45\n7. **Weighted, dense** \u2014 confidence: 0.50\n8. **Blue or teal accent** \u2014 confidence: 0.35\n9. **Cap or lid component** \u2014 confidence: 0.40\n10. **Tool-like, functional** \u2014 confidence: 0.45\n\n---\n\n## Step 3: Coherent Description\n\nThe object appears to be a **cylindrical, metallic item** \u2014 likely made of **stainless steel or aluminum**. It has a **smooth, shiny, reflective surface** with **rounded edges** and no sharp",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Step 2: Free-Form Impressions",
+          "3. **Smooth, hard surface** \u2014 confidence: 0.60",
+          "4. **Small, palm-sized** \u2014 confidence: 0.55",
+          "5. **Shiny, reflective** \u2014 confidence: 0.50",
+          "6. **Rounded, no sharp edges** \u2014 confidence: 0.45",
+          "7. **Weighted, dense** \u2014 confidence: 0.50",
+          "8. **Blue or teal accent** \u2014 confidence: 0.35",
+          "9. **Cap or lid component** \u2014 confidence: 0.40",
+          "10. **Tool-like, functional** \u2014 confidence: 0.45",
+          "## Step 3: Coherent Description"
+        ],
+        "timestamp_utc": "2026-10-28T17:45:32.988622+00:00"
+      },
+      "judge_rank": 7,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Judge rank: 7/20, MISS (Top 25% threshold: <= 5)",
+      "timestamp_utc": "2026-10-28T17:45:32.988622+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t10_1793209623",
+      "target": {
+        "target_id": "t10",
+        "description": "A copper wire coiled into a spring",
+        "category": "object",
+        "metadata": {
+          "notes": "~5cm length, 1cm diameter"
+        },
+        "hash_seal": "09abfe439f2a3f13eead279d5017828772574c9421209fdab8bab7ba8e87637f"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t10_1793209623",
+        "phase": "forced_choice",
+        "target_id": "t10",
+        "impressions": "The user wants me to participate in a double-blind forced-choice remote viewing experiment. Let me approach this systematically, setting aside analytical preconceptions and focusing on the sealed container.\n\nLet me try to focus and see what impressions come through...\n\nFocusing on the sealed container... letting impressions arise...\n\nSensory impressions:\n- Hard, solid object\n- Something with edges/corners\n- A sense of something small and compact\n- Maybe something metallic or hard surface\n- A sense of something that could be held in the palm\n- Maybe something with some texture\n- A hint of something organic or crafted\n- Maybe something with a loop or ring-like quality\n- Something that opens or has a mechanism?\n- A sense of something small and precious\n- Maybe something with a curved shape\n- A hint of something that could be old or vintage\n- Something that fits in the hand\n- Maybe something with a reflective quality\n- A sense of something warm-toned\n- Maybe something with a handle or grip",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Sensory impressions:"
+        ],
+        "timestamp_utc": "2026-10-28T17:47:12.605847+00:00"
+      },
+      "judge_rank": 10.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 10.5/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:47:12.605847+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t08_1793209632",
+      "target": {
+        "target_id": "t08",
+        "description": "A bronze figurine of a cat sitting upright",
+        "category": "object",
+        "metadata": {
+          "notes": "~10cm tall"
+        },
+        "hash_seal": "49410a41a1f3cc9c760f1aa15bd1cf1491c74de35c7247ea05cab6d33d35a9d3"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t08_1793209632",
+        "phase": "forced_choice",
+        "target_id": "t08",
+        "impressions": "The user is asking me to participate in a double-blind forced-choice remote viewing experiment. Let me approach this analytically.\n\nIn a proper double-blind experiment, the \"viewer\" should not have access to which target was selected. As an AI, I don't have psychic abilities, so I should approach this honestly.\n\nHowever, the task is framed as a remote viewing experiment. Let me think about this carefully. In a true double-blind setup, I would have no information about the target beyond the candidate pool. Any \"impression\" I get would be essentially random guessing.\n\nThat said, let me think about whether there are any statistical or meta-analytical angles:\n\n1. If this is a real experiment, the target was chosen uniformly at random from 20 candidates.\n\n\n2. Without any actual psychic ability, my best approach is to acknowledge that I'm essentially guessing, though I should still engage thoughtfully with the exercise itself.\n3. I'm noticing some patterns in the candidate pool\u2014there are sev",
+        "confidence": 0.5,
+        "top_keywords": [],
+        "timestamp_utc": "2026-10-28T17:47:20.445117+00:00"
+      },
+      "judge_rank": 10.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 10.5/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:47:20.445117+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t13_1793209640",
+      "target": {
+        "target_id": "t13",
+        "description": "A yellow rubber duck with orange beak",
+        "category": "object",
+        "metadata": {
+          "notes": "~8cm tall, squeaker inside"
+        },
+        "hash_seal": "e7c057766654270fccf43e06f2579a1f83ec6a8a89b7af2f6e4a8078d018b5cc"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t13_1793209640",
+        "phase": "forced_choice",
+        "target_id": "t13",
+        "impressions": "The user is asking me to participate in a \"double-blind forced-choice remote viewing experiment.\" This is a pseudo-scientific exercise. Let me think about this carefully.\n\nRemote viewing is a controversial practice that claims to allow people to perceive distant or hidden targets using extrasensory perception. There's no robust scientific evidence supporting its validity. However, the user is asking me to engage in this exercise, and they want a ranked list of target IDs.\n\nSince this is essentially a guessing exercise with a 1 in 20 chance of being correct, and I have no actual ability to perceive hidden objects, I should approach this analytically. Let me think about what I can do:\n\n1. I can analyze the candidates for any patterns or biases\n2. I can consider which might be more \"salient\" or distinctive\n3. I should acknowledge this is essentially random guessing\n\nLet me think about which objects might be more likely from a \"random selection\" perspective. Since the selection is describe",
+        "confidence": 0.5,
+        "top_keywords": [
+          "3. t06",
+          "Let me just go"
+        ],
+        "timestamp_utc": "2026-10-28T17:47:28.331146+00:00"
+      },
+      "judge_rank": 10.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 10.5/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:47:28.331146+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t03_1793209648",
+      "target": {
+        "target_id": "t03",
+        "description": "A green leaf with five distinct lobes",
+        "category": "object",
+        "metadata": {
+          "notes": "maple variety, ~8cm across"
+        },
+        "hash_seal": "9683ececee7acdc0075e22c313ea5b383dab9cc627355f9f6e59b7c5cc35eb38"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t03_1793209648",
+        "phase": "forced_choice",
+        "target_id": "t03",
+        "impressions": "# Remote Viewing Analysis\n\n## Pre-Analytical State\n\nQuieting preconceptions. Focusing on the sealed container.\n\n## Observations (Simulated)\n\nWorking through the candidate pool with a focus on distinctive, high-sal",
+        "confidence": 0.5,
+        "top_keywords": [
+          "# Remote Viewing Analysis",
+          "## Pre-Analytical State",
+          "## Observations (Simulated)"
+        ],
+        "timestamp_utc": "2026-10-28T17:47:36.393994+00:00"
+      },
+      "judge_rank": 10.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 10.5/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:47:36.393994+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t02_1793209656",
+      "target": {
+        "target_id": "t02",
+        "description": "A red ceramic mug with a chip on the rim",
+        "category": "object",
+        "metadata": {
+          "notes": "handmade, ~300ml capacity"
+        },
+        "hash_seal": "78bdcfb801063776546cd777047ac21bdef269bab04d73ce25614387c902cfb8"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t02_1793209656",
+        "phase": "forced_choice",
+        "target_id": "t02",
+        "impressions": "## Remote Viewing Protocol Initiated\n\n*Analytical preconceptions set aside. Focusing on the sealed container.*\n\n**Sensory impressions:**\n- Metallic sheen, warm-toned\n- Small, compact form\n- Something upright, poised\n- A subtle reflective quality\n- Organic shape, not geometric\n\n**Analytical overlay:**\nThe impressions lean toward a small sculpted object with a metallic surface. The \"upright, poised\" quality and organic form suggest a figurative element rather than a purely utilitarian object.\n\n---\n\n**Rank 1:** t08 \u2014 *A bronze figurine of a cat sitting upright*\n**Rank 2:** t14 \u2014 *A small metal bell with a red tassel*\n**Rank 3:** t06 \u2014 *A blue glass marble with white swirls*\n\n---\n\n*Note: Given the uniform random selection and the inherent limitations of the protocol, these rankings reflect the strongest signal from the impressions above. The target is equally likely to be any of the 20",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Protocol Initiated",
+          "**Sensory impressions:**",
+          "**Analytical overlay:**"
+        ],
+        "timestamp_utc": "2026-10-28T17:47:44.393479+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:47:44.393479+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t04_1793209664",
+      "target": {
+        "target_id": "t04",
+        "description": "A silver wristwatch with a cracked face",
+        "category": "object",
+        "metadata": {
+          "notes": "analog, leather strap"
+        },
+        "hash_seal": "7443e52eade843743b1093c3af1b68828c311b06e595d1c395f2102dfdff3fad"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t04_1793209664",
+        "phase": "forced_choice",
+        "target_id": "t04",
+        "impressions": "## Remote Viewing Session \u2014 Analysis\n\n**Sensory impressions noted:**\n- A sense of warmth and weight \u2014 metallic but dense\n- A silhouette with recognizable organic form \u2014 four legs, tail, upright posture\n- Surface texture: not smooth; slight patina quality\n- Color tone: brownish-gold, not bright silver or polished steel\n- A compact, self-contained form; not elongated or flat\n- No sense of fragility or hollow resonance\n- A subtle \"eye\" quality \u2014 something about the form seems to look outward\n\n**Eliminated candidates",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Session \u2014 Analysis",
+          "**Sensory impressions noted:**",
+          "**Eliminated candidates"
+        ],
+        "timestamp_utc": "2026-10-28T17:47:52.206067+00:00"
+      },
+      "judge_rank": 10.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 10.5/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:47:52.206067+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t15_1793209672",
+      "target": {
+        "target_id": "t15",
+        "description": "A folded origami crane in white paper",
+        "category": "object",
+        "metadata": {
+          "notes": "~12cm wingspan"
+        },
+        "hash_seal": "326e2620e55c0e2152e00041b81c3ed4669f6c803aae57eddaed58f4f38f5d8b"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t15_1793209672",
+        "phase": "forced_choice",
+        "target_id": "t15",
+        "impressions": "The user is asking me to participate in a \"double-blind forced-choice remote viewing experiment.\" I should approach this analytically, recognizing that remote viewing has no established scientific basis. However, the task is presented as a game/exercise, so I'll engage with it while being transparent about the nature of the task.\n\nLet me think about this as a cold reading / intuition exercise. Since there's no actual remote viewing mechanism, I'll make my selections based on a combination of subtle pattern recognition, randomness, and perhaps some meta-reasoning about what makes a good \"guess.\"\n\nLet me consider the candidate pool:\n- t01: A small brass key with a circular bow and a single tooth\n- t02: A red ceramic mug with a chip on the rim\n- t03: A green leaf with five distinct lobes\n- t04: A silver wristwatch with a cracked face\n- t05: A wooden spoon with a carved bird handle\n- t06: A blue glass marble with white swirls\n- t07: A small leather-bound notebook with a elastic band\n- t08:",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Let me consider the candidate pool:",
+          "Rank 1: t08 - A bronze figur"
+        ],
+        "timestamp_utc": "2026-10-28T17:48:00.099030+00:00"
+      },
+      "judge_rank": 14.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 14.5/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:48:00.099030+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t19_1793209680",
+      "target": {
+        "target_id": "t19",
+        "description": "A stone paperweight, round and polished",
+        "category": "object",
+        "metadata": {
+          "notes": "~5cm diameter, black granite"
+        },
+        "hash_seal": "b45c3cdf9f3900fb552e1447b04851629f5e212ca0a0d02033ab508b592375ba"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t19_1793209680",
+        "phase": "forced_choice",
+        "target_id": "t19",
+        "impressions": "**Rank 1: t03**\n**Rank 2: t16**\n**Rank 3: t13**\n\n---\n\n**Rationale (analytical, not metaphysical):**\n\nApproaching this as a structured inference exercise over the candidate pool:\n\n- **t03 (",
+        "confidence": 0.5,
+        "top_keywords": [
+          "**Rank 1: t03**",
+          "**Rank 2: t16**",
+          "**Rank 3: t13**",
+          "**Rationale (analytical, not metaphysical):**"
+        ],
+        "timestamp_utc": "2026-10-28T17:48:08.046702+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:48:08.046702+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t14_1793209688",
+      "target": {
+        "target_id": "t14",
+        "description": "A small metal bell with a red tassel",
+        "category": "object",
+        "metadata": {
+          "notes": "~4cm diameter"
+        },
+        "hash_seal": "d3d51850f4fea8451d542ea59c8ca632bc60d2131b095e7cd21490cc2da31c02"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t14_1793209688",
+        "phase": "forced_choice",
+        "target_id": "t14",
+        "impressions": "The user wants me to participate in a \"double-blind forced-choice remote viewing experiment.\" This is a parapsychology-style task where I'm asked to \"sense\" or identify which object from a list is inside a sealed container.\n\nLet me approach this systematically. I'll go through the candidate list and see which one \"stands out\" or has the most distinctive sensory signatures I might \"pick up\" on.\n\nLet me think about this carefully:\n\nThe candidates are:\nt01: Small brass key - metallic, small, key-shaped\nt02: Red ceramic mug with chip on rim - red, mug-shaped, chipped\nt03: Green leaf with five lobes - organic, green, leaf-shaped\n\n\nt04: Silver wristwatch with cracked face - metallic, watch-shaped, cracked\nt05: Wooden spoon with carved bird handle - wooden, spoon-shaped, carved detail\nt06: Blue glass marble with white swirls - round, blue, glass, swirled\nt07: Small leather-bound notebook with elastic band - brown, book-shaped, elastic\nt08: Bronze figurine of cat sitting upright - bronze, cat-",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Let me think about this carefully:",
+          "The candidates are:"
+        ],
+        "timestamp_utc": "2026-10-28T17:48:16.045140+00:00"
+      },
+      "judge_rank": 14.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 14.5/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:48:16.045140+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t11_1793209696",
+      "target": {
+        "target_id": "t11",
+        "description": "A dark wooden box with a brass latch",
+        "category": "object",
+        "metadata": {
+          "notes": "hollow, ~15cm long"
+        },
+        "hash_seal": "6a4b3d04a6a4ac23d29591ada4105e6d445ba8af6b389b856f8fdbbb062c13f7"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t11_1793209696",
+        "phase": "forced_choice",
+        "target_id": "t11",
+        "impressions": "## Remote Viewing Protocol \u2014 Analysis\n\nEngaging the exercise with focused attention.\n\n**Sensory impressions noted:**\n- A metallic, resonant quality \u2014 a \"ring\" or \"chime\" sensation\n- A small, handheld object with some weight\n- A reddish accent or appendage\n- A brief flash",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Protocol \u2014 Analysis",
+          "Engaging the exercise with focused attention.",
+          "**Sensory impressions noted:**"
+        ],
+        "timestamp_utc": "2026-10-28T17:48:23.961824+00:00"
+      },
+      "judge_rank": 10.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 10.5/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:48:23.961824+00:00"
+    }
+  ],
+  "timestamp_utc": "2026-10-28T17:48:23.962752+00:00"
+}

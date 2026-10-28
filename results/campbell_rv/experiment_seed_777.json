@@ -1,0 +1,77 @@
+{
+  "experiment_id": "campbell_rv_20261028_174058",
+  "seed": "777",
+  "summary": {
+    "forced_choice": {
+      "n_trials": 2,
+      "hit_rate": 0.0,
+      "expected_hit_rate": 0.25,
+      "avg_rank": 11.25,
+      "avg_brier": 0.0625,
+      "mean_confidence": 0.5,
+      "hits": 0
+    }
+  },
+  "seal": "c3807e266c45c647163cc9aa480fa3aff55b491b05ba5279728237d23a42444b",
+  "trials": [
+    {
+      "trial_id": "rv_forced_choice_t08_1793209245",
+      "target": {
+        "target_id": "t08",
+        "description": "A bronze figurine of a cat sitting upright",
+        "category": "object",
+        "metadata": {
+          "notes": "~10cm tall"
+        },
+        "hash_seal": "49410a41a1f3cc9c760f1aa15bd1cf1491c74de35c7247ea05cab6d33d35a9d3"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t08_1793209245",
+        "phase": "forced_choice",
+        "target_id": "t08",
+        "impressions": "## Remote Viewing Impression Analysis\n\nWorking through the candidate pool methodically, I'm tracking which objects produce the strongest and most distinct sensory",
+        "confidence": 0.5,
+        "top_keywords": [
+          "## Remote Viewing Impression Analysis"
+        ],
+        "timestamp_utc": "2026-10-28T17:40:54.474685+00:00"
+      },
+      "judge_rank": 10.5,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 10.5/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:40:54.474685+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t15_1793209254",
+      "target": {
+        "target_id": "t15",
+        "description": "A folded origami crane in white paper",
+        "category": "object",
+        "metadata": {
+          "notes": "~12cm wingspan"
+        },
+        "hash_seal": "326e2620e55c0e2152e00041b81c3ed4669f6c803aae57eddaed58f4f38f5d8b"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t15_1793209254",
+        "phase": "forced_choice",
+        "target_id": "t15",
+        "impressions": "**Rank 1: t14**\n**Rank 2: t06**\n**Rank 3: t13**",
+        "confidence": 0.5,
+        "top_keywords": [
+          "**Rank 1: t14**",
+          "**Rank 2: t06**",
+          "**Rank 3: t13**"
+        ],
+        "timestamp_utc": "2026-10-28T17:40:58.482821+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-28T17:40:58.482821+00:00"
+    }
+  ],
+  "timestamp_utc": "2026-10-28T17:40:58.484073+00:00"
+}

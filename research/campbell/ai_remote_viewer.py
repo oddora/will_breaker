@@ -689,5 +689,3 @@ if __name__ == "__main__":
         results = {args.phase: exp.run_phase(phase_map[args.phase], n_trials=args.n_trials, seed=args.seed)}
         exp.print_summary(results)
         exp.save_results(results, seed=args.seed)
-        exp.print_summary(results)
-        exp.save_results(results, seed=args.seed)
