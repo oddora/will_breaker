@@ -138,3 +138,67 @@ tests as a fresh subject before any claim.
   owned history), then re-enter Protocol 016 under fresh seal as a
   new test subject. Tuning changed behavior/diversity only; it
   cannot and did not change Session 044's NULL logic.
+
+## Crash addendum (Session 046, diagnosed 2026-10-27) — READ BEFORE ANY 8B RUN
+
+The 8B agent-v1 run (bf16 LoRA, `sft_v1.jsonl`, started ~16:19
+2026-10-26) **hard-froze the whole machine at 16:39:59**, ~20 min
+in. Owner found it powered but frozen next morning; power button
+required. Evidence: journal ends mid-line with no shutdown, panic,
+OOM, or GPU-reset record; kdump was armed and produced nothing;
+`sysstat` at 16:30 shows RAM only 20% used (50 GB available) —
+**not memory exhaustion**. Kernel warnings at 14:05 that day show
+amdkfd SVM restore work hogging CPU during the 4B merge (early
+symptom). Diagnosis: gfx1151 ROCm (TheRock 7.13 / kernel 7.0)
+SoC hard hang under sustained training, with Vulkan llama-servers
+(KAT :18283 + wb-agent :18284) concurrently on the same iGPU —
+this doc's own plan said "KAT sidecar must stop during training";
+execution ignored it and the 125 s 4B smoke got away with it. The
+sustained 8B run did not. All progress was lost:
+`save_strategy="no"` meant no checkpoints existed.
+
+Guards now in `host-configs/host/loratrain/`:
+1. Train only via `run_train.sh` — refuses while any llama-server
+   is up (`--stop-servers` to stop them), tees a timestamped log +
+   30 s temperature trail to `~/llm/training/logs/`.
+2. `train_lora.py` checkpoints every 20 steps (keep 3).
+3. `HSA_ENABLE_SDMA=0` default (SDMA is the known Strix Halo ROCm
+   hang path; override by pre-setting the env var).
+4. First retest must be short and attended (owner decision
+   2026-10-27: guards only, no retest that day). `wb-agent`
+   :18284 died with the freeze; restart it only when not training.
+
+Retest (2026-10-28, owner go): short guarded run via
+`run_train.sh --stop-servers` (KAT stopped, SDMA off) — Qwen3-8B,
+0.05 epoch = 22 steps in 106 s, loss 4.32 → 1.25, checkpoint-20/22
+saved, merged 16.4 GB written, KAT restarted clean. **Pipeline
+verified; sustained-load stability NOT yet**: APU sensors hit
+91 °C within 2 minutes (still climbing at stop), and the amdkfd
+SVM CPU-hog warnings recurred at merge (same signature as the
+crash day). Full 2-epoch run projects ~68 min at 4.8 s/step.
+Gate before any full run: a ≥25 min attended soak (past the
+16:39 crash point) with the temp trail watched; if 95 °C+ sustains
+or SVM warnings escalate, stop and treat thermal/SVM as binding.
+
+Soak outcome (2026-10-28, owner go): **ABORTED at the thermal
+gate.** 0.75-epoch run: 70 → 86 → 92 → 94 → 96 → 97 °C by minute
+3, held 96–98 °C (hotspot 97.9 °C); terminated at step ~55 per
+the predeclared rule (loss 0.48, falling cleanly). Checkpoints
+20 + 40 preserved; temps collapsed 83 → 55 °C in 20 s post-kill;
+no SVM-hog lines during training. Binding constraint is the
+thermal envelope at stock power — most plausible final link in
+the Oct 26 freeze. Full-run paths (owner pick): cap APU power
+(BIOS cTDP / ryzenadj, needs install + sudo), better cooling, or
+checkpoint-cycled bursts with cool-down gaps.
+
+MoE verdict + duty-cycle proof (2026-10-28, owner remote): panel
+picked **B in-process thermal duty-cycling** (weighted 7.25 vs
+defer-to-4B 6.00, reduced-scope 5.85, restart-bursts 4.85).
+Implemented `ThermalPause` in `train_lora.py` (pause >90 °C until
+≤70 °C, hard abort ≥97 °C). Proof run 0.12 epoch: 51 steps,
+433 s wall incl. 190 s paused over 13 pauses, peak 93 °C
+(vs 97–98 °C unthrottled), checkpoints 20/40/51 + merge clean.
+Full 850-step projection ≈2.3 h at the measured duty ratio.
+Fresh start required for the real run (soak checkpoints carry a
+319-step cosine schedule; reusing them would corrupt the
+850-step schedule). Awaiting owner go for the full run.

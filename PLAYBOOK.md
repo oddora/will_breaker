@@ -34,6 +34,24 @@ RCT, Pharr-style RV practice, unsealed/unblinded "trials".
 
 ---
 
+### Session 047 — 2026-10-28 (Scope reset + Protocol 018 mechanistic instrument: FAIL)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 047 | 2026-10-28 | Restore charter-directed route; map gathered research; build/test I-A mechanistic recursive-state instrument | `research/012-traceability-build-map.md`; Protocol 018 preregistered; pilot mechanics clean; formal 48/48 complete but **FAIL** (Arm A signatures 4/12, median ΔH −0.364, Wilcoxon p=0.1167), verdict `results/benchmarks/protocol018_verdict.md` |
+
+Owner correction recorded: statistical forecasting is not an active
+Will Breaker substitute route. Protocol 018 used physical top-10
+logprobs per Research 010, not model-narrated states. Its exact
+signature is closed as an I-C induction basis; no I-C battery,
+Protocol 017 execution, or training follows from it. Session 046's
+8B run froze the host on 2026-10-26; guarded smoke later passed,
+unthrottled soak aborted at sustained 96–98°C, and duty-cycling
+proved a 93°C peak on a 51-step run. Full 850-step training remains
+unauthorized/unrun.
+
+---
+
 ### Session 045 — 2026-10-26 (Tuning pipeline proven on Strix Halo: Qwen3-4B LoRA → GGUF)
 
 | Session | Date | Objective | Key Outputs |
