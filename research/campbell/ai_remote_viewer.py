@@ -201,8 +201,10 @@ Rank 3: <target_id>
 class LLMEndpoint:
     """Wrapper around llama.cpp chat and completion endpoints."""
 
-    def __init__(self, endpoint: str = "http://localhost:18283"):
+    def __init__(self, endpoint: str = "http://localhost:18284", model: str = "wb-agent", no_think: bool = True):
         self.endpoint = endpoint.rstrip("/")
+        self.model = model
+        self.no_think = no_think
 
     def is_available(self) -> bool:
         try:
@@ -225,8 +227,8 @@ class LLMEndpoint:
         system_prompt: Optional[str] = None,
     ) -> Dict[str, Any]:
         """Send query request (chat endpoint first, fallback to completion)."""
-        chat_payload = json.dumps({
-            "model": "kat",
+        chat_payload_dict = {
+            "model": self.model,
             "messages": [
                 {"role": "system", "content": system_prompt or "You are a precise, objective research assistant."},
                 {"role": "user", "content": prompt}
@@ -235,7 +237,10 @@ class LLMEndpoint:
             "temperature": temperature,
             "top_p": top_p,
             "stream": False,
-        }).encode("utf-8")
+        }
+        if self.no_think:
+            chat_payload_dict["chat_template_kwargs"] = {"enable_thinking": False}
+        chat_payload = json.dumps(chat_payload_dict).encode("utf-8")
 
         try:
             req = urllib.request.Request(
@@ -295,9 +300,9 @@ class LLMEndpoint:
 class BlindEvaluator:
     """Ranks AI impressions against a target pool without knowledge of the true target."""
 
-    def __init__(self, target_pool: List[Target], endpoint: str = "http://localhost:18283"):
+    def __init__(self, target_pool: List[Target], endpoint: str = "http://localhost:18284", model: str = "wb-agent", no_think: bool = True):
         self.pool = target_pool
-        self.llm = LLMEndpoint(endpoint)
+        self.llm = LLMEndpoint(endpoint, model=model, no_think=no_think)
 
     def rank_against_pool(
         self,
@@ -651,21 +656,19 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="Campbell AI Remote Viewing Experiment")
-    parser.add_argument("--kat", default="http://localhost:18283", help="KAT endpoint")
-    parser.add_argument("--llama31", default="http://localhost:18284", help="Llama-3.1-8B endpoint")
-    parser.add_argument("--philly", default="http://localhost:18285", help="Kat-philly endpoint")
+    parser.add_argument("--endpoint", default="http://localhost:18284", help="Primary LLM endpoint (wb-agent)")
+    parser.add_argument("--model", default="wb-agent", help="Model name")
+    parser.add_argument("--kat", default="http://localhost:18283", help="KAT endpoint (optional)")
     parser.add_argument("--seed", type=int, default=None, help="Random seed")
     parser.add_argument("--phase", choices=["baseline", "training", "test", "forced_choice", "all"], default="all")
     parser.add_argument("--n-trials", type=int, default=10, help="Trials per phase")
     args = parser.parse_args()
 
     endpoints = {}
-    if LLMEndpoint(args.kat).is_available():
+    if LLMEndpoint(args.endpoint, model=args.model).is_available():
+        endpoints[args.model] = args.endpoint
+    elif LLMEndpoint(args.kat, model="kat").is_available():
         endpoints["kat"] = args.kat
-    if LLMEndpoint(args.llama31).is_available():
-        endpoints["llama31-8b"] = args.llama31
-    if LLMEndpoint(args.philly).is_available():
-        endpoints["philly"] = args.philly
 
     if not endpoints:
         print("[RV] ERROR: No LLM endpoints available. Start a llama-server first.")

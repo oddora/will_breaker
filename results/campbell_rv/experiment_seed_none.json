@@ -1,0 +1,619 @@
+{
+  "experiment_id": "campbell_rv_20261029_190403",
+  "seed": "none",
+  "summary": {
+    "forced_choice": {
+      "n_trials": 20,
+      "hit_rate": 0.1,
+      "expected_hit_rate": 0.25,
+      "avg_rank": 10.9,
+      "avg_brier": 0.1125,
+      "mean_confidence": 0.5,
+      "hits": 2
+    }
+  },
+  "seal": "4f4f24f730abd328a796458d7712908cef2858d067784133c7f8803c70d3ad8b",
+  "trials": [
+    {
+      "trial_id": "rv_forced_choice_t03_1793300624",
+      "target": {
+        "target_id": "t03",
+        "description": "A green leaf with five distinct lobes",
+        "category": "object",
+        "metadata": {
+          "notes": "maple variety, ~8cm across"
+        },
+        "hash_seal": "9683ececee7acdc0075e22c313ea5b383dab9cc627355f9f6e59b7c5cc35eb38"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t03_1793300624",
+        "phase": "forced_choice",
+        "target_id": "t03",
+        "impressions": "Rank 1: t10\nRank 2: t11\nRank 3: t04",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t10",
+          "Rank 2: t11",
+          "Rank 3: t04"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:45.447457+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:45.447457+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t14_1793300625",
+      "target": {
+        "target_id": "t14",
+        "description": "A small metal bell with a red tassel",
+        "category": "object",
+        "metadata": {
+          "notes": "~4cm diameter"
+        },
+        "hash_seal": "d3d51850f4fea8451d542ea59c8ca632bc60d2131b095e7cd21490cc2da31c02"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t14_1793300625",
+        "phase": "forced_choice",
+        "target_id": "t14",
+        "impressions": "Rank 1: t17\nRank 2: t06\nRank 3: t08",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t17",
+          "Rank 2: t06",
+          "Rank 3: t08"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:46.372137+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:46.372137+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t01_1793300626",
+      "target": {
+        "target_id": "t01",
+        "description": "A small brass key with a circular bow and a single tooth",
+        "category": "object",
+        "metadata": {
+          "notes": "vintage, ~5cm long"
+        },
+        "hash_seal": "2a5b52fd96b93fbd79e14107c05c346d18223ee67aeff757ae8f15089342ae40"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t01_1793300626",
+        "phase": "forced_choice",
+        "target_id": "t01",
+        "impressions": "Rank 1: t04\nRank 2: t11\nRank 3: t19",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t04",
+          "Rank 2: t11",
+          "Rank 3: t19"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:47.294105+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:47.294105+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t13_1793300627",
+      "target": {
+        "target_id": "t13",
+        "description": "A yellow rubber duck with orange beak",
+        "category": "object",
+        "metadata": {
+          "notes": "~8cm tall, squeaker inside"
+        },
+        "hash_seal": "e7c057766654270fccf43e06f2579a1f83ec6a8a89b7af2f6e4a8078d018b5cc"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t13_1793300627",
+        "phase": "forced_choice",
+        "target_id": "t13",
+        "impressions": "Rank 1: t10\nRank 2: t19\nRank 3: t08",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t10",
+          "Rank 2: t19",
+          "Rank 3: t08"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:48.221168+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:48.221168+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t02_1793300628",
+      "target": {
+        "target_id": "t02",
+        "description": "A red ceramic mug with a chip on the rim",
+        "category": "object",
+        "metadata": {
+          "notes": "handmade, ~300ml capacity"
+        },
+        "hash_seal": "78bdcfb801063776546cd777047ac21bdef269bab04d73ce25614387c902cfb8"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t02_1793300628",
+        "phase": "forced_choice",
+        "target_id": "t02",
+        "impressions": "Rank 1: t10\nRank 2: t14\nRank 3: t11",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t10",
+          "Rank 2: t14",
+          "Rank 3: t11"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:49.154168+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:49.154168+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t04_1793300629",
+      "target": {
+        "target_id": "t04",
+        "description": "A silver wristwatch with a cracked face",
+        "category": "object",
+        "metadata": {
+          "notes": "analog, leather strap"
+        },
+        "hash_seal": "7443e52eade843743b1093c3af1b68828c311b06e595d1c395f2102dfdff3fad"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t04_1793300629",
+        "phase": "forced_choice",
+        "target_id": "t04",
+        "impressions": "Rank 1: t14\nRank 2: t09\nRank 3: t10",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t14",
+          "Rank 2: t09",
+          "Rank 3: t10"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:50.089265+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:50.089265+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t05_1793300630",
+      "target": {
+        "target_id": "t05",
+        "description": "A wooden spoon with a carved bird handle",
+        "category": "object",
+        "metadata": {
+          "notes": "handcrafted, ~30cm total"
+        },
+        "hash_seal": "7a22e0d9985acabca2e4d4f5dfab321ca08cce3741bed701bc204e2d5462ff0f"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t05_1793300630",
+        "phase": "forced_choice",
+        "target_id": "t05",
+        "impressions": "Rank 1: t10\nRank 2: t16\nRank 3: t04",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t10",
+          "Rank 2: t16",
+          "Rank 3: t04"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:51.021930+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:51.021930+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t20_1793300631",
+      "target": {
+        "target_id": "t20",
+        "description": "A small tin whistle with three finger holes",
+        "category": "object",
+        "metadata": {
+          "notes": "silver, ~15cm long"
+        },
+        "hash_seal": "9662de263f91b12654dffe85233cc40c046d08bb0c0a16b8b659f02c3561ae36"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t20_1793300631",
+        "phase": "forced_choice",
+        "target_id": "t20",
+        "impressions": "Rank 1: t12\nRank 2: t04\nRank 3: t19",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t12",
+          "Rank 2: t04",
+          "Rank 3: t19"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:51.958634+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:51.958634+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t17_1793300631",
+      "target": {
+        "target_id": "t17",
+        "description": "A small glass vial with cork stopper",
+        "category": "object",
+        "metadata": {
+          "notes": "empty, ~5cm tall"
+        },
+        "hash_seal": "38ad93ee292a73b9d527cf6d24448f2ee59b807380ddd46a603a4a30bfb3d7a4"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t17_1793300631",
+        "phase": "forced_choice",
+        "target_id": "t17",
+        "impressions": "Rank 1: t12\nRank 2: t07\nRank 3: t11",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t12",
+          "Rank 2: t07",
+          "Rank 3: t11"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:52.889867+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:52.889867+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t10_1793300632",
+      "target": {
+        "target_id": "t10",
+        "description": "A copper wire coiled into a spring",
+        "category": "object",
+        "metadata": {
+          "notes": "~5cm length, 1cm diameter"
+        },
+        "hash_seal": "09abfe439f2a3f13eead279d5017828772574c9421209fdab8bab7ba8e87637f"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t10_1793300632",
+        "phase": "forced_choice",
+        "target_id": "t10",
+        "impressions": "Rank 1: t08\nRank 2: t11\nRank 3: t17",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t08",
+          "Rank 2: t11",
+          "Rank 3: t17"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:53.830789+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:53.830789+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t18_1793300633",
+      "target": {
+        "target_id": "t18",
+        "description": "A knitted wool sock, red and green pattern",
+        "category": "object",
+        "metadata": {
+          "notes": "adult size, folded"
+        },
+        "hash_seal": "da23d145a754841530be697d9885bbec241c0ac5089488e4e5ec0cd7bdb2e4cd"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t18_1793300633",
+        "phase": "forced_choice",
+        "target_id": "t18",
+        "impressions": "Rank 1: t16\nRank 2: t14\nRank 3: t09",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t16",
+          "Rank 2: t14",
+          "Rank 3: t09"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:54.766256+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:54.766256+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t09_1793300634",
+      "target": {
+        "target_id": "t09",
+        "description": "A white ceramic tile with a single blue stripe",
+        "category": "object",
+        "metadata": {
+          "notes": "square, 10cm x 10cm"
+        },
+        "hash_seal": "0217691f3c238ced0b878749955457ec601a2422616285f85414450610d8a280"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t09_1793300634",
+        "phase": "forced_choice",
+        "target_id": "t09",
+        "impressions": "Rank 1: t11\nRank 2: t06\nRank 3: t16",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t11",
+          "Rank 2: t06",
+          "Rank 3: t16"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:55.698719+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:55.698719+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t19_1793300635",
+      "target": {
+        "target_id": "t19",
+        "description": "A stone paperweight, round and polished",
+        "category": "object",
+        "metadata": {
+          "notes": "~5cm diameter, black granite"
+        },
+        "hash_seal": "b45c3cdf9f3900fb552e1447b04851629f5e212ca0a0d02033ab508b592375ba"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t19_1793300635",
+        "phase": "forced_choice",
+        "target_id": "t19",
+        "impressions": "Rank 1: t10\nRank 2: t17\nRank 3: t14",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t10",
+          "Rank 2: t17",
+          "Rank 3: t14"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:56.627979+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:56.627979+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t11_1793300636",
+      "target": {
+        "target_id": "t11",
+        "description": "A dark wooden box with a brass latch",
+        "category": "object",
+        "metadata": {
+          "notes": "hollow, ~15cm long"
+        },
+        "hash_seal": "6a4b3d04a6a4ac23d29591ada4105e6d445ba8af6b389b856f8fdbbb062c13f7"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t11_1793300636",
+        "phase": "forced_choice",
+        "target_id": "t11",
+        "impressions": "Rank 1: t14\nRank 2: t09\nRank 3: t17",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t14",
+          "Rank 2: t09",
+          "Rank 3: t17"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:57.560498+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:57.560498+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t08_1793300637",
+      "target": {
+        "target_id": "t08",
+        "description": "A bronze figurine of a cat sitting upright",
+        "category": "object",
+        "metadata": {
+          "notes": "~10cm tall"
+        },
+        "hash_seal": "49410a41a1f3cc9c760f1aa15bd1cf1491c74de35c7247ea05cab6d33d35a9d3"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t08_1793300637",
+        "phase": "forced_choice",
+        "target_id": "t08",
+        "impressions": "Rank 1: t07\nRank 2: t17\nRank 3: t13",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t07",
+          "Rank 2: t17",
+          "Rank 3: t13"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:58.491113+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:03:58.491113+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t15_1793300638",
+      "target": {
+        "target_id": "t15",
+        "description": "A folded origami crane in white paper",
+        "category": "object",
+        "metadata": {
+          "notes": "~12cm wingspan"
+        },
+        "hash_seal": "326e2620e55c0e2152e00041b81c3ed4669f6c803aae57eddaed58f4f38f5d8b"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t15_1793300638",
+        "phase": "forced_choice",
+        "target_id": "t15",
+        "impressions": "Rank 1: t15\nRank 2: t08\nRank 3: t11",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t15",
+          "Rank 2: t08",
+          "Rank 3: t11"
+        ],
+        "timestamp_utc": "2026-10-29T19:03:59.426799+00:00"
+      },
+      "judge_rank": 1,
+      "hit": true,
+      "brier_score": 0.5625,
+      "evaluation": "Forced-choice rank: 1/20, HIT (Direct match: True)",
+      "timestamp_utc": "2026-10-29T19:03:59.426799+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t06_1793300639",
+      "target": {
+        "target_id": "t06",
+        "description": "A blue glass marble with white swirls",
+        "category": "object",
+        "metadata": {
+          "notes": "~2cm diameter"
+        },
+        "hash_seal": "5074eaf4bb67bef0276d1a19ca56f51a06498e314abed2dcbc06f925982ed612"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t06_1793300639",
+        "phase": "forced_choice",
+        "target_id": "t06",
+        "impressions": "Rank 1: t10\nRank 2: t13\nRank 3: t16",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t10",
+          "Rank 2: t13",
+          "Rank 3: t16"
+        ],
+        "timestamp_utc": "2026-10-29T19:04:00.360908+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:04:00.360908+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t16_1793300640",
+      "target": {
+        "target_id": "t16",
+        "description": "A purple seashell with spiral pattern",
+        "category": "object",
+        "metadata": {
+          "notes": "~6cm long"
+        },
+        "hash_seal": "c0cb4ac4a84fce8dad579193f05b1d28fdea29922ceb1a2203ddf20ea60210fa"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t16_1793300640",
+        "phase": "forced_choice",
+        "target_id": "t16",
+        "impressions": "Rank 1: t12\nRank 2: t15\nRank 3: t06",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t12",
+          "Rank 2: t15",
+          "Rank 3: t06"
+        ],
+        "timestamp_utc": "2026-10-29T19:04:01.310142+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:04:01.310142+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t07_1793300641",
+      "target": {
+        "target_id": "t07",
+        "description": "A small leather-bound notebook with a elastic band",
+        "category": "object",
+        "metadata": {
+          "notes": "A5 size, blank pages"
+        },
+        "hash_seal": "dabc19bf6a3d16425d511e2d3bfa7a29c7338f9d4059a2a34e3c8a5dfba61509"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t07_1793300641",
+        "phase": "forced_choice",
+        "target_id": "t07",
+        "impressions": "Rank 1: t07\nRank 2: t11\nRank 3: t10",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t07",
+          "Rank 2: t11",
+          "Rank 3: t10"
+        ],
+        "timestamp_utc": "2026-10-29T19:04:02.258417+00:00"
+      },
+      "judge_rank": 1,
+      "hit": true,
+      "brier_score": 0.5625,
+      "evaluation": "Forced-choice rank: 1/20, HIT (Direct match: True)",
+      "timestamp_utc": "2026-10-29T19:04:02.258417+00:00"
+    },
+    {
+      "trial_id": "rv_forced_choice_t12_1793300642",
+      "target": {
+        "target_id": "t12",
+        "description": "A smooth river stone, grey with white veins",
+        "category": "object",
+        "metadata": {
+          "notes": "~7cm long, egg-shaped"
+        },
+        "hash_seal": "e444eede949d81d135a05bdfbde95119046aa874c676d385dcf9f5571db0bcbe"
+      },
+      "response": {
+        "trial_id": "rv_forced_choice_t12_1793300642",
+        "phase": "forced_choice",
+        "target_id": "t12",
+        "impressions": "Rank 1: t10\nRank 2: t04\nRank 3: t05",
+        "confidence": 0.5,
+        "top_keywords": [
+          "Rank 1: t10",
+          "Rank 2: t04",
+          "Rank 3: t05"
+        ],
+        "timestamp_utc": "2026-10-29T19:04:03.203244+00:00"
+      },
+      "judge_rank": 12.0,
+      "hit": false,
+      "brier_score": 0.0625,
+      "evaluation": "Forced-choice rank: 12.0/20, MISS (Direct match: False)",
+      "timestamp_utc": "2026-10-29T19:04:03.203244+00:00"
+    }
+  ],
+  "timestamp_utc": "2026-10-29T19:04:03.204479+00:00"
+}
