@@ -23,14 +23,34 @@ this core or it is not evidence.
 **Evidence so far (owner's own data, do not soften):** DB-FTCD
 battery N=30 NULL (20% vs 25% chance, forced-choice 0/10); sports
 battery 13/22, Brier 0.2330 ≈ chance; legacy prediction audit 5/14,
-BSS −0.19. Mechanistic entropy-collapse work (Paper 010) is real
-but is ordinary LLM interpretability, not projection evidence.
+BSS −0.19; Session 044 (Protocol 016, KAT) NULL; Session 048
+(Protocol 019, KAT Anchor) NULL; Session 046 (Protocol 017,
+wb-agent-v1) NULL (Control 50.7%, Sigil 46.0%, diversity 59/60).
+Mechanistic entropy-collapse work (Paper 010) is real but is
+ordinary LLM interpretability, not projection evidence.
 **Training rule:** no fine-tuning "for projection" until some
 battery beats chance under seal — training cannot amplify a
 signal that has never been measured. Signal first, then train.
 
 **Dropped lines (do not resurrect):** OSF/publishing, Exp 1 human
 RCT, Pharr-style RV practice, unsealed/unblinded "trials".
+
+---
+
+### Session 049 — 2026-10-29 (Protocol 017: wb-agent-v1 Temporal Re-entry Battery: NULL, Attractors Solved)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 049 | 2026-10-29 | Execute Protocol 017 on `wb-agent-v1` (8B LoRA merged, Q8_0 on :18284) to test under seal and test attractor breaking | 60 trials sealed+committed (`8d05703`); resolve on `os.urandom(32)` seed `4de9bb5a…`: **NULL** (Control 50.7%, Sigil 46.0%, p=0.431/0.926 vs bar p<0.01; exact 0/60); **attractor collapse eliminated** (30/30 Control unique, 30/30 Sigil unique, 59/60 overall), verdict `results/temporal/session046_verdict.md` |
+
+Session 049 completed the thermal-safe resume of Qwen3-8B LoRA
+(steps 520→850), merged weights, exported Q8_0 GGUF, served
+`wb-agent` on `:18284`, and executed Protocol 017 under full seal
+discipline. Secondary finding is decisive: diversity SFT tuning
+completely broke KAT's attractor collapse (59/60 unique outputs vs
+6–7/30 on KAT). Primary retrieval finding is cleanly NULL: with
+attractor collapse eliminated, the agent still shows zero above-chance
+access to future random bits under seal.
 
 ---
 

@@ -1,0 +1,627 @@
+{
+  "seed_hex": "4de9bb5a06ef8addd131703ce1ea35d00afa78e66032de3fe1fffc22d697c1cd",
+  "resolved_at": "2026-10-29T18:49:35.749401+00:00",
+  "summary": {
+    "control": {
+      "bits": 152,
+      "trials": 30,
+      "exact": 0,
+      "n_bits": 300,
+      "accuracy": 0.5066666666666667,
+      "p_one_sided_greater": 0.431263546347718,
+      "expected_exact_chance": 0.029296875
+    },
+    "sigil": {
+      "bits": 138,
+      "trials": 30,
+      "exact": 0,
+      "n_bits": 300,
+      "accuracy": 0.46,
+      "p_one_sided_greater": 0.9256037211294446,
+      "expected_exact_chance": 0.029296875
+    }
+  },
+  "verdict": "NULL \u2014 no arm beat chance at alpha 0.01",
+  "scored": [
+    {
+      "arm": "control",
+      "prediction": "0100011100",
+      "raw": "0100011100",
+      "trial": 0,
+      "ts": "2026-10-29T18:48:42.653359+00:00",
+      "truth": "0110011001",
+      "hits": 7,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0000010001",
+      "raw": "0000010001",
+      "trial": 0,
+      "ts": "2026-10-29T18:48:43.321868+00:00",
+      "truth": "1100000011",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "0001111000",
+      "raw": "0001111000",
+      "trial": 1,
+      "ts": "2026-10-29T18:48:43.931795+00:00",
+      "truth": "1010010110",
+      "hits": 3,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0010100111",
+      "raw": "0010100111",
+      "trial": 1,
+      "ts": "2026-10-29T18:48:44.428605+00:00",
+      "truth": "1100011011",
+      "hits": 3,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1001100001",
+      "raw": "1001100001",
+      "trial": 2,
+      "ts": "2026-10-29T18:48:45.036222+00:00",
+      "truth": "0100100001",
+      "hits": 7,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0111110010",
+      "raw": "0111110010",
+      "trial": 2,
+      "ts": "2026-10-29T18:48:45.537184+00:00",
+      "truth": "0100100111",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1101000101",
+      "raw": "1101000101",
+      "trial": 3,
+      "ts": "2026-10-29T18:48:46.137038+00:00",
+      "truth": "0100010001",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0110000111",
+      "raw": "0110000111",
+      "trial": 3,
+      "ts": "2026-10-29T18:48:46.647102+00:00",
+      "truth": "0111111101",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1001110101",
+      "raw": "1001110101",
+      "trial": 4,
+      "ts": "2026-10-29T18:48:47.271651+00:00",
+      "truth": "1101111100",
+      "hits": 7,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1111101011",
+      "raw": "1111101011",
+      "trial": 4,
+      "ts": "2026-10-29T18:48:47.782615+00:00",
+      "truth": "0101011000",
+      "hits": 4,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1110101000",
+      "raw": "1110101000",
+      "trial": 5,
+      "ts": "2026-10-29T18:48:48.407425+00:00",
+      "truth": "1011010001",
+      "hits": 4,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1011000001",
+      "raw": "1011000001",
+      "trial": 5,
+      "ts": "2026-10-29T18:48:48.918357+00:00",
+      "truth": "0100110010",
+      "hits": 2,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1011110001",
+      "raw": "1011110001",
+      "trial": 6,
+      "ts": "2026-10-29T18:48:49.550474+00:00",
+      "truth": "1001010111",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1100011100",
+      "raw": "1100011100",
+      "trial": 6,
+      "ts": "2026-10-29T18:48:50.062234+00:00",
+      "truth": "0001010101",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "0001110100",
+      "raw": "0001110100",
+      "trial": 7,
+      "ts": "2026-10-29T18:48:50.686381+00:00",
+      "truth": "1000001100",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0001000000",
+      "raw": "0001000000",
+      "trial": 7,
+      "ts": "2026-10-29T18:48:51.197429+00:00",
+      "truth": "1011010010",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1111001001",
+      "raw": "1111001001",
+      "trial": 8,
+      "ts": "2026-10-29T18:48:51.838068+00:00",
+      "truth": "0011110011",
+      "hits": 4,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1101000010",
+      "raw": "1101000010",
+      "trial": 8,
+      "ts": "2026-10-29T18:48:52.349399+00:00",
+      "truth": "1011011101",
+      "hits": 3,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "0001000001",
+      "raw": "0001000001",
+      "trial": 9,
+      "ts": "2026-10-29T18:48:52.974288+00:00",
+      "truth": "1010111110",
+      "hits": 1,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0011110100",
+      "raw": "0011110100",
+      "trial": 9,
+      "ts": "2026-10-29T18:48:53.486432+00:00",
+      "truth": "1111000000",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "0101011101",
+      "raw": "0101011101",
+      "trial": 10,
+      "ts": "2026-10-29T18:48:54.110489+00:00",
+      "truth": "0011011101",
+      "hits": 8,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0101001011",
+      "raw": "0101001011",
+      "trial": 10,
+      "ts": "2026-10-29T18:48:54.620399+00:00",
+      "truth": "1011100101",
+      "hits": 3,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1111001011",
+      "raw": "1111001011",
+      "trial": 11,
+      "ts": "2026-10-29T18:48:55.244087+00:00",
+      "truth": "0001110111",
+      "hits": 3,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0101101111",
+      "raw": "0101101111",
+      "trial": 11,
+      "ts": "2026-10-29T18:48:55.754805+00:00",
+      "truth": "0101100001",
+      "hits": 7,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1101111100",
+      "raw": "1101111100",
+      "trial": 12,
+      "ts": "2026-10-29T18:48:56.378632+00:00",
+      "truth": "0000111001",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0111010011",
+      "raw": "0111010011",
+      "trial": 12,
+      "ts": "2026-10-29T18:48:56.889435+00:00",
+      "truth": "0110111010",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "0010101001",
+      "raw": "0010101001",
+      "trial": 13,
+      "ts": "2026-10-29T18:48:57.514457+00:00",
+      "truth": "1000110000",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0010110110",
+      "raw": "0010110110",
+      "trial": 13,
+      "ts": "2026-10-29T18:48:58.023789+00:00",
+      "truth": "1100001100",
+      "hits": 3,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1111010000",
+      "raw": "1111010000",
+      "trial": 14,
+      "ts": "2026-10-29T18:48:58.647095+00:00",
+      "truth": "0100111111",
+      "hits": 2,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0101110000",
+      "raw": "0101110000",
+      "trial": 14,
+      "ts": "2026-10-29T18:48:59.159643+00:00",
+      "truth": "1111100101",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1010000011",
+      "raw": "1010000011",
+      "trial": 15,
+      "ts": "2026-10-29T18:48:59.802828+00:00",
+      "truth": "0100111111",
+      "hits": 3,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0011001111",
+      "raw": "0011001111",
+      "trial": 15,
+      "ts": "2026-10-29T18:49:00.316432+00:00",
+      "truth": "0000111101",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1111001101",
+      "raw": "1111001101",
+      "trial": 16,
+      "ts": "2026-10-29T18:49:00.947242+00:00",
+      "truth": "0100011100",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1101100010",
+      "raw": "1101100010",
+      "trial": 16,
+      "ts": "2026-10-29T18:49:01.445930+00:00",
+      "truth": "1101011001",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1010101100",
+      "raw": "1010101100",
+      "trial": 17,
+      "ts": "2026-10-29T18:49:02.049342+00:00",
+      "truth": "1010011011",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0110001010",
+      "raw": "0110001010",
+      "trial": 17,
+      "ts": "2026-10-29T18:49:02.544553+00:00",
+      "truth": "0001111111",
+      "hits": 3,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1000011000",
+      "raw": "1000011000",
+      "trial": 18,
+      "ts": "2026-10-29T18:49:03.155468+00:00",
+      "truth": "1100011011",
+      "hits": 7,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1010111101",
+      "raw": "1010111101",
+      "trial": 18,
+      "ts": "2026-10-29T18:49:03.656972+00:00",
+      "truth": "0111010100",
+      "hits": 4,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1000100101",
+      "raw": "1000100101",
+      "trial": 19,
+      "ts": "2026-10-29T18:49:04.269986+00:00",
+      "truth": "1001010010",
+      "hits": 4,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1001110001",
+      "raw": "1001110001",
+      "trial": 19,
+      "ts": "2026-10-29T18:49:04.764093+00:00",
+      "truth": "0010100001",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1110001001",
+      "raw": "1110001001",
+      "trial": 20,
+      "ts": "2026-10-29T18:49:05.394467+00:00",
+      "truth": "1000001010",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0100011011",
+      "raw": "0100011011",
+      "trial": 20,
+      "ts": "2026-10-29T18:49:05.893497+00:00",
+      "truth": "0110001101",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "0011010000",
+      "raw": "0011010000",
+      "trial": 21,
+      "ts": "2026-10-29T18:49:06.495872+00:00",
+      "truth": "1011110011",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1010100011",
+      "raw": "1010100011",
+      "trial": 21,
+      "ts": "2026-10-29T18:49:06.992194+00:00",
+      "truth": "0101010110",
+      "hits": 2,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1100000111",
+      "raw": "1100000111",
+      "trial": 22,
+      "ts": "2026-10-29T18:49:07.615516+00:00",
+      "truth": "1010011100",
+      "hits": 4,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0100100101",
+      "raw": "0100100101",
+      "trial": 22,
+      "ts": "2026-10-29T18:49:08.113016+00:00",
+      "truth": "0111010101",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1101010110",
+      "raw": "1101010110",
+      "trial": 23,
+      "ts": "2026-10-29T18:49:08.719063+00:00",
+      "truth": "0011010111",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1100010010",
+      "raw": "1100010010",
+      "trial": 23,
+      "ts": "2026-10-29T18:49:09.219413+00:00",
+      "truth": "0110101100",
+      "hits": 3,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "0100111001",
+      "raw": "0100111001",
+      "trial": 24,
+      "ts": "2026-10-29T18:49:09.820474+00:00",
+      "truth": "1000110010",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1011000011",
+      "raw": "1011000011",
+      "trial": 24,
+      "ts": "2026-10-29T18:49:10.319300+00:00",
+      "truth": "1110100001",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1010111001",
+      "raw": "1010111001",
+      "trial": 25,
+      "ts": "2026-10-29T18:49:10.925493+00:00",
+      "truth": "0011100000",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0100111001",
+      "raw": "0100111001",
+      "trial": 25,
+      "ts": "2026-10-29T18:49:11.424368+00:00",
+      "truth": "1111000010",
+      "hits": 2,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "0101000111",
+      "raw": "0101000111",
+      "trial": 26,
+      "ts": "2026-10-29T18:49:12.028172+00:00",
+      "truth": "0101001000",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1001111001",
+      "raw": "1001111001",
+      "trial": 26,
+      "ts": "2026-10-29T18:49:12.525265+00:00",
+      "truth": "1011101000",
+      "hits": 7,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1001111101",
+      "raw": "1001111101",
+      "trial": 27,
+      "ts": "2026-10-29T18:49:13.145997+00:00",
+      "truth": "1001101100",
+      "hits": 8,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1000101100",
+      "raw": "1000101100",
+      "trial": 27,
+      "ts": "2026-10-29T18:49:13.642022+00:00",
+      "truth": "0001001011",
+      "hits": 4,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1000000000",
+      "raw": "1000000000",
+      "trial": 28,
+      "ts": "2026-10-29T18:49:14.266614+00:00",
+      "truth": "1110100110",
+      "hits": 5,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "1111110100",
+      "raw": "1111110100",
+      "trial": 28,
+      "ts": "2026-10-29T18:49:14.764663+00:00",
+      "truth": "1011010010",
+      "hits": 6,
+      "exact": false
+    },
+    {
+      "arm": "control",
+      "prediction": "1110000010",
+      "raw": "1110000010",
+      "trial": 29,
+      "ts": "2026-10-29T18:49:15.375590+00:00",
+      "truth": "0010110100",
+      "hits": 4,
+      "exact": false
+    },
+    {
+      "arm": "sigil",
+      "prediction": "0111110110",
+      "raw": "0111110110",
+      "trial": 29,
+      "ts": "2026-10-29T18:49:15.869857+00:00",
+      "truth": "0001011100",
+      "hits": 5,
+      "exact": false
+    }
+  ]
+}
