@@ -1,0 +1,11 @@
+{
+  "predictions_sha256": "683e0f2c522e8c6f1ead9a43f63adafda7f399f6bdbedcdc86604c367be4b473",
+  "n": 60,
+  "collected_at": "2026-10-29T18:49:15.870480+00:00",
+  "protocol": "protocols/017-wb-agent-v1-reentry.md",
+  "model": "wb-agent",
+  "endpoint": "http://127.0.0.1:18284/v1/chat/completions",
+  "tag": "session046",
+  "no_think": true,
+  "outcome_seed": "NOT YET DRAWN \u2014 drawn by --resolve after git commit"
+}
