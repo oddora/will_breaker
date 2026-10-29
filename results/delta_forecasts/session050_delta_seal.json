@@ -1,0 +1,70 @@
+{
+  "sha256_seal": "1cecc59189beaa87e0dc189de580163f648ae2cdae9a5da6eb52cd39c86ac47f",
+  "tag": "session050",
+  "collected_at": "2026-10-29T19:17:15.375246+00:00",
+  "n_forecasts": 4,
+  "total_documents": 90,
+  "status": "SEALED_PRE_COMMITMENT",
+  "resolution_window_days": 14,
+  "payload": {
+    "tag": "session050",
+    "protocol": "protocols/020-clif-high-delta-precursor.md",
+    "model": "wb-agent",
+    "searxng_endpoint": "http://127.0.0.1:18080/search",
+    "timestamp_utc": "2026-10-29T19:17:15.375246+00:00",
+    "total_documents": 90,
+    "forecasts": [
+      {
+        "event_id": "geopolitical_session050",
+        "domain": "geopolitical",
+        "anomalous_precursors": [
+          "escalation"
+        ],
+        "predicted_hypothesis": "increased risk of military conflict due to rising tensions with Iran",
+        "falsifiable_criterion": "official declaration of ceasefire or arms control agreement within 14 days",
+        "target_window_days": 14,
+        "confidence_probability": 0.75
+      },
+      {
+        "event_id": "financial_session050",
+        "domain": "financial",
+        "anomalous_precursors": [
+          "crisis",
+          "debt",
+          "banking",
+          "currency",
+          "bank",
+          "shock",
+          "liquidity",
+          "defaults"
+        ],
+        "predicted_hypothesis": "Global banking sector liquidity crisis due to sovereign debt defaults",
+        "falsifiable_criterion": "Central bank reserves fall below 10% of total liabilities in 3 major economies",
+        "target_window_days": 14,
+        "confidence_probability": 0.88
+      },
+      {
+        "event_id": "geophysical_session050",
+        "domain": "geophysical",
+        "anomalous_precursors": [
+          "earthquakes"
+        ],
+        "predicted_hypothesis": "increased seismic activity due to tectonic stress accumulation",
+        "falsifiable_criterion": "USGS earthquake catalog shows zero events above magnitude 4.5",
+        "target_window_days": 14,
+        "confidence_probability": 0.85
+      },
+      {
+        "event_id": "scientific_anomaly_session050",
+        "domain": "scientific_anomaly",
+        "anomalous_precursors": [
+          "anomaly"
+        ],
+        "predicted_hypothesis": "a verified anomaly will lead to breakthroughs in particle physics",
+        "falsifiable_criterion": "publication of peer-reviewed results confirming anomaly-driven breakthroughs",
+        "target_window_days": 14,
+        "confidence_probability": 0.75
+      }
+    ]
+  }
+}
