@@ -88,6 +88,8 @@ class TestMultiInstanceRunner:
         assert "A" in res["arm_results"]
         assert "D" in res["arm_results"]
         assert len(res["arm_results"]["A"]) == 2
+        assert res["arm_results"]["A"][0]["seed"] == 50000
+        assert res["arm_results"]["A"][1]["seed"] == 51000
 
         analysis = res["analysis"]
         assert "A" in analysis["arms"]

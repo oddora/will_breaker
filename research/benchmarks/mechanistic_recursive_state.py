@@ -119,8 +119,9 @@ def fetch_completion(prompt: str, seed: int, endpoint: str = ENDPOINT,
 
 
 def run_trial(fetch: Callable[[str, int], dict], arm: str, trial_index: int,
-              depths: int = DEPTHS) -> dict:
-    seed = SEED_BASE + trial_index
+              depths: int = DEPTHS, seed: int | None = None) -> dict:
+    if seed is None:
+        seed = SEED_BASE + trial_index
     rows, previous = [], None
     try:
         for depth in range(1, depths + 1):

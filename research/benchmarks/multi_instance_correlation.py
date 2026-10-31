@@ -94,7 +94,7 @@ class MultiInstanceRunner:
     def run_instance_trial(self, arm: str, instance_idx: int) -> Dict:
         """Run a single isolated instance through recursive depths."""
         seed = self.seed_offset + (instance_idx * 1000)
-        return run_trial(self.fetcher, arm=arm, trial_index=instance_idx, depths=self.depths)
+        return run_trial(self.fetcher, arm=arm, trial_index=instance_idx, depths=self.depths, seed=seed)
 
     def execute_battery(self) -> Dict:
         """Execute multi-instance trial across all configured arms."""

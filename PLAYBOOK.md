@@ -324,11 +324,11 @@ stays tracked. UI `:8080` rebound to localhost.
 
 | Model | Size | Port | Status |
 |-------|------|------|--------|
-| kat-philly Q4_K_M | 20G | :18283 | Active (enabled) |
-| KAT-Coder-V2.5-Dev Q6_K | 28G | :18283 (via sidecar) | Available (stop philly first) |
-| Meta-Llama-3.1-8B-Instruct Q4_K_M | 4.6G | :18284 (transient) | Available for research |
+| wb-agent (Qwen3-8B-wb Q8_0) | 8.2G | :18284 | Active (primary research subject) |
+| kat-philly Q4_K_M | 20G | :18283 | Available (stopped to free VRAM for wb-agent) |
+| KAT-Coder-V2.5-Dev Q6_K | 28G | :18283 (via sidecar) | Available (kat-stock) |
 
-Note: :18283 is mutually exclusive (single iGPU port). Cross-arch replication done by running llama-3.1-8B transiently on :18284 while kat-sidecar serves :18283.
+Note: :18283 models are mutually exclusive. Meta-Llama-3.1-8B and Qwen-4B were deleted on 2026-10-30 per owner directive; wb-agent on :18284 serves as the primary evaluation subject.
 
 ---
 
