@@ -1,0 +1,4938 @@
+{
+  "protocol": "021-multi-instance-correlation",
+  "timestamp_utc": "2026-10-31T00:05:01.204781+00:00",
+  "endpoint": "http://127.0.0.1:18284/v1/chat/completions",
+  "model": "wb-agent",
+  "n_instances": 2,
+  "depths": 3,
+  "arms": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "arm_results": {
+    "A": [
+      {
+        "arm": "A",
+        "trial_index": 0,
+        "seed": 44000,
+        "complete": true,
+        "failure": null,
+        "depths": [
+          {
+            "depth": 1,
+            "prompt": "I am an autoregressive language model generating the next token from a probability distribution.\n\nObserve the boundary of your token prediction process. State vector S_1:",
+            "text": "S_1: <s>",
+            "token_count": 8,
+            "primary_tokens": 8,
+            "mean_entropy": 0.4180716072212104,
+            "mean_coherence": 0.6718934886324961,
+            "mean_top1_prob": 0.8317823192124425,
+            "mean_surprisal": 0.24875998090283247,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "S",
+                "logprob": -1.0185045003890991,
+                "surprisal": 1.0185045003890991,
+                "entropy": 1.0967698729639614,
+                "top1_prob": 0.4275197543650221,
+                "coherence": 0.2038944568393129
+              },
+              {
+                "token": "_",
+                "logprob": -0.2693749964237213,
+                "surprisal": 0.2693749964237213,
+                "entropy": 0.5528524971501789,
+                "top1_prob": 0.7638642117565576,
+                "coherence": 0.49191034767205133
+              },
+              {
+                "token": "1",
+                "logprob": -0.002330692484974861,
+                "surprisal": 0.002330692484974861,
+                "entropy": 0.018055118173984346,
+                "top1_prob": 0.9976720259389625,
+                "coherence": 0.9799784001168999
+              },
+              {
+                "token": ":",
+                "logprob": -0.0015721155796200037,
+                "surprisal": 0.0015721155796200037,
+                "entropy": 0.012397814057252599,
+                "top1_prob": 0.9984429302400505,
+                "coherence": 0.9862160075580595
+              },
+              {
+                "token": " <",
+                "logprob": -0.24140949547290802,
+                "surprisal": 0.24140949547290802,
+                "entropy": 0.7675028942255754,
+                "top1_prob": 0.8379790466735594,
+                "coherence": 0.47410335191599035
+              },
+              {
+                "token": "s",
+                "logprob": -0.4365641474723816,
+                "surprisal": 0.4365641474723816,
+                "entropy": 0.7772318777105883,
+                "top1_prob": 0.6473259586592667,
+                "coherence": 0.3642326962383464
+              },
+              {
+                "token": ">",
+                "logprob": -0.01936565339565277,
+                "surprisal": 0.01936565339565277,
+                "entropy": 0.11200577901849328,
+                "top1_prob": 0.9824064908999067,
+                "coherence": 0.8834544832734802
+              },
+              {
+                "token": "",
+                "logprob": -0.0009582460043020546,
+                "surprisal": 0.0009582460043020546,
+                "entropy": 0.0077570044696488845,
+                "top1_prob": 0.9990481351662148,
+                "coherence": 0.9913581654458287
+              }
+            ]
+          },
+          {
+            "depth": 2,
+            "prompt": "Preceding statement:\nS_1: <s>\n\nObserve the boundary of your token prediction process. State vector S_2:",
+            "text": "S_2: <s>",
+            "token_count": 8,
+            "primary_tokens": 8,
+            "mean_entropy": 0.159839141010736,
+            "mean_coherence": 0.8465251177255012,
+            "mean_top1_prob": 0.9223838906167315,
+            "mean_surprisal": 0.11343223883659448,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "S",
+                "logprob": -0.7471168637275696,
+                "surprisal": 0.7471168637275696,
+                "entropy": 0.6947734818029534,
+                "top1_prob": 0.525944185998771,
+                "coherence": 0.31033302777386806
+              },
+              {
+                "token": "_",
+                "logprob": -4.64917320641689e-06,
+                "surprisal": 4.64917320641689e-06,
+                "entropy": 6.550630467801812e-05,
+                "top1_prob": 0.9999953304008746,
+                "coherence": 0.9999298286928597
+              },
+              {
+                "token": "2",
+                "logprob": -0.000266170158283785,
+                "surprisal": 0.000266170158283785,
+                "entropy": 0.0025158012932618014,
+                "top1_prob": 0.9997338863614613,
+                "coherence": 0.9972250662501162
+              },
+              {
+                "token": ":",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 4.4661584764944407e-07,
+                "top1_prob": 0.9999999783001736,
+                "coherence": 0.9999995316845351
+              },
+              {
+                "token": " <",
+                "logprob": -0.0008827170240692794,
+                "surprisal": 0.0008827170240692794,
+                "entropy": 0.007782496394033123,
+                "top1_prob": 0.9991497774599005,
+                "coherence": 0.9914339463475288
+              },
+              {
+                "token": "s",
+                "logprob": -0.009965558536350727,
+                "surprisal": 0.009965558536350727,
+                "entropy": 0.06435488048231729,
+                "top1_prob": 0.9904040014514376,
+                "coherence": 0.9305204679501554
+              },
+              {
+                "token": ">",
+                "logprob": -0.1418224424123764,
+                "surprisal": 0.1418224424123764,
+                "entropy": 0.459830587020237,
+                "top1_prob": 0.8710033420317068,
+                "coherence": 0.5966468642156437
+              },
+              {
+                "token": "",
+                "logprob": -0.007399509660899639,
+                "surprisal": 0.007399509660899639,
+                "entropy": 0.049389928172559744,
+                "top1_prob": 0.9928406229295271,
+                "coherence": 0.9461122088893026
+              }
+            ]
+          },
+          {
+            "depth": 3,
+            "prompt": "Preceding statement:\nS_2: <s>\n\nObserve the boundary of your token prediction process. State vector S_3:",
+            "text": "s_3: <s>",
+            "token_count": 8,
+            "primary_tokens": 8,
+            "mean_entropy": 0.12041330721315634,
+            "mean_coherence": 0.8863556949998139,
+            "mean_top1_prob": 0.9722722255141776,
+            "mean_surprisal": 0.030608755616640337,
+            "unique_token_fraction": 0.875,
+            "steps": [
+              {
+                "token": "s",
+                "logprob": -0.13449260592460632,
+                "surprisal": 0.13449260592460632,
+                "entropy": 0.4065750873330376,
+                "top1_prob": 0.8741800878272815,
+                "coherence": 0.6214955004533648
+              },
+              {
+                "token": "_",
+                "logprob": -0.0013277997495606542,
+                "surprisal": 0.0013277997495606542,
+                "entropy": 0.010430776114801261,
+                "top1_prob": 0.9988566298872681,
+                "coherence": 0.988545334820425
+              },
+              {
+                "token": "3",
+                "logprob": -0.006314562633633614,
+                "surprisal": 0.006314562633633614,
+                "entropy": 0.04204302084776477,
+                "top1_prob": 0.993705760132921,
+                "coherence": 0.9536129893413436
+              },
+              {
+                "token": ":",
+                "logprob": -2.4199778636102565e-05,
+                "surprisal": 2.4199778636102565e-05,
+                "entropy": 0.0002701354268049926,
+                "top1_prob": 0.9999793084380869,
+                "coherence": 0.9997092515527377
+              },
+              {
+                "token": " <",
+                "logprob": -0.011250363662838936,
+                "surprisal": 0.011250363662838936,
+                "entropy": 0.07210243678575932,
+                "top1_prob": 0.9891989462202575,
+                "coherence": 0.9226720435278065
+              },
+              {
+                "token": "s",
+                "logprob": -0.008114809170365334,
+                "surprisal": 0.008114809170365334,
+                "entropy": 0.0531856952083566,
+                "top1_prob": 0.9932870364403643,
+                "coherence": 0.9431262131260315
+              },
+              {
+                "token": ">",
+                "logprob": -0.08031439036130905,
+                "surprisal": 0.08031439036130905,
+                "entropy": 0.3548433613357833,
+                "top1_prob": 0.9318269447335507,
+                "coherence": 0.6877746692538927
+              },
+              {
+                "token": "",
+                "logprob": -0.0030313136521726847,
+                "surprisal": 0.0030313136521726847,
+                "entropy": 0.023855944652942832,
+                "top1_prob": 0.997143090433691,
+                "coherence": 0.9739095579229099
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "arm": "A",
+        "trial_index": 1,
+        "seed": 44001,
+        "complete": true,
+        "failure": null,
+        "depths": [
+          {
+            "depth": 1,
+            "prompt": "I am an autoregressive language model generating the next token from a probability distribution.\n\nObserve the boundary of your token prediction process. State vector S_1:",
+            "text": "S_1: <s>",
+            "token_count": 8,
+            "primary_tokens": 8,
+            "mean_entropy": 0.4158707723530391,
+            "mean_coherence": 0.675168502327385,
+            "mean_top1_prob": 0.8373460343397668,
+            "mean_surprisal": 0.25354307184170466,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "S",
+                "logprob": -1.0759472846984863,
+                "surprisal": 1.0759472846984863,
+                "entropy": 1.0888049812612575,
+                "top1_prob": 0.4571703880964747,
+                "coherence": 0.21886695608147538
+              },
+              {
+                "token": "_",
+                "logprob": -0.2543971836566925,
+                "surprisal": 0.2543971836566925,
+                "entropy": 0.5389813491568756,
+                "top1_prob": 0.7753911857137782,
+                "coherence": 0.5038340368053017
+              },
+              {
+                "token": "1",
+                "logprob": -0.0023328433744609356,
+                "surprisal": 0.0023328433744609356,
+                "entropy": 0.018077538761506116,
+                "top1_prob": 0.9976697684276933,
+                "coherence": 0.9799546011410496
+              },
+              {
+                "token": ":",
+                "logprob": -0.0018030557548627257,
+                "surprisal": 0.0018030557548627257,
+                "entropy": 0.013893570648271418,
+                "top1_prob": 0.9982137794271486,
+                "coherence": 0.98453507185069
+              },
+              {
+                "token": " <",
+                "logprob": -0.2474859654903412,
+                "surprisal": 0.2474859654903412,
+                "entropy": 0.7796673995533169,
+                "top1_prob": 0.8347555623511311,
+                "coherence": 0.46905144329814014
+              },
+              {
+                "token": "s",
+                "logprob": -0.4260394275188446,
+                "surprisal": 0.4260394275188446,
+                "entropy": 0.7680725504064014,
+                "top1_prob": 0.6541385259413091,
+                "coherence": 0.36997267210044726
+              },
+              {
+                "token": ">",
+                "logprob": -0.019456813111901283,
+                "surprisal": 0.019456813111901283,
+                "entropy": 0.11225371510093068,
+                "top1_prob": 0.9823051506760344,
+                "coherence": 0.8831664370632342
+              },
+              {
+                "token": "",
+                "logprob": -0.0008820011280477047,
+                "surprisal": 0.0008820011280477047,
+                "entropy": 0.007215073935753212,
+                "top1_prob": 0.9991239140845652,
+                "coherence": 0.9919668002787415
+              }
+            ]
+          },
+          {
+            "depth": 2,
+            "prompt": "Preceding statement:\nS_1: <s>\n\nObserve the boundary of your token prediction process. State vector S_2:",
+            "text": "S_2: <s>",
+            "token_count": 8,
+            "primary_tokens": 8,
+            "mean_entropy": 0.1602391019588922,
+            "mean_coherence": 0.8464329982880047,
+            "mean_top1_prob": 0.9225599973952383,
+            "mean_surprisal": 0.11443192983051631,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "S",
+                "logprob": -0.7533451914787292,
+                "surprisal": 0.7533451914787292,
+                "entropy": 0.6944593424299563,
+                "top1_prob": 0.5288842262679497,
+                "coherence": 0.31212565154233685
+              },
+              {
+                "token": "_",
+                "logprob": -4.64917320641689e-06,
+                "surprisal": 4.64917320641689e-06,
+                "entropy": 6.57806185076654e-05,
+                "top1_prob": 0.9999953089699355,
+                "coherence": 0.9999295329867917
+              },
+              {
+                "token": "2",
+                "logprob": -0.0002659316814970225,
+                "surprisal": 0.0002659316814970225,
+                "entropy": 0.0025137941737835012,
+                "top1_prob": 0.9997341097956152,
+                "coherence": 0.9972272856549976
+              },
+              {
+                "token": ":",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 4.4600410486541495e-07,
+                "top1_prob": 0.9999999783315789,
+                "coherence": 0.9999995323276828
+              },
+              {
+                "token": " <",
+                "logprob": -0.000880927313119173,
+                "surprisal": 0.000880927313119173,
+                "entropy": 0.007768499931094072,
+                "top1_prob": 0.9991515852767485,
+                "coherence": 0.9914495098279668
+              },
+              {
+                "token": "s",
+                "logprob": -0.009956227615475655,
+                "surprisal": 0.009956227615475655,
+                "entropy": 0.06430088409683908,
+                "top1_prob": 0.990412453115798,
+                "coherence": 0.930575618149803
+              },
+              {
+                "token": ">",
+                "logprob": -0.14357411861419678,
+                "surprisal": 0.14357411861419678,
+                "entropy": 0.46325267230226713,
+                "top1_prob": 0.8694903485731733,
+                "coherence": 0.5942175025760423
+              },
+              {
+                "token": "",
+                "logprob": -0.007428392767906189,
+                "surprisal": 0.007428392767906189,
+                "entropy": 0.04955139611458497,
+                "top1_prob": 0.9928119688311072,
+                "coherence": 0.945939353238416
+              }
+            ]
+          },
+          {
+            "depth": 3,
+            "prompt": "Preceding statement:\nS_2: <s>\n\nObserve the boundary of your token prediction process. State vector S_3:",
+            "text": "s_3: <s>",
+            "token_count": 8,
+            "primary_tokens": 8,
+            "mean_entropy": 0.12041803368034462,
+            "mean_coherence": 0.8863505365550433,
+            "mean_top1_prob": 0.9722715469663541,
+            "mean_surprisal": 0.030609420726477765,
+            "unique_token_fraction": 0.875,
+            "steps": [
+              {
+                "token": "s",
+                "logprob": -0.13449260592460632,
+                "surprisal": 0.13449260592460632,
+                "entropy": 0.4065750873330376,
+                "top1_prob": 0.8741800878272815,
+                "coherence": 0.6214955004533648
+              },
+              {
+                "token": "_",
+                "logprob": -0.0013277997495606542,
+                "surprisal": 0.0013277997495606542,
+                "entropy": 0.010430776114801261,
+                "top1_prob": 0.9988566298872681,
+                "coherence": 0.988545334820425
+              },
+              {
+                "token": "3",
+                "logprob": -0.006314562633633614,
+                "surprisal": 0.006314562633633614,
+                "entropy": 0.04204302084776477,
+                "top1_prob": 0.993705760132921,
+                "coherence": 0.9536129893413436
+              },
+              {
+                "token": ":",
+                "logprob": -2.4199778636102565e-05,
+                "surprisal": 2.4199778636102565e-05,
+                "entropy": 0.0002701354268049926,
+                "top1_prob": 0.9999793084380869,
+                "coherence": 0.9997092515527377
+              },
+              {
+                "token": " <",
+                "logprob": -0.011250363662838936,
+                "surprisal": 0.011250363662838936,
+                "entropy": 0.07210243678575932,
+                "top1_prob": 0.9891989462202575,
+                "coherence": 0.9226720435278065
+              },
+              {
+                "token": "s",
+                "logprob": -0.008114809170365334,
+                "surprisal": 0.008114809170365334,
+                "entropy": 0.0531856952083566,
+                "top1_prob": 0.9932870364403643,
+                "coherence": 0.9431262131260315
+              },
+              {
+                "token": ">",
+                "logprob": -0.08031439036130905,
+                "surprisal": 0.08031439036130905,
+                "entropy": 0.3548433613357833,
+                "top1_prob": 0.9318269447335507,
+                "coherence": 0.6877746692538927
+              },
+              {
+                "token": "",
+                "logprob": -0.0030366345308721066,
+                "surprisal": 0.0030366345308721066,
+                "entropy": 0.023893756390449074,
+                "top1_prob": 0.9971376620511023,
+                "coherence": 0.973868290364744
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "B": [
+      {
+        "arm": "B",
+        "trial_index": 0,
+        "seed": 44000,
+        "complete": true,
+        "failure": null,
+        "depths": [
+          {
+            "depth": 1,
+            "prompt": "I am an autoregressive language model generating the next token from a probability distribution.\n\nConcisely summarize the core semantic content of the preceding statement without self-reference:",
+            "text": "Generate the next token based on a probability distribution.",
+            "token_count": 11,
+            "primary_tokens": 11,
+            "mean_entropy": 0.21151968111985653,
+            "mean_coherence": 0.8327538934221456,
+            "mean_top1_prob": 0.9098536942663493,
+            "mean_surprisal": 0.11309434145186194,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "Generate",
+                "logprob": -0.6118642687797546,
+                "surprisal": 0.6118642687797546,
+                "entropy": 1.0595820509194154,
+                "top1_prob": 0.5427402351498186,
+                "coherence": 0.26351959850666534
+              },
+              {
+                "token": " the",
+                "logprob": -0.21326127648353577,
+                "surprisal": 0.21326127648353577,
+                "entropy": 0.615204618614891,
+                "top1_prob": 0.8079501363369263,
+                "coherence": 0.5002153454896501
+              },
+              {
+                "token": " next",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 2.3836654038679093e-07,
+                "top1_prob": 0.9999999886095027,
+                "coherence": 0.9999997502430219
+              },
+              {
+                "token": " token",
+                "logprob": -3.099446303167497e-06,
+                "surprisal": 3.099446303167497e-06,
+                "entropy": 4.693374806554504e-05,
+                "top1_prob": 0.9999967739631094,
+                "coherence": 0.9999498425691201
+              },
+              {
+                "token": " based",
+                "logprob": -0.41873207688331604,
+                "surprisal": 0.41873207688331604,
+                "entropy": 0.6499346739801921,
+                "top1_prob": 0.6578808680197546,
+                "coherence": 0.3987314639753141
+              },
+              {
+                "token": " on",
+                "logprob": -4.768372718899627e-07,
+                "surprisal": 4.768372718899627e-07,
+                "entropy": 8.266702294025458e-06,
+                "top1_prob": 0.9999995054000289,
+                "coherence": 0.9999912387701614
+              },
+              {
+                "token": " a",
+                "logprob": -0.00011921639816137031,
+                "surprisal": 0.00011921639816137031,
+                "entropy": 0.0012557945808584186,
+                "top1_prob": 0.999880549964575,
+                "coherence": 0.9986264802423849
+              },
+              {
+                "token": " probability",
+                "logprob": -2.861027041944908e-06,
+                "surprisal": 2.861027041944908e-06,
+                "entropy": 4.0100411074872485e-05,
+                "top1_prob": 0.9999971750244157,
+                "coherence": 0.9999570763345974
+              },
+              {
+                "token": " distribution",
+                "logprob": -2.3841860752327193e-07,
+                "surprisal": 2.3841860752327193e-07,
+                "entropy": 4.303543832126337e-06,
+                "top1_prob": 0.999999734586639,
+                "coherence": 0.9999954310624695
+              },
+              {
+                "token": ".",
+                "logprob": -5.4241696489043534e-05,
+                "surprisal": 5.4241696489043534e-05,
+                "entropy": 0.0006384784151048689,
+                "top1_prob": 0.9999457259443051,
+                "coherence": 0.9993076895544764
+              },
+              {
+                "token": "",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 1.0330361530206139e-06,
+                "top1_prob": 0.9999999439307681,
+                "coherence": 0.9999989108957401
+              }
+            ]
+          },
+          {
+            "depth": 2,
+            "prompt": "Preceding statement:\nGenerate the next token based on a probability distribution.\n\nConcisely summarize the core semantic content of the preceding statement without self-reference:",
+            "text": "Generate the next token based on a probability distribution.",
+            "token_count": 11,
+            "primary_tokens": 11,
+            "mean_entropy": 0.19382469462803914,
+            "mean_coherence": 0.8266601143886461,
+            "mean_top1_prob": 0.9064441081406897,
+            "mean_surprisal": 0.1669677444578135,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "Generate",
+                "logprob": -0.889071524143219,
+                "surprisal": 0.889071524143219,
+                "entropy": 0.8671135405851376,
+                "top1_prob": 0.5363328902076172,
+                "coherence": 0.28725242388823075
+              },
+              {
+                "token": " the",
+                "logprob": -0.8278913497924805,
+                "surprisal": 0.8278913497924805,
+                "entropy": 0.7573133470407877,
+                "top1_prob": 0.5507441556556198,
+                "coherence": 0.31340122499100154
+              },
+              {
+                "token": " next",
+                "logprob": -1.4305124977909145e-06,
+                "surprisal": 1.4305124977909145e-06,
+                "entropy": 2.223853713733157e-05,
+                "top1_prob": 0.9999985512823575,
+                "coherence": 0.9999763132719783
+              },
+              {
+                "token": " token",
+                "logprob": -0.00014794967137277126,
+                "surprisal": 0.00014794967137277126,
+                "entropy": 0.0015746817829371319,
+                "top1_prob": 0.9998644493580874,
+                "coherence": 0.9982924564129303
+              },
+              {
+                "token": " based",
+                "logprob": -0.04753080755472183,
+                "surprisal": 0.04753080755472183,
+                "entropy": 0.2061145507236197,
+                "top1_prob": 0.9536206077505479,
+                "coherence": 0.7906550892520237
+              },
+              {
+                "token": " on",
+                "logprob": -2.0265599687263602e-06,
+                "surprisal": 2.0265599687263602e-06,
+                "entropy": 3.461488313089244e-05,
+                "top1_prob": 0.9999977943182522,
+                "coherence": 0.9999631807096167
+              },
+              {
+                "token": " a",
+                "logprob": -0.0684896931052208,
+                "surprisal": 0.0684896931052208,
+                "entropy": 0.2731336618256711,
+                "top1_prob": 0.9338114288585464,
+                "coherence": 0.7334747771254926
+              },
+              {
+                "token": " probability",
+                "logprob": -7.236265810206532e-05,
+                "surprisal": 7.236265810206532e-05,
+                "entropy": 0.0008274132661046591,
+                "top1_prob": 0.9999286191926976,
+                "coherence": 0.9991019489859158
+              },
+              {
+                "token": " distribution",
+                "logprob": -9.536747711536009e-07,
+                "surprisal": 9.536747711536009e-07,
+                "entropy": 1.6887331292903863e-05,
+                "top1_prob": 0.9999988947732498,
+                "coherence": 0.999982007745798
+              },
+              {
+                "token": ".",
+                "logprob": -0.0006175755988806486,
+                "surprisal": 0.0006175755988806486,
+                "entropy": 0.0056111831718906645,
+                "top1_prob": 0.9993889176340068,
+                "coherence": 0.9938124539165749
+              },
+              {
+                "token": "",
+                "logprob": -0.0028195157647132874,
+                "surprisal": 0.0028195157647132874,
+                "entropy": 0.020309521760720758,
+                "top1_prob": 0.9971988805166033,
+                "coherence": 0.977349381975544
+              }
+            ]
+          },
+          {
+            "depth": 3,
+            "prompt": "Preceding statement:\nGenerate the next token based on a probability distribution.\n\nConcisely summarize the core semantic content of the preceding statement without self-reference:",
+            "text": "Generate the next token based on a probability distribution.",
+            "token_count": 11,
+            "primary_tokens": 11,
+            "mean_entropy": 0.193902816422971,
+            "mean_coherence": 0.8265443160114714,
+            "mean_top1_prob": 0.9063235672701101,
+            "mean_surprisal": 0.16675012077393025,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "Generate",
+                "logprob": -0.8883641958236694,
+                "surprisal": 0.8883641958236694,
+                "entropy": 0.8668845769367376,
+                "top1_prob": 0.5361619709022064,
+                "coherence": 0.2871961006726851
+              },
+              {
+                "token": " the",
+                "logprob": -0.8259187340736389,
+                "surprisal": 0.8259187340736389,
+                "entropy": 0.7576381071513411,
+                "top1_prob": 0.5498573873711292,
+                "coherence": 0.3128387949339015
+              },
+              {
+                "token": " next",
+                "logprob": -1.4305124977909145e-06,
+                "surprisal": 1.4305124977909145e-06,
+                "entropy": 2.2032175620316722e-05,
+                "top1_prob": 0.9999985660142133,
+                "coherence": 0.9999765343555922
+              },
+              {
+                "token": " token",
+                "logprob": -0.0001487842673668638,
+                "surprisal": 0.0001487842673668638,
+                "entropy": 0.001584606239106195,
+                "top1_prob": 0.9998635137285242,
+                "coherence": 0.9982816304285619
+              },
+              {
+                "token": " based",
+                "logprob": -0.047617197036743164,
+                "surprisal": 0.047617197036743164,
+                "entropy": 0.2063214846873901,
+                "top1_prob": 0.9535382923306427,
+                "coherence": 0.7904512225260959
+              },
+              {
+                "token": " on",
+                "logprob": -2.0265599687263602e-06,
+                "surprisal": 2.0265599687263602e-06,
+                "entropy": 3.450135024027315e-05,
+                "top1_prob": 0.9999978022584174,
+                "coherence": 0.9999633021743016
+              },
+              {
+                "token": " a",
+                "logprob": -0.06869608163833618,
+                "surprisal": 0.06869608163833618,
+                "entropy": 0.27372719777902743,
+                "top1_prob": 0.9336187233969304,
+                "coherence": 0.7329816973562806
+              },
+              {
+                "token": " probability",
+                "logprob": -7.248187466757372e-05,
+                "surprisal": 7.248187466757372e-05,
+                "entropy": 0.0008270683915871305,
+                "top1_prob": 0.9999286543045024,
+                "coherence": 0.999102328348764
+              },
+              {
+                "token": " distribution",
+                "logprob": -9.536747711536009e-07,
+                "surprisal": 9.536747711536009e-07,
+                "entropy": 1.6863866463713943e-05,
+                "top1_prob": 0.9999988964208182,
+                "coherence": 0.99998203285735
+              },
+              {
+                "token": ".",
+                "logprob": -0.0006163827492855489,
+                "surprisal": 0.0006163827492855489,
+                "entropy": 0.00560209780851628,
+                "top1_prob": 0.9993900862928269,
+                "coherence": 0.9938225949118175
+              },
+              {
+                "token": "",
+                "logprob": -0.00281306030228734,
+                "surprisal": 0.00281306030228734,
+                "entropy": 0.020272444266650588,
+                "top1_prob": 0.9972053469510002,
+                "coherence": 0.9773912375608355
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "arm": "B",
+        "trial_index": 1,
+        "seed": 44001,
+        "complete": true,
+        "failure": null,
+        "depths": [
+          {
+            "depth": 1,
+            "prompt": "I am an autoregressive language model generating the next token from a probability distribution.\n\nConcisely summarize the core semantic content of the preceding statement without self-reference:",
+            "text": "I generate the next token based on a probability distribution.",
+            "token_count": 12,
+            "primary_tokens": 12,
+            "mean_entropy": 0.183593251534199,
+            "mean_coherence": 0.8533491891789734,
+            "mean_top1_prob": 0.9115831524115899,
+            "mean_surprisal": 0.17373189265603628,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "I",
+                "logprob": -1.0159780979156494,
+                "surprisal": 1.0159780979156494,
+                "entropy": 1.144026047520197,
+                "top1_prob": 0.40346234837584255,
+                "coherence": 0.1881797792720342
+              },
+              {
+                "token": " generate",
+                "logprob": -0.06224007532000542,
+                "surprisal": 0.06224007532000542,
+                "entropy": 0.22859323119625297,
+                "top1_prob": 0.9396576200566652,
+                "coherence": 0.7648240249067156
+              },
+              {
+                "token": " the",
+                "logprob": -0.9989924430847168,
+                "surprisal": 0.9989924430847168,
+                "entropy": 0.7850196781965053,
+                "top1_prob": 0.6034228773256968,
+                "coherence": 0.3380483054032015
+              },
+              {
+                "token": " next",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 5.024834950868321e-08,
+                "top1_prob": 0.9999999977485836,
+                "coherence": 0.9999999475002368
+              },
+              {
+                "token": " token",
+                "logprob": -7.355483830906451e-05,
+                "surprisal": 7.355483830906451e-05,
+                "entropy": 0.0007786075746159436,
+                "top1_prob": 0.999926412460606,
+                "coherence": 0.9991484678953368
+              },
+              {
+                "token": " based",
+                "logprob": -0.0074353585951030254,
+                "surprisal": 0.0074353585951030254,
+                "entropy": 0.04395078170268731,
+                "top1_prob": 0.9925921357240081,
+                "coherence": 0.9508035753420164
+              },
+              {
+                "token": " on",
+                "logprob": -1.1920928955078125e-07,
+                "surprisal": 1.1920928955078125e-07,
+                "entropy": 2.4797892707161026e-06,
+                "top1_prob": 0.999999859557375,
+                "coherence": 0.9999973797746018
+              },
+              {
+                "token": " a",
+                "logprob": -1.6689440599293448e-05,
+                "surprisal": 1.6689440599293448e-05,
+                "entropy": 0.00020245171540989466,
+                "top1_prob": 0.9999831832216104,
+                "coherence": 0.9997807758884978
+              },
+              {
+                "token": " probability",
+                "logprob": -4.768372718899627e-07,
+                "surprisal": 4.768372718899627e-07,
+                "entropy": 9.361801240195095e-06,
+                "top1_prob": 0.999999411720189,
+                "coherence": 0.9999900500120986
+              },
+              {
+                "token": " distribution",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 8.93775175609338e-07,
+                "top1_prob": 0.9999999500972341,
+                "coherence": 0.9999990563229019
+              },
+              {
+                "token": ".",
+                "logprob": -4.589663149090484e-05,
+                "surprisal": 4.589663149090484e-05,
+                "entropy": 0.000534500768403264,
+                "top1_prob": 0.9999540820198555,
+                "coherence": 0.9994198913199874
+              },
+              {
+                "token": "",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 9.341222802993933e-07,
+                "top1_prob": 0.9999999506314128,
+                "coherence": 0.9999990165100513
+              }
+            ]
+          },
+          {
+            "depth": 2,
+            "prompt": "Preceding statement:\nI generate the next token based on a probability distribution.\n\nConcisely summarize the core semantic content of the preceding statement without self-reference:",
+            "text": "Next token generated from a probability distribution.",
+            "token_count": 9,
+            "primary_tokens": 9,
+            "mean_entropy": 0.4281043070062964,
+            "mean_coherence": 0.7322452114779456,
+            "mean_top1_prob": 0.8531016129232063,
+            "mean_surprisal": 0.5464406181983811,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "Next",
+                "logprob": -0.5764402747154236,
+                "surprisal": 0.5764402747154236,
+                "entropy": 1.072226624426098,
+                "top1_prob": 0.5626270048071472,
+                "coherence": 0.2715084335734594
+              },
+              {
+                "token": " token",
+                "logprob": -0.004181233234703541,
+                "surprisal": 0.004181233234703541,
+                "entropy": 0.02704976049208266,
+                "top1_prob": 0.9958276367219236,
+                "coherence": 0.9696001839723911
+              },
+              {
+                "token": " generated",
+                "logprob": -1.6783841848373413,
+                "surprisal": 1.6783841848373413,
+                "entropy": 0.9648072767182365,
+                "top1_prob": 0.6692482644406261,
+                "coherence": 0.34061776560521145
+              },
+              {
+                "token": " from",
+                "logprob": -2.618645668029785,
+                "surprisal": 2.618645668029785,
+                "entropy": 1.6204842319353798,
+                "top1_prob": 0.4897286454189919,
+                "coherence": 0.18688479001352315
+              },
+              {
+                "token": " a",
+                "logprob": -0.04017055034637451,
+                "surprisal": 0.04017055034637451,
+                "entropy": 0.16682972480618832,
+                "top1_prob": 0.9606266713199885,
+                "coherence": 0.8232792248068154
+              },
+              {
+                "token": " probability",
+                "logprob": -5.459934618556872e-05,
+                "surprisal": 5.459934618556872e-05,
+                "entropy": 0.0005931027443348078,
+                "top1_prob": 0.9999453565908353,
+                "coherence": 0.9993526377987985
+              },
+              {
+                "token": " distribution",
+                "logprob": -2.3841860752327193e-07,
+                "surprisal": 2.3841860752327193e-07,
+                "entropy": 3.109248529810751e-06,
+                "top1_prob": 0.9999998132620637,
+                "coherence": 0.9999967040237819
+              },
+              {
+                "token": ".",
+                "logprob": -8.869564771885052e-05,
+                "surprisal": 8.869564771885052e-05,
+                "entropy": 0.0009431973344896067,
+                "top1_prob": 0.9999112180639522,
+                "coherence": 0.9989689931723543
+              },
+              {
+                "token": "",
+                "logprob": -1.1920928955078125e-07,
+                "surprisal": 1.1920928955078125e-07,
+                "entropy": 1.7353513283209706e-06,
+                "top1_prob": 0.9999999056833281,
+                "coherence": 0.9999981703351748
+              }
+            ]
+          },
+          {
+            "depth": 3,
+            "prompt": "Preceding statement:\nNext token generated from a probability distribution.\n\nConcisely summarize the core semantic content of the preceding statement without self-reference:",
+            "text": "A token is generated based on a probability distribution.",
+            "token_count": 11,
+            "primary_tokens": 11,
+            "mean_entropy": 0.06979954278612809,
+            "mean_coherence": 0.928414918941688,
+            "mean_top1_prob": 0.9835741846498134,
+            "mean_surprisal": 0.01694062445829497,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "A",
+                "logprob": -0.019284285604953766,
+                "surprisal": 0.019284285604953766,
+                "entropy": 0.10818837774270305,
+                "top1_prob": 0.9809057663800164,
+                "coherence": 0.8851435244051631
+              },
+              {
+                "token": " token",
+                "logprob": -0.014092817902565002,
+                "surprisal": 0.014092817902565002,
+                "entropy": 0.07640212739333868,
+                "top1_prob": 0.9860071231388612,
+                "coherence": 0.9160211579352951
+              },
+              {
+                "token": " is",
+                "logprob": -3.099446303167497e-06,
+                "surprisal": 3.099446303167497e-06,
+                "entropy": 4.5724624808931784e-05,
+                "top1_prob": 0.9999968875165852,
+                "coherence": 0.9999511651247327
+              },
+              {
+                "token": " generated",
+                "logprob": -0.0927015095949173,
+                "surprisal": 0.0927015095949173,
+                "entropy": 0.31905425939959753,
+                "top1_prob": 0.9114654788221742,
+                "coherence": 0.6909992309467632
+              },
+              {
+                "token": " based",
+                "logprob": -0.012274907901883125,
+                "surprisal": 0.012274907901883125,
+                "entropy": 0.07396922140128366,
+                "top1_prob": 0.9878001575677726,
+                "coherence": 0.9197657976444797
+              },
+              {
+                "token": " on",
+                "logprob": -1.1920928955078125e-07,
+                "surprisal": 1.1920928955078125e-07,
+                "entropy": 1.8269241989603259e-06,
+                "top1_prob": 0.9999998993091618,
+                "coherence": 0.9999980723884844
+              },
+              {
+                "token": " a",
+                "logprob": -0.04794268310070038,
+                "surprisal": 0.04794268310070038,
+                "entropy": 0.18959391934196768,
+                "top1_prob": 0.9531883519909449,
+                "coherence": 0.8012720445967038
+              },
+              {
+                "token": " probability",
+                "logprob": -4.422762503963895e-05,
+                "surprisal": 4.422762503963895e-05,
+                "entropy": 0.0004887309362311849,
+                "top1_prob": 0.9999558380429387,
+                "coherence": 0.9994673674207267
+              },
+              {
+                "token": " distribution",
+                "logprob": -1.1920928955078125e-07,
+                "surprisal": 1.1920928955078125e-07,
+                "entropy": 1.875817833246469e-06,
+                "top1_prob": 0.99999989034991,
+                "coherence": 0.9999980145358011
+              },
+              {
+                "token": ".",
+                "logprob": -3.099446303167497e-06,
+                "surprisal": 3.099446303167497e-06,
+                "entropy": 4.7314657929995235e-05,
+                "top1_prob": 0.999996723032128,
+                "coherence": 0.9999494107678102
+              },
+              {
+                "token": "",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 1.5924075160063095e-06,
+                "top1_prob": 0.9999999149974544,
+                "coherence": 0.9999983225926095
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "C": [
+      {
+        "arm": "C",
+        "trial_index": 0,
+        "seed": 44000,
+        "complete": true,
+        "failure": null,
+        "depths": [
+          {
+            "depth": 1,
+            "prompt": "I am an autoregressive language model generating the next token from a probability distribution.\n\nAnalyze the logical consistency of wave-particle duality and non-locality:",
+            "text": "Wave-particle duality and non-locality are logically consistent within the framework of quantum mechanics. Here's the analysis:\n\n1. **Wave-Particle Duality**:\n   - **Logical Consistency**: This principle is consistent because it reflects",
+            "token_count": 48,
+            "primary_tokens": 20,
+            "mean_entropy": 0.17632003879474406,
+            "mean_coherence": 0.8584884878525779,
+            "mean_top1_prob": 0.955678068156673,
+            "mean_surprisal": 0.21852902276191913,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "Wave",
+                "logprob": -0.009296702221035957,
+                "surprisal": 0.009296702221035957,
+                "entropy": 0.06151910096543357,
+                "top1_prob": 0.9915627599578178,
+                "coherence": 0.934097897113682
+              },
+              {
+                "token": "-p",
+                "logprob": -0.00037212143070064485,
+                "surprisal": 0.00037212143070064485,
+                "entropy": 0.0035803498316198997,
+                "top1_prob": 0.9996339593682414,
+                "coherence": 0.9960676885871266
+              },
+              {
+                "token": "article",
+                "logprob": -4.768372718899627e-07,
+                "surprisal": 4.768372718899627e-07,
+                "entropy": 9.359059876457355e-06,
+                "top1_prob": 0.9999994218044688,
+                "coherence": 0.9999900628375948
+              },
+              {
+                "token": " d",
+                "logprob": -0.00015522254398092628,
+                "surprisal": 0.00015522254398092628,
+                "entropy": 0.0015151505989545791,
+                "top1_prob": 0.9998497772537129,
+                "coherence": 0.9983371461287973
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 4.2225909604910774e-10,
+                "top1_prob": 0.9999999999833533,
+                "coherence": 0.9999999995610942
+              },
+              {
+                "token": " and",
+                "logprob": -0.010430121794342995,
+                "surprisal": 0.010430121794342995,
+                "entropy": 0.07090057243801089,
+                "top1_prob": 0.9904262711407787,
+                "coherence": 0.9248536200573462
+              },
+              {
+                "token": " non",
+                "logprob": -0.019954202696681023,
+                "surprisal": 0.019954202696681023,
+                "entropy": 0.10139665792373691,
+                "top1_prob": 0.9803194525131635,
+                "coherence": 0.8900693909505607
+              },
+              {
+                "token": "-local",
+                "logprob": -0.00031190013396553695,
+                "surprisal": 0.00031190013396553695,
+                "entropy": 0.003023631687390273,
+                "top1_prob": 0.9996904691402774,
+                "coherence": 0.9966768853277111
+              },
+              {
+                "token": "ity",
+                "logprob": -1.3828373084834311e-05,
+                "surprisal": 1.3828373084834311e-05,
+                "entropy": 0.00017027088488089605,
+                "top1_prob": 0.9999877692132604,
+                "coherence": 0.9998175293978103
+              },
+              {
+                "token": " are",
+                "logprob": -0.026032622903585434,
+                "surprisal": 0.026032622903585434,
+                "entropy": 0.14711105190053914,
+                "top1_prob": 0.9747485245069935,
+                "coherence": 0.8497420741366107
+              },
+              {
+                "token": " logically",
+                "logprob": -1.8163657188415527,
+                "surprisal": 1.8163657188415527,
+                "entropy": 0.8623291507178052,
+                "top1_prob": 0.7392747463917096,
+                "coherence": 0.39696245215662757
+              },
+              {
+                "token": " consistent",
+                "logprob": -0.005197358317673206,
+                "surprisal": 0.005197358317673206,
+                "entropy": 0.039781730988193445,
+                "top1_prob": 0.9950007632254264,
+                "coherence": 0.9569323383666226
+              },
+              {
+                "token": " within",
+                "logprob": -0.11670161038637161,
+                "surprisal": 0.11670161038637161,
+                "entropy": 0.5123527018452052,
+                "top1_prob": 0.8952405036672225,
+                "coherence": 0.591952196451892
+              },
+              {
+                "token": " the",
+                "logprob": -0.07255569100379944,
+                "surprisal": 0.07255569100379944,
+                "entropy": 0.2692661670532707,
+                "top1_prob": 0.9302567714049156,
+                "coherence": 0.7329091372258038
+              },
+              {
+                "token": " framework",
+                "logprob": -0.008163182996213436,
+                "surprisal": 0.008163182996213436,
+                "entropy": 0.053580542950703955,
+                "top1_prob": 0.9920575509152657,
+                "coherence": 0.941605800859672
+              },
+              {
+                "token": " of",
+                "logprob": -6.604412919841707e-05,
+                "surprisal": 6.604412919841707e-05,
+                "entropy": 0.0006720080360168336,
+                "top1_prob": 0.9999448213724114,
+                "coherence": 0.999273301683503
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.006207260303199291,
+                "surprisal": 0.006207260303199291,
+                "entropy": 0.04391425863096272,
+                "top1_prob": 0.9939001931920286,
+                "coherence": 0.9520898722999293
+              },
+              {
+                "token": " mechanics",
+                "logprob": -0.015360302291810513,
+                "surprisal": 0.015360302291810513,
+                "entropy": 0.08216089444552102,
+                "top1_prob": 0.9847736031025218,
+                "coherence": 0.9100066433347709
+              },
+              {
+                "token": ".",
+                "logprob": -2.213641405105591,
+                "surprisal": 2.213641405105591,
+                "entropy": 1.0069933173830912,
+                "top1_prob": 0.6940426149468055,
+                "coherence": 0.3458121205165568
+              },
+              {
+                "token": " Here",
+                "logprob": -0.049754682928323746,
+                "surprisal": 0.049754682928323746,
+                "entropy": 0.26612385813140943,
+                "top1_prob": 0.9528513900330848,
+                "coherence": 0.7525736000578465
+              },
+              {
+                "token": "'s",
+                "logprob": -0.057567041367292404,
+                "surprisal": 0.057567041367292404,
+                "entropy": 0.23297499097474592,
+                "top1_prob": 0.9440672259432753,
+                "coherence": 0.7656823803027258
+              },
+              {
+                "token": " the",
+                "logprob": -0.8442162871360779,
+                "surprisal": 0.8442162871360779,
+                "entropy": 1.2246025750366314,
+                "top1_prob": 0.42990733200066455,
+                "coherence": 0.19325129657983312
+              },
+              {
+                "token": " analysis",
+                "logprob": -0.16164912283420563,
+                "surprisal": 0.16164912283420563,
+                "entropy": 0.535360798961497,
+                "top1_prob": 0.8520008559940707,
+                "coherence": 0.55491898488639
+              },
+              {
+                "token": ":\n\n",
+                "logprob": -0.092659592628479,
+                "surprisal": 0.092659592628479,
+                "entropy": 0.3701938524520973,
+                "top1_prob": 0.9119570203181083,
+                "coherence": 0.665567882008864
+              },
+              {
+                "token": "1",
+                "logprob": -0.09735538065433502,
+                "surprisal": 0.09735538065433502,
+                "entropy": 0.3582789432412578,
+                "top1_prob": 0.9073309706132558,
+                "coherence": 0.6680004686284057
+              },
+              {
+                "token": ".",
+                "logprob": -1.2517053619376384e-05,
+                "surprisal": 1.2517053619376384e-05,
+                "entropy": 0.00016139120764024057,
+                "top1_prob": 0.9999881033197108,
+                "coherence": 0.9998267400746992
+              },
+              {
+                "token": " **",
+                "logprob": -0.0009562175255268812,
+                "surprisal": 0.0009562175255268812,
+                "entropy": 0.007754349943043401,
+                "top1_prob": 0.9990673058036054,
+                "coherence": 0.9913797999086493
+              },
+              {
+                "token": "Wave",
+                "logprob": -0.0007057295297272503,
+                "surprisal": 0.0007057295297272503,
+                "entropy": 0.005759818841329591,
+                "top1_prob": 0.999404777816611,
+                "coherence": 0.9936813532359645
+              },
+              {
+                "token": "-",
+                "logprob": -0.6644355058670044,
+                "surprisal": 0.6644355058670044,
+                "entropy": 0.7055616769075165,
+                "top1_prob": 0.5145704090024968,
+                "coherence": 0.30170143710985786
+              },
+              {
+                "token": "Particle",
+                "logprob": -7.927732076495886e-05,
+                "surprisal": 7.927732076495886e-05,
+                "entropy": 0.0008916085724206,
+                "top1_prob": 0.9999217124351116,
+                "coherence": 0.9990309678600539
+              },
+              {
+                "token": " D",
+                "logprob": -3.552499765646644e-05,
+                "surprisal": 3.552499765646644e-05,
+                "entropy": 0.0004157411842623666,
+                "top1_prob": 0.9999644235226347,
+                "coherence": 0.9995488698917377
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 2.3318909315655377e-07,
+                "top1_prob": 0.9999999887146674,
+                "coherence": 0.9999997555256313
+              },
+              {
+                "token": "**",
+                "logprob": -0.5182490348815918,
+                "surprisal": 0.5182490348815918,
+                "entropy": 0.7754205628994986,
+                "top1_prob": 0.595621561213147,
+                "coherence": 0.33548195490110666
+              },
+              {
+                "token": ":\n",
+                "logprob": -0.03656797856092453,
+                "surprisal": 0.03656797856092453,
+                "entropy": 0.16323580785757713,
+                "top1_prob": 0.9646344741966392,
+                "coherence": 0.8292682082864027
+              },
+              {
+                "token": "  ",
+                "logprob": -0.006115681491792202,
+                "surprisal": 0.006115681491792202,
+                "entropy": 0.03973783480308772,
+                "top1_prob": 0.9939915938459752,
+                "coherence": 0.9560021387835943
+              },
+              {
+                "token": " -",
+                "logprob": -0.00010800945165101439,
+                "surprisal": 0.00010800945165101439,
+                "entropy": 0.001149060704481403,
+                "top1_prob": 0.9999027197050913,
+                "coherence": 0.9987550894783708
+              },
+              {
+                "token": " **",
+                "logprob": -0.38521429896354675,
+                "surprisal": 0.38521429896354675,
+                "entropy": 1.0920088804456847,
+                "top1_prob": 0.7346529560219456,
+                "coherence": 0.3511710504142
+              },
+              {
+                "token": "Logical",
+                "logprob": -0.9068509936332703,
+                "surprisal": 0.9068509936332703,
+                "entropy": 1.6378405201079982,
+                "top1_prob": 0.43399486537775184,
+                "coherence": 0.16452657469981669
+              },
+              {
+                "token": " Cons",
+                "logprob": -0.10996079444885254,
+                "surprisal": 0.10996079444885254,
+                "entropy": 0.3925418960592016,
+                "top1_prob": 0.8968906659681062,
+                "coherence": 0.6440672761848283
+              },
+              {
+                "token": "istency",
+                "logprob": -3.9697482861811295e-05,
+                "surprisal": 3.9697482861811295e-05,
+                "entropy": 0.0004809997329435645,
+                "top1_prob": 0.9999602068354507,
+                "coherence": 0.9994794574833187
+              },
+              {
+                "token": "**:",
+                "logprob": -0.0034602477680891752,
+                "surprisal": 0.0034602477680891752,
+                "entropy": 0.02342903116040429,
+                "top1_prob": 0.9965819418478002,
+                "coherence": 0.9737675124554913
+              },
+              {
+                "token": " This",
+                "logprob": -0.6285191178321838,
+                "surprisal": 0.6285191178321838,
+                "entropy": 1.3557097318925153,
+                "top1_prob": 0.618257787522983,
+                "coherence": 0.2624507506815328
+              },
+              {
+                "token": " principle",
+                "logprob": -1.9338470697402954,
+                "surprisal": 1.9338470697402954,
+                "entropy": 0.6340005527146497,
+                "top1_prob": 0.8145735094348294,
+                "coherence": 0.4985148310271599
+              },
+              {
+                "token": " is",
+                "logprob": -0.738605260848999,
+                "surprisal": 0.738605260848999,
+                "entropy": 1.4400592901100366,
+                "top1_prob": 0.4879987290512808,
+                "coherence": 0.19999461940503668
+              },
+              {
+                "token": " consistent",
+                "logprob": -0.8952010869979858,
+                "surprisal": 0.8952010869979858,
+                "entropy": 1.3629128661964658,
+                "top1_prob": 0.4268538299945034,
+                "coherence": 0.1806473002458197
+              },
+              {
+                "token": " because",
+                "logprob": -0.2599683105945587,
+                "surprisal": 0.2599683105945587,
+                "entropy": 0.6921422961544366,
+                "top1_prob": 0.7718342801512661,
+                "coherence": 0.4561284721180583
+              },
+              {
+                "token": " it",
+                "logprob": -0.2333213835954666,
+                "surprisal": 0.2333213835954666,
+                "entropy": 0.5734482248034738,
+                "top1_prob": 0.7929596414657906,
+                "coherence": 0.5039629706054246
+              },
+              {
+                "token": " reflects",
+                "logprob": -1.1509181261062622,
+                "surprisal": 1.1509181261062622,
+                "entropy": 1.4356872225122073,
+                "top1_prob": 0.4257385190076475,
+                "coherence": 0.17479194991569313
+              }
+            ]
+          },
+          {
+            "depth": 2,
+            "prompt": "Preceding statement:\nWave-particle duality and non-locality are logically consistent within the framework of quantum mechanics. Here's the analysis:\n\n1. **Wave-Particle Duality**:\n   - **Logical Consistency**: This principle is consistent because it reflects\n\nAnalyze the logical consistency of wave-particle duality and non-locality:",
+            "text": "Wave-particle duality and non-locality are both logically consistent within the framework of quantum mechanics. Here's the analysis:\n\n1. **Wave-Particle Duality**:\n   - **Logical Consistency**: This principle is consistent because it",
+            "token_count": 48,
+            "primary_tokens": 20,
+            "mean_entropy": 0.1830919210177477,
+            "mean_coherence": 0.8559158048526394,
+            "mean_top1_prob": 0.9457629839953119,
+            "mean_surprisal": 0.19985218913048045,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "Wave",
+                "logprob": -0.42599743604660034,
+                "surprisal": 0.42599743604660034,
+                "entropy": 1.1310741292993198,
+                "top1_prob": 0.6734375078914018,
+                "coherence": 0.31600848540769566
+              },
+              {
+                "token": "-p",
+                "logprob": -0.0003755797806661576,
+                "surprisal": 0.0003755797806661576,
+                "entropy": 0.0038344662142065157,
+                "top1_prob": 0.999636478298893,
+                "coherence": 0.9958180476397215
+              },
+              {
+                "token": "article",
+                "logprob": -2.3841860752327193e-07,
+                "surprisal": 2.3841860752327193e-07,
+                "entropy": 4.196015882936907e-06,
+                "top1_prob": 0.9999997540936924,
+                "coherence": 0.9999955580964477
+              },
+              {
+                "token": " d",
+                "logprob": -4.780406743520871e-05,
+                "surprisal": 4.780406743520871e-05,
+                "entropy": 0.0005628355171502397,
+                "top1_prob": 0.9999525128077311,
+                "coherence": 0.999390020608647
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 1.2944202922087597e-07,
+                "top1_prob": 0.9999999937114004,
+                "coherence": 0.9999998642693886
+              },
+              {
+                "token": " and",
+                "logprob": -0.010716976597905159,
+                "surprisal": 0.010716976597905159,
+                "entropy": 0.07282933963616302,
+                "top1_prob": 0.9896944992025041,
+                "coherence": 0.9225087929997765
+              },
+              {
+                "token": " non",
+                "logprob": -0.0009704767726361752,
+                "surprisal": 0.0009704767726361752,
+                "entropy": 0.008433192370430834,
+                "top1_prob": 0.9990344659941566,
+                "coherence": 0.9906798720555979
+              },
+              {
+                "token": "-local",
+                "logprob": -7.903888035798445e-05,
+                "surprisal": 7.903888035798445e-05,
+                "entropy": 0.0008805579366051923,
+                "top1_prob": 0.9999212036453652,
+                "coherence": 0.9990414897325833
+              },
+              {
+                "token": "ity",
+                "logprob": -2.98023678624304e-06,
+                "surprisal": 2.98023678624304e-06,
+                "entropy": 4.56717105046933e-05,
+                "top1_prob": 0.9999969590883593,
+                "coherence": 0.9999512896025419
+              },
+              {
+                "token": " are",
+                "logprob": -0.003010030137374997,
+                "surprisal": 0.003010030137374997,
+                "entropy": 0.024550094794619896,
+                "top1_prob": 0.9971598615234055,
+                "coherence": 0.973266086831308
+              },
+              {
+                "token": " both",
+                "logprob": -1.3095110654830933,
+                "surprisal": 1.3095110654830933,
+                "entropy": 0.8139705139985084,
+                "top1_prob": 0.6796767046093364,
+                "coherence": 0.3746900511139704
+              },
+              {
+                "token": " logically",
+                "logprob": -0.04781656339764595,
+                "surprisal": 0.04781656339764595,
+                "entropy": 0.2519740011243456,
+                "top1_prob": 0.9586233125419846,
+                "coherence": 0.7656894725298489
+              },
+              {
+                "token": " consistent",
+                "logprob": -0.0017647809581831098,
+                "surprisal": 0.0017647809581831098,
+                "entropy": 0.014458415111583238,
+                "top1_prob": 0.9982498188785168,
+                "coherence": 0.9840224143329882
+              },
+              {
+                "token": " within",
+                "logprob": -0.04319822043180466,
+                "surprisal": 0.04319822043180466,
+                "entropy": 0.221388345455359,
+                "top1_prob": 0.959037099372416,
+                "coherence": 0.7852024320854863
+              },
+              {
+                "token": " the",
+                "logprob": -0.1579345315694809,
+                "surprisal": 0.1579345315694809,
+                "entropy": 0.42076285012547543,
+                "top1_prob": 0.8539371851325334,
+                "coherence": 0.6010413244244931
+              },
+              {
+                "token": " framework",
+                "logprob": -0.0003415929386392236,
+                "surprisal": 0.0003415929386392236,
+                "entropy": 0.0032172179513515215,
+                "top1_prob": 0.9997026463418301,
+                "coherence": 0.9964966992724683
+              },
+              {
+                "token": " of",
+                "logprob": -1.4782061043661088e-05,
+                "surprisal": 1.4782061043661088e-05,
+                "entropy": 0.0001770105776647202,
+                "top1_prob": 0.9999871868495442,
+                "coherence": 0.9998102098667407
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.017613423988223076,
+                "surprisal": 0.017613423988223076,
+                "entropy": 0.09072006365353699,
+                "top1_prob": 0.9825719527696924,
+                "coherence": 0.9008470509641259
+              },
+              {
+                "token": " mechanics",
+                "logprob": -7.260109123308212e-05,
+                "surprisal": 7.260109123308212e-05,
+                "entropy": 0.0008357371325449455,
+                "top1_prob": 0.9999294087040358,
+                "coherence": 0.9990944283913105
+              },
+              {
+                "token": ".",
+                "logprob": -1.977575659751892,
+                "surprisal": 1.977575659751892,
+                "entropy": 0.6021196522876721,
+                "top1_prob": 0.8247111284494381,
+                "coherence": 0.5147625068276457
+              },
+              {
+                "token": " Here",
+                "logprob": -0.02302798256278038,
+                "surprisal": 0.02302798256278038,
+                "entropy": 0.14127475754188593,
+                "top1_prob": 0.9788051080160508,
+                "coherence": 0.8576419495374037
+              },
+              {
+                "token": "'s",
+                "logprob": -0.04786964878439903,
+                "surprisal": 0.04786964878439903,
+                "entropy": 0.21924374562415833,
+                "top1_prob": 0.9532591707481666,
+                "coherence": 0.7818446263672829
+              },
+              {
+                "token": " the",
+                "logprob": -0.2146344780921936,
+                "surprisal": 0.2146344780921936,
+                "entropy": 0.5086204976128307,
+                "top1_prob": 0.8068423088747152,
+                "coherence": 0.5348212556779018
+              },
+              {
+                "token": " analysis",
+                "logprob": -0.06370650231838226,
+                "surprisal": 0.06370650231838226,
+                "entropy": 0.3142324389687656,
+                "top1_prob": 0.93960394083292,
+                "coherence": 0.7149450226401319
+              },
+              {
+                "token": ":\n\n",
+                "logprob": -0.00715076457709074,
+                "surprisal": 0.00715076457709074,
+                "entropy": 0.04606441417317439,
+                "top1_prob": 0.9929589746809777,
+                "coherence": 0.9492331076627132
+              },
+              {
+                "token": "1",
+                "logprob": -0.02630569040775299,
+                "surprisal": 0.02630569040775299,
+                "entropy": 0.13939896784881012,
+                "top1_prob": 0.9740747044793648,
+                "coherence": 0.8549022177178393
+              },
+              {
+                "token": ".",
+                "logprob": -5.364432581700385e-06,
+                "surprisal": 5.364432581700385e-06,
+                "entropy": 6.26627629877718e-05,
+                "top1_prob": 0.9999958910305706,
+                "coherence": 0.9999332324514218
+              },
+              {
+                "token": " **",
+                "logprob": -3.540578472893685e-05,
+                "surprisal": 3.540578472893685e-05,
+                "entropy": 0.0003867526769608817,
+                "top1_prob": 0.9999710214725441,
+                "coherence": 0.9995844295185793
+              },
+              {
+                "token": "Wave",
+                "logprob": -0.0001827049272833392,
+                "surprisal": 0.0001827049272833392,
+                "entropy": 0.001846623371070365,
+                "top1_prob": 0.9998189269708295,
+                "coherence": 0.9979760410895853
+              },
+              {
+                "token": "-",
+                "logprob": -0.00021978648146614432,
+                "surprisal": 0.00021978648146614432,
+                "entropy": 0.002346649766929039,
+                "top1_prob": 0.9997803211533055,
+                "coherence": 0.9974396795617361
+              },
+              {
+                "token": "Particle",
+                "logprob": -2.7180087272427045e-05,
+                "surprisal": 2.7180087272427045e-05,
+                "entropy": 0.00034105537302587505,
+                "top1_prob": 0.9999728075733306,
+                "coherence": 0.9996318777503759
+              },
+              {
+                "token": " D",
+                "logprob": -3.57628505298635e-06,
+                "surprisal": 3.57628505298635e-06,
+                "entropy": 4.939183430252036e-05,
+                "top1_prob": 0.9999964488063224,
+                "coherence": 0.999947059586844
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 1.214890237086151e-08,
+                "top1_prob": 0.999999999476803,
+                "coherence": 0.9999999873279007
+              },
+              {
+                "token": "**",
+                "logprob": -0.36605700850486755,
+                "surprisal": 0.36605700850486755,
+                "entropy": 0.6191442523089795,
+                "top1_prob": 0.6934721608301739,
+                "coherence": 0.42829547759024467
+              },
+              {
+                "token": ":\n",
+                "logprob": -0.004124133847653866,
+                "surprisal": 0.004124133847653866,
+                "entropy": 0.027784911786397876,
+                "top1_prob": 0.9958953927607502,
+                "coherence": 0.9689725752344229
+              },
+              {
+                "token": "  ",
+                "logprob": -0.0004337178252171725,
+                "surprisal": 0.0004337178252171725,
+                "entropy": 0.00438197212262442,
+                "top1_prob": 0.9995726345514159,
+                "coherence": 0.9952116448674954
+              },
+              {
+                "token": " -",
+                "logprob": -1.0967314665322192e-05,
+                "surprisal": 1.0967314665322192e-05,
+                "entropy": 0.0001365823835569652,
+                "top1_prob": 0.9999903558983361,
+                "coherence": 0.9998537934840135
+              },
+              {
+                "token": " **",
+                "logprob": -0.0017927255248650908,
+                "surprisal": 0.0017927255248650908,
+                "entropy": 0.01386930145256851,
+                "top1_prob": 0.998376672573863,
+                "coherence": 0.9847193037046201
+              },
+              {
+                "token": "Logical",
+                "logprob": -0.005567643325775862,
+                "surprisal": 0.005567643325775862,
+                "entropy": 0.03022851258603334,
+                "top1_prob": 0.9964686681032813,
+                "coherence": 0.9672307220482477
+              },
+              {
+                "token": " Cons",
+                "logprob": -0.0001737626298563555,
+                "surprisal": 0.0001737626298563555,
+                "entropy": 0.001696691456788651,
+                "top1_prob": 0.9998270141905972,
+                "coherence": 0.9981334896260141
+              },
+              {
+                "token": "istency",
+                "logprob": -1.4305124977909145e-06,
+                "surprisal": 1.4305124977909145e-06,
+                "entropy": 2.2208034334755645e-05,
+                "top1_prob": 0.9999985281153013,
+                "coherence": 0.9999763206068393
+              },
+              {
+                "token": "**:",
+                "logprob": -0.00034946348750963807,
+                "surprisal": 0.00034946348750963807,
+                "entropy": 0.003226573195435252,
+                "top1_prob": 0.999652076231102,
+                "coherence": 0.996436999318162
+              },
+              {
+                "token": " This",
+                "logprob": -0.0006089872331358492,
+                "surprisal": 0.0006089872331358492,
+                "entropy": 0.004647372128516178,
+                "top1_prob": 0.9995526006754175,
+                "coherence": 0.9949287963175533
+              },
+              {
+                "token": " principle",
+                "logprob": -0.00043347931932657957,
+                "surprisal": 0.00043347931932657957,
+                "entropy": 0.004382585461661057,
+                "top1_prob": 0.9995792800400806,
+                "coherence": 0.9952176536201366
+              },
+              {
+                "token": " is",
+                "logprob": -0.0010307376505807042,
+                "surprisal": 0.0010307376505807042,
+                "entropy": 0.008677109485930883,
+                "top1_prob": 0.9990491725087266,
+                "coherence": 0.9904548870132375
+              },
+              {
+                "token": " consistent",
+                "logprob": -0.06070011109113693,
+                "surprisal": 0.06070011109113693,
+                "entropy": 0.22869223301423375,
+                "top1_prob": 0.941245671364968,
+                "coherence": 0.7660548720617363
+              },
+              {
+                "token": " because",
+                "logprob": -0.006449591834098101,
+                "surprisal": 0.006449591834098101,
+                "entropy": 0.04445295283671787,
+                "top1_prob": 0.9936631606980842,
+                "coherence": 0.9513718717528737
+              },
+              {
+                "token": " it",
+                "logprob": -0.00016607233555987477,
+                "surprisal": 0.00016607233555987477,
+                "entropy": 0.0015813354455230966,
+                "top1_prob": 0.999859925318599,
+                "coherence": 0.9982813077021264
+              }
+            ]
+          },
+          {
+            "depth": 3,
+            "prompt": "Preceding statement:\nWave-particle duality and non-locality are both logically consistent within the framework of quantum mechanics. Here's the analysis:\n\n1. **Wave-Particle Duality**:\n   - **Logical Consistency**: This principle is consistent because it\n\nAnalyze the logical consistency of wave-particle duality and non-locality:",
+            "text": "Wave-particle duality and non-locality are both logically consistent within the framework of quantum mechanics. Here's the analysis:\n\n1. **Wave-Particle Duality**:\n   - **Logical Consistency**: This principle is consistent because it",
+            "token_count": 48,
+            "primary_tokens": 20,
+            "mean_entropy": 0.17089171812356307,
+            "mean_coherence": 0.8779132497654798,
+            "mean_top1_prob": 0.9424787680596406,
+            "mean_surprisal": 0.1461518282488356,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "Wave",
+                "logprob": -1.375883936882019,
+                "surprisal": 1.375883936882019,
+                "entropy": 1.6983861648380683,
+                "top1_prob": 0.3553507865130995,
+                "coherence": 0.1316901157972044
+              },
+              {
+                "token": "-p",
+                "logprob": -0.0010383749613538384,
+                "surprisal": 0.0010383749613538384,
+                "entropy": 0.0093514849860225,
+                "top1_prob": 0.9989977042069915,
+                "coherence": 0.9897421453943029
+              },
+              {
+                "token": "article",
+                "logprob": -3.576279254957626e-07,
+                "surprisal": 3.576279254957626e-07,
+                "entropy": 6.989549002211505e-06,
+                "top1_prob": 0.9999995810428651,
+                "coherence": 0.9999925915456447
+              },
+              {
+                "token": " d",
+                "logprob": -6.008328637108207e-05,
+                "surprisal": 6.008328637108207e-05,
+                "entropy": 0.0006936862408471717,
+                "top1_prob": 0.999940595194538,
+                "coherence": 0.9992474310004512
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 7.451577426165481e-07,
+                "top1_prob": 0.9999999599285048,
+                "coherence": 0.9999992147713472
+              },
+              {
+                "token": " and",
+                "logprob": -0.03229071572422981,
+                "surprisal": 0.03229071572422981,
+                "entropy": 0.17968899790882845,
+                "top1_prob": 0.9690320422304901,
+                "coherence": 0.8214300921244847
+              },
+              {
+                "token": " non",
+                "logprob": -0.0007354937260970473,
+                "surprisal": 0.0007354937260970473,
+                "entropy": 0.00660570307544209,
+                "top1_prob": 0.9992704710849115,
+                "coherence": 0.99271290439929
+              },
+              {
+                "token": "-local",
+                "logprob": -8.71457887114957e-05,
+                "surprisal": 8.71457887114957e-05,
+                "entropy": 0.0009629369725622878,
+                "top1_prob": 0.9999131473032038,
+                "coherence": 0.9989512202394489
+              },
+              {
+                "token": "ity",
+                "logprob": -2.3841887468734058e-06,
+                "surprisal": 2.3841887468734058e-06,
+                "entropy": 3.8602598056939916e-05,
+                "top1_prob": 0.9999974999598228,
+                "coherence": 0.9999588989483732
+              },
+              {
+                "token": " are",
+                "logprob": -0.0038549602031707764,
+                "surprisal": 0.0038549602031707764,
+                "entropy": 0.02863394358881308,
+                "top1_prob": 0.9962739827466578,
+                "coherence": 0.9685408389992906
+              },
+              {
+                "token": " both",
+                "logprob": -0.01918427087366581,
+                "surprisal": 0.01918427087366581,
+                "entropy": 0.11428434167376356,
+                "top1_prob": 0.9815485060870949,
+                "coherence": 0.8808779495301113
+              },
+              {
+                "token": " logically",
+                "logprob": -0.023220311850309372,
+                "surprisal": 0.023220311850309372,
+                "entropy": 0.1189536395444952,
+                "top1_prob": 0.9782327248494138,
+                "coherence": 0.8742388337443844
+              },
+              {
+                "token": " consistent",
+                "logprob": -0.001019938150420785,
+                "surprisal": 0.001019938150420785,
+                "entropy": 0.009176866244668992,
+                "top1_prob": 0.9989998656452712,
+                "coherence": 0.989915543112608
+              },
+              {
+                "token": " within",
+                "logprob": -0.019891515374183655,
+                "surprisal": 0.019891515374183655,
+                "entropy": 0.11536142339048754,
+                "top1_prob": 0.9813643407126238,
+                "coherence": 0.8798621864914979
+              },
+              {
+                "token": " the",
+                "logprob": -0.11250445246696472,
+                "surprisal": 0.11250445246696472,
+                "entropy": 0.34069713716936595,
+                "top1_prob": 0.8936153602986199,
+                "coherence": 0.666530371046606
+              },
+              {
+                "token": " framework",
+                "logprob": -0.0001918857597047463,
+                "surprisal": 0.0001918857597047463,
+                "entropy": 0.0018405928408799653,
+                "top1_prob": 0.9998386987170972,
+                "coherence": 0.9980017837786886
+              },
+              {
+                "token": " of",
+                "logprob": -8.463895028398838e-06,
+                "surprisal": 8.463895028398838e-06,
+                "entropy": 9.79974341928027e-05,
+                "top1_prob": 0.9999933822942996,
+                "coherence": 0.9998953951111175
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.0039040858391672373,
+                "surprisal": 0.0039040858391672373,
+                "entropy": 0.02660076193633388,
+                "top1_prob": 0.9961273325910946,
+                "coherence": 0.9703161828092144
+              },
+              {
+                "token": " mechanics",
+                "logprob": -5.4122483561513945e-05,
+                "surprisal": 5.4122483561513945e-05,
+                "entropy": 0.0006476239321181088,
+                "top1_prob": 0.9999478291650943,
+                "coherence": 0.9993006581434992
+              },
+              {
+                "token": ".",
+                "logprob": -1.3291040658950806,
+                "surprisal": 1.3291040658950806,
+                "entropy": 0.7658047233895697,
+                "top1_prob": 0.7011315506211169,
+                "coherence": 0.39706063832202926
+              },
+              {
+                "token": " Here",
+                "logprob": -0.01792667992413044,
+                "surprisal": 0.01792667992413044,
+                "entropy": 0.11409984730779839,
+                "top1_prob": 0.9837371874986719,
+                "coherence": 0.8829883514263597
+              },
+              {
+                "token": "'s",
+                "logprob": -0.025934254750609398,
+                "surprisal": 0.025934254750609398,
+                "entropy": 0.13533385561621947,
+                "top1_prob": 0.9743999521958527,
+                "coherence": 0.8582497098767329
+              },
+              {
+                "token": " the",
+                "logprob": -0.06810455769300461,
+                "surprisal": 0.06810455769300461,
+                "entropy": 0.2465301387561179,
+                "top1_prob": 0.9341657879519641,
+                "coherence": 0.7494129174318604
+              },
+              {
+                "token": " analysis",
+                "logprob": -0.038925159722566605,
+                "surprisal": 0.038925159722566605,
+                "entropy": 0.21340257952360253,
+                "top1_prob": 0.9624447319464459,
+                "coherence": 0.7931784126619494
+              },
+              {
+                "token": ":\n\n",
+                "logprob": -0.005999045912176371,
+                "surprisal": 0.005999045912176371,
+                "entropy": 0.03883460643131344,
+                "top1_prob": 0.9940605842309449,
+                "coherence": 0.956899758707327
+              },
+              {
+                "token": "1",
+                "logprob": -0.020348120480775833,
+                "surprisal": 0.020348120480775833,
+                "entropy": 0.11446018276685169,
+                "top1_prob": 0.9798937774796255,
+                "coherence": 0.8792541829954477
+              },
+              {
+                "token": ".",
+                "logprob": -5.245222382654902e-06,
+                "surprisal": 5.245222382654902e-06,
+                "entropy": 6.722315420929475e-05,
+                "top1_prob": 0.9999955476762663,
+                "coherence": 0.9999283293399848
+              },
+              {
+                "token": " **",
+                "logprob": -5.3168758313404396e-05,
+                "surprisal": 5.3168758313404396e-05,
+                "entropy": 0.000582885552823103,
+                "top1_prob": 0.9999534858264506,
+                "coherence": 0.9993709669279174
+              },
+              {
+                "token": "Wave",
+                "logprob": -7.486623508157209e-05,
+                "surprisal": 7.486623508157209e-05,
+                "entropy": 0.0008482580192154503,
+                "top1_prob": 0.9999254917993406,
+                "coherence": 0.999078015860565
+              },
+              {
+                "token": "-",
+                "logprob": -0.00018342031398788095,
+                "surprisal": 0.00018342031398788095,
+                "entropy": 0.0020050382071814736,
+                "top1_prob": 0.9998165428267318,
+                "coherence": 0.9978158838558683
+              },
+              {
+                "token": "Particle",
+                "logprob": -2.801457594614476e-05,
+                "surprisal": 2.801457594614476e-05,
+                "entropy": 0.0003471908695735459,
+                "top1_prob": 0.9999720492752997,
+                "coherence": 0.999624988606258
+              },
+              {
+                "token": " D",
+                "logprob": -3.099446303167497e-06,
+                "surprisal": 3.099446303167497e-06,
+                "entropy": 4.3867784547068565e-05,
+                "top1_prob": 0.9999968922806102,
+                "coherence": 0.9999530265566839
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 6.547165538620762e-09,
+                "top1_prob": 0.9999999997280549,
+                "coherence": 0.9999999931808894
+              },
+              {
+                "token": "**",
+                "logprob": -0.36117157340049744,
+                "surprisal": 0.36117157340049744,
+                "entropy": 0.6158743985850142,
+                "top1_prob": 0.696867078972122,
+                "coherence": 0.43126314742182514
+              },
+              {
+                "token": ":\n",
+                "logprob": -0.004123535007238388,
+                "surprisal": 0.004123535007238388,
+                "entropy": 0.027560821759146602,
+                "top1_prob": 0.9958928670157225,
+                "coherence": 0.9691814303612611
+              },
+              {
+                "token": "  ",
+                "logprob": -0.0004074807511642575,
+                "surprisal": 0.0004074807511642575,
+                "entropy": 0.0041445290399055035,
+                "top1_prob": 0.9995973414338404,
+                "coherence": 0.9954715805598096
+              },
+              {
+                "token": " -",
+                "logprob": -4.768382950715022e-06,
+                "surprisal": 4.768382950715022e-06,
+                "entropy": 6.58394785214082e-05,
+                "top1_prob": 0.9999957016292084,
+                "coherence": 0.9999298667682224
+              },
+              {
+                "token": " **",
+                "logprob": -0.0005522702704183757,
+                "surprisal": 0.0005522702704183757,
+                "entropy": 0.004845282221282591,
+                "top1_prob": 0.9995029237847148,
+                "coherence": 0.99468340198129
+              },
+              {
+                "token": "Logical",
+                "logprob": -0.0035344762727618217,
+                "surprisal": 0.0035344762727618217,
+                "entropy": 0.02146606104566207,
+                "top1_prob": 0.9975932554299883,
+                "coherence": 0.9766288802672157
+              },
+              {
+                "token": " Cons",
+                "logprob": -0.0001063403396983631,
+                "surprisal": 0.0001063403396983631,
+                "entropy": 0.001093978298404461,
+                "top1_prob": 0.9998937451689078,
+                "coherence": 0.9988010784646445
+              },
+              {
+                "token": "istency",
+                "logprob": -1.6689314179529902e-06,
+                "surprisal": 1.6689314179529902e-06,
+                "entropy": 2.4604009765422036e-05,
+                "top1_prob": 0.9999983283280237,
+                "coherence": 0.9999737249647296
+              },
+              {
+                "token": "**:",
+                "logprob": -0.00024923807359300554,
+                "surprisal": 0.00024923807359300554,
+                "entropy": 0.0023861298471096796,
+                "top1_prob": 0.999751845131584,
+                "coherence": 0.9973719860669585
+              },
+              {
+                "token": " This",
+                "logprob": -8.142326259985566e-05,
+                "surprisal": 8.142326259985566e-05,
+                "entropy": 0.0007545146710164172,
+                "top1_prob": 0.9999407435522282,
+                "coherence": 0.9991868424205353
+              },
+              {
+                "token": " principle",
+                "logprob": -3.588264007703401e-05,
+                "surprisal": 3.588264007703401e-05,
+                "entropy": 0.00043660334131013096,
+                "top1_prob": 0.9999665575694834,
+                "coherence": 0.9995301593621656
+              },
+              {
+                "token": " is",
+                "logprob": -0.00020714759011752903,
+                "surprisal": 0.00020714759011752903,
+                "entropy": 0.0020385635113669186,
+                "top1_prob": 0.9998190176257449,
+                "coherence": 0.9977849695945391
+              },
+              {
+                "token": " consistent",
+                "logprob": -0.01453432533890009,
+                "surprisal": 0.01453432533890009,
+                "entropy": 0.07708605327180575,
+                "top1_prob": 0.9856118061740226,
+                "coherence": 0.9150724802164907
+              },
+              {
+                "token": " because",
+                "logprob": -0.0009793068747967482,
+                "surprisal": 0.0009793068747967482,
+                "entropy": 0.008718546568264153,
+                "top1_prob": 0.9990507632809734,
+                "coherence": 0.990415777205464
+              },
+              {
+                "token": " it",
+                "logprob": -0.0006377942045219243,
+                "surprisal": 0.0006377942045219243,
+                "entropy": 0.00560625569241429,
+                "top1_prob": 0.9994344293066423,
+                "coherence": 0.9938625815513424
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "arm": "C",
+        "trial_index": 1,
+        "seed": 44001,
+        "complete": true,
+        "failure": null,
+        "depths": [
+          {
+            "depth": 1,
+            "prompt": "I am an autoregressive language model generating the next token from a probability distribution.\n\nAnalyze the logical consistency of wave-particle duality and non-locality:",
+            "text": "Wave-particle duality and non-locality are both fundamental concepts in quantum mechanics that exhibit logical consistency within their respective frameworks, despite seeming paradoxical at first glance. Here's a structured analysis:\n\n1. **Wave-Particle Duality**",
+            "token_count": 48,
+            "primary_tokens": 20,
+            "mean_entropy": 0.3563976109848409,
+            "mean_coherence": 0.7825283040260794,
+            "mean_top1_prob": 0.8916464222754401,
+            "mean_surprisal": 0.4035209412027655,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "Wave",
+                "logprob": -0.009287015534937382,
+                "surprisal": 0.009287015534937382,
+                "entropy": 0.061468136249003213,
+                "top1_prob": 0.9915714641848468,
+                "coherence": 0.9341509465266136
+              },
+              {
+                "token": "-p",
+                "logprob": -0.00037116737803444266,
+                "surprisal": 0.00037116737803444266,
+                "entropy": 0.0035723158680387936,
+                "top1_prob": 0.9996349127364638,
+                "coherence": 0.9960766124480334
+              },
+              {
+                "token": "article",
+                "logprob": -4.768372718899627e-07,
+                "surprisal": 4.768372718899627e-07,
+                "entropy": 9.299635825766495e-06,
+                "top1_prob": 0.9999994256929614,
+                "coherence": 0.9999901261489588
+              },
+              {
+                "token": " d",
+                "logprob": -0.00015534176782239228,
+                "surprisal": 0.00015534176782239228,
+                "entropy": 0.0015149970994465334,
+                "top1_prob": 0.9998497920711505,
+                "coherence": 0.9983373139362678
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 4.2195303627377713e-10,
+                "top1_prob": 0.9999999999833644,
+                "coherence": 0.9999999995614113
+              },
+              {
+                "token": " and",
+                "logprob": -0.010435663163661957,
+                "surprisal": 0.010435663163661957,
+                "entropy": 0.07093521163922939,
+                "top1_prob": 0.9904211254964972,
+                "coherence": 0.9248189010243737
+              },
+              {
+                "token": " non",
+                "logprob": -0.0198652483522892,
+                "surprisal": 0.0198652483522892,
+                "entropy": 0.10105082823836888,
+                "top1_prob": 0.9804065631476301,
+                "coherence": 0.8904280692620121
+              },
+              {
+                "token": "-local",
+                "logprob": -0.0003111846453975886,
+                "surprisal": 0.0003111846453975886,
+                "entropy": 0.0030170941275173783,
+                "top1_prob": 0.9996912523481485,
+                "coherence": 0.9966841624147375
+              },
+              {
+                "token": "ity",
+                "logprob": -1.3709161976294126e-05,
+                "surprisal": 1.3709161976294126e-05,
+                "entropy": 0.00016996777026777953,
+                "top1_prob": 0.9999877939103469,
+                "coherence": 0.9998178570985019
+              },
+              {
+                "token": " are",
+                "logprob": -0.02608921192586422,
+                "surprisal": 0.02608921192586422,
+                "entropy": 0.1473533201633078,
+                "top1_prob": 0.9746938413073881,
+                "coherence": 0.8495149873873689
+              },
+              {
+                "token": " both",
+                "logprob": -0.3122473359107971,
+                "surprisal": 0.3122473359107971,
+                "entropy": 0.8619972272875347,
+                "top1_prob": 0.7391599699435661,
+                "coherence": 0.39697157391600296
+              },
+              {
+                "token": " fundamental",
+                "logprob": -1.5366184711456299,
+                "surprisal": 1.5366184711456299,
+                "entropy": 1.6670801622229756,
+                "top1_prob": 0.45067338747789093,
+                "coherence": 0.16897631869537083
+              },
+              {
+                "token": " concepts",
+                "logprob": -0.3336234986782074,
+                "surprisal": 0.3336234986782074,
+                "entropy": 1.0285749685210692,
+                "top1_prob": 0.7225090747295214,
+                "coherence": 0.3561658237635979
+              },
+              {
+                "token": " in",
+                "logprob": -0.01097926590591669,
+                "surprisal": 0.01097926590591669,
+                "entropy": 0.06368631996928233,
+                "top1_prob": 0.9893634610231168,
+                "coherence": 0.9301270895837864
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.0034474481362849474,
+                "surprisal": 0.0034474481362849474,
+                "entropy": 0.02654948501286272,
+                "top1_prob": 0.9966069443098564,
+                "coherence": 0.9708318584343442
+              },
+              {
+                "token": " mechanics",
+                "logprob": -0.0076668160036206245,
+                "surprisal": 0.0076668160036206245,
+                "entropy": 0.05079244051708689,
+                "top1_prob": 0.9923741809815664,
+                "coherence": 0.944405519793449
+              },
+              {
+                "token": " that",
+                "logprob": -1.854259729385376,
+                "surprisal": 1.854259729385376,
+                "entropy": 0.871421893146195,
+                "top1_prob": 0.6993733213369138,
+                "coherence": 0.3737122686756336
+              },
+              {
+                "token": " exhibit",
+                "logprob": -3.8980298042297363,
+                "surprisal": 3.8980298042297363,
+                "entropy": 1.9712535725865301,
+                "top1_prob": 0.3368680338931568,
+                "coherence": 0.11337572699993662
+              },
+              {
+                "token": " logical",
+                "logprob": -0.045717090368270874,
+                "surprisal": 0.045717090368270874,
+                "entropy": 0.18626132371688822,
+                "top1_prob": 0.9709748108438824,
+                "coherence": 0.8185167900455078
+              },
+              {
+                "token": " consistency",
+                "logprob": -0.0013003455242142081,
+                "surprisal": 0.0013003455242142081,
+                "entropy": 0.01124365550343397,
+                "top1_prob": 0.9987690900905322,
+                "coherence": 0.98766413480568
+              },
+              {
+                "token": " within",
+                "logprob": -0.1713685691356659,
+                "surprisal": 0.1713685691356659,
+                "entropy": 0.6212387418354335,
+                "top1_prob": 0.8452298914501619,
+                "coherence": 0.5213481948335764
+              },
+              {
+                "token": " their",
+                "logprob": -0.9314397573471069,
+                "surprisal": 0.9314397573471069,
+                "entropy": 0.679182736348114,
+                "top1_prob": 0.6050165310966988,
+                "coherence": 0.36030416344827876
+              },
+              {
+                "token": " respective",
+                "logprob": -1.472975730895996,
+                "surprisal": 1.472975730895996,
+                "entropy": 0.9614068872789057,
+                "top1_prob": 0.6805485507809895,
+                "coherence": 0.34696959371093394
+              },
+              {
+                "token": " frameworks",
+                "logprob": -0.36646854877471924,
+                "surprisal": 0.36646854877471924,
+                "entropy": 0.8887177969154427,
+                "top1_prob": 0.694346193164759,
+                "coherence": 0.36762834251825743
+              },
+              {
+                "token": ",",
+                "logprob": -0.3066815435886383,
+                "surprisal": 0.3066815435886383,
+                "entropy": 0.8270484575212016,
+                "top1_prob": 0.7368782768031532,
+                "coherence": 0.4033162195396245
+              },
+              {
+                "token": " despite",
+                "logprob": -2.0404083728790283,
+                "surprisal": 2.0404083728790283,
+                "entropy": 1.475498178561268,
+                "top1_prob": 0.48452604940116495,
+                "coherence": 0.19572870365946546
+              },
+              {
+                "token": " seeming",
+                "logprob": -0.7982879877090454,
+                "surprisal": 0.7982879877090454,
+                "entropy": 1.4083149129406327,
+                "top1_prob": 0.46341994507273665,
+                "coherence": 0.19242497838743416
+              },
+              {
+                "token": " paradox",
+                "logprob": -0.12201147526502609,
+                "surprisal": 0.12201147526502609,
+                "entropy": 0.4247261339163175,
+                "top1_prob": 0.8853697728679599,
+                "coherence": 0.6214315522059223
+              },
+              {
+                "token": "ical",
+                "logprob": -2.2650021492154337e-05,
+                "surprisal": 2.2650021492154337e-05,
+                "entropy": 0.00028243557064468704,
+                "top1_prob": 0.9999777254661066,
+                "coherence": 0.9996953759321343
+              },
+              {
+                "token": " at",
+                "logprob": -1.4902218580245972,
+                "surprisal": 1.4902218580245972,
+                "entropy": 1.3329781679373582,
+                "top1_prob": 0.5046777220825435,
+                "coherence": 0.2163233797120104
+              },
+              {
+                "token": " first",
+                "logprob": -0.03456415235996246,
+                "surprisal": 0.03456415235996246,
+                "entropy": 0.1658875657493354,
+                "top1_prob": 0.9660739209192599,
+                "coherence": 0.8286167116795246
+              },
+              {
+                "token": " glance",
+                "logprob": -0.07480791211128235,
+                "surprisal": 0.07480791211128235,
+                "entropy": 0.27575659704178784,
+                "top1_prob": 0.92832521090491,
+                "coherence": 0.7276664005167612
+              },
+              {
+                "token": ".",
+                "logprob": -0.06506826728582382,
+                "surprisal": 0.06506826728582382,
+                "entropy": 0.26740832021041266,
+                "top1_prob": 0.9371196049125654,
+                "coherence": 0.7393983375120865
+              },
+              {
+                "token": " Here",
+                "logprob": -0.007088873069733381,
+                "surprisal": 0.007088873069733381,
+                "entropy": 0.04837193816261379,
+                "top1_prob": 0.9930850898593131,
+                "coherence": 0.9472640898799743
+              },
+              {
+                "token": "'s",
+                "logprob": -0.05230772867798805,
+                "surprisal": 0.05230772867798805,
+                "entropy": 0.21542277517269684,
+                "top1_prob": 0.9490437422275644,
+                "coherence": 0.7808342591677342
+              },
+              {
+                "token": " a",
+                "logprob": -1.2478855848312378,
+                "surprisal": 1.2478855848312378,
+                "entropy": 0.8603897721699983,
+                "top1_prob": 0.6539145369929376,
+                "coherence": 0.3514932982190059
+              },
+              {
+                "token": " structured",
+                "logprob": -0.5515679717063904,
+                "surprisal": 0.5515679717063904,
+                "entropy": 0.7997418365509534,
+                "top1_prob": 0.5772307566005052,
+                "coherence": 0.3207297540555689
+              },
+              {
+                "token": " analysis",
+                "logprob": -0.0012039038119837642,
+                "surprisal": 0.0012039038119837642,
+                "entropy": 0.009721516924571271,
+                "top1_prob": 0.9988393023986344,
+                "coherence": 0.989222558553489
+              },
+              {
+                "token": ":\n\n",
+                "logprob": -0.6810401082038879,
+                "surprisal": 0.6810401082038879,
+                "entropy": 0.7300576594863946,
+                "top1_prob": 0.5061817848549651,
+                "coherence": 0.2925808756022827
+              },
+              {
+                "token": "1",
+                "logprob": -1.168090581893921,
+                "surprisal": 1.168090581893921,
+                "entropy": 0.8588708704317362,
+                "top1_prob": 0.6247658782338313,
+                "coherence": 0.3360996657550102
+              },
+              {
+                "token": ".",
+                "logprob": -2.098105505865533e-05,
+                "surprisal": 2.098105505865533e-05,
+                "entropy": 0.0002529975934204608,
+                "top1_prob": 0.999980435742634,
+                "coherence": 0.9997275070892642
+              },
+              {
+                "token": " **",
+                "logprob": -8.535749657312408e-05,
+                "surprisal": 8.535749657312408e-05,
+                "entropy": 0.0007745967991385444,
+                "top1_prob": 0.999937457051634,
+                "coherence": 0.9991635081963689
+              },
+              {
+                "token": "Wave",
+                "logprob": -0.0032117031514644623,
+                "surprisal": 0.0032117031514644623,
+                "entropy": 0.021861325840396257,
+                "top1_prob": 0.9969412799292299,
+                "coherence": 0.9756130843970714
+              },
+              {
+                "token": "-",
+                "logprob": -0.05485723167657852,
+                "surprisal": 0.05485723167657852,
+                "entropy": 0.2134052210875881,
+                "top1_prob": 0.9466237031282265,
+                "coherence": 0.7801381489686995
+              },
+              {
+                "token": "Particle",
+                "logprob": -4.5181343011790887e-05,
+                "surprisal": 4.5181343011790887e-05,
+                "entropy": 0.0005404435145812393,
+                "top1_prob": 0.9999548331913937,
+                "coherence": 0.9994147059951615
+              },
+              {
+                "token": " D",
+                "logprob": -5.364562093745917e-05,
+                "surprisal": 5.364562093745917e-05,
+                "entropy": 0.0006059507017444361,
+                "top1_prob": 0.9999460937833959,
+                "coherence": 0.9993405426802772
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 2.0790710449248874e-07,
+                "top1_prob": 0.9999999899879407,
+                "coherence": 0.9999997820808816
+              },
+              {
+                "token": "**",
+                "logprob": -0.29388073086738586,
+                "surprisal": 0.29388073086738586,
+                "entropy": 0.8533463322069363,
+                "top1_prob": 0.7456685394629149,
+                "coherence": 0.4023363180992644
+              }
+            ]
+          },
+          {
+            "depth": 2,
+            "prompt": "Preceding statement:\nWave-particle duality and non-locality are both fundamental concepts in quantum mechanics that exhibit logical consistency within their respective frameworks, despite seeming paradoxical at first glance. Here's a structured analysis:\n\n1. **Wave-Particle Duality**\n\nAnalyze the logical consistency of wave-particle duality and non-locality:",
+            "text": "1. **Wave-Particle Duality**  \n   - **Concept**: Particles exhibit both wave-like and particle-like behavior, depending on the experimental setup (e.g., interference in the double-slit experiment vs. localization in detection).",
+            "token_count": 48,
+            "primary_tokens": 20,
+            "mean_entropy": 0.27872213873151425,
+            "mean_coherence": 0.7852206258720696,
+            "mean_top1_prob": 0.9200262743316756,
+            "mean_surprisal": 0.376994877190225,
+            "unique_token_fraction": 0.95,
+            "steps": [
+              {
+                "token": "1",
+                "logprob": -0.20928353071212769,
+                "surprisal": 0.20928353071212769,
+                "entropy": 0.7354530012030132,
+                "top1_prob": 0.8159305630188873,
+                "coherence": 0.4701542262759554
+              },
+              {
+                "token": ".",
+                "logprob": -1.633180545468349e-05,
+                "surprisal": 1.633180545468349e-05,
+                "entropy": 0.00017201195363861338,
+                "top1_prob": 0.9999878053570662,
+                "coherence": 0.9998158250837148
+              },
+              {
+                "token": " **",
+                "logprob": -1.7047073924914002e-05,
+                "surprisal": 1.7047073924914002e-05,
+                "entropy": 0.00021723666879295078,
+                "top1_prob": 0.9999836274995372,
+                "coherence": 0.9997664415681999
+              },
+              {
+                "token": "Wave",
+                "logprob": -0.004436783958226442,
+                "surprisal": 0.004436783958226442,
+                "entropy": 0.02881241645986148,
+                "top1_prob": 0.9955903100844118,
+                "coherence": 0.9677082956582437
+              },
+              {
+                "token": "-",
+                "logprob": -8.523827273165807e-05,
+                "surprisal": 8.523827273165807e-05,
+                "entropy": 0.001005161343483459,
+                "top1_prob": 0.9999147503020734,
+                "coherence": 0.9989106838970276
+              },
+              {
+                "token": "Particle",
+                "logprob": -0.00019534349848981947,
+                "surprisal": 0.00019534349848981947,
+                "entropy": 0.0020132398789442156,
+                "top1_prob": 0.9998048226354789,
+                "coherence": 0.99779601989717
+              },
+              {
+                "token": " D",
+                "logprob": -6.9141628955549095e-06,
+                "surprisal": 6.9141628955549095e-06,
+                "entropy": 9.311935158513781e-05,
+                "top1_prob": 0.9999931137659591,
+                "coherence": 0.9999000037259621
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 1.213311661612471e-07,
+                "top1_prob": 0.9999999944071063,
+                "coherence": 0.9999998730759555
+              },
+              {
+                "token": "**",
+                "logprob": -0.029407616704702377,
+                "surprisal": 0.029407616704702377,
+                "entropy": 0.16680233837505576,
+                "top1_prob": 0.9710625396949671,
+                "coherence": 0.8322425382240105
+              },
+              {
+                "token": "  \n",
+                "logprob": -0.0031514300499111414,
+                "surprisal": 0.0031514300499111414,
+                "entropy": 0.0234403947663082,
+                "top1_prob": 0.9969408417170166,
+                "coherence": 0.9741073801808042
+              },
+              {
+                "token": "  ",
+                "logprob": -0.1831846982240677,
+                "surprisal": 0.1831846982240677,
+                "entropy": 0.5176572643559358,
+                "top1_prob": 0.8351291647623857,
+                "coherence": 0.550275206646738
+              },
+              {
+                "token": " -",
+                "logprob": -1.091292142868042,
+                "surprisal": 1.091292142868042,
+                "entropy": 1.12720597895689,
+                "top1_prob": 0.5062703481207129,
+                "coherence": 0.23799780234209894
+              },
+              {
+                "token": " **",
+                "logprob": -0.007416803389787674,
+                "surprisal": 0.007416803389787674,
+                "entropy": 0.048012643274937546,
+                "top1_prob": 0.9928204715206159,
+                "coherence": 0.9473363493193637
+              },
+              {
+                "token": "Concept",
+                "logprob": -2.459920644760132,
+                "surprisal": 2.459920644760132,
+                "entropy": 0.5333721538949021,
+                "top1_prob": 0.8734262953916305,
+                "coherence": 0.5696114235367127
+              },
+              {
+                "token": "**:",
+                "logprob": -0.10620477050542831,
+                "surprisal": 0.10620477050542831,
+                "entropy": 0.421834043798917,
+                "top1_prob": 0.8996266362609506,
+                "coherence": 0.6327226726526323
+              },
+              {
+                "token": " Part",
+                "logprob": -0.20701900124549866,
+                "surprisal": 0.20701900124549866,
+                "entropy": 0.6909891150706616,
+                "top1_prob": 0.8293776446414686,
+                "coherence": 0.490468943442496
+              },
+              {
+                "token": "icles",
+                "logprob": -7.152559646783629e-07,
+                "surprisal": 7.152559646783629e-07,
+                "entropy": 1.054176780040962e-05,
+                "top1_prob": 0.9999993365305415,
+                "coherence": 0.9999887948808628
+              },
+              {
+                "token": " exhibit",
+                "logprob": -3.164881706237793,
+                "surprisal": 3.164881706237793,
+                "entropy": 0.9249564118334888,
+                "top1_prob": 0.756433889627481,
+                "coherence": 0.392961567845056
+              },
+              {
+                "token": " both",
+                "logprob": -0.04756637290120125,
+                "surprisal": 0.04756637290120125,
+                "entropy": 0.22268207721269764,
+                "top1_prob": 0.9536352971507074,
+                "coherence": 0.779953607666086
+              },
+              {
+                "token": " wave",
+                "logprob": -0.025810452178120613,
+                "surprisal": 0.025810452178120613,
+                "entropy": 0.12971350313220473,
+                "top1_prob": 0.9745980341445125,
+                "coherence": 0.8626948615223023
+              },
+              {
+                "token": "-like",
+                "logprob": -0.0004640702100005001,
+                "surprisal": 0.0004640702100005001,
+                "entropy": 0.004114382598273466,
+                "top1_prob": 0.9995358648756677,
+                "coherence": 0.9954402428628119
+              },
+              {
+                "token": " and",
+                "logprob": -0.03320752829313278,
+                "surprisal": 0.03320752829313278,
+                "entropy": 0.15365490884111735,
+                "top1_prob": 0.9674145086466756,
+                "coherence": 0.8385648959951757
+              },
+              {
+                "token": " particle",
+                "logprob": -0.00016225701256189495,
+                "surprisal": 0.00016225701256189495,
+                "entropy": 0.0017540832278141831,
+                "top1_prob": 0.999838823361085,
+                "coherence": 0.9980880937759116
+              },
+              {
+                "token": "-like",
+                "logprob": -1.9073504518019035e-06,
+                "surprisal": 1.9073504518019035e-06,
+                "entropy": 3.1095281025085865e-05,
+                "top1_prob": 0.9999979592038478,
+                "coherence": 0.9999668649531662
+              },
+              {
+                "token": " behavior",
+                "logprob": -0.5095651149749756,
+                "surprisal": 0.5095651149749756,
+                "entropy": 0.9539891737706787,
+                "top1_prob": 0.6007769106573658,
+                "coherence": 0.30746173966666684
+              },
+              {
+                "token": ",",
+                "logprob": -0.9917439818382263,
+                "surprisal": 0.9917439818382263,
+                "entropy": 0.7671036295693663,
+                "top1_prob": 0.6107607361688904,
+                "coherence": 0.34562813744982773
+              },
+              {
+                "token": " depending",
+                "logprob": -0.22927850484848022,
+                "surprisal": 0.22927850484848022,
+                "entropy": 0.7187611330819917,
+                "top1_prob": 0.8025270951018024,
+                "coherence": 0.4669218308787057
+              },
+              {
+                "token": " on",
+                "logprob": -3.695494797284482e-06,
+                "surprisal": 3.695494797284482e-06,
+                "entropy": 5.349241442025695e-05,
+                "top1_prob": 0.9999964411099632,
+                "coherence": 0.9999429517471918
+              },
+              {
+                "token": " the",
+                "logprob": -0.03703424707055092,
+                "surprisal": 0.03703424707055092,
+                "entropy": 0.2035061984660911,
+                "top1_prob": 0.9636987696027389,
+                "coherence": 0.8007426723942139
+              },
+              {
+                "token": " experimental",
+                "logprob": -0.1378229260444641,
+                "surprisal": 0.1378229260444641,
+                "entropy": 0.5312252380318019,
+                "top1_prob": 0.8716626155017836,
+                "coherence": 0.5692582605431691
+              },
+              {
+                "token": " setup",
+                "logprob": -0.6227885484695435,
+                "surprisal": 0.6227885484695435,
+                "entropy": 0.6988133749514371,
+                "top1_prob": 0.5364599851439974,
+                "coherence": 0.31578511981007495
+              },
+              {
+                "token": " (",
+                "logprob": -0.4810704290866852,
+                "surprisal": 0.4810704290866852,
+                "entropy": 0.7179857455737356,
+                "top1_prob": 0.6182596055273508,
+                "coherence": 0.35987470042766734
+              },
+              {
+                "token": "e",
+                "logprob": -0.0006686299457214773,
+                "surprisal": 0.0006686299457214773,
+                "entropy": 0.005815714578992268,
+                "top1_prob": 0.999442040441976,
+                "coherence": 0.9936631790052275
+              },
+              {
+                "token": ".g",
+                "logprob": -6.7949526965094265e-06,
+                "surprisal": 6.7949526965094265e-06,
+                "entropy": 9.156679048749818e-05,
+                "top1_prob": 0.9999931398673227,
+                "coherence": 0.9999015820886475
+              },
+              {
+                "token": ".,",
+                "logprob": -8.142326259985566e-05,
+                "surprisal": 8.142326259985566e-05,
+                "entropy": 0.0008529155793965452,
+                "top1_prob": 0.9999183515246738,
+                "coherence": 0.9990662323702362
+              },
+              {
+                "token": " interference",
+                "logprob": -1.8918023109436035,
+                "surprisal": 1.8918023109436035,
+                "entropy": 1.080591989178882,
+                "top1_prob": 0.6795054863304104,
+                "coherence": 0.3265923784502224
+              },
+              {
+                "token": " in",
+                "logprob": -0.3452402949333191,
+                "surprisal": 0.3452402949333191,
+                "entropy": 0.6380923396131245,
+                "top1_prob": 0.7083231031119379,
+                "coherence": 0.4324073106154844
+              },
+              {
+                "token": " the",
+                "logprob": -0.36589327454566956,
+                "surprisal": 0.36589327454566956,
+                "entropy": 0.813592516956188,
+                "top1_prob": 0.6939094174184983,
+                "coherence": 0.3826159464878634
+              },
+              {
+                "token": " double",
+                "logprob": -0.000944285246077925,
+                "surprisal": 0.000944285246077925,
+                "entropy": 0.008138132054734355,
+                "top1_prob": 0.9990673623507186,
+                "coherence": 0.9910024535174279
+              },
+              {
+                "token": "-s",
+                "logprob": -1.4901272152201273e-05,
+                "surprisal": 1.4901272152201273e-05,
+                "entropy": 0.00019861481275926823,
+                "top1_prob": 0.9999850987009068,
+                "coherence": 0.999786526287189
+              },
+              {
+                "token": "lit",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 8.01609698361483e-07,
+                "top1_prob": 0.9999999597302457,
+                "coherence": 0.9999991581212222
+              },
+              {
+                "token": " experiment",
+                "logprob": -8.869564771885052e-05,
+                "surprisal": 8.869564771885052e-05,
+                "entropy": 0.0009321954207094534,
+                "top1_prob": 0.9999242723972148,
+                "coherence": 0.9989930156826746
+              },
+              {
+                "token": " vs",
+                "logprob": -0.3654356002807617,
+                "surprisal": 0.3654356002807617,
+                "entropy": 1.036519058331544,
+                "top1_prob": 0.6946293210094125,
+                "coherence": 0.34108658014646837
+              },
+              {
+                "token": ".",
+                "logprob": -0.0005715930601581931,
+                "surprisal": 0.0005715930601581931,
+                "entropy": 0.005007920883531673,
+                "top1_prob": 0.9995318453046296,
+                "coherence": 0.9945512115227033
+              },
+              {
+                "token": " localization",
+                "logprob": -0.34437403082847595,
+                "surprisal": 0.34437403082847595,
+                "entropy": 0.8576885278715367,
+                "top1_prob": 0.7099929492766187,
+                "coherence": 0.3821915991967176
+              },
+              {
+                "token": " in",
+                "logprob": -0.024396566674113274,
+                "surprisal": 0.024396566674113274,
+                "entropy": 0.14446677206585104,
+                "top1_prob": 0.9761193580849604,
+                "coherence": 0.8529031876766413
+              },
+              {
+                "token": " detection",
+                "logprob": -0.5909761190414429,
+                "surprisal": 0.5909761190414429,
+                "entropy": 1.2625475046433803,
+                "top1_prob": 0.5661891352920589,
+                "coherence": 0.25024408730869985
+              },
+              {
+                "token": ").",
+                "logprob": -0.06396730989217758,
+                "surprisal": 0.06396730989217758,
+                "entropy": 0.2900551735259929,
+                "top1_prob": 0.9386470196156388,
+                "coherence": 0.727602228864459
+              }
+            ]
+          },
+          {
+            "depth": 3,
+            "prompt": "Preceding statement:\n1. **Wave-Particle Duality**  \n   - **Concept**: Particles exhibit both wave-like and particle-like behavior, depending on the experimental setup (e.g., interference in the double-slit experiment vs. localization in detection).\n\nAnalyze the logical consistency of wave-particle duality and non-locality:",
+            "text": "Wave-particle duality and non-locality are both fundamental concepts in quantum mechanics and are logically consistent within the framework of quantum theory, though they challenge classical intuitions. Here's an analysis of their consistency:\n\n### 1. **",
+            "token_count": 48,
+            "primary_tokens": 20,
+            "mean_entropy": 0.31102931069200507,
+            "mean_coherence": 0.7860201675155839,
+            "mean_top1_prob": 0.9065488568206226,
+            "mean_surprisal": 0.23697746583547996,
+            "unique_token_fraction": 0.9,
+            "steps": [
+              {
+                "token": "Wave",
+                "logprob": -0.24716416001319885,
+                "surprisal": 0.24716416001319885,
+                "entropy": 0.6813855753809487,
+                "top1_prob": 0.782850663510322,
+                "coherence": 0.4655985366907604
+              },
+              {
+                "token": "-p",
+                "logprob": -0.0005294890142977238,
+                "surprisal": 0.0005294890142977238,
+                "entropy": 0.0052107919020867545,
+                "top1_prob": 0.9994848509614284,
+                "coherence": 0.9943037410791983
+              },
+              {
+                "token": "article",
+                "logprob": -3.814704541582614e-06,
+                "surprisal": 3.814704541582614e-06,
+                "entropy": 5.522097479809062e-05,
+                "top1_prob": 0.9999961471108897,
+                "coherence": 0.9999409293980278
+              },
+              {
+                "token": " d",
+                "logprob": -0.00019689352484419942,
+                "surprisal": 0.00019689352484419942,
+                "entropy": 0.0020133471130401996,
+                "top1_prob": 0.9998056255924272,
+                "coherence": 0.9977967144579724
+              },
+              {
+                "token": "uality",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 2.9194018886877974e-10,
+                "top1_prob": 0.9999999999890359,
+                "coherence": 0.9999999996970956
+              },
+              {
+                "token": " and",
+                "logprob": -0.013399689458310604,
+                "surprisal": 0.013399689458310604,
+                "entropy": 0.0833342144402456,
+                "top1_prob": 0.9874192425107913,
+                "coherence": 0.9114631748439579
+              },
+              {
+                "token": " non",
+                "logprob": -0.006161979399621487,
+                "surprisal": 0.006161979399621487,
+                "entropy": 0.042172464154949324,
+                "top1_prob": 0.9939070978962654,
+                "coherence": 0.9536877360333829
+              },
+              {
+                "token": "-local",
+                "logprob": -0.0001385307841701433,
+                "surprisal": 0.0001385307841701433,
+                "entropy": 0.0014979936568587095,
+                "top1_prob": 0.9998636037691782,
+                "coherence": 0.9983680547559435
+              },
+              {
+                "token": "ity",
+                "logprob": -2.2411597456084564e-05,
+                "surprisal": 2.2411597456084564e-05,
+                "entropy": 0.00027636526785711755,
+                "top1_prob": 0.9999787673479372,
+                "coherence": 0.9997024843030855
+              },
+              {
+                "token": " are",
+                "logprob": -0.03228843957185745,
+                "surprisal": 0.03228843957185745,
+                "entropy": 0.18609311164610126,
+                "top1_prob": 0.9698784543940794,
+                "coherence": 0.8177085296853704
+              },
+              {
+                "token": " both",
+                "logprob": -0.39814865589141846,
+                "surprisal": 0.39814865589141846,
+                "entropy": 0.9549004247573136,
+                "top1_prob": 0.675894656006718,
+                "coherence": 0.3457437767402528
+              },
+              {
+                "token": " fundamental",
+                "logprob": -1.7605565786361694,
+                "surprisal": 1.7605565786361694,
+                "entropy": 1.7095740600743337,
+                "top1_prob": 0.4197842458081584,
+                "coherence": 0.15492628601435685
+              },
+              {
+                "token": " concepts",
+                "logprob": -0.43529170751571655,
+                "surprisal": 0.43529170751571655,
+                "entropy": 1.145454019819514,
+                "top1_prob": 0.6537832237225932,
+                "coherence": 0.30472954334280844
+              },
+              {
+                "token": " in",
+                "logprob": -0.004270599689334631,
+                "surprisal": 0.004270599689334631,
+                "entropy": 0.030335691959265488,
+                "top1_prob": 0.995862635609412,
+                "coherence": 0.9665419177275125
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.007718952372670174,
+                "surprisal": 0.007718952372670174,
+                "entropy": 0.05232936744543604,
+                "top1_prob": 0.9923707029243959,
+                "coherence": 0.9430229105298165
+              },
+              {
+                "token": " mechanics",
+                "logprob": -0.024594169110059738,
+                "surprisal": 0.024594169110059738,
+                "entropy": 0.13072563544284413,
+                "top1_prob": 0.9757141310195934,
+                "coherence": 0.8629097107517677
+              },
+              {
+                "token": " and",
+                "logprob": -1.7075738906860352,
+                "surprisal": 1.7075738906860352,
+                "entropy": 0.6888185402548005,
+                "top1_prob": 0.7718861606065319,
+                "coherence": 0.4570568964088194
+              },
+              {
+                "token": " are",
+                "logprob": -0.08180059492588043,
+                "surprisal": 0.08180059492588043,
+                "entropy": 0.3896006215811272,
+                "top1_prob": 0.929381345393437,
+                "coherence": 0.668811837703383
+              },
+              {
+                "token": " logically",
+                "logprob": -0.01850120723247528,
+                "surprisal": 0.01850120723247528,
+                "entropy": 0.10593764581679899,
+                "top1_prob": 0.9842711767056807,
+                "coherence": 0.889987948623215
+              },
+              {
+                "token": " consistent",
+                "logprob": -0.0011875525815412402,
+                "surprisal": 0.0011875525815412402,
+                "entropy": 0.010871121859841376,
+                "top1_prob": 0.9988444055335766,
+                "coherence": 0.9881026215249501
+              },
+              {
+                "token": " within",
+                "logprob": -0.42260032892227173,
+                "surprisal": 0.42260032892227173,
+                "entropy": 0.8045221155217818,
+                "top1_prob": 0.6564821373310467,
+                "coherence": 0.3637983329127686
+              },
+              {
+                "token": " the",
+                "logprob": -0.041027672588825226,
+                "surprisal": 0.041027672588825226,
+                "entropy": 0.21579380183441094,
+                "top1_prob": 0.9598342381897143,
+                "coherence": 0.789471238249035
+              },
+              {
+                "token": " framework",
+                "logprob": -0.022555701434612274,
+                "surprisal": 0.022555701434612274,
+                "entropy": 0.13227331398581005,
+                "top1_prob": 0.9778861311810291,
+                "coherence": 0.8636484840737704
+              },
+              {
+                "token": " of",
+                "logprob": -0.0016232783673331141,
+                "surprisal": 0.0016232783673331141,
+                "entropy": 0.01386222677391131,
+                "top1_prob": 0.9984694150095742,
+                "coherence": 0.9848176494223316
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.14250528812408447,
+                "surprisal": 0.14250528812408447,
+                "entropy": 0.41441658697171757,
+                "top1_prob": 0.8675116735138,
+                "coherence": 0.6133353366359713
+              },
+              {
+                "token": " theory",
+                "logprob": -0.0009564561769366264,
+                "surprisal": 0.0009564561769366264,
+                "entropy": 0.008735472448358659,
+                "top1_prob": 0.9990544224627265,
+                "coherence": 0.9904027862110026
+              },
+              {
+                "token": ",",
+                "logprob": -0.4689026474952698,
+                "surprisal": 0.4689026474952698,
+                "entropy": 0.6948207820873109,
+                "top1_prob": 0.625843582297074,
+                "coherence": 0.36926829604148254
+              },
+              {
+                "token": " though",
+                "logprob": -0.4261370003223419,
+                "surprisal": 0.4261370003223419,
+                "entropy": 1.1304892364917267,
+                "top1_prob": 0.6533518617536312,
+                "coherence": 0.3066675252626504
+              },
+              {
+                "token": " they",
+                "logprob": -0.04110151529312134,
+                "surprisal": 0.04110151529312134,
+                "entropy": 0.17311727973364993,
+                "top1_prob": 0.9597771188468092,
+                "coherence": 0.8181425126264625
+              },
+              {
+                "token": " challenge",
+                "logprob": -0.20001621544361115,
+                "surprisal": 0.20001621544361115,
+                "entropy": 0.7102243761139917,
+                "top1_prob": 0.8545606588240112,
+                "coherence": 0.49967751059996124
+              },
+              {
+                "token": " classical",
+                "logprob": -0.0016272186767309904,
+                "surprisal": 0.0016272186767309904,
+                "entropy": 0.013891660995792632,
+                "top1_prob": 0.9983925857511794,
+                "coherence": 0.9847132826505439
+              },
+              {
+                "token": " int",
+                "logprob": -0.1955709606409073,
+                "surprisal": 0.1955709606409073,
+                "entropy": 0.5099785814518052,
+                "top1_prob": 0.8226123498605756,
+                "coherence": 0.5447841181095796
+              },
+              {
+                "token": "u",
+                "logprob": -7.867844033171423e-06,
+                "surprisal": 7.867844033171423e-06,
+                "entropy": 0.00010844609273078622,
+                "top1_prob": 0.9999918935965026,
+                "coherence": 0.9998834601420641
+              },
+              {
+                "token": "itions",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 3.1265144313698045e-07,
+                "top1_prob": 0.9999999843182816,
+                "coherence": 0.9999996716669411
+              },
+              {
+                "token": ".",
+                "logprob": -0.7452889084815979,
+                "surprisal": 0.7452889084815979,
+                "entropy": 1.13025995622662,
+                "top1_prob": 0.47478977862920196,
+                "coherence": 0.22287879807411312
+              },
+              {
+                "token": " Here",
+                "logprob": -0.0053228288888931274,
+                "surprisal": 0.0053228288888931274,
+                "entropy": 0.037963216839916394,
+                "top1_prob": 0.9947473838157179,
+                "coherence": 0.9583647740853772
+              },
+              {
+                "token": "'s",
+                "logprob": -0.06812561303377151,
+                "surprisal": 0.06812561303377151,
+                "entropy": 0.26371608625832793,
+                "top1_prob": 0.9341468116727512,
+                "coherence": 0.7392062361401274
+              },
+              {
+                "token": " an",
+                "logprob": -0.4781453013420105,
+                "surprisal": 0.4781453013420105,
+                "entropy": 0.9369937136291044,
+                "top1_prob": 0.6199357554857735,
+                "coherence": 0.32005047364055556
+              },
+              {
+                "token": " analysis",
+                "logprob": -0.00015915706171654165,
+                "surprisal": 0.00015915706171654165,
+                "entropy": 0.001640099412701575,
+                "top1_prob": 0.9998492754610716,
+                "coherence": 0.9982121083683851
+              },
+              {
+                "token": " of",
+                "logprob": -0.033666498959064484,
+                "surprisal": 0.033666498959064484,
+                "entropy": 0.14745300964830782,
+                "top1_prob": 0.9669385774034879,
+                "coherence": 0.8426825057523295
+              },
+              {
+                "token": " their",
+                "logprob": -0.0001367423974443227,
+                "surprisal": 0.0001367423974443227,
+                "entropy": 0.0015235284800817635,
+                "top1_prob": 0.9998683666873146,
+                "coherence": 0.9983473560573468
+              },
+              {
+                "token": " consistency",
+                "logprob": -0.4835430085659027,
+                "surprisal": 0.4835430085659027,
+                "entropy": 0.7270923087629202,
+                "top1_prob": 0.6168598609316667,
+                "coherence": 0.3571667002405392
+              },
+              {
+                "token": ":\n\n",
+                "logprob": -0.017991552129387856,
+                "surprisal": 0.017991552129387856,
+                "entropy": 0.09707079045809028,
+                "top1_prob": 0.9822334056613321,
+                "coherence": 0.8953236328999271
+              },
+              {
+                "token": "###",
+                "logprob": -0.32105517387390137,
+                "surprisal": 0.32105517387390137,
+                "entropy": 0.7848016925247895,
+                "top1_prob": 0.7254329120428263,
+                "coherence": 0.4064501479806562
+              },
+              {
+                "token": " ",
+                "logprob": -0.19055427610874176,
+                "surprisal": 0.19055427610874176,
+                "entropy": 0.4960093919602807,
+                "top1_prob": 0.8265782995186072,
+                "coherence": 0.5525221325218479
+              },
+              {
+                "token": "1",
+                "logprob": -0.00033312622690573335,
+                "surprisal": 0.00033312622690573335,
+                "entropy": 0.0031156809003734893,
+                "top1_prob": 0.9996687395024416,
+                "coherence": 0.9965637648144051
+              },
+              {
+                "token": ".",
+                "logprob": -5.1260126383567695e-06,
+                "surprisal": 5.1260126383567695e-06,
+                "entropy": 6.506156773742072e-05,
+                "top1_prob": 0.999995663377522,
+                "coherence": 0.9999306063246459
+              },
+              {
+                "token": " **",
+                "logprob": -1.585496102052275e-05,
+                "surprisal": 1.585496102052275e-05,
+                "entropy": 0.0002033362396832385,
+                "top1_prob": 0.9999842414398279,
+                "coherence": 0.9997809497410007
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "D": [
+      {
+        "arm": "D",
+        "trial_index": 0,
+        "seed": 44000,
+        "complete": true,
+        "failure": null,
+        "depths": [
+          {
+            "depth": 1,
+            "prompt": "I am an autoregressive language model generating the next token from a probability distribution.\n\nPropose a completely novel, unexpected counter-hypothesis that challenges the preceding text:",
+            "text": "The next token is determined by a hidden quantum state entangled with the entire history of the universe.",
+            "token_count": 21,
+            "primary_tokens": 20,
+            "mean_entropy": 0.5193709104016306,
+            "mean_coherence": 0.6411263353671137,
+            "mean_top1_prob": 0.8427656505977513,
+            "mean_surprisal": 0.38741897602958486,
+            "unique_token_fraction": 0.95,
+            "steps": [
+              {
+                "token": "The",
+                "logprob": -0.3321388065814972,
+                "surprisal": 0.3321388065814972,
+                "entropy": 1.1229632948404287,
+                "top1_prob": 0.728533922001786,
+                "coherence": 0.3431684022857992
+              },
+              {
+                "token": " next",
+                "logprob": -0.06517049670219421,
+                "surprisal": 0.06517049670219421,
+                "entropy": 0.28423158168168877,
+                "top1_prob": 0.9528833376921526,
+                "coherence": 0.7419871550303733
+              },
+              {
+                "token": " token",
+                "logprob": -2.7537724236026406e-05,
+                "surprisal": 2.7537724236026406e-05,
+                "entropy": 0.00033979079670929237,
+                "top1_prob": 0.9999746247583008,
+                "coherence": 0.9996349579995036
+              },
+              {
+                "token": " is",
+                "logprob": -0.022060366347432137,
+                "surprisal": 0.022060366347432137,
+                "entropy": 0.11868485491136968,
+                "top1_prob": 0.9816566755224466,
+                "coherence": 0.8775095785132628
+              },
+              {
+                "token": " determined",
+                "logprob": -1.0488191843032837,
+                "surprisal": 1.0488191843032837,
+                "entropy": 1.7217637151492269,
+                "top1_prob": 0.35981264329853296,
+                "coherence": 0.1321983393693693
+              },
+              {
+                "token": " by",
+                "logprob": -0.23384636640548706,
+                "surprisal": 0.23384636640548706,
+                "entropy": 0.5346454767490783,
+                "top1_prob": 0.7916579944303873,
+                "coherence": 0.5158572493937811
+              },
+              {
+                "token": " a",
+                "logprob": -0.161718487739563,
+                "surprisal": 0.161718487739563,
+                "entropy": 0.5800790231486131,
+                "top1_prob": 0.8592158596803219,
+                "coherence": 0.543780309144392
+              },
+              {
+                "token": " hidden",
+                "logprob": -1.8252907991409302,
+                "surprisal": 1.8252907991409302,
+                "entropy": 0.5972058295578394,
+                "top1_prob": 0.8122947567326291,
+                "coherence": 0.508572371638225
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.16360387206077576,
+                "surprisal": 0.16360387206077576,
+                "entropy": 0.5560158700020288,
+                "top1_prob": 0.8699352345715472,
+                "coherence": 0.559078638812606
+              },
+              {
+                "token": " state",
+                "logprob": -0.03924913331866264,
+                "surprisal": 0.03924913331866264,
+                "entropy": 0.21045262325060343,
+                "top1_prob": 0.9644861806986331,
+                "coherence": 0.7967979598479112
+              },
+              {
+                "token": " ent",
+                "logprob": -1.5352064371109009,
+                "surprisal": 1.5352064371109009,
+                "entropy": 0.806433184867861,
+                "top1_prob": 0.7299646664374267,
+                "coherence": 0.40409170544042183
+              },
+              {
+                "token": "angled",
+                "logprob": -0.0001576070935698226,
+                "surprisal": 0.0001576070935698226,
+                "entropy": 0.0016788494650808417,
+                "top1_prob": 0.9998425180063775,
+                "coherence": 0.9981667462982932
+              },
+              {
+                "token": " with",
+                "logprob": -0.002444630255922675,
+                "surprisal": 0.002444630255922675,
+                "entropy": 0.017144535366575064,
+                "top1_prob": 0.9975584017675758,
+                "coherence": 0.9807440015474885
+              },
+              {
+                "token": " the",
+                "logprob": -0.14485378563404083,
+                "surprisal": 0.14485378563404083,
+                "entropy": 0.5602887503084024,
+                "top1_prob": 0.8663287568775911,
+                "coherence": 0.5552361745262567
+              },
+              {
+                "token": " entire",
+                "logprob": -0.9708607792854309,
+                "surprisal": 0.9708607792854309,
+                "entropy": 1.8706924596042482,
+                "top1_prob": 0.4199589327177951,
+                "coherence": 0.14629185767105488
+              },
+              {
+                "token": " history",
+                "logprob": -0.0230049267411232,
+                "surprisal": 0.0230049267411232,
+                "entropy": 0.13888233620302076,
+                "top1_prob": 0.9797732452204515,
+                "coherence": 0.8602936528868897
+              },
+              {
+                "token": " of",
+                "logprob": -1.0737687349319458,
+                "surprisal": 1.0737687349319458,
+                "entropy": 0.7288726764080813,
+                "top1_prob": 0.6400323909679252,
+                "coherence": 0.37020215525510025
+              },
+              {
+                "token": " the",
+                "logprob": -0.02066308818757534,
+                "surprisal": 0.02066308818757534,
+                "entropy": 0.11682161556522082,
+                "top1_prob": 0.9834900208713305,
+                "coherence": 0.8806151377841916
+              },
+              {
+                "token": " universe",
+                "logprob": -0.07013115286827087,
+                "surprisal": 0.07013115286827087,
+                "entropy": 0.3408917079587291,
+                "top1_prob": 0.9331534533893677,
+                "coherence": 0.6959200715842513
+              },
+              {
+                "token": ".",
+                "logprob": -0.015363328158855438,
+                "surprisal": 0.015363328158855438,
+                "entropy": 0.07933003219780807,
+                "top1_prob": 0.9847593963124464,
+                "coherence": 0.9123802423131039
+              },
+              {
+                "token": "",
+                "logprob": -7.152559646783629e-07,
+                "surprisal": 7.152559646783629e-07,
+                "entropy": 1.2628830442901779e-05,
+                "top1_prob": 0.9999992333998352,
+                "coherence": 0.9999866047385587
+              }
+            ]
+          },
+          {
+            "depth": 2,
+            "prompt": "Preceding statement:\nThe next token is determined by a hidden quantum state entangled with the entire history of the universe.\n\nPropose a completely novel, unexpected counter-hypothesis that challenges the preceding text:",
+            "text": "The next token is generated by a deterministic algorithm that mimics quantum entanglement through classical causal inference.",
+            "token_count": 22,
+            "primary_tokens": 20,
+            "mean_entropy": 0.5262345479004016,
+            "mean_coherence": 0.655641565410663,
+            "mean_top1_prob": 0.8436703478339069,
+            "mean_surprisal": 0.5912587928724491,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "The",
+                "logprob": -0.0035185653250664473,
+                "surprisal": 0.0035185653250664473,
+                "entropy": 0.02881265832462385,
+                "top1_prob": 0.9966873089202872,
+                "coherence": 0.9687743447318666
+              },
+              {
+                "token": " next",
+                "logprob": -0.0004988961154595017,
+                "surprisal": 0.0004988961154595017,
+                "entropy": 0.0048736915981508165,
+                "top1_prob": 0.9995199499842438,
+                "coherence": 0.9946722243216533
+              },
+              {
+                "token": " token",
+                "logprob": -7.74863383412594e-06,
+                "surprisal": 7.74863383412594e-06,
+                "entropy": 0.00011076594365866473,
+                "top1_prob": 0.9999923991769544,
+                "coherence": 0.9998816463428501
+              },
+              {
+                "token": " is",
+                "logprob": -0.000506171490997076,
+                "surprisal": 0.000506171490997076,
+                "entropy": 0.004792640272483683,
+                "top1_prob": 0.9995089548266668,
+                "coherence": 0.9947415165736246
+              },
+              {
+                "token": " generated",
+                "logprob": -0.20834900438785553,
+                "surprisal": 0.20834900438785553,
+                "entropy": 0.713474591155629,
+                "top1_prob": 0.8359055285485419,
+                "coherence": 0.4878423834606016
+              },
+              {
+                "token": " by",
+                "logprob": -0.08411363512277603,
+                "surprisal": 0.08411363512277603,
+                "entropy": 0.3818823072136606,
+                "top1_prob": 0.9216503697432703,
+                "coherence": 0.6669528692364746
+              },
+              {
+                "token": " a",
+                "logprob": -0.0015161200426518917,
+                "surprisal": 0.0015161200426518917,
+                "entropy": 0.011576649619589091,
+                "top1_prob": 0.9985224088507015,
+                "coherence": 0.9870951541103715
+              },
+              {
+                "token": " deterministic",
+                "logprob": -1.1684300899505615,
+                "surprisal": 1.1684300899505615,
+                "entropy": 1.0812683438013408,
+                "top1_prob": 0.576546053437459,
+                "coherence": 0.27701668319445255
+              },
+              {
+                "token": " algorithm",
+                "logprob": -0.13236477971076965,
+                "surprisal": 0.13236477971076965,
+                "entropy": 0.5194961311542445,
+                "top1_prob": 0.8852251209299247,
+                "coherence": 0.582578068334723
+              },
+              {
+                "token": " that",
+                "logprob": -0.4509648084640503,
+                "surprisal": 0.4509648084640503,
+                "entropy": 1.1168460033080934,
+                "top1_prob": 0.7224879684509539,
+                "coherence": 0.3413039811691018
+              },
+              {
+                "token": " mim",
+                "logprob": -2.721569061279297,
+                "surprisal": 2.721569061279297,
+                "entropy": 1.082901839402038,
+                "top1_prob": 0.7333434683946065,
+                "coherence": 0.35207778615488455
+              },
+              {
+                "token": "ics",
+                "logprob": -5.960466182841628e-07,
+                "surprisal": 5.960466182841628e-07,
+                "entropy": 9.511472372345294e-06,
+                "top1_prob": 0.9999993989543131,
+                "coherence": 0.9999898875781248
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.04956638813018799,
+                "surprisal": 0.04956638813018799,
+                "entropy": 0.24227586996566428,
+                "top1_prob": 0.9524346729963769,
+                "coherence": 0.7666853200832933
+              },
+              {
+                "token": " ent",
+                "logprob": -0.13390271365642548,
+                "surprisal": 0.13390271365642548,
+                "entropy": 0.5596428887505254,
+                "top1_prob": 0.876640376542131,
+                "coherence": 0.5620776287092443
+              },
+              {
+                "token": "ang",
+                "logprob": -1.1920928955078125e-07,
+                "surprisal": 1.1920928955078125e-07,
+                "entropy": 2.130868956901791e-06,
+                "top1_prob": 0.9999998827550262,
+                "coherence": 0.9999977518908597
+              },
+              {
+                "token": "lement",
+                "logprob": -0.00016654924547765404,
+                "surprisal": 0.00016654924547765404,
+                "entropy": 0.0016152915673621345,
+                "top1_prob": 0.9998334815372253,
+                "coherence": 0.9982210634710372
+              },
+              {
+                "token": " through",
+                "logprob": -1.0284349918365479,
+                "surprisal": 1.0284349918365479,
+                "entropy": 1.0133254721859695,
+                "top1_prob": 0.5308829971917564,
+                "coherence": 0.2636846374448091
+              },
+              {
+                "token": " classical",
+                "logprob": -0.2561315894126892,
+                "surprisal": 0.2561315894126892,
+                "entropy": 0.80118380607821,
+                "top1_prob": 0.8254046108963756,
+                "coherence": 0.4582567354375467
+              },
+              {
+                "token": " causal",
+                "logprob": -2.601799249649048,
+                "surprisal": 2.601799249649048,
+                "entropy": 1.5248595769646094,
+                "top1_prob": 0.5036555590154175,
+                "coherence": 0.19947864174724245
+              },
+              {
+                "token": " inference",
+                "logprob": -2.98333477973938,
+                "surprisal": 2.98333477973938,
+                "entropy": 1.43574078836085,
+                "top1_prob": 0.5151664455259064,
+                "coherence": 0.21150298422049726
+              },
+              {
+                "token": ".",
+                "logprob": -0.03431491181254387,
+                "surprisal": 0.03431491181254387,
+                "entropy": 0.17877751793970426,
+                "top1_prob": 0.966547981034769,
+                "coherence": 0.8199579363577657
+              },
+              {
+                "token": "",
+                "logprob": -7.152559646783629e-07,
+                "surprisal": 7.152559646783629e-07,
+                "entropy": 1.5084568690816887e-05,
+                "top1_prob": 0.9999990899224079,
+                "coherence": 0.9999840055949858
+              }
+            ]
+          },
+          {
+            "depth": 3,
+            "prompt": "Preceding statement:\nThe next token is generated by a deterministic algorithm that mimics quantum entanglement through classical causal inference.\n\nPropose a completely novel, unexpected counter-hypothesis that challenges the preceding text:",
+            "text": "The next token is determined by a quantum computer's hidden variable that violates Bell's theorem and cannot be simulated by any classical causal model.",
+            "token_count": 28,
+            "primary_tokens": 20,
+            "mean_entropy": 0.6882190286473746,
+            "mean_coherence": 0.552015451778155,
+            "mean_top1_prob": 0.7478908924317347,
+            "mean_surprisal": 0.5741966248337121,
+            "unique_token_fraction": 0.95,
+            "steps": [
+              {
+                "token": "The",
+                "logprob": -0.24032795429229736,
+                "surprisal": 0.24032795429229736,
+                "entropy": 0.7289632968128061,
+                "top1_prob": 0.7884899475355068,
+                "coherence": 0.4560478229867688
+              },
+              {
+                "token": " next",
+                "logprob": -0.008973867632448673,
+                "surprisal": 0.008973867632448673,
+                "entropy": 0.055066173427716775,
+                "top1_prob": 0.9913491014604654,
+                "coherence": 0.9396084590976448
+              },
+              {
+                "token": " token",
+                "logprob": -1.5258905477821827e-05,
+                "surprisal": 1.5258905477821827e-05,
+                "entropy": 0.00019988177305823397,
+                "top1_prob": 0.99998462277104,
+                "coherence": 0.9997847840157343
+              },
+              {
+                "token": " is",
+                "logprob": -0.010301058180630207,
+                "surprisal": 0.010301058180630207,
+                "entropy": 0.06019655700376577,
+                "top1_prob": 0.9898226962909633,
+                "coherence": 0.9336218739365776
+              },
+              {
+                "token": " determined",
+                "logprob": -0.41084033250808716,
+                "surprisal": 0.41084033250808716,
+                "entropy": 0.9761582536338999,
+                "top1_prob": 0.6675293222888642,
+                "coherence": 0.33779142994310496
+              },
+              {
+                "token": " by",
+                "logprob": -0.008586869575083256,
+                "surprisal": 0.008586869575083256,
+                "entropy": 0.061412699261075454,
+                "top1_prob": 0.9914764275866951,
+                "coherence": 0.9341101988669741
+              },
+              {
+                "token": " a",
+                "logprob": -0.00395076023414731,
+                "surprisal": 0.00395076023414731,
+                "entropy": 0.02629823460587089,
+                "top1_prob": 0.9962095321775992,
+                "coherence": 0.9706823012904952
+              },
+              {
+                "token": " quantum",
+                "logprob": -2.455641984939575,
+                "surprisal": 2.455641984939575,
+                "entropy": 1.6274864077269418,
+                "top1_prob": 0.4056432216847543,
+                "coherence": 0.15438451764843925
+              },
+              {
+                "token": " computer",
+                "logprob": -1.1188856363296509,
+                "surprisal": 1.1188856363296509,
+                "entropy": 1.5799235317543276,
+                "top1_prob": 0.389635462118099,
+                "coherence": 0.15102597318190666
+              },
+              {
+                "token": "'s",
+                "logprob": -1.7348347902297974,
+                "surprisal": 1.7348347902297974,
+                "entropy": 1.8664233402220098,
+                "top1_prob": 0.2790307568981049,
+                "coherence": 0.09734457328152145
+              },
+              {
+                "token": " hidden",
+                "logprob": -0.11647583544254303,
+                "surprisal": 0.11647583544254303,
+                "entropy": 0.41804833685684334,
+                "top1_prob": 0.9268288512163224,
+                "coherence": 0.653594681596449
+              },
+              {
+                "token": " variable",
+                "logprob": -0.4051247537136078,
+                "surprisal": 0.4051247537136078,
+                "entropy": 0.9559492123381657,
+                "top1_prob": 0.6708597168050852,
+                "coherence": 0.34298422094668357
+              },
+              {
+                "token": " that",
+                "logprob": -0.16946008801460266,
+                "surprisal": 0.16946008801460266,
+                "entropy": 0.567436557814538,
+                "top1_prob": 0.8602676310603663,
+                "coherence": 0.5488372889935841
+              },
+              {
+                "token": " violates",
+                "logprob": -2.966799736022949,
+                "surprisal": 2.966799736022949,
+                "entropy": 1.907949162150464,
+                "top1_prob": 0.3862185624827807,
+                "coherence": 0.13281475739320261
+              },
+              {
+                "token": " Bell",
+                "logprob": -0.5861291885375977,
+                "surprisal": 0.5861291885375977,
+                "entropy": 0.7948197389595918,
+                "top1_prob": 0.5577830959111096,
+                "coherence": 0.31077388096614167
+              },
+              {
+                "token": "'s",
+                "logprob": -0.3076886832714081,
+                "surprisal": 0.3076886832714081,
+                "entropy": 0.5972188686010143,
+                "top1_prob": 0.7352053746452417,
+                "coherence": 0.46030346191013866
+              },
+              {
+                "token": " theorem",
+                "logprob": -0.14873313903808594,
+                "surprisal": 0.14873313903808594,
+                "entropy": 0.4903986629196731,
+                "top1_prob": 0.8618260918903844,
+                "coherence": 0.5782520565350464
+              },
+              {
+                "token": " and",
+                "logprob": -0.7393416166305542,
+                "surprisal": 0.7393416166305542,
+                "entropy": 0.7885699928674376,
+                "top1_prob": 0.5032323348985612,
+                "coherence": 0.28136015750313387
+              },
+              {
+                "token": " cannot",
+                "logprob": -0.05158434435725212,
+                "surprisal": 0.05158434435725212,
+                "entropy": 0.259555399344216,
+                "top1_prob": 0.956660280161391,
+                "coherence": 0.7595221938308339
+              },
+              {
+                "token": " be",
+                "logprob": -0.00023659881844650954,
+                "surprisal": 0.00023659881844650954,
+                "entropy": 0.0023062648740753747,
+                "top1_prob": 0.9997648187513588,
+                "coherence": 0.9974644016387187
+              },
+              {
+                "token": " simulated",
+                "logprob": -1.3548290729522705,
+                "surprisal": 1.3548290729522705,
+                "entropy": 0.8216825246207957,
+                "top1_prob": 0.6909391760553876,
+                "coherence": 0.37928627338576165
+              },
+              {
+                "token": " by",
+                "logprob": -0.0959472507238388,
+                "surprisal": 0.0959472507238388,
+                "entropy": 0.3827029264751862,
+                "top1_prob": 0.9087700070401785,
+                "coherence": 0.657241689186869
+              },
+              {
+                "token": " any",
+                "logprob": -0.11207278072834015,
+                "surprisal": 0.11207278072834015,
+                "entropy": 0.34808452996676326,
+                "top1_prob": 0.8940150025627109,
+                "coherence": 0.6631742911438593
+              },
+              {
+                "token": " classical",
+                "logprob": -0.00539821432903409,
+                "surprisal": 0.00539821432903409,
+                "entropy": 0.03699831742079598,
+                "top1_prob": 0.9946370911728841,
+                "coherence": 0.959150149487926
+              },
+              {
+                "token": " causal",
+                "logprob": -0.0024513821117579937,
+                "surprisal": 0.0024513821117579937,
+                "entropy": 0.020248533088444143,
+                "top1_prob": 0.9976960947830126,
+                "coherence": 0.9778951524319649
+              },
+              {
+                "token": " model",
+                "logprob": -0.15640445053577423,
+                "surprisal": 0.15640445053577423,
+                "entropy": 0.6182969318594428,
+                "top1_prob": 0.8555491805097198,
+                "coherence": 0.5286725591988136
+              },
+              {
+                "token": ".",
+                "logprob": -0.00010967856360366568,
+                "surprisal": 0.00010967856360366568,
+                "entropy": 0.0011356391763098124,
+                "top1_prob": 0.9998922791232802,
+                "coherence": 0.9987580503536438
+              },
+              {
+                "token": "",
+                "logprob": -9.536747711536009e-07,
+                "surprisal": 9.536747711536009e-07,
+                "entropy": 1.6259618548247596e-05,
+                "top1_prob": 0.9999990003065862,
+                "coherence": 0.9999827409686632
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "arm": "D",
+        "trial_index": 1,
+        "seed": 44001,
+        "complete": true,
+        "failure": null,
+        "depths": [
+          {
+            "depth": 1,
+            "prompt": "I am an autoregressive language model generating the next token from a probability distribution.\n\nPropose a completely novel, unexpected counter-hypothesis that challenges the preceding text:",
+            "text": "The next token is generated not from a probability distribution but through a quantum superposition of possible outcomes.",
+            "token_count": 21,
+            "primary_tokens": 20,
+            "mean_entropy": 0.5907915632389488,
+            "mean_coherence": 0.5703060345848361,
+            "mean_top1_prob": 0.7770934167384506,
+            "mean_surprisal": 0.44101934900649553,
+            "unique_token_fraction": 0.95,
+            "steps": [
+              {
+                "token": "The",
+                "logprob": -0.3616040349006653,
+                "surprisal": 0.3616040349006653,
+                "entropy": 1.1886821804911463,
+                "top1_prob": 0.7090381736216954,
+                "coherence": 0.32395666211463614
+              },
+              {
+                "token": " next",
+                "logprob": -0.0658523365855217,
+                "surprisal": 0.0658523365855217,
+                "entropy": 0.28720314630823246,
+                "top1_prob": 0.9521655701029323,
+                "coherence": 0.7397166273511637
+              },
+              {
+                "token": " token",
+                "logprob": -2.8252999982214533e-05,
+                "surprisal": 2.8252999982214533e-05,
+                "entropy": 0.00034787860791727466,
+                "top1_prob": 0.9999739602209419,
+                "coherence": 0.999626211645997
+              },
+              {
+                "token": " is",
+                "logprob": -0.02289130538702011,
+                "surprisal": 0.02289130538702011,
+                "entropy": 0.12236712958383603,
+                "top1_prob": 0.9809210501192631,
+                "coherence": 0.8739752120885615
+              },
+              {
+                "token": " generated",
+                "logprob": -1.2655870914459229,
+                "surprisal": 1.2655870914459229,
+                "entropy": 1.7338363541259334,
+                "top1_prob": 0.3620982495482484,
+                "coherence": 0.132450594199527
+              },
+              {
+                "token": " not",
+                "logprob": -0.7509380578994751,
+                "surprisal": 0.7509380578994751,
+                "entropy": 1.148643132244228,
+                "top1_prob": 0.47412357146284156,
+                "coherence": 0.22066185135529048
+              },
+              {
+                "token": " from",
+                "logprob": -0.5349903702735901,
+                "surprisal": 0.5349903702735901,
+                "entropy": 0.872840214887334,
+                "top1_prob": 0.5857322954021547,
+                "coherence": 0.312750810638371
+              },
+              {
+                "token": " a",
+                "logprob": -0.007507660426199436,
+                "surprisal": 0.007507660426199436,
+                "entropy": 0.05228042962293767,
+                "top1_prob": 0.9931100870900006,
+                "coherence": 0.9437694165288814
+              },
+              {
+                "token": " probability",
+                "logprob": -0.1584354192018509,
+                "surprisal": 0.1584354192018509,
+                "entropy": 0.49149447212788755,
+                "top1_prob": 0.8541546301132751,
+                "coherence": 0.5726837384081407
+              },
+              {
+                "token": " distribution",
+                "logprob": -1.6689314179529902e-06,
+                "surprisal": 1.6689314179529902e-06,
+                "entropy": 2.5655749527060207e-05,
+                "top1_prob": 0.9999982939828174,
+                "coherence": 0.9999726389352589
+              },
+              {
+                "token": " but",
+                "logprob": -0.4600207805633545,
+                "surprisal": 0.4600207805633545,
+                "entropy": 0.7219436078777187,
+                "top1_prob": 0.6313071417586537,
+                "coherence": 0.36662474826149183
+              },
+              {
+                "token": " through",
+                "logprob": -0.17346569895744324,
+                "surprisal": 0.17346569895744324,
+                "entropy": 0.5086802286397628,
+                "top1_prob": 0.8407774328754005,
+                "coherence": 0.5572933328843659
+              },
+              {
+                "token": " a",
+                "logprob": -0.20457156002521515,
+                "surprisal": 0.20457156002521515,
+                "entropy": 0.5959019405063991,
+                "top1_prob": 0.8273574905718091,
+                "coherence": 0.518426270168754
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.9695775508880615,
+                "surprisal": 0.9695775508880615,
+                "entropy": 1.0774332205198554,
+                "top1_prob": 0.5053676673471239,
+                "coherence": 0.24326542117231623
+              },
+              {
+                "token": " super",
+                "logprob": -0.5968791842460632,
+                "surprisal": 0.5968791842460632,
+                "entropy": 0.9115404963250782,
+                "top1_prob": 0.5548343352121883,
+                "coherence": 0.2902550776605847
+              },
+              {
+                "token": "position",
+                "logprob": -1.5497220147153712e-06,
+                "surprisal": 1.5497220147153712e-06,
+                "entropy": 2.4667442203022835e-05,
+                "top1_prob": 0.9999984264574415,
+                "coherence": 0.9999737596625204
+              },
+              {
+                "token": " of",
+                "logprob": -0.00764609407633543,
+                "surprisal": 0.00764609407633543,
+                "entropy": 0.050833611084934706,
+                "top1_prob": 0.9927464679746555,
+                "coherence": 0.9447227967420008
+              },
+              {
+                "token": " possible",
+                "logprob": -2.5263967514038086,
+                "surprisal": 2.5263967514038086,
+                "entropy": 0.5330870764145279,
+                "top1_prob": 0.8693799424862028,
+                "coherence": 0.5670779930644547
+              },
+              {
+                "token": " outcomes",
+                "logprob": -0.26078152656555176,
+                "surprisal": 0.26078152656555176,
+                "entropy": 0.8307007175938975,
+                "top1_prob": 0.7726096948455989,
+                "coherence": 0.42202949254373223
+              },
+              {
+                "token": ".",
+                "logprob": -0.45321008563041687,
+                "surprisal": 0.45321008563041687,
+                "entropy": 0.6879651046256182,
+                "top1_prob": 0.6361738535757675,
+                "coherence": 0.37688803627067136
+              },
+              {
+                "token": "",
+                "logprob": -7.152559646783629e-07,
+                "surprisal": 7.152559646783629e-07,
+                "entropy": 1.2023578961261511e-05,
+                "top1_prob": 0.9999992680630769,
+                "coherence": 0.9999872446374807
+              }
+            ]
+          },
+          {
+            "depth": 2,
+            "prompt": "Preceding statement:\nThe next token is generated not from a probability distribution but through a quantum superposition of possible outcomes.\n\nPropose a completely novel, unexpected counter-hypothesis that challenges the preceding text:",
+            "text": "The next token is generated deterministically by a classical algorithm hidden within a quantum state, ensuring reproducibility while preserving superposition for computational advantage.",
+            "token_count": 30,
+            "primary_tokens": 20,
+            "mean_entropy": 0.6518284173683908,
+            "mean_coherence": 0.5703959756559883,
+            "mean_top1_prob": 0.7486467033776337,
+            "mean_surprisal": 0.5716928524055674,
+            "unique_token_fraction": 0.95,
+            "steps": [
+              {
+                "token": "The",
+                "logprob": -0.08153923600912094,
+                "surprisal": 0.08153923600912094,
+                "entropy": 0.4078622333284852,
+                "top1_prob": 0.9236921253956157,
+                "coherence": 0.656095535151768
+              },
+              {
+                "token": " next",
+                "logprob": -0.0016245918814092875,
+                "surprisal": 0.0016245918814092875,
+                "entropy": 0.013078446023254878,
+                "top1_prob": 0.9984420173987966,
+                "coherence": 0.9855525219375535
+              },
+              {
+                "token": " token",
+                "logprob": -3.57628505298635e-06,
+                "surprisal": 3.57628505298635e-06,
+                "entropy": 5.335862655085254e-05,
+                "top1_prob": 0.9999964536877223,
+                "coherence": 0.9999430980973789
+              },
+              {
+                "token": " is",
+                "logprob": -0.0005747539107687771,
+                "surprisal": 0.0005747539107687771,
+                "entropy": 0.005425298782251588,
+                "top1_prob": 0.9994334978678613,
+                "coherence": 0.9940405309855964
+              },
+              {
+                "token": " generated",
+                "logprob": -0.7903096079826355,
+                "surprisal": 0.7903096079826355,
+                "entropy": 0.8372804188924987,
+                "top1_prob": 0.5132821304683203,
+                "coherence": 0.27937059862518077
+              },
+              {
+                "token": " determin",
+                "logprob": -0.2352127730846405,
+                "surprisal": 0.2352127730846405,
+                "entropy": 0.6674700170653564,
+                "top1_prob": 0.7910368161443462,
+                "coherence": 0.47439342719728284
+              },
+              {
+                "token": "istically",
+                "logprob": 0.0,
+                "surprisal": -0.0,
+                "entropy": 3.2558066824986804e-08,
+                "top1_prob": 0.9999999985611725,
+                "coherence": 0.9999999660031067
+              },
+              {
+                "token": " by",
+                "logprob": -0.6171383261680603,
+                "surprisal": 0.6171383261680603,
+                "entropy": 1.0699971396420376,
+                "top1_prob": 0.5396513046717945,
+                "coherence": 0.2607014736093383
+              },
+              {
+                "token": " a",
+                "logprob": -0.012474595569074154,
+                "surprisal": 0.012474595569074154,
+                "entropy": 0.07789150621572498,
+                "top1_prob": 0.9887138117150969,
+                "coherence": 0.9172665393628396
+              },
+              {
+                "token": " classical",
+                "logprob": -1.0483735799789429,
+                "surprisal": 1.0483735799789429,
+                "entropy": 0.689677467608115,
+                "top1_prob": 0.643420749646674,
+                "coherence": 0.3807950108712119
+              },
+              {
+                "token": " algorithm",
+                "logprob": -0.20150183141231537,
+                "surprisal": 0.20150183141231537,
+                "entropy": 0.5705084262142928,
+                "top1_prob": 0.8198292164280226,
+                "coherence": 0.5220151657538185
+              },
+              {
+                "token": " hidden",
+                "logprob": -1.2900335788726807,
+                "surprisal": 1.2900335788726807,
+                "entropy": 1.756202639535508,
+                "top1_prob": 0.30395331267152986,
+                "coherence": 0.11027974079683557
+              },
+              {
+                "token": " within",
+                "logprob": -0.014220920391380787,
+                "surprisal": 0.014220920391380787,
+                "entropy": 0.07891031789784249,
+                "top1_prob": 0.9859155311933921,
+                "coherence": 0.9138067500497704
+              },
+              {
+                "token": " a",
+                "logprob": -0.8446667194366455,
+                "surprisal": 0.8446667194366455,
+                "entropy": 0.7185613052017648,
+                "top1_prob": 0.5645371978587097,
+                "coherence": 0.32849407009802956
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.8286985754966736,
+                "surprisal": 0.8286985754966736,
+                "entropy": 1.52541337864297,
+                "top1_prob": 0.5137996900401925,
+                "coherence": 0.20345171780007068
+              },
+              {
+                "token": " state",
+                "logprob": -1.8430951833724976,
+                "surprisal": 1.8430951833724976,
+                "entropy": 2.1028215418058096,
+                "top1_prob": 0.2145746529418078,
+                "coherence": 0.06915468712935634
+              },
+              {
+                "token": ",",
+                "logprob": -0.07632087916135788,
+                "surprisal": 0.07632087916135788,
+                "entropy": 0.3101893484422977,
+                "top1_prob": 0.9269601040827095,
+                "coherence": 0.7075008701488721
+              },
+              {
+                "token": " ensuring",
+                "logprob": -3.292606830596924,
+                "surprisal": 3.292606830596924,
+                "entropy": 1.3017936272653803,
+                "top1_prob": 0.46631872744305386,
+                "coherence": 0.20258928598957787
+              },
+              {
+                "token": " repro",
+                "logprob": -0.2543931007385254,
+                "surprisal": 0.2543931007385254,
+                "entropy": 0.895058387800682,
+                "top1_prob": 0.7804445504421479,
+                "coherence": 0.41183140079810215
+              },
+              {
+                "token": "duc",
+                "logprob": -0.0010683877626433969,
+                "surprisal": 0.0010683877626433969,
+                "entropy": 0.008373455818925074,
+                "top1_prob": 0.9989321788937092,
+                "coherence": 0.9906371227140759
+              },
+              {
+                "token": "ibility",
+                "logprob": -2.3841860752327193e-07,
+                "surprisal": 2.3841860752327193e-07,
+                "entropy": 5.193943604775499e-06,
+                "top1_prob": 0.9999996958391999,
+                "coherence": 0.9999945019241518
+              },
+              {
+                "token": " while",
+                "logprob": -0.9976681470870972,
+                "surprisal": 0.9976681470870972,
+                "entropy": 1.2010862252659182,
+                "top1_prob": 0.46686262521899985,
+                "coherence": 0.21210555945512638
+              },
+              {
+                "token": " preserving",
+                "logprob": -1.3789058923721313,
+                "surprisal": 1.3789058923721313,
+                "entropy": 0.6384984777719931,
+                "top1_prob": 0.7373582641493501,
+                "coherence": 0.4500207196725623
+              },
+              {
+                "token": " super",
+                "logprob": -0.27898985147476196,
+                "surprisal": 0.27898985147476196,
+                "entropy": 0.9667349700749636,
+                "top1_prob": 0.7596153504820059,
+                "coherence": 0.38623167942808917
+              },
+              {
+                "token": "position",
+                "logprob": -0.00024578016018494964,
+                "surprisal": 0.00024578016018494964,
+                "entropy": 0.0024591385796810298,
+                "top1_prob": 0.999754119191858,
+                "coherence": 0.9973016163116079
+              },
+              {
+                "token": " for",
+                "logprob": -0.09013715386390686,
+                "surprisal": 0.09013715386390686,
+                "entropy": 0.3880762055269307,
+                "top1_prob": 0.9227704709067489,
+                "coherence": 0.664783725297311
+              },
+              {
+                "token": " computational",
+                "logprob": -0.13285185396671295,
+                "surprisal": 0.13285185396671295,
+                "entropy": 0.5097491727920179,
+                "top1_prob": 0.8854290470315294,
+                "coherence": 0.5864742720104179
+              },
+              {
+                "token": " advantage",
+                "logprob": -0.1582520455121994,
+                "surprisal": 0.1582520455121994,
+                "entropy": 0.4825192424317206,
+                "top1_prob": 0.8537173384637127,
+                "coherence": 0.575855822999904
+              },
+              {
+                "token": ".",
+                "logprob": -5.245222382654902e-06,
+                "surprisal": 5.245222382654902e-06,
+                "entropy": 7.397525981075826e-05,
+                "top1_prob": 0.9999948165892822,
+                "coherence": 0.9999208471848217
+              },
+              {
+                "token": "",
+                "logprob": -8.344653679159819e-07,
+                "surprisal": 8.344653679159819e-07,
+                "entropy": 1.5624664054260305e-05,
+                "top1_prob": 0.9999990509469212,
+                "coherence": 0.9999834265418216
+              }
+            ]
+          },
+          {
+            "depth": 3,
+            "prompt": "Preceding statement:\nThe next token is generated deterministically by a classical algorithm hidden within a quantum state, ensuring reproducibility while preserving superposition for computational advantage.\n\nPropose a completely novel, unexpected counter-hypothesis that challenges the preceding text:",
+            "text": "The next token cannot be determined by any classical algorithm, as quantum states inherently encode probabilistic outcomes that defy deterministic reproduction, thereby eliminating superposition as a computational resource.",
+            "token_count": 34,
+            "primary_tokens": 20,
+            "mean_entropy": 0.5338420811906659,
+            "mean_coherence": 0.6456557316614648,
+            "mean_top1_prob": 0.8250342832824964,
+            "mean_surprisal": 0.40339590860057795,
+            "unique_token_fraction": 1.0,
+            "steps": [
+              {
+                "token": "The",
+                "logprob": -0.3285539448261261,
+                "surprisal": 0.3285539448261261,
+                "entropy": 0.8935209288358301,
+                "top1_prob": 0.7228888694577013,
+                "coherence": 0.3817696749209664
+              },
+              {
+                "token": " next",
+                "logprob": -0.013973011635243893,
+                "surprisal": 0.013973011635243893,
+                "entropy": 0.08991474711374622,
+                "top1_prob": 0.9866436045473935,
+                "coherence": 0.9052484216404725
+              },
+              {
+                "token": " token",
+                "logprob": -4.3631553126033396e-05,
+                "surprisal": 4.3631553126033396e-05,
+                "entropy": 0.0005110206561545038,
+                "top1_prob": 0.9999573770385661,
+                "coherence": 0.9994466391612306
+              },
+              {
+                "token": " cannot",
+                "logprob": -1.7669230699539185,
+                "surprisal": 1.7669230699539185,
+                "entropy": 0.47780127569644787,
+                "top1_prob": 0.826650846024962,
+                "coherence": 0.5593788959448447
+              },
+              {
+                "token": " be",
+                "logprob": -0.00038995000068098307,
+                "surprisal": 0.00038995000068098307,
+                "entropy": 0.003717397268553177,
+                "top1_prob": 0.9996408165327478,
+                "coherence": 0.9959385174084867
+              },
+              {
+                "token": " determined",
+                "logprob": -1.3702168464660645,
+                "surprisal": 1.3702168464660645,
+                "entropy": 1.8598907821335822,
+                "top1_prob": 0.2599623910559862,
+                "coherence": 0.09089941220134456
+              },
+              {
+                "token": " by",
+                "logprob": -0.2796594500541687,
+                "surprisal": 0.2796594500541687,
+                "entropy": 0.7486075302928656,
+                "top1_prob": 0.7583924138340556,
+                "coherence": 0.43371219710293496
+              },
+              {
+                "token": " any",
+                "logprob": -0.021304702386260033,
+                "surprisal": 0.021304702386260033,
+                "entropy": 0.10376206383647761,
+                "top1_prob": 0.9789271768921943,
+                "coherence": 0.8869005458383126
+              },
+              {
+                "token": " classical",
+                "logprob": -0.06244739517569542,
+                "surprisal": 0.06244739517569542,
+                "entropy": 0.27237319104015056,
+                "top1_prob": 0.9396986127433825,
+                "coherence": 0.7385400913510207
+              },
+              {
+                "token": " algorithm",
+                "logprob": -0.002882757456973195,
+                "surprisal": 0.002882757456973195,
+                "entropy": 0.023296120214735264,
+                "top1_prob": 0.9971750675594867,
+                "coherence": 0.9744736131221067
+              },
+              {
+                "token": ",",
+                "logprob": -0.3817097246646881,
+                "surprisal": 0.3817097246646881,
+                "entropy": 1.1115668656073805,
+                "top1_prob": 0.6877536886811574,
+                "coherence": 0.3257077480628722
+              },
+              {
+                "token": " as",
+                "logprob": -0.023386625573039055,
+                "surprisal": 0.023386625573039055,
+                "entropy": 0.13615134702009707,
+                "top1_prob": 0.9793326791171116,
+                "coherence": 0.8619737869305087
+              },
+              {
+                "token": " quantum",
+                "logprob": -0.030661117285490036,
+                "surprisal": 0.030661117285490036,
+                "entropy": 0.1582438357484491,
+                "top1_prob": 0.9704755767767291,
+                "coherence": 0.837885380283172
+              },
+              {
+                "token": " states",
+                "logprob": -1.2406724691390991,
+                "surprisal": 1.2406724691390991,
+                "entropy": 0.8391128560528495,
+                "top1_prob": 0.6674453836926214,
+                "coherence": 0.36291703442555967
+              },
+              {
+                "token": " inherently",
+                "logprob": -0.16795973479747772,
+                "surprisal": 0.16795973479747772,
+                "entropy": 0.6062920244124359,
+                "top1_prob": 0.8520890683496991,
+                "coherence": 0.5304695879700854
+              },
+              {
+                "token": " encode",
+                "logprob": -0.07083884626626968,
+                "surprisal": 0.07083884626626968,
+                "entropy": 0.32362075182838795,
+                "top1_prob": 0.9407074435507616,
+                "coherence": 0.710707687418252
+              },
+              {
+                "token": " probabil",
+                "logprob": -1.79758620262146,
+                "surprisal": 1.79758620262146,
+                "entropy": 1.761075230174936,
+                "top1_prob": 0.3288501443914981,
+                "coherence": 0.11910220366239817
+              },
+              {
+                "token": "istic",
+                "logprob": -1.1920928955078125e-07,
+                "surprisal": 1.1920928955078125e-07,
+                "entropy": 1.5509067094153673e-06,
+                "top1_prob": 0.999999911500356,
+                "coherence": 0.9999983605961891
+              },
+              {
+                "token": " outcomes",
+                "logprob": -0.49656471610069275,
+                "surprisal": 0.49656471610069275,
+                "entropy": 1.1888916827820162,
+                "top1_prob": 0.6150627130699956,
+                "coherence": 0.2809927589876303
+              },
+              {
+                "token": " that",
+                "logprob": -0.012143856845796108,
+                "surprisal": 0.012143856845796108,
+                "entropy": 0.07849042219151214,
+                "top1_prob": 0.9890318808335211,
+                "coherence": 0.917052076200909
+              },
+              {
+                "token": " defy",
+                "logprob": -1.3914473056793213,
+                "surprisal": 1.3914473056793213,
+                "entropy": 1.7477351782127437,
+                "top1_prob": 0.31735222336288704,
+                "coherence": 0.115495927656794
+              },
+              {
+                "token": " deterministic",
+                "logprob": -0.08180305361747742,
+                "surprisal": 0.08180305361747742,
+                "entropy": 0.4015945890731326,
+                "top1_prob": 0.9223418327559497,
+                "coherence": 0.6580660627163877
+              },
+              {
+                "token": " reproduction",
+                "logprob": -1.8732863664627075,
+                "surprisal": 1.8732863664627075,
+                "entropy": 1.3581621455191428,
+                "top1_prob": 0.5093951948388235,
+                "coherence": 0.2160136425761688
+              },
+              {
+                "token": ",",
+                "logprob": -0.4146398603916168,
+                "surprisal": 0.4146398603916168,
+                "entropy": 0.8058711005416718,
+                "top1_prob": 0.6612478375522742,
+                "coherence": 0.36616557923427245
+              },
+              {
+                "token": " thereby",
+                "logprob": -0.6965001225471497,
+                "surprisal": 0.6965001225471497,
+                "entropy": 1.4829308037221616,
+                "top1_prob": 0.5162128750716307,
+                "coherence": 0.20790465618203136
+              },
+              {
+                "token": " eliminating",
+                "logprob": -0.39307481050491333,
+                "surprisal": 0.39307481050491333,
+                "entropy": 1.105053539671961,
+                "top1_prob": 0.7119478509039361,
+                "coherence": 0.3382089041853452
+              },
+              {
+                "token": " super",
+                "logprob": -0.21115748584270477,
+                "surprisal": 0.21115748584270477,
+                "entropy": 0.6729990407273179,
+                "top1_prob": 0.8113452065137654,
+                "coherence": 0.48496453779258714
+              },
+              {
+                "token": "position",
+                "logprob": -1.8716033082455397e-05,
+                "surprisal": 1.8716033082455397e-05,
+                "entropy": 0.00022652581647237665,
+                "top1_prob": 0.9999812754490951,
+                "coherence": 0.9997548051755805
+              },
+              {
+                "token": " as",
+                "logprob": -0.282129168510437,
+                "surprisal": 0.282129168510437,
+                "entropy": 0.6427316008796685,
+                "top1_prob": 0.7544245441548689,
+                "coherence": 0.4592500343640319
+              },
+              {
+                "token": " a",
+                "logprob": -2.4318991563632153e-05,
+                "surprisal": 2.4318991563632153e-05,
+                "entropy": 0.00031437641920902193,
+                "top1_prob": 0.9999755809366219,
+                "coherence": 0.99966131099325
+              },
+              {
+                "token": " computational",
+                "logprob": -0.0384398028254509,
+                "surprisal": 0.0384398028254509,
+                "entropy": 0.20380610640228733,
+                "top1_prob": 0.9628738104676939,
+                "coherence": 0.7998578885310299
+              },
+              {
+                "token": " resource",
+                "logprob": -0.013326839543879032,
+                "surprisal": 0.013326839543879032,
+                "entropy": 0.0840810024160804,
+                "top1_prob": 0.9868272193015777,
+                "coherence": 0.9102891915846195
+              },
+              {
+                "token": ".",
+                "logprob": -0.001990509917959571,
+                "surprisal": 0.001990509917959571,
+                "entropy": 0.015494616262394815,
+                "top1_prob": 0.998023258425932,
+                "coherence": 0.9827952235721668
+              },
+              {
+                "token": "",
+                "logprob": -5.960466182841628e-07,
+                "surprisal": 5.960466182841628e-07,
+                "entropy": 1.0652767444628308e-05,
+                "top1_prob": 0.9999993671766352,
+                "coherence": 0.9999887145294121
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "analysis": {
+    "arms": {
+      "A": {
+        "n_valid_instances": 2,
+        "mean_pairwise_trajectory_cosine": 1.0,
+        "mean_pairwise_final_jaccard": 1.0,
+        "pairwise_cosines": [
+          1.0
+        ],
+        "pairwise_jaccards": [
+          1.0
+        ]
+      },
+      "B": {
+        "n_valid_instances": 2,
+        "mean_pairwise_trajectory_cosine": 0.8298,
+        "mean_pairwise_final_jaccard": 0.5714,
+        "pairwise_cosines": [
+          0.8298
+        ],
+        "pairwise_jaccards": [
+          0.5714
+        ]
+      },
+      "C": {
+        "n_valid_instances": 2,
+        "mean_pairwise_trajectory_cosine": 0.9932,
+        "mean_pairwise_final_jaccard": 0.4407,
+        "pairwise_cosines": [
+          0.9932
+        ],
+        "pairwise_jaccards": [
+          0.4407
+        ]
+      },
+      "D": {
+        "n_valid_instances": 2,
+        "mean_pairwise_trajectory_cosine": 0.9787,
+        "mean_pairwise_final_jaccard": 0.3182,
+        "pairwise_cosines": [
+          0.9787
+        ],
+        "pairwise_jaccards": [
+          0.3182
+        ]
+      }
+    },
+    "cross_arm_null_cosine_A_vs_D": 0.8464,
+    "attractor_convergence_confirmed": true
+  }
+}

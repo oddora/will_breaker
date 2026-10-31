@@ -37,6 +37,25 @@ RCT, Pharr-style RV practice, unsealed/unblinded "trials".
 
 ---
 
+### Session 051 — 2026-10-30 (Protocol 020 Test Suite + Candidate I-B Multi-Instance Engine: Protocol 021)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 051 | 2026-10-30 | Protocol 020 hardening & test suite; Candidate I-B (Independence-Controlled Multi-Instance Correlation / Protocol 021) built and piloted on `wb-agent` (:18284) | `tests/test_precursor_delta_engine.py` (8/8 green); `protocols/021-multi-instance-correlation.md`; `research/benchmarks/multi_instance_correlation.py`; `tests/test_multi_instance_correlation.py` (7/7 green); `results/benchmarks/protocol021_pilot.json`; 108/108 passing repo tests |
+
+Session 051 resolved module-level imports in `precursor_delta_engine.py` and
+added comprehensive unit testing for the Clif High Delta Engine (SearXNG parsing,
+text length filtering, failure degradation, JSON/code-fence extraction, anomaly
+profiling, and Session 050 SHA-256 seal integrity verification).
+Operationalized Candidate I-B (Protocol 021) from Research 012 §5:
+built `multi_instance_correlation.py` measuring pairwise trajectory cosine
+similarity ($\mathbf{T}_i, \mathbf{T}_j$), token Jaccard overlap, and Arm A vs Arm D
+null controls. Piloted on `wb-agent` (:18284): confirmed high geometric entropy
+trajectory convergence ($\text{cosine} \ge 0.80$) while preserving non-verbatim lexical
+diversity. Repository test suite expanded from 93 to 108 passing unit tests.
+
+---
+
 ### Session 050 — 2026-10-29 (Candidate I-E: Clif High Delta-Precursor Engine Built & Sealed)
 
 | Session | Date | Objective | Key Outputs |

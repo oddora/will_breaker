@@ -7,13 +7,14 @@ synthesis (:18284), and cryptographic SHA-256 pre-commitment.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import urllib.request
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 import sys
 DELTA_DIR = Path(__file__).resolve().parent.parent
@@ -227,6 +228,5 @@ Output ONLY the raw JSON object, no markdown, no conversational text."""
 
 
 if __name__ == "__main__":
-    import hashlib
     engine = PrecursorDeltaEngine(tag="session050")
     engine.run()
