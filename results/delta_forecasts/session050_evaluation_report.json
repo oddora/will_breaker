@@ -1,0 +1,133 @@
+{
+  "tag": "session050",
+  "evaluated_at_utc": "2026-10-31T01:13:37.304669+00:00",
+  "seal_sha256": "1cecc59189beaa87e0dc189de580163f648ae2cdae9a5da6eb52cd39c86ac47f",
+  "is_seal_valid": true,
+  "window_timing": {
+    "start_time_utc": "2026-10-29T19:17:15.375246+00:00",
+    "target_end_time_utc": "2026-11-12T19:17:15.375246+00:00",
+    "now_utc": "2026-10-31T01:13:35.053392+00:00",
+    "window_days": 14,
+    "elapsed_days": 1.25,
+    "remaining_days": 12.75,
+    "is_window_closed": false
+  },
+  "forecasts_evaluated": [
+    {
+      "event_id": "geopolitical_session050",
+      "domain": "geopolitical",
+      "anomalous_precursors": [
+        "escalation"
+      ],
+      "predicted_hypothesis": "increased risk of military conflict due to rising tensions with Iran",
+      "falsifiable_criterion": "official declaration of ceasefire or arms control agreement within 14 days",
+      "target_window_days": 14,
+      "confidence_probability": 0.75,
+      "status": "IN_PROGRESS",
+      "resolved_outcome": null,
+      "evidence": {
+        "domain": "geopolitical",
+        "falsification_condition_met": false,
+        "evidence_count": 5,
+        "matching_snippets": [],
+        "notes": "Ceasefire/agreement found -> hypothesis falsified; no ceasefire -> hypothesis holds."
+      }
+    },
+    {
+      "event_id": "financial_session050",
+      "domain": "financial",
+      "anomalous_precursors": [
+        "crisis",
+        "debt",
+        "banking",
+        "currency",
+        "bank",
+        "shock",
+        "liquidity",
+        "defaults"
+      ],
+      "predicted_hypothesis": "Global banking sector liquidity crisis due to sovereign debt defaults",
+      "falsifiable_criterion": "Central bank reserves fall below 10% of total liabilities in 3 major economies",
+      "target_window_days": 14,
+      "confidence_probability": 0.88,
+      "status": "IN_PROGRESS",
+      "resolved_outcome": null,
+      "evidence": {
+        "domain": "financial",
+        "falsification_condition_met": false,
+        "evidence_count": 5,
+        "matching_snippets": [],
+        "notes": "Reserve collapse found in 3 major economies -> criterion met."
+      }
+    },
+    {
+      "event_id": "geophysical_session050",
+      "domain": "geophysical",
+      "anomalous_precursors": [
+        "earthquakes"
+      ],
+      "predicted_hypothesis": "increased seismic activity due to tectonic stress accumulation",
+      "falsifiable_criterion": "USGS earthquake catalog shows zero events above magnitude 4.5",
+      "target_window_days": 14,
+      "confidence_probability": 0.85,
+      "status": "IN_PROGRESS",
+      "resolved_outcome": null,
+      "evidence": {
+        "domain": "geophysical",
+        "event_count_mag_ge_4_5": 19,
+        "falsification_condition_met": false,
+        "recent_events": [
+          {
+            "place": "97 km ENE of Port-Olry, Vanuatu",
+            "mag": 4.8,
+            "time_epoch_ms": 1793406395699,
+            "time_iso": "2026-10-31T00:26:35.699000+00:00",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tugd"
+          },
+          {
+            "place": "33 km NE of Mazo Cruz, Peru",
+            "mag": 4.6,
+            "time_epoch_ms": 1793400417982,
+            "time_iso": "2026-10-30T22:46:57.982000+00:00",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tufp"
+          },
+          {
+            "place": "222 km NW of Port-Olry, Vanuatu",
+            "mag": 4.7,
+            "time_epoch_ms": 1793398495008,
+            "time_iso": "2026-10-30T22:14:55.008000+00:00",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tufc"
+          }
+        ],
+        "notes": "Recorded 19 earthquakes >= 4.5 since start. Zero events criterion is False."
+      }
+    },
+    {
+      "event_id": "scientific_anomaly_session050",
+      "domain": "scientific_anomaly",
+      "anomalous_precursors": [
+        "anomaly"
+      ],
+      "predicted_hypothesis": "a verified anomaly will lead to breakthroughs in particle physics",
+      "falsifiable_criterion": "publication of peer-reviewed results confirming anomaly-driven breakthroughs",
+      "target_window_days": 14,
+      "confidence_probability": 0.75,
+      "status": "IN_PROGRESS",
+      "resolved_outcome": null,
+      "evidence": {
+        "domain": "scientific_anomaly",
+        "falsification_condition_met": false,
+        "evidence_count": 5,
+        "matching_snippets": [],
+        "notes": "Verified peer-reviewed publication confirming breakthrough found."
+      }
+    }
+  ],
+  "metrics": {
+    "n_resolved": 0,
+    "mean_brier_score": null,
+    "reference_brier_score": null,
+    "brier_skill_score": null,
+    "mean_log_loss": null
+  }
+}
