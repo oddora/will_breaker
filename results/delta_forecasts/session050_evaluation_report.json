@@ -1,15 +1,15 @@
 {
   "tag": "session050",
-  "evaluated_at_utc": "2026-10-31T01:13:37.304669+00:00",
+  "evaluated_at_utc": "2026-10-31T16:29:25.236873+00:00",
   "seal_sha256": "1cecc59189beaa87e0dc189de580163f648ae2cdae9a5da6eb52cd39c86ac47f",
   "is_seal_valid": true,
   "window_timing": {
     "start_time_utc": "2026-10-29T19:17:15.375246+00:00",
     "target_end_time_utc": "2026-11-12T19:17:15.375246+00:00",
-    "now_utc": "2026-10-31T01:13:35.053392+00:00",
+    "now_utc": "2026-10-31T16:29:23.910166+00:00",
     "window_days": 14,
-    "elapsed_days": 1.25,
-    "remaining_days": 12.75,
+    "elapsed_days": 1.88,
+    "remaining_days": 12.12,
     "is_window_closed": false
   },
   "forecasts_evaluated": [
@@ -74,32 +74,32 @@
       "resolved_outcome": null,
       "evidence": {
         "domain": "geophysical",
-        "event_count_mag_ge_4_5": 19,
+        "event_count_mag_ge_4_5": 26,
         "falsification_condition_met": false,
         "recent_events": [
           {
-            "place": "97 km ENE of Port-Olry, Vanuatu",
-            "mag": 4.8,
-            "time_epoch_ms": 1793406395699,
-            "time_iso": "2026-10-31T00:26:35.699000+00:00",
-            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tugd"
+            "place": "4 km S of Bajo Corral, Panama",
+            "mag": 5.2,
+            "time_epoch_ms": 1793461818909,
+            "time_iso": "2026-10-31T15:50:18.909000+00:00",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tujf"
           },
           {
-            "place": "33 km NE of Mazo Cruz, Peru",
-            "mag": 4.6,
-            "time_epoch_ms": 1793400417982,
-            "time_iso": "2026-10-30T22:46:57.982000+00:00",
-            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tufp"
+            "place": "196 km NW of Port-Olry, Vanuatu",
+            "mag": 5,
+            "time_epoch_ms": 1793446272352,
+            "time_iso": "2026-10-31T11:31:12.352000+00:00",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuif"
           },
           {
-            "place": "222 km NW of Port-Olry, Vanuatu",
-            "mag": 4.7,
-            "time_epoch_ms": 1793398495008,
-            "time_iso": "2026-10-30T22:14:55.008000+00:00",
-            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tufc"
+            "place": "236 km NW of Port-Olry, Vanuatu",
+            "mag": 4.9,
+            "time_epoch_ms": 1793438312051,
+            "time_iso": "2026-10-31T09:18:32.051000+00:00",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuht"
           }
         ],
-        "notes": "Recorded 19 earthquakes >= 4.5 since start. Zero events criterion is False."
+        "notes": "Recorded 26 earthquakes >= 4.5 since start. Zero events criterion is False."
       }
     },
     {
