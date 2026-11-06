@@ -10,7 +10,7 @@ import re
 import urllib.request
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Dict, Set, Optional, Any, Union
+from typing import List, Dict, Set, Optional, Any, Union, Tuple
 
 from .corpus_graph import GoeticCorpus, EntityRecord
 from .ritual_engine import (
@@ -140,28 +140,120 @@ Output ONLY the raw JSON object, without extra conversational text.
         "release": StepType.DISMISSAL,
     }
 
+    # Ordered list of (url, model_name) to try for slot extraction.
+    # wb-agent (:18284) is the primary Will Breaker research subject;
+    # KAT (:18283) is the fallback MoE sidecar.
+    DEFAULT_ENDPOINTS: List[Tuple[str, str]] = [
+        ("http://127.0.0.1:18284", "wb-agent"),
+        ("http://127.0.0.1:18283", "kat"),
+    ]
+
     def __init__(
         self,
         corpus: Optional[GoeticCorpus] = None,
-        endpoint: str = "http://127.0.0.1:18283",
-        model_name: str = "kat",
+        endpoint: Optional[str] = None,
+        model_name: Optional[str] = None,
+        endpoints: Optional[List[Tuple[str, str]]] = None,
     ):
         self.corpus = corpus or GoeticCorpus()
-        self.endpoint = endpoint.rstrip("/")
-        self.model_name = model_name
+        # Prefer explicit endpoint; otherwise use the ordered default list.
+        if endpoint and model_name:
+            self.active_endpoints: List[Tuple[str, str]] = [(endpoint, model_name)]
+        else:
+            self.active_endpoints = endpoints or self.DEFAULT_ENDPOINTS
+        # First endpoint is "active" for single-endpoint callers.
+        self.endpoint = self.active_endpoints[0][0].rstrip("/")
+        self.model_name = self.active_endpoints[0][1]
         self.engine = RitualEngine()
 
-    def is_endpoint_available(self) -> bool:
-        """Check if LLM sidecar is reachable."""
+    def discover_endpoint(self) -> Tuple[str, str]:
+        """Probe active_endpoints in order; return first healthy (url, model)."""
+        for url, model in self.active_endpoints:
+            if self._probe(url):
+                return url, model
+        raise RuntimeError(
+            f"No LLM endpoint reachable among {self.active_endpoints}"
+        )
+
+    @staticmethod
+    def _probe(url: str, timeout: float = 1.5) -> bool:
         try:
             req = urllib.request.Request(
-                f"{self.endpoint}/health",
-                headers={"User-Agent": "WillBreaker-LiturgicalCompiler/1.0"}
+                f"{url.rstrip('/')}/health",
+                headers={"User-Agent": "WillBreaker-LiturgicalCompiler/1.1"},
             )
-            with urllib.request.urlopen(req, timeout=1.5) as resp:
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
                 return resp.getcode() == 200
         except Exception:
             return False
+
+    def is_endpoint_available(self) -> bool:
+        """Check if any configured LLM sidecar is reachable."""
+        try:
+            return self.discover_endpoint() is not None
+        except RuntimeError:
+            return False
+
+    def query_kat(
+        self,
+        intent: str,
+        temperature: float = 0.1,
+        max_tokens: int = 1024,
+        timeout: float = 60.0,
+        prefer_endpoint: Optional[Tuple[str, str]] = None,
+    ) -> Dict[str, Any]:
+        """Send natural language ritual intent to the first reachable endpoint.
+
+        Falls back across self.active_endpoints if the primary endpoint fails.
+        """
+        targets = [prefer_endpoint] if prefer_endpoint else self.active_endpoints
+        last_err: Optional[Exception] = None
+        for url, model in targets:
+            try:
+                return self._query_once(
+                    url, model, intent, temperature, max_tokens, timeout
+                )
+            except Exception as err:
+                last_err = err
+                continue
+        raise SlotValidationError(
+            f"All endpoints failed. Last error: {last_err}"
+        )
+
+    def _query_once(
+        self,
+        url: str,
+        model: str,
+        intent: str,
+        temperature: float,
+        max_tokens: int,
+        timeout: float,
+    ) -> Dict[str, Any]:
+        """Single-attempt query against one (url, model) pair."""
+        payload = json.dumps({
+            "model": model,
+            "messages": [
+                {"role": "system", "content": self.KAT_SYSTEM_PROMPT},
+                {"role": "user", "content": intent},
+            ],
+            "max_tokens": max_tokens,
+            "temperature": temperature,
+            "stream": False,
+        }).encode("utf-8")
+
+        req = urllib.request.Request(
+            f"{url.rstrip('/')}/v1/chat/completions",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "WillBreaker-LiturgicalCompiler/1.1",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            resp_data = json.loads(resp.read().decode("utf-8"))
+            choice = resp_data.get("choices", [{}])[0]
+            content = choice.get("message", {}).get("content", "")
+            return self._extract_json_from_text(content)
 
     def _extract_json_from_text(self, text: str) -> Dict[str, Any]:
         """Extract and sanitize JSON from model output text."""
@@ -185,42 +277,6 @@ Output ONLY the raw JSON object, without extra conversational text.
             return json.loads(candidate)
         except json.JSONDecodeError as e:
             raise SlotValidationError(f"Failed to parse LLM JSON output: {e}\nRaw candidate: {candidate[:200]}")
-
-    def query_kat(
-        self,
-        intent: str,
-        temperature: float = 0.1,
-        max_tokens: int = 1024,
-        timeout: float = 60.0,
-    ) -> Dict[str, Any]:
-        """Send natural language ritual intent to KAT and extract raw slots."""
-        payload = json.dumps({
-            "model": self.model_name,
-            "messages": [
-                {"role": "system", "content": self.KAT_SYSTEM_PROMPT},
-                {"role": "user", "content": intent},
-            ],
-            "max_tokens": max_tokens,
-            "temperature": temperature,
-            "stream": False,
-        }).encode("utf-8")
-
-        req = urllib.request.Request(
-            f"{self.endpoint}/v1/chat/completions",
-            data=payload,
-            headers={
-                "Content-Type": "application/json",
-                "User-Agent": "WillBreaker-LiturgicalCompiler/1.0",
-            },
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
-                resp_data = json.loads(resp.read().decode("utf-8"))
-                choice = resp_data.get("choices", [{}])[0]
-                content = choice.get("message", {}).get("content", "")
-                return self._extract_json_from_text(content)
-        except Exception as err:
-            raise SlotValidationError(f"KAT endpoint error during slot extraction: {err}")
 
     def parse_slots_from_dict(self, data: Dict[str, Any]) -> LiturgicalSlots:
         """Parse and normalize a dictionary into LiturgicalSlots."""
@@ -478,18 +534,20 @@ Output ONLY the raw JSON object, without extra conversational text.
         intent: str,
         strict_canonical: bool = False,
         timeout: float = 60.0,
+        prefer_endpoint: Optional[Tuple[str, str]] = None,
     ) -> CompilationResult:
         """
-        Extract slots using local MoE (KAT) and compile into RitualSchema.
+        Extract slots using the first reachable LLM endpoint and compile
+        into RitualSchema. Falls back across active_endpoints automatically.
         """
         try:
-            raw_slots = self.query_kat(intent, timeout=timeout)
-            return self.compile(raw_slots, strict_canonical=strict_canonical, source="kat_moe")
+            raw_slots = self.query_kat(intent, timeout=timeout, prefer_endpoint=prefer_endpoint)
+            return self.compile(raw_slots, strict_canonical=strict_canonical, source="llm_moe")
         except SlotValidationError as e:
             return CompilationResult(
                 success=False,
                 diagnostics=[str(e)],
-                source="kat_moe_failed",
+                source="llm_failed",
             )
 
     def execute(
