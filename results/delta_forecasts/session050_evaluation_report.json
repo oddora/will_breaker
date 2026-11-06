@@ -1,15 +1,15 @@
 {
   "tag": "session050",
-  "evaluated_at_utc": "2026-11-02T16:30:05.162398+00:00",
+  "evaluated_at_utc": "2026-11-06T16:30:02.888368+00:00",
   "seal_sha256": "1cecc59189beaa87e0dc189de580163f648ae2cdae9a5da6eb52cd39c86ac47f",
   "is_seal_valid": true,
   "window_timing": {
     "start_time_utc": "2026-10-29T19:17:15.375246+00:00",
     "target_end_time_utc": "2026-11-12T19:17:15.375246+00:00",
-    "now_utc": "2026-11-02T16:30:00.243091+00:00",
+    "now_utc": "2026-11-06T16:30:00.266045+00:00",
     "window_days": 14,
-    "elapsed_days": 3.88,
-    "remaining_days": 10.12,
+    "elapsed_days": 7.88,
+    "remaining_days": 6.12,
     "is_window_closed": false
   },
   "forecasts_evaluated": [
@@ -74,32 +74,32 @@
       "resolved_outcome": null,
       "evidence": {
         "domain": "geophysical",
-        "event_count_mag_ge_4_5": 66,
+        "event_count_mag_ge_4_5": 106,
         "falsification_condition_met": false,
         "recent_events": [
           {
-            "place": "193 km ENE of Nagqu, China",
-            "mag": 4.7,
-            "time_epoch_ms": 1793633712369,
-            "time_iso": "2026-11-02T15:35:12.369000+00:00",
-            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxi"
+            "place": "144 km SE of Hasaki, Japan",
+            "mag": 6.1,
+            "time_epoch_ms": 1793961567869,
+            "time_iso": "2026-11-06T10:39:27.869000+00:00",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twg9"
           },
           {
-            "place": "50 km WSW of Huarmey, Peru",
-            "mag": 5.1,
-            "time_epoch_ms": 1793633293954,
-            "time_iso": "2026-11-02T15:28:13.954000+00:00",
-            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxg"
+            "place": "87 km N of Isangel, Vanuatu",
+            "mag": 4.5,
+            "time_epoch_ms": 1793952848319,
+            "time_iso": "2026-11-06T08:14:08.319000+00:00",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfu"
           },
           {
-            "place": "south of the Fiji Islands",
-            "mag": 4.7,
-            "time_epoch_ms": 1793628323380,
-            "time_iso": "2026-11-02T14:05:23.380000+00:00",
-            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuwv"
+            "place": "41 km SW of Balangonan, Philippines",
+            "mag": 4.9,
+            "time_epoch_ms": 1793946506156,
+            "time_iso": "2026-11-06T06:28:26.156000+00:00",
+            "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfk"
           }
         ],
-        "notes": "Recorded 66 earthquakes >= 4.5 since start. Zero events criterion is False."
+        "notes": "Recorded 106 earthquakes >= 4.5 since start. Zero events criterion is False."
       }
     },
     {
