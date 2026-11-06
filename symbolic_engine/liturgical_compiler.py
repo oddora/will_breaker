@@ -252,7 +252,12 @@ Output ONLY the raw JSON object, without extra conversational text.
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             resp_data = json.loads(resp.read().decode("utf-8"))
             choice = resp_data.get("choices", [{}])[0]
-            content = choice.get("message", {}).get("content", "")
+            content = choice.get("message", {}).get("content", "") or ""
+            finish = choice.get("finish_reason", "")
+            if not content:
+                raise SlotValidationError(
+                    f"Empty response from endpoint (finish_reason={finish!r})"
+                )
             return self._extract_json_from_text(content)
 
     def _extract_json_from_text(self, text: str) -> Dict[str, Any]:
