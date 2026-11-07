@@ -373,6 +373,13 @@ class DeltaForecastEvaluator:
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(report, f, indent=2)
 
+        # If window has closed, persist immutable final verdict
+        if timing.get("is_window_closed"):
+            verdict_path = RESULTS_DIR / f"{tag}_final_verdict.json"
+            with open(verdict_path, "w", encoding="utf-8") as f:
+                json.dump(report, f, indent=2)
+            report["final_verdict_path"] = str(verdict_path)
+
         report["report_path"] = str(out_path)
         return report
 

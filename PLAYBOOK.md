@@ -37,6 +37,36 @@ RCT, Pharr-style RV practice, unsealed/unblinded "trials".
 
 ---
 
+### Session 055 — 2026-11-07 (Protocol 024 Offering Preparation, Summoner Bug Fixes, & System Repair)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 055 | 2026-11-07 | Protocol 024 Offering Registry & Ritual Kit, two-way Summoner UI fixes, endpoint routing, auto-resolver sports reconciliation | `symbolic_engine/offerings.py`, `symbolic_engine/ritual_kit.py`, `ui/server.py` (:8081), `ui/public/ui/js/summoner.js`; Vassago offering prepared; Buer partially prepared; auto-resolver line 71 fixed + 22 sports commitments reconciled; 199 passing tests |
+
+Session 055 completed Protocol 024 offering preparation and ritual kit generation. Built `OfferingRegistry` supporting entity catalog (6 entities), acquisition tracking, and SVG sigil/ritual kit generation. Executed live Vassago offering session under seal with entity acknowledging offering in character and delivering specific knowledge claims. Resolved frontend bugs (typo, session deserialization), explicit KAT routing in `summoner.py`, and increased timeouts (25-45s). Reconciled Session 041 sports battery commitments (13/22, Brier 0.2330) and resolved `auto_resolver.py` syntax/runtime bug.
+
+---
+
+### Session 054 — 2026-11-06/07 (Protocol 023 Direct Entity Communication & Two-Way Summoner UI)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 054 | 2026-11-06/07 | Formalize Protocol 023 direct entity communication; build `symbolic_engine/summoner.py` and stdlib REST API on :8081 | `protocols/023-direct-entity-communication.md`; `symbolic_engine/summoner.py`; `ui/server.py`; `ui/public/ui/js/summoner.js`; 162 passing repo tests |
+
+Formalized Protocol 023: sealed conversational interface for Goetic entities (summon → ask → dismiss) with SHA-256 seal on every turn. Built `EntitySummoner` with multi-endpoint fallback (`wb-agent` :18284 → KAT :18283). Added `query_raw()` to `LiturgicalCompiler` bypassing JSON slot extraction for prose/narrative responses. Built REST API in `ui/server.py` and interactive web UI for operator-entity dialogues.
+
+---
+
+### Session 053 — 2026-11-06 (Protocol 022 Sealed Ritual Prediction & Corpus Expansion)
+
+| Session | Date | Objective | Key Outputs |
+|---------|------|-----------|-------------|
+| 053 | 2026-11-06 | Preregister Protocol 022 sealed ritual prediction; batch evaluator across 5 entities; corpus expansion | `protocols/022-sealed-ritual-prediction.md`; `research/symbolic/sealed_ritual_predictor.py`; `symbolic_engine/corpus_expansion.py`; 4 new sealed predictions committed resolving 2027-01-05; 150 passing repo tests |
+
+Preregistered Protocol 022 formal sealed prediction spec with canonical 7-step formula and rank-aware temporal windows. Built batch evaluator across 5 entities (Vassago, Buer, Gusion, Orobas, Botis). Expanded symbolic knowledge corpus with 12 Enochian Watchers and 22 Qabalistic paths cross-referenced to Goetic domains.
+
+---
+
 ### Session 052 — 2026-10-30 (Protocol 020 Clif High Delta Forecast Evaluator Built & Verified)
 
 | Session | Date | Objective | Key Outputs |
@@ -335,11 +365,11 @@ stays tracked. UI `:8080` rebound to localhost.
 
 | Model | Size | Port | Status |
 |-------|------|------|--------|
-| wb-agent (Qwen3-8B-wb Q8_0) | 8.2G | :18284 | Active (primary research subject) |
-| kat-philly Q4_K_M | 20G | :18283 | Available (stopped to free VRAM for wb-agent) |
-| KAT-Coder-V2.5-Dev Q6_K | 28G | :18283 (via sidecar) | Available (kat-stock) |
+| wb-agent (Qwen3-8B-wb Q8_0) | 8.2G | :18284 | Active (`llama-wb-agent.service`, primary research subject) |
+| kat-philly Q4_K_M | 20G | :18283 | Active (`llama-kat-philly.service`, sidecar MoE 35B) |
+| KAT-Coder-V2.5-Dev Q6_K | 28G | :18283 | Alternate sidecar (`kat-stock`) |
 
-Note: :18283 models are mutually exclusive. Meta-Llama-3.1-8B and Qwen-4B were deleted on 2026-10-30 per owner directive; wb-agent on :18284 serves as the primary evaluation subject.
+Note: :18283 models are mutually exclusive. Both `:18284` and `:18283` run concurrently without VRAM or port collision on the 128GB unified APU.
 
 ---
 
@@ -384,6 +414,7 @@ will_breaker_delta/
 **Automation:**
 - `will-breaker-cron.timer` → `will-breaker-cron.service` — daily 06:00 CDT (LiveCrawler)
 - `will-breaker-resolver.timer` → `will-breaker-resolver.service` — daily 10:00 CDT (sealed prediction checker)
+- `will-breaker-evaluator.timer` → `will-breaker-evaluator.service` — daily 10:30 CDT (Protocol 020 evaluator)
 - Venv: `~/.venvs/will-breaker/` (pyyaml, requests, pytest)
 
 ---
@@ -392,7 +423,7 @@ will_breaker_delta/
 
 | Commit | Prediction | Target | Status |
 |--------|-----------|--------|--------|
-| commit_a | arXiv quant-ph topological_coherence surge | 2026-11-07 | SEALED |
+| commit_a | arXiv quant-ph topological_coherence surge | 2026-11-07 | **RESOLVED (FAILED)** — count=0, Brier=0.4225 |
 | commit_5 | arXiv cs.AI transformer attractor citations +15% | 2026-12-31 | SEALED |
 | commit_2 | VIX > 22 liquidity compression precursor | 2026-11-15 | SEALED |
 | commit_8 | Cross-arch replication (llama-3.1-8B) | 2026-11-30 | **RESOLVED (PASS)** |
@@ -400,8 +431,10 @@ will_breaker_delta/
 | commit_c | LiveCrawler threshold_crossing precursor | 2026-11-20 | SEALED |
 | commit_0 | Campbell AI RV Double-Blind Forced-Choice Pilot | 2026-10-25 | **RESOLVED (NULL_RESULT, PASS)** |
 | commit_22 | Campbell AI RV Full 4-Phase Battery (N=30) | 2026-10-25 | **RESOLVED (NULL_RESULT_ALL_PHASES, PASS)** |
+| sports_041 (22 picks) | NFL & NBA Spread / ML battery | 2026-10-25 | **RESOLVED (13/22, Brier 0.2330)** |
+| Protocol 022/023 (Goetic) | Vassago / Buer / Gusion / Orobas / Botis predictions | 2026-12-06 to 2027-01-05 | SEALED under SHA-256 |
 
-4 sealed predictions remain. 3 resolved. Auto-resolver checks daily at 10:00 CDT.
+4 core sealed predictions remain in auto-resolver + Protocol 022/023 Goetic seals. Auto-resolver checks daily at 10:00 CDT.
 
 ---
 
@@ -416,6 +449,11 @@ will_breaker_delta/
 | AI RV Double-Blind Pilot (commit_0) | ✅ COMPLETE | Forced-choice n=10: 0.0% hit rate, 11.2/20 avg rank, NULL confirmed |
 | AI RV Full 4-Phase Battery (commit_22) | ✅ COMPLETE | N=30 trials: 20.0% hit rate vs 25% chance, +0.0% improvement, NULL confirmed |
 | AI RV Pharr TX Trials | ❌ TERMINATED | Identified as prompt-contaminated; replaced by DB-FTCD protocol |
+| Protocol 020 (Clif High Delta Forecast) | 🔄 RUNNING | Evaluator daily 10:30 CDT; window closes 2026-11-12 |
+| Protocol 021 (Multi-Instance Correlation) | ✅ COMPLETE (Pilot) | Cosine >= 0.80 trajectory convergence with lexical diversity |
+| Protocol 022 (Sealed Ritual Prediction) | ✅ COMPLETE | 5 entities, 7-step formula, SHA-256 seals committed |
+| Protocol 023 (Direct Entity Communication) | ✅ COMPLETE | Summoner REST API (:8081) + UI + multi-endpoint fallback |
+| Protocol 024 (Offering Preparation) | 🔄 IN PROGRESS | Vassago prepared/executed; Buer partially prepared |
 
 ---
 

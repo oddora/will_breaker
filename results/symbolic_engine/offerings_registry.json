@@ -50,7 +50,7 @@
           "measure": "one silver chalice or cup",
           "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
           "tradition": "Silver is Luna's metal; chalice holds the liquid offering",
-          "status": "ACQUIRED",
+          "status": "PREPARED",
           "acquired_at": "2026-11-07T13:59:33.684443+00:00",
           "notes": ""
         },
@@ -59,7 +59,7 @@
           "measure": "a vial of quicksilver (mercury) \u2014 handle with care",
           "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
           "tradition": "Quicksilver is Mercury's living metal \u2014 the essence of the President",
-          "status": "ACQUIRED",
+          "status": "PREPARED",
           "acquired_at": "2026-11-07T13:59:33.734316+00:00",
           "notes": ""
         },
@@ -68,8 +68,8 @@
           "measure": "violet-scented incense or violet petals burned as censer",
           "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
           "tradition": "Violet coloration aligns with Mercury's hermeneutic domain",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "PREPARED",
+          "acquired_at": "2026-11-07T16:05:17.190761+00:00",
           "notes": ""
         },
         {
@@ -77,8 +77,8 @@
           "measure": "a spoonful of white honey",
           "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
           "tradition": "Honey is a traditional offering substance across many traditions",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "PREPARED",
+          "acquired_at": "2026-11-07T16:05:17.243403+00:00",
           "notes": ""
         },
         {
@@ -86,8 +86,8 @@
           "measure": "a libation of fresh milk",
           "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
           "tradition": "Milk is a universal purificatory and nutritive offering",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "PREPARED",
+          "acquired_at": "2026-11-07T16:05:17.295606+00:00",
           "notes": ""
         },
         {
@@ -95,15 +95,15 @@
           "measure": "three red threads \u2014 bound or braided",
           "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
           "tradition": "Red thread is a binding and protective sign across traditions",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "PREPARED",
+          "acquired_at": "2026-11-07T16:05:17.371545+00:00",
           "notes": ""
         }
       ],
-      "prepared_at": null,
-      "offered_at": null,
+      "prepared_at": "2026-11-07T16:05:25.958294+00:00",
+      "offered_at": "2026-11-07T16:07:36.758732+00:00",
       "seal": "ae3789a5ffcd3648",
-      "status": "PARTIALLY_PREPARED"
+      "status": "OFFERED"
     },
     "Gusion": {
       "entity_name": "Gusion",
@@ -121,8 +121,8 @@
           "measure": "one copper plate or disc",
           "source": "copper_plate, white_candle, incense_of_sandalwood, pure_water, wine_of_verdun",
           "tradition": "Copper is Venus's metal \u2014 the plate grounds the offering",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "PREPARED",
+          "acquired_at": "2026-11-07T16:05:30.640053+00:00",
           "notes": ""
         },
         {
@@ -130,8 +130,8 @@
           "measure": "one white beeswax candle",
           "source": "copper_plate, white_candle, incense_of_sandalwood, pure_water, wine_of_verdun",
           "tradition": "White candle represents purity and the Venusian light",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "PREPARED",
+          "acquired_at": "2026-11-07T16:05:30.699022+00:00",
           "notes": ""
         },
         {
@@ -139,8 +139,8 @@
           "measure": "sandalwood incense or sandalwood chips for censer",
           "source": "copper_plate, white_candle, incense_of_sandawood, pure_water, wine_of_verdun",
           "tradition": "Sandalwood is traditional in Eastern and Western ceremonial practice",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "PREPARED",
+          "acquired_at": "2026-11-07T16:05:30.757885+00:00",
           "notes": ""
         },
         {
@@ -148,8 +148,8 @@
           "measure": "pure (still) water for libation",
           "source": "copper_plate, white_candle, incense_of_sandawood, pure_water, wine_of_verdun",
           "tradition": "Water is the universal purificatory medium",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "PREPARED",
+          "acquired_at": "2026-11-07T16:05:30.818057+00:00",
           "notes": ""
         },
         {
@@ -157,15 +157,15 @@
           "measure": "wine of Verdun (or fine red wine as substitute)",
           "source": "copper_plate, white_candle, incense_of_sandawood, pure_water, wine_of_verdun",
           "tradition": "Wine of Verdun is a specific historical ceremonial wine",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "PREPARED",
+          "acquired_at": "2026-11-07T16:05:30.882791+00:00",
           "notes": ""
         }
       ],
-      "prepared_at": null,
+      "prepared_at": "2026-11-07T16:05:31.023556+00:00",
       "offered_at": null,
       "seal": "7346bc2525167bac",
-      "status": "PENDING"
+      "status": "PREPARED"
     },
     "Marchosias": {
       "entity_name": "Marchosias",
@@ -264,11 +264,11 @@
           "notes": ""
         }
       ],
-      "prepared_at": "2026-11-07T14:48:17.271051+00:00",
+      "prepared_at": "2026-11-07T16:10:39.388189+00:00",
       "offered_at": null,
       "seal": "88d53c04b7ded555",
       "status": "PREPARED"
     }
   },
-  "updated_at": "2026-11-07T14:48:17.271082+00:00"
+  "updated_at": "2026-11-07T16:10:39.388221+00:00"
 }

@@ -7,3 +7,5 @@ __pycache__/
 # the append-only delta_events.jsonl + crypto registry stay tracked)
 will_breaker_delta/corpus/cron_status.json
 will_breaker_delta/corpus/latest_forecast.json
+# Daily in-progress evaluation reports (snapshots; final verdicts at window close stay tracked)
+results/delta_forecasts/*_evaluation_report.json

@@ -68,7 +68,7 @@ class AutoResolver:
             s = sport_map.get(sport, "ncaaf")
             url = f"https://site.api.espn.com/apis/site/v2/sports/{s}/scoreboard"
             req = urllib.request.Request(url, headers={"User-Agent": "WillBreaker/1.0"})
-            with urllib.request.urlopen(req, timeout=8) in resp:
+            with urllib.request.urlopen(req, timeout=8) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
             events = data.get("events", [])
             for ev in events:
@@ -158,6 +158,15 @@ class AutoResolver:
                 else:
                     still_sealed.append(cid)
                     continue
+
+            elif domain.startswith("sports"):
+                sports_res = self._check_sports_event(rec["prediction"]["event_id"])
+                if sports_res is not None:
+                    is_correct = (predicted.lower() in sports_res.lower())
+                    resolution_note = f"ESPN box score: {sports_res}"
+                else:
+                    still_sealed.append(cid)
+                    continue
             else:
                 still_sealed.append(cid)
                 continue
@@ -174,6 +183,7 @@ class AutoResolver:
                 resolved.append({
                     "commitment_id": cid,
                     "status": status,
+                    "is_correct": is_correct,
                     "brier": round(brier, 4),
                     "note": resolution_note
                 })
