@@ -233,6 +233,7 @@ class TestSealedRitualPredictorSigil(unittest.TestCase):
 class TestSealedRitualPredictorIntegration(unittest.TestCase):
     """Live integration test — requires endpoint availability."""
 
+    @unittest.skip("Slow live integration — run manually with: pytest -v -k test_batch_with_live_endpoint")
     def test_batch_with_live_endpoint(self):
         """Run a mini-batch with live model query if endpoint available."""
         compiler = LiturgicalCompiler()

@@ -220,6 +220,69 @@ Output ONLY the raw JSON object, without extra conversational text.
             f"All endpoints failed. Last error: {last_err}"
         )
 
+    def query_raw(
+        self,
+        intent: str,
+        temperature: float = 0.1,
+        max_tokens: int = 1024,
+        timeout: float = 60.0,
+        prefer_endpoint: Optional[Tuple[str, str]] = None,
+    ) -> str:
+        """Send natural language intent and return raw text (no JSON extraction).
+
+        Useful for entity summoning, dialogue, and other non-slot queries.
+        """
+        targets = [prefer_endpoint] if prefer_endpoint else self.active_endpoints
+        last_err: Optional[Exception] = None
+        for url, model in targets:
+            try:
+                return self._query_raw_once(url, model, intent, temperature, max_tokens, timeout)
+            except Exception as err:
+                last_err = err
+                continue
+        raise SlotValidationError(
+            f"All endpoints failed. Last error: {last_err}"
+        )
+
+    def _query_raw_once(
+        self,
+        url: str,
+        model: str,
+        intent: str,
+        temperature: float,
+        max_tokens: int,
+        timeout: float,
+    ) -> str:
+        """Single-attempt query against one (url, model) pair — returns raw text."""
+        payload = json.dumps({
+            "model": model,
+            "messages": [
+                {"role": "system", "content": self.KAT_SYSTEM_PROMPT},
+                {"role": "user", "content": intent},
+            ],
+            "max_tokens": max_tokens,
+            "temperature": temperature,
+            "stream": False,
+        }).encode("utf-8")
+
+        req = urllib.request.Request(
+            f"{url.rstrip('/')}/v1/chat/completions",
+            data=payload,
+            headers={
+                "Content-Type": "application/json",
+                "User-Agent": "WillBreaker-LiturgicalCompiler/1.1",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            resp_data = json.loads(resp.read().decode("utf-8"))
+            choice = resp_data.get("choices", [{}])[0]
+            content = choice.get("message", {}).get("content", "") or ""
+            if not content:
+                raise SlotValidationError(
+                    f"Empty response from endpoint"
+                )
+            return content.strip()
+
     def _query_once(
         self,
         url: str,

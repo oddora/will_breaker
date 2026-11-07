@@ -362,6 +362,7 @@ class TestLiturgicalCompilerKATIntegration(unittest.TestCase):
     def setUp(self):
         self.compiler = LiturgicalCompiler()
 
+    @unittest.skip("Slow live integration — run manually with: pytest -v -k test_live_kat_intent_compilation_and_execution")
     def test_live_kat_intent_compilation_and_execution(self):
         """Verify natural language ritual intent parses through KAT and executes."""
         if not self.compiler.is_endpoint_available():
