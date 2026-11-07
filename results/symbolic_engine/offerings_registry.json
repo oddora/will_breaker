@@ -1,0 +1,274 @@
+{
+  "offerings": {
+    "Botis": {
+      "entity_name": "Botis",
+      "rank": "President",
+      "metal": "Mercury",
+      "planet": "mercury",
+      "temporal_window": [
+        "night"
+      ],
+      "domain": "past_future, reconciliation",
+      "items": [
+        {
+          "item": "iron_filings_in_vinegar",
+          "measure": "a vial of cold iron filings steeped in vinegar (24h minimum)",
+          "source": "Bring me a vial of cold iron filings steeped in vinegar, and the firstborn feather of a raven plucked at midnight.",
+          "tradition": "Iron is Mars's metal; vinegar is the solvent of transformation",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "raven_feather",
+          "measure": "the firstborn feather of a raven, plucked at midnight",
+          "source": "Bring me a vial of cold iron filings steeped in vinegar, and the firstborn feather of a raven plucked at midnight.",
+          "tradition": "The raven is Mercury's bird \u2014 midnight is Mercury's hour",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        }
+      ],
+      "prepared_at": null,
+      "offered_at": null,
+      "seal": "sealed_2026-11-07",
+      "status": "PENDING"
+    },
+    "Buer": {
+      "entity_name": "Buer",
+      "rank": "President",
+      "metal": "Mercury",
+      "planet": "mercury",
+      "temporal_window": [
+        "day",
+        "twilight"
+      ],
+      "domain": "philosophy, herbalism, healing",
+      "items": [
+        {
+          "item": "silver_chalice",
+          "measure": "one silver chalice or cup",
+          "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
+          "tradition": "Silver is Luna's metal; chalice holds the liquid offering",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "quicksilver",
+          "measure": "a vial of quicksilver (mercury) \u2014 handle with care",
+          "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
+          "tradition": "Quicksilver is Mercury's living metal \u2014 the essence of the President",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "violet_incense",
+          "measure": "violet-scented incense or violet petals burned as censer",
+          "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
+          "tradition": "Violet coloration aligns with Mercury's hermeneutic domain",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "white_honey",
+          "measure": "a spoonful of white honey",
+          "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
+          "tradition": "Honey is a traditional offering substance across many traditions",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "fresh_milk",
+          "measure": "a libation of fresh milk",
+          "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
+          "tradition": "Milk is a universal purificatory and nutritive offering",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "three_red_threads",
+          "measure": "three red threads \u2014 bound or braided",
+          "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
+          "tradition": "Red thread is a binding and protective sign across traditions",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        }
+      ],
+      "prepared_at": null,
+      "offered_at": null,
+      "seal": "ae3789a5ffcd3648",
+      "status": "PENDING"
+    },
+    "Gusion": {
+      "entity_name": "Gusion",
+      "rank": "Duke",
+      "metal": "Copper",
+      "planet": "venus",
+      "temporal_window": [
+        "twilight",
+        "solstice"
+      ],
+      "domain": "honor, diplomacy, past_future",
+      "items": [
+        {
+          "item": "copper_plate",
+          "measure": "one copper plate or disc",
+          "source": "copper_plate, white_candle, incense_of_sandalwood, pure_water, wine_of_verdun",
+          "tradition": "Copper is Venus's metal \u2014 the plate grounds the offering",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "white_candle",
+          "measure": "one white beeswax candle",
+          "source": "copper_plate, white_candle, incense_of_sandalwood, pure_water, wine_of_verdun",
+          "tradition": "White candle represents purity and the Venusian light",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "sandalwood_incense",
+          "measure": "sandalwood incense or sandalwood chips for censer",
+          "source": "copper_plate, white_candle, incense_of_sandawood, pure_water, wine_of_verdun",
+          "tradition": "Sandalwood is traditional in Eastern and Western ceremonial practice",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "pure_water",
+          "measure": "pure (still) water for libation",
+          "source": "copper_plate, white_candle, incense_of_sandawood, pure_water, wine_of_verdun",
+          "tradition": "Water is the universal purificatory medium",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "wine_of_verdun",
+          "measure": "wine of Verdun (or fine red wine as substitute)",
+          "source": "copper_plate, white_candle, incense_of_sandawood, pure_water, wine_of_verdun",
+          "tradition": "Wine of Verdun is a specific historical ceremonial wine",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        }
+      ],
+      "prepared_at": null,
+      "offered_at": null,
+      "seal": "7346bc2525167bac",
+      "status": "PENDING"
+    },
+    "Marchosias": {
+      "entity_name": "Marchosias",
+      "rank": "Marquis",
+      "metal": "Silver",
+      "planet": "luna",
+      "temporal_window": [
+        "night"
+      ],
+      "domain": "combat, courage, honesty",
+      "items": [
+        {
+          "item": "breath_of_living_hound",
+          "measure": "the breath of a living hound \u2014 captured, not slain \u2014 poured on coals",
+          "source": "Bring me the breath of a living hound\u2014captured, not slain\u2014and pour it upon the coals while I speak the Name thrice.",
+          "tradition": "The hound is a loyal companion-spirit; its breath carries vitality",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "coals_and_name",
+          "measure": "hot coals upon which the breath is poured, while the entity's Name is spoken thrice",
+          "source": "Bring me the breath of a living hound\u2014captured, not slain\u2014and pour it upon the coals while I speak the Name thrice.",
+          "tradition": "Fire transforms the offering; the Name invokes the entity's presence",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        }
+      ],
+      "prepared_at": null,
+      "offered_at": null,
+      "seal": "sealed_2026-11-07",
+      "status": "PENDING"
+    },
+    "Orobas": {
+      "entity_name": "Orobas",
+      "rank": "Prince",
+      "metal": "Tin",
+      "planet": "jupiter",
+      "temporal_window": [
+        "day"
+      ],
+      "domain": "past_future, divinity, honor, truth",
+      "items": [
+        {
+          "item": "crown_of_white_gold",
+          "measure": "a crown or circlet of white gold \u2014 forged in silence",
+          "source": "A crown of white gold, forged in silence, and the first breath of a vow unspoken.",
+          "tradition": "White gold symbolizes the purified will \u2014 silence is the mode of its forging",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "first_breath_of_vow_unspoken",
+          "measure": "the first breath of a vow unspoken \u2014 captured in a sealed vessel",
+          "source": "A crown of white gold, forged in silence, and the first breath of a vow unspoken.",
+          "tradition": "The unspoken vow carries the weight of intention before articulation",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        }
+      ],
+      "prepared_at": null,
+      "offered_at": null,
+      "seal": "sealed_2026-11-07",
+      "status": "PENDING"
+    },
+    "Vassago": {
+      "entity_name": "Vassago",
+      "rank": "Prince",
+      "metal": "Tin",
+      "planet": "jupiter",
+      "temporal_window": [
+        "day"
+      ],
+      "domain": "past_future, lost_items",
+      "items": [
+        {
+          "item": "gold",
+          "measure": "one gold lamella or gold-leaf seal",
+          "source": "gold and a gemstone; hours must be day.",
+          "tradition": "Gold is the metal of the King \u2014 Vassago as Prince accepts gold as a higher offering",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        },
+        {
+          "item": "gemstone",
+          "measure": "one polished gemstone (jasper or jupiter-stone preferred)",
+          "source": "gold and a gemstone; hours must be day.",
+          "tradition": "Gemstones serve as material anchors for the entity's attention",
+          "status": "PENDING",
+          "acquired_at": null,
+          "notes": ""
+        }
+      ],
+      "prepared_at": null,
+      "offered_at": null,
+      "seal": "88d53c04b7ded555",
+      "status": "PENDING"
+    }
+  },
+  "updated_at": "2026-11-07T13:37:28.805977+00:00"
+}
