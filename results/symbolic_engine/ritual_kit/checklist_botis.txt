@@ -1,0 +1,24 @@
+OFFERING CHECKLIST: BOTIS
+Rank: President | Metal: Mercury | Legions: {'item': 'iron_filings_in_vinegar', 'measure': 'a vial of cold iron filings steeped in vinegar (24h minimum)', 'source': 'Bring me a vial of cold iron filings steeped in vinegar, and the firstborn feather of a raven plucked at midnight.', 'tradition': "Iron is Mars's metal; vinegar is the solvent of transformation", 'status': 'PENDING'}
+Domains: past_future, reconciliation
+Temporal: night
+
+MATERIALS TO ACQUIRE:
+  1. ○ iron_filings_in_vinegar
+     Measure: a vial of cold iron filings steeped in vinegar (24h minimum)
+     Tradition: Iron is Mars's metal; vinegar is the solvent of transformation
+
+  2. ○ raven_feather
+     Measure: the firstborn feather of a raven, plucked at midnight
+     Tradition: The raven is Mercury's bird — midnight is Mercury's hour
+
+CEREMONIAL PROCEDURE:
+  1. Prepare the circle of mercury during night
+  2. Trace the seal of botis with consecrated chalk
+  3. Arrange offering items within the circle
+  4. Invoke Botis by name, stating your intent
+  5. Present the offering while maintaining the seal
+  6. Record the entity's response (sealed)
+  7. Dismiss with license to depart
+
+Sigil: /home/comandante/will_breaker/results/symbolic_engine/ritual_kit/offer_botis/offering_sigil.svg
