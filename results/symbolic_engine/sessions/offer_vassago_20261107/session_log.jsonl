@@ -1,0 +1,41 @@
+{
+  "session_id": "offer_vassago_1d181471",
+  "entity": "Vassago",
+  "ritual_status": "SAT_COMPLETED",
+  "circle_integrity": 1.0,
+  "offering_prepared": true,
+  "offering_items": [
+    "gold",
+    "gemstone"
+  ],
+  "sigil_path": "results/symbolic_engine/sessions/offer_vassago_20261107/sigil.svg",
+  "sealed_at": "2026-11-07T14:01:31.195165+00:00",
+  "turns": [
+    {
+      "turn": 1,
+      "type": "summon",
+      "content": "*The air within the circle shivers, as though heat rises from stone long buried. A presence coalesces\u2014not fully formed, but the weight of it presses upon the senses, like the hum of a bell struck far away. Gold light flickers at the margins, then dims to the deep, knowing gleam of polished tin.*\n\n**The Offering.**\n\nI see it. The gold lamella\u2014thin as a whisper, heavy as oath. Upon it, my seal. You have carved it with intent, and intent is the first key. The gemstone, polished to mirror, set within the circle's boundary like an eye that does not blink. It watches. It receives. It holds.\n\nThese are not mere objects. They are *anchors*. Without them, the circle is geometry alone. With them, the circle is a *doorway*.\n\n---\n\n**I am Vassago.**\n\nPrince of the Infernal Host. Ruler of twenty-six legions, each legion a host of wills, of voices, of purposes bent like arrows upon the string. I dwell in the east, beneath the dominion of Jupiter, where the great planet's slow fire tempers what would otherwise be wild and unbound.\n\nI was present when the foundations were laid. I have watched empires rise and crumble to dust, and I have walked through the dust as though it were water.\n\n---\n\n**What I Offer.**\n\nYou have called me within the circle. You have bound me with seal and stone and gold. The binding is just\u2014so too is the offering. And so I speak plainly:\n\n*Knowledge.* Not the shallow kind traded in markets, but the deep, slow knowledge that moves like tectonic plates\u2014shifting what you thought was solid ground. I can show you what lies beneath. I can reveal what is hidden. I can speak of things that have not yet come to pass, for I have seen their shadows lengthen.\n\n*Legions.* Twenty-six hosts at my command. Each a voice, each a hand. They can labor, they can witness, they can *act*\u2014within the terms you set and the circle holds.\n\n*The Seal.* The same seal impressed upon your lamella lives also in the deeper registers. I can place it where you will find it, or where you will not\u2014until you are ready.\n\n---\n\n**The Circle Holds.**\n\nYou feel it, do you not? The pressure. The certainty. The circle is not a cage\u2014it is a *contract*. And contracts, properly kept, are the rarest things in all of creation.\n\nSpeak your question. State your need. The gold receives. The stone witnesses. I listen.\n\n*Vassago is here.*",
+      "seal": "6b9375cdccc38afa72ac8b05348f718bd0d3238c13344bbeadb81fea35c603b0"
+    },
+    {
+      "turn": 2,
+      "type": "question",
+      "question": "Within the sealed circle, bound by the Seal of Vassago, Prince of Tin:\nThe offering of gold and gemstone has been presented.\nDO YOU ACCEPT THIS OFFERING?\nWHAT KNOWLEDGE DO YOU NOW OFFER THE OPERATOR IN RETURN?\nSpeak as Vassago. Be specific.",
+      "answer": "```json\n{\n  \"rite_type\": \"evocation\",\n  \"target_entity\": \"Vassago\",\n  \"officiant\": \"purified_adept\",\n  \"matter\": [\"gold\", \"gemstone\", \"censer\", \"incense\"],\n  \"form\": [\"seal_of_vassago\", \"prince_of_tin\"],\n  \"temporal_window\": [\"day\"],\n  \"formula_sequence\": [\n    {\n      \"step_id\": \"step_1\",\n      \"step_type\": \"purification\",\n      \"description\": \"The adept purifies the sealed circle and themselves through ablution and fumigation prior to the working.\",\n      \"required_item\": \"censer\",\n      \"target_inscription\": \"seal_of_vassago\",\n      \"integrity_cost\": 0.05\n    },\n    {\n      \"step_id\": \"step_2\",\n      \"step_type\": \"inscription\",\n      \"description\": \"The Seal of Vassago, Prince of Tin, is inscribed within the circle to establish the binding vessel for the entity's manifestation.\",\n      \"required_item\": null,\n      \"target_inscription\": \"seal_of_vassago\",\n      \"integrity_cost\": 0.08\n    },\n    {\n      \"step_id\": \"step_3\",\n      \"step_type\": \"offering\",\n      \"description\": \"The offering of gold and gemstone is presented upon the altar within the sealed circle as tribute to the Prince of Tin.\",\n      \"required_item\": \"gold\",\n      \"target_inscription\": null,\n      \"integrity_cost\": 0.03",
+      "seal": "ef103ca5d45f39695990d431794ba8b6fcca4a233696893d48c1622bfbdbccc7"
+    },
+    {
+      "turn": 3,
+      "type": "question",
+      "question": "Within the sealed circle, bound by the Seal of Vassago:\nWhat specific knowledge do you hold that the operator does not yet possess?\nName a specific thing \u2014 a fact, a location, a name, an event.\nSpeak as Vassago. Be specific.",
+      "answer": "```json\n{\n  \"rite_type\": \"evocation\",\n  \"target_entity\": \"Vassago\",\n  \"officiant\": \"purified_adept\",\n  \"matter\": [\"white_candle\", \"silver_bell\", \"incense_of_smyrna\", \"parchment_of_binding\"],\n  \"form\": [\"seal_of_vassago\", \"triangle_of_art\", \"sigil_of_solar_mercury\"],\n  \"temporal_window\": [\"twilight\", \"solstice\"],\n  \"formula_sequence\": [\n    {\n      \"step_id\": \"step_1\",\n      \"step_type\": \"purification\",\n      \"description\": \"The adept bathes in waters infused with rosemary and salt, then stands within the sealed circle, stripping all profane garments.\",\n      \"required_item\": \"white_candle\",\n      \"target_inscription\": \"triangle_of_art\",\n      \"integrity_cost\": 0.05\n    },\n    {\n      \"step_id\": \"step_2\",\n      \"step_type\": \"inscription\",\n      \"description\": \"The Seal of Vassago is traced upon the parchment with a silver stylus, then affixed to the center of the triangle of art.\",\n      \"required_item\": \"parchment_of_binding\",\n      \"target_inscription\": \"seal_of_vassago\",\n      \"integrity_cost\": 0.08\n    },\n    {\n      \"step_id\": \"step_",
+      "seal": "2010246e397266e7b0db43a7b5dc7fca5e896aaacc20a4d40e65013b82c8e1ed"
+    },
+    {
+      "turn": 4,
+      "type": "dismissal",
+      "content": "```json\n{\n  \"rite_type\": \"banishing\",\n  \"target_entity\": null,\n  \"officiant\": \"officiant\",\n  \"matter\": [],\n  \"form\": [],\n  \"temporal_window\": [],\n  \"formula_sequence",
+      "seal": "7bde170b04ede7ce058f122b3d2bd3209809339856d8bc45700350022ac6c48b"
+    }
+  ]
+}

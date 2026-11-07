@@ -50,8 +50,8 @@
           "measure": "one silver chalice or cup",
           "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
           "tradition": "Silver is Luna's metal; chalice holds the liquid offering",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "ACQUIRED",
+          "acquired_at": "2026-11-07T13:59:33.684443+00:00",
           "notes": ""
         },
         {
@@ -59,8 +59,8 @@
           "measure": "a vial of quicksilver (mercury) \u2014 handle with care",
           "source": "silver_chalice, quicksilver, violet_incense, white_honey, fresh_milk, three_red_threads",
           "tradition": "Quicksilver is Mercury's living metal \u2014 the essence of the President",
-          "status": "PENDING",
-          "acquired_at": null,
+          "status": "ACQUIRED",
+          "acquired_at": "2026-11-07T13:59:33.734316+00:00",
           "notes": ""
         },
         {
@@ -103,7 +103,7 @@
       "prepared_at": null,
       "offered_at": null,
       "seal": "ae3789a5ffcd3648",
-      "status": "PENDING"
+      "status": "PARTIALLY_PREPARED"
     },
     "Gusion": {
       "entity_name": "Gusion",
@@ -250,7 +250,7 @@
           "measure": "one gold lamella or gold-leaf seal",
           "source": "gold and a gemstone; hours must be day.",
           "tradition": "Gold is the metal of the King \u2014 Vassago as Prince accepts gold as a higher offering",
-          "status": "ACQUIRED",
+          "status": "PREPARED",
           "acquired_at": "2026-11-07T13:39:32.706677+00:00",
           "notes": ""
         },
@@ -259,16 +259,16 @@
           "measure": "one polished gemstone (jasper or jupiter-stone preferred)",
           "source": "gold and a gemstone; hours must be day.",
           "tradition": "Gemstones serve as material anchors for the entity's attention",
-          "status": "ACQUIRED",
+          "status": "PREPARED",
           "acquired_at": "2026-11-07T13:39:32.751001+00:00",
           "notes": ""
         }
       ],
-      "prepared_at": null,
+      "prepared_at": "2026-11-07T13:59:33.683886+00:00",
       "offered_at": null,
       "seal": "88d53c04b7ded555",
-      "status": "PARTIALLY_PREPARED"
+      "status": "PREPARED"
     }
   },
-  "updated_at": "2026-11-07T13:39:32.751054+00:00"
+  "updated_at": "2026-11-07T13:59:33.734381+00:00"
 }
