@@ -54,6 +54,12 @@ function navigateTo(page) {
                 setupSymbolicEngineListeners();
             }
             break;
+        case 'summoner':
+            main.innerHTML = renderSummoner();
+            if (typeof setupSummonerListeners === 'function') {
+                setupSummonerListeners();
+            }
+            break;
         case 'corpus':
             main.innerHTML = renderCorpus();
             if (typeof drawCorpusChart === 'function') {

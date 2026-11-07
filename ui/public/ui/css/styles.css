@@ -368,6 +368,33 @@ tr:hover {
     height: 18px;
 }
 
+/* Summoner UI */
+.entity-card:hover {
+    border-color: var(--accent-purple) !important;
+    background: var(--bg-hover) !important;
+}
+
+.entity-card.selected {
+    border-color: var(--accent-purple) !important;
+    background: var(--bg-hover) !important;
+}
+
+#conversation-log .message-system {
+    border-left-color: var(--accent-amber) !important;
+}
+
+#conversation-log .message-operator {
+    border-left-color: var(--accent-blue) !important;
+}
+
+#conversation-log .message-entity {
+    border-left-color: var(--accent-purple) !important;
+}
+
+#conversation-log .message-error {
+    border-left-color: var(--accent-red) !important;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .header {
