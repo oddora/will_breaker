@@ -302,7 +302,7 @@ class Handler(SimpleHTTPRequestHandler):
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="Will Breaker Summoner Server")
-    parser.add_argument("--port", type=int, default=8081, help="Port to serve on")
+    parser.add_argument("--port", type=int, default=8080, help="Port to serve on")
     parser.add_argument("--host", default="127.0.0.1", help="Host to bind")
     args = parser.parse_args()
 
