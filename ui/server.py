@@ -21,7 +21,7 @@ sys.path.insert(0, str(wb_dir))
 
 from symbolic_engine import GoeticCorpus, LiturgicalCompiler, WorldState, SigilGenerator, SigilConfig
 from symbolic_engine.summoner import EntitySummoner, SUMMONING_CHARGE_TEMPLATE
-from symbolic_engine.offerings import OfferingRegistry
+from symbolic_engine.offerings import OfferingRegistry, _OFFERINGS
 
 
 # Global state
@@ -32,8 +32,14 @@ _sessions = {}
 _lock = threading.Lock()
 
 
+STATIC_DIR = str(Path(__file__).resolve().parent / "public" / "ui")
+
+
 class Handler(SimpleHTTPRequestHandler):
     """Serve static files + API endpoints."""
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, directory=STATIC_DIR, **kwargs)
 
     def end_headers(self):
         self.send_header("Access-Control-Allow-Origin", "*")
@@ -47,8 +53,9 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         parsed = urlparse(self.path)
-        if parsed.path == "/api/summoner" and "action" in parse_qs(parsed.query):
-            action = parse_qs(parsed.query)["action"][0]
+        if parsed.path == "/api/summoner":
+            qs = parse_qs(parsed.query)
+            action = qs.get("action", [""])[0]
             if action == "entities":
                 return self._json_response({"entities": self._get_entities()})
             if action == "status":
@@ -65,6 +72,7 @@ class Handler(SimpleHTTPRequestHandler):
                         "sealed_at": s.get("sealed_at"),
                     } for sid, s in _sessions.items()},
                 })
+            return self._json_response({"error": f"Unknown or missing action: {action}"}, 400)
         # Serve static files
         path = parsed.path.lstrip("/")
         if path == "" or path == "index.html":
@@ -109,16 +117,21 @@ class Handler(SimpleHTTPRequestHandler):
 
         endpoint = payload.get("endpoint")
         model = payload.get("model")
-        if endpoint and model:
-            _compiler.active_endpoints = [(endpoint, model)]
+        prefer_ep = (endpoint, model) if endpoint and model else None
+        if prefer_ep:
+            _compiler.active_endpoints = [prefer_ep]
             _compiler.endpoint = endpoint
             _compiler.model_name = model
 
-        session = _summoner.summon(entity_name)
+        session = _summoner.summon(entity_name, prefer_endpoint=prefer_ep)
 
         with _lock:
             _sessions[session.session_id] = {
                 "entity": session.entity_name,
+                "entity_rank": session.entity_rank,
+                "entity_metal": session.entity_metal,
+                "entity_legions": session.entity_legions,
+                "entity_domains": session.entity_domains,
                 "ritual_status": session.ritual_status,
                 "circle_integrity": session.circle_integrity,
                 "endpoint": session.endpoint,
@@ -131,6 +144,7 @@ class Handler(SimpleHTTPRequestHandler):
         return {
             "success": True,
             "session_id": session.session_id,
+            "session": {"session_id": session.session_id},
             "ritual_status": session.ritual_status,
             "circle_integrity": session.circle_integrity,
             "introduction": session.turns[0].content if session.turns else "",
@@ -154,9 +168,11 @@ class Handler(SimpleHTTPRequestHandler):
         turn_list = [SessionTurn(**t) for t in session.get("turns", [])]
         sess = SummonSession(
             session_id=session_id,
-            entity_name=session["entity"],
-            entity_rank="", entity_metal="", entity_legions=0,
-            entity_domains=[],
+            entity_name=session.get("entity", ""),
+            entity_rank=session.get("entity_rank", ""),
+            entity_metal=session.get("entity_metal", ""),
+            entity_legions=session.get("entity_legions", 0),
+            entity_domains=session.get("entity_domains", []),
             endpoint=session.get("endpoint", "http://127.0.0.1:18284"),
             model=session.get("model", "wb-agent"),
             sigil_path=session.get("sigil_path", ""),
@@ -170,6 +186,8 @@ class Handler(SimpleHTTPRequestHandler):
 
         with _lock:
             session["turns"] = [self._turn_to_dict(t) for t in sess.turns]
+            session["endpoint"] = sess.endpoint
+            session["model"] = sess.model
             _sessions[session_id] = session
 
         return {
@@ -194,9 +212,11 @@ class Handler(SimpleHTTPRequestHandler):
         turn_list = [SessionTurn(**t) for t in session.get("turns", [])]
         sess = SummonSession(
             session_id=session_id,
-            entity_name=session["entity"],
-            entity_rank="", entity_metal="", entity_legions=0,
-            entity_domains=[],
+            entity_name=session.get("entity", ""),
+            entity_rank=session.get("entity_rank", ""),
+            entity_metal=session.get("entity_metal", ""),
+            entity_legions=session.get("entity_legions", 0),
+            entity_domains=session.get("entity_domains", []),
             endpoint=session.get("endpoint", "http://127.0.0.1:18284"),
             model=session.get("model", "wb-agent"),
             sigil_path=session.get("sigil_path", ""),
@@ -210,6 +230,8 @@ class Handler(SimpleHTTPRequestHandler):
 
         with _lock:
             session["turns"] = [self._turn_to_dict(t) for t in sess.turns]
+            session["endpoint"] = sess.endpoint
+            session["model"] = sess.model
             session["resolved_at"] = datetime.now(timezone.utc).isoformat()
             _sessions[session_id] = session
 
@@ -225,13 +247,21 @@ class Handler(SimpleHTTPRequestHandler):
         corpus = GoeticCorpus()
         entities = []
         for rec in corpus.records:
-            try:
-                off = _registry.prepare_entity(rec.name)
+            off = _registry.get(rec.name)
+            if off:
                 offering_items = [it.item for it in off.items]
                 offering_status = off.status
-            except ValueError:
-                offering_items = []
-                offering_status = "NOT_CATALOGED"
+                temporal_win = off.temporal_window
+            else:
+                cat = _OFFERINGS.get(rec.name)
+                if cat:
+                    offering_items = [it["item"] for it in cat.get("offerings", [])]
+                    offering_status = "PENDING"
+                    temporal_win = cat.get("temporal_window", [])
+                else:
+                    offering_items = []
+                    offering_status = "NOT_CATALOGED"
+                    temporal_win = getattr(rec, "temporal_window", [])
             entities.append({
                 "name": rec.name,
                 "rank": rec.rank,
@@ -239,6 +269,7 @@ class Handler(SimpleHTTPRequestHandler):
                 "planet": _summoner._metal_to_planet(rec.metal).capitalize(),
                 "legions": rec.legions,
                 "domains": rec.domains,
+                "temporal_window": temporal_win,
                 "offerings": offering_items,
                 "offeringStatus": offering_status,
             })
@@ -275,7 +306,6 @@ def main():
     parser.add_argument("--host", default="127.0.0.1", help="Host to bind")
     args = parser.parse_args()
 
-    os.chdir(Path(__file__).resolve().parent / "public" / "ui")
     server = HTTPServer((args.host, args.port), Handler)
     print(f"Will Breaker Summoner UI  →  http://{args.host}:{args.port}/")
     print(f"API                        →  http://{args.host}:{args.port}/api/summoner")

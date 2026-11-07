@@ -281,7 +281,7 @@ async function summonEntity() {
         });
 
         if (result.success) {
-            summonerState.currentSession = result.session;
+            summonerState.currentSession = result.session || { session_id: result.session_id };
             summonerState.ritualStatus = result.ritual_status;
             summonerState.circleIntegrity = result.circle_integrity;
 
@@ -330,7 +330,7 @@ async function sendSummonerQuery() {
     summonerState.isRunning = true;
 
     try {
-        const result = await postSummarerRequest({
+        const result = await postSummonerRequest({
             action: 'ask',
             session_id: summonerState.currentSession.session_id,
             question: question,
@@ -369,7 +369,7 @@ async function dismissEntity() {
     addConversationMessage('operator', '[License to depart issued]');
 
     try {
-        const result = await postSummarerRequest({
+        const result = await postSummonerRequest({
             action: 'dismiss',
             session_id: summonerState.currentSession.session_id,
         });
@@ -432,7 +432,7 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 
-async function postSummarerRequest(payload) {
+async function postSummonerRequest(payload) {
     const resp = await fetch('/api/summoner', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

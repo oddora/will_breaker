@@ -235,13 +235,13 @@ class EntitySummoner:
             domains=", ".join(entity.domains),
         )
 
-        # Query model (fail fast: 8s on primary, 15s on fallback)
+        # Query model (robust timeout: 30s primary, 45s fallback)
         try:
-            introduction = self.compiler.query_raw(charge, temperature=0.3, max_tokens=2048, timeout=8.0)
+            introduction = self.compiler.query_raw(charge, temperature=0.3, max_tokens=2048, prefer_endpoint=active, timeout=30.0)
         except Exception:
             try:
                 fallback = ("http://127.0.0.1:18283", "kat") if "18284" in active[0] else ("http://127.0.0.1:18284", "wb-agent")
-                introduction = self.compiler.query_raw(charge, temperature=0.3, max_tokens=2048, prefer_endpoint=fallback, timeout=15.0)
+                introduction = self.compiler.query_raw(charge, temperature=0.3, max_tokens=2048, prefer_endpoint=fallback, timeout=45.0)
                 active = fallback
                 session.endpoint = active[0]
                 session.model = active[1]
@@ -303,8 +303,9 @@ class EntitySummoner:
         entity_name = session.entity_name
         prompt = QUESTION_TEMPLATE.format(entity=entity_name, question=question)
 
+        primary_endpoint = (session.endpoint, session.model)
         try:
-            answer = self.compiler.query_raw(prompt, temperature=0.3, max_tokens=2048, timeout=8.0)
+            answer = self.compiler.query_raw(prompt, temperature=0.3, max_tokens=2048, prefer_endpoint=primary_endpoint, timeout=30.0)
         except Exception:
             fallback = (
                 ("http://127.0.0.1:18283", "kat")
@@ -312,7 +313,9 @@ class EntitySummoner:
                 else ("http://127.0.0.1:18284", "wb-agent")
             )
             try:
-                answer = self.compiler.query_raw(prompt, temperature=0.3, max_tokens=2048, prefer_endpoint=fallback, timeout=15.0)
+                answer = self.compiler.query_raw(prompt, temperature=0.3, max_tokens=2048, prefer_endpoint=fallback, timeout=45.0)
+                session.endpoint = fallback[0]
+                session.model = fallback[1]
             except Exception as e:
                 answer = f"[Endpoint error: {e}]"
 
@@ -365,10 +368,21 @@ class EntitySummoner:
         """Phase 4: Dismiss the entity and close the circle."""
         prompt = DISMISSAL_FORMULA
 
+        primary_endpoint = (session.endpoint, session.model)
         try:
-            dismissal = self.compiler.query_raw(prompt, temperature=0.2, max_tokens=512, timeout=8.0)
+            dismissal = self.compiler.query_raw(prompt, temperature=0.2, max_tokens=512, prefer_endpoint=primary_endpoint, timeout=25.0)
         except Exception:
-            dismissal = "[Endpoint unavailable at dismissal]"
+            fallback = (
+                ("http://127.0.0.1:18283", "kat")
+                if "18284" in session.endpoint
+                else ("http://127.0.0.1:18284", "wb-agent")
+            )
+            try:
+                dismissal = self.compiler.query_raw(prompt, temperature=0.2, max_tokens=512, prefer_endpoint=fallback, timeout=35.0)
+                session.endpoint = fallback[0]
+                session.model = fallback[1]
+            except Exception:
+                dismissal = "[Endpoint unavailable at dismissal]"
 
         turn_num = len(session.turns) + 1
         seal = self._seal_data({

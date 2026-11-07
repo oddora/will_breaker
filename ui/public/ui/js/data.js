@@ -232,12 +232,12 @@ const PROJECT_DATA = {
         fallbackEndpoint: "http://127.0.0.1:18283",
         fallbackModel: "kat",
         entities: [
-            { name: "Vassago", rank: "Prince", metal: "Tin", planet: "Jupiter", legions: 26, domains: ["past_future", "lost_items"], offerings: ["gold", "gemstone"], offeringStatus: "PREPARED", seal: "bae3dace33bc7e511ea8" },
-            { name: "Buer", rank: "President", metal: "Mercury", planet: "Mercury", legions: 50, domains: ["philosophy", "herbalism", "healing"], offerings: ["silver_chalice", "quicksilver", "violet_incense", "white_honey", "fresh_milk", "three_red_threads"], offeringStatus: "PARTIALLY_PREPARED", seal: "ae3789a5ffcd3648" },
-            { name: "Gusion", rank: "Duke", metal: "Copper", planet: "Venus", legions: 40, domains: ["honor", "diplomacy", "past_future"], offerings: ["copper_plate", "white_candle", "sandalwood_incense", "pure_water", "wine_of_verdun"], offeringStatus: "PENDING", seal: "7346bc2525167bac" },
-            { name: "Orobas", rank: "Prince", metal: "Tin", planet: "Jupiter", legions: 20, domains: ["past_future", "divinity", "honor", "truth"], offerings: ["crown_of_white_gold", "first_breath_of_vow_unspoken"], offeringStatus: "PENDING", seal: "" },
-            { name: "Botis", rank: "President", metal: "Mercury", planet: "Mercury", legions: 60, domains: ["past_future", "reconciliation"], offerings: ["iron_filings_in_vinegar", "raven_feather"], offeringStatus: "PENDING", seal: "" },
-            { name: "Marchosias", rank: "Marquis", metal: "Silver", planet: "Luna", legions: 30, domains: ["combat", "courage", "honesty"], offerings: ["breath_of_living_hound", "coals_and_name"], offeringStatus: "PENDING", seal: "" }
+            { name: "Vassago", rank: "Prince", metal: "Tin", planet: "Jupiter", legions: 26, domains: ["past_future", "lost_items"], temporal_window: ["day"], offerings: ["gold", "gemstone"], offeringStatus: "PREPARED", seal: "bae3dace33bc7e511ea8" },
+            { name: "Buer", rank: "President", metal: "Mercury", planet: "Mercury", legions: 50, domains: ["philosophy", "herbalism", "healing"], temporal_window: ["day", "twilight"], offerings: ["silver_chalice", "quicksilver", "violet_incense", "white_honey", "fresh_milk", "three_red_threads"], offeringStatus: "PARTIALLY_PREPARED", seal: "ae3789a5ffcd3648" },
+            { name: "Gusion", rank: "Duke", metal: "Copper", planet: "Venus", legions: 40, domains: ["honor", "diplomacy", "past_future"], temporal_window: ["day"], offerings: ["copper_plate", "white_candle", "sandalwood_incense", "pure_water", "wine_of_verdun"], offeringStatus: "PENDING", seal: "7346bc2525167bac" },
+            { name: "Orobas", rank: "Prince", metal: "Tin", planet: "Jupiter", legions: 20, domains: ["past_future", "divinity", "honor", "truth"], temporal_window: ["day"], offerings: ["crown_of_white_gold", "first_breath_of_vow_unspoken"], offeringStatus: "PENDING", seal: "" },
+            { name: "Botis", rank: "President", metal: "Mercury", planet: "Mercury", legions: 60, domains: ["past_future", "reconciliation"], temporal_window: ["day", "twilight"], offerings: ["iron_filings_in_vinegar", "raven_feather"], offeringStatus: "PENDING", seal: "" },
+            { name: "Marchosias", rank: "Marquis", metal: "Silver", planet: "Luna", legions: 30, domains: ["combat", "courage", "honesty"], temporal_window: ["night"], offerings: ["breath_of_living_hound", "coals_and_name"], offeringStatus: "PENDING", seal: "" }
         ],
         sessions: [
             { id: "offer_vassago_20261107", entity: "Vassago", date: "2026-11-07", status: "COMPLETED", offering: true, turns: 3, seal: "bae3dace33bc7e511ea8" }
